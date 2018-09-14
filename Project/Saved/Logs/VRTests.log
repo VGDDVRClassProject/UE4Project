@@ -5062,3 +5062,395 @@ LogInit: Object subsystem initialized
 [2018.09.14-19.31.57:697][377]LogEditorActor: Deleted Actor: Computer_Chair_C
 [2018.09.14-19.31.57:731][377]LogEditorActor: Deleted 1 Actors (0.037 secs)
 [2018.09.14-19.31.58:625][431]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-19.34.16:644][326]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-19.34.22:585][681]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-19.34.34:460][386]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-19.34.43:384][909]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2018.09.14-19.34.43:936][938]LogEditorViewport: Clicking on Actor (LMB): Computer_Chair_C (Computer_Chair)
+[2018.09.14-19.34.44:901][994]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-19.34.51:545][365]BlueprintLog: New page: Compile Computer_Chair
+[2018.09.14-19.34.52:772][404]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Computer_Chair34376353430040999E2CCA9DA567118E.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Assets/Computer_Chair.uasset'
+[2018.09.14-19.34.55:901][591]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-19.35.00:455][860]LogEditorTransaction: Undo Modify Component(s)
+[2018.09.14-19.35.06:992][247]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-19.35.42:270][355]BlueprintLog: New page: Compile Computer_Chair
+[2018.09.14-19.35.42:998][369]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Computer_Chair33F0014C4A9A299B8578CCAC43280DAE.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Assets/Computer_Chair.uasset'
+[2018.09.14-19.35.43:912][411]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/CriminologyMap_Auto7B20758A648C81C5FF55086BE01A82F9F.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/237_Criminology/Maps/CriminologyMap_Auto7.umap'
+[2018.09.14-19.35.43:920][411]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/237_Criminology/Maps/CriminologyMap' took 0.176
+[2018.09.14-19.35.43:920][411]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.176
+[2018.09.14-19.35.43:922][411]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Classes/237_Criminology/VR_World_Interaction/Materials/Mat_ChairBlackShiny] ([1] browsable assets)...
+[2018.09.14-19.35.43:933][411]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Classes/237_Criminology/VR_World_Interaction/Materials/Mat_ChairBlackShiny.Mat_ChairBlackShiny]
+[2018.09.14-19.35.43:933][411]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/237_Criminology/VR_World_Interaction/Materials/Mat_ChairBlackShiny]
+[2018.09.14-19.35.43:970][411]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_ChairBlackShiny, compiling. 
+[2018.09.14-19.35.44:403][411]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.14-19.35.44:405][411]TextureStreamingBuild: Display: Compiling optional shaders took 0.439 seconds.
+[2018.09.14-19.35.44:449][411]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Mat_ChairBlackShiny_Auto7CFCEC05845586C51DED59287939D4180.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/237_Criminology/VR_World_Interaction/Materials/Mat_ChairBlackShiny_Auto7.uasset'
+[2018.09.14-19.35.44:450][411]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Classes/237_Criminology/VR_World_Interaction/Materials/Mat_ChairBlack] ([1] browsable assets)...
+[2018.09.14-19.35.44:459][411]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Classes/237_Criminology/VR_World_Interaction/Materials/Mat_ChairBlack.Mat_ChairBlack]
+[2018.09.14-19.35.44:460][411]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/237_Criminology/VR_World_Interaction/Materials/Mat_ChairBlack]
+[2018.09.14-19.35.44:483][411]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Mat_ChairBlack_Auto7EC20897C411BF90B9D4AC8B0946C749E.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/237_Criminology/VR_World_Interaction/Materials/Mat_ChairBlack_Auto7.uasset'
+[2018.09.14-19.35.44:483][411]LogFileHelpers: Auto-saving content packages took 0.562
+[2018.09.14-19.35.52:782][906]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-19.35.55:002][ 39]LogEditorViewport: Clicking on Actor (LMB): Computer_Chair_C (Computer_Chair)
+[2018.09.14-19.36.02:355][470]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-19.36.10:770][969]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-19.36.15:501][248]BlueprintLog: New page: Compile Computer_Chair
+[2018.09.14-19.37.13:243][674]LogEditorViewport: Clicking on Actor (LMB): Computer_Chair_C (Computer_Chair)
+[2018.09.14-19.37.22:019][196]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-19.37.24:411][333]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Computer_ChairD9A33AD046A2769397246CB581BE4B9F.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Assets/Computer_Chair.uasset'
+[2018.09.14-19.37.29:242][620]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-19.37.33:341][827]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-19.37.36:195][995]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-19.37.50:102][800]LogEditorTransaction: Undo Modify Component(s)
+[2018.09.14-19.37.54:234][ 41]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-19.38.03:587][487]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.858 s
+[2018.09.14-19.38.03:587][487]LogOutputDevice: Error: === Handled ensure: ===
+[2018.09.14-19.38.03:587][487]LogOutputDevice: Error: 
+[2018.09.14-19.38.03:587][487]LogOutputDevice: Error: Ensure condition failed: Y != 0 [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Core\Private\GenericPlatform\GenericPlatformMath.cpp] [Line: 81]
+[2018.09.14-19.38.03:587][487]LogOutputDevice: Error: FMath::FMod(X=62618484281966592.000000, Y=0.000000) : Y is zero, this is invalid and would result in NaN!
+[2018.09.14-19.38.03:587][487]LogOutputDevice: Error: Stack: 
+[2018.09.14-19.38.03:587][487]LogOutputDevice: Error: [Callstack] 0x00007ff803b371e6 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.14-19.38.03:587][487]LogOutputDevice: Error: [Callstack] 0x00007ff803870c82 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.14-19.38.03:587][487]LogOutputDevice: Error: [Callstack] 0x00007ff80388b346 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.14-19.38.03:587][487]LogOutputDevice: Error: [Callstack] 0x00007ff803729d35 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.14-19.38.03:587][487]LogOutputDevice: Error: [Callstack] 0x00007fffd9002ebf UE4Editor-Renderer.dll!UnknownFunction []
+[2018.09.14-19.38.03:587][487]LogOutputDevice: Error: [Callstack] 0x00007fffd8f0c0a5 UE4Editor-Renderer.dll!UnknownFunction []
+[2018.09.14-19.38.03:587][487]LogOutputDevice: Error: [Callstack] 0x00007fffd8fa301b UE4Editor-Renderer.dll!UnknownFunction []
+[2018.09.14-19.38.03:587][487]LogOutputDevice: Error: [Callstack] 0x00007fffd8fcd4c7 UE4Editor-Renderer.dll!UnknownFunction []
+[2018.09.14-19.38.03:587][487]LogOutputDevice: Error: [Callstack] 0x00007fffd8f64f08 UE4Editor-Renderer.dll!UnknownFunction []
+[2018.09.14-19.38.03:587][487]LogOutputDevice: Error: [Callstack] 0x00007fffd8f6a20f UE4Editor-Renderer.dll!UnknownFunction []
+[2018.09.14-19.38.03:587][487]LogOutputDevice: Error: [Callstack] 0x00007fffd8f98aad UE4Editor-Renderer.dll!UnknownFunction []
+[2018.09.14-19.38.03:587][487]LogOutputDevice: Error: [Callstack] 0x00007fffd8f9d5ad UE4Editor-Renderer.dll!UnknownFunction []
+[2018.09.14-19.38.03:587][487]LogOutputDevice: Error: [Callstack] 0x00007fffd8f9c962 UE4Editor-Renderer.dll!UnknownFunction []
+[2018.09.14-19.38.03:587][487]LogOutputDevice: Error: [Callstack] 0x00007fffd89c671a UE4Editor-Renderer.dll!UnknownFunction []
+[2018.09.14-19.38.03:587][487]LogOutputDevice: Error: [Callstack] 0x00007fffd8ef68c2 UE4Editor-Renderer.dll!UnknownFunction []
+[2018.09.14-19.38.03:587][487]LogOutputDevice: Error: [Callstack] 0x00007fffd8ec9082 UE4Editor-Renderer.dll!UnknownFunction []
+[2018.09.14-19.38.03:587][487]LogOutputDevice: Error: [Callstack] 0x00007ff8036f1f92 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.14-19.38.03:587][487]LogOutputDevice: Error: [Callstack] 0x00007ff8036f2456 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.14-19.38.03:587][487]LogOutputDevice: Error: [Callstack] 0x00007ff829e075f9 UE4Editor-RenderCore.dll!UnknownFunction []
+[2018.09.14-19.38.03:587][487]LogOutputDevice: Error: [Callstack] 0x00007ff829e08574 UE4Editor-RenderCore.dll!UnknownFunction []
+[2018.09.14-19.38.03:587][487]LogOutputDevice: Error: [Callstack] 0x00007ff803b36b6c UE4Editor-Core.dll!UnknownFunction []
+[2018.09.14-19.38.03:587][487]LogOutputDevice: Error: [Callstack] 0x00007ff803b317b7 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.14-19.38.03:587][487]LogOutputDevice: Error: [Callstack] 0x00007ff855a13034 KERNEL32.DLL!UnknownFunction []
+[2018.09.14-19.38.03:587][487]LogOutputDevice: Error: [Callstack] 0x00007ff858071431 ntdll.dll!UnknownFunction []
+[2018.09.14-19.38.03:587][487]LogOutputDevice: Error: 
+[2018.09.14-19.38.03:598][487]LogStats:                SubmitErrorReport -  0.010 s
+[2018.09.14-19.38.10:672][487]LogStats:                    SendNewReport -  7.076 s
+[2018.09.14-19.38.10:672][487]LogStats:             FDebug::EnsureFailed -  8.944 s
+[2018.09.14-19.38.10:901][487]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-19.38.10:951][487]Cmd: TRANSACTION UNDO
+[2018.09.14-19.38.10:951][487]LogEditorTransaction: Undo Modify Component(s)
+[2018.09.14-19.38.52:376][911]LogEditorTransaction: Undo Modify Component(s)
+[2018.09.14-19.38.53:901][995]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-19.39.37:794][280]LogEditorViewport: Clicking on Actor (LMB): Computer_Chair_C (Computer_Chair)
+[2018.09.14-19.39.41:330][481]LogEditorViewport: Clicking on Actor (LMB): Computer_Chair_C (Computer_Chair2)
+[2018.09.14-19.39.42:198][531]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-19.39.48:550][907]LogEditorViewport: Clicking on Actor (LMB): Computer_Chair_C (Computer_Chair)
+[2018.09.14-19.39.49:734][976]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-19.39.53:325][181]LogEditorViewport: Clicking on Actor (LMB): Computer_Chair_C (Computer_Chair2)
+[2018.09.14-19.39.54:381][242]Cmd: EDIT COPY
+[2018.09.14-19.39.54:873][271]Cmd: EDIT PASTE
+[2018.09.14-19.40.00:163][574]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-19.40.09:829][141]LogEditorViewport: Clicking on Actor (LMB): Computer_Chair_C (Computer_Chair2)
+[2018.09.14-19.40.13:472][352]LogEditorViewport: Clicking on Actor (LMB): Computer_Chair_C (Computer_Chair3)
+[2018.09.14-19.40.16:118][506]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-19.40.16:589][510]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/CriminologyMap94CA127A496D250ED257789D09AD26E1.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap'
+[2018.09.14-19.40.16:663][510]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/CriminologyMap_BuiltData702244E64E1C864F5FB00DB732A0BB59.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap_BuiltData.uasset'
+[2018.09.14-19.40.18:502][620]MapCheck: New page: Map Check
+[2018.09.14-19.40.18:519][620]Cmd: MAP REBUILD ALLVISIBLE
+[2018.09.14-19.40.18:519][620]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.09.14-19.40.18:652][620]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2018.09.14-19.40.18:659][620]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2018.09.14-19.40.18:666][620]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.14-19.40.18:666][620]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_WallBeige, compiling. 
+[2018.09.14-19.40.18:707][620]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.14-19.40.18:707][620]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.14-19.40.18:707][620]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.09.14-19.40.18:716][620]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.14-19.40.18:716][620]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_GreyBall, compiling. 
+[2018.09.14-19.40.18:723][620]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MI_SmallCubes, compiling. 
+[2018.09.14-19.40.18:731][620]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2018.09.14-19.40.18:744][620]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultTextMaterialOpaque, compiling. 
+[2018.09.14-19.40.18:751][620]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy 01_-_Default, compiling. 
+[2018.09.14-19.40.18:757][620]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Oak, compiling. 
+[2018.09.14-19.40.18:764][620]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy white, compiling. 
+[2018.09.14-19.40.18:771][620]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_ChairBlack, compiling. 
+[2018.09.14-19.40.19:639][620]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.09.14-19.40.19:639][620]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.09.14-19.40.19:639][620]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.09.14-19.40.19:639][620]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.09.14-19.40.19:639][620]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.09.14-19.40.19:639][620]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.09.14-19.40.19:639][620]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.14-19.40.19:639][620]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.14-19.40.19:639][620]TextureStreamingBuild: Display: Compiling optional shaders took 0.990 seconds.
+[2018.09.14-19.40.19:654][620]LogLevel: Display: Export Material TexCoord Scales took 0.015 seconds.
+[2018.09.14-19.40.19:674][620]TextureStreamingBuild: Display: Build Texture Streaming took 0.019 seconds.
+[2018.09.14-19.40.19:706][620]LightingResults: New page: Lighting Build - Sep 14, 2018, 1:40:19 PM
+[2018.09.14-19.40.19:717][620]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.09.14-19.40.19:720][620]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.09.14-19.40.19:720][620]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.09.14-19.40.19:725][620]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.09.14-19.40.19:725][620]LogSwarmInterface: [TryOpenConnection] Local Process ID is 14616
+[2018.09.14-19.40.24:350][620]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.09.14-19.40.24:350][620]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.09.14-19.40.24:350][620]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.09.14-19.40.24:350][620]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.09.14-19.40.24:350][620]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.09.14-19.40.24:445][620]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.09.14-19.40.24:445][620]MapCheck: New page: CriminologyMap - Sep 14, 2018, 1:40:24 PM
+[2018.09.14-19.40.24:447][620]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:447][620]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:447][620]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:447][620]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:447][620]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:447][620]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:447][620]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:447][620]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:447][620]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:447][620]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:447][620]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:447][620]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:447][620]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:447][620]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:447][620]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:447][620]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:447][620]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:447][620]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:447][620]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:447][620]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:447][620]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:447][620]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:447][620]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:448][620]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:448][620]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:448][620]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:448][620]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:448][620]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:448][620]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:448][620]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:448][620]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:448][620]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:448][620]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:448][620]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:448][620]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:448][620]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:448][620]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:448][620]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:448][620]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:448][620]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:448][620]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:448][620]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:448][620]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:448][620]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:448][620]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:448][620]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:448][620]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:448][620]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:448][620]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:449][620]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:449][620]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:449][620]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:449][620]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:449][620]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:449][620]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:449][620]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:449][620]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:449][620]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:449][620]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:449][620]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:449][620]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:449][620]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:449][620]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:449][620]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:449][620]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:449][620]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:449][620]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:449][620]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:449][620]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:449][620]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:449][620]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:449][620]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:449][620]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:449][620]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:449][620]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:449][620]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:450][620]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:450][620]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:450][620]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:450][620]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:450][620]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:450][620]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:450][620]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:450][620]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:450][620]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:450][620]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:450][620]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:450][620]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:450][620]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:450][620]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:450][620]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:450][620]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:450][620]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:450][620]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:450][620]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:450][620]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:450][620]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:450][620]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:450][620]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:450][620]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:450][620]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:450][620]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:450][620]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:450][620]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:450][620]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.24:525][620]MapCheck: Map check complete: 0 Error(s), 105 Warning(s), took 79.747ms to complete.
+[2018.09.14-19.40.24:548][620]LogEditorBuildUtils: Build time 0:06
+[2018.09.14-19.40.26:364][684]BlueprintLog: New page: Compile Computer_Chair
+[2018.09.14-19.40.27:254][700]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Computer_Chair19E58C5C42500503338FF8A39F73E08F.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Assets/Computer_Chair.uasset'
+[2018.09.14-19.40.29:471][817]Job is a success!
+[2018.09.14-19.40.29:589][818]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.062s
+[2018.09.14-19.40.29:589][818]LogVolumetricLightmapImport:      Indirection Texture 48x48x48 = 0.4Mb
+[2018.09.14-19.40.29:589][818]LogVolumetricLightmapImport:      BrickData 210x5x5 = 0.2Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2018.09.14-19.40.29:589][818]LogVolumetricLightmapImport:      Bricks at Level
+[2018.09.14-19.40.29:589][818]LogVolumetricLightmapImport:          0: 64.3% covering 100.0% of volume
+[2018.09.14-19.40.29:589][818]LogVolumetricLightmapImport:          1: 9.5% covering 0.2% of volume
+[2018.09.14-19.40.29:589][818]LogVolumetricLightmapImport:          2: 26.2% covering 0.0% of volume
+[2018.09.14-19.40.29:658][818]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
+[2018.09.14-19.40.29:658][818]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
+[2018.09.14-19.40.29:658][818]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2018.09.14-19.40.29:658][818]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2018.09.14-19.40.29:658][818]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
+[2018.09.14-19.40.29:658][818]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 512X256)
+[2018.09.14-19.40.29:658][818]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2018.09.14-19.40.29:658][818]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 128X256)
+[2018.09.14-19.40.29:680][818]Lightmass on DESKTOP-RST41EJ: 4.24 sec total, 135 ms importing, 22 ms setup, 394 ms photons, 3.64 sec processing, 0 ms extra exporting [7/7 mappings]. Threads: 25.3 sec total, 374 ms processing.
+[2018.09.14-19.40.29:728][818]LogStaticLightingSystem: Illumination: 10.0 sec (28 ms encoding lightmaps, 19 ms encoding shadowmaps)
+[2018.09.14-19.40.29:728][818]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.0 MB streaming, 0.7 MB non-streaming), 4 textures
+[2018.09.14-19.40.29:728][818]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.09.14-19.40.30:354][818]DumpUnbuiltLightIteractions
+[2018.09.14-19.40.30:355][818]Lights with unbuilt interactions: 0
+[2018.09.14-19.40.30:355][818]
+[2018.09.14-19.40.30:355][818]Primitives with unbuilt interactions: 0
+[2018.09.14-19.40.30:444][819]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.09.14-19.40.30:444][819]MapCheck: New page: CriminologyMap - Sep 14, 2018, 1:40:30 PM
+[2018.09.14-19.40.30:446][819]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:447][819]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:447][819]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:447][819]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:447][819]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:447][819]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:447][819]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:447][819]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:447][819]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:447][819]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:447][819]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:447][819]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:447][819]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:447][819]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:447][819]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:447][819]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:447][819]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:447][819]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:447][819]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:447][819]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:448][819]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:448][819]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:448][819]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:448][819]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:448][819]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:448][819]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:448][819]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:448][819]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:448][819]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:448][819]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:448][819]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:448][819]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:448][819]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:448][819]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:448][819]MapCheck: Warning: Computer_Chair_11 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:448][819]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:448][819]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:448][819]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:448][819]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:448][819]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:449][819]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:449][819]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:449][819]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:449][819]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:449][819]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:449][819]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:449][819]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:449][819]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:449][819]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:449][819]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:449][819]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:449][819]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:449][819]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:449][819]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:449][819]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:449][819]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:449][819]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:450][819]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:450][819]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:450][819]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:450][819]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:450][819]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:450][819]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:450][819]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:450][819]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:450][819]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:450][819]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:450][819]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:450][819]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:450][819]MapCheck: Warning: Computer_Chair2_14 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:450][819]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:450][819]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:450][819]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:450][819]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:450][819]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:450][819]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:450][819]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:450][819]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:450][819]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:450][819]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:451][819]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:451][819]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:451][819]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:451][819]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:451][819]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:451][819]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:451][819]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:451][819]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:451][819]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:451][819]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:451][819]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:451][819]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:451][819]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:451][819]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:452][819]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:452][819]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:452][819]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:452][819]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:452][819]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:452][819]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:452][819]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:452][819]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:452][819]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:452][819]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:452][819]MapCheck: Warning: Computer_Chair3 Static mesh actor has NULL StaticMesh property 
+[2018.09.14-19.40.30:536][819]MapCheck: Map check complete: 0 Error(s), 105 Warning(s), took 91.983ms to complete.
+[2018.09.14-19.40.33:979][ 23]LogSlate: Window 'Message Log' being destroyed
+[2018.09.14-19.40.33:982][ 23]LogSlate: Window 'Message Log' being destroyed
+[2018.09.14-19.41.20:292][800]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-19.41.20:655][806]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/CriminologyMap206F3F1148ADD65069D82A90E619EA54.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap'
+[2018.09.14-19.41.20:716][806]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/CriminologyMap_BuiltData182816C0487A518870A0FAB075BFBCE8.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap_BuiltData.uasset'
+[2018.09.14-19.41.23:174][949]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/BaseMat5FB65BC640AA46EBEC48C487B5A0EC6E.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Materials/BaseMat.uasset'
+[2018.09.14-19.41.23:191][949]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Mat_WallBeigeE26898D64E5D4E30EE320198B0DB063E.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Materials/Mat_WallBeige.uasset'
+[2018.09.14-19.41.23:210][949]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Mat_WallBlueF845F7CF491527C246F1049848E05776.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Materials/Mat_WallBlue.uasset'
+[2018.09.14-19.41.23:257][949]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_ChairBlackShiny, compiling. 
+[2018.09.14-19.41.23:690][949]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.14-19.41.23:692][949]TextureStreamingBuild: Display: Compiling optional shaders took 0.439 seconds.
+[2018.09.14-19.41.23:729][949]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Mat_ChairBlackShinyB060DA8945D8E0C30B80F7812B12CBF5.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Materials/Mat_ChairBlackShiny.uasset'
+[2018.09.14-19.41.23:745][949]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Mat_ChairBlack4FF450694DB21DC66F8CDDAA1C0E5C98.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Materials/Mat_ChairBlack.uasset'
+[2018.09.14-19.41.53:060][704]LogSlate: FSceneViewport::OnFocusLost() reason 0
