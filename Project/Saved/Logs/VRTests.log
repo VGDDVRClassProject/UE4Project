@@ -8871,3 +8871,628 @@ Make sure 'VR_World_Interaction_C' has been compiled for  Set SliderSegment
 [2018.09.14-17.27.39:237][ 31]LogSlate: Window 'Message Log' being destroyed
 [2018.09.14-17.27.39:241][ 31]LogSlate: Window 'Message Log' being destroyed
 [2018.09.14-17.27.40:646][108]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/CriminologyMap55A7CEE14A2D5851868C9583E7CE5FFB.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap'
+[2018.09.14-17.55.50:530][119]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_Eraser.BP_Eraser
+[2018.09.14-17.56.31:541][539]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/237_Criminology/Maps/CriminologyMap' took 0.032
+[2018.09.14-17.56.31:544][539]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_Eraser] ([1] browsable assets)...
+[2018.09.14-17.56.31:558][539]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_Eraser.BP_Eraser]
+[2018.09.14-17.56.31:558][539]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_Eraser]
+[2018.09.14-17.56.31:709][539]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/BP_Eraser_Auto48295A00741F572681FA2849060E485FF.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_Eraser_Auto4.uasset'
+[2018.09.14-17.56.31:710][539]LogFileHelpers: Auto-saving content packages took 0.168
+[2018.09.14-17.57.52:406][380]BlueprintLog: New page: Compile BP_Eraser
+[2018.09.14-17.57.54:960][504]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/BP_EraserC62894584C2F8F9AFA6140BA28A3FE55.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_Eraser.uasset'
+[2018.09.14-17.57.58:567][720]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveButton.BP_InteractiveButton
+[2018.09.14-17.58.34:599][829]BlueprintLog: New page: Compile BP_InteractiveButton
+[2018.09.14-17.58.35:818][880]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/BP_InteractiveButton1BD3CB22467AEC41C150418AD43F4801.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveButton.uasset'
+[2018.09.14-17.58.42:909][298]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.09.14-17.58.44:599][395]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveDoor.BP_InteractiveDoor
+[2018.09.14-18.01.55:576][794]BlueprintLog: New page: Compile BP_InteractiveDoor
+[2018.09.14-18.01.57:542][884]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/BP_InteractiveDoor5D6516D14BEB26E01D799EA20B0421E2.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveDoor.uasset'
+[2018.09.14-18.02.38:865][357]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveDrawer.BP_InteractiveDrawer
+[2018.09.14-18.02.55:502][311]BlueprintLog: New page: Compile BP_InteractiveDrawer
+[2018.09.14-18.02.56:133][326]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/BP_InteractiveDrawer24AF703C4B84D771B666D1AC25DA7D67.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveDrawer.uasset'
+[2018.09.14-18.02.58:199][439]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.09.14-18.02.59:369][504]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.BP_InteractiveGun
+[2018.09.14-18.03.04:744][798]BlueprintLog: New page: Compile BP_InteractiveGun
+[2018.09.14-18.03.05:361][820]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/BP_InteractiveGunA1B4C12149B77E4AC2E478BE197BB9E8.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset'
+[2018.09.14-18.03.06:468][886]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveLever.BP_InteractiveLever
+[2018.09.14-18.03.10:068][ 69]BlueprintLog: New page: Compile BP_InteractiveLever
+[2018.09.14-18.03.10:704][ 87]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/BP_InteractiveLever6D491BE844C1C4D21DE4819BB0D01EF3.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveLever.uasset'
+[2018.09.14-18.03.11:927][155]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.09.14-18.03.12:918][210]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_Marker.BP_Marker
+[2018.09.14-18.03.21:263][678]BlueprintLog: New page: Compile BP_Marker
+[2018.09.14-18.03.22:048][705]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/BP_Marker0AAC08364281450CB303DEBB473B54E2.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_Marker.uasset'
+[2018.09.14-18.03.25:233][890]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_WhiteBoard.BP_WhiteBoard
+[2018.09.14-18.03.33:935][389]BlueprintLog: New page: Compile BP_WhiteBoard
+[2018.09.14-18.05.27:905][734]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor
+[2018.09.14-18.06.32:352][521]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/CriminologyMap_Auto5EA1D7635478931F492275BA24A5B837B.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/237_Criminology/Maps/CriminologyMap_Auto5.umap'
+[2018.09.14-18.06.32:355][521]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/237_Criminology/Maps/CriminologyMap' took 0.121
+[2018.09.14-18.06.32:355][521]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.121
+[2018.09.14-18.06.32:358][521]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor] ([1] browsable assets)...
+[2018.09.14-18.06.32:358][521]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor]
+[2018.09.14-18.06.32:463][521]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/BPC_WorldInteractor_Auto5CE1F9CDD4ABB22C69932B3BC8BE3F06C.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor_Auto5.uasset'
+[2018.09.14-18.06.32:464][521]LogFileHelpers: Auto-saving content packages took 0.108
+[2018.09.14-18.08.00:698][108]BlueprintLog: New page: Compile BPC_WorldInteractor
+[2018.09.14-18.08.00:771][108]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] Get Hand  is deprecated; please replace or remove it.
+[2018.09.14-18.08.00:772][108]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] Get Hand  is deprecated; Please use the Motion Source property instead of Hand
+[2018.09.14-18.08.00:778][108]LogBlueprint: Error: [Compiler BPC_WorldInteractor] This blueprint (self) is not a BP_MotionController_C, therefore ' Target ' must have a connection.
+[2018.09.14-18.08.00:779][108]LogBlueprint: Error: [Compiler BPC_WorldInteractor] Variable node  Get MotionController  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.09.14-18.08.00:833][108]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] [6884.54] Compile of BPC_WorldInteractor failed. 2 Fatal Issue(s) 2 Warning(s) [in 135 ms] (/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor)
+[2018.09.14-18.08.41:981][472]BlueprintLog: New page: Compile BPC_WorldInteractor
+[2018.09.14-18.08.42:054][472]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] 'BP Motion Controller' does not inherit from 'Player Controller' ( Cast To BP_MotionController  would always fail).
+[2018.09.14-18.08.42:054][472]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] Get Hand  is deprecated; please replace or remove it.
+[2018.09.14-18.08.42:054][472]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] Get Hand  is deprecated; Please use the Motion Source property instead of Hand
+[2018.09.14-18.08.42:119][472]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] [6925.82] Compile of BPC_WorldInteractor successful, but with 3 Warning(s) [in 137 ms] (/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor)
+[2018.09.14-18.08.49:948][931]BlueprintLog: New page: Compile BPC_WorldInteractor
+[2018.09.14-18.08.50:022][931]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] 'BP Motion Controller' does not inherit from 'Character' ( Cast To BP_MotionController  would always fail).
+[2018.09.14-18.08.50:022][931]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] Get Hand  is deprecated; please replace or remove it.
+[2018.09.14-18.08.50:022][931]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] Get Hand  is deprecated; Please use the Motion Source property instead of Hand
+[2018.09.14-18.08.50:084][931]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] [6933.79] Compile of BPC_WorldInteractor successful, but with 3 Warning(s) [in 136 ms] (/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor)
+[2018.09.14-18.08.51:195][993]BlueprintLog: New page: Compile BPC_WorldInteractor
+[2018.09.14-18.08.51:268][993]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] 'BP Motion Controller' does not inherit from 'Character' ( Cast To BP_MotionController  would always fail).
+[2018.09.14-18.08.51:269][993]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] Get Hand  is deprecated; please replace or remove it.
+[2018.09.14-18.08.51:269][993]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] Get Hand  is deprecated; Please use the Motion Source property instead of Hand
+[2018.09.14-18.08.51:333][993]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] [6935.04] Compile of BPC_WorldInteractor successful, but with 3 Warning(s) [in 138 ms] (/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor)
+[2018.09.14-18.09.48:179][385]LogEditorTransaction: Undo Move Node
+[2018.09.14-18.09.48:406][393]LogEditorTransaction: Undo Move Node
+[2018.09.14-18.09.48:609][400]LogEditorTransaction: Undo Delete current selection
+[2018.09.14-18.09.48:813][407]LogEditorTransaction: Undo Move Node
+[2018.09.14-18.09.49:026][415]LogEditorTransaction: Undo Delete current selection
+[2018.09.14-18.09.49:207][421]LogEditorTransaction: Undo Delete current selection
+[2018.09.14-18.09.49:431][429]LogEditorTransaction: Undo Create Pin Link
+[2018.09.14-18.09.49:662][438]LogEditorTransaction: Undo Add Node
+[2018.09.14-18.09.49:882][446]LogEditorTransaction: Undo Rename Node
+[2018.09.14-18.09.50:111][454]LogEditorTransaction: Undo Move Node
+[2018.09.14-18.09.50:349][463]LogEditorTransaction: Undo Move Node
+[2018.09.14-18.09.50:616][473]LogEditorTransaction: Undo Move Node
+[2018.09.14-18.09.50:915][486]LogEditorTransaction: Undo Create Pin Link
+[2018.09.14-18.09.51:314][505]LogEditorTransaction: Undo Move Node
+[2018.09.14-18.09.51:696][523]LogEditorTransaction: Undo Move Node
+[2018.09.14-18.09.52:005][536]LogEditorTransaction: Undo Delete current selection
+[2018.09.14-18.09.52:324][549]LogEditorTransaction: Undo Add Node
+[2018.09.14-18.09.53:315][600]LogEditorTransaction: Undo Move Node
+[2018.09.14-18.09.53:566][610]LogEditorTransaction: Undo Add Node
+[2018.09.14-18.09.53:776][617]LogEditorTransaction: Undo Delete current selection
+[2018.09.14-18.09.53:957][621]LogEditorTransaction: Undo Move Node
+[2018.09.14-18.09.54:157][628]LogEditorTransaction: Undo Add Node
+[2018.09.14-18.09.54:354][635]LogEditorTransaction: Undo Move Node
+[2018.09.14-18.09.54:536][641]LogEditorTransaction: Undo Convert to Pure Cast
+[2018.09.14-18.09.54:747][647]LogEditorTransaction: Undo Move Node
+[2018.09.14-18.09.54:946][654]LogEditorTransaction: Undo Add Node
+[2018.09.14-18.09.55:156][661]LogEditorTransaction: Undo Delete current selection
+[2018.09.14-18.09.55:408][670]LogEditorTransaction: Undo Create Pin Link
+[2018.09.14-18.09.55:859][697]LogEditorTransaction: Undo Move Node
+[2018.09.14-18.09.56:307][719]LogEditorTransaction: Undo Add Node
+[2018.09.14-18.09.56:747][740]LogEditorTransaction: Undo Create Pin Link
+[2018.09.14-18.09.57:191][758]LogEditorTransaction: Undo Move Node
+[2018.09.14-18.09.57:668][781]LogEditorTransaction: Undo Add Node
+[2018.09.14-18.09.58:091][801]LogEditorTransaction: Undo Create Pin Link
+[2018.09.14-18.09.58:509][820]LogEditorTransaction: Undo Move Node
+[2018.09.14-18.09.58:928][839]LogEditorTransaction: Undo Move Node
+[2018.09.14-18.09.59:355][858]LogEditorTransaction: Undo Create Pin Link
+[2018.09.14-18.09.59:863][881]LogEditorTransaction: Undo Move Node
+[2018.09.14-18.10.00:362][903]LogEditorTransaction: Undo Add Node
+[2018.09.14-18.10.01:717][978]BlueprintLog: New page: Compile BPC_WorldInteractor
+[2018.09.14-18.10.01:789][978]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] Get Hand  is deprecated; please replace or remove it.
+[2018.09.14-18.10.01:789][978]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] Get Hand  is deprecated; Please use the Motion Source property instead of Hand
+[2018.09.14-18.10.01:889][978]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] [7005.59] Compile of BPC_WorldInteractor successful, but with 2 Warning(s) [in 172 ms] (/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor)
+[2018.09.14-18.11.12:149][735]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/CriminologyMap563D5DCD4E7758D94EAD98BDD6E6BA56.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap'
+[2018.09.14-18.11.13:517][808]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/BPC_WorldInteractorDAF462984F0A0EDFD7B12BACAB7F34C5.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset'
+[2018.09.14-18.11.36:169][165]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/BP_WorldInteractionPawn.BP_WorldInteractionPawn
+[2018.09.14-18.12.36:069][734]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/DefaultVrContent/VirtualRealityBP/Blueprints/PickupActorInterface.PickupActorInterface
+[2018.09.14-18.45.10:823][442]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-18.45.12:340][533]BlueprintLog: New page: Compile BP_WorldInteractionPawn
+[2018.09.14-18.45.12:365][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] Spawn node  SpawnActor NONE  must have a  Class  specified.
+[2018.09.14-18.45.12:366][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] Spawn node  SpawnActor NONE  must have a  Class  specified.
+[2018.09.14-18.45.12:366][533]LogBlueprint: Warning: [Compiler BP_WorldInteractionPawn] InputAction Event references unknown Action 'PickupLeft' for  InputAction PickupLeft
+[2018.09.14-18.45.12:366][533]LogBlueprint: Warning: [Compiler BP_WorldInteractionPawn] Could not find a variable named "BPC_WorldInteractor_R" in 'BP_WorldInteractionPawn_C'.
+Make sure 'BP_WorldInteractionPawn_C' has been compiled for  Get BPC_WorldInteractor_R
+[2018.09.14-18.45.12:366][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  <Unnamed>  no longer exists on node  Setup . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:366][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  <Unnamed>  no longer exists on node  Setup . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:366][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  Target  no longer exists on node  Setup . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:366][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  Overlap Shape  no longer exists on node  Setup . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:367][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] Could not find a function named "Setup" in 'BP_WorldInteractionPawn'.
+Make sure 'BP_WorldInteractionPawn' has been compiled for  Setup
+[2018.09.14-18.45.12:367][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  <Unnamed>  no longer exists on node  Setup . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:367][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  <Unnamed>  no longer exists on node  Setup . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:367][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  Target  no longer exists on node  Setup . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:367][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  Overlap Shape  no longer exists on node  Setup . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:367][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] Could not find a function named "Setup" in 'BP_WorldInteractionPawn'.
+Make sure 'BP_WorldInteractionPawn' has been compiled for  Setup
+[2018.09.14-18.45.12:367][533]LogBlueprint: Warning: [Compiler BP_WorldInteractionPawn] Could not find a variable named "BPC_WorldInteractor_L" in 'BP_WorldInteractionPawn_C'.
+Make sure 'BP_WorldInteractionPawn_C' has been compiled for  Get BPC_WorldInteractor_L
+[2018.09.14-18.45.12:367][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  <Unnamed>  no longer exists on node  Use Released . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:367][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  Target  no longer exists on node  Use Released . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:367][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] Could not find a function named "UseReleased" in 'BP_WorldInteractionPawn'.
+Make sure 'BP_WorldInteractionPawn' has been compiled for  Use Released
+[2018.09.14-18.45.12:367][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  <Unnamed>  no longer exists on node  Use Pressed . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:367][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  Target  no longer exists on node  Use Pressed . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:367][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] Could not find a function named "UsePressed" in 'BP_WorldInteractionPawn'.
+Make sure 'BP_WorldInteractionPawn' has been compiled for  Use Pressed
+[2018.09.14-18.45.12:367][533]LogBlueprint: Warning: [Compiler BP_WorldInteractionPawn] Could not find a variable named "BPC_WorldInteractor_R" in 'BP_WorldInteractionPawn_C'.
+Make sure 'BP_WorldInteractionPawn_C' has been compiled for  Get BPC_WorldInteractor_R
+[2018.09.14-18.45.12:367][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  <Unnamed>  no longer exists on node  Use Released . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:367][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  Target  no longer exists on node  Use Released . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:367][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] Could not find a function named "UseReleased" in 'BP_WorldInteractionPawn'.
+Make sure 'BP_WorldInteractionPawn' has been compiled for  Use Released
+[2018.09.14-18.45.12:367][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  <Unnamed>  no longer exists on node  Use Pressed . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:367][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  Target  no longer exists on node  Use Pressed . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:367][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] Could not find a function named "UsePressed" in 'BP_WorldInteractionPawn'.
+Make sure 'BP_WorldInteractionPawn' has been compiled for  Use Pressed
+[2018.09.14-18.45.12:367][533]LogBlueprint: Warning: [Compiler BP_WorldInteractionPawn] Could not find a variable named "BPC_WorldInteractor_L" in 'BP_WorldInteractionPawn_C'.
+Make sure 'BP_WorldInteractionPawn_C' has been compiled for  Get BPC_WorldInteractor_L
+[2018.09.14-18.45.12:367][533]LogBlueprint: Warning: [Compiler BP_WorldInteractionPawn] Input pin  Animation Speed  specifying non-default value no longer exists on node  SpawnActor NONE . Please refresh node or reset pin to default value to remove pin.
+[2018.09.14-18.45.12:367][533]LogBlueprint: Warning: [Compiler BP_WorldInteractionPawn] Input pin  Segment Scale  specifying non-default value no longer exists on node  SpawnActor NONE . Please refresh node or reset pin to default value to remove pin.
+[2018.09.14-18.45.12:368][533]LogBlueprint: Warning: [Compiler BP_WorldInteractionPawn] Could not find a variable named "BP_TraceInteractor_R" in 'BP_WorldInteractionPawn_C'.
+Make sure 'BP_WorldInteractionPawn_C' has been compiled for  Get BP_TraceInteractor_R
+[2018.09.14-18.45.12:368][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  <Unnamed>  no longer exists on node  Setup . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:368][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  <Unnamed>  no longer exists on node  Setup . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:368][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  Target  no longer exists on node  Setup . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:368][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  Visualiser  no longer exists on node  Setup . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:368][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  Instigator  no longer exists on node  Setup . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:368][533]LogBlueprint: Warning: [Compiler BP_WorldInteractionPawn] Input pin  Trace Type  specifying non-default value no longer exists on node  Setup . Please refresh node or reset pin to default value to remove pin.
+[2018.09.14-18.45.12:368][533]LogBlueprint: Warning: [Compiler BP_WorldInteractionPawn] Input pin  Activate on Button Press  specifying non-default value no longer exists on node  Setup . Please refresh node or reset pin to default value to remove pin.
+[2018.09.14-18.45.12:368][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  Widget Interactor  no longer exists on node  Setup . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:368][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] Could not find a function named "Setup" in 'BP_WorldInteractionPawn'.
+Make sure 'BP_WorldInteractionPawn' has been compiled for  Setup
+[2018.09.14-18.45.12:368][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  <Unnamed>  no longer exists on node  Activate Event Up . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:368][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  Target  no longer exists on node  Activate Event Up . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:368][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] Could not find a function named "ActivateEventUp" in 'BP_WorldInteractionPawn'.
+Make sure 'BP_WorldInteractionPawn' has been compiled for  Activate Event Up
+[2018.09.14-18.45.12:368][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  <Unnamed>  no longer exists on node  Activate Event Down . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:368][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  Target  no longer exists on node  Activate Event Down . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:368][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] Could not find a function named "ActivateEventDown" in 'BP_WorldInteractionPawn'.
+Make sure 'BP_WorldInteractionPawn' has been compiled for  Activate Event Down
+[2018.09.14-18.45.12:368][533]LogBlueprint: Warning: [Compiler BP_WorldInteractionPawn] Could not find a variable named "BP_TraceInteractor_R" in 'BP_WorldInteractionPawn_C'.
+Make sure 'BP_WorldInteractionPawn_C' has been compiled for  Get BP_TraceInteractor_R
+[2018.09.14-18.45.12:368][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  <Unnamed>  no longer exists on node  Drag Stop . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:369][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  Target  no longer exists on node  Drag Stop . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:369][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] Could not find a function named "DragStop" in 'BP_WorldInteractionPawn'.
+Make sure 'BP_WorldInteractionPawn' has been compiled for  Drag Stop
+[2018.09.14-18.45.12:369][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  <Unnamed>  no longer exists on node  Pickup Released . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:369][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  <Unnamed>  no longer exists on node  Pickup Released . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:369][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  Target  no longer exists on node  Pickup Released . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:369][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] Could not find a function named "PickupReleased" in 'BP_WorldInteractionPawn'.
+Make sure 'BP_WorldInteractionPawn' has been compiled for  Pickup Released
+[2018.09.14-18.45.12:369][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  <Unnamed>  no longer exists on node  Drag Start . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:369][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  Target  no longer exists on node  Drag Start . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:369][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] Could not find a function named "DragStart" in 'BP_WorldInteractionPawn'.
+Make sure 'BP_WorldInteractionPawn' has been compiled for  Drag Start
+[2018.09.14-18.45.12:369][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  <Unnamed>  no longer exists on node  Pickup Pressed . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:369][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  <Unnamed>  no longer exists on node  Pickup Pressed . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:369][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  Target  no longer exists on node  Pickup Pressed . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:369][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] Could not find a function named "PickupPressed" in 'BP_WorldInteractionPawn'.
+Make sure 'BP_WorldInteractionPawn' has been compiled for  Pickup Pressed
+[2018.09.14-18.45.12:369][533]LogBlueprint: Warning: [Compiler BP_WorldInteractionPawn] Could not find a variable named "BPC_WorldInteractor_R" in 'BP_WorldInteractionPawn_C'.
+Make sure 'BP_WorldInteractionPawn_C' has been compiled for  Get BPC_WorldInteractor_R
+[2018.09.14-18.45.12:369][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  <Unnamed>  no longer exists on node  Drag Stop . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:369][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  Target  no longer exists on node  Drag Stop . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:369][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] Could not find a function named "DragStop" in 'BP_WorldInteractionPawn'.
+Make sure 'BP_WorldInteractionPawn' has been compiled for  Drag Stop
+[2018.09.14-18.45.12:369][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  <Unnamed>  no longer exists on node  Drag Start . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:369][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  Target  no longer exists on node  Drag Start . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:369][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] Could not find a function named "DragStart" in 'BP_WorldInteractionPawn'.
+Make sure 'BP_WorldInteractionPawn' has been compiled for  Drag Start
+[2018.09.14-18.45.12:369][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  <Unnamed>  no longer exists on node  Pickup Released . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:369][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  <Unnamed>  no longer exists on node  Pickup Released . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:369][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  Target  no longer exists on node  Pickup Released . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:369][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] Could not find a function named "PickupReleased" in 'BP_WorldInteractionPawn'.
+Make sure 'BP_WorldInteractionPawn' has been compiled for  Pickup Released
+[2018.09.14-18.45.12:369][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  <Unnamed>  no longer exists on node  Pickup Pressed . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:369][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  <Unnamed>  no longer exists on node  Pickup Pressed . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:369][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  Target  no longer exists on node  Pickup Pressed . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:369][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] Could not find a function named "PickupPressed" in 'BP_WorldInteractionPawn'.
+Make sure 'BP_WorldInteractionPawn' has been compiled for  Pickup Pressed
+[2018.09.14-18.45.12:369][533]LogBlueprint: Warning: [Compiler BP_WorldInteractionPawn] Could not find a variable named "BPC_WorldInteractor_L" in 'BP_WorldInteractionPawn_C'.
+Make sure 'BP_WorldInteractionPawn_C' has been compiled for  Get BPC_WorldInteractor_L
+[2018.09.14-18.45.12:369][533]LogBlueprint: Warning: [Compiler BP_WorldInteractionPawn] InputAction Event references unknown Action 'PickupRight' for  InputAction PickupRight
+[2018.09.14-18.45.12:369][533]LogBlueprint: Warning: [Compiler BP_WorldInteractionPawn] Could not find a variable named "BP_TraceInteractor_L" in 'BP_WorldInteractionPawn_C'.
+Make sure 'BP_WorldInteractionPawn_C' has been compiled for  Get BP_TraceInteractor_L
+[2018.09.14-18.45.12:371][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  <Unnamed>  no longer exists on node  Setup . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:371][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  <Unnamed>  no longer exists on node  Setup . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:371][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  Target  no longer exists on node  Setup . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:371][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  Visualiser  no longer exists on node  Setup . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:371][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  Instigator  no longer exists on node  Setup . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:371][533]LogBlueprint: Warning: [Compiler BP_WorldInteractionPawn] Input pin  Trace Type  specifying non-default value no longer exists on node  Setup . Please refresh node or reset pin to default value to remove pin.
+[2018.09.14-18.45.12:371][533]LogBlueprint: Warning: [Compiler BP_WorldInteractionPawn] Input pin  Activate on Button Press  specifying non-default value no longer exists on node  Setup . Please refresh node or reset pin to default value to remove pin.
+[2018.09.14-18.45.12:371][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  Widget Interactor  no longer exists on node  Setup . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:371][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] Could not find a function named "Setup" in 'BP_WorldInteractionPawn'.
+Make sure 'BP_WorldInteractionPawn' has been compiled for  Setup
+[2018.09.14-18.45.12:371][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  <Unnamed>  no longer exists on node  Activate Event Up . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:371][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  Target  no longer exists on node  Activate Event Up . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:371][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] Could not find a function named "ActivateEventUp" in 'BP_WorldInteractionPawn'.
+Make sure 'BP_WorldInteractionPawn' has been compiled for  Activate Event Up
+[2018.09.14-18.45.12:371][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  <Unnamed>  no longer exists on node  Activate Event Down . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:371][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] In use pin  Target  no longer exists on node  Activate Event Down . Please refresh node or break links to remove pin.
+[2018.09.14-18.45.12:371][533]LogBlueprint: Error: [Compiler BP_WorldInteractionPawn] Could not find a function named "ActivateEventDown" in 'BP_WorldInteractionPawn'.
+Make sure 'BP_WorldInteractionPawn' has been compiled for  Activate Event Down
+[2018.09.14-18.45.12:371][533]LogBlueprint: Warning: [Compiler BP_WorldInteractionPawn] Could not find a variable named "BP_TraceInteractor_L" in 'BP_WorldInteractionPawn_C'.
+Make sure 'BP_WorldInteractionPawn_C' has been compiled for  Get BP_TraceInteractor_L
+[2018.09.14-18.45.12:371][533]LogBlueprint: Warning: [Compiler BP_WorldInteractionPawn] Input pin  Animation Speed  specifying non-default value no longer exists on node  SpawnActor NONE . Please refresh node or reset pin to default value to remove pin.
+[2018.09.14-18.45.12:372][533]LogBlueprint: Warning: [Compiler BP_WorldInteractionPawn] Input pin  Segment Scale  specifying non-default value no longer exists on node  SpawnActor NONE . Please refresh node or reset pin to default value to remove pin.
+[2018.09.14-18.45.12:552][533]LogBlueprint: Warning: [Compiler BP_WorldInteractionPawn] [9116.26] Compile of BP_WorldInteractionPawn failed. 78 Fatal Issue(s) 20 Warning(s) [in 211 ms] (/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/BP_WorldInteractionPawn.BP_WorldInteractionPawn)
+[2018.09.14-18.45.32:699][727]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2018.09.14-18.45.32:699][727]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2018.09.14-18.45.33:638][783]BlueprintLog: New page: Compile BP_WorldInteractionPawn
+[2018.09.14-18.45.43:496][364]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-18.45.59:438][310]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-18.46.17:539][378]LogEditorTransaction: Undo Modify Component(s)
+[2018.09.14-18.46.17:904][398]LogEditorTransaction: Undo Delete current selection
+[2018.09.14-18.46.20:680][551]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/BP_WorldInteractionPawn83DFA79D41A0452896D265BA8DF08668.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/BP_WorldInteractionPawn.uasset'
+[2018.09.14-18.49.00:037][ 11]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/237_Criminology/Maps/CriminologyMap' took 0.033
+[2018.09.14-18.49.00:039][ 11]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/BP_WorldInteractionPawn] ([1] browsable assets)...
+[2018.09.14-18.49.00:052][ 11]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/BP_WorldInteractionPawn.BP_WorldInteractionPawn]
+[2018.09.14-18.49.00:052][ 11]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/BP_WorldInteractionPawn]
+[2018.09.14-18.49.00:106][ 11]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/BP_WorldInteractionPawn_Auto66C5EB67548F9A522C94F889C5D50CA9F.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/BP_WorldInteractionPawn_Auto6.uasset'
+[2018.09.14-18.49.00:107][ 11]LogFileHelpers: Auto-saving content packages took 0.068
+[2018.09.14-18.51.54:534][435]LogBlueprint: Warning: [Compiler HMDLocomotionPawn] InputAction Event references unknown Action 'HMDTeleport' for  InputAction HMDTeleport
+[2018.09.14-18.51.54:537][435]LogBlueprint: Warning: [Compiler HMDLocomotionPawn] Get Input Axis references unknown Axis 'TeleportDirectionRight' for  Get TeleportDirectionRight
+[2018.09.14-18.51.54:537][435]LogBlueprint: Warning: [Compiler HMDLocomotionPawn] Get Input Axis references unknown Axis 'TeleportDirectionUp' for  Get TeleportDirectionUp
+[2018.09.14-18.51.54:538][435]LogBlueprint: Warning: [Compiler HMDLocomotionPawn] Get Input Axis references unknown Axis 'TeleportDirectionRight' for  Get TeleportDirectionRight
+[2018.09.14-18.51.54:538][435]LogBlueprint: Warning: [Compiler HMDLocomotionPawn] Get Input Axis references unknown Axis 'TeleportDirectionUp' for  Get TeleportDirectionUp
+[2018.09.14-18.51.54:544][435]LogBlueprint: Warning: [Compiler HMDLocomotionPawn] [9518.25] Compile of HMDLocomotionPawn successful, but with 5 Warning(s) [in 19 ms] (/Game/DefaultVrContent/VirtualRealityBP/Blueprints/HMDLocomotionPawn.HMDLocomotionPawn)
+[2018.09.14-18.51.54:608][435]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/DefaultVrContent/VirtualRealityBP/Blueprints/HMDLocomotionPawn.HMDLocomotionPawn
+[2018.09.14-18.52.13:508][533]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/DefaultVrContent/VirtualRealityBP/Blueprints/MotionControllerPawn.MotionControllerPawn
+[2018.09.14-18.52.23:628][113]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController
+[2018.09.14-18.58.08:178][597]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/DefaultVrContent/VirtualRealityBP/Blueprints/BP_PickupCube.BP_PickupCube
+[2018.09.14-19.01.23:077][ 44]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'UActorComponent::IsActive' [Element not found.]
+[2018.09.14-19.02.19:440][383]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/237_Criminology/Maps/CriminologyMap' took 0.043
+[2018.09.14-19.02.19:443][383]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController] ([1] browsable assets)...
+[2018.09.14-19.02.19:457][383]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController]
+[2018.09.14-19.02.19:457][383]OBJ SavePackage: Finished generating thumbnails for package [/Game/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController]
+[2018.09.14-19.02.19:683][383]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/BP_MotionController_Auto7F7BD2D2442D2452FCAFD018CB80C7647.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController_Auto7.uasset'
+[2018.09.14-19.02.19:684][383]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/BP_WorldInteractionPawn] ([1] browsable assets)...
+[2018.09.14-19.02.19:698][383]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/BP_WorldInteractionPawn.BP_WorldInteractionPawn]
+[2018.09.14-19.02.19:698][383]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/BP_WorldInteractionPawn]
+[2018.09.14-19.02.19:756][383]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/BP_WorldInteractionPawn_Auto769F03FBA4BEFE32D809584BDB97B15F9.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/BP_WorldInteractionPawn_Auto7.uasset'
+[2018.09.14-19.02.19:757][383]LogFileHelpers: Auto-saving content packages took 0.314
+[2018.09.14-19.04.44:986][ 40]LogEditorViewport: Clicking on Actor (LMB): BP_WhiteBoard_C (BP_WhiteBoard)
+[2018.09.14-19.04.46:120][103]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.14-19.04.49:385][295]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.14-19.12.00:375][116]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-19.14.11:216][930]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-19.14.50:715][292]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_Eraser.BP_Eraser
+[2018.09.14-19.17.00:920][ 29]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/FunctionLibraries/BPFL_FeedbackFunctionLibrary.BPFL_FeedbackFunctionLibrary
+[2018.09.14-19.17.33:661][954]LogEditorTransaction: Undo Move Node
+[2018.09.14-19.17.34:541][  4]LogEditorTransaction: Undo Add Node
+[2018.09.14-19.19.25:839][581]BlueprintLog: New page: Compile BPFL_FeedbackFunctionLibrary
+[2018.09.14-19.19.34:242][ 60]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/BP_MotionController2A5B833640E903EBA87AF9B5F20D3AEA.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.uasset'
+[2018.09.14-19.20.05:494][927]LogAssetEditorManager: Opening Asset editor for UserDefinedStruct /Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/Structs/SSegmentStruct.SSegmentStruct
+[2018.09.14-19.20.16:633][586]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/BP_WorldInteractionPawn.BP_WorldInteractionPawn
+[2018.09.14-19.20.50:417][568]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/CriminologyMap_Auto86D5D217B4B94163749BA2591767D5EB9.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/237_Criminology/Maps/CriminologyMap_Auto8.umap'
+[2018.09.14-19.20.50:422][568]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/237_Criminology/Maps/CriminologyMap' took 0.141
+[2018.09.14-19.20.50:423][568]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.141
+[2018.09.14-19.20.50:424][568]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/FunctionLibraries/BPFL_FeedbackFunctionLibrary] ([1] browsable assets)...
+[2018.09.14-19.20.50:424][568]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/FunctionLibraries/BPFL_FeedbackFunctionLibrary]
+[2018.09.14-19.20.50:448][568]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/BPFL_FeedbackFunctionLibrary_AutC2FAB6A4497ADFC2FF06B091A7F7460B.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/FunctionLibraries/BPFL_FeedbackFunctionLibrary_Auto8.uasset'
+[2018.09.14-19.20.50:449][568]LogFileHelpers: Auto-saving content packages took 0.025
+[2018.09.14-19.42.53:957][291]LogSlate: Window 'Reference Viewer' being destroyed
+[2018.09.14-19.42.53:963][291]LogSlate: Window 'Reference Viewer' being destroyed
+[2018.09.14-19.42.56:367][418]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/CriminologyMapF016125D45FFDE1865A7498E51AD7756.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap'
+[2018.09.14-19.42.56:410][418]LogFileHelpers: Saving map 'CriminologyMap' took 0.243
+[2018.09.14-19.42.56:438][418]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/BPFL_FeedbackFunctionLibrary833E7A1F4B46CE981FC733A4A101F906.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/FunctionLibraries/BPFL_FeedbackFunctionLibrary.uasset'
+[2018.09.14-19.42.56:509][418]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/BP_WorldInteractionPawn1BC3C9DB4AA7A3C3DF0986A20CEEDC14.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/BP_WorldInteractionPawn.uasset'
+[2018.09.14-19.43.00:919][664]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.09.14-19.43.00:984][664]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.09.14-19.43.01:081][664]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.09.14-19.43.01:141][664]LogSlate: Window 'VRTests - Unreal Editor' being destroyed
+[2018.09.14-19.43.01:384][665]Cmd: QUIT_EDITOR
+[2018.09.14-19.43.01:401][665]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.14-19.43.01:417][665]LogExit: Preparing to exit.
+[2018.09.14-19.43.01:586][665]LogExit: Editor shut down
+[2018.09.14-19.43.01:586][665]LogExit: Transaction tracking system shut down
+[2018.09.14-19.43.02:092][665]LogExit: Object subsystem successfully closed.
+[2018.09.14-19.43.02:119][665]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.09.14-19.43.02:125][665]LogD3D11RHI: Shutdown
+[2018.09.14-19.43.02:125][665]LogD3D11RHI: CleanupD3DDevice
+[2018.09.14-19.43.02:133][665]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.09.14-19.43.02:155][665]LogModuleManager: Shutting down and abandoning module MeshBuilder (618)
+[2018.09.14-19.43.02:155][665]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (616)
+[2018.09.14-19.43.02:155][665]LogModuleManager: Shutting down and abandoning module BlueprintGraph (614)
+[2018.09.14-19.43.02:155][665]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (612)
+[2018.09.14-19.43.02:155][665]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (610)
+[2018.09.14-19.43.02:155][665]LogModuleManager: Shutting down and abandoning module SceneOutliner (608)
+[2018.09.14-19.43.02:155][665]LogModuleManager: Shutting down and abandoning module AddContentDialog (606)
+[2018.09.14-19.43.02:156][665]LogModuleManager: Shutting down and abandoning module WidgetCarousel (605)
+[2018.09.14-19.43.02:156][665]LogModuleManager: Shutting down and abandoning module EditorWidgets (602)
+[2018.09.14-19.43.02:156][665]LogModuleManager: Shutting down and abandoning module CollectionManager (600)
+[2018.09.14-19.43.02:156][665]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
+[2018.09.14-19.43.02:156][665]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2018.09.14-19.43.02:156][665]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2018.09.14-19.43.02:156][665]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2018.09.14-19.43.02:156][665]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2018.09.14-19.43.02:156][665]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2018.09.14-19.43.02:156][665]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2018.09.14-19.43.02:156][665]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2018.09.14-19.43.02:156][665]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2018.09.14-19.43.02:156][665]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2018.09.14-19.43.02:157][665]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2018.09.14-19.43.02:157][665]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2018.09.14-19.43.02:157][665]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2018.09.14-19.43.02:157][665]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2018.09.14-19.43.02:157][665]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2018.09.14-19.43.02:157][665]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2018.09.14-19.43.02:157][665]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2018.09.14-19.43.02:157][665]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2018.09.14-19.43.02:157][665]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2018.09.14-19.43.02:157][665]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2018.09.14-19.43.02:157][665]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2018.09.14-19.43.02:157][665]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2018.09.14-19.43.02:157][665]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2018.09.14-19.43.02:157][665]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2018.09.14-19.43.02:157][665]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2018.09.14-19.43.02:157][665]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2018.09.14-19.43.02:157][665]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2018.09.14-19.43.02:157][665]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2018.09.14-19.43.02:157][665]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2018.09.14-19.43.02:157][665]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2018.09.14-19.43.02:158][665]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2018.09.14-19.43.02:158][665]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2018.09.14-19.43.02:158][665]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2018.09.14-19.43.02:158][665]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2018.09.14-19.43.02:158][665]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2018.09.14-19.43.02:158][665]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2018.09.14-19.43.02:158][665]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2018.09.14-19.43.02:158][665]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2018.09.14-19.43.02:158][665]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2018.09.14-19.43.02:158][665]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2018.09.14-19.43.02:158][665]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2018.09.14-19.43.02:158][665]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2018.09.14-19.43.02:158][665]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2018.09.14-19.43.02:158][665]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2018.09.14-19.43.02:158][665]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2018.09.14-19.43.02:158][665]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
+[2018.09.14-19.43.02:269][665]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
+[2018.09.14-19.43.02:269][665]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
+[2018.09.14-19.43.02:269][665]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
+[2018.09.14-19.43.02:269][665]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
+[2018.09.14-19.43.02:269][665]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
+[2018.09.14-19.43.02:269][665]LogModuleManager: Shutting down and abandoning module MergeActors (496)
+[2018.09.14-19.43.02:269][665]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
+[2018.09.14-19.43.02:269][665]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
+[2018.09.14-19.43.02:269][665]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
+[2018.09.14-19.43.02:269][665]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
+[2018.09.14-19.43.02:270][665]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
+[2018.09.14-19.43.02:271][665]LogModuleManager: Shutting down and abandoning module XmlParser (484)
+[2018.09.14-19.43.02:271][665]LogModuleManager: Shutting down and abandoning module Blutility (482)
+[2018.09.14-19.43.02:271][665]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
+[2018.09.14-19.43.02:271][665]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
+[2018.09.14-19.43.02:271][665]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
+[2018.09.14-19.43.02:271][665]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
+[2018.09.14-19.43.02:271][665]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
+[2018.09.14-19.43.02:271][665]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
+[2018.09.14-19.43.02:271][665]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
+[2018.09.14-19.43.02:271][665]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
+[2018.09.14-19.43.02:271][665]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
+[2018.09.14-19.43.02:326][665]LogModuleManager: Shutting down and abandoning module AutomationController (462)
+[2018.09.14-19.43.02:326][665]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
+[2018.09.14-19.43.02:326][665]LogModuleManager: Shutting down and abandoning module Layers (458)
+[2018.09.14-19.43.02:326][665]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
+[2018.09.14-19.43.02:326][665]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
+[2018.09.14-19.43.02:326][665]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
+[2018.09.14-19.43.02:326][665]LogModuleManager: Shutting down and abandoning module Persona (450)
+[2018.09.14-19.43.02:326][665]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
+[2018.09.14-19.43.02:326][665]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
+[2018.09.14-19.43.02:326][665]LogModuleManager: Shutting down and abandoning module Kismet (444)
+[2018.09.14-19.43.02:337][665]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
+[2018.09.14-19.43.02:337][665]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
+[2018.09.14-19.43.02:339][665]LogModuleManager: Shutting down and abandoning module Toolbox (438)
+[2018.09.14-19.43.02:340][665]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2018.09.14-19.43.02:340][665]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2018.09.14-19.43.02:340][665]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2018.09.14-19.43.02:340][665]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2018.09.14-19.43.02:340][665]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2018.09.14-19.43.02:340][665]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2018.09.14-19.43.02:340][665]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2018.09.14-19.43.02:340][665]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2018.09.14-19.43.02:340][665]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2018.09.14-19.43.02:340][665]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2018.09.14-19.43.02:340][665]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2018.09.14-19.43.02:340][665]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2018.09.14-19.43.02:340][665]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2018.09.14-19.43.02:340][665]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2018.09.14-19.43.02:340][665]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2018.09.14-19.43.02:340][665]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2018.09.14-19.43.02:340][665]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2018.09.14-19.43.02:340][665]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2018.09.14-19.43.02:340][665]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2018.09.14-19.43.02:366][665]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2018.09.14-19.43.02:366][665]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2018.09.14-19.43.02:366][665]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2018.09.14-19.43.02:366][665]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2018.09.14-19.43.02:366][665]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2018.09.14-19.43.02:366][665]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2018.09.14-19.43.02:366][665]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2018.09.14-19.43.02:366][665]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2018.09.14-19.43.02:366][665]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2018.09.14-19.43.02:366][665]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2018.09.14-19.43.02:366][665]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2018.09.14-19.43.02:366][665]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2018.09.14-19.43.02:366][665]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2018.09.14-19.43.02:366][665]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2018.09.14-19.43.02:366][665]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2018.09.14-19.43.02:366][665]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2018.09.14-19.43.02:366][665]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2018.09.14-19.43.02:366][665]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2018.09.14-19.43.02:372][665]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2018.09.14-19.43.02:372][665]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2018.09.14-19.43.02:372][665]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2018.09.14-19.43.02:372][665]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2018.09.14-19.43.02:372][665]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2018.09.14-19.43.02:372][665]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2018.09.14-19.43.02:372][665]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2018.09.14-19.43.02:372][665]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2018.09.14-19.43.02:372][665]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2018.09.14-19.43.02:372][665]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2018.09.14-19.43.02:372][665]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2018.09.14-19.43.02:372][665]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2018.09.14-19.43.02:373][665]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2018.09.14-19.43.02:373][665]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2018.09.14-19.43.02:373][665]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2018.09.14-19.43.02:373][665]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2018.09.14-19.43.02:373][665]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2018.09.14-19.43.02:373][665]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2018.09.14-19.43.02:373][665]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2018.09.14-19.43.02:373][665]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2018.09.14-19.43.02:373][665]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2018.09.14-19.43.02:373][665]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2018.09.14-19.43.02:373][665]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2018.09.14-19.43.02:373][665]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2018.09.14-19.43.02:374][665]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2018.09.14-19.43.02:374][665]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2018.09.14-19.43.02:374][665]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2018.09.14-19.43.02:374][665]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2018.09.14-19.43.02:374][665]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2018.09.14-19.43.02:374][665]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2018.09.14-19.43.02:374][665]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2018.09.14-19.43.02:374][665]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2018.09.14-19.43.02:374][665]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2018.09.14-19.43.02:374][665]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2018.09.14-19.43.02:374][665]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2018.09.14-19.43.02:374][665]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2018.09.14-19.43.02:374][665]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2018.09.14-19.43.02:374][665]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2018.09.14-19.43.02:374][665]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2018.09.14-19.43.02:374][665]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2018.09.14-19.43.02:374][665]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2018.09.14-19.43.02:476][665]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2018.09.14-19.43.02:577][665]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2018.09.14-19.43.02:577][665]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2018.09.14-19.43.02:577][665]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2018.09.14-19.43.02:577][665]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2018.09.14-19.43.02:577][665]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2018.09.14-19.43.02:577][665]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2018.09.14-19.43.02:577][665]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2018.09.14-19.43.02:578][665]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2018.09.14-19.43.02:578][665]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2018.09.14-19.43.02:578][665]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2018.09.14-19.43.02:578][665]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2018.09.14-19.43.02:579][665]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2018.09.14-19.43.02:580][665]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2018.09.14-19.43.02:581][665]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2018.09.14-19.43.02:581][665]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2018.09.14-19.43.02:581][665]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2018.09.14-19.43.02:581][665]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2018.09.14-19.43.02:581][665]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2018.09.14-19.43.02:583][665]LogModuleManager: Shutting down and abandoning module Media (243)
+[2018.09.14-19.43.02:590][665]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2018.09.14-19.43.02:590][665]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2018.09.14-19.43.02:590][665]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2018.09.14-19.43.02:590][665]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2018.09.14-19.43.02:590][665]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2018.09.14-19.43.02:590][665]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2018.09.14-19.43.02:590][665]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2018.09.14-19.43.02:590][665]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2018.09.14-19.43.02:590][665]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2018.09.14-19.43.02:590][665]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2018.09.14-19.43.02:590][665]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2018.09.14-19.43.02:590][665]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2018.09.14-19.43.02:590][665]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2018.09.14-19.43.02:590][665]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2018.09.14-19.43.02:590][665]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2018.09.14-19.43.02:590][665]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2018.09.14-19.43.02:590][665]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2018.09.14-19.43.02:591][665]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2018.09.14-19.43.02:591][665]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2018.09.14-19.43.02:591][665]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2018.09.14-19.43.02:593][665]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2018.09.14-19.43.02:593][665]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2018.09.14-19.43.02:593][665]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2018.09.14-19.43.02:593][665]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2018.09.14-19.43.02:593][665]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2018.09.14-19.43.02:593][665]LogModuleManager: Shutting down and abandoning module Core (188)
+[2018.09.14-19.43.02:593][665]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2018.09.14-19.43.02:594][665]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2018.09.14-19.43.02:594][665]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2018.09.14-19.43.02:594][665]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2018.09.14-19.43.02:594][665]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2018.09.14-19.43.02:594][665]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2018.09.14-19.43.02:594][665]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2018.09.14-19.43.02:594][665]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2018.09.14-19.43.02:594][665]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2018.09.14-19.43.02:594][665]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2018.09.14-19.43.02:594][665]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2018.09.14-19.43.02:594][665]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2018.09.14-19.43.02:650][665]LogDerivedDataCache: Shutdown
+[2018.09.14-19.43.02:651][665]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2018.09.14-19.43.02:651][665]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2018.09.14-19.43.02:651][665]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2018.09.14-19.43.02:651][665]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2018.09.14-19.43.02:651][665]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2018.09.14-19.43.02:651][665]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2018.09.14-19.43.02:651][665]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2018.09.14-19.43.02:651][665]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2018.09.14-19.43.02:651][665]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2018.09.14-19.43.02:651][665]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2018.09.14-19.43.02:651][665]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2018.09.14-19.43.02:651][665]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2018.09.14-19.43.02:651][665]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2018.09.14-19.43.02:651][665]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2018.09.14-19.43.02:651][665]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2018.09.14-19.43.02:651][665]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2018.09.14-19.43.02:651][665]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2018.09.14-19.43.02:651][665]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2018.09.14-19.43.02:651][665]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2018.09.14-19.43.02:652][665]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2018.09.14-19.43.02:652][665]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2018.09.14-19.43.02:652][665]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2018.09.14-19.43.02:652][665]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2018.09.14-19.43.02:653][665]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2018.09.14-19.43.02:653][665]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2018.09.14-19.43.02:654][665]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2018.09.14-19.43.02:654][665]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2018.09.14-19.43.02:664][665]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2018.09.14-19.43.02:664][665]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2018.09.14-19.43.02:664][665]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2018.09.14-19.43.02:664][665]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2018.09.14-19.43.02:664][665]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2018.09.14-19.43.02:664][665]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2018.09.14-19.43.02:664][665]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2018.09.14-19.43.02:664][665]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2018.09.14-19.43.02:664][665]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2018.09.14-19.43.02:664][665]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2018.09.14-19.43.02:664][665]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2018.09.14-19.43.02:664][665]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2018.09.14-19.43.02:664][665]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2018.09.14-19.43.02:664][665]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2018.09.14-19.43.02:664][665]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2018.09.14-19.43.02:664][665]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2018.09.14-19.43.02:664][665]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2018.09.14-19.43.02:665][665]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2018.09.14-19.43.02:666][665]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2018.09.14-19.43.02:666][665]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2018.09.14-19.43.02:685][665]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2018.09.14-19.43.02:685][665]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.09.14-19.43.02:685][665]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BEE2F6E21-46FD-3BB6-E924-8A86F55DA009%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.2-4302132%2B%2B%2BUE4%2BRelease-4.20&UserID=46f3b79a46171f5658329c973a87c34d%7Cd9510395923e4d108125ae8300e18fed%7Cad3ddfd4-7c2a-4dd2-b368-78e5b9c3ef62&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.09.14-19.43.02:702][665]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2018.09.14-19.43.02:704][665]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2018.09.14-19.43.02:704][665]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2018.09.14-19.43.02:704][665]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2018.09.14-19.43.02:704][665]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2018.09.14-19.43.02:704][665]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2018.09.14-19.43.02:704][665]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2018.09.14-19.43.02:704][665]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2018.09.14-19.43.02:704][665]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2018.09.14-19.43.02:704][665]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2018.09.14-19.43.02:704][665]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.09.14-19.43.02:704][665]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2018.09.14-19.43.02:705][665]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2018.09.14-19.43.02:705][665]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.09.14-19.43.02:705][665]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.09.14-19.43.02:705][665]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.09.14-19.43.02:705][665]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.09.14-19.43.02:705][665]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.09.14-19.43.02:705][665]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.09.14-19.43.02:705][665]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.09.14-19.43.02:707][665]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.09.14-19.43.02:707][665]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.09.14-19.43.02:707][665]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.09.14-19.43.02:707][665]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.09.14-19.43.02:707][665]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.09.14-19.43.02:707][665]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.09.14-19.43.02:707][665]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.09.14-19.43.02:707][665]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.09.14-19.43.02:707][665]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.09.14-19.43.02:707][665]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.09.14-19.43.02:707][665]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.09.14-19.43.02:721][665]LogExit: Exiting.
+[2018.09.14-19.43.02:758][665]Log file closed, 09/14/18 16:43:02
