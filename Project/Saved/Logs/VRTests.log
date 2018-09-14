@@ -2180,3 +2180,567 @@ LogInit: Object subsystem initialized
 [2018.09.14-18.11.20:073][ 83]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Desk111F9C52CCE4793F34D62647F8BE9846BAE.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/Desk/Desk111.uasset'
 [2018.09.14-18.12.20:792][638]LogSlate: FSceneViewport::OnFocusLost() reason 0
 [2018.09.14-18.12.23:295][770]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-18.25.37:880][220]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-18.25.38:369][228]AssetReimport: New page: Outstanding source content changes 12:25:38 PM
+[2018.09.14-18.25.38:448][229]LogStaticMesh: Building static mesh SM_SmallTree02...
+[2018.09.14-18.25.38:490][229]LogStaticMesh: Built static mesh [0.04s] /Game/Classes/229_Accounting/Assets/Meshes/SM_SmallTree02.SM_SmallTree02
+[2018.09.14-18.25.39:678][229]LogEditorFactories: Performing atomic reimport of [D:/Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/229_Accounting/Assets/Meshes/SM_SmallTree02.FBX]
+[2018.09.14-18.25.39:789][229]LogFbx: Loading FBX Scene from D:/Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/229_Accounting/Assets/Meshes/SM_SmallTree02.FBX
+[2018.09.14-18.25.39:820][229]LogFbx: FBX Scene Loaded Succesfully
+[2018.09.14-18.25.39:905][229]LogStaticMesh: Building static mesh SM_SmallTree02...
+[2018.09.14-18.25.39:958][229]LogStaticMesh: Built static mesh [0.05s] /Game/Classes/229_Accounting/Assets/Meshes/SM_SmallTree02.SM_SmallTree02
+[2018.09.14-18.25.40:071][229]LogEditorFactories: -- imported successfully
+[2018.09.14-18.25.40:840][230]LogStaticMesh: Building static mesh SM_Cherry_Tree...
+[2018.09.14-18.25.40:881][230]LogStaticMesh: Built static mesh [0.04s] /Game/Classes/229_Accounting/Assets/Meshes/SM_Cherry_Tree.SM_Cherry_Tree
+[2018.09.14-18.25.40:888][230]LogEditorFactories: Performing atomic reimport of [D:/Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/229_Accounting/Assets/Meshes/SM_Cherry_Tree.FBX]
+[2018.09.14-18.25.40:899][230]LogFbx: Loading FBX Scene from D:/Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/229_Accounting/Assets/Meshes/SM_Cherry_Tree.FBX
+[2018.09.14-18.25.40:909][230]LogFbx: FBX Scene Loaded Succesfully
+[2018.09.14-18.25.40:975][230]LogStaticMesh: Building static mesh SM_Cherry_Tree...
+[2018.09.14-18.25.41:010][230]LogStaticMesh: Built static mesh [0.04s] /Game/Classes/229_Accounting/Assets/Meshes/SM_Cherry_Tree.SM_Cherry_Tree
+[2018.09.14-18.25.41:017][230]LogEditorFactories: -- imported successfully
+[2018.09.14-18.25.41:123][231]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/SM_SmallTree0214ABE35B4C73E9973CCFA0AB04A8C891.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/229_Accounting/Assets/Meshes/SM_SmallTree02.uasset'
+[2018.09.14-18.25.41:172][231]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/SM_Cherry_TreeAB79D8E04DF59470D7E18EBEACCC7A7E.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/229_Accounting/Assets/Meshes/SM_Cherry_Tree.uasset'
+[2018.09.14-18.25.42:058][284]LogShaderCompilers: Display: Shaders left to compile 74
+[2018.09.14-18.25.42:447][307]LogShaderCompilers: Display: Shaders left to compile 64
+[2018.09.14-18.25.42:467][308]LogShaderCompilers: Display: Shaders left to compile 54
+[2018.09.14-18.25.44:194][412]AssetReimport: Reimported asset SM_SmallTree02 from D:/Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/229_Accounting/Assets/Meshes/SM_SmallTree02.FBX.
+[2018.09.14-18.25.44:194][412]AssetReimport: Reimported asset SM_Cherry_Tree from D:/Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/229_Accounting/Assets/Meshes/SM_Cherry_Tree.FBX.
+[2018.09.14-18.25.44:946][458]LogShaderCompilers: Display: Shaders left to compile 44
+[2018.09.14-18.25.45:595][492]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.09.14-18.25.45:595][492]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.09.14-18.25.45:935][513]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.09.14-18.25.46:938][573]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.09.14-18.36.14:392][178]Cmd: DELETE
+[2018.09.14-18.36.14:392][178]Cmd: ACTOR DELETE
+[2018.09.14-18.36.14:396][178]LogEditorActor: Deleted Actor: DESK_C
+[2018.09.14-18.36.14:439][178]LogEditorActor: Deleted 1 Actors (0.047 secs)
+[2018.09.14-18.36.15:189][223]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-18.36.16:561][302]Cmd: DELETE
+[2018.09.14-18.36.16:561][302]Cmd: ACTOR DELETE
+[2018.09.14-18.36.16:565][302]LogEditorActor: Deleted Actor: DESK2_C
+[2018.09.14-18.36.16:598][302]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2018.09.14-18.36.17:325][346]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-18.36.23:740][662]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.09.14-18.36.54:824][429]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/221_InteriorDesign/Assets/Desk/BasicDesk.BasicDesk
+[2018.09.14-18.37.05:038][ 12]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-18.37.22:646][ 55]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-18.37.29:592][469]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-18.37.29:676][474]BlueprintLog: New page: Compile BasicDesk
+[2018.09.14-18.37.36:234][827]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.14-18.37.42:836][221]LogMaterial: Display: Missing cached shader map for material white, compiling. 
+[2018.09.14-18.37.42:871][222]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.09.14-18.37.42:871][222]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.09.14-18.37.42:871][222]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.14-18.37.46:671][449]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.14-18.37.51:777][749]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.14-18.38.25:261][750]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-18.38.29:749][ 17]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.14-18.38.29:749][ 17]LogPhysics: Warning: ForeachShape(Convex): [/Game/Classes/221_InteriorDesign/Assets/Desk/Desk_Mat/masa-sandelye__esitleri_ChamferBox008.masa-sandelye__esitleri_ChamferBox008] ScaledElem[0] invalid
+[2018.09.14-18.38.29:749][ 17]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.14-18.38.29:749][ 17]LogPhysics: Warning: ForeachShape(Convex): [/Game/Classes/221_InteriorDesign/Assets/Desk/Desk_Mat/masa-sandelye__esitleri_ChamferBox008.masa-sandelye__esitleri_ChamferBox008] ScaledElem[1] invalid
+[2018.09.14-18.38.29:749][ 17]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.14-18.38.29:749][ 17]LogPhysics: Warning: ForeachShape(Convex): [/Game/Classes/221_InteriorDesign/Assets/Desk/Desk_Mat/masa-sandelye__esitleri_ChamferBox008.masa-sandelye__esitleri_ChamferBox008] ScaledElem[2] invalid
+[2018.09.14-18.38.29:749][ 17]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.14-18.38.29:749][ 17]LogPhysics: Warning: ForeachShape(Convex): [/Game/Classes/221_InteriorDesign/Assets/Desk/Desk_Mat/masa-sandelye__esitleri_Rectangle003.masa-sandelye__esitleri_Rectangle003] ScaledElem[0] invalid
+[2018.09.14-18.38.29:750][ 17]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.14-18.38.29:750][ 17]LogPhysics: Warning: ForeachShape(Convex): [/Game/Classes/221_InteriorDesign/Assets/Desk/Desk_Mat/masa-sandelye__esitleri_ChamferBox008.masa-sandelye__esitleri_ChamferBox008] ScaledElem[0] invalid
+[2018.09.14-18.38.29:750][ 17]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.14-18.38.29:750][ 17]LogPhysics: Warning: ForeachShape(Convex): [/Game/Classes/221_InteriorDesign/Assets/Desk/Desk_Mat/masa-sandelye__esitleri_ChamferBox008.masa-sandelye__esitleri_ChamferBox008] ScaledElem[1] invalid
+[2018.09.14-18.38.29:750][ 17]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.14-18.38.29:750][ 17]LogPhysics: Warning: ForeachShape(Convex): [/Game/Classes/221_InteriorDesign/Assets/Desk/Desk_Mat/masa-sandelye__esitleri_ChamferBox008.masa-sandelye__esitleri_ChamferBox008] ScaledElem[2] invalid
+[2018.09.14-18.38.29:757][ 18]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.14-18.38.29:757][ 18]LogPhysics: Warning: ForeachShape(Convex): [/Game/Classes/221_InteriorDesign/Assets/Desk/Desk_Mat/masa-sandelye__esitleri_ChamferBox008.masa-sandelye__esitleri_ChamferBox008] ScaledElem[0] invalid
+[2018.09.14-18.38.29:757][ 18]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.14-18.38.29:757][ 18]LogPhysics: Warning: ForeachShape(Convex): [/Game/Classes/221_InteriorDesign/Assets/Desk/Desk_Mat/masa-sandelye__esitleri_ChamferBox008.masa-sandelye__esitleri_ChamferBox008] ScaledElem[1] invalid
+[2018.09.14-18.38.29:757][ 18]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.14-18.38.29:757][ 18]LogPhysics: Warning: ForeachShape(Convex): [/Game/Classes/221_InteriorDesign/Assets/Desk/Desk_Mat/masa-sandelye__esitleri_ChamferBox008.masa-sandelye__esitleri_ChamferBox008] ScaledElem[2] invalid
+[2018.09.14-18.38.29:757][ 18]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.14-18.38.29:757][ 18]LogPhysics: Warning: ForeachShape(Convex): [/Game/Classes/221_InteriorDesign/Assets/Desk/Desk_Mat/masa-sandelye__esitleri_ChamferBox008.masa-sandelye__esitleri_ChamferBox008] ScaledElem[0] invalid
+[2018.09.14-18.38.29:757][ 18]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.14-18.38.29:757][ 18]LogPhysics: Warning: ForeachShape(Convex): [/Game/Classes/221_InteriorDesign/Assets/Desk/Desk_Mat/masa-sandelye__esitleri_ChamferBox008.masa-sandelye__esitleri_ChamferBox008] ScaledElem[1] invalid
+[2018.09.14-18.38.29:757][ 18]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.14-18.38.29:757][ 18]LogPhysics: Warning: ForeachShape(Convex): [/Game/Classes/221_InteriorDesign/Assets/Desk/Desk_Mat/masa-sandelye__esitleri_ChamferBox008.masa-sandelye__esitleri_ChamferBox008] ScaledElem[2] invalid
+[2018.09.14-18.38.29:757][ 18]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.14-18.38.29:757][ 18]LogPhysics: Warning: ForeachShape(Convex): [/Game/Classes/221_InteriorDesign/Assets/Desk/Desk_Mat/masa-sandelye__esitleri_Rectangle003.masa-sandelye__esitleri_Rectangle003] ScaledElem[0] invalid
+[2018.09.14-18.38.30:040][ 35]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.14-18.38.30:040][ 35]LogPhysics: Warning: ForeachShape(Convex): [/Game/Classes/221_InteriorDesign/Assets/Desk/Desk_Mat/masa-sandelye__esitleri_ChamferBox008.masa-sandelye__esitleri_ChamferBox008] ScaledElem[0] invalid
+[2018.09.14-18.38.30:040][ 35]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.14-18.38.30:040][ 35]LogPhysics: Warning: ForeachShape(Convex): [/Game/Classes/221_InteriorDesign/Assets/Desk/Desk_Mat/masa-sandelye__esitleri_ChamferBox008.masa-sandelye__esitleri_ChamferBox008] ScaledElem[1] invalid
+[2018.09.14-18.38.30:040][ 35]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.14-18.38.30:040][ 35]LogPhysics: Warning: ForeachShape(Convex): [/Game/Classes/221_InteriorDesign/Assets/Desk/Desk_Mat/masa-sandelye__esitleri_ChamferBox008.masa-sandelye__esitleri_ChamferBox008] ScaledElem[2] invalid
+[2018.09.14-18.38.30:040][ 35]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.14-18.38.30:041][ 35]LogPhysics: Warning: ForeachShape(Convex): [/Game/Classes/221_InteriorDesign/Assets/Desk/Desk_Mat/masa-sandelye__esitleri_Rectangle003.masa-sandelye__esitleri_Rectangle003] ScaledElem[0] invalid
+[2018.09.14-18.38.30:041][ 35]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.14-18.38.30:041][ 35]LogPhysics: Warning: ForeachShape(Convex): [/Game/Classes/221_InteriorDesign/Assets/Desk/Desk_Mat/masa-sandelye__esitleri_ChamferBox008.masa-sandelye__esitleri_ChamferBox008] ScaledElem[0] invalid
+[2018.09.14-18.38.30:041][ 35]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.14-18.38.30:041][ 35]LogPhysics: Warning: ForeachShape(Convex): [/Game/Classes/221_InteriorDesign/Assets/Desk/Desk_Mat/masa-sandelye__esitleri_ChamferBox008.masa-sandelye__esitleri_ChamferBox008] ScaledElem[1] invalid
+[2018.09.14-18.38.30:041][ 35]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.14-18.38.30:041][ 35]LogPhysics: Warning: ForeachShape(Convex): [/Game/Classes/221_InteriorDesign/Assets/Desk/Desk_Mat/masa-sandelye__esitleri_ChamferBox008.masa-sandelye__esitleri_ChamferBox008] ScaledElem[2] invalid
+[2018.09.14-18.38.30:057][ 36]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.14-18.38.30:057][ 36]LogPhysics: Warning: ForeachShape(Convex): [/Game/Classes/221_InteriorDesign/Assets/Desk/Desk_Mat/masa-sandelye__esitleri_ChamferBox008.masa-sandelye__esitleri_ChamferBox008] ScaledElem[0] invalid
+[2018.09.14-18.38.30:057][ 36]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.14-18.38.30:057][ 36]LogPhysics: Warning: ForeachShape(Convex): [/Game/Classes/221_InteriorDesign/Assets/Desk/Desk_Mat/masa-sandelye__esitleri_ChamferBox008.masa-sandelye__esitleri_ChamferBox008] ScaledElem[1] invalid
+[2018.09.14-18.38.30:057][ 36]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.14-18.38.30:057][ 36]LogPhysics: Warning: ForeachShape(Convex): [/Game/Classes/221_InteriorDesign/Assets/Desk/Desk_Mat/masa-sandelye__esitleri_ChamferBox008.masa-sandelye__esitleri_ChamferBox008] ScaledElem[2] invalid
+[2018.09.14-18.38.30:057][ 36]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.14-18.38.30:057][ 36]LogPhysics: Warning: ForeachShape(Convex): [/Game/Classes/221_InteriorDesign/Assets/Desk/Desk_Mat/masa-sandelye__esitleri_ChamferBox008.masa-sandelye__esitleri_ChamferBox008] ScaledElem[0] invalid
+[2018.09.14-18.38.30:057][ 36]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.14-18.38.30:057][ 36]LogPhysics: Warning: ForeachShape(Convex): [/Game/Classes/221_InteriorDesign/Assets/Desk/Desk_Mat/masa-sandelye__esitleri_ChamferBox008.masa-sandelye__esitleri_ChamferBox008] ScaledElem[1] invalid
+[2018.09.14-18.38.30:057][ 36]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.14-18.38.30:057][ 36]LogPhysics: Warning: ForeachShape(Convex): [/Game/Classes/221_InteriorDesign/Assets/Desk/Desk_Mat/masa-sandelye__esitleri_ChamferBox008.masa-sandelye__esitleri_ChamferBox008] ScaledElem[2] invalid
+[2018.09.14-18.38.30:057][ 36]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.09.14-18.38.30:057][ 36]LogPhysics: Warning: ForeachShape(Convex): [/Game/Classes/221_InteriorDesign/Assets/Desk/Desk_Mat/masa-sandelye__esitleri_Rectangle003.masa-sandelye__esitleri_Rectangle003] ScaledElem[0] invalid
+[2018.09.14-18.38.32:057][156]LogEditorTransaction: Undo Modify Component(s)
+[2018.09.14-18.38.32:061][156]LogMaterial: Display: Missing cached shader map for material BaseMat, compiling. 
+[2018.09.14-18.38.32:116][156]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.09.14-18.38.32:116][156]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.09.14-18.38.32:116][156]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.09.14-18.38.32:116][156]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.09.14-18.38.32:671][189]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.09.14-18.38.32:722][192]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.09.14-18.38.32:722][192]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.09.14-18.38.32:722][192]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.09.14-18.38.32:878][200]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.09.14-18.38.32:911][202]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.09.14-18.38.32:922][204]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.09.14-18.38.32:938][205]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.09.14-18.38.33:072][213]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.09.14-18.38.33:305][227]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.09.14-18.38.33:455][236]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.09.14-18.38.33:505][239]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.09.14-18.38.33:533][240]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-18.38.33:603][245]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.09.14-18.38.33:806][251]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.09.14-18.38.33:832][253]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.09.14-18.38.34:039][266]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.14-18.38.34:090][269]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.14-18.38.34:587][298]MaterialEditorStats: Base pass shader: 157 instructions
+[2018.09.14-18.38.34:587][298]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 230 instructions
+[2018.09.14-18.38.34:587][298]MaterialEditorStats: Base pass vertex shader: 88 instructions
+[2018.09.14-18.38.34:587][298]MaterialEditorStats: Texture samplers: 3/16
+[2018.09.14-18.38.40:872][672]LogEditorTransaction: Undo Modify Component(s)
+[2018.09.14-18.38.40:877][672]LogMaterial: Display: Missing cached shader map for material BaseMat, compiling. 
+[2018.09.14-18.38.40:927][672]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.09.14-18.38.40:927][672]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.09.14-18.38.40:928][672]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.09.14-18.38.40:928][672]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.09.14-18.38.41:140][684]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.09.14-18.38.41:157][685]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.09.14-18.38.41:173][686]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.09.14-18.38.41:173][686]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.09.14-18.38.41:324][695]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.09.14-18.38.41:340][696]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.09.14-18.38.41:373][699]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.09.14-18.38.41:389][700]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.09.14-18.38.41:522][708]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.09.14-18.38.41:722][720]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.09.14-18.38.41:888][730]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.09.14-18.38.41:921][732]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.09.14-18.38.42:039][739]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.09.14-18.38.42:222][750]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.09.14-18.38.42:239][751]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.09.14-18.38.42:455][764]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.14-18.38.42:556][770]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.14-18.38.42:921][791]MaterialEditorStats: Base pass shader: 157 instructions
+[2018.09.14-18.38.42:921][791]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 230 instructions
+[2018.09.14-18.38.42:921][791]MaterialEditorStats: Base pass vertex shader: 88 instructions
+[2018.09.14-18.38.42:921][791]MaterialEditorStats: Texture samplers: 3/16
+[2018.09.14-18.38.43:417][821]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-18.38.43:484][825]BlueprintLog: New page: Compile BasicDesk
+[2018.09.14-18.38.47:452][972]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-18.39.02:240][855]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-18.39.11:574][411]LogMetaData: Removing '/Game/Classes/237_Criminology/Assets/BasicDesk.BasicDesk:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Classes/221_InteriorDesign/Assets/Desk/BasicDesk.PackageMetaData'
+[2018.09.14-18.39.11:574][411]LogMetaData: Removing '/Game/Classes/237_Criminology/Assets/BasicDesk.SKEL_BasicDesk_C' ref from Metadata '/Game/Classes/221_InteriorDesign/Assets/Desk/BasicDesk.PackageMetaData'
+[2018.09.14-18.39.11:574][411]LogMetaData: Removing '/Game/Classes/237_Criminology/Assets/BasicDesk.BasicDesk_C' ref from Metadata '/Game/Classes/221_InteriorDesign/Assets/Desk/BasicDesk.PackageMetaData'
+[2018.09.14-18.39.11:574][411]LogMetaData: Removing '/Game/Classes/237_Criminology/Assets/BasicDesk.BasicDesk:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Classes/221_InteriorDesign/Assets/Desk/BasicDesk.PackageMetaData'
+[2018.09.14-18.39.11:574][411]LogMetaData: Removing '/Game/Classes/237_Criminology/Assets/BasicDesk.BasicDesk:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Classes/221_InteriorDesign/Assets/Desk/BasicDesk.PackageMetaData'
+[2018.09.14-18.39.11:574][411]LogMetaData: Removing '/Game/Classes/237_Criminology/Assets/BasicDesk.BasicDesk:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Classes/221_InteriorDesign/Assets/Desk/BasicDesk.PackageMetaData'
+[2018.09.14-18.39.11:574][411]LogMetaData: Removing '/Game/Classes/237_Criminology/Assets/BasicDesk.SKEL_BasicDesk_C:ReceiveBeginPlay' ref from Metadata '/Game/Classes/221_InteriorDesign/Assets/Desk/BasicDesk.PackageMetaData'
+[2018.09.14-18.39.11:574][411]LogMetaData: Removing '/Game/Classes/237_Criminology/Assets/BasicDesk.SKEL_BasicDesk_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Classes/221_InteriorDesign/Assets/Desk/BasicDesk.PackageMetaData'
+[2018.09.14-18.39.11:574][411]LogMetaData: Removing '/Game/Classes/237_Criminology/Assets/BasicDesk.SKEL_BasicDesk_C:ReceiveTick' ref from Metadata '/Game/Classes/221_InteriorDesign/Assets/Desk/BasicDesk.PackageMetaData'
+[2018.09.14-18.39.11:574][411]LogMetaData: Removing '/Game/Classes/237_Criminology/Assets/BasicDesk.SKEL_BasicDesk_C:DefaultSceneRoot' ref from Metadata '/Game/Classes/221_InteriorDesign/Assets/Desk/BasicDesk.PackageMetaData'
+[2018.09.14-18.39.11:574][411]LogMetaData: Removing '/Game/Classes/237_Criminology/Assets/BasicDesk.SKEL_BasicDesk_C:StaticMesh' ref from Metadata '/Game/Classes/221_InteriorDesign/Assets/Desk/BasicDesk.PackageMetaData'
+[2018.09.14-18.39.11:574][411]LogMetaData: Removing '/Game/Classes/237_Criminology/Assets/BasicDesk.SKEL_BasicDesk_C:StaticMesh1' ref from Metadata '/Game/Classes/221_InteriorDesign/Assets/Desk/BasicDesk.PackageMetaData'
+[2018.09.14-18.39.11:574][411]LogMetaData: Removing '/Game/Classes/237_Criminology/Assets/BasicDesk.SKEL_BasicDesk_C:UserConstructionScript' ref from Metadata '/Game/Classes/221_InteriorDesign/Assets/Desk/BasicDesk.PackageMetaData'
+[2018.09.14-18.39.11:574][411]LogMetaData: Removing '/Game/Classes/237_Criminology/Assets/BasicDesk.BasicDesk_C:DefaultSceneRoot' ref from Metadata '/Game/Classes/221_InteriorDesign/Assets/Desk/BasicDesk.PackageMetaData'
+[2018.09.14-18.39.11:574][411]LogMetaData: Removing '/Game/Classes/237_Criminology/Assets/BasicDesk.BasicDesk_C:StaticMesh' ref from Metadata '/Game/Classes/221_InteriorDesign/Assets/Desk/BasicDesk.PackageMetaData'
+[2018.09.14-18.39.11:574][411]LogMetaData: Removing '/Game/Classes/237_Criminology/Assets/BasicDesk.BasicDesk_C:StaticMesh1' ref from Metadata '/Game/Classes/221_InteriorDesign/Assets/Desk/BasicDesk.PackageMetaData'
+[2018.09.14-18.39.11:574][411]LogMetaData: Removing '/Game/Classes/237_Criminology/Assets/BasicDesk.BasicDesk_C:UserConstructionScript' ref from Metadata '/Game/Classes/221_InteriorDesign/Assets/Desk/BasicDesk.PackageMetaData'
+[2018.09.14-18.39.11:634][411]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/BasicDeskD1CDD3A04FF8BE34C260038F9901089B.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Assets/BasicDesk.uasset'
+[2018.09.14-18.39.43:792][725]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/CriminologyMap_Auto2EA22100349AE753A7F5D7192EFD61FD2.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/237_Criminology/Maps/CriminologyMap_Auto2.umap'
+[2018.09.14-18.39.43:798][725]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/237_Criminology/Maps/CriminologyMap' took 0.150
+[2018.09.14-18.39.43:798][725]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.150
+[2018.09.14-18.39.43:800][725]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Classes/237_Criminology/VR_World_Interaction/Materials/Mat_WallBeige] ([1] browsable assets)...
+[2018.09.14-18.39.43:800][725]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/237_Criminology/VR_World_Interaction/Materials/Mat_WallBeige]
+[2018.09.14-18.39.43:838][725]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_WallBeige, compiling. 
+[2018.09.14-18.39.44:291][725]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.14-18.39.44:292][725]TextureStreamingBuild: Display: Compiling optional shaders took 0.459 seconds.
+[2018.09.14-18.39.44:341][725]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Mat_WallBeige_Auto25B6CE9674D4E9D719BEAEBA3DE7C038E.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/237_Criminology/VR_World_Interaction/Materials/Mat_WallBeige_Auto2.uasset'
+[2018.09.14-18.39.44:342][725]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Classes/237_Criminology/VR_World_Interaction/Materials/Mat_WallBlue] ([1] browsable assets)...
+[2018.09.14-18.39.44:342][725]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/237_Criminology/VR_World_Interaction/Materials/Mat_WallBlue]
+[2018.09.14-18.39.44:381][725]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_WallBlue, compiling. 
+[2018.09.14-18.39.44:550][725]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.14-18.39.44:551][725]TextureStreamingBuild: Display: Compiling optional shaders took 0.174 seconds.
+[2018.09.14-18.39.44:595][725]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Mat_WallBlue_Auto20E452EE848FBBD6EB51DA194C6583E6F.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/237_Criminology/VR_World_Interaction/Materials/Mat_WallBlue_Auto2.uasset'
+[2018.09.14-18.39.44:597][725]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Classes/221_InteriorDesign/Assets/Desk/DESK] ([1] browsable assets)...
+[2018.09.14-18.39.44:607][725]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Classes/221_InteriorDesign/Assets/Desk/DESK.DESK]
+[2018.09.14-18.39.44:607][725]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/221_InteriorDesign/Assets/Desk/DESK]
+[2018.09.14-18.39.44:682][725]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/DESK_Auto21227FBE04335BED10D0EA8AF3530024E.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/221_InteriorDesign/Assets/Desk/DESK_Auto2.uasset'
+[2018.09.14-18.39.44:683][725]LogFileHelpers: Auto-saving content packages took 0.884
+[2018.09.14-18.46.05:940][866]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.14-18.47.01:522][194]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-18.47.36:649][300]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-18.47.44:022][741]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-18.47.44:154][749]MapCheck: New page: Map Check
+[2018.09.14-18.47.44:527][749]Cmd: MAP REBUILD ALLVISIBLE
+[2018.09.14-18.47.44:538][749]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.09.14-18.47.44:747][749]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2018.09.14-18.47.44:770][749]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2018.09.14-18.47.44:778][749]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.14-18.47.44:778][749]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_WallBeige, compiling. 
+[2018.09.14-18.47.44:802][749]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.14-18.47.44:802][749]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.14-18.47.44:802][749]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.09.14-18.47.44:809][749]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.14-18.47.44:809][749]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_GreyBall, compiling. 
+[2018.09.14-18.47.44:818][749]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MI_SmallCubes, compiling. 
+[2018.09.14-18.47.44:825][749]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2018.09.14-18.47.44:833][749]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultTextMaterialOpaque, compiling. 
+[2018.09.14-18.47.44:854][749]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy 01_-_Default, compiling. 
+[2018.09.14-18.47.44:860][749]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy white, compiling. 
+[2018.09.14-18.47.45:624][749]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.09.14-18.47.45:625][749]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.09.14-18.47.45:625][749]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.09.14-18.47.45:625][749]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.09.14-18.47.45:625][749]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.14-18.47.45:625][749]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.14-18.47.45:625][749]TextureStreamingBuild: Display: Compiling optional shaders took 0.881 seconds.
+[2018.09.14-18.47.45:700][749]LogLevel: Display: Export Material TexCoord Scales took 0.076 seconds.
+[2018.09.14-18.47.45:769][749]TextureStreamingBuild: Display: Build Texture Streaming took 0.067 seconds.
+[2018.09.14-18.47.45:880][749]LightingResults: New page: Lighting Build - Sep 14, 2018, 12:47:45 PM
+[2018.09.14-18.47.46:328][749]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.09.14-18.47.46:503][749]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.09.14-18.47.46:514][749]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.09.14-18.47.47:557][749]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.09.14-18.47.47:557][749]LogSwarmInterface: [TryOpenConnection] Local Process ID is 14616
+[2018.09.14-18.47.50:882][749]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.09.14-18.47.50:882][749]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.09.14-18.47.50:882][749]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.09.14-18.47.50:882][749]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.09.14-18.47.50:882][749]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.09.14-18.47.51:036][749]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.09.14-18.47.51:036][749]MapCheck: New page: CriminologyMap - Sep 14, 2018, 12:47:51 PM
+[2018.09.14-18.47.51:205][749]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 168.382ms to complete.
+[2018.09.14-18.47.51:238][749]LogEditorBuildUtils: Build time 0:06
+[2018.09.14-18.47.51:303][750]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_GreyBall, compiling. 
+[2018.09.14-18.47.51:317][750]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.14-18.47.51:318][750]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_GreyBall, compiling. 
+[2018.09.14-18.47.51:334][750]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.14-18.47.55:344][905]Job is a success!
+[2018.09.14-18.47.55:519][906]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.136s
+[2018.09.14-18.47.55:519][906]LogVolumetricLightmapImport:      Indirection Texture 48x48x48 = 0.4Mb
+[2018.09.14-18.47.55:519][906]LogVolumetricLightmapImport:      BrickData 235x5x5 = 0.2Mb
+[2018.09.14-18.47.55:519][906]LogVolumetricLightmapImport:      Bricks at Level
+[2018.09.14-18.47.55:520][906]LogVolumetricLightmapImport:          0: 57.4% covering 100.0% of volume
+[2018.09.14-18.47.55:520][906]LogVolumetricLightmapImport:          1: 8.5% covering 0.2% of volume
+[2018.09.14-18.47.55:520][906]LogVolumetricLightmapImport:          2: 34.0% covering 0.0% of volume
+[2018.09.14-18.47.55:674][906]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 512X256)
+[2018.09.14-18.47.55:674][906]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
+[2018.09.14-18.47.55:675][906]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
+[2018.09.14-18.47.55:675][906]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
+[2018.09.14-18.47.55:675][906]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2018.09.14-18.47.55:675][906]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2018.09.14-18.47.55:675][906]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2018.09.14-18.47.55:675][906]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 128X256)
+[2018.09.14-18.47.55:715][906]Lightmass on DESKTOP-RST41EJ: 2.61 sec total, 163 ms importing, 34 ms setup, 410 ms photons, 1.91 sec processing, 0 ms extra exporting [7/7 mappings]. Threads: 13.2 sec total, 357 ms processing.
+[2018.09.14-18.47.55:789][906]LogStaticLightingSystem: Illumination: 9.92 sec (33 ms encoding lightmaps, 21 ms encoding shadowmaps)
+[2018.09.14-18.47.55:789][906]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.0 MB streaming, 0.7 MB non-streaming), 4 textures
+[2018.09.14-18.47.55:789][906]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.09.14-18.47.55:871][906]DumpUnbuiltLightIteractions
+[2018.09.14-18.47.55:871][906]Lights with unbuilt interactions: 0
+[2018.09.14-18.47.55:871][906]
+[2018.09.14-18.47.55:871][906]Primitives with unbuilt interactions: 0
+[2018.09.14-18.47.55:926][907]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.09.14-18.47.55:926][907]MapCheck: New page: CriminologyMap - Sep 14, 2018, 12:47:55 PM
+[2018.09.14-18.47.55:995][907]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 69.688ms to complete.
+[2018.09.14-18.49.45:606][472]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/CriminologyMap_Auto360F180784B843448E14F218E384C7203.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/237_Criminology/Maps/CriminologyMap_Auto3.umap'
+[2018.09.14-18.49.45:609][472]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/237_Criminology/Maps/CriminologyMap' took 0.122
+[2018.09.14-18.49.45:609][472]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.122
+[2018.09.14-18.49.45:615][472]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Classes/237_Criminology/Maps/CriminologyMap_BuiltData] ([1] browsable assets)...
+[2018.09.14-18.49.45:615][472]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/237_Criminology/Maps/CriminologyMap_BuiltData]
+[2018.09.14-18.49.45:679][472]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/CriminologyMap_BuiltData_Auto3FCB6E4914BA32627C2B1BBA75B7632DB.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/237_Criminology/Maps/CriminologyMap_BuiltData_Auto3.uasset'
+[2018.09.14-18.49.45:680][472]LogFileHelpers: Auto-saving content packages took 0.069
+[2018.09.14-18.52.12:687][271]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-18.52.36:711][639]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.14-18.52.43:400][ 24]LogEditorViewport: Clicking on Actor (LMB): BasicDesk_C (BasicDesk)
+[2018.09.14-18.52.43:996][ 59]Cmd: EDIT COPY
+[2018.09.14-18.52.44:398][ 62]Cmd: EDIT PASTE
+[2018.09.14-18.52.44:964][ 89]Cmd: EDIT PASTE
+[2018.09.14-18.52.46:140][157]Cmd: EDIT PASTE
+[2018.09.14-18.52.50:255][400]LogEditorViewport: Clicking on Actor (LMB): BasicDesk_C (BasicDesk3)
+[2018.09.14-18.52.52:735][546]Cmd: TRANSACTION UNDO
+[2018.09.14-18.52.52:735][546]LogEditorTransaction: Undo Move Actors
+[2018.09.14-18.52.52:740][546]LogMaterial: Display: Missing cached shader map for material BaseMat, compiling. 
+[2018.09.14-18.52.52:806][546]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.09.14-18.52.52:806][546]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.09.14-18.52.52:806][546]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.09.14-18.52.52:806][546]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.09.14-18.52.53:313][576]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.09.14-18.52.53:347][578]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.09.14-18.52.53:362][579]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.09.14-18.52.53:380][580]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.09.14-18.52.53:479][586]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.09.14-18.52.53:513][588]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.09.14-18.52.53:529][589]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.09.14-18.52.53:545][590]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.09.14-18.52.53:665][597]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.09.14-18.52.53:899][611]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.09.14-18.52.54:064][621]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.09.14-18.52.54:098][623]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.09.14-18.52.54:198][629]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.09.14-18.52.54:381][640]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.09.14-18.52.54:396][641]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.09.14-18.52.54:614][654]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.14-18.52.54:697][659]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.14-18.52.55:038][679]MaterialEditorStats: Base pass shader: 157 instructions
+[2018.09.14-18.52.55:038][679]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 230 instructions
+[2018.09.14-18.52.55:038][679]MaterialEditorStats: Base pass vertex shader: 88 instructions
+[2018.09.14-18.52.55:038][679]MaterialEditorStats: Texture samplers: 3/16
+[2018.09.14-18.53.02:823][143]LogEditorViewport: Clicking on Actor (LMB): BasicDesk_C (BasicDesk4)
+[2018.09.14-18.53.04:699][254]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-18.53.08:428][472]LogEditorViewport: Clicking on Actor (LMB): BasicDesk_C (BasicDesk3)
+[2018.09.14-18.53.09:888][558]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-18.53.18:240][ 58]LogEditorViewport: Clicking on Actor (LMB): BasicDesk_C (BasicDesk2)
+[2018.09.14-18.53.19:319][121]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-18.53.24:392][425]LogEditorViewport: Clicking on Actor (LMB): BasicDesk_C (BasicDesk)
+[2018.09.14-18.53.24:938][456]LogEditorViewport: Clicking on Actor (LMB): BasicDesk_C (BasicDesk4)
+[2018.09.14-18.53.27:261][594]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-18.53.34:239][ 12]LogEditorViewport: Clicking on Actor (LMB): BasicDesk_C (BasicDesk)
+[2018.09.14-18.53.35:986][115]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-18.54.21:953][869]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-18.54.49:447][470]LogMetaData: Removing '/Game/Classes/237_Criminology/Assets/BasicDesk_WhiteTop.BasicDesk_WhiteTop_C' ref from Metadata '/Game/Classes/237_Criminology/Assets/BasicDesk.PackageMetaData'
+[2018.09.14-18.54.49:447][470]LogMetaData: Removing '/Game/Classes/237_Criminology/Assets/BasicDesk_WhiteTop.SKEL_BasicDesk_WhiteTop_C' ref from Metadata '/Game/Classes/237_Criminology/Assets/BasicDesk.PackageMetaData'
+[2018.09.14-18.54.49:447][470]LogMetaData: Removing '/Game/Classes/237_Criminology/Assets/BasicDesk_WhiteTop.BasicDesk_WhiteTop:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Classes/237_Criminology/Assets/BasicDesk.PackageMetaData'
+[2018.09.14-18.54.49:447][470]LogMetaData: Removing '/Game/Classes/237_Criminology/Assets/BasicDesk_WhiteTop.BasicDesk_WhiteTop:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Classes/237_Criminology/Assets/BasicDesk.PackageMetaData'
+[2018.09.14-18.54.49:447][470]LogMetaData: Removing '/Game/Classes/237_Criminology/Assets/BasicDesk_WhiteTop.BasicDesk_WhiteTop:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Classes/237_Criminology/Assets/BasicDesk.PackageMetaData'
+[2018.09.14-18.54.49:447][470]LogMetaData: Removing '/Game/Classes/237_Criminology/Assets/BasicDesk_WhiteTop.BasicDesk_WhiteTop:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Classes/237_Criminology/Assets/BasicDesk.PackageMetaData'
+[2018.09.14-18.54.49:505][470]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/BasicDesk_WhiteTop69BEF5214E9EFBDE319BECAAC006896D.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Assets/BasicDesk_WhiteTop.uasset'
+[2018.09.14-18.54.50:860][536]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Criminology/Assets/BasicDesk_WoodTop.BasicDesk_WoodTop
+[2018.09.14-18.54.57:027][866]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.14-18.55.08:488][542]LogMaterial: Display: Missing cached shader map for material M_Wood_Oak, compiling. 
+[2018.09.14-18.55.08:544][543]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.09.14-18.55.08:544][543]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.09.14-18.55.08:544][543]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.09.14-18.55.08:544][543]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.14-18.55.20:617][263]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-18.55.20:666][266]BlueprintLog: New page: Compile BasicDesk_WoodTop
+[2018.09.14-18.55.30:999][660]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-18.55.31:094][663]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/BasicDesk_WoodTop968403974F348AF2A5998EBE501021DB.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Assets/BasicDesk_WoodTop.uasset'
+[2018.09.14-18.55.31:928][713]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-18.55.34:244][775]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-18.55.37:007][940]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-18.55.40:139][112]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-18.55.49:612][678]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-18.56.25:570][825]Cmd: EDIT COPY
+[2018.09.14-18.56.26:179][861]Cmd: EDIT PASTE
+[2018.09.14-18.56.35:292][403]LogEditorViewport: Clicking on Actor (LMB): BasicDesk_WhiteTop_C (BasicDesk3)
+[2018.09.14-18.56.39:804][670]LogEditorViewport: Clicking on Actor (LMB): BasicDesk_WhiteTop_C (BasicDesk4)
+[2018.09.14-18.56.42:377][822]LogEditorViewport: Clicking on Actor (LMB): BasicDesk_WoodTop_C (BasicDesk_WoodTop2)
+[2018.09.14-18.56.42:835][848]LogEditorViewport: Clicking on Actor (LMB): BasicDesk_WoodTop_C (BasicDesk_WoodTop)
+[2018.09.14-18.56.44:156][926]LogEditorViewport: Clicking on Actor (CTRL LMB): BasicDesk_WoodTop_C (BasicDesk_WoodTop2)
+[2018.09.14-18.56.45:799][ 23]Cmd: EDIT COPY
+[2018.09.14-18.56.46:541][ 67]Cmd: EDIT PASTE
+[2018.09.14-18.56.54:746][542]LogEditorViewport: Clicking on Actor (CTRL LMB): BasicDesk_WhiteTop_C (BasicDesk)
+[2018.09.14-18.56.55:335][575]LogEditorViewport: Clicking on Actor (CTRL LMB): BasicDesk_WhiteTop_C (BasicDesk2)
+[2018.09.14-18.56.57:754][717]Cmd: TRANSACTION UNDO
+[2018.09.14-18.56.57:754][717]LogEditorTransaction: Undo Move Actors
+[2018.09.14-18.56.57:765][717]LogMaterial: Display: Missing cached shader map for material BaseMat, compiling. 
+[2018.09.14-18.56.57:842][717]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.09.14-18.56.57:842][717]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.09.14-18.56.57:842][717]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.09.14-18.56.57:842][717]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.09.14-18.56.58:352][747]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.09.14-18.56.58:401][750]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.09.14-18.56.58:401][750]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.09.14-18.56.58:401][750]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.09.14-18.56.58:509][756]LogEditorViewport: Clicking on Actor (LMB): BasicDesk_WhiteTop_C (BasicDesk)
+[2018.09.14-18.56.58:531][756]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.09.14-18.56.58:543][756]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.09.14-18.56.58:568][757]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.09.14-18.56.58:593][759]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.09.14-18.56.58:710][766]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.09.14-18.56.58:947][780]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.09.14-18.56.59:095][789]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.09.14-18.56.59:145][792]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.09.14-18.56.59:245][798]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.09.14-18.56.59:430][809]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.09.14-18.56.59:452][810]LogEditorViewport: Clicking on Actor (CTRL LMB): BasicDesk_WhiteTop_C (BasicDesk2)
+[2018.09.14-18.56.59:459][810]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.09.14-18.56.59:686][822]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.14-18.56.59:751][826]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.14-18.57.00:108][847]MaterialEditorStats: Base pass shader: 157 instructions
+[2018.09.14-18.57.00:108][847]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 230 instructions
+[2018.09.14-18.57.00:108][847]MaterialEditorStats: Base pass vertex shader: 88 instructions
+[2018.09.14-18.57.00:108][847]MaterialEditorStats: Texture samplers: 3/16
+[2018.09.14-18.57.10:807][480]LogEditorViewport: Clicking on Actor (LMB): BasicDesk_WhiteTop_C (BasicDesk3)
+[2018.09.14-18.57.13:018][610]LogEditorViewport: Clicking on Actor (LMB): BasicDesk_WhiteTop_C (BasicDesk4)
+[2018.09.14-18.57.14:346][688]LogEditorViewport: Clicking on Actor (LMB): BasicDesk_WoodTop_C (BasicDesk_WoodTop)
+[2018.09.14-18.57.15:347][746]LogEditorViewport: Clicking on Actor (LMB): BasicDesk_WhiteTop_C (BasicDesk4)
+[2018.09.14-18.57.22:015][141]LogEditorViewport: Clicking on Actor (LMB): BasicDesk_WoodTop_C (BasicDesk_WoodTop2)
+[2018.09.14-18.57.22:985][197]LogEditorViewport: Clicking on Actor (LMB): BasicDesk_WoodTop_C (BasicDesk_WoodTop2)
+[2018.09.14-18.57.27:138][444]LogEditorViewport: Clicking on Actor (LMB): BasicDesk_WoodTop_C (BasicDesk_WoodTop3)
+[2018.09.14-18.57.29:990][613]LogEditorViewport: Clicking on Actor (LMB): BasicDesk_WoodTop_C (BasicDesk_WoodTop4)
+[2018.09.14-18.57.38:807][138]LogEditorViewport: Clicking on Actor (LMB): BasicDesk_WhiteTop_C (BasicDesk4)
+[2018.09.14-18.57.42:205][339]LogEditorViewport: Clicking on Actor (LMB): BasicDesk_WhiteTop_C (BasicDesk3)
+[2018.09.14-18.57.47:785][670]LogEditorViewport: Clicking on Actor (LMB): BasicDesk_WhiteTop_C (BasicDesk4)
+[2018.09.14-18.57.53:812][ 27]LogEditorViewport: Clicking on Actor (LMB): BasicDesk_WhiteTop_C (BasicDesk2)
+[2018.09.14-18.57.54:756][ 81]LogEditorViewport: Clicking on Actor (CTRL LMB): BasicDesk_WhiteTop_C (BasicDesk)
+[2018.09.14-18.57.55:614][131]Cmd: DELETE
+[2018.09.14-18.57.55:615][131]Cmd: ACTOR DELETE
+[2018.09.14-18.57.55:619][131]LogEditorActor: Deleted Actor: BasicDesk_WhiteTop_C
+[2018.09.14-18.57.55:620][131]LogEditorActor: Deleted Actor: BasicDesk_WhiteTop_C
+[2018.09.14-18.57.55:657][131]LogEditorActor: Deleted 2 Actors (0.042 secs)
+[2018.09.14-18.57.56:409][176]LogEditorViewport: Clicking on Actor (LMB): BasicDesk_WhiteTop_C (BasicDesk3)
+[2018.09.14-18.57.57:701][252]LogEditorViewport: Clicking on Actor (CTRL LMB): BasicDesk_WhiteTop_C (BasicDesk4)
+[2018.09.14-18.57.59:108][335]Cmd: EDIT COPY
+[2018.09.14-18.58.00:441][415]Cmd: EDIT PASTE
+[2018.09.14-18.58.48:143][874]LogEditorViewport: Clicking on Actor (CTRL LMB): BasicDesk_WoodTop_C (BasicDesk_WoodTop)
+[2018.09.14-18.58.48:517][895]LogEditorViewport: Clicking on Actor (CTRL LMB): BasicDesk_WoodTop_C (BasicDesk_WoodTop3)
+[2018.09.14-18.58.49:142][931]LogEditorViewport: Clicking on Actor (CTRL LMB): BasicDesk_WoodTop_C (BasicDesk_WoodTop2)
+[2018.09.14-18.58.49:722][964]LogEditorViewport: Clicking on Actor (CTRL LMB): BasicDesk_WoodTop_C (BasicDesk_WoodTop4)
+[2018.09.14-18.58.50:215][992]LogEditorViewport: Clicking on Actor (CTRL LMB): BasicDesk_WhiteTop_C (BasicDesk3)
+[2018.09.14-18.58.50:727][ 21]LogEditorViewport: Clicking on Actor (CTRL LMB): BasicDesk_WhiteTop_C (BasicDesk4)
+[2018.09.14-18.58.51:500][ 66]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-18.59.05:961][473]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-18.59.12:224][847]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-18.59.16:296][ 90]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-18.59.19:197][262]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-18.59.44:826][ 13]LogEditorViewport: Clicking on Actor (LMB): BasicDesk_WhiteTop_C (BasicDesk5)
+[2018.09.14-18.59.45:389][ 45]LogEditorViewport: Clicking on Actor (CTRL LMB): BasicDesk_WhiteTop_C (BasicDesk6)
+[2018.09.14-18.59.46:464][108]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-18.59.54:393][583]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.14-18.59.54:878][612]LogEditorViewport: Clicking on Actor (LMB): BasicDesk_WhiteTop_C (BasicDesk5)
+[2018.09.14-19.00.02:572][ 69]LogEditorViewport: Clicking on Actor (LMB): BasicDesk_WhiteTop_C (BasicDesk6)
+[2018.09.14-19.00.05:327][230]LogEditorViewport: Clicking on Actor (LMB): BasicDesk_WhiteTop_C (BasicDesk6)
+[2018.09.14-19.00.15:750][849]LogEditorViewport: Clicking on Actor (LMB): BasicDesk_WhiteTop_C (BasicDesk3)
+[2018.09.14-19.00.16:333][881]LogEditorViewport: Clicking on Actor (CTRL LMB): BasicDesk_WhiteTop_C (BasicDesk4)
+[2018.09.14-19.00.17:040][922]Cmd: DELETE
+[2018.09.14-19.00.17:040][922]Cmd: ACTOR DELETE
+[2018.09.14-19.00.17:045][922]LogEditorActor: Deleted Actor: BasicDesk_WhiteTop_C
+[2018.09.14-19.00.17:046][922]LogEditorActor: Deleted Actor: BasicDesk_WhiteTop_C
+[2018.09.14-19.00.17:097][922]LogEditorActor: Deleted 2 Actors (0.057 secs)
+[2018.09.14-19.00.18:690][ 18]LogEditorViewport: Clicking on Actor (LMB): BasicDesk_WhiteTop_C (BasicDesk6)
+[2018.09.14-19.00.19:802][ 83]LogEditorViewport: Clicking on Actor (CTRL LMB): BasicDesk_WhiteTop_C (BasicDesk5)
+[2018.09.14-19.00.40:805][332]Cmd: TRANSACTION UNDO
+[2018.09.14-19.00.40:805][332]LogEditorTransaction: Undo Move Actors
+[2018.09.14-19.00.40:810][332]LogMaterial: Display: Missing cached shader map for material BaseMat, compiling. 
+[2018.09.14-19.00.40:876][332]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.09.14-19.00.40:876][332]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.09.14-19.00.40:876][332]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.09.14-19.00.40:876][332]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.09.14-19.00.41:205][348]Cmd: TRANSACTION UNDO
+[2018.09.14-19.00.41:205][348]LogEditorTransaction: Undo Move Actors
+[2018.09.14-19.00.41:211][348]LogMaterial: Display: Missing cached shader map for material BaseMat, compiling. 
+[2018.09.14-19.00.41:389][355]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.09.14-19.00.41:420][357]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.09.14-19.00.41:437][358]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.09.14-19.00.41:437][358]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.09.14-19.00.41:445][358]Cmd: TRANSACTION UNDO
+[2018.09.14-19.00.41:445][358]LogEditorTransaction: Undo Move Actors
+[2018.09.14-19.00.41:452][358]LogMaterial: Display: Missing cached shader map for material BaseMat, compiling. 
+[2018.09.14-19.00.41:626][366]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.09.14-19.00.41:626][366]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.09.14-19.00.41:643][367]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.09.14-19.00.41:652][367]Cmd: TRANSACTION UNDO
+[2018.09.14-19.00.41:652][367]LogEditorTransaction: Undo Move Actors
+[2018.09.14-19.00.41:658][367]LogMaterial: Display: Missing cached shader map for material BaseMat, compiling. 
+[2018.09.14-19.00.41:670][367]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.09.14-19.00.41:839][375]Cmd: TRANSACTION UNDO
+[2018.09.14-19.00.41:839][375]LogEditorTransaction: Undo Move Actors
+[2018.09.14-19.00.41:847][375]LogMaterial: Display: Missing cached shader map for material BaseMat, compiling. 
+[2018.09.14-19.00.41:918][376]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.09.14-19.00.41:918][376]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.09.14-19.00.41:918][376]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.09.14-19.00.41:927][377]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.09.14-19.00.42:110][388]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.09.14-19.00.42:125][389]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.09.14-19.00.42:125][389]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.09.14-19.00.42:125][389]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.09.14-19.00.42:252][396]Cmd: TRANSACTION UNDO
+[2018.09.14-19.00.42:252][396]LogEditorTransaction: Undo Move Actors
+[2018.09.14-19.00.42:263][396]LogMaterial: Display: Missing cached shader map for material BaseMat, compiling. 
+[2018.09.14-19.00.42:326][397]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.09.14-19.00.42:326][397]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.09.14-19.00.42:326][397]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.09.14-19.00.42:326][397]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.09.14-19.00.42:502][408]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.09.14-19.00.42:519][409]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.09.14-19.00.42:535][410]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.09.14-19.00.42:535][410]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.09.14-19.00.42:660][417]Cmd: TRANSACTION UNDO
+[2018.09.14-19.00.42:660][417]LogEditorTransaction: Undo Move Actors
+[2018.09.14-19.00.42:667][417]LogMaterial: Display: Missing cached shader map for material BaseMat, compiling. 
+[2018.09.14-19.00.42:681][417]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.09.14-19.00.42:681][417]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.09.14-19.00.42:730][418]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.09.14-19.00.42:730][418]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.09.14-19.00.42:923][430]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.09.14-19.00.42:938][431]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.09.14-19.00.42:938][431]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.09.14-19.00.42:954][432]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.09.14-19.00.43:089][440]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.09.14-19.00.43:106][441]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.09.14-19.00.43:106][441]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.09.14-19.00.43:121][442]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.09.14-19.00.43:256][450]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.09.14-19.00.43:440][461]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.09.14-19.00.43:605][471]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.09.14-19.00.43:622][472]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.09.14-19.00.43:740][479]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.09.14-19.00.43:941][491]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.09.14-19.00.43:957][492]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.09.14-19.00.44:157][504]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.14-19.00.44:273][511]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.14-19.00.44:580][529]MaterialEditorStats: Base pass shader: 157 instructions
+[2018.09.14-19.00.44:581][529]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 230 instructions
+[2018.09.14-19.00.44:581][529]MaterialEditorStats: Base pass vertex shader: 88 instructions
+[2018.09.14-19.00.44:581][529]MaterialEditorStats: Texture samplers: 3/16
+[2018.09.14-19.00.44:813][543]Cmd: EDIT COPY
+[2018.09.14-19.00.45:865][606]Cmd: EDIT PASTE
+[2018.09.14-19.00.56:825][253]LogEditorViewport: Clicking on Actor (LMB): BasicDesk_WhiteTop_C (BasicDesk8)
+[2018.09.14-19.00.58:171][332]LogEditorViewport: Clicking on Actor (CTRL LMB): BasicDesk_WhiteTop_C (BasicDesk7)
+[2018.09.14-19.01.40:547][866]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.14-19.01.40:712][866]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/CriminologyMap_Auto447D301394008D32C25CE149A654805C7.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/237_Criminology/Maps/CriminologyMap_Auto4.umap'
+[2018.09.14-19.01.40:716][866]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/237_Criminology/Maps/CriminologyMap' took 0.132
+[2018.09.14-19.01.40:716][866]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.132
+[2018.09.14-19.01.40:718][866]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Classes/237_Criminology/VR_World_Interaction/Materials/Mat_WallBeige] ([1] browsable assets)...
+[2018.09.14-19.01.40:718][866]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/237_Criminology/VR_World_Interaction/Materials/Mat_WallBeige]
+[2018.09.14-19.01.40:757][866]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_WallBeige, compiling. 
+[2018.09.14-19.01.41:190][866]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.14-19.01.41:192][866]TextureStreamingBuild: Display: Compiling optional shaders took 0.438 seconds.
+[2018.09.14-19.01.41:233][866]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Mat_WallBeige_Auto42B2EAD944D6C1CC3BBF155A9FDA34A1E.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/237_Criminology/VR_World_Interaction/Materials/Mat_WallBeige_Auto4.uasset'
+[2018.09.14-19.01.41:234][866]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Classes/237_Criminology/VR_World_Interaction/Materials/Mat_WallBlue] ([1] browsable assets)...
+[2018.09.14-19.01.41:234][866]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/237_Criminology/VR_World_Interaction/Materials/Mat_WallBlue]
+[2018.09.14-19.01.41:269][866]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_WallBlue, compiling. 
+[2018.09.14-19.01.41:429][866]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.14-19.01.41:430][866]TextureStreamingBuild: Display: Compiling optional shaders took 0.164 seconds.
+[2018.09.14-19.01.41:471][866]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Mat_WallBlue_Auto4B51F16664E5717FAF58A7B89B3F964AE.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/237_Criminology/VR_World_Interaction/Materials/Mat_WallBlue_Auto4.uasset'
+[2018.09.14-19.01.41:472][866]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Classes/221_InteriorDesign/Assets/Desk/DESK] ([1] browsable assets)...
+[2018.09.14-19.01.41:485][866]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Classes/221_InteriorDesign/Assets/Desk/DESK.DESK]
+[2018.09.14-19.01.41:485][866]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/221_InteriorDesign/Assets/Desk/DESK]
+[2018.09.14-19.01.41:546][866]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/DESK_Auto4A6F5C59D47606F92B7BEFAB47AB7A34B.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/221_InteriorDesign/Assets/Desk/DESK_Auto4.uasset'
+[2018.09.14-19.01.41:547][866]LogFileHelpers: Auto-saving content packages took 0.830
+[2018.09.14-19.03.49:964][533]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/CriminologyMap7EACDCF84E3C42FB36E78BA87833C001.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap'
+[2018.09.14-19.03.50:005][533]LogFileHelpers: Saving map 'CriminologyMap' took 0.229
+[2018.09.14-19.03.50:041][533]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/CriminologyMap_BuiltData649CBE604795796962B58EA929C999F9.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap_BuiltData.uasset'
+[2018.09.14-19.03.50:086][533]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_WallBeige, compiling. 
+[2018.09.14-19.03.50:506][533]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.14-19.03.50:507][533]TextureStreamingBuild: Display: Compiling optional shaders took 0.425 seconds.
+[2018.09.14-19.03.50:539][533]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Mat_WallBeigeDD21C1D14083D648BE23398058183030.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Materials/Mat_WallBeige.uasset'
+[2018.09.14-19.03.50:586][533]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_WallBlue, compiling. 
+[2018.09.14-19.03.50:756][533]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.14-19.03.50:757][533]TextureStreamingBuild: Display: Compiling optional shaders took 0.174 seconds.
+[2018.09.14-19.03.50:801][533]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Mat_WallBlueF4A924E74F54447DEFA3B78FE8B99A59.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Materials/Mat_WallBlue.uasset'
+[2018.09.14-19.03.50:866][533]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/DESKF16007124B2A0C068FA1E2BF83FDDFEC.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/Desk/DESK.uasset'
+[2018.09.14-19.03.50:898][533]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/CriminologyMap_BuiltDataD9A4398F49853918AD8DFB879E57A88E.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap_BuiltData.uasset'
+[2018.09.14-19.04.15:968][ 35]LogSlate: FSceneViewport::OnFocusLost() reason 0
