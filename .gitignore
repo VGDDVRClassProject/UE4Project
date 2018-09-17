@@ -31,7 +31,7 @@
 
 # Executables
 *.exe
-*.out
+*.out  
 *.app
 *.ipa
 
@@ -81,3 +81,4 @@ DerivedDataCache/*
 # End of https://www.gitignore.io/api/unrealengine
 Project/Saved/Autosaves/PackageRestoreData.json
 Project/Intermediate/CachedAssetRegistry.bin
+Project/Intermediate/CachedAssetRegistry.bin  
