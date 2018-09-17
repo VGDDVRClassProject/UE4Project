@@ -1,4 +1,4 @@
-﻿Log file open, 09/17/18 13:09:04
+﻿Log file open, 09/17/18 15:54:54
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: VRTests
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.278041
+LogStats: Stats thread started at 0.278526
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -4:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.069s to configure plugins.
+LogStreaming: Display: Took  0.076s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -123,8 +123,8 @@ LogInit: Compiled (64-bit): Aug 21 2018 02:06:06
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
-LogInit: Command Line:  
-LogInit: Base Directory: D:/Program Files (x86)/4.20/UE_4.20/Engine/Binaries/Win64/
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
 LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
@@ -147,401 +147,253 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.001s to delete old logs.
+LogStreaming: Display: Took  0.000s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.09.17-16.09.05:169][  0]LogInit: Selected Device Profile: [Windows]
-[2018.09.17-16.09.05:169][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.09.17-16.09.05:183][  0]LogHAL: Display: Platform has ~ 16 GB [17046728704 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.09.17-16.09.05:183][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.09.17-16.09.05:183][  0]LogInit: Going up to parent DeviceProfile []
-[2018.09.17-16.09.05:183][  0]LogInit: Computer: DESKTOP-LV3OVPQ
-[2018.09.17-16.09.05:183][  0]LogInit: User: Jim
-[2018.09.17-16.09.05:183][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.09.17-16.09.05:183][  0]LogInit: High frequency timer resolution =2.742187 MHz
-[2018.09.17-16.09.05:183][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.09.17-16.09.05:183][  0]LogMemory: Platform Memory Stats for Windows
-[2018.09.17-16.09.05:183][  0]LogMemory: Process Physical Memory: 101.60 MB used, 101.60 MB peak
-[2018.09.17-16.09.05:184][  0]LogMemory: Process Virtual Memory: 93.14 MB used, 93.14 MB peak
-[2018.09.17-16.09.05:184][  0]LogMemory: Physical Memory: 6890.18 MB used,  9366.85 MB free, 16257.03 MB total
-[2018.09.17-16.09.05:184][  0]LogMemory: Virtual Memory: 4646.96 MB used,  9366.85 MB free, 134217728.00 MB total
-[2018.09.17-16.09.05:501][  0]LogInit: Using OS detected language (en-US).
-[2018.09.17-16.09.05:501][  0]LogInit: Using OS detected locale (en-CA).
-[2018.09.17-16.09.05:501][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.09.17-16.09.05:874][  0]LogStreaming: Display: Took  0.374s to InitEngineTextLocalization.
-[2018.09.17-16.09.05:917][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.09.17-16.09.05:917][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.09.17-16.09.06:102][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.09.17-16.09.06:102][  0]LogD3D11RHI: D3D11 adapters:
-[2018.09.17-16.09.06:160][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2018.09.17-16.09.06:160][  0]LogD3D11RHI:       8089/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.09.17-16.09.06:685][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2018.09.17-16.09.06:685][  0]LogD3D11RHI:       128/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.09.17-16.09.06:690][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.09.17-16.09.06:690][  0]LogD3D11RHI:       0/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.09.17-16.09.06:690][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.09.17-16.09.06:744][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.09.17-16.09.06:744][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
-[2018.09.17-16.09.06:744][  0]LogWindows: EnumDisplayDevices:
-[2018.09.17-16.09.06:744][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2018.09.17-16.09.06:745][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.09.17-16.09.06:745][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.09.17-16.09.06:746][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.09.17-16.09.06:746][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.09.17-16.09.06:747][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.09.17-16.09.06:747][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.09.17-16.09.06:748][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2018.09.17-16.09.06:748][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2018.09.17-16.09.06:748][  0]LogD3D11RHI:   Driver Version: 389.12 (internal:23.21.13.8912, unified:389.12)
-[2018.09.17-16.09.06:748][  0]LogD3D11RHI:      Driver Date: 3-7-2018
-[2018.09.17-16.09.06:748][  0]LogRHI: Texture pool is 5662 MB (70% of 8089 MB)
-[2018.09.17-16.09.06:785][  0]LogD3D11RHI: Async texture creation enabled
-[2018.09.17-16.09.06:839][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.09.17-16.09.06:886][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (../../../../../../VRPROJECT/interior design/UE4Project/Project/Intermediate/Shaders/WorkingDirectory/8608/).
-[2018.09.17-16.09.06:886][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jim/AppData/Local/Temp/UnrealShaderWorkingDir/E9F522564C2AF6F194B48CA7CD5812A2/'.
-[2018.09.17-16.09.07:165][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.09.17-16.09.07:180][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.09.17-16.09.07:193][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.09.17-16.09.07:205][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.09.17-16.09.07:218][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.09.17-16.09.07:231][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.09.17-16.09.07:244][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.09.17-16.09.07:257][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.09.17-16.09.07:263][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.09.17-16.09.07:342][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-16.09.07:342][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-16.09.07:342][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-16.09.07:342][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-16.09.07:342][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-16.09.07:342][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-16.09.07:342][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-16.09.07:342][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-16.09.07:342][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-16.09.07:342][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-16.09.07:342][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-16.09.07:342][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-16.09.07:342][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-16.09.07:342][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-16.09.07:342][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-16.09.07:342][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-16.09.07:342][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-16.09.07:342][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-16.09.07:343][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.09.17-16.09.07:403][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.09.17-16.09.07:403][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.09.17-16.09.07:427][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.09.17-16.09.07:427][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.09.17-16.09.07:440][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.09.17-16.09.07:452][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.09.17-16.09.07:465][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.09.17-16.09.07:478][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.09.17-16.09.07:486][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.09.17-16.09.07:486][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.09.17-16.09.07:531][  0]LogXGEController: Cleaning working directory: C:/Users/Jim/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.09.17-16.09.07:531][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.09.17-16.09.07:531][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.09.17-16.09.07:531][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.09.17-16.09.08:244][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.09.17-16.09.08:304][  0]LogDerivedDataCache: Loaded boot cache 0.06s 86MB C:/Users/Jim/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.09.17-16.09.08:304][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Jim/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2018.09.17-16.09.08:304][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../VRPROJECT/interior design/UE4Project/Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.09.17-16.09.08:304][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.09.17-16.09.08:304][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../VRPROJECT/interior design/UE4Project/Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.09.17-16.09.08:304][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.09.17-16.09.08:318][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.09.17-16.09.08:330][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jim/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.09.17-16.09.08:330][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.09.17-16.09.08:330][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.09.17-16.09.08:349][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.09.17-16.09.08:350][  0]LogSlate: Using FreeType 2.6.0
-[2018.09.17-16.09.08:351][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.09.17-16.09.08:425][  0]LogAssetRegistry: FAssetRegistry took 0.0261 seconds to start up
-[2018.09.17-16.09.08:740][  0]LogInit: Selected Device Profile: [Windows]
-[2018.09.17-16.09.08:867][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.09.17-16.09.08:869][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.09.17-16.09.08:869][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.09.17-16.09.08:869][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.09.17-16.09.08:869][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.09.17-16.09.08:891][  0]LogNetVersion: VRTests 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4138015713)
-[2018.09.17-16.09.09:405][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.086044 seconds
-[2018.09.17-16.09.09:412][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2018.09.17-16.09.09:412][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
-[2018.09.17-16.09.09:412][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.09.17-16.09.10:249][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.09.17-16.09.10:261][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.09.17-16.09.10:454][  0]SourceControl: Source control is disabled
-[2018.09.17-16.09.10:454][  0]SourceControl: Source control is disabled
-[2018.09.17-16.09.10:455][  0]SourceControl: Source control is disabled
-[2018.09.17-16.09.10:457][  0]SourceControl: Source control is disabled
-[2018.09.17-16.09.10:608][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.09.17-16.09.10:662][  0]LogOcInput: OculusInput pre-init called
-[2018.09.17-16.09.10:720][  0]LogEngine: Initializing Engine...
-[2018.09.17-16.09.10:721][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.09.17-16.09.10:722][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.09.17-16.09.10:722][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.09.17-16.09.10:722][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.09.17-16.09.10:722][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.09.17-16.09.10:942][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.09.17-16.09.10:950][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.09.17-16.09.11:009][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2018.09.17-16.09.11:564][  0]LogInit: FAudioDevice initialized.
-[2018.09.17-16.09.11:564][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.09.17-16.09.11:646][  0]LogDerivedDataCache: Saved boot cache 0.08s 86MB C:/Users/Jim/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.09.17-16.09.11:656][  0]LogInit: Texture streaming: Enabled
-[2018.09.17-16.09.11:669][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.09.17-16.09.11:680][  0]LogInit: Transaction tracking system initialized
-[2018.09.17-16.09.11:693][  0]BlueprintLog: New page: Editor Load
-[2018.09.17-16.09.11:747][  0]LocalizationService: Localization service is disabled
-[2018.09.17-16.09.12:173][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.09.17-16.09.12:173][  0]LogCook: Display: Mobile HDR setting 1
-[2018.09.17-16.09.12:173][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.09.17-16.09.12:173][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.09.17-16.09.12:173][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.09.17-16.09.12:173][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.09.17-16.09.12:173][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.09.17-16.09.12:271][  0]LogFileCache: Scanning file cache for directory 'D:/VRPROJECT/interior design/UE4Project/Project/Content/' took 0.02s
-[2018.09.17-16.09.12:272][  0]SourceControl: Source control is disabled
-[2018.09.17-16.09.12:272][  0]Cmd: MAP LOAD FILE="../../../../../../VRPROJECT/interior design/UE4Project/Project/Content/DefaultProject/Map/DefaultMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.09.17-16.09.12:272][  0]LightingResults: New page: Lighting Build
-[2018.09.17-16.09.12:275][  0]MapCheck: New page: Map Check
-[2018.09.17-16.09.12:275][  0]LightingResults: New page: Lighting Build
-[2018.09.17-16.09.12:322][  0]LogAIModule: Creating AISystem for world DefaultMap
-[2018.09.17-16.09.12:326][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.09.17-16.09.12:347][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.09.17-16.09.12:390][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 42.525ms to complete.
-[2018.09.17-16.09.12:390][  0]LogFileHelpers: Loading map 'DefaultMap' took 0.118
-[2018.09.17-16.09.12:519][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.17-16.09.12:526][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.17-16.09.12:534][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.17-16.09.12:541][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.17-16.09.12:549][  0]LogCollectionManager: Loaded 0 collections in 0.000661 seconds
-[2018.09.17-16.09.12:592][  0]LogFileCache: Scanning file cache for directory 'D:/VRPROJECT/interior design/UE4Project/Project/Saved/Collections/' took 0.01s
-[2018.09.17-16.09.12:592][  0]LogFileCache: Scanning file cache for directory 'D:/VRPROJECT/interior design/UE4Project/Project/Content/Developers/Jim/Collections/' took 0.01s
-[2018.09.17-16.09.12:592][  0]LogFileCache: Scanning file cache for directory 'D:/VRPROJECT/interior design/UE4Project/Project/Content/Collections/' took 0.01s
-[2018.09.17-16.09.12:592][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.09.17-16.09.12:602][  0]LogContentBrowser: Native class hierarchy populated in 0.0098 seconds. Added 2572 classes and 603 folders.
-[2018.09.17-16.09.12:607][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.09.17-16.09.12:934][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2018.09.17-16.09.12:948][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.09.17-16.09.12:993][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.09.17-16.09.12:993][  0]LogLoad: (Engine Initialization) Total time: 9.20 seconds
-[2018.09.17-16.09.12:993][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.09.17-16.09.13:015][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.09.17-16.09.13:048][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.09.17-16.09.13:050][  0]LogSlate: Took 0.000120 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.09.17-16.09.13:051][  0]LogSlate: Took 0.000125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.09.17-16.09.13:061][  0]LogSlate: Took 0.004636 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.09.17-16.09.13:220][  1]LogRenderer: Reallocating scene render targets to support 676x268 Format 26 NumSamples 1 (Frame:1).
-[2018.09.17-16.09.13:306][  2]LogAssetRegistry: Asset discovery search completed in 4.9038 seconds
-[2018.09.17-16.09.13:308][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.09.17-16.09.13:308][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000089 seconds (updated 0 objects)
-[2018.09.17-16.09.18:228][297]LogFileCache: Retrieving MD5 hashes for directory 'D:/VRPROJECT/interior design/UE4Project/Project/Content/' took 5.20s
-[2018.09.17-16.09.18:979][342]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.17-16.09.20:570][419]LogActorFactory: Actor Factory created Bed1_SM
-[2018.09.17-16.09.21:099][450]LogActorFactory: Actor Factory created Bed1_SM
-[2018.09.17-16.09.26:301][755]Cmd: DELETE
-[2018.09.17-16.09.26:301][755]Cmd: ACTOR DELETE
-[2018.09.17-16.09.26:303][755]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.09.17-16.09.26:327][755]LogEditorActor: Deleted 1 Actors (0.026 secs)
-[2018.09.17-16.09.38:248][467]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.17-16.09.41:625][664]LogSlate: Took 0.003840 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.09.17-16.09.41:633][664]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Classes/221_InteriorDesign/Assets/Tablet_widget.Tablet_widget
-[2018.09.17-16.09.41:964][664]LogClass: Warning: Enum '/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/FeedbackEffects/EFeedbackType.EFeedbackType' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
-[2018.09.17-16.09.41:964][664]LogClass: Warning: Enum '/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/FeedbackEffects/EFeedbackIntensity.EFeedbackIntensity' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
-[2018.09.17-16.09.42:207][664]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
-[2018.09.17-16.09.43:428][664]LogSlate: Took 0.003469 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.09.17-16.10.44:733][324]LogActorFactory: Actor Factory created Bed1_SM
-[2018.09.17-16.10.45:595][375]LogActorFactory: Actor Factory created Bed1_SM
-[2018.09.17-16.10.47:499][486]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.17-16.10.47:853][490]LogActorFactory: Actor Factory created Bush_Plant_SM
-[2018.09.17-16.10.48:167][509]LogActorFactory: Actor Factory created Bush_Plant_SM
-[2018.09.17-16.10.51:377][699]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bed1_SM)
-[2018.09.17-16.10.58:568][127]Cmd: TRANSACTION UNDO
-[2018.09.17-16.10.58:568][127]LogEditorTransaction: Undo Clicking on Actors
-[2018.09.17-16.10.59:548][183]Cmd: TRANSACTION UNDO
-[2018.09.17-16.10.59:548][183]LogEditorTransaction: Undo Create Actors
-[2018.09.17-16.11.00:544][237]Cmd: TRANSACTION UNDO
-[2018.09.17-16.11.00:544][237]LogEditorTransaction: Undo Create Actors
-[2018.09.17-16.11.11:632][901]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.17-16.11.14:035][ 45]LogActorFactory: Actor Factory created Bed1_SM
-[2018.09.17-16.11.14:296][ 59]LogActorFactory: Actor Factory created Bed1_SM
-[2018.09.17-16.11.20:238][402]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.17-16.11.27:012][806]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bed1_SM)
-[2018.09.17-16.11.27:330][825]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Bed1_SM)
-[2018.09.17-16.11.27:406][825]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.17-16.11.31:654][ 75]Cmd: EDIT CUT
-[2018.09.17-16.11.31:661][ 75]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.09.17-16.11.31:697][ 75]LogEditorActor: Deleted 1 Actors (0.037 secs)
-[2018.09.17-16.11.35:654][310]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.17-16.11.36:348][346]LogRenderer: Reallocating scene render targets to support 676x332 Format 26 NumSamples 1 (Frame:1604).
-[2018.09.17-16.11.36:389][349]LogActorFactory: Actor Factory created globe_SM
-[2018.09.17-16.11.36:593][361]LogActorFactory: Actor Factory created globe_SM
-[2018.09.17-16.11.39:533][534]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (globe_SM)
-[2018.09.17-16.11.40:604][598]Cmd: DELETE
-[2018.09.17-16.11.40:604][598]Cmd: ACTOR DELETE
-[2018.09.17-16.11.40:605][598]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.09.17-16.11.40:633][598]LogEditorActor: Deleted 1 Actors (0.029 secs)
-[2018.09.17-16.12.15:623][693]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.17-16.18.28:700][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCone1'
-[2018.09.17-16.18.28:700][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCone1' while loading ../../../../../../VRPROJECT/interior design/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/tablet_full.uasset.
-[2018.09.17-16.18.28:700][ 14]LoadErrors: Error: /Game/Classes/221_InteriorDesign/Assets/tablet_full : Can't find file for asset. /Game/Classes/221_InteriorDesign/Assets/tablet_pCone1
-[2018.09.17-16.18.28:700][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube1'
-[2018.09.17-16.18.28:700][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube1' while loading ../../../../../../VRPROJECT/interior design/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/tablet_full.uasset.
-[2018.09.17-16.18.28:700][ 14]LoadErrors: Error: /Game/Classes/221_InteriorDesign/Assets/tablet_full : Can't find file for asset. /Game/Classes/221_InteriorDesign/Assets/tablet_pCube1
-[2018.09.17-16.18.28:701][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube2'
-[2018.09.17-16.18.28:701][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube2' while loading ../../../../../../VRPROJECT/interior design/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/tablet_full.uasset.
-[2018.09.17-16.18.28:701][ 14]LoadErrors: Error: /Game/Classes/221_InteriorDesign/Assets/tablet_full : Can't find file for asset. /Game/Classes/221_InteriorDesign/Assets/tablet_pCube2
-[2018.09.17-16.18.28:701][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube3'
-[2018.09.17-16.18.28:701][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube3' while loading ../../../../../../VRPROJECT/interior design/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/tablet_full.uasset.
-[2018.09.17-16.18.28:701][ 14]LoadErrors: Error: /Game/Classes/221_InteriorDesign/Assets/tablet_full : Can't find file for asset. /Game/Classes/221_InteriorDesign/Assets/tablet_pCube3
-[2018.09.17-16.18.28:701][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube4'
-[2018.09.17-16.18.28:701][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube4' while loading ../../../../../../VRPROJECT/interior design/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/tablet_full.uasset.
-[2018.09.17-16.18.28:701][ 14]LoadErrors: Error: /Game/Classes/221_InteriorDesign/Assets/tablet_full : Can't find file for asset. /Game/Classes/221_InteriorDesign/Assets/tablet_pCube4
-[2018.09.17-16.18.28:701][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube5'
-[2018.09.17-16.18.28:701][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube5' while loading ../../../../../../VRPROJECT/interior design/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/tablet_full.uasset.
-[2018.09.17-16.18.28:701][ 14]LoadErrors: Error: /Game/Classes/221_InteriorDesign/Assets/tablet_full : Can't find file for asset. /Game/Classes/221_InteriorDesign/Assets/tablet_pCube5
-[2018.09.17-16.18.28:702][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCylinder1'
-[2018.09.17-16.18.28:702][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCylinder1' while loading ../../../../../../VRPROJECT/interior design/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/tablet_full.uasset.
-[2018.09.17-16.18.28:702][ 14]LoadErrors: Error: /Game/Classes/221_InteriorDesign/Assets/tablet_full : Can't find file for asset. /Game/Classes/221_InteriorDesign/Assets/tablet_pCylinder1
-[2018.09.17-16.18.28:702][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCylinder2'
-[2018.09.17-16.18.28:702][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCylinder2' while loading ../../../../../../VRPROJECT/interior design/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/tablet_full.uasset.
-[2018.09.17-16.18.28:702][ 14]LoadErrors: Error: /Game/Classes/221_InteriorDesign/Assets/tablet_full : Can't find file for asset. /Game/Classes/221_InteriorDesign/Assets/tablet_pCylinder2
-[2018.09.17-16.18.28:702][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pSphere1'
-[2018.09.17-16.18.28:702][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pSphere1' while loading ../../../../../../VRPROJECT/interior design/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/tablet_full.uasset.
-[2018.09.17-16.18.28:702][ 14]LoadErrors: Error: /Game/Classes/221_InteriorDesign/Assets/tablet_full : Can't find file for asset. /Game/Classes/221_InteriorDesign/Assets/tablet_pSphere1
-[2018.09.17-16.18.28:702][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pSphere2'
-[2018.09.17-16.18.28:702][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pSphere2' while loading ../../../../../../VRPROJECT/interior design/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/tablet_full.uasset.
-[2018.09.17-16.18.28:702][ 14]LoadErrors: Error: /Game/Classes/221_InteriorDesign/Assets/tablet_full : Can't find file for asset. /Game/Classes/221_InteriorDesign/Assets/tablet_pSphere2
-[2018.09.17-16.18.28:703][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pTorus1'
-[2018.09.17-16.18.28:703][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pTorus1' while loading ../../../../../../VRPROJECT/interior design/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/tablet_full.uasset.
-[2018.09.17-16.18.28:703][ 14]LoadErrors: Error: /Game/Classes/221_InteriorDesign/Assets/tablet_full : Can't find file for asset. /Game/Classes/221_InteriorDesign/Assets/tablet_pTorus1
-[2018.09.17-16.18.28:703][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCone1'
-[2018.09.17-16.18.28:703][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCone1' while loading ../../../../../../VRPROJECT/interior design/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/tablet_full.uasset.
-[2018.09.17-16.18.28:703][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube1'
-[2018.09.17-16.18.28:703][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube1' while loading ../../../../../../VRPROJECT/interior design/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/tablet_full.uasset.
-[2018.09.17-16.18.28:703][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube2'
-[2018.09.17-16.18.28:703][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube2' while loading ../../../../../../VRPROJECT/interior design/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/tablet_full.uasset.
-[2018.09.17-16.18.28:703][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube3'
-[2018.09.17-16.18.28:704][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube3' while loading ../../../../../../VRPROJECT/interior design/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/tablet_full.uasset.
-[2018.09.17-16.18.28:704][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube4'
-[2018.09.17-16.18.28:704][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube4' while loading ../../../../../../VRPROJECT/interior design/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/tablet_full.uasset.
-[2018.09.17-16.18.28:704][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube5'
-[2018.09.17-16.18.28:704][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube5' while loading ../../../../../../VRPROJECT/interior design/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/tablet_full.uasset.
-[2018.09.17-16.18.28:704][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCylinder1'
-[2018.09.17-16.18.28:704][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCylinder1' while loading ../../../../../../VRPROJECT/interior design/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/tablet_full.uasset.
-[2018.09.17-16.18.28:704][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCylinder2'
-[2018.09.17-16.18.28:705][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCylinder2' while loading ../../../../../../VRPROJECT/interior design/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/tablet_full.uasset.
-[2018.09.17-16.18.28:705][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pSphere1'
-[2018.09.17-16.18.28:705][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pSphere1' while loading ../../../../../../VRPROJECT/interior design/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/tablet_full.uasset.
-[2018.09.17-16.18.28:705][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pSphere2'
-[2018.09.17-16.18.28:705][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pSphere2' while loading ../../../../../../VRPROJECT/interior design/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/tablet_full.uasset.
-[2018.09.17-16.18.28:705][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pTorus1'
-[2018.09.17-16.18.28:705][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pTorus1' while loading ../../../../../../VRPROJECT/interior design/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/tablet_full.uasset.
-[2018.09.17-16.18.28:706][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCone1'
-[2018.09.17-16.18.28:706][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCone1' while loading NULL.
-[2018.09.17-16.18.28:706][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube1'
-[2018.09.17-16.18.28:706][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube1' while loading NULL.
-[2018.09.17-16.18.28:706][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube2'
-[2018.09.17-16.18.28:706][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube2' while loading NULL.
-[2018.09.17-16.18.28:707][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube3'
-[2018.09.17-16.18.28:707][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube3' while loading NULL.
-[2018.09.17-16.18.28:707][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube4'
-[2018.09.17-16.18.28:707][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube4' while loading NULL.
-[2018.09.17-16.18.28:707][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube5'
-[2018.09.17-16.18.28:707][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube5' while loading NULL.
-[2018.09.17-16.18.28:707][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCylinder1'
-[2018.09.17-16.18.28:707][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCylinder1' while loading NULL.
-[2018.09.17-16.18.28:707][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCylinder2'
-[2018.09.17-16.18.28:707][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCylinder2' while loading NULL.
-[2018.09.17-16.18.28:707][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pSphere1'
-[2018.09.17-16.18.28:708][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pSphere1' while loading NULL.
-[2018.09.17-16.18.28:708][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pSphere2'
-[2018.09.17-16.18.28:708][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pSphere2' while loading NULL.
-[2018.09.17-16.18.28:708][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pTorus1'
-[2018.09.17-16.18.28:708][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pTorus1' while loading NULL.
-[2018.09.17-16.18.28:708][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCone1'
-[2018.09.17-16.18.28:708][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCone1' while loading NULL.
-[2018.09.17-16.18.28:708][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube1'
-[2018.09.17-16.18.28:708][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube1' while loading NULL.
-[2018.09.17-16.18.28:708][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube2'
-[2018.09.17-16.18.28:708][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube2' while loading NULL.
-[2018.09.17-16.18.28:708][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube3'
-[2018.09.17-16.18.28:709][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube3' while loading NULL.
-[2018.09.17-16.18.28:709][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube4'
-[2018.09.17-16.18.28:709][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube4' while loading NULL.
-[2018.09.17-16.18.28:709][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube5'
-[2018.09.17-16.18.28:709][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube5' while loading NULL.
-[2018.09.17-16.18.28:709][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCylinder1'
-[2018.09.17-16.18.28:709][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCylinder1' while loading NULL.
-[2018.09.17-16.18.28:709][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCylinder2'
-[2018.09.17-16.18.28:709][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCylinder2' while loading NULL.
-[2018.09.17-16.18.28:709][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pSphere1'
-[2018.09.17-16.18.28:709][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pSphere1' while loading NULL.
-[2018.09.17-16.18.28:710][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pSphere2'
-[2018.09.17-16.18.28:710][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pSphere2' while loading NULL.
-[2018.09.17-16.18.28:710][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pTorus1'
-[2018.09.17-16.18.28:710][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pTorus1' while loading NULL.
-[2018.09.17-16.18.28:711][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube2'
-[2018.09.17-16.18.28:711][ 14]LoadErrors: Failed to load /Game/Classes/221_InteriorDesign/Assets/tablet_pCube2.tablet_pCube2 Referenced by tablet_pCube2_GEN_VARIABLE
-[2018.09.17-16.18.28:711][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube2' while loading NULL.
-[2018.09.17-16.18.28:712][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCone1'
-[2018.09.17-16.18.28:712][ 14]LoadErrors: Failed to load /Game/Classes/221_InteriorDesign/Assets/tablet_pCone1.tablet_pCone1 Referenced by tablet_pCone1_GEN_VARIABLE
-[2018.09.17-16.18.28:712][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCone1' while loading NULL.
-[2018.09.17-16.18.28:712][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube1'
-[2018.09.17-16.18.28:712][ 14]LoadErrors: Failed to load /Game/Classes/221_InteriorDesign/Assets/tablet_pCube1.tablet_pCube1 Referenced by tablet_pCube1_GEN_VARIABLE
-[2018.09.17-16.18.28:712][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube1' while loading NULL.
-[2018.09.17-16.18.28:713][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube3'
-[2018.09.17-16.18.28:713][ 14]LoadErrors: Failed to load /Game/Classes/221_InteriorDesign/Assets/tablet_pCube3.tablet_pCube3 Referenced by tablet_pCube3_GEN_VARIABLE
-[2018.09.17-16.18.28:713][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube3' while loading NULL.
-[2018.09.17-16.18.28:713][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube4'
-[2018.09.17-16.18.28:713][ 14]LoadErrors: Failed to load /Game/Classes/221_InteriorDesign/Assets/tablet_pCube4.tablet_pCube4 Referenced by tablet_pCube4_GEN_VARIABLE
-[2018.09.17-16.18.28:714][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube4' while loading NULL.
-[2018.09.17-16.18.28:714][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube5'
-[2018.09.17-16.18.28:714][ 14]LoadErrors: Failed to load /Game/Classes/221_InteriorDesign/Assets/tablet_pCube5.tablet_pCube5 Referenced by tablet_pCube5_GEN_VARIABLE
-[2018.09.17-16.18.28:714][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube5' while loading NULL.
-[2018.09.17-16.18.28:714][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCylinder1'
-[2018.09.17-16.18.28:714][ 14]LoadErrors: Failed to load /Game/Classes/221_InteriorDesign/Assets/tablet_pCylinder1.tablet_pCylinder1 Referenced by tablet_pCylinder1_GEN_VARIABLE
-[2018.09.17-16.18.28:714][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCylinder1' while loading NULL.
-[2018.09.17-16.18.28:715][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pTorus1'
-[2018.09.17-16.18.28:715][ 14]LoadErrors: Failed to load /Game/Classes/221_InteriorDesign/Assets/tablet_pTorus1.tablet_pTorus1 Referenced by tablet_pTorus1_GEN_VARIABLE
-[2018.09.17-16.18.28:715][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pTorus1' while loading NULL.
-[2018.09.17-16.18.28:715][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pSphere2'
-[2018.09.17-16.18.28:715][ 14]LoadErrors: Failed to load /Game/Classes/221_InteriorDesign/Assets/tablet_pSphere2.tablet_pSphere2 Referenced by tablet_pSphere2_GEN_VARIABLE
-[2018.09.17-16.18.28:715][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pSphere2' while loading NULL.
-[2018.09.17-16.18.28:716][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pSphere1'
-[2018.09.17-16.18.28:716][ 14]LoadErrors: Failed to load /Game/Classes/221_InteriorDesign/Assets/tablet_pSphere1.tablet_pSphere1 Referenced by tablet_pSphere1_GEN_VARIABLE
-[2018.09.17-16.18.28:716][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pSphere1' while loading NULL.
-[2018.09.17-16.18.28:716][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCylinder2'
-[2018.09.17-16.18.28:717][ 14]LoadErrors: Failed to load /Game/Classes/221_InteriorDesign/Assets/tablet_pCylinder2.tablet_pCylinder2 Referenced by tablet_pCylinder2_GEN_VARIABLE
-[2018.09.17-16.18.28:717][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCylinder2' while loading NULL.
-[2018.09.17-16.18.28:738][ 14]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/221_InteriorDesign/Assets/tablet_full.tablet_full
-[2018.09.17-16.18.30:422][ 92]LogSlate: Took 0.003744 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.09.17-16.18.35:368][386]LogRenderer: Reallocating scene render targets to support 676x448 Format 26 NumSamples 1 (Frame:1).
-[2018.09.17-16.18.44:851][939]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.17-16.18.46:842][ 37]Cmd: TRANSACTION UNDO
-[2018.09.17-16.18.46:842][ 37]LogEditorTransaction: Undo Select Brush Surface
-[2018.09.17-16.18.48:781][151]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.17-16.18.50:130][232]LogEditorViewport: Clicking Background
-[2018.09.17-16.18.50:931][280]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.17-16.19.12:869][557]LogRenderer: Reallocating scene render targets to support 676x452 Format 26 NumSamples 1 (Frame:1259).
-[2018.09.17-16.19.21:080][985]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.17-16.19.25:500][244]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.17-16.19.25:599][250]LogSlate: Window 'tablet_full' being destroyed
-[2018.09.17-16.19.25:603][250]LogSlate: Window 'tablet_full' being destroyed
-[2018.09.17-16.20.07:345][748]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.17-16.20.07:749][748]LogSavePackage: Moving '../../../../../../VRPROJECT/interior design/UE4Project/Project/Saved/DefaultMap_Auto1D4F586784586105DF1E09ABE8A6BDBAD.tmp' to '../../../../../../VRPROJECT/interior design/UE4Project/Project/Saved/Autosaves/Game/DefaultProject/Map/DefaultMap_Auto1.umap'
-[2018.09.17-16.20.07:757][748]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/DefaultProject/Map/DefaultMap' took 0.394
-[2018.09.17-16.20.07:757][748]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.394
-[2018.09.17-16.20.19:512][453]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.17-16.22.47:356][144]LogAssetEditorManager: Opening Asset editor for PhysicsAsset /Game/Classes/221_InteriorDesign/Assets/Fans/CeilingFan1/CeilingFanLamp_PhysicsAsset.CeilingFanLamp_PhysicsAsset
-[2018.09.17-16.22.47:499][144]LogContentBrowser: Native class hierarchy updated for 'PhysicsAssetEditor' in 0.0003 seconds. Added 7 classes and 3 folders.
-[2018.09.17-16.22.47:617][144]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.09.17-16.22.47:948][144]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0'
-[2018.09.17-16.22.47:949][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
-[2018.09.17-16.22.47:981][144]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0002 seconds. Added 1 classes and 0 folders.
-[2018.09.17-16.22.48:200][144]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0'
-[2018.09.17-16.22.48:639][144]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0002 seconds. Added 1 classes and 0 folders.
-[2018.09.17-16.22.48:652][145]LogRenderer: Reallocating scene render targets to support 756x556 Format 26 NumSamples 1 (Frame:1).
-[2018.09.17-16.23.02:049][920]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/Classes/221_InteriorDesign/Assets/Fans/CeilingFan1/CeilingFanLamp.CeilingFanLamp
-[2018.09.17-16.23.02:093][920]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2018.09.17-16.23.12:346][507]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-18.54.55:158][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.17-18.54.55:158][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.09.17-18.54.55:197][  0]LogHAL: Display: Platform has ~ 16 GB [17042796544 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.09.17-18.54.55:197][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.09.17-18.54.55:197][  0]LogInit: Going up to parent DeviceProfile []
+[2018.09.17-18.54.55:197][  0]LogInit: Computer: ALIEN
+[2018.09.17-18.54.55:198][  0]LogInit: User: CodyCormier
+[2018.09.17-18.54.55:198][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.09.17-18.54.55:198][  0]LogInit: High frequency timer resolution =2.742188 MHz
+[2018.09.17-18.54.55:198][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.09.17-18.54.55:198][  0]LogMemory: Platform Memory Stats for Windows
+[2018.09.17-18.54.55:198][  0]LogMemory: Process Physical Memory: 101.74 MB used, 101.74 MB peak
+[2018.09.17-18.54.55:198][  0]LogMemory: Process Virtual Memory: 89.25 MB used, 89.25 MB peak
+[2018.09.17-18.54.55:198][  0]LogMemory: Physical Memory: 6596.75 MB used,  9656.53 MB free, 16253.28 MB total
+[2018.09.17-18.54.55:198][  0]LogMemory: Virtual Memory: 4638.55 MB used,  9656.53 MB free, 134217728.00 MB total
+[2018.09.17-18.54.55:236][  0]LogInit: Using OS detected language (en-US).
+[2018.09.17-18.54.55:236][  0]LogInit: Using OS detected locale (en-CA).
+[2018.09.17-18.54.55:237][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.09.17-18.54.55:686][  0]LogStreaming: Display: Took  0.451s to InitEngineTextLocalization.
+[2018.09.17-18.54.55:687][  0]LogInit: Setting process to per monitor DPI aware
+[2018.09.17-18.54.55:709][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.09.17-18.54.55:709][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.09.17-18.54.55:917][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.17-18.54.55:917][  0]LogD3D11RHI: D3D11 adapters:
+[2018.09.17-18.54.55:985][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.09.17-18.54.55:985][  0]LogD3D11RHI:       8081/0/8126 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.09.17-18.54.56:011][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.09.17-18.54.56:011][  0]LogD3D11RHI:       128/0/8126 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.09.17-18.54.56:013][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.09.17-18.54.56:013][  0]LogD3D11RHI:       0/0/8126 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.09.17-18.54.56:013][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.09.17-18.54.56:022][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.09.17-18.54.56:022][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
+[2018.09.17-18.54.56:022][  0]LogWindows: EnumDisplayDevices:
+[2018.09.17-18.54.56:022][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.09.17-18.54.56:023][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.09.17-18.54.56:023][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.09.17-18.54.56:024][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.09.17-18.54.56:024][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.09.17-18.54.56:024][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.09.17-18.54.56:025][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.09.17-18.54.56:025][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.09.17-18.54.56:025][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.09.17-18.54.56:025][  0]LogD3D11RHI:   Driver Version: 398.82 (internal:24.21.13.9882, unified:398.82)
+[2018.09.17-18.54.56:025][  0]LogD3D11RHI:      Driver Date: 7-30-2018
+[2018.09.17-18.54.56:025][  0]LogRHI: Texture pool is 5656 MB (70% of 8081 MB)
+[2018.09.17-18.54.56:081][  0]LogD3D11RHI: Async texture creation enabled
+[2018.09.17-18.54.56:100][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.09.17-18.54.56:147][  0]LogShaderCompilers: Guid format shader working directory is -1 characters bigger than the processId version (../../../../../../Documents/GitHub/UE4Project/Project/Intermediate/Shaders/WorkingDirectory/13180/).
+[2018.09.17-18.54.56:147][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Cody Cormier/AppData/Local/Temp/UnrealShaderWorkingDir/D97F4D6547137EA53F95079797230F35/'.
+[2018.09.17-18.54.56:443][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.09.17-18.54.56:461][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.09.17-18.54.56:479][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.09.17-18.54.56:495][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.09.17-18.54.56:510][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.09.17-18.54.56:523][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.09.17-18.54.56:536][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.09.17-18.54.56:549][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.09.17-18.54.56:560][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.09.17-18.54.56:654][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.17-18.54.56:654][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.17-18.54.56:654][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.17-18.54.56:654][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.17-18.54.56:654][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.17-18.54.56:654][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.17-18.54.56:654][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.17-18.54.56:654][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.17-18.54.56:654][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.17-18.54.56:654][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.17-18.54.56:654][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.17-18.54.56:654][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.17-18.54.56:654][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.17-18.54.56:654][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.17-18.54.56:654][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.17-18.54.56:654][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.17-18.54.56:654][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.17-18.54.56:654][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.17-18.54.56:655][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.09.17-18.54.56:717][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.17-18.54.56:717][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.17-18.54.56:758][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.17-18.54.56:758][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.17-18.54.56:778][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.09.17-18.54.56:791][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.09.17-18.54.56:805][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.09.17-18.54.56:823][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.09.17-18.54.56:835][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.09.17-18.54.56:835][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.09.17-18.54.56:892][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.09.17-18.54.56:892][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.09.17-18.54.56:892][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.09.17-18.54.57:665][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.09.17-18.54.57:735][  0]LogDerivedDataCache: Loaded boot cache 0.07s 86MB C:/Users/Cody Cormier/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.17-18.54.57:735][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Cody Cormier/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.09.17-18.54.57:735][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Documents/GitHub/UE4Project/Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.09.17-18.54.57:735][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.09.17-18.54.57:735][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Documents/GitHub/UE4Project/Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.09.17-18.54.57:735][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.09.17-18.54.57:748][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.09.17-18.54.57:761][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Cody Cormier/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.09.17-18.54.57:761][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.09.17-18.54.57:761][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.09.17-18.54.57:780][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.09.17-18.54.57:782][  0]LogSlate: Using FreeType 2.6.0
+[2018.09.17-18.54.57:783][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.17-18.54.57:855][  0]LogAssetRegistry: FAssetRegistry took 0.0262 seconds to start up
+[2018.09.17-18.54.58:232][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.17-18.54.58:377][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.09.17-18.54.58:380][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.09.17-18.54.58:380][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.09.17-18.54.58:380][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.09.17-18.54.58:380][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.09.17-18.54.58:400][  0]LogNetVersion: VRTests 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4138015713)
+[2018.09.17-18.54.58:975][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.115259 seconds
+[2018.09.17-18.54.58:983][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.09.17-18.54.58:983][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.09.17-18.54.58:983][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.09.17-18.54.59:883][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.09.17-18.54.59:896][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.09.17-18.55.00:051][  0]SourceControl: Source control is disabled
+[2018.09.17-18.55.00:051][  0]SourceControl: Source control is disabled
+[2018.09.17-18.55.00:053][  0]SourceControl: Source control is disabled
+[2018.09.17-18.55.00:054][  0]SourceControl: Source control is disabled
+[2018.09.17-18.55.00:218][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.09.17-18.55.00:300][  0]LogOcInput: OculusInput pre-init called
+[2018.09.17-18.55.00:364][  0]LogEngine: Initializing Engine...
+[2018.09.17-18.55.00:365][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.17-18.55.00:366][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.17-18.55.00:366][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.17-18.55.00:367][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.17-18.55.00:367][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.17-18.55.00:617][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.09.17-18.55.00:627][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.09.17-18.55.00:640][  0]LogInit: XAudio2 using 'Speakers (Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.09.17-18.55.00:650][  0]LogInit: FAudioDevice initialized.
+[2018.09.17-18.55.00:650][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.09.17-18.55.00:740][  0]LogDerivedDataCache: Saved boot cache 0.09s 86MB C:/Users/Cody Cormier/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.17-18.55.00:769][  0]LogInit: Texture streaming: Enabled
+[2018.09.17-18.55.00:783][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.09.17-18.55.00:794][  0]LogInit: Transaction tracking system initialized
+[2018.09.17-18.55.00:811][  0]BlueprintLog: New page: Editor Load
+[2018.09.17-18.55.00:871][  0]LocalizationService: Localization service is disabled
+[2018.09.17-18.55.01:118][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.09.17-18.55.01:118][  0]LogCook: Display: Mobile HDR setting 1
+[2018.09.17-18.55.01:118][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.09.17-18.55.01:118][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.17-18.55.01:118][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.17-18.55.01:118][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.17-18.55.01:118][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.17-18.55.01:226][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/UE4Project/Project/Content/' took 0.02s
+[2018.09.17-18.55.01:226][  0]SourceControl: Source control is disabled
+[2018.09.17-18.55.01:317][  0]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.17-18.55.07:030][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2018.09.17-18.55.07:031][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.17-18.55.07:039][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.17-18.55.07:040][  0]Cmd: MAP LOAD FILE="../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultProject/Map/DefaultMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.17-18.55.07:040][  0]LightingResults: New page: Lighting Build
+[2018.09.17-18.55.07:043][  0]MapCheck: New page: Map Check
+[2018.09.17-18.55.07:043][  0]LightingResults: New page: Lighting Build
+[2018.09.17-18.55.07:084][  0]LogAIModule: Creating AISystem for world DefaultMap
+[2018.09.17-18.55.07:091][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.17-18.55.07:117][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.17-18.55.07:169][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 51.539ms to complete.
+[2018.09.17-18.55.07:169][  0]LogFileHelpers: Loading map 'DefaultMap' took 0.129
+[2018.09.17-18.55.07:216][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.17-18.55.07:223][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.17-18.55.07:231][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.17-18.55.07:239][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.17-18.55.07:244][  0]LogCollectionManager: Loaded 0 collections in 0.000874 seconds
+[2018.09.17-18.55.07:286][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/UE4Project/Project/Saved/Collections/' took 0.01s
+[2018.09.17-18.55.07:286][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/UE4Project/Project/Content/Developers/CodyCormier/Collections/' took 0.01s
+[2018.09.17-18.55.07:286][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/UE4Project/Project/Content/Collections/' took 0.01s
+[2018.09.17-18.55.07:286][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.09.17-18.55.07:299][  0]LogContentBrowser: Native class hierarchy populated in 0.0126 seconds. Added 2572 classes and 603 folders.
+[2018.09.17-18.55.07:309][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.09.17-18.55.07:357][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.09.17-18.55.07:362][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.09.17-18.55.07:435][  0]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.09.17-18.55.07:441][  0]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.09.17-18.55.07:493][  0]LogRenderer: Reallocating scene render targets to support 1072x496 Format 26 NumSamples 1 (Frame:1).
+[2018.09.17-18.55.07:599][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.09.17-18.55.07:599][  0]LogLoad: (Engine Initialization) Total time: 13.93 seconds
+[2018.09.17-18.55.07:599][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.09.17-18.55.07:658][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.09.17-18.55.07:745][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/Documents/GitHub/UE4Project/Project/Content/' took 0.11s
+[2018.09.17-18.55.07:788][  2]LogAssetRegistry: Asset discovery search completed in 9.9550 seconds
+[2018.09.17-18.55.07:790][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.09.17-18.55.07:790][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000057 seconds (updated 0 objects)
+[2018.09.17-18.55.11:907][ 15]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.17-18.55.14:819][175]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.17-18.55.15:784][175]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.09.17-18.55.15:872][176]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.VRTests
+[2018.09.17-18.55.15:872][176]LogTemp: CWD: D:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.09.17-18.55.15:872][176]LogTemp: Initial Dir: D:\Program Files\Epic Games\UE_4.20
+[2018.09.17-18.55.15:872][176]LogTemp: Env CWD: D:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.09.17-18.55.15:872][176]LogTemp: BranchPath = ALIEN/D/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = ALIEN/D/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2018.09.17-18.55.15:872][176]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Cody Cormier\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.09.17-18.55.52:772][492]LogSlate: Window 'New Channel' being destroyed
+[2018.09.17-18.55.53:330][520]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-18.55.59:795][908]LogSlate: Window 'Project Settings' being destroyed
+[2018.09.17-18.55.59:799][908]LogSlate: Window 'Project Settings' being destroyed
+[2018.09.17-18.56.00:130][927]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-18.56.24:349][372]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2018.09.17-18.56.24:349][372]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualReality/Mannequin/Animations/RightHand_AnimBP.uasset.
+[2018.09.17-18.56.24:349][372]LoadErrors: Error: /Game/DefaultVrContent/VirtualReality/Mannequin/Animations/RightHand_AnimBP : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/GripEnum
+[2018.09.17-18.56.24:349][372]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2018.09.17-18.56.24:349][372]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualReality/Mannequin/Animations/RightHand_AnimBP.uasset.
+[2018.09.17-18.56.24:350][372]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2018.09.17-18.56.24:350][372]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum Referenced by GripState
+[2018.09.17-18.56.24:350][372]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.uasset.
+[2018.09.17-18.56.24:350][372]LoadErrors: Error: /Game/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/GripEnum
+[2018.09.17-18.56.24:351][372]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2018.09.17-18.56.24:351][372]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.uasset.
+[2018.09.17-18.56.24:351][372]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2018.09.17-18.56.24:351][372]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.uasset.
+[2018.09.17-18.56.24:351][372]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2018.09.17-18.56.24:351][372]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum Referenced by RightHand_AnimBP
+[2018.09.17-18.56.24:351][372]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.uasset.
+[2018.09.17-18.56.24:352][372]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2018.09.17-18.56.24:352][372]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum Referenced by K2Node_VariableGet_64
+[2018.09.17-18.56.24:352][372]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.uasset.
+[2018.09.17-18.56.24:499][372]LogBlueprint: Warning: [Compiler MotionControllerPawn] Get Input Axis references unknown Axis 'MotionControllerThumbRight_X' for  Get MotionControllerThumbRight_X
+[2018.09.17-18.56.24:499][372]LogBlueprint: Warning: [Compiler MotionControllerPawn] Get Input Axis references unknown Axis 'MotionControllerThumbRight_Y' for  Get MotionControllerThumbRight_Y
+[2018.09.17-18.56.24:499][372]LogBlueprint: Warning: [Compiler MotionControllerPawn] Get Input Axis references unknown Axis 'MotionControllerThumbLeft_Y' for  Get MotionControllerThumbLeft_Y
+[2018.09.17-18.56.24:499][372]LogBlueprint: Warning: [Compiler MotionControllerPawn] Get Input Axis references unknown Axis 'MotionControllerThumbLeft_X' for  Get MotionControllerThumbLeft_X
+[2018.09.17-18.56.24:500][372]LogBlueprint: Warning: [Compiler MotionControllerPawn] InputAction Event references unknown Action 'TeleportRight' for  InputAction TeleportRight
+[2018.09.17-18.56.24:500][372]LogBlueprint: Warning: [Compiler MotionControllerPawn] InputAction Event references unknown Action 'TeleportLeft' for  InputAction TeleportLeft
+[2018.09.17-18.56.24:500][372]LogBlueprint: Warning: [Compiler MotionControllerPawn] InputAction Event references unknown Action 'GrabRight' for  InputAction GrabRight
+[2018.09.17-18.56.24:500][372]LogBlueprint: Warning: [Compiler MotionControllerPawn] InputAction Event references unknown Action 'GrabLeft' for  InputAction GrabLeft
+[2018.09.17-18.56.24:507][372]LogBlueprint: Warning: [Compiler MotionControllerPawn] [0090.83] Compile of MotionControllerPawn successful, but with 8 Warning(s) [in 17 ms] (/Game/DefaultVrContent/VirtualRealityBP/Blueprints/MotionControllerPawn.MotionControllerPawn)
+[2018.09.17-18.56.24:669][372]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.17-18.56.24:679][372]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/DefaultVrContent/VirtualRealityBP/Blueprints/MotionControllerPawn.MotionControllerPawn
+[2018.09.17-18.56.24:995][372]LogClass: Warning: Enum '/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/FeedbackEffects/EFeedbackType.EFeedbackType' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2018.09.17-18.56.24:995][372]LogClass: Warning: Enum '/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/FeedbackEffects/EFeedbackIntensity.EFeedbackIntensity' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2018.09.17-18.56.25:236][372]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.09.17-18.56.26:269][372]LogSlate: Took 0.000493 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.09.17-18.56.27:282][415]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.09.17-19.08.44:475][326]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/DefaultProject/MotionControllerPawn_Default.MotionControllerPawn_Default
+[2018.09.17-19.09.24:814][627]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.09.17-19.09.24:912][627]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.VRTests
+[2018.09.17-19.09.24:912][627]LogTemp: CWD: D:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.09.17-19.09.24:912][627]LogTemp: Initial Dir: D:\Program Files\Epic Games\UE_4.20
+[2018.09.17-19.09.24:912][627]LogTemp: Env CWD: D:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.09.17-19.09.24:912][627]LogTemp: BranchPath = ALIEN/D/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = ALIEN/D/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2018.09.17-19.09.24:912][627]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Cody Cormier\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.09.17-19.10.10:445][348]LogSlate: Window 'Project Settings' being destroyed
+[2018.09.17-19.10.10:449][348]LogSlate: Window 'Project Settings' being destroyed
