@@ -1,4 +1,4 @@
-﻿Log file open, 09/17/18 13:09:04
+﻿Log file open, 09/17/18 12:56:38
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: VRTests
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.278041
+LogStats: Stats thread started at 0.281207
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -4:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.069s to configure plugins.
+LogStreaming: Display: Took  1.030s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -123,8 +123,8 @@ LogInit: Compiled (64-bit): Aug 21 2018 02:06:06
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
-LogInit: Command Line:  
-LogInit: Base Directory: D:/Program Files (x86)/4.20/UE_4.20/Engine/Binaries/Win64/
+LogInit: Command Line: 
+LogInit: Base Directory: D:/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
 LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
@@ -147,401 +147,891 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.001s to delete old logs.
+LogStreaming: Display: Took  0.017s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.09.17-16.09.05:169][  0]LogInit: Selected Device Profile: [Windows]
-[2018.09.17-16.09.05:169][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.09.17-16.09.05:183][  0]LogHAL: Display: Platform has ~ 16 GB [17046728704 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.09.17-16.09.05:183][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.09.17-16.09.05:183][  0]LogInit: Going up to parent DeviceProfile []
-[2018.09.17-16.09.05:183][  0]LogInit: Computer: DESKTOP-LV3OVPQ
-[2018.09.17-16.09.05:183][  0]LogInit: User: Jim
-[2018.09.17-16.09.05:183][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.09.17-16.09.05:183][  0]LogInit: High frequency timer resolution =2.742187 MHz
-[2018.09.17-16.09.05:183][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.09.17-16.09.05:183][  0]LogMemory: Platform Memory Stats for Windows
-[2018.09.17-16.09.05:183][  0]LogMemory: Process Physical Memory: 101.60 MB used, 101.60 MB peak
-[2018.09.17-16.09.05:184][  0]LogMemory: Process Virtual Memory: 93.14 MB used, 93.14 MB peak
-[2018.09.17-16.09.05:184][  0]LogMemory: Physical Memory: 6890.18 MB used,  9366.85 MB free, 16257.03 MB total
-[2018.09.17-16.09.05:184][  0]LogMemory: Virtual Memory: 4646.96 MB used,  9366.85 MB free, 134217728.00 MB total
-[2018.09.17-16.09.05:501][  0]LogInit: Using OS detected language (en-US).
-[2018.09.17-16.09.05:501][  0]LogInit: Using OS detected locale (en-CA).
-[2018.09.17-16.09.05:501][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.09.17-16.09.05:874][  0]LogStreaming: Display: Took  0.374s to InitEngineTextLocalization.
-[2018.09.17-16.09.05:917][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.09.17-16.09.05:917][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.09.17-16.09.06:102][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.09.17-16.09.06:102][  0]LogD3D11RHI: D3D11 adapters:
-[2018.09.17-16.09.06:160][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2018.09.17-16.09.06:160][  0]LogD3D11RHI:       8089/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.09.17-16.09.06:685][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2018.09.17-16.09.06:685][  0]LogD3D11RHI:       128/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.09.17-16.09.06:690][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.09.17-16.09.06:690][  0]LogD3D11RHI:       0/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.09.17-16.09.06:690][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.09.17-16.09.06:744][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.09.17-16.09.06:744][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
-[2018.09.17-16.09.06:744][  0]LogWindows: EnumDisplayDevices:
-[2018.09.17-16.09.06:744][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2018.09.17-16.09.06:745][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.09.17-16.09.06:745][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.09.17-16.09.06:746][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.09.17-16.09.06:746][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.09.17-16.09.06:747][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.09.17-16.09.06:747][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.09.17-16.09.06:748][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2018.09.17-16.09.06:748][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2018.09.17-16.09.06:748][  0]LogD3D11RHI:   Driver Version: 389.12 (internal:23.21.13.8912, unified:389.12)
-[2018.09.17-16.09.06:748][  0]LogD3D11RHI:      Driver Date: 3-7-2018
-[2018.09.17-16.09.06:748][  0]LogRHI: Texture pool is 5662 MB (70% of 8089 MB)
-[2018.09.17-16.09.06:785][  0]LogD3D11RHI: Async texture creation enabled
-[2018.09.17-16.09.06:839][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.09.17-16.09.06:886][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (../../../../../../VRPROJECT/interior design/UE4Project/Project/Intermediate/Shaders/WorkingDirectory/8608/).
-[2018.09.17-16.09.06:886][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jim/AppData/Local/Temp/UnrealShaderWorkingDir/E9F522564C2AF6F194B48CA7CD5812A2/'.
-[2018.09.17-16.09.07:165][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.09.17-16.09.07:180][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.09.17-16.09.07:193][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.09.17-16.09.07:205][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.09.17-16.09.07:218][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.09.17-16.09.07:231][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.09.17-16.09.07:244][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.09.17-16.09.07:257][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.09.17-16.09.07:263][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.09.17-16.09.07:342][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-16.09.07:342][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-16.09.07:342][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-16.09.07:342][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-16.09.07:342][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-16.09.07:342][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-16.09.07:342][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-16.09.07:342][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-16.09.07:342][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-16.09.07:342][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-16.09.07:342][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-16.09.07:342][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-16.09.07:342][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-16.09.07:342][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-16.09.07:342][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-16.09.07:342][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-16.09.07:342][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-16.09.07:342][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-16.09.07:343][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.09.17-16.09.07:403][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.09.17-16.09.07:403][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.09.17-16.09.07:427][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.09.17-16.09.07:427][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.09.17-16.09.07:440][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.09.17-16.09.07:452][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.09.17-16.09.07:465][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.09.17-16.09.07:478][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.09.17-16.09.07:486][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.09.17-16.09.07:486][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.09.17-16.09.07:531][  0]LogXGEController: Cleaning working directory: C:/Users/Jim/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.09.17-16.09.07:531][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.09.17-16.09.07:531][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.09.17-16.09.07:531][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.09.17-16.09.08:244][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.09.17-16.09.08:304][  0]LogDerivedDataCache: Loaded boot cache 0.06s 86MB C:/Users/Jim/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.09.17-16.09.08:304][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Jim/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2018.09.17-16.09.08:304][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../VRPROJECT/interior design/UE4Project/Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.09.17-16.09.08:304][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.09.17-16.09.08:304][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../VRPROJECT/interior design/UE4Project/Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.09.17-16.09.08:304][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.09.17-16.09.08:318][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.09.17-16.09.08:330][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jim/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.09.17-16.09.08:330][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.09.17-16.09.08:330][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.09.17-16.09.08:349][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.09.17-16.09.08:350][  0]LogSlate: Using FreeType 2.6.0
-[2018.09.17-16.09.08:351][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.09.17-16.09.08:425][  0]LogAssetRegistry: FAssetRegistry took 0.0261 seconds to start up
-[2018.09.17-16.09.08:740][  0]LogInit: Selected Device Profile: [Windows]
-[2018.09.17-16.09.08:867][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.09.17-16.09.08:869][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.09.17-16.09.08:869][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.09.17-16.09.08:869][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.09.17-16.09.08:869][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.09.17-16.09.08:891][  0]LogNetVersion: VRTests 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4138015713)
-[2018.09.17-16.09.09:405][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.086044 seconds
-[2018.09.17-16.09.09:412][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2018.09.17-16.09.09:412][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
-[2018.09.17-16.09.09:412][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.09.17-16.09.10:249][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.09.17-16.09.10:261][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.09.17-16.09.10:454][  0]SourceControl: Source control is disabled
-[2018.09.17-16.09.10:454][  0]SourceControl: Source control is disabled
-[2018.09.17-16.09.10:455][  0]SourceControl: Source control is disabled
-[2018.09.17-16.09.10:457][  0]SourceControl: Source control is disabled
-[2018.09.17-16.09.10:608][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.09.17-16.09.10:662][  0]LogOcInput: OculusInput pre-init called
-[2018.09.17-16.09.10:720][  0]LogEngine: Initializing Engine...
-[2018.09.17-16.09.10:721][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.09.17-16.09.10:722][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.09.17-16.09.10:722][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.09.17-16.09.10:722][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.09.17-16.09.10:722][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.09.17-16.09.10:942][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.09.17-16.09.10:950][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.09.17-16.09.11:009][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2018.09.17-16.09.11:564][  0]LogInit: FAudioDevice initialized.
-[2018.09.17-16.09.11:564][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.09.17-16.09.11:646][  0]LogDerivedDataCache: Saved boot cache 0.08s 86MB C:/Users/Jim/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.09.17-16.09.11:656][  0]LogInit: Texture streaming: Enabled
-[2018.09.17-16.09.11:669][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.09.17-16.09.11:680][  0]LogInit: Transaction tracking system initialized
-[2018.09.17-16.09.11:693][  0]BlueprintLog: New page: Editor Load
-[2018.09.17-16.09.11:747][  0]LocalizationService: Localization service is disabled
-[2018.09.17-16.09.12:173][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.09.17-16.09.12:173][  0]LogCook: Display: Mobile HDR setting 1
-[2018.09.17-16.09.12:173][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.09.17-16.09.12:173][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.09.17-16.09.12:173][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.09.17-16.09.12:173][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.09.17-16.09.12:173][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.09.17-16.09.12:271][  0]LogFileCache: Scanning file cache for directory 'D:/VRPROJECT/interior design/UE4Project/Project/Content/' took 0.02s
-[2018.09.17-16.09.12:272][  0]SourceControl: Source control is disabled
-[2018.09.17-16.09.12:272][  0]Cmd: MAP LOAD FILE="../../../../../../VRPROJECT/interior design/UE4Project/Project/Content/DefaultProject/Map/DefaultMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.09.17-16.09.12:272][  0]LightingResults: New page: Lighting Build
-[2018.09.17-16.09.12:275][  0]MapCheck: New page: Map Check
-[2018.09.17-16.09.12:275][  0]LightingResults: New page: Lighting Build
-[2018.09.17-16.09.12:322][  0]LogAIModule: Creating AISystem for world DefaultMap
-[2018.09.17-16.09.12:326][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.09.17-16.09.12:347][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.09.17-16.09.12:390][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 42.525ms to complete.
-[2018.09.17-16.09.12:390][  0]LogFileHelpers: Loading map 'DefaultMap' took 0.118
-[2018.09.17-16.09.12:519][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.17-16.09.12:526][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.17-16.09.12:534][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.17-16.09.12:541][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.17-16.09.12:549][  0]LogCollectionManager: Loaded 0 collections in 0.000661 seconds
-[2018.09.17-16.09.12:592][  0]LogFileCache: Scanning file cache for directory 'D:/VRPROJECT/interior design/UE4Project/Project/Saved/Collections/' took 0.01s
-[2018.09.17-16.09.12:592][  0]LogFileCache: Scanning file cache for directory 'D:/VRPROJECT/interior design/UE4Project/Project/Content/Developers/Jim/Collections/' took 0.01s
-[2018.09.17-16.09.12:592][  0]LogFileCache: Scanning file cache for directory 'D:/VRPROJECT/interior design/UE4Project/Project/Content/Collections/' took 0.01s
-[2018.09.17-16.09.12:592][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.09.17-16.09.12:602][  0]LogContentBrowser: Native class hierarchy populated in 0.0098 seconds. Added 2572 classes and 603 folders.
-[2018.09.17-16.09.12:607][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.09.17-16.09.12:934][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2018.09.17-16.09.12:948][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.09.17-16.09.12:993][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.09.17-16.09.12:993][  0]LogLoad: (Engine Initialization) Total time: 9.20 seconds
-[2018.09.17-16.09.12:993][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.09.17-16.09.13:015][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.09.17-16.09.13:048][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.09.17-16.09.13:050][  0]LogSlate: Took 0.000120 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.09.17-16.09.13:051][  0]LogSlate: Took 0.000125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.09.17-16.09.13:061][  0]LogSlate: Took 0.004636 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.09.17-16.09.13:220][  1]LogRenderer: Reallocating scene render targets to support 676x268 Format 26 NumSamples 1 (Frame:1).
-[2018.09.17-16.09.13:306][  2]LogAssetRegistry: Asset discovery search completed in 4.9038 seconds
-[2018.09.17-16.09.13:308][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.09.17-16.09.13:308][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000089 seconds (updated 0 objects)
-[2018.09.17-16.09.18:228][297]LogFileCache: Retrieving MD5 hashes for directory 'D:/VRPROJECT/interior design/UE4Project/Project/Content/' took 5.20s
-[2018.09.17-16.09.18:979][342]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.17-16.09.20:570][419]LogActorFactory: Actor Factory created Bed1_SM
-[2018.09.17-16.09.21:099][450]LogActorFactory: Actor Factory created Bed1_SM
-[2018.09.17-16.09.26:301][755]Cmd: DELETE
-[2018.09.17-16.09.26:301][755]Cmd: ACTOR DELETE
-[2018.09.17-16.09.26:303][755]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.09.17-16.09.26:327][755]LogEditorActor: Deleted 1 Actors (0.026 secs)
-[2018.09.17-16.09.38:248][467]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.17-16.09.41:625][664]LogSlate: Took 0.003840 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.09.17-16.09.41:633][664]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Classes/221_InteriorDesign/Assets/Tablet_widget.Tablet_widget
-[2018.09.17-16.09.41:964][664]LogClass: Warning: Enum '/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/FeedbackEffects/EFeedbackType.EFeedbackType' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
-[2018.09.17-16.09.41:964][664]LogClass: Warning: Enum '/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/FeedbackEffects/EFeedbackIntensity.EFeedbackIntensity' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
-[2018.09.17-16.09.42:207][664]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
-[2018.09.17-16.09.43:428][664]LogSlate: Took 0.003469 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.09.17-16.10.44:733][324]LogActorFactory: Actor Factory created Bed1_SM
-[2018.09.17-16.10.45:595][375]LogActorFactory: Actor Factory created Bed1_SM
-[2018.09.17-16.10.47:499][486]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.17-16.10.47:853][490]LogActorFactory: Actor Factory created Bush_Plant_SM
-[2018.09.17-16.10.48:167][509]LogActorFactory: Actor Factory created Bush_Plant_SM
-[2018.09.17-16.10.51:377][699]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bed1_SM)
-[2018.09.17-16.10.58:568][127]Cmd: TRANSACTION UNDO
-[2018.09.17-16.10.58:568][127]LogEditorTransaction: Undo Clicking on Actors
-[2018.09.17-16.10.59:548][183]Cmd: TRANSACTION UNDO
-[2018.09.17-16.10.59:548][183]LogEditorTransaction: Undo Create Actors
-[2018.09.17-16.11.00:544][237]Cmd: TRANSACTION UNDO
-[2018.09.17-16.11.00:544][237]LogEditorTransaction: Undo Create Actors
-[2018.09.17-16.11.11:632][901]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.17-16.11.14:035][ 45]LogActorFactory: Actor Factory created Bed1_SM
-[2018.09.17-16.11.14:296][ 59]LogActorFactory: Actor Factory created Bed1_SM
-[2018.09.17-16.11.20:238][402]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.17-16.11.27:012][806]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bed1_SM)
-[2018.09.17-16.11.27:330][825]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Bed1_SM)
-[2018.09.17-16.11.27:406][825]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.17-16.11.31:654][ 75]Cmd: EDIT CUT
-[2018.09.17-16.11.31:661][ 75]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.09.17-16.11.31:697][ 75]LogEditorActor: Deleted 1 Actors (0.037 secs)
-[2018.09.17-16.11.35:654][310]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.17-16.11.36:348][346]LogRenderer: Reallocating scene render targets to support 676x332 Format 26 NumSamples 1 (Frame:1604).
-[2018.09.17-16.11.36:389][349]LogActorFactory: Actor Factory created globe_SM
-[2018.09.17-16.11.36:593][361]LogActorFactory: Actor Factory created globe_SM
-[2018.09.17-16.11.39:533][534]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (globe_SM)
-[2018.09.17-16.11.40:604][598]Cmd: DELETE
-[2018.09.17-16.11.40:604][598]Cmd: ACTOR DELETE
-[2018.09.17-16.11.40:605][598]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.09.17-16.11.40:633][598]LogEditorActor: Deleted 1 Actors (0.029 secs)
-[2018.09.17-16.12.15:623][693]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.17-16.18.28:700][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCone1'
-[2018.09.17-16.18.28:700][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCone1' while loading ../../../../../../VRPROJECT/interior design/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/tablet_full.uasset.
-[2018.09.17-16.18.28:700][ 14]LoadErrors: Error: /Game/Classes/221_InteriorDesign/Assets/tablet_full : Can't find file for asset. /Game/Classes/221_InteriorDesign/Assets/tablet_pCone1
-[2018.09.17-16.18.28:700][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube1'
-[2018.09.17-16.18.28:700][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube1' while loading ../../../../../../VRPROJECT/interior design/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/tablet_full.uasset.
-[2018.09.17-16.18.28:700][ 14]LoadErrors: Error: /Game/Classes/221_InteriorDesign/Assets/tablet_full : Can't find file for asset. /Game/Classes/221_InteriorDesign/Assets/tablet_pCube1
-[2018.09.17-16.18.28:701][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube2'
-[2018.09.17-16.18.28:701][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube2' while loading ../../../../../../VRPROJECT/interior design/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/tablet_full.uasset.
-[2018.09.17-16.18.28:701][ 14]LoadErrors: Error: /Game/Classes/221_InteriorDesign/Assets/tablet_full : Can't find file for asset. /Game/Classes/221_InteriorDesign/Assets/tablet_pCube2
-[2018.09.17-16.18.28:701][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube3'
-[2018.09.17-16.18.28:701][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube3' while loading ../../../../../../VRPROJECT/interior design/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/tablet_full.uasset.
-[2018.09.17-16.18.28:701][ 14]LoadErrors: Error: /Game/Classes/221_InteriorDesign/Assets/tablet_full : Can't find file for asset. /Game/Classes/221_InteriorDesign/Assets/tablet_pCube3
-[2018.09.17-16.18.28:701][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube4'
-[2018.09.17-16.18.28:701][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube4' while loading ../../../../../../VRPROJECT/interior design/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/tablet_full.uasset.
-[2018.09.17-16.18.28:701][ 14]LoadErrors: Error: /Game/Classes/221_InteriorDesign/Assets/tablet_full : Can't find file for asset. /Game/Classes/221_InteriorDesign/Assets/tablet_pCube4
-[2018.09.17-16.18.28:701][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube5'
-[2018.09.17-16.18.28:701][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube5' while loading ../../../../../../VRPROJECT/interior design/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/tablet_full.uasset.
-[2018.09.17-16.18.28:701][ 14]LoadErrors: Error: /Game/Classes/221_InteriorDesign/Assets/tablet_full : Can't find file for asset. /Game/Classes/221_InteriorDesign/Assets/tablet_pCube5
-[2018.09.17-16.18.28:702][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCylinder1'
-[2018.09.17-16.18.28:702][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCylinder1' while loading ../../../../../../VRPROJECT/interior design/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/tablet_full.uasset.
-[2018.09.17-16.18.28:702][ 14]LoadErrors: Error: /Game/Classes/221_InteriorDesign/Assets/tablet_full : Can't find file for asset. /Game/Classes/221_InteriorDesign/Assets/tablet_pCylinder1
-[2018.09.17-16.18.28:702][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCylinder2'
-[2018.09.17-16.18.28:702][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCylinder2' while loading ../../../../../../VRPROJECT/interior design/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/tablet_full.uasset.
-[2018.09.17-16.18.28:702][ 14]LoadErrors: Error: /Game/Classes/221_InteriorDesign/Assets/tablet_full : Can't find file for asset. /Game/Classes/221_InteriorDesign/Assets/tablet_pCylinder2
-[2018.09.17-16.18.28:702][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pSphere1'
-[2018.09.17-16.18.28:702][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pSphere1' while loading ../../../../../../VRPROJECT/interior design/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/tablet_full.uasset.
-[2018.09.17-16.18.28:702][ 14]LoadErrors: Error: /Game/Classes/221_InteriorDesign/Assets/tablet_full : Can't find file for asset. /Game/Classes/221_InteriorDesign/Assets/tablet_pSphere1
-[2018.09.17-16.18.28:702][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pSphere2'
-[2018.09.17-16.18.28:702][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pSphere2' while loading ../../../../../../VRPROJECT/interior design/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/tablet_full.uasset.
-[2018.09.17-16.18.28:702][ 14]LoadErrors: Error: /Game/Classes/221_InteriorDesign/Assets/tablet_full : Can't find file for asset. /Game/Classes/221_InteriorDesign/Assets/tablet_pSphere2
-[2018.09.17-16.18.28:703][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pTorus1'
-[2018.09.17-16.18.28:703][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pTorus1' while loading ../../../../../../VRPROJECT/interior design/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/tablet_full.uasset.
-[2018.09.17-16.18.28:703][ 14]LoadErrors: Error: /Game/Classes/221_InteriorDesign/Assets/tablet_full : Can't find file for asset. /Game/Classes/221_InteriorDesign/Assets/tablet_pTorus1
-[2018.09.17-16.18.28:703][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCone1'
-[2018.09.17-16.18.28:703][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCone1' while loading ../../../../../../VRPROJECT/interior design/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/tablet_full.uasset.
-[2018.09.17-16.18.28:703][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube1'
-[2018.09.17-16.18.28:703][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube1' while loading ../../../../../../VRPROJECT/interior design/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/tablet_full.uasset.
-[2018.09.17-16.18.28:703][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube2'
-[2018.09.17-16.18.28:703][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube2' while loading ../../../../../../VRPROJECT/interior design/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/tablet_full.uasset.
-[2018.09.17-16.18.28:703][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube3'
-[2018.09.17-16.18.28:704][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube3' while loading ../../../../../../VRPROJECT/interior design/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/tablet_full.uasset.
-[2018.09.17-16.18.28:704][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube4'
-[2018.09.17-16.18.28:704][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube4' while loading ../../../../../../VRPROJECT/interior design/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/tablet_full.uasset.
-[2018.09.17-16.18.28:704][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube5'
-[2018.09.17-16.18.28:704][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube5' while loading ../../../../../../VRPROJECT/interior design/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/tablet_full.uasset.
-[2018.09.17-16.18.28:704][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCylinder1'
-[2018.09.17-16.18.28:704][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCylinder1' while loading ../../../../../../VRPROJECT/interior design/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/tablet_full.uasset.
-[2018.09.17-16.18.28:704][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCylinder2'
-[2018.09.17-16.18.28:705][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCylinder2' while loading ../../../../../../VRPROJECT/interior design/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/tablet_full.uasset.
-[2018.09.17-16.18.28:705][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pSphere1'
-[2018.09.17-16.18.28:705][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pSphere1' while loading ../../../../../../VRPROJECT/interior design/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/tablet_full.uasset.
-[2018.09.17-16.18.28:705][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pSphere2'
-[2018.09.17-16.18.28:705][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pSphere2' while loading ../../../../../../VRPROJECT/interior design/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/tablet_full.uasset.
-[2018.09.17-16.18.28:705][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pTorus1'
-[2018.09.17-16.18.28:705][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pTorus1' while loading ../../../../../../VRPROJECT/interior design/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/tablet_full.uasset.
-[2018.09.17-16.18.28:706][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCone1'
-[2018.09.17-16.18.28:706][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCone1' while loading NULL.
-[2018.09.17-16.18.28:706][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube1'
-[2018.09.17-16.18.28:706][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube1' while loading NULL.
-[2018.09.17-16.18.28:706][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube2'
-[2018.09.17-16.18.28:706][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube2' while loading NULL.
-[2018.09.17-16.18.28:707][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube3'
-[2018.09.17-16.18.28:707][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube3' while loading NULL.
-[2018.09.17-16.18.28:707][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube4'
-[2018.09.17-16.18.28:707][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube4' while loading NULL.
-[2018.09.17-16.18.28:707][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube5'
-[2018.09.17-16.18.28:707][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube5' while loading NULL.
-[2018.09.17-16.18.28:707][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCylinder1'
-[2018.09.17-16.18.28:707][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCylinder1' while loading NULL.
-[2018.09.17-16.18.28:707][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCylinder2'
-[2018.09.17-16.18.28:707][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCylinder2' while loading NULL.
-[2018.09.17-16.18.28:707][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pSphere1'
-[2018.09.17-16.18.28:708][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pSphere1' while loading NULL.
-[2018.09.17-16.18.28:708][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pSphere2'
-[2018.09.17-16.18.28:708][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pSphere2' while loading NULL.
-[2018.09.17-16.18.28:708][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pTorus1'
-[2018.09.17-16.18.28:708][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pTorus1' while loading NULL.
-[2018.09.17-16.18.28:708][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCone1'
-[2018.09.17-16.18.28:708][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCone1' while loading NULL.
-[2018.09.17-16.18.28:708][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube1'
-[2018.09.17-16.18.28:708][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube1' while loading NULL.
-[2018.09.17-16.18.28:708][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube2'
-[2018.09.17-16.18.28:708][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube2' while loading NULL.
-[2018.09.17-16.18.28:708][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube3'
-[2018.09.17-16.18.28:709][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube3' while loading NULL.
-[2018.09.17-16.18.28:709][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube4'
-[2018.09.17-16.18.28:709][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube4' while loading NULL.
-[2018.09.17-16.18.28:709][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube5'
-[2018.09.17-16.18.28:709][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube5' while loading NULL.
-[2018.09.17-16.18.28:709][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCylinder1'
-[2018.09.17-16.18.28:709][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCylinder1' while loading NULL.
-[2018.09.17-16.18.28:709][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCylinder2'
-[2018.09.17-16.18.28:709][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCylinder2' while loading NULL.
-[2018.09.17-16.18.28:709][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pSphere1'
-[2018.09.17-16.18.28:709][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pSphere1' while loading NULL.
-[2018.09.17-16.18.28:710][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pSphere2'
-[2018.09.17-16.18.28:710][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pSphere2' while loading NULL.
-[2018.09.17-16.18.28:710][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pTorus1'
-[2018.09.17-16.18.28:710][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pTorus1' while loading NULL.
-[2018.09.17-16.18.28:711][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube2'
-[2018.09.17-16.18.28:711][ 14]LoadErrors: Failed to load /Game/Classes/221_InteriorDesign/Assets/tablet_pCube2.tablet_pCube2 Referenced by tablet_pCube2_GEN_VARIABLE
-[2018.09.17-16.18.28:711][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube2' while loading NULL.
-[2018.09.17-16.18.28:712][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCone1'
-[2018.09.17-16.18.28:712][ 14]LoadErrors: Failed to load /Game/Classes/221_InteriorDesign/Assets/tablet_pCone1.tablet_pCone1 Referenced by tablet_pCone1_GEN_VARIABLE
-[2018.09.17-16.18.28:712][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCone1' while loading NULL.
-[2018.09.17-16.18.28:712][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube1'
-[2018.09.17-16.18.28:712][ 14]LoadErrors: Failed to load /Game/Classes/221_InteriorDesign/Assets/tablet_pCube1.tablet_pCube1 Referenced by tablet_pCube1_GEN_VARIABLE
-[2018.09.17-16.18.28:712][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube1' while loading NULL.
-[2018.09.17-16.18.28:713][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube3'
-[2018.09.17-16.18.28:713][ 14]LoadErrors: Failed to load /Game/Classes/221_InteriorDesign/Assets/tablet_pCube3.tablet_pCube3 Referenced by tablet_pCube3_GEN_VARIABLE
-[2018.09.17-16.18.28:713][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube3' while loading NULL.
-[2018.09.17-16.18.28:713][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube4'
-[2018.09.17-16.18.28:713][ 14]LoadErrors: Failed to load /Game/Classes/221_InteriorDesign/Assets/tablet_pCube4.tablet_pCube4 Referenced by tablet_pCube4_GEN_VARIABLE
-[2018.09.17-16.18.28:714][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube4' while loading NULL.
-[2018.09.17-16.18.28:714][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube5'
-[2018.09.17-16.18.28:714][ 14]LoadErrors: Failed to load /Game/Classes/221_InteriorDesign/Assets/tablet_pCube5.tablet_pCube5 Referenced by tablet_pCube5_GEN_VARIABLE
-[2018.09.17-16.18.28:714][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCube5' while loading NULL.
-[2018.09.17-16.18.28:714][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCylinder1'
-[2018.09.17-16.18.28:714][ 14]LoadErrors: Failed to load /Game/Classes/221_InteriorDesign/Assets/tablet_pCylinder1.tablet_pCylinder1 Referenced by tablet_pCylinder1_GEN_VARIABLE
-[2018.09.17-16.18.28:714][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCylinder1' while loading NULL.
-[2018.09.17-16.18.28:715][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pTorus1'
-[2018.09.17-16.18.28:715][ 14]LoadErrors: Failed to load /Game/Classes/221_InteriorDesign/Assets/tablet_pTorus1.tablet_pTorus1 Referenced by tablet_pTorus1_GEN_VARIABLE
-[2018.09.17-16.18.28:715][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pTorus1' while loading NULL.
-[2018.09.17-16.18.28:715][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pSphere2'
-[2018.09.17-16.18.28:715][ 14]LoadErrors: Failed to load /Game/Classes/221_InteriorDesign/Assets/tablet_pSphere2.tablet_pSphere2 Referenced by tablet_pSphere2_GEN_VARIABLE
-[2018.09.17-16.18.28:715][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pSphere2' while loading NULL.
-[2018.09.17-16.18.28:716][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pSphere1'
-[2018.09.17-16.18.28:716][ 14]LoadErrors: Failed to load /Game/Classes/221_InteriorDesign/Assets/tablet_pSphere1.tablet_pSphere1 Referenced by tablet_pSphere1_GEN_VARIABLE
-[2018.09.17-16.18.28:716][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pSphere1' while loading NULL.
-[2018.09.17-16.18.28:716][ 14]LogLinker: Warning: Can't find file '/Game/Classes/221_InteriorDesign/Assets/tablet_pCylinder2'
-[2018.09.17-16.18.28:717][ 14]LoadErrors: Failed to load /Game/Classes/221_InteriorDesign/Assets/tablet_pCylinder2.tablet_pCylinder2 Referenced by tablet_pCylinder2_GEN_VARIABLE
-[2018.09.17-16.18.28:717][ 14]LogLinker: Warning: Can't find file for asset '/Game/Classes/221_InteriorDesign/Assets/tablet_pCylinder2' while loading NULL.
-[2018.09.17-16.18.28:738][ 14]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/221_InteriorDesign/Assets/tablet_full.tablet_full
-[2018.09.17-16.18.30:422][ 92]LogSlate: Took 0.003744 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.09.17-16.18.35:368][386]LogRenderer: Reallocating scene render targets to support 676x448 Format 26 NumSamples 1 (Frame:1).
-[2018.09.17-16.18.44:851][939]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.17-16.18.46:842][ 37]Cmd: TRANSACTION UNDO
-[2018.09.17-16.18.46:842][ 37]LogEditorTransaction: Undo Select Brush Surface
-[2018.09.17-16.18.48:781][151]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.17-16.18.50:130][232]LogEditorViewport: Clicking Background
-[2018.09.17-16.18.50:931][280]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.17-16.19.12:869][557]LogRenderer: Reallocating scene render targets to support 676x452 Format 26 NumSamples 1 (Frame:1259).
-[2018.09.17-16.19.21:080][985]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.17-16.19.25:500][244]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.17-16.19.25:599][250]LogSlate: Window 'tablet_full' being destroyed
-[2018.09.17-16.19.25:603][250]LogSlate: Window 'tablet_full' being destroyed
-[2018.09.17-16.20.07:345][748]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.17-16.20.07:749][748]LogSavePackage: Moving '../../../../../../VRPROJECT/interior design/UE4Project/Project/Saved/DefaultMap_Auto1D4F586784586105DF1E09ABE8A6BDBAD.tmp' to '../../../../../../VRPROJECT/interior design/UE4Project/Project/Saved/Autosaves/Game/DefaultProject/Map/DefaultMap_Auto1.umap'
-[2018.09.17-16.20.07:757][748]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/DefaultProject/Map/DefaultMap' took 0.394
-[2018.09.17-16.20.07:757][748]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.394
-[2018.09.17-16.20.19:512][453]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.17-16.22.47:356][144]LogAssetEditorManager: Opening Asset editor for PhysicsAsset /Game/Classes/221_InteriorDesign/Assets/Fans/CeilingFan1/CeilingFanLamp_PhysicsAsset.CeilingFanLamp_PhysicsAsset
-[2018.09.17-16.22.47:499][144]LogContentBrowser: Native class hierarchy updated for 'PhysicsAssetEditor' in 0.0003 seconds. Added 7 classes and 3 folders.
-[2018.09.17-16.22.47:617][144]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.09.17-16.22.47:948][144]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0'
-[2018.09.17-16.22.47:949][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
-[2018.09.17-16.22.47:981][144]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0002 seconds. Added 1 classes and 0 folders.
-[2018.09.17-16.22.48:200][144]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0'
-[2018.09.17-16.22.48:639][144]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0002 seconds. Added 1 classes and 0 folders.
-[2018.09.17-16.22.48:652][145]LogRenderer: Reallocating scene render targets to support 756x556 Format 26 NumSamples 1 (Frame:1).
-[2018.09.17-16.23.02:049][920]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/Classes/221_InteriorDesign/Assets/Fans/CeilingFan1/CeilingFanLamp.CeilingFanLamp
-[2018.09.17-16.23.02:093][920]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2018.09.17-16.23.12:346][507]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-15.56.39:207][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.17-15.56.39:207][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.09.17-15.56.39:266][  0]LogHAL: Display: Platform has ~ 16 GB [17046728704 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.09.17-15.56.39:266][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.09.17-15.56.39:266][  0]LogInit: Going up to parent DeviceProfile []
+[2018.09.17-15.56.39:266][  0]LogInit: Computer: DESKTOP-48QREGR
+[2018.09.17-15.56.39:266][  0]LogInit: User: benha
+[2018.09.17-15.56.39:266][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.09.17-15.56.39:266][  0]LogInit: High frequency timer resolution =2.742192 MHz
+[2018.09.17-15.56.39:266][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.09.17-15.56.39:266][  0]LogMemory: Platform Memory Stats for Windows
+[2018.09.17-15.56.39:266][  0]LogMemory: Process Physical Memory: 101.63 MB used, 101.63 MB peak
+[2018.09.17-15.56.39:266][  0]LogMemory: Process Virtual Memory: 89.58 MB used, 89.58 MB peak
+[2018.09.17-15.56.39:266][  0]LogMemory: Physical Memory: 6702.27 MB used,  9554.76 MB free, 16257.03 MB total
+[2018.09.17-15.56.39:266][  0]LogMemory: Virtual Memory: 4643.41 MB used,  9554.76 MB free, 134217728.00 MB total
+[2018.09.17-15.56.39:578][  0]LogInit: Using OS detected language (en-US).
+[2018.09.17-15.56.39:578][  0]LogInit: Using OS detected locale (en-CA).
+[2018.09.17-15.56.39:578][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.09.17-15.56.39:965][  0]LogStreaming: Display: Took  0.387s to InitEngineTextLocalization.
+[2018.09.17-15.56.39:965][  0]LogInit: Setting process to per monitor DPI aware
+[2018.09.17-15.56.39:996][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.09.17-15.56.39:996][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.09.17-15.56.40:161][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.17-15.56.40:161][  0]LogD3D11RHI: D3D11 adapters:
+[2018.09.17-15.56.40:224][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.09.17-15.56.40:224][  0]LogD3D11RHI:       8081/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.09.17-15.56.40:245][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.09.17-15.56.40:245][  0]LogD3D11RHI:       128/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.09.17-15.56.40:246][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.09.17-15.56.40:247][  0]LogD3D11RHI:       0/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.09.17-15.56.40:247][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.09.17-15.56.40:253][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.09.17-15.56.40:253][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
+[2018.09.17-15.56.40:253][  0]LogWindows: EnumDisplayDevices:
+[2018.09.17-15.56.40:253][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.09.17-15.56.40:253][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.09.17-15.56.40:254][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.09.17-15.56.40:254][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.09.17-15.56.40:254][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.09.17-15.56.40:254][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.09.17-15.56.40:254][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.09.17-15.56.40:255][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.09.17-15.56.40:255][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.09.17-15.56.40:255][  0]LogD3D11RHI:   Driver Version: 399.07 (internal:24.21.13.9907, unified:399.07)
+[2018.09.17-15.56.40:255][  0]LogD3D11RHI:      Driver Date: 8-21-2018
+[2018.09.17-15.56.40:255][  0]LogRHI: Texture pool is 5656 MB (70% of 8081 MB)
+[2018.09.17-15.56.40:295][  0]LogD3D11RHI: Async texture creation enabled
+[2018.09.17-15.56.40:312][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.09.17-15.56.40:358][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../Users/benha/Documents/GitHub/UE4Project/Project/Intermediate/Shaders/WorkingDirectory/4800/).
+[2018.09.17-15.56.40:358][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/benha/AppData/Local/Temp/UnrealShaderWorkingDir/F2D4395A4FA6A24C07AD8A8CFC1287A3/'.
+[2018.09.17-15.56.40:625][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.09.17-15.56.40:640][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.09.17-15.56.40:653][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.09.17-15.56.40:669][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.09.17-15.56.40:682][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.09.17-15.56.40:694][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.09.17-15.56.40:708][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.09.17-15.56.40:720][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.09.17-15.56.40:727][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.09.17-15.56.40:808][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.17-15.56.40:808][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.17-15.56.40:808][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.17-15.56.40:808][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.17-15.56.40:808][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.17-15.56.40:808][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.17-15.56.40:808][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.17-15.56.40:808][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.17-15.56.40:808][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.17-15.56.40:808][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.17-15.56.40:808][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.17-15.56.40:808][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.17-15.56.40:808][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.17-15.56.40:808][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.17-15.56.40:808][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.17-15.56.40:808][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.17-15.56.40:808][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.17-15.56.40:808][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.17-15.56.40:809][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.09.17-15.56.40:869][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.17-15.56.40:869][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.17-15.56.40:898][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.17-15.56.40:898][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.17-15.56.40:913][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.09.17-15.56.40:927][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.09.17-15.56.40:938][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.09.17-15.56.40:955][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.09.17-15.56.40:963][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.09.17-15.56.40:963][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.09.17-15.56.41:009][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.09.17-15.56.41:009][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.09.17-15.56.41:009][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.09.17-15.56.41:843][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.09.17-15.56.41:911][  0]LogDerivedDataCache: Loaded boot cache 0.07s 86MB C:/Users/benha/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.17-15.56.41:911][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/benha/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.09.17-15.56.41:911][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Users/benha/Documents/GitHub/UE4Project/Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.09.17-15.56.41:912][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.09.17-15.56.41:912][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Users/benha/Documents/GitHub/UE4Project/Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.09.17-15.56.41:912][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.09.17-15.56.41:925][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.09.17-15.56.41:938][  0]LogDerivedDataCache: Using Local data cache path C:/Users/benha/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.09.17-15.56.41:938][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.09.17-15.56.41:938][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.09.17-15.56.41:959][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.09.17-15.56.41:961][  0]LogSlate: Using FreeType 2.6.0
+[2018.09.17-15.56.41:961][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.17-15.56.42:035][  0]LogAssetRegistry: FAssetRegistry took 0.0272 seconds to start up
+[2018.09.17-15.56.42:391][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.17-15.56.42:439][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.09.17-15.56.42:442][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.09.17-15.56.42:442][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.09.17-15.56.42:442][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.09.17-15.56.42:442][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.09.17-15.56.42:557][  0]LogNetVersion: VRTests 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4138015713)
+[2018.09.17-15.56.43:488][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.379921 seconds
+[2018.09.17-15.56.43:495][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.09.17-15.56.43:495][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.09.17-15.56.43:495][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.09.17-15.56.44:374][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.09.17-15.56.44:387][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.09.17-15.56.44:561][  0]SourceControl: Source control is disabled
+[2018.09.17-15.56.44:561][  0]SourceControl: Source control is disabled
+[2018.09.17-15.56.44:562][  0]SourceControl: Source control is disabled
+[2018.09.17-15.56.44:563][  0]SourceControl: Source control is disabled
+[2018.09.17-15.56.44:727][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.09.17-15.56.44:792][  0]LogOcInput: OculusInput pre-init called
+[2018.09.17-15.56.44:851][  0]LogEngine: Initializing Engine...
+[2018.09.17-15.56.44:851][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.17-15.56.44:853][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.17-15.56.44:853][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.17-15.56.44:853][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.17-15.56.44:853][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.17-15.56.45:081][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.09.17-15.56.45:099][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.09.17-15.56.45:130][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.17-15.56.45:224][  0]LogInit: FAudioDevice initialized.
+[2018.09.17-15.56.45:224][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.09.17-15.56.45:308][  0]LogDerivedDataCache: Saved boot cache 0.08s 86MB C:/Users/benha/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.17-15.56.45:321][  0]LogInit: Texture streaming: Enabled
+[2018.09.17-15.56.45:333][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.09.17-15.56.45:345][  0]LogInit: Transaction tracking system initialized
+[2018.09.17-15.56.45:362][  0]BlueprintLog: New page: Editor Load
+[2018.09.17-15.56.45:422][  0]LocalizationService: Localization service is disabled
+[2018.09.17-15.56.46:030][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.09.17-15.56.46:030][  0]LogCook: Display: Mobile HDR setting 1
+[2018.09.17-15.56.46:030][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.09.17-15.56.46:030][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.17-15.56.46:030][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.17-15.56.46:030][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.17-15.56.46:030][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.17-15.56.46:148][  0]LogFileCache: Scanning file cache for directory 'D:/Users/benha/Documents/GitHub/UE4Project/Project/Content/' took 0.02s
+[2018.09.17-15.56.46:148][  0]SourceControl: Source control is disabled
+[2018.09.17-15.56.46:148][  0]Cmd: MAP LOAD FILE="../../../../Users/benha/Documents/GitHub/UE4Project/Project/Content/DefaultProject/Map/DefaultMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.17-15.56.46:149][  0]LightingResults: New page: Lighting Build
+[2018.09.17-15.56.46:151][  0]MapCheck: New page: Map Check
+[2018.09.17-15.56.46:151][  0]LightingResults: New page: Lighting Build
+[2018.09.17-15.56.46:208][  0]LogAIModule: Creating AISystem for world DefaultMap
+[2018.09.17-15.56.46:212][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.17-15.56.46:235][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.17-15.56.46:279][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 44.105ms to complete.
+[2018.09.17-15.56.46:279][  0]LogFileHelpers: Loading map 'DefaultMap' took 0.132
+[2018.09.17-15.56.46:884][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.17-15.56.46:894][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.17-15.56.46:903][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.17-15.56.46:913][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.17-15.56.46:923][  0]LogCollectionManager: Loaded 0 collections in 0.000877 seconds
+[2018.09.17-15.56.47:009][  0]LogFileCache: Scanning file cache for directory 'D:/Users/benha/Documents/GitHub/UE4Project/Project/Saved/Collections/' took 0.01s
+[2018.09.17-15.56.47:010][  0]LogFileCache: Scanning file cache for directory 'D:/Users/benha/Documents/GitHub/UE4Project/Project/Content/Developers/benha/Collections/' took 0.01s
+[2018.09.17-15.56.47:010][  0]LogFileCache: Scanning file cache for directory 'D:/Users/benha/Documents/GitHub/UE4Project/Project/Content/Collections/' took 0.01s
+[2018.09.17-15.56.47:010][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.09.17-15.56.47:022][  0]LogContentBrowser: Native class hierarchy populated in 0.0122 seconds. Added 2572 classes and 603 folders.
+[2018.09.17-15.56.47:070][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.09.17-15.56.48:434][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.09.17-15.56.48:506][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.09.17-15.56.52:705][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.09.17-15.56.52:796][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.VRTests
+[2018.09.17-15.56.52:796][  0]LogTemp: CWD: D:\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.09.17-15.56.52:796][  0]LogTemp: Initial Dir: D:\UE_4.20
+[2018.09.17-15.56.52:796][  0]LogTemp: Env CWD: D:\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.09.17-15.56.52:796][  0]LogTemp: BranchPath = DESKTOP-48QREGR/D/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-48QREGR/D/UE_4.20/Engine/Binaries
+[2018.09.17-15.56.52:796][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\benha\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.09.17-15.56.52:796][  0]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.17-15.56.52:805][  0]LogSlate: Took 0.000279 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.09.17-15.56.52:879][  0]LogSlate: Took 0.023350 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.09.17-15.56.53:248][  0]LogRenderer: Reallocating scene render targets to support 1028x496 Format 26 NumSamples 1 (Frame:1).
+[2018.09.17-15.56.53:534][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.09.17-15.56.53:534][  0]LogLoad: (Engine Initialization) Total time: 18.12 seconds
+[2018.09.17-15.56.53:534][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.09.17-15.56.53:623][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.09.17-15.56.53:849][  2]LogAssetRegistry: Asset discovery search completed in 11.8370 seconds
+[2018.09.17-15.56.53:851][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.09.17-15.56.53:851][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000062 seconds (updated 0 objects)
+[2018.09.17-15.57.46:488][481]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-15.57.48:771][703]LogSlate: Took 0.019443 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.17-15.57.48:968][703]LogAIModule: Creating AISystem for world It_Systems
+[2018.09.17-15.57.48:980][703]LogAssetEditorManager: Opening Asset editor for World /Game/Classes/235_ITSystems/Maps/It_Systems.It_Systems
+[2018.09.17-15.57.49:042][703]Cmd: MAP LOAD FILE="../../../../Users/benha/Documents/GitHub/UE4Project/Project/Content/Classes/235_ITSystems/Maps/It_Systems.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.17-15.57.49:042][703]LightingResults: New page: Lighting Build
+[2018.09.17-15.57.49:042][703]LoadErrors: New page: Loading map: It_Systems.umap
+[2018.09.17-15.57.49:043][703]MapCheck: New page: Map Check
+[2018.09.17-15.57.49:043][703]LightingResults: New page: Lighting Build
+[2018.09.17-15.57.49:141][703]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.17-15.57.49:189][703]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.17-15.57.49:230][703]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 40.826ms to complete.
+[2018.09.17-15.57.49:230][703]LogFileHelpers: Loading map 'It_Systems' took 0.189
+[2018.09.17-15.58.19:138][243]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.11.27:062][226]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.09.17-16.11.31:653][667]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.33.29:963][438]LogActorFactory: Actor Factory created Cube
+[2018.09.17-16.33.30:608][474]LogActorFactory: Actor Factory created Cube
+[2018.09.17-16.33.33:084][728]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.33.40:017][524]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.09.17-16.33.40:933][621]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.09.17-16.33.46:512][261]Cmd: DUPLICATE
+[2018.09.17-16.33.46:512][261]Cmd: ACTOR DUPLICATE
+[2018.09.17-16.33.47:644][331]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.33.49:506][551]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.33.53:440][ 18]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.34.03:677][228]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.09.17-16.34.08:239][743]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2018.09.17-16.34.20:295][131]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.34.31:978][385]LogSlate: Took 0.004857 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.17-16.34.39:614][385]LogSlate: Window 'Create Merged Actor' being destroyed
+[2018.09.17-16.34.39:816][385]LogStaticMesh: Building static mesh RAM...
+[2018.09.17-16.34.39:890][385]LogStaticMesh: Built static mesh [0.09s] /Game/Classes/235_ITSystems/Blueprints/Objects/RAM.RAM
+[2018.09.17-16.34.41:003][497]LogSlate: Window 'Merge Actors' being destroyed
+[2018.09.17-16.34.41:009][497]LogSlate: Window 'Merge Actors' being destroyed
+[2018.09.17-16.34.42:380][649]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.17-16.34.42:380][649]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.17-16.34.42:380][649]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.17-16.34.42:381][649]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.17-16.34.42:381][649]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.17-16.34.42:404][649]LogEditorActor: Deleted 5 Actors (0.084 secs)
+[2018.09.17-16.34.46:513][132]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.34.46:650][147]LogActorFactory: Actor Factory created Cube
+[2018.09.17-16.34.46:960][183]LogActorFactory: Actor Factory created Cube
+[2018.09.17-16.34.50:584][609]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.34.54:545][ 80]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.34.56:428][302]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.34.59:155][626]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.09.17-16.34.59:428][655]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.35.00:010][724]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.09.17-16.35.05:356][338]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.35.09:202][758]Cmd: DUPLICATE
+[2018.09.17-16.35.09:202][758]Cmd: ACTOR DUPLICATE
+[2018.09.17-16.35.09:979][838]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.35.12:826][166]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.35.15:673][503]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.35.20:959][ 96]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.35.24:123][448]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.09.17-16.35.27:224][795]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2018.09.17-16.35.34:882][649]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.09.17-16.35.37:109][899]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.09.17-16.35.37:360][922]Cmd: DUPLICATE
+[2018.09.17-16.35.37:360][922]Cmd: ACTOR DUPLICATE
+[2018.09.17-16.35.38:121][980]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.35.42:488][487]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.35.51:790][517]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.35.54:175][790]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.36.01:309][609]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2018.09.17-16.36.04:226][925]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.09.17-16.36.07:043][256]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.09.17-16.36.10:201][597]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.09.17-16.36.10:817][665]Cmd: DUPLICATE
+[2018.09.17-16.36.10:817][665]Cmd: ACTOR DUPLICATE
+[2018.09.17-16.36.11:652][760]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.36.15:564][203]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.36.20:985][793]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.36.24:039][138]Cmd: TRANSACTION UNDO
+[2018.09.17-16.36.24:039][138]LogEditorTransaction: Undo Scale Actors
+[2018.09.17-16.36.27:218][501]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.36.31:013][953]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.36.34:127][324]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.36.39:086][898]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2018.09.17-16.36.39:392][922]Cmd: DUPLICATE
+[2018.09.17-16.36.39:392][922]Cmd: ACTOR DUPLICATE
+[2018.09.17-16.36.46:254][728]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.36.48:968][ 51]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.36.53:232][559]Cmd: DUPLICATE
+[2018.09.17-16.36.53:232][559]Cmd: ACTOR DUPLICATE
+[2018.09.17-16.36.54:897][751]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.36.57:561][ 68]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.37.09:689][487]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2018.09.17-16.37.15:810][172]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.09.17-16.37.21:920][892]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2018.09.17-16.37.50:689][271]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.38.11:531][241]LogSlate: Window 'Create Merged Actor' being destroyed
+[2018.09.17-16.38.11:559][241]LogStaticMesh: Building static mesh CASE...
+[2018.09.17-16.38.11:606][241]LogStaticMesh: Built static mesh [0.05s] /Game/CASE.CASE
+[2018.09.17-16.38.17:117][499]LogSlate: Window 'Create Merged Actor' being destroyed
+[2018.09.17-16.38.17:143][499]LogStaticMesh: Building static mesh CASE...
+[2018.09.17-16.38.17:193][499]LogStaticMesh: Built static mesh [0.05s] /Game/CASE.CASE
+[2018.09.17-16.38.17:555][500]LogSavePackage: Moving '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/It_Systems_Auto1C5C81CED436F2AEFDF648C9767FF22A7.tmp' to '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/235_ITSystems/Maps/It_Systems_Auto1.umap'
+[2018.09.17-16.38.17:602][500]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/235_ITSystems/Maps/It_Systems' took 0.308
+[2018.09.17-16.38.17:602][500]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.308
+[2018.09.17-16.38.17:608][500]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Classes/235_ITSystems/Blueprints/Objects/RAM] ([1] browsable assets)...
+[2018.09.17-16.38.17:627][500]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Classes/235_ITSystems/Blueprints/Objects/RAM.RAM]
+[2018.09.17-16.38.17:627][500]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/235_ITSystems/Blueprints/Objects/RAM]
+[2018.09.17-16.38.17:665][500]LogSavePackage: Moving '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/RAM_Auto1A04A372640ED9CF2074673A47F3415C4.tmp' to '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/235_ITSystems/Blueprints/Objects/RAM_Auto1.uasset'
+[2018.09.17-16.38.17:666][500]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CASE] ([1] browsable assets)...
+[2018.09.17-16.38.17:675][500]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/CASE.CASE]
+[2018.09.17-16.38.17:675][500]OBJ SavePackage: Finished generating thumbnails for package [/Game/CASE]
+[2018.09.17-16.38.17:675][500]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CASE" FILE="../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/CASE_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.09.17-16.38.17:691][500]LogSavePackage: Moving '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/CASE_Auto1DC92D5B148E1AF569C22CC86482234EB.tmp' to '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/CASE_Auto1.uasset'
+[2018.09.17-16.38.17:691][500]LogFileHelpers: Auto-saving content packages took 0.084
+[2018.09.17-16.38.19:119][666]LogSlate: Window 'Merge Actors' being destroyed
+[2018.09.17-16.38.19:123][666]LogSlate: Window 'Merge Actors' being destroyed
+[2018.09.17-16.38.26:669][502]LogSavePackage: Moving '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/CASE97D1923446F143AA73D724A5D3089EA4.tmp' to '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Content/Classes/235_ITSystems/Blueprints/Objects/CASE.uasset'
+[2018.09.17-16.38.32:391][156]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2018.09.17-16.38.33:649][301]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.38.35:639][531]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.17-16.38.35:640][531]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.17-16.38.35:640][531]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.17-16.38.35:640][531]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.17-16.38.35:641][531]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.17-16.38.35:641][531]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.17-16.38.35:641][531]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.17-16.38.35:664][531]LogEditorActor: Deleted 7 Actors (0.027 secs)
+[2018.09.17-16.38.38:177][827]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.38.38:322][843]LogActorFactory: Actor Factory created Cube
+[2018.09.17-16.38.38:771][895]LogActorFactory: Actor Factory created Cube
+[2018.09.17-16.38.42:239][282]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.38.45:645][688]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.38.47:603][920]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.38.52:757][502]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.38.52:903][518]LogActorFactory: Actor Factory created Cylinder
+[2018.09.17-16.38.53:809][616]LogActorFactory: Actor Factory created Cylinder
+[2018.09.17-16.38.57:582][ 30]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.39.06:483][ 36]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.39.23:064][916]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.39.23:355][949]LogActorFactory: Actor Factory created Cone
+[2018.09.17-16.39.24:213][ 40]LogActorFactory: Actor Factory created Cone
+[2018.09.17-16.39.25:507][190]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.39.30:658][805]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.39.33:884][187]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.39.37:471][615]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.39.43:108][281]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.39.48:689][925]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.39.52:054][291]Cmd: DELETE
+[2018.09.17-16.39.52:054][291]Cmd: ACTOR DELETE
+[2018.09.17-16.39.52:056][291]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.17-16.39.52:079][291]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2018.09.17-16.39.54:212][546]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2018.09.17-16.39.54:723][602]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube)
+[2018.09.17-16.39.58:018][990]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.17-16.40.00:923][312]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.17-16.40.12:234][425]LogSlate: Window 'Create Merged Actor' being destroyed
+[2018.09.17-16.40.12:248][425]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.17-16.40.12:259][425]LogStaticMesh: Building static mesh FAN...
+[2018.09.17-16.40.12:288][425]LogStaticMesh: Built static mesh [0.03s] /Game/Classes/235_ITSystems/Blueprints/Objects/FAN.FAN
+[2018.09.17-16.40.12:313][425]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.17-16.40.15:534][603]LogSlate: Window 'Create Merged Actor' being destroyed
+[2018.09.17-16.40.17:091][785]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.40.17:182][796]LogSlate: Window 'Merge Actors' being destroyed
+[2018.09.17-16.40.17:185][796]LogSlate: Window 'Merge Actors' being destroyed
+[2018.09.17-16.40.17:813][871]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.40.19:549][ 58]Cmd: DELETE
+[2018.09.17-16.40.19:549][ 58]Cmd: ACTOR DELETE
+[2018.09.17-16.40.19:552][ 58]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.17-16.40.19:552][ 58]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.17-16.40.19:574][ 58]LogEditorActor: Deleted 2 Actors (0.024 secs)
+[2018.09.17-16.40.27:941][ 41]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.40.28:045][ 52]LogActorFactory: Actor Factory created Cube
+[2018.09.17-16.40.28:406][ 94]LogActorFactory: Actor Factory created Cube
+[2018.09.17-16.40.30:372][321]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.40.44:879][  6]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.17-16.40.48:796][445]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.17-16.41.00:005][680]LogSlate: Window 'Create Merged Actor' being destroyed
+[2018.09.17-16.41.00:022][680]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.17-16.41.00:033][680]LogStaticMesh: Building static mesh POWERSUPPLY...
+[2018.09.17-16.41.00:049][680]LogStaticMesh: Built static mesh [0.02s] /Game/POWERSUPPLY.POWERSUPPLY
+[2018.09.17-16.41.00:068][680]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.17-16.41.02:660][990]LogSlate: Window 'Merge Actors' being destroyed
+[2018.09.17-16.41.02:664][990]LogSlate: Window 'Merge Actors' being destroyed
+[2018.09.17-16.41.03:341][ 70]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.41.05:411][309]LogSavePackage: Moving '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/POWERSUPPLYC531B9F74D163F56ED4722A29C4658BE.tmp' to '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Content/Classes/235_ITSystems/Blueprints/Objects/POWERSUPPLY.uasset'
+[2018.09.17-16.41.16:839][363]LogSlate: Window 'Delete Assets' being destroyed
+[2018.09.17-16.41.17:499][432]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.09.17-16.41.17:952][485]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.09.17-16.41.18:172][510]Cmd: DELETE
+[2018.09.17-16.41.18:172][510]Cmd: ACTOR DELETE
+[2018.09.17-16.41.18:173][510]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.17-16.41.18:195][510]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2018.09.17-16.41.18:886][593]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.41.19:036][610]LogActorFactory: Actor Factory created Cube
+[2018.09.17-16.41.19:464][660]LogActorFactory: Actor Factory created Cube
+[2018.09.17-16.41.23:406][126]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.41.26:658][513]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.41.27:294][588]LogActorFactory: Actor Factory created Cube
+[2018.09.17-16.41.27:677][627]LogActorFactory: Actor Factory created Cube
+[2018.09.17-16.41.28:816][758]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.41.34:527][438]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.41.44:055][573]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.09.17-16.41.51:632][467]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2018.09.17-16.41.52:549][571]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube)
+[2018.09.17-16.41.55:033][858]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.17-16.41.58:072][198]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.17-16.42.12:179][353]LogSlate: Window 'Create Merged Actor' being destroyed
+[2018.09.17-16.42.12:183][353]LogSlate: FSceneViewport::OnFocusLost() reason 3
+[2018.09.17-16.42.12:239][353]LogStaticMesh: Building static mesh PROCESSOR...
+[2018.09.17-16.42.12:263][353]LogStaticMesh: Built static mesh [0.03s] /Game/Classes/235_ITSystems/Blueprints/Objects/PROCESSOR.PROCESSOR
+[2018.09.17-16.42.12:285][353]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.17-16.42.14:338][582]LogSlate: Window 'Merge Actors' being destroyed
+[2018.09.17-16.42.14:341][582]LogSlate: Window 'Merge Actors' being destroyed
+[2018.09.17-16.42.16:553][847]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.09.17-16.42.18:020][ 18]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube2)
+[2018.09.17-16.42.19:013][132]Cmd: DELETE
+[2018.09.17-16.42.19:013][132]Cmd: ACTOR DELETE
+[2018.09.17-16.42.19:015][132]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.17-16.42.19:016][132]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.17-16.42.19:039][132]LogEditorActor: Deleted 2 Actors (0.025 secs)
+[2018.09.17-16.42.30:308][479]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.42.31:810][658]LogActorFactory: Actor Factory created Cube
+[2018.09.17-16.42.32:999][795]LogActorFactory: Actor Factory created Cube
+[2018.09.17-16.42.33:987][908]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.42.36:594][218]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.42.38:359][427]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.42.45:564][284]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.17-16.42.48:510][607]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.17-16.43.02:958][741]LogSlate: Window 'Create Merged Actor' being destroyed
+[2018.09.17-16.43.02:973][741]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.17-16.43.02:986][741]LogStaticMesh: Building static mesh MOTHERBOARD...
+[2018.09.17-16.43.03:000][741]LogStaticMesh: Built static mesh [0.02s] /Game/Classes/235_ITSystems/Blueprints/Objects/MOTHERBOARD.MOTHERBOARD
+[2018.09.17-16.43.03:021][741]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.17-16.43.04:472][913]LogSlate: Window 'Merge Actors' being destroyed
+[2018.09.17-16.43.04:476][913]LogSlate: Window 'Merge Actors' being destroyed
+[2018.09.17-16.43.04:999][975]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.43.57:294][237]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.09.17-16.43.57:708][285]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.09.17-16.43.58:521][381]Cmd: DELETE
+[2018.09.17-16.43.58:521][381]Cmd: ACTOR DELETE
+[2018.09.17-16.43.58:523][381]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.17-16.43.58:544][381]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2018.09.17-16.44.10:636][816]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.44.10:760][830]LogActorFactory: Actor Factory created Cube
+[2018.09.17-16.44.11:102][869]LogActorFactory: Actor Factory created Cube
+[2018.09.17-16.44.14:431][213]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.44.21:399][ 33]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.44.26:842][656]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.09.17-16.44.27:070][680]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.44.27:552][737]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.09.17-16.44.29:200][927]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.44.32:074][269]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.44.44:876][792]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.44.45:062][813]LogActorFactory: Actor Factory created Cube
+[2018.09.17-16.44.45:870][889]LogActorFactory: Actor Factory created Cube
+[2018.09.17-16.44.46:664][979]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.44.57:821][266]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.45.12:952][994]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.45.19:743][785]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.45.33:465][372]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2018.09.17-16.45.34:582][495]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.09.17-16.45.35:783][611]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.09.17-16.45.36:255][646]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2018.09.17-16.45.44:090][577]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.09.17-16.45.47:361][946]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2018.09.17-16.45.48:470][ 54]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.45.52:659][554]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.45.56:320][990]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.09.17-16.45.58:203][210]Cmd: TRANSACTION UNDO
+[2018.09.17-16.45.58:203][210]LogEditorTransaction: Undo Clicking on Actors
+[2018.09.17-16.45.58:417][225]Cmd: TRANSACTION UNDO
+[2018.09.17-16.45.58:417][225]LogEditorTransaction: Undo Move Actors
+[2018.09.17-16.45.58:731][255]Cmd: TRANSACTION UNDO
+[2018.09.17-16.45.58:731][255]LogEditorTransaction: Undo Scale Actors
+[2018.09.17-16.45.59:009][287]Cmd: TRANSACTION UNDO
+[2018.09.17-16.45.59:009][287]LogEditorTransaction: Undo Clicking on Actors
+[2018.09.17-16.45.59:611][354]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2018.09.17-16.46.00:212][421]Cmd: DELETE
+[2018.09.17-16.46.00:212][421]Cmd: ACTOR DELETE
+[2018.09.17-16.46.00:214][421]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.17-16.46.00:236][421]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2018.09.17-16.46.00:615][466]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.09.17-16.46.02:003][627]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.46.20:269][371]LogSlate: Window 'Create Merged Actor' being destroyed
+[2018.09.17-16.46.20:293][371]LogStaticMesh: Building static mesh VIDEOCARD...
+[2018.09.17-16.46.20:311][371]LogStaticMesh: Built static mesh [0.02s] /Game/Classes/235_ITSystems/Blueprints/Objects/VIDEOCARD.VIDEOCARD
+[2018.09.17-16.46.31:381][676]LogSlate: Window 'Merge Actors' being destroyed
+[2018.09.17-16.46.31:384][676]LogSlate: Window 'Merge Actors' being destroyed
+[2018.09.17-16.46.37:608][404]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.09.17-16.46.38:091][460]Cmd: DELETE
+[2018.09.17-16.46.38:092][460]Cmd: ACTOR DELETE
+[2018.09.17-16.46.38:093][460]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.17-16.46.38:116][460]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2018.09.17-16.46.40:614][596]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.17-16.47.01:250][970]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.47.01:470][995]LogActorFactory: Actor Factory created CASE
+[2018.09.17-16.47.03:299][204]LogActorFactory: Actor Factory created CASE
+[2018.09.17-16.47.05:452][454]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.47.19:082][ 23]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.47.45:539][518]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Classes/235_ITSystems/Maps/It_Systems.It_Systems:PersistentLevel.It_Systems
+[2018.09.17-16.47.46:295][518]LogClass: Warning: Enum '/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/FeedbackEffects/EFeedbackType.EFeedbackType' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2018.09.17-16.47.46:295][518]LogClass: Warning: Enum '/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/FeedbackEffects/EFeedbackIntensity.EFeedbackIntensity' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2018.09.17-16.47.47:007][518]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.09.17-16.47.48:685][518]LogSlate: Took 0.017310 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.09.17-16.48.18:150][248]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.50.19:454][389]BlueprintLog: New page: Compile It_Systems
+[2018.09.17-16.52.09:199][896]Cmd: DELETE
+[2018.09.17-16.52.09:199][896]Cmd: ACTOR DELETE
+[2018.09.17-16.52.09:487][896]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.17-16.52.11:032][896]LogSlate: Window 'Message' being destroyed
+[2018.09.17-16.52.11:099][896]LogEditorActor: Deleted 0 Actors (1.900 secs)
+[2018.09.17-16.52.11:588][926]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2018.09.17-16.52.11:826][940]Cmd: DELETE
+[2018.09.17-16.52.11:826][940]Cmd: ACTOR DELETE
+[2018.09.17-16.52.11:833][940]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.17-16.52.12:476][940]LogSlate: Window 'Message' being destroyed
+[2018.09.17-16.52.12:480][940]LogEditorActor: Deleted Actor: TriggerBox
+[2018.09.17-16.52.12:507][940]LogEditorActor: Deleted 1 Actors (0.681 secs)
+[2018.09.17-16.52.13:114][977]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CASE)
+[2018.09.17-16.52.16:406][172]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.52.57:889][606]LogSlate: Took 0.015712 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.09.17-16.54.19:671][381]BlueprintLog: New page: Compile It_Systems
+[2018.09.17-16.54.19:979][381]LogBlueprint: Warning: [Compiler PersistentLevel.It_Systems] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
+[2018.09.17-16.54.19:980][381]LogBlueprint: Error: [Compiler PersistentLevel.It_Systems] Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2018.09.17-16.54.20:481][381]LogBlueprint: Warning: [Compiler PersistentLevel.It_Systems] [3465.06] Compile of PersistentLevel.It_Systems failed. 1 Fatal Issue(s) 1 Warning(s) [in 810 ms] (/Game/Classes/235_ITSystems/Maps/It_Systems.It_Systems:PersistentLevel.It_Systems)
+[2018.09.17-16.54.33:420][157]BlueprintLog: New page: Compile It_Systems
+[2018.09.17-16.55.03:818][545]LogSavePackage: Moving '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/It_Systems_Auto2BE93E52643989FAD3537EABE877BA3C9.tmp' to '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/235_ITSystems/Maps/It_Systems_Auto2.umap'
+[2018.09.17-16.55.03:820][545]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/235_ITSystems/Maps/It_Systems' took 0.259
+[2018.09.17-16.55.03:821][545]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.259
+[2018.09.17-16.55.03:822][545]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Classes/235_ITSystems/Blueprints/Objects/FAN] ([1] browsable assets)...
+[2018.09.17-16.55.03:834][545]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Classes/235_ITSystems/Blueprints/Objects/FAN.FAN]
+[2018.09.17-16.55.03:834][545]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/235_ITSystems/Blueprints/Objects/FAN]
+[2018.09.17-16.55.03:855][545]LogSavePackage: Moving '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/FAN_Auto2E735E1E94C7036C5920A03BC239CF442.tmp' to '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/235_ITSystems/Blueprints/Objects/FAN_Auto2.uasset'
+[2018.09.17-16.55.03:856][545]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Classes/235_ITSystems/Blueprints/Objects/PROCESSOR] ([1] browsable assets)...
+[2018.09.17-16.55.03:866][545]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Classes/235_ITSystems/Blueprints/Objects/PROCESSOR.PROCESSOR]
+[2018.09.17-16.55.03:866][545]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/235_ITSystems/Blueprints/Objects/PROCESSOR]
+[2018.09.17-16.55.03:880][545]LogSavePackage: Moving '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/PROCESSOR_Auto2A1057F6C428497EB62B905AEC12A2157.tmp' to '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/235_ITSystems/Blueprints/Objects/PROCESSOR_Auto2.uasset'
+[2018.09.17-16.55.03:882][545]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Classes/235_ITSystems/Blueprints/Objects/MOTHERBOARD] ([1] browsable assets)...
+[2018.09.17-16.55.03:892][545]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Classes/235_ITSystems/Blueprints/Objects/MOTHERBOARD.MOTHERBOARD]
+[2018.09.17-16.55.03:892][545]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/235_ITSystems/Blueprints/Objects/MOTHERBOARD]
+[2018.09.17-16.55.03:908][545]LogSavePackage: Moving '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/MOTHERBOARD_Auto2F1E3D4A64BE6894B775185AEFAC08169.tmp' to '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/235_ITSystems/Blueprints/Objects/MOTHERBOARD_Auto2.uasset'
+[2018.09.17-16.55.03:909][545]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Classes/235_ITSystems/Blueprints/Objects/VIDEOCARD] ([1] browsable assets)...
+[2018.09.17-16.55.03:918][545]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Classes/235_ITSystems/Blueprints/Objects/VIDEOCARD.VIDEOCARD]
+[2018.09.17-16.55.03:918][545]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/235_ITSystems/Blueprints/Objects/VIDEOCARD]
+[2018.09.17-16.55.03:940][545]LogSavePackage: Moving '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/VIDEOCARD_Auto2B453D04B4E440D4E63F547AD4DD88698.tmp' to '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/235_ITSystems/Blueprints/Objects/VIDEOCARD_Auto2.uasset'
+[2018.09.17-16.55.03:941][545]LogFileHelpers: Auto-saving content packages took 0.120
+[2018.09.17-16.55.07:906][686]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Classes/235_ITSystems/Blueprints/Objects/CASE.CASE
+[2018.09.17-16.55.08:503][686]LogMaterial: Display: Missing cached shader map for material M_SkyBox, compiling. 
+[2018.09.17-16.55.08:852][686]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.09.17-16.55.10:141][686]LogRenderer: Reallocating scene render targets to support 1272x804 Format 26 NumSamples 1 (Frame:1).
+[2018.09.17-16.55.21:097][334]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.56.36:390][826]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.17-16.56.44:291][283]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.56.47:414][470]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.56.51:946][741]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.56.54:267][880]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.56.57:706][ 86]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.57.02:757][387]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.58.45:376][538]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.58.53:370][996]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.59.01:530][484]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-16.59.19:349][545]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-17.02.05:095][363]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (CASE)
+[2018.09.17-17.02.05:421][363]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.17-17.03.59:403][ 58]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'AActor::AddComponent' [Element not found.]
+[2018.09.17-17.04.01:533][180]LogEditorTransaction: Undo Move Node
+[2018.09.17-17.04.01:790][186]LogEditorTransaction: Undo Move Node
+[2018.09.17-17.04.02:066][196]LogEditorTransaction: Undo Move Node
+[2018.09.17-17.04.02:386][209]LogEditorTransaction: Undo Create Pin Link
+[2018.09.17-17.04.02:760][225]LogEditorTransaction: Undo Move Node
+[2018.09.17-17.04.03:164][243]LogEditorTransaction: Undo Add Node
+[2018.09.17-17.04.03:884][280]LogEditorTransaction: Undo Move Node
+[2018.09.17-17.04.45:892][747]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-17.05.03:069][776]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-17.06.05:151][468]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.17-17.06.05:694][468]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.200 s
+[2018.09.17-17.06.05:694][468]LogOutputDevice: Error: === Handled ensure: ===
+[2018.09.17-17.06.05:694][468]LogOutputDevice: Error: 
+[2018.09.17-17.06.05:694][468]LogOutputDevice: Error: Ensure condition failed: Component && (Component->GetOuter() == GeneratedClass) [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\Blueprint.cpp] [Line: 1154]
+[2018.09.17-17.06.05:694][468]LogOutputDevice: Error: 
+[2018.09.17-17.06.05:694][468]LogOutputDevice: Error: Stack: 
+[2018.09.17-17.06.05:694][468]LogOutputDevice: Error: [Callstack] 0x00007ffdf5fb71e6 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.17-17.06.05:694][468]LogOutputDevice: Error: [Callstack] 0x00007ffdf5cf0c82 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.17-17.06.05:694][468]LogOutputDevice: Error: [Callstack] 0x00007ffdf5d0b346 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.17-17.06.05:694][468]LogOutputDevice: Error: [Callstack] 0x00007ffdf339ec1a UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.17-17.06.05:694][468]LogOutputDevice: Error: [Callstack] 0x00007ffdea2d4c38 UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.09.17-17.06.05:694][468]LogOutputDevice: Error: [Callstack] 0x00007ffdf04ac9a4 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.09.17-17.06.05:694][468]LogOutputDevice: Error: [Callstack] 0x00007ffdf043fee1 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.09.17-17.06.05:694][468]LogOutputDevice: Error: [Callstack] 0x00007ffdf155df4c UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.09.17-17.06.05:694][468]LogOutputDevice: Error: [Callstack] 0x00007ffdf43aa263 UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.17-17.06.05:694][468]LogOutputDevice: Error: [Callstack] 0x00007ffdf787e026 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.09.17-17.06.05:694][468]LogOutputDevice: Error: [Callstack] 0x00007ffdf10fecd6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.09.17-17.06.05:694][468]LogOutputDevice: Error: [Callstack] 0x00007ffdf10ff640 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.09.17-17.06.05:695][468]LogOutputDevice: Error: [Callstack] 0x00007ffdf1142e13 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.09.17-17.06.05:695][468]LogOutputDevice: Error: [Callstack] 0x00007ffdf113f60b UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.09.17-17.06.05:695][468]LogOutputDevice: Error: [Callstack] 0x00007ffdf1a1da23 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.09.17-17.06.05:695][468]LogOutputDevice: Error: [Callstack] 0x00007ffdf152bac7 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.09.17-17.06.05:695][468]LogOutputDevice: Error: [Callstack] 0x00007ffdf14c4412 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.09.17-17.06.05:695][468]LogOutputDevice: Error: [Callstack] 0x00007ffdf1696ae6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.09.17-17.06.05:695][468]LogOutputDevice: Error: [Callstack] 0x00007ffdf19ff6c1 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.09.17-17.06.05:695][468]LogOutputDevice: Error: [Callstack] 0x00007ff651255cbd UE4Editor.exe!UnknownFunction []
+[2018.09.17-17.06.05:695][468]LogOutputDevice: Error: [Callstack] 0x00007ff651265b3c UE4Editor.exe!UnknownFunction []
+[2018.09.17-17.06.05:695][468]LogOutputDevice: Error: [Callstack] 0x00007ff651265bba UE4Editor.exe!UnknownFunction []
+[2018.09.17-17.06.05:695][468]LogOutputDevice: Error: [Callstack] 0x00007ff651273dac UE4Editor.exe!UnknownFunction []
+[2018.09.17-17.06.05:695][468]LogOutputDevice: Error: [Callstack] 0x00007ff651275aaa UE4Editor.exe!UnknownFunction []
+[2018.09.17-17.06.05:695][468]LogOutputDevice: Error: [Callstack] 0x00007ffe5c793034 KERNEL32.DLL!UnknownFunction []
+[2018.09.17-17.06.05:695][468]LogOutputDevice: Error: [Callstack] 0x00007ffe5deb1461 ntdll.dll!UnknownFunction []
+[2018.09.17-17.06.05:695][468]LogOutputDevice: Error: 
+[2018.09.17-17.06.05:715][468]LogStats:                SubmitErrorReport -  0.013 s
+[2018.09.17-17.06.21:043][468]LogStats:                    SendNewReport - 15.328 s
+[2018.09.17-17.06.21:043][468]LogStats:             FDebug::EnsureFailed - 15.549 s
+[2018.09.17-17.06.21:233][468]LogSavePackage: Moving '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/It_Systems_Auto3FC6C21C44E4D715E25F3C683BCF73092.tmp' to '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/235_ITSystems/Maps/It_Systems_Auto3.umap'
+[2018.09.17-17.06.21:237][468]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/235_ITSystems/Maps/It_Systems' took 16.060
+[2018.09.17-17.06.21:237][468]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 16.060
+[2018.09.17-17.06.21:241][468]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Classes/235_ITSystems/Blueprints/Objects/CASE] ([1] browsable assets)...
+[2018.09.17-17.06.21:260][468]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Classes/235_ITSystems/Blueprints/Objects/CASE.CASE]
+[2018.09.17-17.06.21:260][468]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/235_ITSystems/Blueprints/Objects/CASE]
+[2018.09.17-17.06.21:286][468]LogSavePackage: Moving '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/CASE_Auto305D635E14F483BFC56183AB141F03E9F.tmp' to '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/235_ITSystems/Blueprints/Objects/CASE_Auto3.uasset'
+[2018.09.17-17.06.21:287][468]LogFileHelpers: Auto-saving content packages took 0.046
+[2018.09.17-17.08.30:547][529]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.09.17-17.08.40:082][ 69]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/235_ITSystems/Blueprints/Objects/RAM1.RAM1
+[2018.09.17-17.08.49:590][500]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-17.08.57:523][950]LogRenderer: Reallocating scene render targets to support 1908x1204 Format 26 NumSamples 1 (Frame:33174).
+[2018.09.17-17.09.03:628][253]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.17-17.09.04:632][310]BlueprintLog: New page: Compile RAM1
+[2018.09.17-17.09.05:674][349]LogSavePackage: Moving '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/RAM1F04AECDA4429E95B411BE29202D38BB3.tmp' to '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Content/Classes/235_ITSystems/Blueprints/Objects/RAM1.uasset'
+[2018.09.17-17.09.06:410][390]LogSlate: Window 'RAM1' being destroyed
+[2018.09.17-17.09.06:414][390]LogSlate: Window 'RAM1' being destroyed
+[2018.09.17-17.16.22:133][659]LogSavePackage: Moving '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/It_Systems_Auto4087339AA40966156BAA1ABAABF2ED426.tmp' to '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/235_ITSystems/Maps/It_Systems_Auto4.umap'
+[2018.09.17-17.16.22:138][659]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/235_ITSystems/Maps/It_Systems' took 0.472
+[2018.09.17-17.16.22:138][659]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.472
+[2018.09.17-17.37.35:765][388]LogBlueprint: Error: [Compiler PersistentLevel.It_Systems] The type of  Object  is undetermined.  Connect something to  Cast To RAM1  to imply a specific type.
+[2018.09.17-17.37.35:766][388]LogBlueprint: Error: [Compiler PersistentLevel.It_Systems] The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2018.09.17-17.37.35:767][388]LogBlueprint: Warning: [Compiler PersistentLevel.It_Systems] [6057.06] Compile of PersistentLevel.It_Systems failed. 2 Fatal Issue(s) 0 Warning(s) [in 8 ms] (/Game/Classes/235_ITSystems/Maps/It_Systems.It_Systems:PersistentLevel.It_Systems)
+[2018.09.17-17.37.35:999][388]LogSavePackage: Moving '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/It_Systems_Auto51AF2EBDC46C18C6E33DE09840FEC9BA0.tmp' to '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/235_ITSystems/Maps/It_Systems_Auto5.umap'
+[2018.09.17-17.37.36:005][388]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/235_ITSystems/Maps/It_Systems' took 0.306
+[2018.09.17-17.37.36:005][388]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.306
+[2018.09.17-17.37.38:855][557]BlueprintLog: New page: Compile It_Systems
+[2018.09.17-17.37.38:865][557]LogBlueprint: Error: [Compiler PersistentLevel.It_Systems] The type of  Object  is undetermined.  Connect something to  Cast To RAM1  to imply a specific type.
+[2018.09.17-17.37.38:865][557]LogBlueprint: Error: [Compiler PersistentLevel.It_Systems] The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2018.09.17-17.37.39:095][557]LogBlueprint: Warning: [Compiler PersistentLevel.It_Systems] [6060.38] Compile of PersistentLevel.It_Systems failed. 2 Fatal Issue(s) 0 Warning(s) [in 238 ms] (/Game/Classes/235_ITSystems/Maps/It_Systems.It_Systems:PersistentLevel.It_Systems)
+[2018.09.17-17.39.23:814][236]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.09.17-17.39.28:207][491]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-17.39.33:193][790]BlueprintLog: New page: Compile It_Systems
+[2018.09.17-17.40.09:130][907]LogEditorTransaction: Undo Move Nodes
+[2018.09.17-17.40.09:388][912]LogEditorTransaction: Undo Paste clipboard contents
+[2018.09.17-17.40.09:982][938]LogEditorTransaction: Undo Rename Function
+[2018.09.17-17.40.10:455][957]LogEditorTransaction: Undo Add New Function
+[2018.09.17-17.44.25:078][173]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-17.47.47:374][ 82]LogSavePackage: Moving '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/It_Systems_Auto63F50C3634D5D2DF29222DEB566479DF2.tmp' to '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/235_ITSystems/Maps/It_Systems_Auto6.umap'
+[2018.09.17-17.47.47:377][ 82]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/235_ITSystems/Maps/It_Systems' took 0.519
+[2018.09.17-17.47.47:377][ 82]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.519
+[2018.09.17-17.53.28:049][709]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-17.53.45:762][760]LogSlate: Window 'Select Path' being destroyed
+[2018.09.17-17.53.45:904][760]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/235_ITSystems/Blueprints/Objects/CASE_Blueprint.CASE_Blueprint
+[2018.09.17-17.53.57:056][137]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-17.54.04:320][566]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/235_ITSystems/Blueprints/Objects/RAM1.RAM1
+[2018.09.17-17.54.29:169][968]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.09.17-17.54.32:471][164]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.09.17-17.54.59:582][469]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.17-17.57.54:281][344]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.09.17-17.57.55:207][398]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-17.58.36:778][529]LogBlueprint: Warning: [Compiler PersistentLevel.It_Systems] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
+[2018.09.17-17.58.36:779][529]LogBlueprint: Error: [Compiler PersistentLevel.It_Systems] Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2018.09.17-17.58.36:779][529]LogBlueprint: Warning: [Compiler PersistentLevel.It_Systems] [7318.07] Compile of PersistentLevel.It_Systems failed. 1 Fatal Issue(s) 1 Warning(s) [in 5 ms] (/Game/Classes/235_ITSystems/Maps/It_Systems.It_Systems:PersistentLevel.It_Systems)
+[2018.09.17-17.58.36:944][529]LogSavePackage: Moving '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/It_Systems_Auto7844CEED546FEFD29FDB296811BA1A1EB.tmp' to '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/235_ITSystems/Maps/It_Systems_Auto7.umap'
+[2018.09.17-17.58.36:947][529]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/235_ITSystems/Maps/It_Systems' took 0.229
+[2018.09.17-17.58.36:947][529]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.229
+[2018.09.17-17.58.36:949][529]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Classes/235_ITSystems/Blueprints/Objects/RAM1] ([1] browsable assets)...
+[2018.09.17-17.58.36:962][529]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Classes/235_ITSystems/Blueprints/Objects/RAM1.RAM1]
+[2018.09.17-17.58.36:962][529]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/235_ITSystems/Blueprints/Objects/RAM1]
+[2018.09.17-17.58.36:992][529]LogSavePackage: Moving '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/RAM1_Auto7A5EB1F1C4EE82B478831D5916281B88D.tmp' to '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/235_ITSystems/Blueprints/Objects/RAM1_Auto7.uasset'
+[2018.09.17-17.58.36:993][529]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Classes/235_ITSystems/Blueprints/Objects/CASE_Blueprint] ([1] browsable assets)...
+[2018.09.17-17.58.37:004][529]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Classes/235_ITSystems/Blueprints/Objects/CASE_Blueprint.CASE_Blueprint]
+[2018.09.17-17.58.37:004][529]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/235_ITSystems/Blueprints/Objects/CASE_Blueprint]
+[2018.09.17-17.58.37:297][529]LogSavePackage: Moving '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/CASE_Blueprint_Auto714AF60864FCA649AF8533388444562EA.tmp' to '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/235_ITSystems/Blueprints/Objects/CASE_Blueprint_Auto7.uasset'
+[2018.09.17-17.58.37:298][529]LogFileHelpers: Auto-saving content packages took 0.349
+[2018.09.17-18.01.34:569][743]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.09.17-18.34.21:320][662]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-18.34.27:107][  9]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-18.36.22:647][100]LogEditorTransaction: Undo Move Node
+[2018.09.17-18.36.24:309][193]LogEditorTransaction: Redo Move Node
+[2018.09.17-18.36.25:511][257]LogEditorTransaction: Undo Move Node
+[2018.09.17-18.36.27:521][371]LogEditorTransaction: Undo Move Node
+[2018.09.17-18.36.27:980][392]LogEditorTransaction: Undo Move Nodes
+[2018.09.17-18.36.29:155][456]LogEditorTransaction: Redo Move Nodes
+[2018.09.17-18.36.29:429][466]LogEditorTransaction: Redo Move Node
+[2018.09.17-18.36.42:660][253]LogEditorTransaction: Undo Move Node
+[2018.09.17-18.36.42:855][258]LogEditorTransaction: Undo Move Nodes
+[2018.09.17-18.36.43:034][262]LogEditorTransaction: Undo Add Node
+[2018.09.17-18.36.43:212][266]LogEditorTransaction: Undo Move Node
+[2018.09.17-18.36.43:672][287]LogEditorTransaction: Undo Move Node
+[2018.09.17-18.36.43:981][299]LogEditorTransaction: Undo Move Node
+[2018.09.17-18.36.44:411][318]LogEditorTransaction: Undo Move Node
+[2018.09.17-18.36.44:869][339]LogEditorTransaction: Undo Rename Node
+[2018.09.17-18.36.45:429][349]LogEditorTransaction: Undo Add Node
+[2018.09.17-18.38.08:244][983]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/235_ITSystems/Maps/It_Systems' took 0.032
+[2018.09.17-18.38.08:246][983]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Classes/235_ITSystems/Blueprints/Objects/RAM1] ([1] browsable assets)...
+[2018.09.17-18.38.08:258][983]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Classes/235_ITSystems/Blueprints/Objects/RAM1.RAM1]
+[2018.09.17-18.38.08:258][983]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/235_ITSystems/Blueprints/Objects/RAM1]
+[2018.09.17-18.38.08:562][983]LogSavePackage: Moving '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/RAM1_Auto8E16BDFDA41C3CD039B61D9AAD338D527.tmp' to '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/235_ITSystems/Blueprints/Objects/RAM1_Auto8.uasset'
+[2018.09.17-18.38.08:562][983]LogFileHelpers: Auto-saving content packages took 0.316
+[2018.09.17-18.41.36:638][137]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/DefaultVrContent/VirtualRealityBP/Blueprints/BP_PickupCube.BP_PickupCube
+[2018.09.17-18.42.49:961][312]BlueprintLog: New page: Compile RAM1
+[2018.09.17-18.42.49:971][312]LogBlueprint: Warning: [Compiler RAM1] Could not find a variable named "StaticMeshComponent" in 'RAM1_C'.
+Make sure 'RAM1_C' has been compiled for  Get StaticMeshComponent
+[2018.09.17-18.42.49:971][312]LogBlueprint: Warning: [Compiler RAM1] Could not find a variable named "StaticMeshComponent" in 'RAM1_C'.
+Make sure 'RAM1_C' has been compiled for  Get StaticMeshComponent
+[2018.09.17-18.42.49:972][312]LogBlueprint: Error: [Compiler RAM1] The property associated with  Static Mesh Component  could not be found in '/Game/Classes/235_ITSystems/Blueprints/Objects/RAM1.RAM1_C'
+[2018.09.17-18.42.49:972][312]LogBlueprint: Error: [Compiler RAM1] The property associated with  Static Mesh Component  could not be found in '/Game/Classes/235_ITSystems/Blueprints/Objects/RAM1.RAM1_C'
+[2018.09.17-18.42.50:122][312]LogBlueprint: Warning: [Compiler RAM1] [9971.41] Compile of RAM1 failed. 2 Fatal Issue(s) 2 Warning(s) [in 160 ms] (/Game/Classes/235_ITSystems/Blueprints/Objects/RAM1.RAM1)
+[2018.09.17-18.42.59:902][894]BlueprintLog: New page: Compile RAM1
+[2018.09.17-18.42.59:911][894]LogBlueprint: Warning: [Compiler RAM1] Could not find a variable named "StaticMeshComponent" in 'RAM1_C'.
+Make sure 'RAM1_C' has been compiled for  Get StaticMeshComponent
+[2018.09.17-18.42.59:912][894]LogBlueprint: Error: [Compiler RAM1] The property associated with  Static Mesh Component  could not be found in '/Game/Classes/235_ITSystems/Blueprints/Objects/RAM1.RAM1_C'
+[2018.09.17-18.43.00:064][894]LogBlueprint: Warning: [Compiler RAM1] [9981.35] Compile of RAM1 failed. 1 Fatal Issue(s) 1 Warning(s) [in 161 ms] (/Game/Classes/235_ITSystems/Blueprints/Objects/RAM1.RAM1)
+[2018.09.17-18.43.09:100][431]BlueprintLog: New page: Compile RAM1
+[2018.09.17-18.48.09:306][293]LogSavePackage: Moving '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/It_Systems_Auto95718DF954E3336B44FD419A8CE845317.tmp' to '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/235_ITSystems/Maps/It_Systems_Auto9.umap'
+[2018.09.17-18.48.09:312][293]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/235_ITSystems/Maps/It_Systems' took 0.467
+[2018.09.17-18.48.09:312][293]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.467
+[2018.09.17-18.48.09:314][293]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Classes/235_ITSystems/Blueprints/Objects/RAM1] ([1] browsable assets)...
+[2018.09.17-18.48.09:329][293]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Classes/235_ITSystems/Blueprints/Objects/RAM1.RAM1]
+[2018.09.17-18.48.09:329][293]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/235_ITSystems/Blueprints/Objects/RAM1]
+[2018.09.17-18.48.09:363][293]LogSavePackage: Moving '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/RAM1_Auto9147B1E8B4C517E9413DFB78FC60BF8D4.tmp' to '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/235_ITSystems/Blueprints/Objects/RAM1_Auto9.uasset'
+[2018.09.17-18.48.09:363][293]LogFileHelpers: Auto-saving content packages took 0.050
+[2018.09.17-18.55.50:897][816]BlueprintLog: New page: Compile RAM1
+[2018.09.17-18.56.05:751][695]LogEditorTransaction: Undo Move Node
+[2018.09.17-18.56.06:146][712]LogEditorTransaction: Undo Move Node
+[2018.09.17-18.56.06:537][729]LogEditorTransaction: Undo Add Node
+[2018.09.17-18.56.06:928][746]LogEditorTransaction: Undo Move Node
+[2018.09.17-18.56.07:356][765]LogEditorTransaction: Undo Add Node
+[2018.09.17-18.56.08:446][824]LogEditorTransaction: Undo Move Nodes
+[2018.09.17-18.56.08:955][848]LogEditorTransaction: Undo Move Nodes
+[2018.09.17-18.56.34:642][361]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-18.56.46:409][ 63]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-18.57.03:592][ 62]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-18.57.05:775][188]LogEditorTransaction: Undo Set Vector Property
+[2018.09.17-18.57.21:629][127]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-18.57.27:897][502]LogEditorTransaction: Undo Set Vector Property
+[2018.09.17-18.57.28:215][511]LogEditorTransaction: Undo Set Vector Property
+[2018.09.17-18.57.28:614][526]LogEditorTransaction: Undo Set Vector Property
+[2018.09.17-18.57.34:330][858]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-18.58.05:498][728]BlueprintLog: New page: Compile RAM1
+[2018.09.17-18.58.09:502][955]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/235_ITSystems/Maps/It_Systems' took 0.031
+[2018.09.17-18.58.09:504][955]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Classes/235_ITSystems/Blueprints/Objects/CASE] ([1] browsable assets)...
+[2018.09.17-18.58.09:504][955]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/235_ITSystems/Blueprints/Objects/CASE]
+[2018.09.17-18.58.09:528][955]LogSavePackage: Moving '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/CASE_Auto0D57574AE4BE314B2EBD6279EB65DB929.tmp' to '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/235_ITSystems/Blueprints/Objects/CASE_Auto0.uasset'
+[2018.09.17-18.58.09:529][955]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Classes/235_ITSystems/Blueprints/Objects/RAM1] ([1] browsable assets)...
+[2018.09.17-18.58.09:540][955]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Classes/235_ITSystems/Blueprints/Objects/RAM1.RAM1]
+[2018.09.17-18.58.09:540][955]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/235_ITSystems/Blueprints/Objects/RAM1]
+[2018.09.17-18.58.09:872][955]LogSavePackage: Moving '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/RAM1_Auto073BA3CF240ED227C11170DBEF86C2814.tmp' to '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/235_ITSystems/Blueprints/Objects/RAM1_Auto0.uasset'
+[2018.09.17-18.58.09:872][955]LogFileHelpers: Auto-saving content packages took 0.369
+[2018.09.17-18.59.52:876][859]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-19.00.11:028][941]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.17-19.00.12:856][ 51]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-19.01.17:385][228]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.17-19.08.10:249][555]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/235_ITSystems/Maps/It_Systems' took 0.038
+[2018.09.17-19.08.10:251][555]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Classes/235_ITSystems/Blueprints/Objects/RAM1] ([1] browsable assets)...
+[2018.09.17-19.08.10:251][555]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/235_ITSystems/Blueprints/Objects/RAM1]
+[2018.09.17-19.08.10:552][555]LogSavePackage: Moving '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/RAM1_Auto1C67555764E1339166B3F6C981DF184C6.tmp' to '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/235_ITSystems/Blueprints/Objects/RAM1_Auto1.uasset'
+[2018.09.17-19.08.10:552][555]LogFileHelpers: Auto-saving content packages took 0.302
+[2018.09.17-19.08.59:762][703]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.17-19.09.07:603][137]BlueprintLog: New page: Compile RAM1
+[2018.09.17-19.09.10:158][280]LogEditorViewport: Clicking on Actor (LMB): CASE_Blueprint_C (CASE_Blueprint)
+[2018.09.17-19.09.11:211][341]Cmd: DELETE
+[2018.09.17-19.09.11:212][341]Cmd: ACTOR DELETE
+[2018.09.17-19.09.11:216][341]LogEditorActor: Deleted Actor: CASE_Blueprint_C
+[2018.09.17-19.09.11:244][341]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2018.09.17-19.10.55:498][927]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-19.11.42:770][763]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.09.17-19.18.11:028][ 38]LogSavePackage: Moving '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/It_Systems_Auto2BB1F3BA04999283E8CCFC0BC606E8463.tmp' to '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/235_ITSystems/Maps/It_Systems_Auto2.umap'
+[2018.09.17-19.18.11:044][ 38]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/235_ITSystems/Maps/It_Systems' took 0.220
+[2018.09.17-19.18.11:044][ 38]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.220
+[2018.09.17-19.18.11:048][ 38]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Classes/235_ITSystems/Blueprints/Objects/RAM1] ([1] browsable assets)...
+[2018.09.17-19.18.11:067][ 38]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Classes/235_ITSystems/Blueprints/Objects/RAM1.RAM1]
+[2018.09.17-19.18.11:067][ 38]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/235_ITSystems/Blueprints/Objects/RAM1]
+[2018.09.17-19.18.11:103][ 38]LogSavePackage: Moving '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/RAM1_Auto285D20A8B419C7097403D56BE445031ED.tmp' to '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/235_ITSystems/Blueprints/Objects/RAM1_Auto2.uasset'
+[2018.09.17-19.18.11:103][ 38]LogFileHelpers: Auto-saving content packages took 0.056
+[2018.09.17-19.34.06:594][968]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-19.34.14:987][471]LogActorFactory: Actor Factory created Cube
+[2018.09.17-19.34.15:773][518]LogActorFactory: Actor Factory created Cube
+[2018.09.17-19.34.17:423][615]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-19.34.22:664][929]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-19.34.38:614][885]Cmd: DUPLICATE
+[2018.09.17-19.34.38:614][885]Cmd: ACTOR DUPLICATE
+[2018.09.17-19.34.39:618][943]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-19.34.43:865][197]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-19.34.51:265][639]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.09.17-19.34.53:616][777]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2018.09.17-19.34.54:274][814]Cmd: DUPLICATE
+[2018.09.17-19.34.54:274][814]Cmd: ACTOR DUPLICATE
+[2018.09.17-19.34.59:016][ 96]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.09.17-19.35.00:063][157]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2018.09.17-19.35.00:351][172]Cmd: DUPLICATE
+[2018.09.17-19.35.00:351][172]Cmd: ACTOR DUPLICATE
+[2018.09.17-19.35.01:181][219]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-19.35.04:523][419]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.09.17-19.35.05:570][480]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2018.09.17-19.35.06:071][508]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-19.35.14:465][ 10]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.09.17-19.35.27:948][816]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube4)
+[2018.09.17-19.35.28:308][836]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube3)
+[2018.09.17-19.35.31:701][ 38]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2018.09.17-19.35.32:719][ 97]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube3)
+[2018.09.17-19.35.39:425][496]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.09.17-19.35.39:779][515]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2018.09.17-19.35.40:417][551]Cmd: DUPLICATE
+[2018.09.17-19.35.40:417][551]Cmd: ACTOR DUPLICATE
+[2018.09.17-19.35.45:344][844]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.09.17-19.35.49:538][ 93]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube3)
+[2018.09.17-19.35.49:914][114]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube)
+[2018.09.17-19.35.50:331][138]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube5)
+[2018.09.17-19.35.50:631][155]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube2)
+[2018.09.17-19.35.50:999][176]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube4)
+[2018.09.17-19.35.52:800][281]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.17-19.35.54:913][404]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.17-19.36.02:158][483]LogSlate: Window 'Create Merged Actor' being destroyed
+[2018.09.17-19.36.02:162][483]LogSlate: FSceneViewport::OnFocusLost() reason 3
+[2018.09.17-19.36.02:227][483]LogStaticMesh: Building static mesh RamBox...
+[2018.09.17-19.36.02:308][483]LogStaticMesh: Built static mesh [0.08s] /Game/RamBox.RamBox
+[2018.09.17-19.36.02:339][483]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.17-19.36.04:316][602]LogSlate: Window 'Merge Actors' being destroyed
+[2018.09.17-19.36.04:320][602]LogSlate: Window 'Merge Actors' being destroyed
+[2018.09.17-19.36.05:083][648]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-19.36.07:307][774]LogSavePackage: Moving '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/RamBox9D03B435411D58F23033FC849B036055.tmp' to '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Content/Classes/235_ITSystems/Blueprints/Objects/RamBox.uasset'
+[2018.09.17-19.36.10:314][941]LogActorFactory: Actor Factory created RamBox
+[2018.09.17-19.36.11:135][990]LogActorFactory: Actor Factory created RamBox
+[2018.09.17-19.36.12:808][ 88]Cmd: TRANSACTION UNDO
+[2018.09.17-19.36.12:808][ 88]LogEditorTransaction: Undo Create Actors
+[2018.09.17-19.36.14:373][171]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-19.36.28:232][735]LogSlate: Window 'Create Merged Actor' being destroyed
+[2018.09.17-19.36.28:262][735]LogStaticMesh: Building static mesh RamBox...
+[2018.09.17-19.36.28:287][735]LogStaticMesh: Built static mesh [0.03s] /Game/RamBox.RamBox
+[2018.09.17-19.36.31:342][917]LogSlate: Window 'Merge Actors' being destroyed
+[2018.09.17-19.36.31:346][917]LogSlate: Window 'Merge Actors' being destroyed
+[2018.09.17-19.36.35:675][157]LogSlate: Window 'Failed Renames' being destroyed
+[2018.09.17-19.36.40:825][397]LogSlate: Window 'Delete Assets' being destroyed
+[2018.09.17-19.36.44:993][632]LogSavePackage: Moving '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/RamBox034CF61F4617B00450929FB5E430FEA7.tmp' to '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Content/Classes/235_ITSystems/Blueprints/Objects/RamBox.uasset'
+[2018.09.17-19.36.47:270][757]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.09.17-19.36.48:026][800]Cmd: DELETE
+[2018.09.17-19.36.48:026][800]Cmd: ACTOR DELETE
+[2018.09.17-19.36.48:029][800]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.17-19.36.48:063][800]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2018.09.17-19.36.48:377][819]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2018.09.17-19.36.48:451][821]Cmd: DELETE
+[2018.09.17-19.36.48:451][821]Cmd: ACTOR DELETE
+[2018.09.17-19.36.48:453][821]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.17-19.36.48:484][821]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2018.09.17-19.36.48:860][844]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2018.09.17-19.36.48:918][845]Cmd: DELETE
+[2018.09.17-19.36.48:918][845]Cmd: ACTOR DELETE
+[2018.09.17-19.36.48:920][845]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.17-19.36.48:953][845]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2018.09.17-19.36.49:269][864]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2018.09.17-19.36.49:344][866]Cmd: DELETE
+[2018.09.17-19.36.49:344][866]Cmd: ACTOR DELETE
+[2018.09.17-19.36.49:347][866]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.17-19.36.49:373][866]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2018.09.17-19.36.49:622][881]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2018.09.17-19.36.49:696][883]Cmd: DELETE
+[2018.09.17-19.36.49:696][883]Cmd: ACTOR DELETE
+[2018.09.17-19.36.49:698][883]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.17-19.36.49:735][883]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2018.09.17-19.36.50:683][940]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-19.36.51:877][ 11]LogActorFactory: Actor Factory created CASE
+[2018.09.17-19.36.52:467][ 46]LogActorFactory: Actor Factory created CASE
+[2018.09.17-19.36.53:920][131]Cmd: DELETE
+[2018.09.17-19.36.53:920][131]Cmd: ACTOR DELETE
+[2018.09.17-19.36.53:922][131]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.17-19.36.53:958][131]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2018.09.17-19.36.55:540][226]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-19.36.55:692][235]LogActorFactory: Actor Factory created RamBox
+[2018.09.17-19.36.56:130][261]LogActorFactory: Actor Factory created RamBox
+[2018.09.17-19.36.56:596][287]Cmd: DELETE
+[2018.09.17-19.36.56:596][287]Cmd: ACTOR DELETE
+[2018.09.17-19.36.56:598][287]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.17-19.36.56:625][287]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2018.09.17-19.36.57:634][348]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-19.36.57:771][356]LogActorFactory: Actor Factory created RamBox
+[2018.09.17-19.36.58:242][384]LogActorFactory: Actor Factory created RamBox
+[2018.09.17-19.37.02:570][640]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-19.37.20:867][737]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.09.17-19.37.48:991][422]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.17-19.37.49:192][422]LogSavePackage: Moving '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/It_Systems_Auto3EED61B974194702A2AFE9CADA55924AC.tmp' to '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/235_ITSystems/Maps/It_Systems_Auto3.umap'
+[2018.09.17-19.37.49:196][422]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/235_ITSystems/Maps/It_Systems' took 0.177
+[2018.09.17-19.37.49:196][422]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.177
+[2018.09.17-19.37.49:199][422]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Classes/235_ITSystems/Blueprints/Objects/RAM1] ([1] browsable assets)...
+[2018.09.17-19.37.49:210][422]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Classes/235_ITSystems/Blueprints/Objects/RAM1.RAM1]
+[2018.09.17-19.37.49:210][422]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/235_ITSystems/Blueprints/Objects/RAM1]
+[2018.09.17-19.37.49:243][422]LogSavePackage: Moving '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/RAM1_Auto336C4B8D246BCE94125A424BF10BF2419.tmp' to '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/235_ITSystems/Blueprints/Objects/RAM1_Auto3.uasset'
+[2018.09.17-19.37.49:244][422]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Classes/235_ITSystems/Blueprints/Objects/CASE_Blueprint] ([1] browsable assets)...
+[2018.09.17-19.37.49:255][422]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Classes/235_ITSystems/Blueprints/Objects/CASE_Blueprint.CASE_Blueprint]
+[2018.09.17-19.37.49:255][422]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/235_ITSystems/Blueprints/Objects/CASE_Blueprint]
+[2018.09.17-19.37.49:274][422]LogSavePackage: Moving '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/CASE_Blueprint_Auto32BFBA53C483E332BEA021CA90ACADDD6.tmp' to '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/235_ITSystems/Blueprints/Objects/CASE_Blueprint_Auto3.uasset'
+[2018.09.17-19.37.49:275][422]LogFileHelpers: Auto-saving content packages took 0.077
