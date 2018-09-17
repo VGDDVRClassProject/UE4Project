@@ -81,8 +81,17 @@ DerivedDataCache/*
 # End of https://www.gitignore.io/api/unrealengine
 Project/Saved/Autosaves/PackageRestoreData.json
 Project/Intermediate/CachedAssetRegistry.bin  
+<<<<<<< HEAD
+Project/Saved/Logs/VRTests.log
+Project/Saved/Logs/VRTests.log
+Project/Saved/Logs/VRTests.log
+*.log
+Project/Saved/Autosaves/PackageRestoreData.json
+Project/Saved/AutoScreenshot.png
+=======
 Project/Intermediate/CachedAssetRegistry.bin
 Project/Saved/Autosaves/PackageRestoreData.json
 Project/Saved/AutoScreenshot.png
 Project/Saved/Logs/VRTests.log
 Project/Saved/Logs/VRTests_2.log
+>>>>>>> ce9c7490a39f51d632a9d6a60bcc3fa4f1d9df14
