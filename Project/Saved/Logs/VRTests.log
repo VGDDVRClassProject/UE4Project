@@ -1,4 +1,4 @@
-﻿Log file open, 09/18/18 13:23:37
+﻿Log file open, 09/18/18 13:24:39
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: VRTests
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.276620
+LogStats: Stats thread started at 0.280182
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -4:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.068s to configure plugins.
+LogStreaming: Display: Took  0.071s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -123,8 +123,8 @@ LogInit: Compiled (64-bit): Aug 21 2018 02:06:06
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
-LogInit: Command Line:  
-LogInit: Base Directory: D:/Program Files (x86)/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
 LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
@@ -150,193 +150,857 @@ LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
 LogStreaming: Display: Took  0.000s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.09.18-16.23.37:456][  0]LogInit: Selected Device Profile: [Windows]
-[2018.09.18-16.23.37:456][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.09.18-16.23.37:489][  0]LogHAL: Display: Platform has ~ 16 GB [17042796544 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.09.18-16.23.37:489][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.09.18-16.23.37:489][  0]LogInit: Going up to parent DeviceProfile []
-[2018.09.18-16.23.37:490][  0]LogInit: Computer: DESKTOP-RST41EJ
-[2018.09.18-16.23.37:490][  0]LogInit: User: tanne
-[2018.09.18-16.23.37:490][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.09.18-16.23.37:490][  0]LogInit: High frequency timer resolution =2.742188 MHz
-[2018.09.18-16.23.37:490][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.09.18-16.23.37:491][  0]LogMemory: Platform Memory Stats for Windows
-[2018.09.18-16.23.37:491][  0]LogMemory: Process Physical Memory: 102.21 MB used, 102.21 MB peak
-[2018.09.18-16.23.37:491][  0]LogMemory: Process Virtual Memory: 98.07 MB used, 98.07 MB peak
-[2018.09.18-16.23.37:491][  0]LogMemory: Physical Memory: 7243.77 MB used,  9009.51 MB free, 16253.28 MB total
-[2018.09.18-16.23.37:491][  0]LogMemory: Virtual Memory: 4652.04 MB used,  9009.51 MB free, 134217728.00 MB total
-[2018.09.18-16.23.37:790][  0]LogInit: Using OS detected language (en-US).
-[2018.09.18-16.23.37:790][  0]LogInit: Using OS detected locale (en-CA).
-[2018.09.18-16.23.37:790][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.09.18-16.23.38:221][  0]LogStreaming: Display: Took  0.431s to InitEngineTextLocalization.
-[2018.09.18-16.23.38:221][  0]LogInit: Setting process to per monitor DPI aware
-[2018.09.18-16.23.38:248][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.09.18-16.23.38:249][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.09.18-16.23.38:440][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.09.18-16.23.38:440][  0]LogD3D11RHI: D3D11 adapters:
-[2018.09.18-16.23.38:495][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2018.09.18-16.23.38:495][  0]LogD3D11RHI:       8089/0/8126 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.09.18-16.23.38:518][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2018.09.18-16.23.38:518][  0]LogD3D11RHI:       128/0/8126 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.09.18-16.23.38:520][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.09.18-16.23.38:520][  0]LogD3D11RHI:       0/0/8126 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.09.18-16.23.38:520][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.09.18-16.23.38:527][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.09.18-16.23.38:527][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
-[2018.09.18-16.23.38:527][  0]LogWindows: EnumDisplayDevices:
-[2018.09.18-16.23.38:527][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2018.09.18-16.23.38:527][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.09.18-16.23.38:528][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.09.18-16.23.38:528][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.09.18-16.23.38:528][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.09.18-16.23.38:528][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.09.18-16.23.38:528][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.09.18-16.23.38:528][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2018.09.18-16.23.38:528][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2018.09.18-16.23.38:528][  0]LogD3D11RHI:   Driver Version: 389.12 (internal:23.21.13.8912, unified:389.12)
-[2018.09.18-16.23.38:528][  0]LogD3D11RHI:      Driver Date: 3-7-2018
-[2018.09.18-16.23.38:528][  0]LogRHI: Texture pool is 5662 MB (70% of 8089 MB)
-[2018.09.18-16.23.38:556][  0]LogD3D11RHI: Async texture creation enabled
-[2018.09.18-16.23.38:568][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.09.18-16.23.38:615][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Intermediate/Shaders/WorkingDirectory/19736/).
-[2018.09.18-16.23.38:615][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/tanne/AppData/Local/Temp/UnrealShaderWorkingDir/3D2B2F5D478EF1B25CF82AA200B228CF/'.
-[2018.09.18-16.23.38:874][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.09.18-16.23.38:888][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.09.18-16.23.38:902][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.09.18-16.23.38:916][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.09.18-16.23.38:933][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.09.18-16.23.38:949][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.09.18-16.23.38:965][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.09.18-16.23.38:978][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.09.18-16.23.38:984][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.09.18-16.23.39:063][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-16.23.39:063][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-16.23.39:063][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-16.23.39:063][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-16.23.39:063][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-16.23.39:063][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-16.23.39:063][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-16.23.39:063][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-16.23.39:063][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-16.23.39:063][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-16.23.39:063][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-16.23.39:063][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-16.23.39:063][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-16.23.39:063][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-16.23.39:063][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-16.23.39:063][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-16.23.39:063][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-16.23.39:063][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-16.23.39:065][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.09.18-16.23.39:123][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.09.18-16.23.39:123][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.09.18-16.23.39:147][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.09.18-16.23.39:147][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.09.18-16.23.39:161][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.09.18-16.23.39:174][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.09.18-16.23.39:187][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.09.18-16.23.39:200][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.09.18-16.23.39:208][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.09.18-16.23.39:208][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.09.18-16.23.39:249][  0]LogXGEController: Cleaning working directory: C:/Users/tanne/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.09.18-16.23.39:249][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.09.18-16.23.39:249][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.09.18-16.23.39:250][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.09.18-16.23.39:959][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.09.18-16.23.40:023][  0]LogDerivedDataCache: Loaded boot cache 0.06s 86MB C:/Users/tanne/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.09.18-16.23.40:023][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/tanne/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2018.09.18-16.23.40:023][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.09.18-16.23.40:023][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.09.18-16.23.40:023][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.09.18-16.23.40:023][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.09.18-16.23.40:038][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.09.18-16.23.40:050][  0]LogDerivedDataCache: Using Local data cache path C:/Users/tanne/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.09.18-16.23.40:050][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.09.18-16.23.40:050][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.09.18-16.23.40:070][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.09.18-16.23.40:071][  0]LogSlate: Using FreeType 2.6.0
-[2018.09.18-16.23.40:071][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.09.18-16.23.40:142][  0]LogAssetRegistry: FAssetRegistry took 0.0260 seconds to start up
-[2018.09.18-16.23.40:498][  0]LogInit: Selected Device Profile: [Windows]
-[2018.09.18-16.23.40:642][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.09.18-16.23.40:645][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.09.18-16.23.40:645][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.09.18-16.23.40:645][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.09.18-16.23.40:645][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.09.18-16.23.40:670][  0]LogNetVersion: VRTests 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4138015713)
-[2018.09.18-16.23.41:309][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.135642 seconds
-[2018.09.18-16.23.41:316][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2018.09.18-16.23.41:316][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
-[2018.09.18-16.23.41:316][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.09.18-16.23.42:110][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.09.18-16.23.42:122][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.09.18-16.23.42:302][  0]SourceControl: Source control is disabled
-[2018.09.18-16.23.42:302][  0]SourceControl: Source control is disabled
-[2018.09.18-16.23.42:303][  0]SourceControl: Source control is disabled
-[2018.09.18-16.23.42:304][  0]SourceControl: Source control is disabled
-[2018.09.18-16.23.42:470][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.09.18-16.23.42:590][  0]LogOcInput: OculusInput pre-init called
-[2018.09.18-16.23.42:681][  0]LogEngine: Initializing Engine...
-[2018.09.18-16.23.42:682][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.09.18-16.23.42:684][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.09.18-16.23.42:684][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.09.18-16.23.42:684][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.09.18-16.23.42:684][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.09.18-16.23.42:955][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.09.18-16.23.42:963][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.09.18-16.23.42:979][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2018.09.18-16.23.42:990][  0]LogInit: FAudioDevice initialized.
-[2018.09.18-16.23.42:990][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.09.18-16.23.43:140][  0]LogDerivedDataCache: Saved boot cache 0.15s 72MB C:/Users/tanne/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.09.18-16.23.43:156][  0]LogInit: Texture streaming: Enabled
-[2018.09.18-16.23.43:169][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.09.18-16.23.43:180][  0]LogInit: Transaction tracking system initialized
-[2018.09.18-16.23.43:195][  0]BlueprintLog: New page: Editor Load
-[2018.09.18-16.23.43:247][  0]LocalizationService: Localization service is disabled
-[2018.09.18-16.23.43:304][  0]LogLinker: Warning: Can't find file '/Game/PuzzleBP/PuzzleOverview'
-[2018.09.18-16.23.43:304][  0]LogLinker: Warning: Can't find file '/Game/PuzzleBP/PuzzleOverview'
-[2018.09.18-16.23.43:304][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/PuzzleBP/PuzzleOverview.PuzzleOverview_C'
-[2018.09.18-16.23.43:493][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.09.18-16.23.43:493][  0]LogCook: Display: Mobile HDR setting 1
-[2018.09.18-16.23.43:493][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.09.18-16.23.43:493][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.09.18-16.23.43:493][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.09.18-16.23.43:493][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.09.18-16.23.43:493][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.09.18-16.23.43:585][  0]LogFileCache: Scanning file cache for directory 'D:/Users/tanne/Documents/GitHub/UE4Project/Project/Content/' took 0.02s
-[2018.09.18-16.23.43:585][  0]SourceControl: Source control is disabled
-[2018.09.18-16.23.43:585][  0]Cmd: MAP LOAD FILE="../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/DefaultProject/Map/DefaultMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.09.18-16.23.43:585][  0]LightingResults: New page: Lighting Build
-[2018.09.18-16.23.43:587][  0]MapCheck: New page: Map Check
-[2018.09.18-16.23.43:587][  0]LightingResults: New page: Lighting Build
-[2018.09.18-16.23.43:622][  0]LogAIModule: Creating AISystem for world DefaultMap
-[2018.09.18-16.23.43:626][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.09.18-16.23.43:650][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.09.18-16.23.43:692][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 41.887ms to complete.
-[2018.09.18-16.23.43:692][  0]LogFileHelpers: Loading map 'DefaultMap' took 0.107
-[2018.09.18-16.23.43:774][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.18-16.23.43:782][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.18-16.23.43:792][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.18-16.23.43:809][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.18-16.23.43:817][  0]LogCollectionManager: Loaded 0 collections in 0.001788 seconds
-[2018.09.18-16.23.43:878][  0]LogFileCache: Scanning file cache for directory 'D:/Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Collections/' took 0.01s
-[2018.09.18-16.23.43:878][  0]LogFileCache: Scanning file cache for directory 'D:/Users/tanne/Documents/GitHub/UE4Project/Project/Content/Developers/tanne/Collections/' took 0.01s
-[2018.09.18-16.23.43:878][  0]LogFileCache: Scanning file cache for directory 'D:/Users/tanne/Documents/GitHub/UE4Project/Project/Content/Collections/' took 0.01s
-[2018.09.18-16.23.43:878][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.09.18-16.23.43:898][  0]LogContentBrowser: Native class hierarchy populated in 0.0193 seconds. Added 2572 classes and 603 folders.
-[2018.09.18-16.23.43:909][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.09.18-16.23.43:957][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.09.18-16.23.43:961][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.09.18-16.23.43:976][  0]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.09.18-16.23.43:978][  0]LogSlate: Took 0.000189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.09.18-16.23.43:984][  0]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.09.18-16.23.44:057][  0]LogRenderer: Reallocating scene render targets to support 1012x508 Format 26 NumSamples 1 (Frame:1).
-[2018.09.18-16.23.44:211][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.09.18-16.23.44:211][  0]LogLoad: (Engine Initialization) Total time: 8.14 seconds
-[2018.09.18-16.23.44:211][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.09.18-16.23.44:266][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.09.18-16.23.44:315][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/Users/tanne/Documents/GitHub/UE4Project/Project/Content/' took 0.07s
-[2018.09.18-16.23.44:410][  3]LogAssetRegistry: Asset discovery search completed in 4.2913 seconds
-[2018.09.18-16.23.44:414][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.09.18-16.23.44:414][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000117 seconds (updated 0 objects)
-[2018.09.18-16.23.45:662][  7]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.24.40:091][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.18-16.24.40:091][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.09.18-16.24.40:121][  0]LogHAL: Display: Platform has ~ 16 GB [17042796544 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.09.18-16.24.40:121][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.09.18-16.24.40:121][  0]LogInit: Going up to parent DeviceProfile []
+[2018.09.18-16.24.40:121][  0]LogInit: Computer: ALIEN
+[2018.09.18-16.24.40:121][  0]LogInit: User: CodyCormier
+[2018.09.18-16.24.40:121][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.09.18-16.24.40:121][  0]LogInit: High frequency timer resolution =2.742188 MHz
+[2018.09.18-16.24.40:122][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.09.18-16.24.40:122][  0]LogMemory: Platform Memory Stats for Windows
+[2018.09.18-16.24.40:122][  0]LogMemory: Process Physical Memory: 101.65 MB used, 101.65 MB peak
+[2018.09.18-16.24.40:122][  0]LogMemory: Process Virtual Memory: 96.33 MB used, 96.33 MB peak
+[2018.09.18-16.24.40:122][  0]LogMemory: Physical Memory: 4804.75 MB used,  11448.53 MB free, 16253.28 MB total
+[2018.09.18-16.24.40:122][  0]LogMemory: Virtual Memory: 4645.62 MB used,  11448.53 MB free, 134217728.00 MB total
+[2018.09.18-16.24.40:145][  0]LogInit: Using OS detected language (en-US).
+[2018.09.18-16.24.40:145][  0]LogInit: Using OS detected locale (en-CA).
+[2018.09.18-16.24.40:146][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.09.18-16.24.40:523][  0]LogStreaming: Display: Took  0.377s to InitEngineTextLocalization.
+[2018.09.18-16.24.40:523][  0]LogInit: Setting process to per monitor DPI aware
+[2018.09.18-16.24.40:563][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.09.18-16.24.40:563][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.09.18-16.24.40:752][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.18-16.24.40:752][  0]LogD3D11RHI: D3D11 adapters:
+[2018.09.18-16.24.40:826][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.09.18-16.24.40:826][  0]LogD3D11RHI:       8081/0/8126 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.09.18-16.24.40:849][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.09.18-16.24.40:849][  0]LogD3D11RHI:       128/0/8126 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.09.18-16.24.40:851][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.09.18-16.24.40:851][  0]LogD3D11RHI:       0/0/8126 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.09.18-16.24.40:851][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.09.18-16.24.40:857][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.09.18-16.24.40:857][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
+[2018.09.18-16.24.40:857][  0]LogWindows: EnumDisplayDevices:
+[2018.09.18-16.24.40:857][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.09.18-16.24.40:857][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.09.18-16.24.40:857][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.09.18-16.24.40:858][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.09.18-16.24.40:858][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.09.18-16.24.40:858][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.09.18-16.24.40:858][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.09.18-16.24.40:859][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.09.18-16.24.40:859][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.09.18-16.24.40:859][  0]LogD3D11RHI:   Driver Version: 398.82 (internal:24.21.13.9882, unified:398.82)
+[2018.09.18-16.24.40:859][  0]LogD3D11RHI:      Driver Date: 7-30-2018
+[2018.09.18-16.24.40:859][  0]LogRHI: Texture pool is 5656 MB (70% of 8081 MB)
+[2018.09.18-16.24.40:897][  0]LogD3D11RHI: Async texture creation enabled
+[2018.09.18-16.24.40:916][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.09.18-16.24.40:964][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (../../../../../../Documents/GitHub/UE4Project/Project/Intermediate/Shaders/WorkingDirectory/7864/).
+[2018.09.18-16.24.40:964][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Cody Cormier/AppData/Local/Temp/UnrealShaderWorkingDir/3621A8334684EFACE9A5D1A366FF0924/'.
+[2018.09.18-16.24.41:306][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.09.18-16.24.41:319][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.09.18-16.24.41:331][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.09.18-16.24.41:343][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.09.18-16.24.41:355][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.09.18-16.24.41:368][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.09.18-16.24.41:380][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.09.18-16.24.41:392][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.09.18-16.24.41:397][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.09.18-16.24.41:469][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-16.24.41:469][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-16.24.41:469][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-16.24.41:469][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-16.24.41:469][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-16.24.41:469][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-16.24.41:469][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-16.24.41:469][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-16.24.41:469][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-16.24.41:469][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-16.24.41:469][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-16.24.41:469][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-16.24.41:469][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-16.24.41:469][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-16.24.41:469][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-16.24.41:470][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-16.24.41:470][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-16.24.41:470][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-16.24.41:471][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.09.18-16.24.41:530][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.18-16.24.41:530][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.18-16.24.41:588][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.18-16.24.41:589][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.18-16.24.41:603][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.09.18-16.24.41:617][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.09.18-16.24.41:629][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.09.18-16.24.41:641][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.09.18-16.24.41:649][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.09.18-16.24.41:649][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.09.18-16.24.41:692][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.09.18-16.24.41:692][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.09.18-16.24.41:692][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.09.18-16.24.42:412][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.09.18-16.24.42:475][  0]LogDerivedDataCache: Loaded boot cache 0.06s 86MB C:/Users/Cody Cormier/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.18-16.24.42:475][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Cody Cormier/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.09.18-16.24.42:475][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Documents/GitHub/UE4Project/Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.09.18-16.24.42:475][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.09.18-16.24.42:475][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Documents/GitHub/UE4Project/Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.09.18-16.24.42:475][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.09.18-16.24.42:487][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.09.18-16.24.42:500][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Cody Cormier/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.09.18-16.24.42:500][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.09.18-16.24.42:500][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.09.18-16.24.42:524][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.09.18-16.24.42:527][  0]LogSlate: Using FreeType 2.6.0
+[2018.09.18-16.24.42:528][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.18-16.24.42:607][  0]LogAssetRegistry: FAssetRegistry took 0.0257 seconds to start up
+[2018.09.18-16.24.42:912][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.18-16.24.43:039][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.09.18-16.24.43:041][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.09.18-16.24.43:042][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.09.18-16.24.43:042][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.09.18-16.24.43:042][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.09.18-16.24.43:059][  0]LogNetVersion: VRTests 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4138015713)
+[2018.09.18-16.24.43:547][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.086229 seconds
+[2018.09.18-16.24.43:553][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.09.18-16.24.43:553][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.09.18-16.24.43:553][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.09.18-16.24.44:372][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.09.18-16.24.44:385][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.09.18-16.24.44:556][  0]SourceControl: Source control is disabled
+[2018.09.18-16.24.44:556][  0]SourceControl: Source control is disabled
+[2018.09.18-16.24.44:557][  0]SourceControl: Source control is disabled
+[2018.09.18-16.24.44:558][  0]SourceControl: Source control is disabled
+[2018.09.18-16.24.44:733][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.09.18-16.24.44:817][  0]LogOcInput: OculusInput pre-init called
+[2018.09.18-16.24.44:902][  0]LogEngine: Initializing Engine...
+[2018.09.18-16.24.44:903][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.18-16.24.44:904][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.18-16.24.44:904][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.18-16.24.44:904][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.18-16.24.44:904][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.18-16.24.45:134][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.09.18-16.24.45:143][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.09.18-16.24.45:158][  0]LogInit: XAudio2 using 'Speakers (Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.09.18-16.24.45:168][  0]LogInit: FAudioDevice initialized.
+[2018.09.18-16.24.45:168][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.09.18-16.24.45:263][  0]LogDerivedDataCache: Saved boot cache 0.09s 86MB C:/Users/Cody Cormier/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.18-16.24.45:297][  0]LogInit: Texture streaming: Enabled
+[2018.09.18-16.24.45:311][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.09.18-16.24.45:321][  0]LogInit: Transaction tracking system initialized
+[2018.09.18-16.24.45:336][  0]BlueprintLog: New page: Editor Load
+[2018.09.18-16.24.45:390][  0]LocalizationService: Localization service is disabled
+[2018.09.18-16.24.45:646][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.09.18-16.24.45:646][  0]LogCook: Display: Mobile HDR setting 1
+[2018.09.18-16.24.45:646][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.09.18-16.24.45:646][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.18-16.24.45:646][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.18-16.24.45:646][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.18-16.24.45:646][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.18-16.24.45:812][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/UE4Project/Project/Content/' took 0.02s
+[2018.09.18-16.24.45:812][  0]SourceControl: Source control is disabled
+[2018.09.18-16.24.45:812][  0]Cmd: MAP LOAD FILE="../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultProject/Map/DefaultMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.18-16.24.45:813][  0]LightingResults: New page: Lighting Build
+[2018.09.18-16.24.45:814][  0]MapCheck: New page: Map Check
+[2018.09.18-16.24.45:815][  0]LightingResults: New page: Lighting Build
+[2018.09.18-16.24.45:844][  0]LogAIModule: Creating AISystem for world DefaultMap
+[2018.09.18-16.24.45:849][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.18-16.24.45:871][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.18-16.24.45:914][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 42.914ms to complete.
+[2018.09.18-16.24.45:914][  0]LogFileHelpers: Loading map 'DefaultMap' took 0.102
+[2018.09.18-16.24.46:034][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-16.24.46:042][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-16.24.46:048][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-16.24.46:058][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-16.24.46:063][  0]LogCollectionManager: Loaded 0 collections in 0.000779 seconds
+[2018.09.18-16.24.46:106][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/UE4Project/Project/Saved/Collections/' took 0.01s
+[2018.09.18-16.24.46:106][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/UE4Project/Project/Content/Developers/CodyCormier/Collections/' took 0.01s
+[2018.09.18-16.24.46:106][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/UE4Project/Project/Content/Collections/' took 0.01s
+[2018.09.18-16.24.46:106][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.09.18-16.24.46:115][  0]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2572 classes and 603 folders.
+[2018.09.18-16.24.46:120][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.09.18-16.24.46:158][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.09.18-16.24.46:163][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.09.18-16.24.46:217][  0]LogSlate: Took 0.000198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.18-16.24.46:220][  0]LogSlate: Took 0.000262 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.09.18-16.24.46:227][  0]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.09.18-16.24.46:304][  0]LogRenderer: Reallocating scene render targets to support 1072x496 Format 26 NumSamples 1 (Frame:1).
+[2018.09.18-16.24.46:434][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.09.18-16.24.46:434][  0]LogLoad: (Engine Initialization) Total time: 7.76 seconds
+[2018.09.18-16.24.46:434][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.09.18-16.24.46:453][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.18-16.24.46:478][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.09.18-16.24.46:548][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/Documents/GitHub/UE4Project/Project/Content/' took 0.08s
+[2018.09.18-16.24.47:507][ 56]LogSlate: Took 0.000441 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.18-16.25.15:195][717]LogAssetRegistry: Asset discovery search completed in 32.6099 seconds
+[2018.09.18-16.25.15:198][717]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.09.18-16.25.15:198][717]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000112 seconds (updated 0 objects)
+[2018.09.18-16.25.24:134][243]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.26.36:290][527]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2018.09.18-16.26.36:291][527]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualReality/Mannequin/Animations/RightHand_AnimBP.uasset.
+[2018.09.18-16.26.36:291][527]LoadErrors: Error: /Game/DefaultVrContent/VirtualReality/Mannequin/Animations/RightHand_AnimBP : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/GripEnum
+[2018.09.18-16.26.36:293][527]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2018.09.18-16.26.36:293][527]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualReality/Mannequin/Animations/RightHand_AnimBP.uasset.
+[2018.09.18-16.26.36:296][527]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2018.09.18-16.26.36:296][527]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum Referenced by GripState
+[2018.09.18-16.26.36:296][527]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.uasset.
+[2018.09.18-16.26.36:297][527]LoadErrors: Error: /Game/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/GripEnum
+[2018.09.18-16.26.36:304][527]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2018.09.18-16.26.36:304][527]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.uasset.
+[2018.09.18-16.26.36:305][527]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2018.09.18-16.26.36:305][527]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.uasset.
+[2018.09.18-16.26.36:306][527]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2018.09.18-16.26.36:307][527]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum Referenced by RightHand_AnimBP
+[2018.09.18-16.26.36:307][527]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.uasset.
+[2018.09.18-16.26.36:311][527]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2018.09.18-16.26.36:311][527]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum Referenced by K2Node_VariableGet_64
+[2018.09.18-16.26.36:312][527]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.uasset.
+[2018.09.18-16.26.37:213][527]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Criminology/Criminology_MotionControllerPawn_Default1.Criminology_MotionControllerPawn_Default1
+[2018.09.18-16.26.37:743][527]LogClass: Warning: Enum '/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/FeedbackEffects/EFeedbackType.EFeedbackType' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2018.09.18-16.26.37:743][527]LogClass: Warning: Enum '/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/FeedbackEffects/EFeedbackIntensity.EFeedbackIntensity' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2018.09.18-16.26.38:111][527]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0021 seconds. Added 116 classes and 0 folders.
+[2018.09.18-16.26.40:099][527]LogSlate: Took 0.017182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.09.18-16.26.42:659][639]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.18-16.26.42:659][639]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Interfaces/BPI_WorldInteractive.uasset.
+[2018.09.18-16.26.42:659][639]LoadErrors: Error: /Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/Interfaces/BPI_WorldInteractive : Can't find file for asset. /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor
+[2018.09.18-16.26.42:660][639]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.18-16.26.42:660][639]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Interfaces/BPI_WorldInteractive.uasset.
+[2018.09.18-16.26.42:663][639]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.18-16.26.42:663][639]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
+[2018.09.18-16.26.42:663][639]LoadErrors: Error: /Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun : Can't find file for asset. /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor
+[2018.09.18-16.26.42:663][639]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.18-16.26.42:663][639]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
+[2018.09.18-16.26.42:664][639]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.18-16.26.42:664][639]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
+[2018.09.18-16.26.42:665][639]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.18-16.26.42:665][639]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_0
+[2018.09.18-16.26.42:665][639]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
+[2018.09.18-16.26.42:665][639]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.18-16.26.42:665][639]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
+[2018.09.18-16.26.42:665][639]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.18-16.26.42:666][639]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_1
+[2018.09.18-16.26.42:666][639]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
+[2018.09.18-16.26.42:666][639]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.18-16.26.42:666][639]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
+[2018.09.18-16.26.42:666][639]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.18-16.26.42:666][639]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_2
+[2018.09.18-16.26.42:666][639]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
+[2018.09.18-16.26.42:666][639]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.18-16.26.42:667][639]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
+[2018.09.18-16.26.42:667][639]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.18-16.26.42:667][639]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_3
+[2018.09.18-16.26.42:667][639]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
+[2018.09.18-16.26.42:667][639]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.18-16.26.42:667][639]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
+[2018.09.18-16.26.42:668][639]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.18-16.26.42:668][639]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_4
+[2018.09.18-16.26.42:668][639]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
+[2018.09.18-16.26.42:668][639]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.18-16.26.42:668][639]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
+[2018.09.18-16.26.42:668][639]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.18-16.26.42:668][639]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_5
+[2018.09.18-16.26.42:668][639]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
+[2018.09.18-16.26.42:669][639]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.18-16.26.42:669][639]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
+[2018.09.18-16.26.42:669][639]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.18-16.26.42:669][639]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_6
+[2018.09.18-16.26.42:669][639]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
+[2018.09.18-16.26.42:669][639]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.18-16.26.42:669][639]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
+[2018.09.18-16.26.42:670][639]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.18-16.26.42:670][639]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_7
+[2018.09.18-16.26.42:670][639]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
+[2018.09.18-16.26.42:670][639]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.18-16.26.42:670][639]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
+[2018.09.18-16.26.42:671][639]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.18-16.26.42:671][639]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_9
+[2018.09.18-16.26.42:671][639]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
+[2018.09.18-16.26.42:671][639]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.18-16.26.42:671][639]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
+[2018.09.18-16.26.42:671][639]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.18-16.26.42:671][639]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_10
+[2018.09.18-16.26.42:672][639]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
+[2018.09.18-16.26.42:672][639]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.18-16.26.42:672][639]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
+[2018.09.18-16.26.42:672][639]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.18-16.26.42:672][639]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
+[2018.09.18-16.26.42:672][639]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.18-16.26.42:673][639]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
+[2018.09.18-16.26.42:684][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/BP_Clock'
+[2018.09.18-16.26.42:684][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/BP_Clock' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.42:684][639]LoadErrors: Error: /Game/Classes/237_Criminology/Maps/CriminologyMap : Can't find file for asset. /Game/SharedAssets/MeshesAndWhatnot/BP_Clock
+[2018.09.18-16.26.42:684][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/BP_Clock'
+[2018.09.18-16.26.42:685][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/BP_Clock' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.42:819][639]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] Get Hand  is deprecated; please replace or remove it.
+[2018.09.18-16.26.42:820][639]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] Get Hand  is deprecated; Please use the Motion Source property instead of Hand
+[2018.09.18-16.26.42:829][639]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] [0124.15] Compile of BPC_WorldInteractor successful, but with 2 Warning(s) [in 16 ms] (/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor)
+[2018.09.18-16.26.43:181][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/BP_Clock'
+[2018.09.18-16.26.43:181][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/BP_Clock' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:258][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:258][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:258][639]LoadErrors: Error: /Game/Classes/237_Criminology/Maps/CriminologyMap : Can't find file for asset. /Game/SharedAssets/MeshesAndWhatnot/Computer_Chair
+[2018.09.18-16.26.43:293][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Table_WhiteTop'
+[2018.09.18-16.26.43:293][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Table_WhiteTop' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:294][639]LoadErrors: Error: /Game/Classes/237_Criminology/Maps/CriminologyMap : Can't find file for asset. /Game/SharedAssets/MeshesAndWhatnot/Table_WhiteTop
+[2018.09.18-16.26.43:294][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Table_WoodenTop'
+[2018.09.18-16.26.43:295][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Table_WoodenTop' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:295][639]LoadErrors: Error: /Game/Classes/237_Criminology/Maps/CriminologyMap : Can't find file for asset. /Game/SharedAssets/MeshesAndWhatnot/Table_WoodenTop
+[2018.09.18-16.26.43:353][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/BP_Clock'
+[2018.09.18-16.26.43:353][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/BP_Clock' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:354][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:354][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:355][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Table_WhiteTop'
+[2018.09.18-16.26.43:355][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Table_WhiteTop' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:355][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Table_WoodenTop'
+[2018.09.18-16.26.43:356][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Table_WoodenTop' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:357][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/BP_Clock'
+[2018.09.18-16.26.43:358][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/BP_Clock' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:358][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:358][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:358][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Table_WhiteTop'
+[2018.09.18-16.26.43:358][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Table_WhiteTop' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:359][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Table_WoodenTop'
+[2018.09.18-16.26.43:359][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Table_WoodenTop' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:361][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/BP_Clock'
+[2018.09.18-16.26.43:361][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/BP_Clock' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:362][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/BP_Clock'
+[2018.09.18-16.26.43:362][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/BP_Clock' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:362][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:363][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:363][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:363][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:364][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:364][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:364][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:364][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:365][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:365][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:365][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:365][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:366][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:366][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:366][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:366][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:367][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:367][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:367][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:367][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:368][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:368][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:368][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:368][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:369][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:369][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:369][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:369][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:370][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:370][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:370][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:370][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:371][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:371][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:371][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:371][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:372][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:372][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:372][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:372][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:373][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:373][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:373][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:373][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:374][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:374][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:374][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:375][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:375][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:375][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:376][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:376][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:376][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:376][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:377][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:377][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:377][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:377][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:378][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:378][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:378][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:378][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:379][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:379][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:379][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:379][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:380][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:380][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:380][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:380][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:381][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:381][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:381][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:381][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:382][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:382][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:382][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:382][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:383][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:383][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:383][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:383][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:383][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:383][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:384][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:384][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:384][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:384][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:384][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:384][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:384][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:384][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:385][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:385][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:385][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:385][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:385][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:385][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:385][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:386][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:386][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:386][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:386][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:386][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:386][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:386][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:387][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:387][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:387][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:387][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:387][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:387][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:387][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:388][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:388][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:388][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:388][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:388][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:388][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:388][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:389][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:389][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:389][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:389][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:389][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:389][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:389][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:390][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:390][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:390][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:390][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:390][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:390][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:390][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:390][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:391][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:391][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:391][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:391][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:391][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:391][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Table_WhiteTop'
+[2018.09.18-16.26.43:391][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Table_WhiteTop' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:392][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Table_WhiteTop'
+[2018.09.18-16.26.43:392][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Table_WhiteTop' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:392][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Table_WhiteTop'
+[2018.09.18-16.26.43:392][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Table_WhiteTop' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:392][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Table_WoodenTop'
+[2018.09.18-16.26.43:392][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Table_WoodenTop' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:392][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Table_WoodenTop'
+[2018.09.18-16.26.43:393][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Table_WoodenTop' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:393][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/BP_Clock'
+[2018.09.18-16.26.43:393][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/BP_Clock' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:393][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/BP_Clock'
+[2018.09.18-16.26.43:393][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/BP_Clock' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:393][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/BP_Clock'
+[2018.09.18-16.26.43:393][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/BP_Clock' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:394][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/BP_Clock'
+[2018.09.18-16.26.43:394][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/BP_Clock' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:394][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/BP_Clock'
+[2018.09.18-16.26.43:394][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/BP_Clock' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:394][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/BP_Clock'
+[2018.09.18-16.26.43:394][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/BP_Clock' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:394][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/BP_Clock'
+[2018.09.18-16.26.43:395][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/BP_Clock' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:395][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/BP_Clock'
+[2018.09.18-16.26.43:395][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/BP_Clock' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:395][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/BP_Clock'
+[2018.09.18-16.26.43:395][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/BP_Clock' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:395][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/BP_Clock'
+[2018.09.18-16.26.43:395][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/BP_Clock' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:395][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/BP_Clock'
+[2018.09.18-16.26.43:396][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/BP_Clock' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:396][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/BP_Clock'
+[2018.09.18-16.26.43:396][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/BP_Clock' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap.
+[2018.09.18-16.26.43:396][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/BP_Clock'
+[2018.09.18-16.26.43:396][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/BP_Clock' while loading NULL.
+[2018.09.18-16.26.43:396][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/BP_Clock'
+[2018.09.18-16.26.43:397][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/BP_Clock' while loading NULL.
+[2018.09.18-16.26.43:399][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:400][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading NULL.
+[2018.09.18-16.26.43:400][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:400][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading NULL.
+[2018.09.18-16.26.43:400][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:400][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading NULL.
+[2018.09.18-16.26.43:400][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:400][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading NULL.
+[2018.09.18-16.26.43:400][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:401][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading NULL.
+[2018.09.18-16.26.43:401][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair'
+[2018.09.18-16.26.43:401][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Computer_Chair' while loading NULL.
+[2018.09.18-16.26.43:404][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Table_WhiteTop'
+[2018.09.18-16.26.43:404][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Table_WhiteTop' while loading NULL.
+[2018.09.18-16.26.43:404][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Table_WhiteTop'
+[2018.09.18-16.26.43:404][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Table_WhiteTop' while loading NULL.
+[2018.09.18-16.26.43:404][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Table_WhiteTop'
+[2018.09.18-16.26.43:404][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Table_WhiteTop' while loading NULL.
+[2018.09.18-16.26.43:404][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Table_WhiteTop'
+[2018.09.18-16.26.43:404][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Table_WhiteTop' while loading NULL.
+[2018.09.18-16.26.43:405][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Table_WhiteTop'
+[2018.09.18-16.26.43:405][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Table_WhiteTop' while loading NULL.
+[2018.09.18-16.26.43:405][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Table_WhiteTop'
+[2018.09.18-16.26.43:405][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Table_WhiteTop' while loading NULL.
+[2018.09.18-16.26.43:405][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Table_WhiteTop'
+[2018.09.18-16.26.43:405][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Table_WhiteTop' while loading NULL.
+[2018.09.18-16.26.43:405][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Table_WhiteTop'
+[2018.09.18-16.26.43:405][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Table_WhiteTop' while loading NULL.
+[2018.09.18-16.26.43:406][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Table_WoodenTop'
+[2018.09.18-16.26.43:406][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Table_WoodenTop' while loading NULL.
+[2018.09.18-16.26.43:406][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Table_WoodenTop'
+[2018.09.18-16.26.43:406][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Table_WoodenTop' while loading NULL.
+[2018.09.18-16.26.43:406][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Table_WoodenTop'
+[2018.09.18-16.26.43:406][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Table_WoodenTop' while loading NULL.
+[2018.09.18-16.26.43:406][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Table_WoodenTop'
+[2018.09.18-16.26.43:406][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Table_WoodenTop' while loading NULL.
+[2018.09.18-16.26.43:407][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Table_WoodenTop'
+[2018.09.18-16.26.43:407][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Table_WoodenTop' while loading NULL.
+[2018.09.18-16.26.43:407][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Table_WoodenTop'
+[2018.09.18-16.26.43:407][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Table_WoodenTop' while loading NULL.
+[2018.09.18-16.26.43:407][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Table_WoodenTop'
+[2018.09.18-16.26.43:407][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Table_WoodenTop' while loading NULL.
+[2018.09.18-16.26.43:407][639]LogLinker: Warning: Can't find file '/Game/SharedAssets/MeshesAndWhatnot/Table_WoodenTop'
+[2018.09.18-16.26.43:407][639]LogLinker: Warning: Can't find file for asset '/Game/SharedAssets/MeshesAndWhatnot/Table_WoodenTop' while loading NULL.
+[2018.09.18-16.26.44:117][639]LogAIModule: Creating AISystem for world CriminologyMap
+[2018.09.18-16.26.44:161][639]LogAssetEditorManager: Opening Asset editor for World /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap
+[2018.09.18-16.26.44:200][639]Cmd: MAP LOAD FILE="../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.18-16.26.44:200][639]LightingResults: New page: Lighting Build
+[2018.09.18-16.26.44:201][639]LoadErrors: New page: Loading map: CriminologyMap.umap
+[2018.09.18-16.26.44:202][639]MapCheck: New page: Map Check
+[2018.09.18-16.26.44:202][639]LightingResults: New page: Lighting Build
+[2018.09.18-16.26.44:372][639]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.18-16.26.44:456][639]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.18-16.26.44:518][639]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 62.83ms to complete.
+[2018.09.18-16.26.44:518][639]LogFileHelpers: Loading map 'CriminologyMap' took 0.319
+[2018.09.18-16.26.44:558][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'HourHand': BP_Clock_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.BP_Clock_2
+[2018.09.18-16.26.44:558][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'MinuteHand': BP_Clock_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.BP_Clock_2
+[2018.09.18-16.26.44:558][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BP_Clock_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.BP_Clock_2
+[2018.09.18-16.26.44:558][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:558][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:558][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:558][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': Table_WhiteTop_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Table_WhiteTop2
+[2018.09.18-16.26.44:558][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': Table_WhiteTop_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Table_WhiteTop3
+[2018.09.18-16.26.44:558][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': Table_WhiteTop_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Table_WhiteTop4
+[2018.09.18-16.26.44:558][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': Table_WhiteTop_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Table_WhiteTop_2
+[2018.09.18-16.26.44:558][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': Table_WoodenTop_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Table_WoodenTop2_5
+[2018.09.18-16.26.44:558][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': Table_WoodenTop_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Table_WoodenTop3_8
+[2018.09.18-16.26.44:559][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': Table_WoodenTop_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Table_WoodenTop4_11
+[2018.09.18-16.26.44:559][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': Table_WoodenTop_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Table_WoodenTop_2
+[2018.09.18-16.26.44:559][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Cube': BP_Clock_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.BP_Clock_2
+[2018.09.18-16.26.44:559][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Cylinder': BP_Clock_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.BP_Clock_2
+[2018.09.18-16.26.44:559][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_001': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:559][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_0011': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:559][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_002': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:559][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_0021': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:559][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_003': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:559][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_0031': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:559][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_005': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:559][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_0051': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:559][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_006': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:559][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_0061': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:559][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_007': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:559][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_0071': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:559][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_008': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:559][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_0081': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:559][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_009': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:560][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_0091': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:560][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_010': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:560][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_0101': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:560][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_011': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:560][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_0111': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:560][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:560][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder1': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:560][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_001': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:560][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0011': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:560][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_002': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:560][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0021': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:560][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_003': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:561][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0031': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:561][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_004': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:561][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0041': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:561][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_005': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:561][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0051': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:561][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_006': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:561][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0061': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:561][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_007': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:561][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0071': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:561][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_008': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:562][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0081': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:562][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_009': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:562][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0091': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:562][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_010': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:562][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0101': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:562][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_011': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:562][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0111': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:563][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_012': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:563][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0121': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:563][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_013': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:563][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0131': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:563][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_014': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:563][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0141': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:564][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_015': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:564][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0151': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:564][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_016': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:564][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0161': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:564][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_017': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:564][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0171': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:564][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_018': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:565][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0181': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:565][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_019': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:565][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0191': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:565][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_020': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:565][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0201': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:565][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_021': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:566][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0211': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:566][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_022': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:566][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0221': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:566][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_023': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:566][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0231': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:566][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_024': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:567][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0241': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair2_14
+[2018.09.18-16.26.44:567][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_001': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:567][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_0011': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:567][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_002': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:568][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_0021': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:568][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_003': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:568][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_0031': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:568][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_005': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:568][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_0051': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:568][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_006': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:569][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_0061': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:569][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_007': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:569][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_0071': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:569][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_008': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:569][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_0081': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:570][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_009': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:570][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_0091': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:570][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_010': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:570][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_0101': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:570][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_011': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:571][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_0111': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:571][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:571][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder1': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:571][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_001': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:572][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0011': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:572][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_002': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:572][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0021': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:572][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_003': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:572][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0031': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:573][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_004': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:573][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0041': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:573][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_005': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:573][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0051': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:574][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_006': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:574][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0061': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:574][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_007': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:574][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0071': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:575][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_008': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:575][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0081': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:575][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_009': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:575][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0091': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:576][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_010': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:576][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0101': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:576][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_011': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:576][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0111': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:577][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_012': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:577][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0121': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:577][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_013': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:577][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0131': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:578][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_014': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:578][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0141': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:578][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_015': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:579][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0151': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:579][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_016': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:579][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0161': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:579][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_017': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:580][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0171': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:580][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_018': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:580][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0181': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:581][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_019': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:581][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0191': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:581][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_020': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:581][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0201': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:582][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_021': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:582][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0211': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:582][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_022': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:583][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0221': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:583][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_023': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:583][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0231': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:584][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_024': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:584][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0241': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair3
+[2018.09.18-16.26.44:585][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_001': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:585][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_0011': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:585][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_002': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:585][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_0021': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:586][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_003': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:586][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_0031': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:586][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_005': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:587][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_0051': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:587][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_006': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:587][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_0061': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:588][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_007': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:588][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_0071': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:588][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_008': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:589][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_0081': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:589][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_009': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:589][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_0091': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:590][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_010': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:590][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_0101': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:590][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_011': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:591][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cube_0111': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:591][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:591][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder1': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:592][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_001': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:592][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0011': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:592][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_002': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:593][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0021': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:593][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_003': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:593][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0031': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:594][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_004': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:594][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0041': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:594][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_005': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:595][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0051': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:595][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_006': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:596][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0061': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:596][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_007': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:596][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0071': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:597][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_008': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:597][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0081': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:598][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_009': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:598][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0091': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:598][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_010': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:599][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0101': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:599][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_011': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:600][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0111': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:600][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_012': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:600][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0121': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:601][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_013': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:601][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0131': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:601][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_014': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:602][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0141': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:602][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_015': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:603][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0151': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:603][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_016': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:604][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0161': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:604][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_017': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:604][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0171': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:605][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_018': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:605][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0181': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:606][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_019': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:606][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0191': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:606][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_020': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:607][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0201': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:608][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_021': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:608][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0211': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:609][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_022': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:609][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0221': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:610][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_023': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:610][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0231': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:611][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_024': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:611][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'armchair_BLEND_Cylinder_0241': Computer_Chair_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Computer_Chair_11
+[2018.09.18-16.26.44:611][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Cube': Table_WhiteTop_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Table_WhiteTop2
+[2018.09.18-16.26.44:612][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'masa-sandelye__esitleri_ChamferBox008': Table_WhiteTop_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Table_WhiteTop2
+[2018.09.18-16.26.44:612][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'masa-sandelye__esitleri_Rectangle003': Table_WhiteTop_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Table_WhiteTop2
+[2018.09.18-16.26.44:612][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Cube': Table_WhiteTop_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Table_WhiteTop3
+[2018.09.18-16.26.44:613][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'masa-sandelye__esitleri_ChamferBox008': Table_WhiteTop_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Table_WhiteTop3
+[2018.09.18-16.26.44:613][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'masa-sandelye__esitleri_Rectangle003': Table_WhiteTop_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Table_WhiteTop3
+[2018.09.18-16.26.44:614][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Cube': Table_WhiteTop_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Table_WhiteTop4
+[2018.09.18-16.26.44:614][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'masa-sandelye__esitleri_ChamferBox008': Table_WhiteTop_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Table_WhiteTop4
+[2018.09.18-16.26.44:614][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'masa-sandelye__esitleri_Rectangle003': Table_WhiteTop_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Table_WhiteTop4
+[2018.09.18-16.26.44:615][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Cube': Table_WhiteTop_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Table_WhiteTop_2
+[2018.09.18-16.26.44:615][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'masa-sandelye__esitleri_ChamferBox008': Table_WhiteTop_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Table_WhiteTop_2
+[2018.09.18-16.26.44:615][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'masa-sandelye__esitleri_Rectangle003': Table_WhiteTop_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Table_WhiteTop_2
+[2018.09.18-16.26.44:616][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'masa-sandelye__esitleri_ChamferBox008': Table_WoodenTop_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Table_WoodenTop2_5
+[2018.09.18-16.26.44:616][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'masa-sandelye__esitleri_Rectangle003': Table_WoodenTop_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Table_WoodenTop2_5
+[2018.09.18-16.26.44:616][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'masa-sandelye__esitleri_ChamferBox008': Table_WoodenTop_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Table_WoodenTop3_8
+[2018.09.18-16.26.44:617][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'masa-sandelye__esitleri_Rectangle003': Table_WoodenTop_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Table_WoodenTop3_8
+[2018.09.18-16.26.44:618][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'masa-sandelye__esitleri_ChamferBox008': Table_WoodenTop_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Table_WoodenTop4_11
+[2018.09.18-16.26.44:618][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'masa-sandelye__esitleri_Rectangle003': Table_WoodenTop_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Table_WoodenTop4_11
+[2018.09.18-16.26.44:618][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'masa-sandelye__esitleri_ChamferBox008': Table_WoodenTop_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Table_WoodenTop_2
+[2018.09.18-16.26.44:619][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'masa-sandelye__esitleri_Rectangle003': Table_WoodenTop_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.Table_WoodenTop_2
+[2018.09.18-16.26.44:619][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource '1': BP_Clock_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.BP_Clock_2
+[2018.09.18-16.26.44:620][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource '10': BP_Clock_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.BP_Clock_2
+[2018.09.18-16.26.44:620][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource '11': BP_Clock_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.BP_Clock_2
+[2018.09.18-16.26.44:620][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource '12': BP_Clock_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.BP_Clock_2
+[2018.09.18-16.26.44:621][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource '2': BP_Clock_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.BP_Clock_2
+[2018.09.18-16.26.44:621][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource '3': BP_Clock_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.BP_Clock_2
+[2018.09.18-16.26.44:622][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource '4': BP_Clock_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.BP_Clock_2
+[2018.09.18-16.26.44:622][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource '5': BP_Clock_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.BP_Clock_2
+[2018.09.18-16.26.44:622][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource '6': BP_Clock_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.BP_Clock_2
+[2018.09.18-16.26.44:623][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource '7': BP_Clock_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.BP_Clock_2
+[2018.09.18-16.26.44:623][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource '8': BP_Clock_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.BP_Clock_2
+[2018.09.18-16.26.44:624][639]LoadErrors: Warning: CreateExport: Failed to load Outer for resource '9': BP_Clock_C /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.BP_Clock_2
+[2018.09.18-16.26.52:180][ 76]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (BP_PickupCube)
+[2018.09.18-16.26.54:983][215]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.27.08:040][980]LogSlate: Took 0.053748 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.09.18-16.27.18:976][634]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.27.20:555][719]LogRenderer: Reallocating scene render targets to support 1608x744 Format 26 NumSamples 1 (Frame:2045).
+[2018.09.18-16.27.53:358][626]LogBlueprint: Warning: [Compiler MotionControllerPawn] Get Input Axis references unknown Axis 'MotionControllerThumbRight_X' for  Get MotionControllerThumbRight_X
+[2018.09.18-16.27.53:358][626]LogBlueprint: Warning: [Compiler MotionControllerPawn] Get Input Axis references unknown Axis 'MotionControllerThumbRight_Y' for  Get MotionControllerThumbRight_Y
+[2018.09.18-16.27.53:358][626]LogBlueprint: Warning: [Compiler MotionControllerPawn] Get Input Axis references unknown Axis 'MotionControllerThumbLeft_Y' for  Get MotionControllerThumbLeft_Y
+[2018.09.18-16.27.53:358][626]LogBlueprint: Warning: [Compiler MotionControllerPawn] Get Input Axis references unknown Axis 'MotionControllerThumbLeft_X' for  Get MotionControllerThumbLeft_X
+[2018.09.18-16.27.53:359][626]LogBlueprint: Warning: [Compiler MotionControllerPawn] InputAction Event references unknown Action 'TeleportRight' for  InputAction TeleportRight
+[2018.09.18-16.27.53:359][626]LogBlueprint: Warning: [Compiler MotionControllerPawn] InputAction Event references unknown Action 'TeleportLeft' for  InputAction TeleportLeft
+[2018.09.18-16.27.53:359][626]LogBlueprint: Warning: [Compiler MotionControllerPawn] InputAction Event references unknown Action 'GrabRight' for  InputAction GrabRight
+[2018.09.18-16.27.53:359][626]LogBlueprint: Warning: [Compiler MotionControllerPawn] InputAction Event references unknown Action 'GrabLeft' for  InputAction GrabLeft
+[2018.09.18-16.27.53:366][626]LogBlueprint: Warning: [Compiler MotionControllerPawn] [0194.69] Compile of MotionControllerPawn successful, but with 8 Warning(s) [in 16 ms] (/Game/DefaultVrContent/VirtualRealityBP/Blueprints/MotionControllerPawn.MotionControllerPawn)
+[2018.09.18-16.27.53:404][626]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/DefaultVrContent/VirtualRealityBP/Blueprints/MotionControllerPawn.MotionControllerPawn
+[2018.09.18-16.27.59:078][921]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/DefaultProject/MotionControllerPawn_Default.MotionControllerPawn_Default
+[2018.09.18-16.28.37:302][147]LogMetaData: Removing '/Game/Classes/237_Criminology/Criminology_Pawn.Criminology_Pawn:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/DefaultProject/Criminology_Pawn.PackageMetaData'
+[2018.09.18-16.28.37:302][147]LogMetaData: Removing '/Game/Classes/237_Criminology/Criminology_Pawn.SKEL_Criminology_Pawn_C' ref from Metadata '/Game/DefaultProject/Criminology_Pawn.PackageMetaData'
+[2018.09.18-16.28.37:302][147]LogMetaData: Removing '/Game/Classes/237_Criminology/Criminology_Pawn.Criminology_Pawn_C' ref from Metadata '/Game/DefaultProject/Criminology_Pawn.PackageMetaData'
+[2018.09.18-16.28.37:302][147]LogMetaData: Removing '/Game/Classes/237_Criminology/Criminology_Pawn.Criminology_Pawn:EventGraph.K2Node_Event_0' ref from Metadata '/Game/DefaultProject/Criminology_Pawn.PackageMetaData'
+[2018.09.18-16.28.37:302][147]LogMetaData: Removing '/Game/Classes/237_Criminology/Criminology_Pawn.Criminology_Pawn:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/DefaultProject/Criminology_Pawn.PackageMetaData'
+[2018.09.18-16.28.37:302][147]LogMetaData: Removing '/Game/Classes/237_Criminology/Criminology_Pawn.Criminology_Pawn:EventGraph.K2Node_Event_1' ref from Metadata '/Game/DefaultProject/Criminology_Pawn.PackageMetaData'
+[2018.09.18-16.28.37:302][147]LogMetaData: Removing '/Game/Classes/237_Criminology/Criminology_Pawn.Criminology_Pawn:EventGraph.K2Node_Event_2' ref from Metadata '/Game/DefaultProject/Criminology_Pawn.PackageMetaData'
+[2018.09.18-16.28.37:302][147]LogMetaData: Removing '/Game/Classes/237_Criminology/Criminology_Pawn.Criminology_Pawn:EventGraph.K2Node_CallParentFunction_1' ref from Metadata '/Game/DefaultProject/Criminology_Pawn.PackageMetaData'
+[2018.09.18-16.28.37:357][147]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/Criminology_Pawn3D267499478539903FFACB86EE23D23B.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Criminology_Pawn.uasset'
+[2018.09.18-16.28.51:959][995]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Criminology/Criminology_Pawn.Criminology_Pawn
+[2018.09.18-16.29.21:750][710]BlueprintLog: New page: Compile Criminology_Pawn
+[2018.09.18-16.29.21:773][710]LogBlueprint: Warning: [Compiler Criminology_Pawn] Could not find a variable named "PointLight" in 'Criminology_Pawn_C'.
+Make sure 'Criminology_Pawn_C' has been compiled for  Get PointLight
+[2018.09.18-16.29.21:773][710]LogBlueprint: Warning: [Compiler Criminology_Pawn] Could not find a variable named "PointLight" in 'Criminology_Pawn_C'.
+Make sure 'Criminology_Pawn_C' has been compiled for  Get PointLight
+[2018.09.18-16.29.21:773][710]LogBlueprint: Warning: [Compiler Criminology_Pawn] Could not find a variable named "LaserSystem" in 'Criminology_Pawn_C'.
+Make sure 'Criminology_Pawn_C' has been compiled for  Get LaserSystem
+[2018.09.18-16.29.21:773][710]LogBlueprint: Warning: [Compiler Criminology_Pawn] Could not find a variable named "LaserSystem" in 'Criminology_Pawn_C'.
+Make sure 'Criminology_Pawn_C' has been compiled for  Get LaserSystem
+[2018.09.18-16.29.21:774][710]LogBlueprint: Error: [Compiler Criminology_Pawn] The property associated with  Laser System  could not be found in '/Game/Classes/237_Criminology/Criminology_Pawn.Criminology_Pawn_C'
+[2018.09.18-16.29.21:774][710]LogBlueprint: Error: [Compiler Criminology_Pawn] The property associated with  Laser System  could not be found in '/Game/Classes/237_Criminology/Criminology_Pawn.Criminology_Pawn_C'
+[2018.09.18-16.29.21:774][710]LogBlueprint: Error: [Compiler Criminology_Pawn] The property associated with  Point Light  could not be found in '/Game/Classes/237_Criminology/Criminology_Pawn.Criminology_Pawn_C'
+[2018.09.18-16.29.21:774][710]LogBlueprint: Error: [Compiler Criminology_Pawn] The property associated with  Point Light  could not be found in '/Game/Classes/237_Criminology/Criminology_Pawn.Criminology_Pawn_C'
+[2018.09.18-16.29.22:055][710]LogBlueprint: Warning: [Compiler Criminology_Pawn] [0283.38] Compile of Criminology_Pawn failed. 4 Fatal Issue(s) 4 Warning(s) [in 305 ms] (/Game/Classes/237_Criminology/Criminology_Pawn.Criminology_Pawn)
+[2018.09.18-16.29.35:821][493]BlueprintLog: New page: Compile Criminology_Pawn
+[2018.09.18-16.29.36:080][493]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/Criminology_Pawn17D35166423CE0447B6C858F12D157E9.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Criminology_Pawn.uasset'
+[2018.09.18-16.29.52:645][463]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.09.18-16.30.02:115][ 18]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/CriminologyMap961F911E482E73B28E32BFB8F037FC8F.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap'
+[2018.09.18-16.30.02:208][ 18]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/CriminologyMap_BuiltData83A80CBA45889EB0F2A6399C56CA8318.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap_BuiltData.uasset'
+[2018.09.18-16.30.08:282][176]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/Criminology_MotionControllerPawn11259D1F4A2F0D77E42CCFB09FB2EF83.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Criminology_MotionControllerPawn_Default1.uasset'
