@@ -449,3 +449,444 @@ LogInit: Object subsystem initialized
 [2018.09.18-16.33.09:997][438]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
 [2018.09.18-16.33.12:794][579]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/CriminologyMap4A849D8B47244AB179298294C1DF296D.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap'
 [2018.09.18-16.33.12:941][579]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/CriminologyMap_BuiltDataF3B0EFC642B1D5E97CB53581D863251B.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap_BuiltData.uasset'
+[2018.09.18-16.34.06:409][ 64]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.34.18:376][774]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.34.28:802][377]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.34.32:797][611]LogEditorViewport: Clicking on Actor (LMB): Table_WoodenTop_C (Table_WoodenTop4)
+[2018.09.18-16.34.39:298][997]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.34.48:794][525]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.34.56:088][950]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (CrimRoomMockup_Sprite)
+[2018.09.18-16.35.09:065][726]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.35.26:644][780]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.35.37:364][418]LogEditorViewport: Clicking on Actor (LMB): Computer_Chair_C (Computer_Chair)
+[2018.09.18-16.35.38:707][496]LogEditorViewport: Clicking on Actor (LMB): Computer_Chair_C (Computer_Chair)
+[2018.09.18-16.36.05:315][ 83]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.36.08:947][265]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.36.13:525][515]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.36.14:736][587]LogEditorViewport: Clicking on Actor (LMB): Table_WhiteTop_C (Table_WhiteTop)
+[2018.09.18-16.36.15:662][640]LogEditorViewport: Clicking on Actor (LMB): Computer_Chair_C (Computer_Chair)
+[2018.09.18-16.36.20:481][924]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.36.34:859][747]LogEditorViewport: Clicking on Actor (LMB): Computer_Chair_C (Computer_Chair2)
+[2018.09.18-16.36.37:466][895]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.36.42:248][172]LogEditorViewport: Clicking on Actor (LMB): Computer_Chair_C (Computer_Chair)
+[2018.09.18-16.36.43:541][247]LogEditorViewport: Clicking on Actor (LMB): Computer_Chair_C (Computer_Chair2)
+[2018.09.18-16.36.44:705][315]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.36.51:577][725]LogEditorViewport: Clicking on Actor (LMB): Computer_Chair_C (Computer_Chair2)
+[2018.09.18-16.36.55:478][954]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.37.00:865][274]LogEditorViewport: Clicking on Actor (LMB): Computer_Chair_C (Computer_Chair3)
+[2018.09.18-16.37.06:638][609]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.37.11:026][868]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.37.21:154][468]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.39.42:509][942]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.40.43:665][281]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/SharedAssets/MeshesAndWhatnot/Chairs_tables/Crim_Desk.Crim_Desk
+[2018.09.18-16.40.45:280][281]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.09.18-16.40.47:612][281]LogSlate: Took 0.025750 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.09.18-16.40.49:288][351]LogRenderer: Reallocating scene render targets to support 1012x564 Format 26 NumSamples 1 (Frame:1).
+[2018.09.18-16.41.08:107][320]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-16.41.10:547][408]LogMaterial: Display: Missing cached shader map for material M_Wood_Floor_Walnut_Polished, compiling. 
+[2018.09.18-16.41.10:818][408]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.09.18-16.41.10:818][408]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.09.18-16.41.10:818][408]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.09.18-16.41.10:818][408]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.18-16.41.14:198][599]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.41.27:106][358]LogEditorTransaction: Undo Modify Component(s)
+[2018.09.18-16.41.30:979][583]LogEditorTransaction: Undo Modify Component(s)
+[2018.09.18-16.41.32:212][645]LogSlate: Took 0.070358 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.09.18-16.41.34:465][767]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-16.41.53:766][902]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.42.52:498][ 34]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-16.43.20:462][622]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-16.43.27:931][ 63]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.43.32:856][352]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.43.51:379][437]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.44.06:087][313]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.44.26:144][510]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.44.29:193][691]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.44.33:803][965]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.44.37:678][197]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.44.42:531][487]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.44.50:308][953]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.44.53:954][171]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.44.56:516][324]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.45.00:511][562]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.45.17:506][547]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.45.19:599][655]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-16.45.25:246][992]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.45.27:438][117]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-16.45.46:731][268]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.46.00:332][ 70]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.46.02:831][216]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-16.46.16:062][998]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.46.26:505][619]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.46.33:878][ 36]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.46.47:346][836]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-16.47.04:644][833]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-16.47.16:366][523]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.47.28:776][253]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-16.47.41:398][  7]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.48.05:919][455]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-16.48.13:047][879]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.48.17:438][127]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-16.48.21:652][380]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.48.29:294][836]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.48.33:273][ 71]LogEditorTransaction: Undo Modify Component(s)
+[2018.09.18-16.48.36:232][243]LogEditorTransaction: Undo Add Component
+[2018.09.18-16.48.39:601][438]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-16.48.47:242][885]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.48.54:118][294]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.49.07:052][ 65]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.49.10:620][279]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.49.18:607][758]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.49.29:380][403]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-16.49.31:218][512]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-16.49.33:563][650]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.49.37:031][854]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.49.45:488][360]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.50.06:192][601]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.50.12:005][946]LogEditorTransaction: Undo Set Scale
+[2018.09.18-16.50.15:138][131]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.50.20:172][433]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.50.31:588][113]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.50.33:472][219]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-16.50.36:225][384]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.50.38:739][534]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.50.50:753][254]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.51.02:412][949]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.51.13:632][618]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.51.36:420][977]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.51.39:339][150]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.51.45:048][491]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.51.48:515][694]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-16.51.51:167][853]LogEditorTransaction: Undo Modify Component(s)
+[2018.09.18-16.51.52:959][959]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.52.31:406][252]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.52.42:994][944]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-16.53.25:144][432]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.53.25:177][434]BlueprintLog: New page: Compile Crim_Desk
+[2018.09.18-16.53.26:670][434]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Crim_DeskCA0D2DFC4E2BCB1316F40A8F6D370923.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/SharedAssets/MeshesAndWhatnot/Chairs_tables/Crim_Desk.uasset'
+[2018.09.18-16.53.27:552][477]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Crim_Desk733B8C0B4EA0C01742AC2F8E4B4443F4.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/SharedAssets/MeshesAndWhatnot/Chairs_tables/Crim_Desk.uasset'
+[2018.09.18-16.53.49:045][880]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.53.51:866][ 43]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.54.00:753][573]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.54.03:499][727]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.54.11:583][206]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.54.15:385][433]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.54.26:893][115]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.54.32:924][475]Cmd: TRANSACTION UNDO
+[2018.09.18-16.54.32:924][475]LogEditorTransaction: Undo Scale Actors
+[2018.09.18-16.54.36:782][703]Cmd: TRANSACTION UNDO
+[2018.09.18-16.54.36:782][703]LogEditorTransaction: Undo Scale Actors
+[2018.09.18-16.54.47:605][349]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.54.50:523][517]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.54.57:750][944]LogEditorViewport: Clicking on Actor (LMB): Crim_Desk_C (Crim_Desk)
+[2018.09.18-16.55.16:563][ 60]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.55.48:085][936]LogEditorViewport: Clicking on Actor (LMB): Computer_Chair_C (Computer_Chair3)
+[2018.09.18-16.55.49:640][ 26]LogEditorViewport: Clicking on Actor (CTRL LMB): Computer_Chair_C (Computer_Chair2)
+[2018.09.18-16.55.50:308][ 64]LogEditorViewport: Clicking on Actor (CTRL LMB): Computer_Chair_C (Computer_Chair)
+[2018.09.18-16.55.59:994][625]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.56.09:200][137]LogEditorViewport: Clicking on Actor (LMB): Computer_Chair_C (Computer_Chair2)
+[2018.09.18-16.56.25:647][116]LogEditorViewport: Clicking on Actor (LMB): BP_InteractiveButton_C (BP_InteractiveButton)
+[2018.09.18-16.56.33:551][586]LogEditorViewport: Clicking on Actor (LMB): BP_WhiteBoard_C (BP_WhiteBoard)
+[2018.09.18-16.56.39:462][936]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.56.46:587][362]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.09.18-16.56.46:899][376]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.56.47:501][412]LogEditorViewport: Clicking on Actor (LMB): BP_WhiteBoard_C (BP_WhiteBoard)
+[2018.09.18-16.56.52:056][682]Cmd: DUPLICATE
+[2018.09.18-16.56.52:056][682]Cmd: ACTOR DUPLICATE
+[2018.09.18-16.57.07:931][629]LogEditorViewport: Clicking on Actor (LMB): BP_Eraser_C (BP_Eraser2)
+[2018.09.18-16.57.21:816][457]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.58.02:606][545]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/CriminologyMap_Auto1DB892FD8445B6B7B1E034FB5131CC1D2.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/237_Criminology/Maps/CriminologyMap_Auto1.umap'
+[2018.09.18-16.58.02:652][545]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/237_Criminology/Maps/CriminologyMap' took 0.639
+[2018.09.18-16.58.02:652][545]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.639
+[2018.09.18-16.58.02:654][545]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/DefaultProject/Blueprints/GameModes/GameMode_Default] ([1] browsable assets)...
+[2018.09.18-16.58.02:654][545]OBJ SavePackage: Finished generating thumbnails for package [/Game/DefaultProject/Blueprints/GameModes/GameMode_Default]
+[2018.09.18-16.58.02:680][545]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/GameMode_Default_Auto10E29647F42249AC1F7A8C5B3E9E968AA.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/DefaultProject/Blueprints/GameModes/GameMode_Default_Auto1.uasset'
+[2018.09.18-16.58.02:681][545]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SharedAssets/MeshesAndWhatnot/Chairs_tables/Crim_Desk] ([1] browsable assets)...
+[2018.09.18-16.58.02:692][545]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SharedAssets/MeshesAndWhatnot/Chairs_tables/Crim_Desk.Crim_Desk]
+[2018.09.18-16.58.02:692][545]OBJ SavePackage: Finished generating thumbnails for package [/Game/SharedAssets/MeshesAndWhatnot/Chairs_tables/Crim_Desk]
+[2018.09.18-16.58.02:729][545]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Crim_Desk_Auto185A254F74A1EA3BFB54ABB9ED99A3D7F.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/SharedAssets/MeshesAndWhatnot/Chairs_tables/Crim_Desk_Auto1.uasset'
+[2018.09.18-16.58.02:729][545]LogFileHelpers: Auto-saving content packages took 0.076
+[2018.09.18-16.58.08:541][888]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.58.08:745][888]LogMaterial: Display: Missing cached shader map for material M_Rock_Sandstone, compiling. 
+[2018.09.18-16.58.08:795][888]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.09.18-16.58.08:795][888]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.09.18-16.58.08:795][888]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.09.18-16.58.08:795][888]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.18-16.58.11:776][ 54]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.58.15:681][287]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.58.19:413][510]Cmd: TRANSACTION UNDO
+[2018.09.18-16.58.19:413][510]LogEditorTransaction: Undo Scale Actors
+[2018.09.18-16.58.41:659][839]LogEditorViewport: Clicking on Actor (LMB): BP_InteractiveDoor_C (BP_InteractiveDoor)
+[2018.09.18-16.58.46:858][149]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.58.47:001][153]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveDoor.BP_InteractiveDoor
+[2018.09.18-16.58.49:059][225]LogRenderer: Reallocating scene render targets to support 1056x580 Format 26 NumSamples 1 (Frame:1).
+[2018.09.18-16.58.52:196][405]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-16.58.56:727][668]LogMaterial: Display: Missing cached shader map for material M_Wood_Pine, compiling. 
+[2018.09.18-16.58.56:776][668]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.09.18-16.58.56:776][668]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.09.18-16.58.56:776][668]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.09.18-16.58.56:776][668]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.18-16.59.02:549][ 14]LogEditorTransaction: Undo Replace component used material
+[2018.09.18-16.59.12:072][575]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-16.59.14:700][726]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-16.59.18:399][943]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.59.38:221][118]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-16.59.43:710][435]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-16.59.48:960][749]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.00.07:803][874]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.00.40:249][814]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.00.46:997][217]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.00.56:876][808]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.00.56:943][812]BlueprintLog: New page: Compile BP_InteractiveDoor
+[2018.09.18-17.00.57:429][812]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/BP_InteractiveDoor992ED77A460C15942AFC6E9872BFD2C6.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveDoor.uasset'
+[2018.09.18-17.00.57:740][827]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.00.57:884][830]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/BP_InteractiveDoorAFF2DD054FEE23D0CD2B47B1E7A4C16A.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveDoor.uasset'
+[2018.09.18-17.01.00:819][  6]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.01.03:537][ 74]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.02.05:438][397]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.04.05:982][739]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-17.04.10:122][981]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.04.47:250][ 84]LogSlate: Window 'Delete Assets' being destroyed
+[2018.09.18-17.04.47:453][ 84]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.09.18-17.04.52:957][190]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/SharedAssets/MeshesAndWhatnot/Shelves.Shelves
+[2018.09.18-17.05.06:782][985]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.05.17:402][601]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-17.05.33:348][551]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.05.36:677][749]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.05.43:093][130]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.05.51:693][642]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.05.57:481][988]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.06.08:004][617]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.06.13:582][948]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.06.20:420][356]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.06.32:041][ 42]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.06.45:574][849]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.06.48:134][985]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-17.07.01:085][758]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.07.13:117][473]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.07.15:386][609]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.07.46:972][496]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.07.50:254][693]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.08.12:245][984]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.08.46:394][ 18]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-17.08.51:126][297]LogEditorTransaction: Undo Modify Component(s)
+[2018.09.18-17.08.54:518][492]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-17.09.24:708][283]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.10.33:955][357]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.10.54:854][561]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-17.11.11:750][504]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-17.11.15:463][722]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.11.17:079][818]LogEditorTransaction: Undo Modify Component(s)
+[2018.09.18-17.11.49:058][670]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.11.59:752][294]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.12.45:870][ 75]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.13.38:923][137]LogEditorTransaction: Undo Paste Component(s)
+[2018.09.18-17.13.40:963][252]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.13.45:784][527]LogUObjectHash: Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMesh15_GEN_VARIABLE or StaticMeshComponent /Engine/Transient.StaticMesh15_GEN_VARIABLE
+[2018.09.18-17.13.45:784][527]LogUObjectHash: Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMesh5_GEN_VARIABLE or StaticMeshComponent /Engine/Transient.StaticMesh5_GEN_VARIABLE
+[2018.09.18-17.13.45:784][527]LogUObjectHash: Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMesh_GEN_VARIABLE or StaticMeshComponent /Engine/Transient.StaticMesh_GEN_VARIABLE
+[2018.09.18-17.13.45:784][527]LogUObjectHash: Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.ShelfTop_GEN_VARIABLE or StaticMeshComponent /Engine/Transient.ShelfTop_GEN_VARIABLE
+[2018.09.18-17.13.45:784][527]LogUObjectHash: Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMesh10_GEN_VARIABLE or StaticMeshComponent /Engine/Transient.StaticMesh10_GEN_VARIABLE
+[2018.09.18-17.13.47:184][611]LogUObjectHash: Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMesh15_GEN_VARIABLE or StaticMeshComponent /Engine/Transient.StaticMesh15_GEN_VARIABLE
+[2018.09.18-17.13.47:184][611]LogUObjectHash: Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMesh5_GEN_VARIABLE or StaticMeshComponent /Engine/Transient.StaticMesh5_GEN_VARIABLE
+[2018.09.18-17.13.47:184][611]LogUObjectHash: Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMesh_GEN_VARIABLE or StaticMeshComponent /Engine/Transient.StaticMesh_GEN_VARIABLE
+[2018.09.18-17.13.47:184][611]LogUObjectHash: Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.ShelfTop_GEN_VARIABLE or StaticMeshComponent /Engine/Transient.ShelfTop_GEN_VARIABLE
+[2018.09.18-17.13.47:185][611]LogUObjectHash: Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMesh10_GEN_VARIABLE or StaticMeshComponent /Engine/Transient.StaticMesh10_GEN_VARIABLE
+[2018.09.18-17.13.48:886][702]LogEditorTransaction: Undo Paste Component(s)
+[2018.09.18-17.13.54:389][  3]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-17.14.02:357][478]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.14.14:297][153]LogEditorTransaction: Undo Modify Component(s)
+[2018.09.18-17.14.15:483][222]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.14.23:256][618]LogEditorTransaction: Undo Modify Component(s)
+[2018.09.18-17.14.24:326][677]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.14.37:111][386]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.14.41:482][583]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.14.54:114][304]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-17.15.06:442][560]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-17.15.14:575][ 42]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.15.23:618][564]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.15.38:003][361]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.15.38:054][364]BlueprintLog: New page: Compile Shelves
+[2018.09.18-17.15.38:058][364]LogUObjectHash: Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.ShelfTop_GEN_VARIABLE or StaticMeshComponent /Engine/Transient.ShelfTop_GEN_VARIABLE
+[2018.09.18-17.15.38:058][364]LogUObjectHash: Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMesh_GEN_VARIABLE or StaticMeshComponent /Engine/Transient.StaticMesh_GEN_VARIABLE
+[2018.09.18-17.15.38:059][364]LogUObjectHash: Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMesh5_GEN_VARIABLE or StaticMeshComponent /Engine/Transient.StaticMesh5_GEN_VARIABLE
+[2018.09.18-17.15.38:059][364]LogUObjectHash: Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMesh10_GEN_VARIABLE or StaticMeshComponent /Engine/Transient.StaticMesh10_GEN_VARIABLE
+[2018.09.18-17.15.38:059][364]LogUObjectHash: Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMesh15_GEN_VARIABLE or StaticMeshComponent /Engine/Transient.StaticMesh15_GEN_VARIABLE
+[2018.09.18-17.15.38:921][364]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Shelves1162FA7244752485D167568C2C93B92D.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/SharedAssets/MeshesAndWhatnot/Shelves.uasset'
+[2018.09.18-17.15.39:422][391]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.15.39:547][395]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Shelves1E67595148EE1193195A9F88324F5838.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/SharedAssets/MeshesAndWhatnot/Shelves.uasset'
+[2018.09.18-17.15.46:127][790]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.15.48:711][850]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.15.55:436][243]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (CrimRoomMockup_Sprite)
+[2018.09.18-17.15.57:603][358]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.16.06:145][867]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.16.10:357][ 60]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.16.14:807][313]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.16.16:650][416]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.16.23:340][808]LogEditorViewport: Clicking on Actor (LMB): Shelves_C (Shelves)
+[2018.09.18-17.16.25:408][930]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.16.41:529][879]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (CrimRoomMockup_Sprite)
+[2018.09.18-17.16.41:791][879]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-17.16.41:868][882]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (CrimRoomMockup_Sprite)
+[2018.09.18-17.17.04:798][237]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.17.30:098][638]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.17.32:773][769]LogRenderer: Reallocating scene render targets to support 1220x580 Format 26 NumSamples 1 (Frame:53450).
+[2018.09.18-17.17.52:726][922]Cmd: DELETE
+[2018.09.18-17.17.52:726][922]Cmd: ACTOR DELETE
+[2018.09.18-17.17.52:734][922]LogEditorActor: Deleted Actor: TextRenderActor
+[2018.09.18-17.17.52:790][922]LogEditorActor: Deleted 1 Actors (0.064 secs)
+[2018.09.18-17.17.55:317][ 74]LogEditorViewport: Clicking on Actor (LMB): NameTag_C (NameTag)
+[2018.09.18-17.17.56:202][125]Cmd: DELETE
+[2018.09.18-17.17.56:202][125]Cmd: ACTOR DELETE
+[2018.09.18-17.17.56:211][125]LogEditorActor: Deleted Actor: NameTag_C
+[2018.09.18-17.17.56:270][125]LogEditorActor: Deleted 1 Actors (0.068 secs)
+[2018.09.18-17.19.17:434][257]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/CriminologyMap_Auto241D712AC4F4F4509F94A28BCEEF49D4C.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/237_Criminology/Maps/CriminologyMap_Auto2.umap'
+[2018.09.18-17.19.17:437][257]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/237_Criminology/Maps/CriminologyMap' took 0.312
+[2018.09.18-17.19.17:437][257]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.312
+[2018.09.18-17.22.11:002][190]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.22.12:695][290]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/SharedAssets/MeshesAndWhatnot/Wall_Fixtures/BP_Clock.BP_Clock
+[2018.09.18-17.22.18:700][620]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-17.22.33:832][491]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-17.22.37:224][671]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-17.22.38:776][762]LogMaterial: Display: Missing cached shader map for material M_MaterialSphere_Plain, compiling. 
+[2018.09.18-17.22.38:798][762]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.09.18-17.22.38:798][762]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.09.18-17.22.38:798][762]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.18-17.22.40:060][837]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-17.22.47:073][254]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.22.47:178][256]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/BP_Clock28DBCBC94D5818A6B532CA900A614E80.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/SharedAssets/MeshesAndWhatnot/Wall_Fixtures/BP_Clock.uasset'
+[2018.09.18-17.22.56:550][818]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.23.26:451][ 55]LogEditorViewport: Clicking on Actor (LMB): Shelves_C (Shelves)
+[2018.09.18-17.23.27:972][144]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.23.39:137][806]LogEditorViewport: Clicking on Actor (LMB): Shelves_C (Shelves)
+[2018.09.18-17.23.42:882][ 26]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.24.21:484][333]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.24.54:420][297]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.18-17.24.54:421][297]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Interfaces/BPI_WorldInteractive.uasset.
+[2018.09.18-17.24.54:421][297]LoadErrors: Error: /Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/Interfaces/BPI_WorldInteractive : Can't find file for asset. /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor
+[2018.09.18-17.24.54:421][297]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.18-17.24.54:421][297]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Interfaces/BPI_WorldInteractive.uasset.
+[2018.09.18-17.24.54:613][297]LogLinker: Warning: Can't find file '/Game/Classes/MainHub_Hallways/MainHub_BuiltData'
+[2018.09.18-17.24.54:613][297]LogLinker: Warning: Can't find file for asset '/Game/Classes/MainHub_Hallways/MainHub_BuiltData' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/MainHub_Hallways/MainHub.umap.
+[2018.09.18-17.24.54:614][297]LoadErrors: Error: /Game/Classes/MainHub_Hallways/MainHub : Can't find file for asset. /Game/Classes/MainHub_Hallways/MainHub_BuiltData
+[2018.09.18-17.24.54:810][297]LogLinker: Warning: Can't find file '/Game/Classes/MainHub_Hallways/MainHub_BuiltData'
+[2018.09.18-17.24.54:810][297]LogLinker: Warning: Can't find file for asset '/Game/Classes/MainHub_Hallways/MainHub_BuiltData' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/MainHub_Hallways/MainHub.umap.
+[2018.09.18-17.24.55:109][297]LogLinker: Warning: Can't find file '/Game/Classes/MainHub_Hallways/MainHub_BuiltData'
+[2018.09.18-17.24.55:109][297]LoadErrors: Failed to load /Game/Classes/MainHub_Hallways/MainHub_BuiltData.MainHub_BuiltData Referenced by PersistentLevel
+[2018.09.18-17.24.55:109][297]LogLinker: Warning: Can't find file for asset '/Game/Classes/MainHub_Hallways/MainHub_BuiltData' while loading NULL.
+[2018.09.18-17.24.55:349][297]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 128X128)
+[2018.09.18-17.24.55:349][297]LogMaterial: Display: Missing cached shader map for material 01_-_Default, compiling. 
+[2018.09.18-17.24.55:368][297]LogMaterial: Display: Missing cached shader map for material 01_-_Default, compiling. 
+[2018.09.18-17.24.55:404][297]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.09.18-17.24.55:404][297]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.09.18-17.24.55:404][297]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.09.18-17.24.55:404][297]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.18-17.24.55:453][297]LogMaterial: Display: Missing cached shader map for material M_Glass, compiling. 
+[2018.09.18-17.24.55:562][297]LogMaterial: Display: Missing cached shader map for material M_Rock_Marble_Polished, compiling. 
+[2018.09.18-17.24.55:585][297]LogMaterial: Display: Missing cached shader map for material M_Ceramic_Tile_Checker, compiling. 
+[2018.09.18-17.24.55:603][297]LogMaterial: Display: Missing cached shader map for material Window, compiling. 
+[2018.09.18-17.24.55:625][297]LogMaterial: Display: Missing cached shader map for material blinn1, compiling. 
+[2018.09.18-17.24.55:653][297]LogAIModule: Creating AISystem for world MainHub
+[2018.09.18-17.24.56:071][297]LogShaderCompilers: Display: Shaders left to compile 229
+[2018.09.18-17.24.56:079][297]LogAssetEditorManager: Opening Asset editor for World /Game/Classes/MainHub_Hallways/MainHub.MainHub
+[2018.09.18-17.24.57:685][297]LogShaderCompilers: Display: Shaders left to compile 219
+[2018.09.18-17.24.57:929][297]LogSlate: Window 'Save Content' being destroyed
+[2018.09.18-17.24.58:398][297]LogShaderCompilers: Display: Shaders left to compile 209
+[2018.09.18-17.24.58:474][297]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/CriminologyMapA0958256400470B3BFD662B33CB86A3F.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap'
+[2018.09.18-17.24.58:543][297]LogFileHelpers: Saving map 'CriminologyMap' took 0.605
+[2018.09.18-17.24.58:566][297]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/GameMode_Default1E553FC7469C3B85A801EE8BB3654A1B.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/DefaultProject/Blueprints/GameModes/GameMode_Default.uasset'
+[2018.09.18-17.24.58:612][297]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Crim_Desk57AE21F641445278F65D12AEBFDFC963.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/SharedAssets/MeshesAndWhatnot/Chairs_tables/Crim_Desk.uasset'
+[2018.09.18-17.24.58:616][297]Cmd: MAP LOAD FILE="../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/MainHub_Hallways/MainHub.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.18-17.24.58:616][297]LightingResults: New page: Lighting Build
+[2018.09.18-17.24.58:617][297]LoadErrors: New page: Loading map: MainHub.umap
+[2018.09.18-17.24.58:621][297]MapCheck: New page: Map Check
+[2018.09.18-17.24.58:621][297]LightingResults: New page: Lighting Build
+[2018.09.18-17.24.59:703][297]LogShaderCompilers: Display: Shaders left to compile 199
+[2018.09.18-17.24.59:703][297]LogShaderCompilers: Display: Shaders left to compile 189
+[2018.09.18-17.24.59:703][297]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.18-17.24.59:814][297]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.18-17.24.59:925][297]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 110.867ms to complete.
+[2018.09.18-17.24.59:925][297]LogFileHelpers: Loading map 'MainHub' took 1.310
+[2018.09.18-17.25.02:130][415]LogShaderCompilers: Display: Shaders left to compile 179
+[2018.09.18-17.25.02:547][440]LogShaderCompilers: Display: Shaders left to compile 169
+[2018.09.18-17.25.03:065][471]LogShaderCompilers: Display: Shaders left to compile 159
+[2018.09.18-17.25.04:548][560]LogShaderCompilers: Display: Shaders left to compile 149
+[2018.09.18-17.25.06:681][687]LogShaderCompilers: Display: Shaders left to compile 139
+[2018.09.18-17.25.10:861][937]LogShaderCompilers: Display: Shaders left to compile 129
+[2018.09.18-17.25.20:064][489]LogShaderCompilers: Display: Shaders left to compile 119
+[2018.09.18-17.25.20:482][514]LogShaderCompilers: Display: Shaders left to compile 109
+[2018.09.18-17.25.23:331][685]LogShaderCompilers: Display: Shaders left to compile 99
+[2018.09.18-17.25.24:434][751]LogShaderCompilers: Display: Shaders left to compile 89
+[2018.09.18-17.25.24:916][780]LogShaderCompilers: Display: Shaders left to compile 79
+[2018.09.18-17.25.26:478][873]LogShaderCompilers: Display: Shaders left to compile 69
+[2018.09.18-17.25.27:237][919]LogShaderCompilers: Display: Shaders left to compile 59
+[2018.09.18-17.25.27:670][941]LogShaderCompilers: Display: Shaders left to compile 49
+[2018.09.18-17.25.29:289][ 37]LogShaderCompilers: Display: Shaders left to compile 39
+[2018.09.18-17.25.29:914][ 75]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.09.18-17.25.30:040][ 82]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.09.18-17.25.32:033][202]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.09.18-17.25.50:723][317]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.26.58:170][308]Cmd: DELETE
+[2018.09.18-17.26.58:170][308]Cmd: ACTOR DELETE
+[2018.09.18-17.26.58:222][308]LogEditorActor: Deleted Actor: PointLight
+[2018.09.18-17.26.58:277][308]LogEditorActor: Deleted 1 Actors (0.107 secs)
+[2018.09.18-17.27.02:545][562]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.27.04:347][665]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2018.09.18-17.27.04:348][665]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualReality/Mannequin/Animations/RightHand_AnimBP.uasset.
+[2018.09.18-17.27.04:348][665]LoadErrors: Error: /Game/DefaultVrContent/VirtualReality/Mannequin/Animations/RightHand_AnimBP : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/GripEnum
+[2018.09.18-17.27.04:348][665]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2018.09.18-17.27.04:348][665]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualReality/Mannequin/Animations/RightHand_AnimBP.uasset.
+[2018.09.18-17.27.04:471][665]LogAIModule: Creating AISystem for world CriminologyMap
+[2018.09.18-17.27.04:516][665]LogAssetEditorManager: Opening Asset editor for World /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap
+[2018.09.18-17.27.07:528][665]LogSlate: Window 'Save Content' being destroyed
+[2018.09.18-17.27.07:531][665]Cmd: MAP LOAD FILE="../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.18-17.27.07:533][665]LightingResults: New page: Lighting Build
+[2018.09.18-17.27.07:533][665]LoadErrors: New page: Loading map: CriminologyMap.umap
+[2018.09.18-17.27.07:546][665]MapCheck: New page: Map Check
+[2018.09.18-17.27.07:546][665]LightingResults: New page: Lighting Build
+[2018.09.18-17.27.07:825][665]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.18-17.27.07:900][665]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.18-17.27.07:973][665]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 72.657ms to complete.
+[2018.09.18-17.27.07:978][665]LogFileHelpers: Loading map 'CriminologyMap' took 0.448
+[2018.09.18-17.28.21:261][ 54]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.28.21:406][ 62]LogAssetEditorManager: Opening Asset editor for World /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap
+[2018.09.18-17.28.21:441][ 62]Cmd: MAP LOAD FILE="../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.18-17.28.21:441][ 62]LightingResults: New page: Lighting Build
+[2018.09.18-17.28.21:441][ 62]LoadErrors: New page: Loading map: CriminologyMap.umap
+[2018.09.18-17.28.21:444][ 62]MapCheck: New page: Map Check
+[2018.09.18-17.28.21:444][ 62]LightingResults: New page: Lighting Build
+[2018.09.18-17.28.21:535][ 62]LogAIModule: Creating AISystem for world CriminologyMap
+[2018.09.18-17.28.21:705][ 62]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.18-17.28.21:798][ 62]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.18-17.28.21:900][ 62]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 102.379ms to complete.
+[2018.09.18-17.28.21:901][ 62]LogFileHelpers: Loading map 'CriminologyMap' took 0.462
+[2018.09.18-17.28.26:974][363]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.32.26:232][670]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.32.53:114][155]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.09.18-17.35.50:159][614]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-17.35.56:922][  1]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/CriminologyMap83A77A6A4A9F381B2069968065A1B79A.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap'
+[2018.09.18-17.35.56:995][  1]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/CriminologyMap_BuiltData55CC8706494550DF68AD84B203F3C4B4.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap_BuiltData.uasset'
+[2018.09.18-17.36.26:967][359]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-17.36.33:649][749]LogTexture: Display: Building textures: mp (BGRA8, 1024X642)
+[2018.09.18-17.36.33:649][749]LogMaterial: Display: Missing cached shader map for material _Gold, compiling. 
+[2018.09.18-17.36.33:664][749]LogMaterial: Display: Missing cached shader map for material Rubber, compiling. 
+[2018.09.18-17.36.33:681][749]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.09.18-17.36.33:681][749]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.09.18-17.36.33:681][749]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.18-17.36.33:681][749]LogMaterial: Display: Missing cached shader map for material Material__120, compiling. 
+[2018.09.18-17.36.33:695][749]LogMaterial: Display: Missing cached shader map for material 02_-_Default, compiling. 
+[2018.09.18-17.36.33:998][749]LogShaderCompilers: Display: Shaders left to compile 44
+[2018.09.18-17.36.33:998][749]LogStaticMesh: Building static mesh globe_SM...
+[2018.09.18-17.36.34:497][749]LogShaderCompilers: Display: Shaders left to compile 56
+[2018.09.18-17.36.34:497][749]LogStaticMesh: Built static mesh [0.50s] /Game/Classes/221_InteriorDesign/MESHES/globe_SM.globe_SM
+[2018.09.18-17.36.34:602][749]LogActorFactory: Actor Factory created globe_SM
+[2018.09.18-17.36.35:455][798]LogActorFactory: Actor Factory created globe_SM
+[2018.09.18-17.36.36:157][835]LogShaderCompilers: Display: Shaders left to compile 46
+[2018.09.18-17.36.36:324][845]LogShaderCompilers: Display: Shaders left to compile 36
+[2018.09.18-17.36.38:141][954]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.09.18-17.36.38:442][972]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.09.18-17.36.39:031][  7]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.09.18-17.37.21:394][546]Cmd: DELETE
+[2018.09.18-17.37.21:394][546]Cmd: ACTOR DELETE
+[2018.09.18-17.37.21:401][546]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.18-17.37.21:438][546]LogEditorActor: Deleted 1 Actors (0.045 secs)
