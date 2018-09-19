@@ -1,4 +1,4 @@
-﻿Log file open, 09/19/18 14:35:36
+﻿Log file open, 09/19/18 15:11:33
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: VRTests
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.281021
+LogStats: Stats thread started at 0.288919
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -4:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.118s to configure plugins.
+LogStreaming: Display: Took  0.161s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -124,8 +124,8 @@ LogInit: Compiled (64-bit): Aug 21 2018 02:06:06
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
-LogInit: Command Line: 
-LogInit: Base Directory: D:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Command Line:  
+LogInit: Base Directory: D:/Games/Epic Games/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
 LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
@@ -148,378 +148,727 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.000s to delete old logs.
+LogStreaming: Display: Took  0.002s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.09.19-17.35.37:037][  0]LogInit: Selected Device Profile: [Windows]
-[2018.09.19-17.35.37:037][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.09.19-17.35.37:071][  0]LogHAL: Display: Platform has ~ 16 GB [17042796544 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.09.19-17.35.37:071][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.09.19-17.35.37:071][  0]LogInit: Going up to parent DeviceProfile []
-[2018.09.19-17.35.37:071][  0]LogInit: Computer: ALIEN
-[2018.09.19-17.35.37:071][  0]LogInit: User: CodyCormier
-[2018.09.19-17.35.37:071][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.09.19-17.35.37:071][  0]LogInit: High frequency timer resolution =2.742188 MHz
-[2018.09.19-17.35.37:071][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.09.19-17.35.37:071][  0]LogMemory: Platform Memory Stats for Windows
-[2018.09.19-17.35.37:071][  0]LogMemory: Process Physical Memory: 104.32 MB used, 104.32 MB peak
-[2018.09.19-17.35.37:071][  0]LogMemory: Process Virtual Memory: 101.21 MB used, 101.21 MB peak
-[2018.09.19-17.35.37:071][  0]LogMemory: Physical Memory: 6084.56 MB used,  10168.71 MB free, 16253.28 MB total
-[2018.09.19-17.35.37:072][  0]LogMemory: Virtual Memory: 4662.07 MB used,  10168.71 MB free, 134217728.00 MB total
-[2018.09.19-17.35.37:090][  0]LogInit: Using OS detected language (en-US).
-[2018.09.19-17.35.37:090][  0]LogInit: Using OS detected locale (en-CA).
-[2018.09.19-17.35.37:091][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.09.19-17.35.37:456][  0]LogStreaming: Display: Took  0.367s to InitEngineTextLocalization.
-[2018.09.19-17.35.37:456][  0]LogInit: Setting process to per monitor DPI aware
-[2018.09.19-17.35.37:486][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.09.19-17.35.37:486][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.09.19-17.35.37:696][  0]LogHMD: Failed to initialize OpenVR with code 126
-[2018.09.19-17.35.37:696][  0]LogD3D11RHI: D3D11 adapters:
-[2018.09.19-17.35.37:761][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2018.09.19-17.35.37:761][  0]LogD3D11RHI:       8081/0/8126 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.09.19-17.35.38:287][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2018.09.19-17.35.38:287][  0]LogD3D11RHI:       128/0/8126 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.09.19-17.35.38:289][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.09.19-17.35.38:289][  0]LogD3D11RHI:       0/0/8126 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.09.19-17.35.38:289][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.09.19-17.35.38:335][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.09.19-17.35.38:335][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
-[2018.09.19-17.35.38:335][  0]LogWindows: EnumDisplayDevices:
-[2018.09.19-17.35.38:336][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2018.09.19-17.35.38:336][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.09.19-17.35.38:336][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.09.19-17.35.38:336][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.09.19-17.35.38:336][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.09.19-17.35.38:337][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.09.19-17.35.38:337][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.09.19-17.35.38:337][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2018.09.19-17.35.38:337][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2018.09.19-17.35.38:337][  0]LogD3D11RHI:   Driver Version: 398.82 (internal:24.21.13.9882, unified:398.82)
-[2018.09.19-17.35.38:337][  0]LogD3D11RHI:      Driver Date: 7-30-2018
-[2018.09.19-17.35.38:337][  0]LogRHI: Texture pool is 5656 MB (70% of 8081 MB)
-[2018.09.19-17.35.38:377][  0]LogD3D11RHI: Async texture creation enabled
-[2018.09.19-17.35.38:395][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.09.19-17.35.38:444][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (../../../../../../Documents/GitHub/UE4Project/Project/Intermediate/Shaders/WorkingDirectory/1164/).
-[2018.09.19-17.35.38:444][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Cody Cormier/AppData/Local/Temp/UnrealShaderWorkingDir/DFFC391349274DC84A3C68AD5FD2BA12/'.
-[2018.09.19-17.35.38:712][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.09.19-17.35.38:725][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.09.19-17.35.38:738][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.09.19-17.35.38:751][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.09.19-17.35.38:765][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.09.19-17.35.38:778][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.09.19-17.35.38:791][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.09.19-17.35.38:804][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.09.19-17.35.38:810][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.09.19-17.35.38:889][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.19-17.35.38:890][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.19-17.35.38:890][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.19-17.35.38:890][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.19-17.35.38:890][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.19-17.35.38:890][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.19-17.35.38:890][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.19-17.35.38:890][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.19-17.35.38:890][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.19-17.35.38:890][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.19-17.35.38:890][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.19-17.35.38:890][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.19-17.35.38:890][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.19-17.35.38:890][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.19-17.35.38:890][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.19-17.35.38:890][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.19-17.35.38:890][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.19-17.35.38:890][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.19-17.35.38:891][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.09.19-17.35.38:951][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.09.19-17.35.38:951][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.09.19-17.35.38:976][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.09.19-17.35.38:976][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.09.19-17.35.38:988][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.09.19-17.35.39:002][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.09.19-17.35.39:015][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.09.19-17.35.39:029][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.09.19-17.35.39:037][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.09.19-17.35.39:038][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.09.19-17.35.39:082][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.09.19-17.35.39:082][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.09.19-17.35.39:082][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.09.19-17.35.39:790][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.09.19-17.35.39:846][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/Cody Cormier/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.09.19-17.35.39:846][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Cody Cormier/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2018.09.19-17.35.39:846][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Documents/GitHub/UE4Project/Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.09.19-17.35.39:846][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.09.19-17.35.39:846][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Documents/GitHub/UE4Project/Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.09.19-17.35.39:846][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.09.19-17.35.39:860][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.09.19-17.35.39:872][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Cody Cormier/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.09.19-17.35.39:872][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.09.19-17.35.39:872][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.09.19-17.35.39:945][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.09.19-17.35.39:946][  0]LogSlate: Using FreeType 2.6.0
-[2018.09.19-17.35.39:947][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.09.19-17.35.40:017][  0]LogAssetRegistry: FAssetRegistry took 0.0271 seconds to start up
-[2018.09.19-17.35.40:355][  0]LogInit: Selected Device Profile: [Windows]
-[2018.09.19-17.35.40:405][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.09.19-17.35.40:408][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.09.19-17.35.40:408][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.09.19-17.35.40:408][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.09.19-17.35.40:408][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.09.19-17.35.40:566][  0]LogNetVersion: VRTests 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4138015713)
-[2018.09.19-17.35.41:273][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.116348 seconds
-[2018.09.19-17.35.41:279][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2018.09.19-17.35.41:279][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
-[2018.09.19-17.35.41:279][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.09.19-17.35.42:386][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.09.19-17.35.42:398][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.09.19-17.35.42:591][  0]SourceControl: Source control is disabled
-[2018.09.19-17.35.42:591][  0]SourceControl: Source control is disabled
-[2018.09.19-17.35.42:592][  0]SourceControl: Source control is disabled
-[2018.09.19-17.35.42:593][  0]SourceControl: Source control is disabled
-[2018.09.19-17.35.42:747][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.09.19-17.35.42:818][  0]LogOcInput: OculusInput pre-init called
-[2018.09.19-17.35.42:901][  0]LogEngine: Initializing Engine...
-[2018.09.19-17.35.42:920][  0]LogHMD: Failed to initialize OpenVR with code 126
-[2018.09.19-17.35.42:922][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.09.19-17.35.42:922][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.09.19-17.35.42:922][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.09.19-17.35.42:922][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.09.19-17.35.43:343][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.09.19-17.35.43:351][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.09.19-17.35.43:364][  0]LogInit: XAudio2 using 'Speakers (Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.09.19-17.35.43:373][  0]LogInit: FAudioDevice initialized.
-[2018.09.19-17.35.43:373][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.09.19-17.35.43:462][  0]LogDerivedDataCache: Saved boot cache 0.09s 86MB C:/Users/Cody Cormier/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.09.19-17.35.43:474][  0]LogInit: Texture streaming: Enabled
-[2018.09.19-17.35.43:488][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.09.19-17.35.43:501][  0]LogInit: Transaction tracking system initialized
-[2018.09.19-17.35.43:515][  0]BlueprintLog: New page: Editor Load
-[2018.09.19-17.35.43:569][  0]LocalizationService: Localization service is disabled
-[2018.09.19-17.35.44:057][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.09.19-17.35.44:057][  0]LogCook: Display: Mobile HDR setting 1
-[2018.09.19-17.35.44:057][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.09.19-17.35.44:058][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.09.19-17.35.44:058][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.09.19-17.35.44:058][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.09.19-17.35.44:058][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.09.19-17.35.44:151][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/UE4Project/Project/Content/' took 0.05s
-[2018.09.19-17.35.44:151][  0]SourceControl: Source control is disabled
-[2018.09.19-17.35.44:151][  0]Cmd: MAP LOAD FILE="../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultProject/Map/DefaultMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.09.19-17.35.44:151][  0]LightingResults: New page: Lighting Build
-[2018.09.19-17.35.44:153][  0]MapCheck: New page: Map Check
-[2018.09.19-17.35.44:153][  0]LightingResults: New page: Lighting Build
-[2018.09.19-17.35.44:219][  0]LogAIModule: Creating AISystem for world DefaultMap
-[2018.09.19-17.35.44:224][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.09.19-17.35.44:246][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.09.19-17.35.44:290][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 43.841ms to complete.
-[2018.09.19-17.35.44:290][  0]LogFileHelpers: Loading map 'DefaultMap' took 0.139
-[2018.09.19-17.35.44:471][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.19-17.35.44:480][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.19-17.35.44:487][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.19-17.35.44:495][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.19-17.35.44:503][  0]LogCollectionManager: Loaded 0 collections in 0.000823 seconds
-[2018.09.19-17.35.44:555][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/UE4Project/Project/Saved/Collections/' took 0.01s
-[2018.09.19-17.35.44:555][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/UE4Project/Project/Content/Developers/CodyCormier/Collections/' took 0.01s
-[2018.09.19-17.35.44:555][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/UE4Project/Project/Content/Collections/' took 0.01s
-[2018.09.19-17.35.44:555][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.09.19-17.35.44:564][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2572 classes and 603 folders.
-[2018.09.19-17.35.44:592][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.09.19-17.35.45:708][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.09.19-17.35.45:742][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.09.19-17.35.45:812][  0]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.09.19-17.35.45:816][  0]LogSlate: Took 0.000296 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.09.19-17.35.45:837][  0]LogSlate: Took 0.015369 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.09.19-17.35.45:945][  0]LogRenderer: Reallocating scene render targets to support 1072x496 Format 26 NumSamples 1 (Frame:1).
-[2018.09.19-17.35.46:075][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.09.19-17.35.46:075][  0]LogLoad: (Engine Initialization) Total time: 11.28 seconds
-[2018.09.19-17.35.46:075][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.09.19-17.35.46:119][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.09.19-17.35.46:151][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.09.19-17.35.46:256][  2]LogAssetRegistry: Asset discovery search completed in 6.2608 seconds
-[2018.09.19-17.35.46:259][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.09.19-17.35.46:259][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000060 seconds (updated 0 objects)
-[2018.09.19-17.35.47:168][ 53]LogSlate: Took 0.046219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.09.19-17.35.51:218][294]LogFileCache: Retrieving MD5 hashes for directory 'D:/Documents/GitHub/UE4Project/Project/Content/' took 5.09s
-[2018.09.19-17.35.53:869][453]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.19-17.35.59:602][797]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.19-17.36.01:400][898]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.09.19-17.36.01:400][898]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Interfaces/BPI_WorldInteractive.uasset.
-[2018.09.19-17.36.01:400][898]LoadErrors: Error: /Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/Interfaces/BPI_WorldInteractive : Can't find file for asset. /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor
-[2018.09.19-17.36.01:400][898]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.09.19-17.36.01:400][898]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Interfaces/BPI_WorldInteractive.uasset.
-[2018.09.19-17.36.01:403][898]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.09.19-17.36.01:403][898]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
-[2018.09.19-17.36.01:404][898]LoadErrors: Error: /Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun : Can't find file for asset. /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor
-[2018.09.19-17.36.01:411][898]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.09.19-17.36.01:411][898]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
-[2018.09.19-17.36.01:412][898]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.09.19-17.36.01:412][898]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
-[2018.09.19-17.36.01:413][898]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.09.19-17.36.01:413][898]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_0
-[2018.09.19-17.36.01:413][898]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
-[2018.09.19-17.36.01:414][898]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.09.19-17.36.01:414][898]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
-[2018.09.19-17.36.01:414][898]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.09.19-17.36.01:414][898]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_1
-[2018.09.19-17.36.01:414][898]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
-[2018.09.19-17.36.01:414][898]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.09.19-17.36.01:414][898]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
-[2018.09.19-17.36.01:415][898]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.09.19-17.36.01:415][898]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_2
-[2018.09.19-17.36.01:415][898]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
-[2018.09.19-17.36.01:415][898]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.09.19-17.36.01:415][898]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
-[2018.09.19-17.36.01:415][898]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.09.19-17.36.01:415][898]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_3
-[2018.09.19-17.36.01:415][898]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
-[2018.09.19-17.36.01:416][898]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.09.19-17.36.01:416][898]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
-[2018.09.19-17.36.01:416][898]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.09.19-17.36.01:416][898]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_4
-[2018.09.19-17.36.01:416][898]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
-[2018.09.19-17.36.01:416][898]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.09.19-17.36.01:416][898]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
-[2018.09.19-17.36.01:417][898]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.09.19-17.36.01:417][898]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_5
-[2018.09.19-17.36.01:417][898]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
-[2018.09.19-17.36.01:417][898]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.09.19-17.36.01:417][898]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
-[2018.09.19-17.36.01:417][898]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.09.19-17.36.01:417][898]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_6
-[2018.09.19-17.36.01:418][898]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
-[2018.09.19-17.36.01:418][898]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.09.19-17.36.01:418][898]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
-[2018.09.19-17.36.01:418][898]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.09.19-17.36.01:418][898]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_7
-[2018.09.19-17.36.01:418][898]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
-[2018.09.19-17.36.01:418][898]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.09.19-17.36.01:419][898]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
-[2018.09.19-17.36.01:419][898]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.09.19-17.36.01:419][898]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_9
-[2018.09.19-17.36.01:419][898]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
-[2018.09.19-17.36.01:419][898]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.09.19-17.36.01:419][898]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
-[2018.09.19-17.36.01:420][898]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.09.19-17.36.01:420][898]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_10
-[2018.09.19-17.36.01:420][898]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
-[2018.09.19-17.36.01:420][898]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.09.19-17.36.01:420][898]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
-[2018.09.19-17.36.01:420][898]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.09.19-17.36.01:420][898]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
-[2018.09.19-17.36.01:421][898]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.09.19-17.36.01:421][898]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveGun.uasset.
-[2018.09.19-17.36.01:681][898]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
-[2018.09.19-17.36.01:681][898]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualReality/Mannequin/Animations/RightHand_AnimBP.uasset.
-[2018.09.19-17.36.01:681][898]LoadErrors: Error: /Game/DefaultVrContent/VirtualReality/Mannequin/Animations/RightHand_AnimBP : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/GripEnum
-[2018.09.19-17.36.01:681][898]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
-[2018.09.19-17.36.01:681][898]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualReality/Mannequin/Animations/RightHand_AnimBP.uasset.
-[2018.09.19-17.36.01:682][898]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
-[2018.09.19-17.36.01:682][898]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum Referenced by GripState
-[2018.09.19-17.36.01:682][898]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.uasset.
-[2018.09.19-17.36.01:683][898]LoadErrors: Error: /Game/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/GripEnum
-[2018.09.19-17.36.01:683][898]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
-[2018.09.19-17.36.01:683][898]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.uasset.
-[2018.09.19-17.36.01:683][898]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
-[2018.09.19-17.36.01:683][898]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.uasset.
-[2018.09.19-17.36.01:684][898]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
-[2018.09.19-17.36.01:684][898]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum Referenced by RightHand_AnimBP
-[2018.09.19-17.36.01:684][898]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.uasset.
-[2018.09.19-17.36.01:685][898]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
-[2018.09.19-17.36.01:685][898]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum Referenced by K2Node_VariableGet_64
-[2018.09.19-17.36.01:685][898]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.uasset.
-[2018.09.19-17.36.02:051][898]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] Get Hand  is deprecated; please replace or remove it.
-[2018.09.19-17.36.02:052][898]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] Get Hand  is deprecated; Please use the Motion Source property instead of Hand
-[2018.09.19-17.36.02:062][898]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] [0027.27] Compile of BPC_WorldInteractor successful, but with 2 Warning(s) [in 38 ms] (/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor)
-[2018.09.19-17.36.02:068][898]LogClass: Warning: Enum '/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/FeedbackEffects/EFeedbackType.EFeedbackType' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
-[2018.09.19-17.36.02:068][898]LogClass: Warning: Enum '/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/FeedbackEffects/EFeedbackIntensity.EFeedbackIntensity' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
-[2018.09.19-17.36.05:722][898]LogTexture: Display: Building textures: gottem_hahaha (BGRA8, 334X500)
-[2018.09.19-17.36.05:722][898]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
-[2018.09.19-17.36.05:722][898]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
-[2018.09.19-17.36.05:722][898]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
-[2018.09.19-17.36.05:722][898]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
-[2018.09.19-17.36.05:722][898]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 512X256)
-[2018.09.19-17.36.05:723][898]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
-[2018.09.19-17.36.05:723][898]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 512X128)
-[2018.09.19-17.36.05:723][898]LogTexture: Display: Building textures: CRIME_SCENE (BGRA8, 800X493)
-[2018.09.19-17.36.05:723][898]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
-[2018.09.19-17.36.05:853][898]LogMaterial: Display: Missing cached shader map for material Book_Mat_1, compiling. 
-[2018.09.19-17.36.06:000][898]LogShaderCompilers: Display: Shaders left to compile 22
-[2018.09.19-17.36.06:000][898]LogShaderCompilers: Display: Shaders left to compile 12
-[2018.09.19-17.36.06:000][898]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.09.19-17.36.07:267][898]LogMaterial: Display: Missing cached shader map for material M_Metal_Burnished_Steel, compiling. 
-[2018.09.19-17.36.07:367][898]LogShaderCompilers: Display: Shaders left to compile 31
-[2018.09.19-17.36.07:562][898]LogMaterial: Display: Missing cached shader map for material M_Wood_Pine, compiling. 
-[2018.09.19-17.36.07:864][898]LogShaderCompilers: Display: Shaders left to compile 52
-[2018.09.19-17.36.07:877][898]LogMaterial: Display: Missing cached shader map for material Book_Mat_4, compiling. 
-[2018.09.19-17.36.07:896][898]LogMaterial: Display: Missing cached shader map for material _Gold, compiling. 
-[2018.09.19-17.36.07:914][898]LogMaterial: Display: Missing cached shader map for material Book_Mat_3, compiling. 
-[2018.09.19-17.36.07:931][898]LogMaterial: Display: Missing cached shader map for material Book_Mat_2, compiling. 
-[2018.09.19-17.36.08:115][898]LogMaterial: Display: Missing cached shader map for material Mat_MetallicBlack, compiling. 
-[2018.09.19-17.36.08:391][898]LogMaterial: Display: Missing cached shader map for material DefaultSpriteMaterial, compiling. 
-[2018.09.19-17.36.08:693][898]LogAIModule: Creating AISystem for world CriminologyMap
-[2018.09.19-17.36.09:019][898]LogAssetEditorManager: Opening Asset editor for World /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap
-[2018.09.19-17.36.09:061][898]Cmd: MAP LOAD FILE="../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Maps/CriminologyMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.09.19-17.36.09:061][898]LightingResults: New page: Lighting Build
-[2018.09.19-17.36.09:061][898]LoadErrors: New page: Loading map: CriminologyMap.umap
-[2018.09.19-17.36.09:062][898]MapCheck: New page: Map Check
-[2018.09.19-17.36.09:062][898]LightingResults: New page: Lighting Build
-[2018.09.19-17.36.09:600][898]LogShaderCompilers: Display: Shaders left to compile 165
-[2018.09.19-17.36.09:781][898]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.09.19-17.36.09:840][898]LogShaderCompilers: Display: Shaders left to compile 155
-[2018.09.19-17.36.09:922][898]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.09.19-17.36.10:029][898]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 106.468ms to complete.
-[2018.09.19-17.36.10:029][898]LogFileHelpers: Loading map 'CriminologyMap' took 0.969
-[2018.09.19-17.36.11:192][955]LogShaderCompilers: Display: Shaders left to compile 145
-[2018.09.19-17.36.11:794][988]LogShaderCompilers: Display: Shaders left to compile 135
-[2018.09.19-17.36.11:977][999]LogShaderCompilers: Display: Shaders left to compile 125
-[2018.09.19-17.36.13:481][ 88]LogShaderCompilers: Display: Shaders left to compile 115
-[2018.09.19-17.36.13:954][110]LogShaderCompilers: Display: Shaders left to compile 105
-[2018.09.19-17.36.15:778][203]LogShaderCompilers: Display: Shaders left to compile 95
-[2018.09.19-17.36.16:591][250]LogShaderCompilers: Display: Shaders left to compile 85
-[2018.09.19-17.36.16:618][252]LogShaderCompilers: Display: Shaders left to compile 75
-[2018.09.19-17.36.17:650][314]LogShaderCompilers: Display: Shaders left to compile 65
-[2018.09.19-17.36.19:419][420]LogShaderCompilers: Display: Shaders left to compile 55
-[2018.09.19-17.36.19:603][431]LogShaderCompilers: Display: Shaders left to compile 45
-[2018.09.19-17.36.19:741][439]LogShaderCompilers: Display: Shaders left to compile 35
-[2018.09.19-17.36.21:188][525]LogShaderCompilers: Display: Shaders left to compile 25
-[2018.09.19-17.36.21:957][571]LogShaderCompilers: Display: Shaders left to compile 15
-[2018.09.19-17.36.21:975][572]LogShaderCompilers: Display: Shaders left to compile 5
-[2018.09.19-17.37.42:655][344]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.19-17.37.44:033][423]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel' has LevelScriptBlueprint '/Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.CriminologyMap' with GeneratedClass '/Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap_C' with ClassGeneratedBy '/Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.CriminologyMap'
-[2018.09.19-17.37.44:034][423]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.09.19-17.37.44:080][423]PIE: New page: PIE session: CriminologyMap (Sep 19, 2018, 11:37:44 AM)
-[2018.09.19-17.37.44:089][423]LogPlayLevel: Creating play world package: /Game/Classes/237_Criminology/Maps/UEDPIE_0_CriminologyMap
-[2018.09.19-17.37.44:163][423]LogPlayLevel: PIE: StaticDuplicateObject took: (0.073279s)
-[2018.09.19-17.37.44:163][423]LogAIModule: Creating AISystem for world CriminologyMap
-[2018.09.19-17.37.44:163][423]LogPlayLevel: PIE: World Init took: (0.000619s)
-[2018.09.19-17.37.44:163][423]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap to /Game/Classes/237_Criminology/Maps/UEDPIE_0_CriminologyMap.CriminologyMap (0.074081s)
-[2018.09.19-17.37.44:208][423]LogInit: XAudio2 using 'Speakers (Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.09.19-17.37.44:214][423]LogInit: FAudioDevice initialized.
-[2018.09.19-17.37.44:235][423]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.19-17.37.44:292][423]LogLoad: Game class is 'Criminology_GameMode_C'
-[2018.09.19-17.37.44:451][423]LogWorld: Bringing World /Game/Classes/237_Criminology/Maps/UEDPIE_0_CriminologyMap.CriminologyMap up for play (max tick rate 60) at 2018.09.19-14.37.44
-[2018.09.19-17.37.44:512][423]LogWorld: Bringing up level for play took: 0.095895
-[2018.09.19-17.37.44:647][423]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 10 classes and 0 folders.
-[2018.09.19-17.37.44:944][423]PIE: Play in editor start time for /Game/Classes/237_Criminology/Maps/UEDPIE_0_CriminologyMap 0.412
-[2018.09.19-17.37.44:944][423]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel' has LevelScriptBlueprint '/Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.CriminologyMap' with GeneratedClass '/Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap_C' with ClassGeneratedBy '/Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.CriminologyMap'
-[2018.09.19-17.37.45:828][456]Blueprint: Warning: DrawMaterialToRenderTarget: TextureRenderTarget must be non-null.
-[2018.09.19-17.37.45:828][456]Blueprint: Warning: DrawMaterialToRenderTarget: TextureRenderTarget must be non-null.
-[2018.09.19-17.37.48:411][608]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel' has LevelScriptBlueprint '/Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.CriminologyMap' with GeneratedClass '/Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap_C' with ClassGeneratedBy '/Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.CriminologyMap'
-[2018.09.19-17.37.48:430][608]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.19-17.37.48:454][608]Blueprint: Warning: DrawMaterialToRenderTarget: TextureRenderTarget must be non-null.
-[2018.09.19-17.37.48:454][608]Blueprint: Warning: DrawMaterialToRenderTarget: TextureRenderTarget must be non-null.
-[2018.09.19-17.37.48:519][608]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.09.19-17.37.48:520][608]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel' has LevelScriptBlueprint '/Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.CriminologyMap' with GeneratedClass '/Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap_C' with ClassGeneratedBy '/Game/Classes/237_Criminology/Maps/CriminologyMap.CriminologyMap:PersistentLevel.CriminologyMap'
-[2018.09.19-17.37.48:549][608]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.19-17.37.48:594][609]LogPlayLevel: Display: Destroying online subsystem :Context_1
-[2018.09.19-17.37.49:398][655]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.19-17.37.51:640][787]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere2)
-[2018.09.19-17.38.21:182][540]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.19-17.38.23:251][663]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Criminology/Blueprints/Criminology_GameMode.Criminology_GameMode
-[2018.09.19-17.38.24:039][663]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
-[2018.09.19-17.38.24:973][663]LogSlate: Took 0.017274 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.09.19-17.38.25:167][664]LogSlate: Took 0.015970 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.09.19-17.38.33:583][156]BlueprintLog: New page: Compile Criminology_GameMode
-[2018.09.19-17.38.33:820][156]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/Criminology_GameMode019D14D34F747645A05149BEC0C51EEE.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Blueprints/Criminology_GameMode.uasset'
-[2018.09.19-17.39.15:724][591]LogSlate: Took 0.000430 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
-[2018.09.19-17.39.29:407][406]LogClass: Warning: Type mismatch in FoundObjects of SKEL_Criminology_GameMode_C - Previous (StructProperty) Current(ObjectProperty) for package:  FObjectReader
-[2018.09.19-17.42.34:032][343]BlueprintLog: New page: Compile Criminology_GameMode
-[2018.09.19-17.42.34:285][343]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/Criminology_GameMode7214C4AC4B522BB0BBD24096CE5594CC.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Blueprints/Criminology_GameMode.uasset'
+[2018.09.19-18.11.34:526][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.19-18.11.34:526][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.09.19-18.11.34:541][  0]LogHAL: Display: Platform has ~ 16 GB [17046728704 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.09.19-18.11.34:541][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.09.19-18.11.34:541][  0]LogInit: Going up to parent DeviceProfile []
+[2018.09.19-18.11.34:541][  0]LogInit: Computer: DESKTOP-1DL1SQ4
+[2018.09.19-18.11.34:541][  0]LogInit: User: lynke
+[2018.09.19-18.11.34:541][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.09.19-18.11.34:541][  0]LogInit: High frequency timer resolution =2.742188 MHz
+[2018.09.19-18.11.34:541][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.09.19-18.11.34:541][  0]LogMemory: Platform Memory Stats for Windows
+[2018.09.19-18.11.34:542][  0]LogMemory: Process Physical Memory: 103.08 MB used, 103.08 MB peak
+[2018.09.19-18.11.34:542][  0]LogMemory: Process Virtual Memory: 89.30 MB used, 89.30 MB peak
+[2018.09.19-18.11.34:542][  0]LogMemory: Physical Memory: 6460.09 MB used,  9796.93 MB free, 16257.03 MB total
+[2018.09.19-18.11.34:542][  0]LogMemory: Virtual Memory: 4650.12 MB used,  9796.93 MB free, 134217728.00 MB total
+[2018.09.19-18.11.34:854][  0]LogInit: Using OS detected language (en-US).
+[2018.09.19-18.11.34:855][  0]LogInit: Using OS detected locale (en-CA).
+[2018.09.19-18.11.34:856][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.09.19-18.11.35:230][  0]LogStreaming: Display: Took  0.376s to InitEngineTextLocalization.
+[2018.09.19-18.11.35:230][  0]LogInit: Setting process to per monitor DPI aware
+[2018.09.19-18.11.35:261][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.09.19-18.11.35:261][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.09.19-18.11.35:875][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2018.09.19-18.11.35:875][  0]LogD3D11RHI: D3D11 adapters:
+[2018.09.19-18.11.35:944][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.09.19-18.11.35:944][  0]LogD3D11RHI:       8081/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.09.19-18.11.35:969][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.09.19-18.11.35:969][  0]LogD3D11RHI:       128/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.09.19-18.11.35:971][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.09.19-18.11.35:971][  0]LogD3D11RHI:       0/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.09.19-18.11.35:971][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.09.19-18.11.35:980][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.09.19-18.11.35:980][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
+[2018.09.19-18.11.35:980][  0]LogWindows: EnumDisplayDevices:
+[2018.09.19-18.11.35:980][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.09.19-18.11.35:980][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.09.19-18.11.35:981][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.09.19-18.11.35:981][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.09.19-18.11.35:981][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.09.19-18.11.35:982][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.09.19-18.11.35:982][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.09.19-18.11.35:982][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.09.19-18.11.35:982][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.09.19-18.11.35:982][  0]LogD3D11RHI:   Driver Version: 397.64 (internal:24.21.13.9764, unified:397.64)
+[2018.09.19-18.11.35:982][  0]LogD3D11RHI:      Driver Date: 5-7-2018
+[2018.09.19-18.11.35:982][  0]LogRHI: Texture pool is 5656 MB (70% of 8081 MB)
+[2018.09.19-18.11.36:025][  0]LogD3D11RHI: Async texture creation enabled
+[2018.09.19-18.11.36:106][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.09.19-18.11.36:156][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Intermediate/Shaders/WorkingDirectory/19188/).
+[2018.09.19-18.11.36:156][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/lynke/AppData/Local/Temp/UnrealShaderWorkingDir/B5C6FAC644285B276F7651AE2C5838D1/'.
+[2018.09.19-18.11.36:462][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.09.19-18.11.36:477][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.09.19-18.11.36:491][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.09.19-18.11.36:505][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.09.19-18.11.36:520][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.09.19-18.11.36:533][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.09.19-18.11.36:547][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.09.19-18.11.36:560][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.09.19-18.11.36:567][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.09.19-18.11.36:649][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-18.11.36:649][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-18.11.36:649][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-18.11.36:649][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-18.11.36:649][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-18.11.36:649][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-18.11.36:649][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-18.11.36:649][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-18.11.36:649][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-18.11.36:649][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-18.11.36:649][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-18.11.36:649][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-18.11.36:649][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-18.11.36:649][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-18.11.36:649][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-18.11.36:649][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-18.11.36:649][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-18.11.36:649][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-18.11.36:650][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.09.19-18.11.36:713][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.19-18.11.36:713][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.19-18.11.36:740][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.19-18.11.36:740][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.19-18.11.36:755][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.09.19-18.11.36:768][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.09.19-18.11.36:781][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.09.19-18.11.36:795][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.09.19-18.11.36:804][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.09.19-18.11.36:804][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.09.19-18.11.36:854][  0]LogXGEController: Cleaning working directory: C:/Users/lynke/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.09.19-18.11.36:855][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.09.19-18.11.36:855][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.09.19-18.11.36:855][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.09.19-18.11.37:609][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.09.19-18.11.37:674][  0]LogDerivedDataCache: Loaded boot cache 0.07s 86MB C:/Users/lynke/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.19-18.11.37:674][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/lynke/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.09.19-18.11.37:675][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.09.19-18.11.37:675][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.09.19-18.11.37:675][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.09.19-18.11.37:675][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.09.19-18.11.37:688][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.09.19-18.11.37:700][  0]LogDerivedDataCache: Using Local data cache path C:/Users/lynke/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.09.19-18.11.37:700][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.09.19-18.11.37:700][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.09.19-18.11.37:729][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.09.19-18.11.37:731][  0]LogSlate: Using FreeType 2.6.0
+[2018.09.19-18.11.37:732][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.19-18.11.37:817][  0]LogAssetRegistry: FAssetRegistry took 0.0261 seconds to start up
+[2018.09.19-18.11.38:169][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.19-18.11.38:226][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.09.19-18.11.38:229][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.09.19-18.11.38:229][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.09.19-18.11.38:229][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.09.19-18.11.38:229][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.09.19-18.11.38:336][  0]LogNetVersion: VRTests 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4138015713)
+[2018.09.19-18.11.38:959][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.133056 seconds
+[2018.09.19-18.11.38:965][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.09.19-18.11.38:965][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.09.19-18.11.38:965][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.09.19-18.11.40:027][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.09.19-18.11.40:041][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.09.19-18.11.40:190][  0]SourceControl: Source control is disabled
+[2018.09.19-18.11.40:190][  0]SourceControl: Source control is disabled
+[2018.09.19-18.11.40:192][  0]SourceControl: Source control is disabled
+[2018.09.19-18.11.40:193][  0]SourceControl: Source control is disabled
+[2018.09.19-18.11.40:368][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.09.19-18.11.40:431][  0]LogOcInput: OculusInput pre-init called
+[2018.09.19-18.11.40:492][  0]LogEngine: Initializing Engine...
+[2018.09.19-18.11.40:520][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2018.09.19-18.11.40:522][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.19-18.11.40:522][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.19-18.11.40:522][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.19-18.11.40:522][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.19-18.11.40:744][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.09.19-18.11.40:754][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.09.19-18.11.40:812][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.19-18.11.41:293][  0]LogInit: FAudioDevice initialized.
+[2018.09.19-18.11.41:293][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.09.19-18.11.41:376][  0]LogDerivedDataCache: Saved boot cache 0.08s 86MB C:/Users/lynke/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.19-18.11.41:392][  0]LogInit: Texture streaming: Enabled
+[2018.09.19-18.11.41:406][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.09.19-18.11.41:418][  0]LogInit: Transaction tracking system initialized
+[2018.09.19-18.11.41:435][  0]BlueprintLog: New page: Editor Load
+[2018.09.19-18.11.41:560][  0]LocalizationService: Localization service is disabled
+[2018.09.19-18.11.42:023][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.09.19-18.11.42:023][  0]LogCook: Display: Mobile HDR setting 1
+[2018.09.19-18.11.42:023][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.09.19-18.11.42:023][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.19-18.11.42:023][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.19-18.11.42:023][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.19-18.11.42:023][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.19-18.11.42:135][  0]LogFileCache: Scanning file cache for directory 'D:/Users/lynke/Documents/GitHub/UE4Project/Project/Content/' took 0.03s
+[2018.09.19-18.11.42:135][  0]SourceControl: Source control is disabled
+[2018.09.19-18.11.42:135][  0]Cmd: MAP LOAD FILE="../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/DefaultProject/Map/DefaultMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.19-18.11.42:136][  0]LightingResults: New page: Lighting Build
+[2018.09.19-18.11.42:138][  0]MapCheck: New page: Map Check
+[2018.09.19-18.11.42:138][  0]LightingResults: New page: Lighting Build
+[2018.09.19-18.11.42:169][  0]LogAIModule: Creating AISystem for world DefaultMap
+[2018.09.19-18.11.42:174][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.19-18.11.42:198][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.19-18.11.42:263][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 64.753ms to complete.
+[2018.09.19-18.11.42:263][  0]LogFileHelpers: Loading map 'DefaultMap' took 0.127
+[2018.09.19-18.11.42:372][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-18.11.42:380][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-18.11.42:387][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-18.11.42:395][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-18.11.42:400][  0]LogCollectionManager: Loaded 0 collections in 0.001079 seconds
+[2018.09.19-18.11.42:444][  0]LogFileCache: Scanning file cache for directory 'D:/Users/lynke/Documents/GitHub/UE4Project/Project/Saved/Collections/' took 0.01s
+[2018.09.19-18.11.42:444][  0]LogFileCache: Scanning file cache for directory 'D:/Users/lynke/Documents/GitHub/UE4Project/Project/Content/Developers/lynke/Collections/' took 0.01s
+[2018.09.19-18.11.42:444][  0]LogFileCache: Scanning file cache for directory 'D:/Users/lynke/Documents/GitHub/UE4Project/Project/Content/Collections/' took 0.01s
+[2018.09.19-18.11.42:444][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.09.19-18.11.42:453][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2572 classes and 603 folders.
+[2018.09.19-18.11.42:459][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.09.19-18.11.42:529][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.09.19-18.11.42:533][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.09.19-18.11.43:761][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.09.19-18.11.43:802][  0]LogSlate: Took 0.000871 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.19-18.11.43:806][  0]LogSlate: Took 0.000416 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.09.19-18.11.43:814][  0]LogSlate: Took 0.000415 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.09.19-18.11.43:922][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.VRTests
+[2018.09.19-18.11.43:923][  0]LogTemp: CWD: D:\Games\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.09.19-18.11.43:923][  0]LogTemp: Initial Dir: D:\Games\Epic Games\UE_4.20
+[2018.09.19-18.11.43:923][  0]LogTemp: Env CWD: D:\Games\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.09.19-18.11.43:923][  0]LogTemp: BranchPath = DESKTOP-1DL1SQ4/D/Games/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-1DL1SQ4/D/Games/Epic Games/UE_4.20/Engine/Binaries
+[2018.09.19-18.11.43:923][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\lynke\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.09.19-18.11.43:923][  0]LogRenderer: Reallocating scene render targets to support 1552x808 Format 26 NumSamples 1 (Frame:1).
+[2018.09.19-18.11.44:087][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.09.19-18.11.44:088][  0]LogLoad: (Engine Initialization) Total time: 13.35 seconds
+[2018.09.19-18.11.44:088][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.09.19-18.11.44:109][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.19-18.11.44:147][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.09.19-18.11.44:241][  2]LogAssetRegistry: Asset discovery search completed in 6.4462 seconds
+[2018.09.19-18.11.44:243][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.09.19-18.11.44:243][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000067 seconds (updated 0 objects)
+[2018.09.19-18.11.45:205][ 54]LogSlate: Took 0.000265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.19-18.11.49:197][290]LogFileCache: Retrieving MD5 hashes for directory 'D:/Users/lynke/Documents/GitHub/UE4Project/Project/Content/' took 5.08s
+[2018.09.19-18.11.55:666][677]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-18.11.58:218][824]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/TechRoomV1_BuiltData'
+[2018.09.19-18.11.58:219][824]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/TechRoomV1_BuiltData' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/235_ITSystems/Maps/TechRoomV1.umap.
+[2018.09.19-18.11.58:219][824]LoadErrors: Error: /Game/Classes/235_ITSystems/Maps/TechRoomV1 : Can't find file for asset. /Game/StarterContent/Maps/TechRoomV1_BuiltData
+[2018.09.19-18.11.58:219][824]LogLinker: Warning: Can't find file '/Game/Materials/M_Frosted_Glass'
+[2018.09.19-18.11.58:219][824]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Frosted_Glass' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/235_ITSystems/Maps/TechRoomV1.umap.
+[2018.09.19-18.11.58:219][824]LoadErrors: Error: /Game/Classes/235_ITSystems/Maps/TechRoomV1 : Can't find file for asset. /Game/Materials/M_Frosted_Glass
+[2018.09.19-18.11.58:326][824]LogLinker: Warning: Can't find file '/Game/StormGSMetropolis/Content/Metropolis/Mesh/MATs/M_NeonLight'
+[2018.09.19-18.11.58:326][824]LogLinker: Warning: Can't find file for asset '/Game/StormGSMetropolis/Content/Metropolis/Mesh/MATs/M_NeonLight' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/235_ITSystems/Maps/TechRoomV1.umap.
+[2018.09.19-18.11.58:326][824]LoadErrors: Error: /Game/Classes/235_ITSystems/Maps/TechRoomV1 : Can't find file for asset. /Game/StormGSMetropolis/Content/Metropolis/Mesh/MATs/M_NeonLight
+[2018.09.19-18.11.58:326][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/GenericHMDMaterial'
+[2018.09.19-18.11.58:326][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/GenericHMDMaterial' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/235_ITSystems/Maps/TechRoomV1.umap.
+[2018.09.19-18.11.58:326][824]LoadErrors: Error: /Game/Classes/235_ITSystems/Maps/TechRoomV1 : Can't find file for asset. /Game/VirtualReality/Materials/GenericHMDMaterial
+[2018.09.19-18.11.58:326][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_ArcEndpoint'
+[2018.09.19-18.11.58:327][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_ArcEndpoint' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/235_ITSystems/Maps/TechRoomV1.umap.
+[2018.09.19-18.11.58:327][824]LoadErrors: Error: /Game/Classes/235_ITSystems/Maps/TechRoomV1 : Can't find file for asset. /Game/VirtualReality/Materials/M_ArcEndpoint
+[2018.09.19-18.11.58:327][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:327][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/235_ITSystems/Maps/TechRoomV1.umap.
+[2018.09.19-18.11.58:327][824]LoadErrors: Error: /Game/Classes/235_ITSystems/Maps/TechRoomV1 : Can't find file for asset. /Game/VirtualReality/Materials/M_BaseMaterial
+[2018.09.19-18.11.58:327][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/MI_BaseMaterial3'
+[2018.09.19-18.11.58:327][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/MI_BaseMaterial3' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/235_ITSystems/Maps/TechRoomV1.umap.
+[2018.09.19-18.11.58:327][824]LoadErrors: Error: /Game/Classes/235_ITSystems/Maps/TechRoomV1 : Can't find file for asset. /Game/VirtualReality/Materials/MI_BaseMaterial3
+[2018.09.19-18.11.58:327][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/MI_ChaperoneOutline'
+[2018.09.19-18.11.58:327][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/MI_ChaperoneOutline' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/235_ITSystems/Maps/TechRoomV1.umap.
+[2018.09.19-18.11.58:327][824]LoadErrors: Error: /Game/Classes/235_ITSystems/Maps/TechRoomV1 : Can't find file for asset. /Game/VirtualReality/Materials/MI_ChaperoneOutline
+[2018.09.19-18.11.58:328][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/MI_TeleportCylinderPreview'
+[2018.09.19-18.11.58:328][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/MI_TeleportCylinderPreview' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/235_ITSystems/Maps/TechRoomV1.umap.
+[2018.09.19-18.11.58:328][824]LoadErrors: Error: /Game/Classes/235_ITSystems/Maps/TechRoomV1 : Can't find file for asset. /Game/VirtualReality/Materials/MI_TeleportCylinderPreview
+[2018.09.19-18.11.58:384][824]LogLinker: Warning: Can't find file '/Game/Materials/M_Frosted_Glass'
+[2018.09.19-18.11.58:384][824]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Frosted_Glass' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/235_ITSystems/Maps/TechRoomV1.umap.
+[2018.09.19-18.11.58:385][824]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/TechRoomV1_BuiltData'
+[2018.09.19-18.11.58:385][824]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/TechRoomV1_BuiltData' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/235_ITSystems/Maps/TechRoomV1.umap.
+[2018.09.19-18.11.58:423][824]LogLinker: Warning: Can't find file '/Game/StormGSMetropolis/Content/Metropolis/Mesh/DecorBorder'
+[2018.09.19-18.11.58:423][824]LogLinker: Warning: Can't find file for asset '/Game/StormGSMetropolis/Content/Metropolis/Mesh/DecorBorder' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/235_ITSystems/Maps/TechRoomV1.umap.
+[2018.09.19-18.11.58:423][824]LoadErrors: Error: /Game/Classes/235_ITSystems/Maps/TechRoomV1 : Can't find file for asset. /Game/StormGSMetropolis/Content/Metropolis/Mesh/DecorBorder
+[2018.09.19-18.11.58:423][824]LogLinker: Warning: Can't find file '/Game/StormGSMetropolis/Content/Metropolis/Mesh/JustPlane'
+[2018.09.19-18.11.58:423][824]LogLinker: Warning: Can't find file for asset '/Game/StormGSMetropolis/Content/Metropolis/Mesh/JustPlane' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/235_ITSystems/Maps/TechRoomV1.umap.
+[2018.09.19-18.11.58:423][824]LoadErrors: Error: /Game/Classes/235_ITSystems/Maps/TechRoomV1 : Can't find file for asset. /Game/StormGSMetropolis/Content/Metropolis/Mesh/JustPlane
+[2018.09.19-18.11.58:423][824]LogLinker: Warning: Can't find file '/Game/StormGSMetropolis/Content/Metropolis/Mesh/LightCylinder'
+[2018.09.19-18.11.58:423][824]LogLinker: Warning: Can't find file for asset '/Game/StormGSMetropolis/Content/Metropolis/Mesh/LightCylinder' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/235_ITSystems/Maps/TechRoomV1.umap.
+[2018.09.19-18.11.58:423][824]LoadErrors: Error: /Game/Classes/235_ITSystems/Maps/TechRoomV1 : Can't find file for asset. /Game/StormGSMetropolis/Content/Metropolis/Mesh/LightCylinder
+[2018.09.19-18.11.58:424][824]LogLinker: Warning: Can't find file '/Game/StormGSMetropolis/Content/Metropolis/Mesh/MATs/M_NeonLight'
+[2018.09.19-18.11.58:424][824]LogLinker: Warning: Can't find file for asset '/Game/StormGSMetropolis/Content/Metropolis/Mesh/MATs/M_NeonLight' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/235_ITSystems/Maps/TechRoomV1.umap.
+[2018.09.19-18.11.58:424][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right'
+[2018.09.19-18.11.58:424][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/235_ITSystems/Maps/TechRoomV1.umap.
+[2018.09.19-18.11.58:424][824]LoadErrors: Error: /Game/Classes/235_ITSystems/Maps/TechRoomV1 : Can't find file for asset. /Game/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right
+[2018.09.19-18.11.58:424][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/GenericHMDMaterial'
+[2018.09.19-18.11.58:424][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/GenericHMDMaterial' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/235_ITSystems/Maps/TechRoomV1.umap.
+[2018.09.19-18.11.58:424][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_ArcEndpoint'
+[2018.09.19-18.11.58:424][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_ArcEndpoint' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/235_ITSystems/Maps/TechRoomV1.umap.
+[2018.09.19-18.11.58:425][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:425][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/235_ITSystems/Maps/TechRoomV1.umap.
+[2018.09.19-18.11.58:425][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/MI_BaseMaterial3'
+[2018.09.19-18.11.58:425][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/MI_BaseMaterial3' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/235_ITSystems/Maps/TechRoomV1.umap.
+[2018.09.19-18.11.58:425][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/MI_ChaperoneOutline'
+[2018.09.19-18.11.58:425][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/MI_ChaperoneOutline' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/235_ITSystems/Maps/TechRoomV1.umap.
+[2018.09.19-18.11.58:425][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/MI_TeleportCylinderPreview'
+[2018.09.19-18.11.58:425][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/MI_TeleportCylinderPreview' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/235_ITSystems/Maps/TechRoomV1.umap.
+[2018.09.19-18.11.58:426][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Meshes/1x1_cube'
+[2018.09.19-18.11.58:426][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Meshes/1x1_cube' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/235_ITSystems/Maps/TechRoomV1.umap.
+[2018.09.19-18.11.58:426][824]LoadErrors: Error: /Game/Classes/235_ITSystems/Maps/TechRoomV1 : Can't find file for asset. /Game/VirtualReality/Meshes/1x1_cube
+[2018.09.19-18.11.58:426][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Meshes/BeaconDirection'
+[2018.09.19-18.11.58:426][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Meshes/BeaconDirection' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/235_ITSystems/Maps/TechRoomV1.umap.
+[2018.09.19-18.11.58:426][824]LoadErrors: Error: /Game/Classes/235_ITSystems/Maps/TechRoomV1 : Can't find file for asset. /Game/VirtualReality/Meshes/BeaconDirection
+[2018.09.19-18.11.58:426][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Meshes/GenericHMD'
+[2018.09.19-18.11.58:426][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Meshes/GenericHMD' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/235_ITSystems/Maps/TechRoomV1.umap.
+[2018.09.19-18.11.58:426][824]LoadErrors: Error: /Game/Classes/235_ITSystems/Maps/TechRoomV1 : Can't find file for asset. /Game/VirtualReality/Meshes/GenericHMD
+[2018.09.19-18.11.58:426][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Meshes/SM_FatCylinder'
+[2018.09.19-18.11.58:427][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Meshes/SM_FatCylinder' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/235_ITSystems/Maps/TechRoomV1.umap.
+[2018.09.19-18.11.58:427][824]LoadErrors: Error: /Game/Classes/235_ITSystems/Maps/TechRoomV1 : Can't find file for asset. /Game/VirtualReality/Meshes/SM_FatCylinder
+[2018.09.19-18.11.58:427][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right'
+[2018.09.19-18.11.58:427][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/235_ITSystems/Maps/TechRoomV1.umap.
+[2018.09.19-18.11.58:429][824]LogLinker: Warning: Can't find file '/Game/StormGSMetropolis/Content/Metropolis/Mesh/DecorBorder'
+[2018.09.19-18.11.58:430][824]LogLinker: Warning: Can't find file for asset '/Game/StormGSMetropolis/Content/Metropolis/Mesh/DecorBorder' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/235_ITSystems/Maps/TechRoomV1.umap.
+[2018.09.19-18.11.58:430][824]LogLinker: Warning: Can't find file '/Game/StormGSMetropolis/Content/Metropolis/Mesh/JustPlane'
+[2018.09.19-18.11.58:430][824]LogLinker: Warning: Can't find file for asset '/Game/StormGSMetropolis/Content/Metropolis/Mesh/JustPlane' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/235_ITSystems/Maps/TechRoomV1.umap.
+[2018.09.19-18.11.58:430][824]LogLinker: Warning: Can't find file '/Game/StormGSMetropolis/Content/Metropolis/Mesh/LightCylinder'
+[2018.09.19-18.11.58:430][824]LogLinker: Warning: Can't find file for asset '/Game/StormGSMetropolis/Content/Metropolis/Mesh/LightCylinder' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/235_ITSystems/Maps/TechRoomV1.umap.
+[2018.09.19-18.11.58:430][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Meshes/1x1_cube'
+[2018.09.19-18.11.58:430][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Meshes/1x1_cube' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/235_ITSystems/Maps/TechRoomV1.umap.
+[2018.09.19-18.11.58:431][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Meshes/BeaconDirection'
+[2018.09.19-18.11.58:431][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Meshes/BeaconDirection' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/235_ITSystems/Maps/TechRoomV1.umap.
+[2018.09.19-18.11.58:431][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Meshes/GenericHMD'
+[2018.09.19-18.11.58:431][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Meshes/GenericHMD' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/235_ITSystems/Maps/TechRoomV1.umap.
+[2018.09.19-18.11.58:431][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Meshes/SM_FatCylinder'
+[2018.09.19-18.11.58:431][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Meshes/SM_FatCylinder' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/235_ITSystems/Maps/TechRoomV1.umap.
+[2018.09.19-18.11.58:433][824]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/TechRoomV1_BuiltData'
+[2018.09.19-18.11.58:433][824]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/TechRoomV1_BuiltData' while loading NULL.
+[2018.09.19-18.11.58:445][824]LogLinker: Warning: Can't find file '/Game/Materials/M_Frosted_Glass'
+[2018.09.19-18.11.58:445][824]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Frosted_Glass' while loading NULL.
+[2018.09.19-18.11.58:445][824]LogLinker: Warning: Can't find file '/Game/StormGSMetropolis/Content/Metropolis/Mesh/MATs/M_NeonLight'
+[2018.09.19-18.11.58:445][824]LogLinker: Warning: Can't find file for asset '/Game/StormGSMetropolis/Content/Metropolis/Mesh/MATs/M_NeonLight' while loading NULL.
+[2018.09.19-18.11.58:446][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/GenericHMDMaterial'
+[2018.09.19-18.11.58:446][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/GenericHMDMaterial' while loading NULL.
+[2018.09.19-18.11.58:446][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_ArcEndpoint'
+[2018.09.19-18.11.58:446][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_ArcEndpoint' while loading NULL.
+[2018.09.19-18.11.58:446][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:446][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:446][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/MI_BaseMaterial3'
+[2018.09.19-18.11.58:446][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/MI_BaseMaterial3' while loading NULL.
+[2018.09.19-18.11.58:446][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/MI_ChaperoneOutline'
+[2018.09.19-18.11.58:446][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/MI_ChaperoneOutline' while loading NULL.
+[2018.09.19-18.11.58:447][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/MI_TeleportCylinderPreview'
+[2018.09.19-18.11.58:447][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/MI_TeleportCylinderPreview' while loading NULL.
+[2018.09.19-18.11.58:447][824]LogLinker: Warning: Can't find file '/Game/Materials/M_Frosted_Glass'
+[2018.09.19-18.11.58:447][824]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Frosted_Glass' while loading NULL.
+[2018.09.19-18.11.58:447][824]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/TechRoomV1_BuiltData'
+[2018.09.19-18.11.58:447][824]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/TechRoomV1_BuiltData' while loading NULL.
+[2018.09.19-18.11.58:447][824]LogLinker: Warning: Can't find file '/Game/StormGSMetropolis/Content/Metropolis/Mesh/DecorBorder'
+[2018.09.19-18.11.58:447][824]LogLinker: Warning: Can't find file for asset '/Game/StormGSMetropolis/Content/Metropolis/Mesh/DecorBorder' while loading NULL.
+[2018.09.19-18.11.58:448][824]LogLinker: Warning: Can't find file '/Game/StormGSMetropolis/Content/Metropolis/Mesh/JustPlane'
+[2018.09.19-18.11.58:448][824]LogLinker: Warning: Can't find file for asset '/Game/StormGSMetropolis/Content/Metropolis/Mesh/JustPlane' while loading NULL.
+[2018.09.19-18.11.58:448][824]LogLinker: Warning: Can't find file '/Game/StormGSMetropolis/Content/Metropolis/Mesh/LightCylinder'
+[2018.09.19-18.11.58:448][824]LogLinker: Warning: Can't find file for asset '/Game/StormGSMetropolis/Content/Metropolis/Mesh/LightCylinder' while loading NULL.
+[2018.09.19-18.11.58:448][824]LogLinker: Warning: Can't find file '/Game/StormGSMetropolis/Content/Metropolis/Mesh/MATs/M_NeonLight'
+[2018.09.19-18.11.58:448][824]LogLinker: Warning: Can't find file for asset '/Game/StormGSMetropolis/Content/Metropolis/Mesh/MATs/M_NeonLight' while loading NULL.
+[2018.09.19-18.11.58:448][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right'
+[2018.09.19-18.11.58:448][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right' while loading NULL.
+[2018.09.19-18.11.58:448][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/GenericHMDMaterial'
+[2018.09.19-18.11.58:448][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/GenericHMDMaterial' while loading NULL.
+[2018.09.19-18.11.58:449][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_ArcEndpoint'
+[2018.09.19-18.11.58:449][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_ArcEndpoint' while loading NULL.
+[2018.09.19-18.11.58:449][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:449][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:449][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/MI_BaseMaterial3'
+[2018.09.19-18.11.58:449][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/MI_BaseMaterial3' while loading NULL.
+[2018.09.19-18.11.58:449][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/MI_ChaperoneOutline'
+[2018.09.19-18.11.58:449][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/MI_ChaperoneOutline' while loading NULL.
+[2018.09.19-18.11.58:449][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/MI_TeleportCylinderPreview'
+[2018.09.19-18.11.58:450][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/MI_TeleportCylinderPreview' while loading NULL.
+[2018.09.19-18.11.58:450][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Meshes/1x1_cube'
+[2018.09.19-18.11.58:450][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Meshes/1x1_cube' while loading NULL.
+[2018.09.19-18.11.58:450][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Meshes/BeaconDirection'
+[2018.09.19-18.11.58:450][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Meshes/BeaconDirection' while loading NULL.
+[2018.09.19-18.11.58:450][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Meshes/GenericHMD'
+[2018.09.19-18.11.58:450][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Meshes/GenericHMD' while loading NULL.
+[2018.09.19-18.11.58:450][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Meshes/SM_FatCylinder'
+[2018.09.19-18.11.58:450][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Meshes/SM_FatCylinder' while loading NULL.
+[2018.09.19-18.11.58:451][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right'
+[2018.09.19-18.11.58:451][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right' while loading NULL.
+[2018.09.19-18.11.58:451][824]LogLinker: Warning: Can't find file '/Game/StormGSMetropolis/Content/Metropolis/Mesh/DecorBorder'
+[2018.09.19-18.11.58:451][824]LogLinker: Warning: Can't find file for asset '/Game/StormGSMetropolis/Content/Metropolis/Mesh/DecorBorder' while loading NULL.
+[2018.09.19-18.11.58:451][824]LogLinker: Warning: Can't find file '/Game/StormGSMetropolis/Content/Metropolis/Mesh/JustPlane'
+[2018.09.19-18.11.58:451][824]LogLinker: Warning: Can't find file for asset '/Game/StormGSMetropolis/Content/Metropolis/Mesh/JustPlane' while loading NULL.
+[2018.09.19-18.11.58:451][824]LogLinker: Warning: Can't find file '/Game/StormGSMetropolis/Content/Metropolis/Mesh/LightCylinder'
+[2018.09.19-18.11.58:451][824]LogLinker: Warning: Can't find file for asset '/Game/StormGSMetropolis/Content/Metropolis/Mesh/LightCylinder' while loading NULL.
+[2018.09.19-18.11.58:451][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Meshes/1x1_cube'
+[2018.09.19-18.11.58:451][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Meshes/1x1_cube' while loading NULL.
+[2018.09.19-18.11.58:452][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Meshes/BeaconDirection'
+[2018.09.19-18.11.58:452][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Meshes/BeaconDirection' while loading NULL.
+[2018.09.19-18.11.58:452][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Meshes/GenericHMD'
+[2018.09.19-18.11.58:452][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Meshes/GenericHMD' while loading NULL.
+[2018.09.19-18.11.58:452][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Meshes/SM_FatCylinder'
+[2018.09.19-18.11.58:452][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Meshes/SM_FatCylinder' while loading NULL.
+[2018.09.19-18.11.58:958][824]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/TechRoomV1_BuiltData'
+[2018.09.19-18.11.58:958][824]LoadErrors: Failed to load /Game/StarterContent/Maps/TechRoomV1_BuiltData.TechRoomV1_BuiltData Referenced by PersistentLevel
+[2018.09.19-18.11.58:958][824]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/TechRoomV1_BuiltData' while loading NULL.
+[2018.09.19-18.11.58:959][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:959][824]LoadErrors: Failed to load /Game/VirtualReality/Materials/M_BaseMaterial.M_BaseMaterial Referenced by Model_3
+[2018.09.19-18.11.58:959][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:959][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:959][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:959][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:959][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:959][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:960][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:960][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:960][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:960][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/MI_BaseMaterial3'
+[2018.09.19-18.11.58:960][824]LoadErrors: Failed to load /Game/VirtualReality/Materials/MI_BaseMaterial3.MI_BaseMaterial3 Referenced by Model_3
+[2018.09.19-18.11.58:960][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/MI_BaseMaterial3' while loading NULL.
+[2018.09.19-18.11.58:960][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:960][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:961][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:961][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:961][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:961][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:961][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:961][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:961][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/MI_BaseMaterial3'
+[2018.09.19-18.11.58:962][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/MI_BaseMaterial3' while loading NULL.
+[2018.09.19-18.11.58:962][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:962][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:962][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:962][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:962][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:962][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:963][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:963][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:963][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/MI_BaseMaterial3'
+[2018.09.19-18.11.58:963][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/MI_BaseMaterial3' while loading NULL.
+[2018.09.19-18.11.58:963][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:963][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:963][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:963][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:964][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:964][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:964][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/MI_BaseMaterial3'
+[2018.09.19-18.11.58:964][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/MI_BaseMaterial3' while loading NULL.
+[2018.09.19-18.11.58:964][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:964][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:964][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:965][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:965][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:965][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:965][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/MI_BaseMaterial3'
+[2018.09.19-18.11.58:965][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/MI_BaseMaterial3' while loading NULL.
+[2018.09.19-18.11.58:965][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:965][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:965][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:966][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:966][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:966][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:966][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:966][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:966][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:966][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:966][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/MI_BaseMaterial3'
+[2018.09.19-18.11.58:967][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/MI_BaseMaterial3' while loading NULL.
+[2018.09.19-18.11.58:967][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:967][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:967][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:967][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:967][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:967][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:968][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/MI_BaseMaterial3'
+[2018.09.19-18.11.58:968][824]LoadErrors: Failed to load /Game/VirtualReality/Materials/MI_BaseMaterial3.MI_BaseMaterial3 Referenced by ModelComponent_46
+[2018.09.19-18.11.58:968][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/MI_BaseMaterial3' while loading NULL.
+[2018.09.19-18.11.58:968][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:968][824]LoadErrors: Failed to load /Game/VirtualReality/Materials/M_BaseMaterial.M_BaseMaterial Referenced by ModelComponent_46
+[2018.09.19-18.11.58:968][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:968][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:968][824]LoadErrors: Failed to load /Game/VirtualReality/Materials/M_BaseMaterial.M_BaseMaterial Referenced by ModelComponent_47
+[2018.09.19-18.11.58:969][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:969][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:969][824]LoadErrors: Failed to load /Game/VirtualReality/Materials/M_BaseMaterial.M_BaseMaterial Referenced by ModelComponent_48
+[2018.09.19-18.11.58:969][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:969][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/MI_BaseMaterial3'
+[2018.09.19-18.11.58:969][824]LoadErrors: Failed to load /Game/VirtualReality/Materials/MI_BaseMaterial3.MI_BaseMaterial3 Referenced by ModelComponent_48
+[2018.09.19-18.11.58:969][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/MI_BaseMaterial3' while loading NULL.
+[2018.09.19-18.11.58:969][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:969][824]LoadErrors: Failed to load /Game/VirtualReality/Materials/M_BaseMaterial.M_BaseMaterial Referenced by ModelComponent_54
+[2018.09.19-18.11.58:970][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:970][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/MI_BaseMaterial3'
+[2018.09.19-18.11.58:970][824]LoadErrors: Failed to load /Game/VirtualReality/Materials/MI_BaseMaterial3.MI_BaseMaterial3 Referenced by ModelComponent_54
+[2018.09.19-18.11.58:970][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/MI_BaseMaterial3' while loading NULL.
+[2018.09.19-18.11.58:971][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:971][824]LoadErrors: Failed to load /Game/VirtualReality/Materials/M_BaseMaterial.M_BaseMaterial Referenced by ModelComponent_55
+[2018.09.19-18.11.58:971][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:971][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/MI_BaseMaterial3'
+[2018.09.19-18.11.58:971][824]LoadErrors: Failed to load /Game/VirtualReality/Materials/MI_BaseMaterial3.MI_BaseMaterial3 Referenced by ModelComponent_55
+[2018.09.19-18.11.58:971][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/MI_BaseMaterial3' while loading NULL.
+[2018.09.19-18.11.58:972][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:972][824]LoadErrors: Failed to load /Game/VirtualReality/Materials/M_BaseMaterial.M_BaseMaterial Referenced by ModelComponent_56
+[2018.09.19-18.11.58:972][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:972][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/MI_BaseMaterial3'
+[2018.09.19-18.11.58:972][824]LoadErrors: Failed to load /Game/VirtualReality/Materials/MI_BaseMaterial3.MI_BaseMaterial3 Referenced by ModelComponent_57
+[2018.09.19-18.11.58:972][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/MI_BaseMaterial3' while loading NULL.
+[2018.09.19-18.11.58:972][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:972][824]LoadErrors: Failed to load /Game/VirtualReality/Materials/M_BaseMaterial.M_BaseMaterial Referenced by ModelComponent_57
+[2018.09.19-18.11.58:973][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:973][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:973][824]LoadErrors: Failed to load /Game/VirtualReality/Materials/M_BaseMaterial.M_BaseMaterial Referenced by ModelComponent_58
+[2018.09.19-18.11.58:973][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:973][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/MI_BaseMaterial3'
+[2018.09.19-18.11.58:973][824]LoadErrors: Failed to load /Game/VirtualReality/Materials/MI_BaseMaterial3.MI_BaseMaterial3 Referenced by ModelComponent_58
+[2018.09.19-18.11.58:973][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/MI_BaseMaterial3' while loading NULL.
+[2018.09.19-18.11.58:974][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:974][824]LoadErrors: Failed to load /Game/VirtualReality/Materials/M_BaseMaterial.M_BaseMaterial Referenced by ModelComponent_65
+[2018.09.19-18.11.58:974][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:974][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:974][824]LoadErrors: Failed to load /Game/VirtualReality/Materials/M_BaseMaterial.M_BaseMaterial Referenced by Polys_30
+[2018.09.19-18.11.58:974][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:974][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:974][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:975][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:975][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:975][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/MI_BaseMaterial3'
+[2018.09.19-18.11.58:975][824]LoadErrors: Failed to load /Game/VirtualReality/Materials/MI_BaseMaterial3.MI_BaseMaterial3 Referenced by Polys_30
+[2018.09.19-18.11.58:975][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/MI_BaseMaterial3' while loading NULL.
+[2018.09.19-18.11.58:975][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:976][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:976][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:976][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:976][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:976][824]LoadErrors: Failed to load /Game/VirtualReality/Materials/M_BaseMaterial.M_BaseMaterial Referenced by Polys_24
+[2018.09.19-18.11.58:976][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:977][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:977][824]LoadErrors: Failed to load /Game/VirtualReality/Materials/M_BaseMaterial.M_BaseMaterial Referenced by Polys_36
+[2018.09.19-18.11.58:977][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:977][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:977][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:977][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:977][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:978][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:978][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:978][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:978][824]LoadErrors: Failed to load /Game/VirtualReality/Materials/M_BaseMaterial.M_BaseMaterial Referenced by Polys_35
+[2018.09.19-18.11.58:978][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:978][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/MI_BaseMaterial3'
+[2018.09.19-18.11.58:979][824]LoadErrors: Failed to load /Game/VirtualReality/Materials/MI_BaseMaterial3.MI_BaseMaterial3 Referenced by Polys_35
+[2018.09.19-18.11.58:979][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/MI_BaseMaterial3' while loading NULL.
+[2018.09.19-18.11.58:979][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:979][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:979][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:979][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:980][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:980][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:980][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:980][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:980][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/MI_BaseMaterial3'
+[2018.09.19-18.11.58:980][824]LoadErrors: Failed to load /Game/VirtualReality/Materials/MI_BaseMaterial3.MI_BaseMaterial3 Referenced by Polys_34
+[2018.09.19-18.11.58:981][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/MI_BaseMaterial3' while loading NULL.
+[2018.09.19-18.11.58:981][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:981][824]LoadErrors: Failed to load /Game/VirtualReality/Materials/M_BaseMaterial.M_BaseMaterial Referenced by Polys_34
+[2018.09.19-18.11.58:981][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:981][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:981][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:981][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:982][824]LoadErrors: Failed to load /Game/VirtualReality/Materials/M_BaseMaterial.M_BaseMaterial Referenced by Polys_33
+[2018.09.19-18.11.58:982][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:982][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:983][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:983][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/MI_BaseMaterial3'
+[2018.09.19-18.11.58:983][824]LoadErrors: Failed to load /Game/VirtualReality/Materials/MI_BaseMaterial3.MI_BaseMaterial3 Referenced by Polys_33
+[2018.09.19-18.11.58:983][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/MI_BaseMaterial3' while loading NULL.
+[2018.09.19-18.11.58:983][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:984][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:984][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:984][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:984][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:984][824]LoadErrors: Failed to load /Game/VirtualReality/Materials/M_BaseMaterial.M_BaseMaterial Referenced by Polys_32
+[2018.09.19-18.11.58:984][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:985][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/MI_BaseMaterial3'
+[2018.09.19-18.11.58:985][824]LoadErrors: Failed to load /Game/VirtualReality/Materials/MI_BaseMaterial3.MI_BaseMaterial3 Referenced by Polys_32
+[2018.09.19-18.11.58:985][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/MI_BaseMaterial3' while loading NULL.
+[2018.09.19-18.11.58:985][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:985][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:985][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:985][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:986][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:986][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:986][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/MI_BaseMaterial3'
+[2018.09.19-18.11.58:986][824]LoadErrors: Failed to load /Game/VirtualReality/Materials/MI_BaseMaterial3.MI_BaseMaterial3 Referenced by Polys_31
+[2018.09.19-18.11.58:986][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/MI_BaseMaterial3' while loading NULL.
+[2018.09.19-18.11.58:987][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:987][824]LoadErrors: Failed to load /Game/VirtualReality/Materials/M_BaseMaterial.M_BaseMaterial Referenced by Polys_31
+[2018.09.19-18.11.58:987][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:987][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_BaseMaterial'
+[2018.09.19-18.11.58:987][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_BaseMaterial' while loading NULL.
+[2018.09.19-18.11.58:987][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right'
+[2018.09.19-18.11.58:988][824]LoadErrors: Failed to load /Game/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right.MannequinHand_Right Referenced by MannequinHand_Right2
+[2018.09.19-18.11.58:988][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right' while loading NULL.
+[2018.09.19-18.11.58:988][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right'
+[2018.09.19-18.11.58:988][824]LoadErrors: Failed to load /Game/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right.MannequinHand_Right Referenced by MannequinHand_Right_2
+[2018.09.19-18.11.58:988][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right' while loading NULL.
+[2018.09.19-18.11.58:989][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Meshes/1x1_cube'
+[2018.09.19-18.11.58:989][824]LoadErrors: Failed to load /Game/VirtualReality/Meshes/1x1_cube.1x1_cube Referenced by 1x1_cube2
+[2018.09.19-18.11.58:989][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Meshes/1x1_cube' while loading NULL.
+[2018.09.19-18.11.58:989][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/MI_ChaperoneOutline'
+[2018.09.19-18.11.58:989][824]LoadErrors: Failed to load /Game/VirtualReality/Materials/MI_ChaperoneOutline.MI_ChaperoneOutline Referenced by 1x1_cube2
+[2018.09.19-18.11.58:989][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/MI_ChaperoneOutline' while loading NULL.
+[2018.09.19-18.11.58:990][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Meshes/BeaconDirection'
+[2018.09.19-18.11.58:990][824]LoadErrors: Failed to load /Game/VirtualReality/Meshes/BeaconDirection.BeaconDirection Referenced by BeaconDirection2
+[2018.09.19-18.11.58:990][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Meshes/BeaconDirection' while loading NULL.
+[2018.09.19-18.11.58:990][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_ArcEndpoint'
+[2018.09.19-18.11.58:990][824]LoadErrors: Failed to load /Game/VirtualReality/Materials/M_ArcEndpoint.M_ArcEndpoint Referenced by BeaconDirection2
+[2018.09.19-18.11.58:991][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_ArcEndpoint' while loading NULL.
+[2018.09.19-18.11.58:991][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/MI_TeleportCylinderPreview'
+[2018.09.19-18.11.58:991][824]LoadErrors: Failed to load /Game/VirtualReality/Materials/MI_TeleportCylinderPreview.MI_TeleportCylinderPreview Referenced by Cylinder3_5
+[2018.09.19-18.11.58:991][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/MI_TeleportCylinderPreview' while loading NULL.
+[2018.09.19-18.11.58:991][824]LogLinker: Warning: Can't find file '/Game/StormGSMetropolis/Content/Metropolis/Mesh/DecorBorder'
+[2018.09.19-18.11.58:992][824]LoadErrors: Failed to load /Game/StormGSMetropolis/Content/Metropolis/Mesh/DecorBorder.DecorBorder Referenced by DecorBorder_29
+[2018.09.19-18.11.58:992][824]LogLinker: Warning: Can't find file for asset '/Game/StormGSMetropolis/Content/Metropolis/Mesh/DecorBorder' while loading NULL.
+[2018.09.19-18.11.59:003][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Meshes/GenericHMD'
+[2018.09.19-18.11.59:003][824]LoadErrors: Failed to load /Game/VirtualReality/Meshes/GenericHMD.GenericHMD Referenced by GenericHMD2
+[2018.09.19-18.11.59:003][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Meshes/GenericHMD' while loading NULL.
+[2018.09.19-18.11.59:003][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Meshes/GenericHMD'
+[2018.09.19-18.11.59:003][824]LoadErrors: Failed to load /Game/VirtualReality/Meshes/GenericHMD.GenericHMD Referenced by GenericHMD_16
+[2018.09.19-18.11.59:003][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Meshes/GenericHMD' while loading NULL.
+[2018.09.19-18.11.59:004][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/GenericHMDMaterial'
+[2018.09.19-18.11.59:004][824]LoadErrors: Failed to load /Game/VirtualReality/Materials/GenericHMDMaterial.GenericHMDMaterial Referenced by GenericHMD_16
+[2018.09.19-18.11.59:004][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/GenericHMDMaterial' while loading NULL.
+[2018.09.19-18.11.59:004][824]LogLinker: Warning: Can't find file '/Game/StormGSMetropolis/Content/Metropolis/Mesh/JustPlane'
+[2018.09.19-18.11.59:004][824]LoadErrors: Failed to load /Game/StormGSMetropolis/Content/Metropolis/Mesh/JustPlane.JustPlane Referenced by JustPlane2
+[2018.09.19-18.11.59:004][824]LogLinker: Warning: Can't find file for asset '/Game/StormGSMetropolis/Content/Metropolis/Mesh/JustPlane' while loading NULL.
+[2018.09.19-18.11.59:005][824]LogLinker: Warning: Can't find file '/Game/Materials/M_Frosted_Glass'
+[2018.09.19-18.11.59:005][824]LoadErrors: Failed to load /Game/Materials/M_Frosted_Glass.M_Frosted_Glass Referenced by JustPlane2
+[2018.09.19-18.11.59:005][824]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Frosted_Glass' while loading NULL.
+[2018.09.19-18.11.59:005][824]LogLinker: Warning: Can't find file '/Game/StormGSMetropolis/Content/Metropolis/Mesh/JustPlane'
+[2018.09.19-18.11.59:005][824]LoadErrors: Failed to load /Game/StormGSMetropolis/Content/Metropolis/Mesh/JustPlane.JustPlane Referenced by JustPlane3
+[2018.09.19-18.11.59:005][824]LogLinker: Warning: Can't find file for asset '/Game/StormGSMetropolis/Content/Metropolis/Mesh/JustPlane' while loading NULL.
+[2018.09.19-18.11.59:005][824]LogLinker: Warning: Can't find file '/Game/Materials/M_Frosted_Glass'
+[2018.09.19-18.11.59:006][824]LoadErrors: Failed to load /Game/Materials/M_Frosted_Glass.M_Frosted_Glass Referenced by JustPlane3
+[2018.09.19-18.11.59:006][824]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Frosted_Glass' while loading NULL.
+[2018.09.19-18.11.59:006][824]LogLinker: Warning: Can't find file '/Game/StormGSMetropolis/Content/Metropolis/Mesh/JustPlane'
+[2018.09.19-18.11.59:006][824]LoadErrors: Failed to load /Game/StormGSMetropolis/Content/Metropolis/Mesh/JustPlane.JustPlane Referenced by JustPlane4
+[2018.09.19-18.11.59:006][824]LogLinker: Warning: Can't find file for asset '/Game/StormGSMetropolis/Content/Metropolis/Mesh/JustPlane' while loading NULL.
+[2018.09.19-18.11.59:006][824]LogLinker: Warning: Can't find file '/Game/Materials/M_Frosted_Glass'
+[2018.09.19-18.11.59:006][824]LoadErrors: Failed to load /Game/Materials/M_Frosted_Glass.M_Frosted_Glass Referenced by JustPlane4
+[2018.09.19-18.11.59:006][824]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Frosted_Glass' while loading NULL.
+[2018.09.19-18.11.59:007][824]LogLinker: Warning: Can't find file '/Game/StormGSMetropolis/Content/Metropolis/Mesh/JustPlane'
+[2018.09.19-18.11.59:007][824]LoadErrors: Failed to load /Game/StormGSMetropolis/Content/Metropolis/Mesh/JustPlane.JustPlane Referenced by JustPlane5
+[2018.09.19-18.11.59:007][824]LogLinker: Warning: Can't find file for asset '/Game/StormGSMetropolis/Content/Metropolis/Mesh/JustPlane' while loading NULL.
+[2018.09.19-18.11.59:007][824]LogLinker: Warning: Can't find file '/Game/Materials/M_Frosted_Glass'
+[2018.09.19-18.11.59:007][824]LoadErrors: Failed to load /Game/Materials/M_Frosted_Glass.M_Frosted_Glass Referenced by JustPlane5
+[2018.09.19-18.11.59:007][824]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Frosted_Glass' while loading NULL.
+[2018.09.19-18.11.59:008][824]LogLinker: Warning: Can't find file '/Game/StormGSMetropolis/Content/Metropolis/Mesh/JustPlane'
+[2018.09.19-18.11.59:008][824]LoadErrors: Failed to load /Game/StormGSMetropolis/Content/Metropolis/Mesh/JustPlane.JustPlane Referenced by JustPlane6
+[2018.09.19-18.11.59:008][824]LogLinker: Warning: Can't find file for asset '/Game/StormGSMetropolis/Content/Metropolis/Mesh/JustPlane' while loading NULL.
+[2018.09.19-18.11.59:008][824]LogLinker: Warning: Can't find file '/Game/Materials/M_Frosted_Glass'
+[2018.09.19-18.11.59:008][824]LoadErrors: Failed to load /Game/Materials/M_Frosted_Glass.M_Frosted_Glass Referenced by JustPlane6
+[2018.09.19-18.11.59:008][824]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Frosted_Glass' while loading NULL.
+[2018.09.19-18.11.59:008][824]LogLinker: Warning: Can't find file '/Game/StormGSMetropolis/Content/Metropolis/Mesh/JustPlane'
+[2018.09.19-18.11.59:009][824]LoadErrors: Failed to load /Game/StormGSMetropolis/Content/Metropolis/Mesh/JustPlane.JustPlane Referenced by JustPlane_46
+[2018.09.19-18.11.59:009][824]LogLinker: Warning: Can't find file for asset '/Game/StormGSMetropolis/Content/Metropolis/Mesh/JustPlane' while loading NULL.
+[2018.09.19-18.11.59:009][824]LogLinker: Warning: Can't find file '/Game/Materials/M_Frosted_Glass'
+[2018.09.19-18.11.59:009][824]LoadErrors: Failed to load /Game/Materials/M_Frosted_Glass.M_Frosted_Glass Referenced by JustPlane_46
+[2018.09.19-18.11.59:009][824]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Frosted_Glass' while loading NULL.
+[2018.09.19-18.11.59:009][824]LogLinker: Warning: Can't find file '/Game/StormGSMetropolis/Content/Metropolis/Mesh/LightCylinder'
+[2018.09.19-18.11.59:009][824]LoadErrors: Failed to load /Game/StormGSMetropolis/Content/Metropolis/Mesh/LightCylinder.LightCylinder Referenced by LightCylinder2
+[2018.09.19-18.11.59:010][824]LogLinker: Warning: Can't find file for asset '/Game/StormGSMetropolis/Content/Metropolis/Mesh/LightCylinder' while loading NULL.
+[2018.09.19-18.11.59:010][824]LogLinker: Warning: Can't find file '/Game/StormGSMetropolis/Content/Metropolis/Mesh/MATs/M_NeonLight'
+[2018.09.19-18.11.59:010][824]LoadErrors: Failed to load /Game/StormGSMetropolis/Content/Metropolis/Mesh/MATs/M_NeonLight.M_NeonLight Referenced by LightCylinder2
+[2018.09.19-18.11.59:010][824]LogLinker: Warning: Can't find file for asset '/Game/StormGSMetropolis/Content/Metropolis/Mesh/MATs/M_NeonLight' while loading NULL.
+[2018.09.19-18.11.59:010][824]LogLinker: Warning: Can't find file '/Game/StormGSMetropolis/Content/Metropolis/Mesh/LightCylinder'
+[2018.09.19-18.11.59:010][824]LoadErrors: Failed to load /Game/StormGSMetropolis/Content/Metropolis/Mesh/LightCylinder.LightCylinder Referenced by LightCylinder3
+[2018.09.19-18.11.59:011][824]LogLinker: Warning: Can't find file for asset '/Game/StormGSMetropolis/Content/Metropolis/Mesh/LightCylinder' while loading NULL.
+[2018.09.19-18.11.59:011][824]LogLinker: Warning: Can't find file '/Game/StormGSMetropolis/Content/Metropolis/Mesh/MATs/M_NeonLight'
+[2018.09.19-18.11.59:011][824]LoadErrors: Failed to load /Game/StormGSMetropolis/Content/Metropolis/Mesh/MATs/M_NeonLight.M_NeonLight Referenced by LightCylinder3
+[2018.09.19-18.11.59:011][824]LogLinker: Warning: Can't find file for asset '/Game/StormGSMetropolis/Content/Metropolis/Mesh/MATs/M_NeonLight' while loading NULL.
+[2018.09.19-18.11.59:012][824]LogLinker: Warning: Can't find file '/Game/StormGSMetropolis/Content/Metropolis/Mesh/LightCylinder'
+[2018.09.19-18.11.59:012][824]LoadErrors: Failed to load /Game/StormGSMetropolis/Content/Metropolis/Mesh/LightCylinder.LightCylinder Referenced by LightCylinder4
+[2018.09.19-18.11.59:012][824]LogLinker: Warning: Can't find file for asset '/Game/StormGSMetropolis/Content/Metropolis/Mesh/LightCylinder' while loading NULL.
+[2018.09.19-18.11.59:012][824]LogLinker: Warning: Can't find file '/Game/StormGSMetropolis/Content/Metropolis/Mesh/MATs/M_NeonLight'
+[2018.09.19-18.11.59:012][824]LoadErrors: Failed to load /Game/StormGSMetropolis/Content/Metropolis/Mesh/MATs/M_NeonLight.M_NeonLight Referenced by LightCylinder4
+[2018.09.19-18.11.59:012][824]LogLinker: Warning: Can't find file for asset '/Game/StormGSMetropolis/Content/Metropolis/Mesh/MATs/M_NeonLight' while loading NULL.
+[2018.09.19-18.11.59:013][824]LogLinker: Warning: Can't find file '/Game/StormGSMetropolis/Content/Metropolis/Mesh/LightCylinder'
+[2018.09.19-18.11.59:013][824]LoadErrors: Failed to load /Game/StormGSMetropolis/Content/Metropolis/Mesh/LightCylinder.LightCylinder Referenced by LightCylinder5
+[2018.09.19-18.11.59:013][824]LogLinker: Warning: Can't find file for asset '/Game/StormGSMetropolis/Content/Metropolis/Mesh/LightCylinder' while loading NULL.
+[2018.09.19-18.11.59:013][824]LogLinker: Warning: Can't find file '/Game/StormGSMetropolis/Content/Metropolis/Mesh/MATs/M_NeonLight'
+[2018.09.19-18.11.59:013][824]LoadErrors: Failed to load /Game/StormGSMetropolis/Content/Metropolis/Mesh/MATs/M_NeonLight.M_NeonLight Referenced by LightCylinder5
+[2018.09.19-18.11.59:013][824]LogLinker: Warning: Can't find file for asset '/Game/StormGSMetropolis/Content/Metropolis/Mesh/MATs/M_NeonLight' while loading NULL.
+[2018.09.19-18.11.59:014][824]LogLinker: Warning: Can't find file '/Game/StormGSMetropolis/Content/Metropolis/Mesh/LightCylinder'
+[2018.09.19-18.11.59:014][824]LoadErrors: Failed to load /Game/StormGSMetropolis/Content/Metropolis/Mesh/LightCylinder.LightCylinder Referenced by LightCylinder6
+[2018.09.19-18.11.59:014][824]LogLinker: Warning: Can't find file for asset '/Game/StormGSMetropolis/Content/Metropolis/Mesh/LightCylinder' while loading NULL.
+[2018.09.19-18.11.59:014][824]LogLinker: Warning: Can't find file '/Game/StormGSMetropolis/Content/Metropolis/Mesh/MATs/M_NeonLight'
+[2018.09.19-18.11.59:014][824]LoadErrors: Failed to load /Game/StormGSMetropolis/Content/Metropolis/Mesh/MATs/M_NeonLight.M_NeonLight Referenced by LightCylinder6
+[2018.09.19-18.11.59:014][824]LogLinker: Warning: Can't find file for asset '/Game/StormGSMetropolis/Content/Metropolis/Mesh/MATs/M_NeonLight' while loading NULL.
+[2018.09.19-18.11.59:015][824]LogLinker: Warning: Can't find file '/Game/StormGSMetropolis/Content/Metropolis/Mesh/LightCylinder'
+[2018.09.19-18.11.59:015][824]LoadErrors: Failed to load /Game/StormGSMetropolis/Content/Metropolis/Mesh/LightCylinder.LightCylinder Referenced by LightCylinder7
+[2018.09.19-18.11.59:015][824]LogLinker: Warning: Can't find file for asset '/Game/StormGSMetropolis/Content/Metropolis/Mesh/LightCylinder' while loading NULL.
+[2018.09.19-18.11.59:015][824]LogLinker: Warning: Can't find file '/Game/StormGSMetropolis/Content/Metropolis/Mesh/MATs/M_NeonLight'
+[2018.09.19-18.11.59:016][824]LoadErrors: Failed to load /Game/StormGSMetropolis/Content/Metropolis/Mesh/MATs/M_NeonLight.M_NeonLight Referenced by LightCylinder7
+[2018.09.19-18.11.59:016][824]LogLinker: Warning: Can't find file for asset '/Game/StormGSMetropolis/Content/Metropolis/Mesh/MATs/M_NeonLight' while loading NULL.
+[2018.09.19-18.11.59:016][824]LogLinker: Warning: Can't find file '/Game/StormGSMetropolis/Content/Metropolis/Mesh/LightCylinder'
+[2018.09.19-18.11.59:016][824]LoadErrors: Failed to load /Game/StormGSMetropolis/Content/Metropolis/Mesh/LightCylinder.LightCylinder Referenced by LightCylinder8
+[2018.09.19-18.11.59:016][824]LogLinker: Warning: Can't find file for asset '/Game/StormGSMetropolis/Content/Metropolis/Mesh/LightCylinder' while loading NULL.
+[2018.09.19-18.11.59:017][824]LogLinker: Warning: Can't find file '/Game/StormGSMetropolis/Content/Metropolis/Mesh/MATs/M_NeonLight'
+[2018.09.19-18.11.59:017][824]LoadErrors: Failed to load /Game/StormGSMetropolis/Content/Metropolis/Mesh/MATs/M_NeonLight.M_NeonLight Referenced by LightCylinder8
+[2018.09.19-18.11.59:017][824]LogLinker: Warning: Can't find file for asset '/Game/StormGSMetropolis/Content/Metropolis/Mesh/MATs/M_NeonLight' while loading NULL.
+[2018.09.19-18.11.59:017][824]LogLinker: Warning: Can't find file '/Game/StormGSMetropolis/Content/Metropolis/Mesh/LightCylinder'
+[2018.09.19-18.11.59:017][824]LoadErrors: Failed to load /Game/StormGSMetropolis/Content/Metropolis/Mesh/LightCylinder.LightCylinder Referenced by LightCylinder_25
+[2018.09.19-18.11.59:017][824]LogLinker: Warning: Can't find file for asset '/Game/StormGSMetropolis/Content/Metropolis/Mesh/LightCylinder' while loading NULL.
+[2018.09.19-18.11.59:018][824]LogLinker: Warning: Can't find file '/Game/StormGSMetropolis/Content/Metropolis/Mesh/MATs/M_NeonLight'
+[2018.09.19-18.11.59:018][824]LoadErrors: Failed to load /Game/StormGSMetropolis/Content/Metropolis/Mesh/MATs/M_NeonLight.M_NeonLight Referenced by LightCylinder_25
+[2018.09.19-18.11.59:018][824]LogLinker: Warning: Can't find file for asset '/Game/StormGSMetropolis/Content/Metropolis/Mesh/MATs/M_NeonLight' while loading NULL.
+[2018.09.19-18.11.59:018][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/GenericHMDMaterial'
+[2018.09.19-18.11.59:018][824]LoadErrors: Failed to load /Game/VirtualReality/Materials/GenericHMDMaterial.GenericHMDMaterial Referenced by Shape_Cylinder2
+[2018.09.19-18.11.59:019][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/GenericHMDMaterial' while loading NULL.
+[2018.09.19-18.11.59:019][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/GenericHMDMaterial'
+[2018.09.19-18.11.59:019][824]LoadErrors: Failed to load /Game/VirtualReality/Materials/GenericHMDMaterial.GenericHMDMaterial Referenced by Shape_Cylinder3
+[2018.09.19-18.11.59:019][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/GenericHMDMaterial' while loading NULL.
+[2018.09.19-18.11.59:019][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/GenericHMDMaterial'
+[2018.09.19-18.11.59:020][824]LoadErrors: Failed to load /Game/VirtualReality/Materials/GenericHMDMaterial.GenericHMDMaterial Referenced by Shape_Cylinder4
+[2018.09.19-18.11.59:020][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/GenericHMDMaterial' while loading NULL.
+[2018.09.19-18.11.59:020][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/GenericHMDMaterial'
+[2018.09.19-18.11.59:020][824]LoadErrors: Failed to load /Game/VirtualReality/Materials/GenericHMDMaterial.GenericHMDMaterial Referenced by Shape_Cylinder5
+[2018.09.19-18.11.59:020][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/GenericHMDMaterial' while loading NULL.
+[2018.09.19-18.11.59:021][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Meshes/SM_FatCylinder'
+[2018.09.19-18.11.59:021][824]LoadErrors: Failed to load /Game/VirtualReality/Meshes/SM_FatCylinder.SM_FatCylinder Referenced by SM_FatCylinder2
+[2018.09.19-18.11.59:021][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Meshes/SM_FatCylinder' while loading NULL.
+[2018.09.19-18.11.59:021][824]LogLinker: Warning: Can't find file '/Game/VirtualReality/Materials/M_ArcEndpoint'
+[2018.09.19-18.11.59:021][824]LoadErrors: Failed to load /Game/VirtualReality/Materials/M_ArcEndpoint.M_ArcEndpoint Referenced by SM_FatCylinder2
+[2018.09.19-18.11.59:022][824]LogLinker: Warning: Can't find file for asset '/Game/VirtualReality/Materials/M_ArcEndpoint' while loading NULL.
+[2018.09.19-18.11.59:722][824]LogMaterial: Display: Missing cached shader map for material M_Chair, compiling. 
+[2018.09.19-18.11.59:940][824]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.09.19-18.11.59:940][824]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.09.19-18.11.59:940][824]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.09.19-18.11.59:940][824]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.19-18.11.59:946][824]LogMaterial: Display: Missing cached shader map for material M_Door, compiling. 
+[2018.09.19-18.12.00:804][824]LogMaterial: Display: Missing cached shader map for material M_Shelf, compiling. 
+[2018.09.19-18.12.01:041][824]LogMaterial: Display: Missing cached shader map for material M_Wood_Floor_Walnut_Polished, compiling. 
+[2018.09.19-18.12.01:351][824]LogMaterial: Display: Missing cached shader map for material M_Brick_Clay_New, compiling. 
+[2018.09.19-18.12.01:373][824]LogMaterial: Display: Missing cached shader map for material M_Basic_Wall, compiling. 
+[2018.09.19-18.12.01:452][824]LogAIModule: Creating AISystem for world TechRoomV1
+[2018.09.19-18.12.01:579][824]LogAssetEditorManager: Opening Asset editor for World /Game/Classes/235_ITSystems/Maps/TechRoomV1.TechRoomV1
+[2018.09.19-18.12.01:627][824]Cmd: MAP LOAD FILE="../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/235_ITSystems/Maps/TechRoomV1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.19-18.12.01:627][824]LightingResults: New page: Lighting Build
+[2018.09.19-18.12.01:628][824]LoadErrors: New page: Loading map: TechRoomV1.umap
+[2018.09.19-18.12.01:638][824]MapCheck: New page: Map Check
+[2018.09.19-18.12.01:638][824]LightingResults: New page: Lighting Build
+[2018.09.19-18.12.02:119][824]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.19-18.12.02:207][824]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.19-18.12.02:284][824]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 76.557ms to complete.
+[2018.09.19-18.12.02:284][824]LogFileHelpers: Loading map 'TechRoomV1' took 0.658
+[2018.09.19-18.12.03:244][852]LogShaderCompilers: Display: Shaders left to compile 155
+[2018.09.19-18.12.05:384][978]LogShaderCompilers: Display: Shaders left to compile 145
+[2018.09.19-18.12.05:617][992]LogShaderCompilers: Display: Shaders left to compile 135
+[2018.09.19-18.12.07:400][ 99]LogShaderCompilers: Display: Shaders left to compile 125
+[2018.09.19-18.12.07:607][104]LogShaderCompilers: Display: Shaders left to compile 115
+[2018.09.19-18.12.09:392][199]LogShaderCompilers: Display: Shaders left to compile 105
+[2018.09.19-18.12.09:989][235]LogShaderCompilers: Display: Shaders left to compile 95
+[2018.09.19-18.12.10:005][236]LogShaderCompilers: Display: Shaders left to compile 85
+[2018.09.19-18.12.12:021][351]LogShaderCompilers: Display: Shaders left to compile 75
+[2018.09.19-18.12.12:142][358]LogShaderCompilers: Display: Shaders left to compile 65
+[2018.09.19-18.12.14:055][471]LogShaderCompilers: Display: Shaders left to compile 55
+[2018.09.19-18.12.14:379][490]LogShaderCompilers: Display: Shaders left to compile 45
+[2018.09.19-18.12.14:696][509]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.09.19-18.12.16:699][628]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.09.19-18.12.17:395][670]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.09.19-18.12.18:227][720]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.09.19-18.12.34:635][694]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder3)
+[2018.09.19-18.12.41:059][ 51]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2018.09.19-18.13.10:970][822]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-18.15.19:667][150]LogSavePackage: Moving '../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Saved/TechRoomV1B965EE69494E47D74DF2EB8E3CCF0042.tmp' to '../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/235_ITSystems/Maps/TechRoomV1.umap'
