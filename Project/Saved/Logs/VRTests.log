@@ -6648,3 +6648,14 @@ please set the "Use T0 as ref pose" option or add them to the bind pose and reim
 [2018.09.20-17.45.27:600][304]MapCheck: Warning: CriminologyBook2_2 'crimBook_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
 [2018.09.20-17.45.27:600][304]MapCheck: Warning: Badge_5 'badge_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
 [2018.09.20-17.45.27:684][304]MapCheck: Map check complete: 0 Error(s), 495 Warning(s), took 109.676ms to complete.
+[2018.09.20-17.46.48:538][790]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/CriminologyMap_Auto8B0F2DD714D9FC8876210D29F402BCBC0.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/237_Criminology/Maps/CriminologyMap_Auto8.umap'
+[2018.09.20-17.46.48:542][790]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/237_Criminology/Maps/CriminologyMap' took 0.830
+[2018.09.20-17.46.48:542][790]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.830
+[2018.09.20-17.46.48:544][790]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SharedAssets/MeshesAndWhatnot/Desk_Items/BundleOfBooks_1] ([1] browsable assets)...
+[2018.09.20-17.46.48:557][790]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SharedAssets/MeshesAndWhatnot/Desk_Items/BundleOfBooks_1.BundleOfBooks_1]
+[2018.09.20-17.46.48:557][790]OBJ SavePackage: Finished generating thumbnails for package [/Game/SharedAssets/MeshesAndWhatnot/Desk_Items/BundleOfBooks_1]
+[2018.09.20-17.46.48:604][790]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/BundleOfBooks_1_Auto88E2832AE4014B32E90BFB6828DF647D2.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/SharedAssets/MeshesAndWhatnot/Desk_Items/BundleOfBooks_1_Auto8.uasset'
+[2018.09.20-17.46.48:606][790]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Classes/237_Criminology/Maps/CriminologyMap_BuiltData] ([1] browsable assets)...
+[2018.09.20-17.46.48:606][790]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/237_Criminology/Maps/CriminologyMap_BuiltData]
+[2018.09.20-17.46.48:627][790]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/CriminologyMap_BuiltData_Auto8A4E7978A49802B6B26A7B9BCEAF81ACF.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/237_Criminology/Maps/CriminologyMap_BuiltData_Auto8.uasset'
+[2018.09.20-17.46.48:628][790]LogFileHelpers: Auto-saving content packages took 0.085
