@@ -82,3 +82,4 @@ DerivedDataCache/*
 Project/Saved/Autosaves/PackageRestoreData.json
 Project/Intermediate/CachedAssetRegistry.bin
 Project/Saved/
+*.log
