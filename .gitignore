@@ -82,4 +82,21 @@ DerivedDataCache/*
 Project/Saved/Autosaves/PackageRestoreData.json
 Project/Intermediate/CachedAssetRegistry.bin
 Project/Saved/
+<<<<<<< HEAD
+Project/Intermediate/CachedAssetRegistry.bin
+Project/Intermediate/Config/CoalescedSourceConfigs/Game.ini
+Project/Intermediate/Config/CoalescedSourceConfigs/Scalability.ini
+Project/Intermediate/ReimportCache/3688439234.bin
+Project/Saved/AutoScreenshot.png
+Project/Saved/Config/Windows/Editor.ini
+Project/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+Project/Saved/Logs/VRTests.log
+=======
 *.log
+>>>>>>> d5cba000c904be37ab4d80ac2c0d6a4f60b3cd10
+Project/Intermediate/CachedAssetRegistry.bin
+Project/Saved/AutoScreenshot.png
+Project/Saved/Config/Windows/Editor.ini
+Project/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+Project/Saved/Config/Windows/Engine.ini
+Project/Saved/Logs/VRTests.log
