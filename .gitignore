@@ -31,7 +31,7 @@
 
 # Executables
 *.exe
-*.out  
+*.out
 *.app
 *.ipa
 
@@ -80,18 +80,23 @@ DerivedDataCache/*
 
 # End of https://www.gitignore.io/api/unrealengine
 Project/Saved/Autosaves/PackageRestoreData.json
-Project/Intermediate/CachedAssetRegistry.bin  
-<<<<<<< HEAD
-Project/Saved/Logs/VRTests.log
-Project/Saved/Logs/VRTests.log
-Project/Saved/Logs/VRTests.log
-*.log
-Project/Saved/Autosaves/PackageRestoreData.json
-Project/Saved/AutoScreenshot.png
-=======
 Project/Intermediate/CachedAssetRegistry.bin
-Project/Saved/Autosaves/PackageRestoreData.json
+Project/Saved/
+<<<<<<< HEAD
+Project/Intermediate/CachedAssetRegistry.bin
+Project/Intermediate/Config/CoalescedSourceConfigs/Game.ini
+Project/Intermediate/Config/CoalescedSourceConfigs/Scalability.ini
+Project/Intermediate/ReimportCache/3688439234.bin
 Project/Saved/AutoScreenshot.png
+Project/Saved/Config/Windows/Editor.ini
+Project/Saved/Config/Windows/EditorPerProjectUserSettings.ini
 Project/Saved/Logs/VRTests.log
-Project/Saved/Logs/VRTests_2.log
->>>>>>> ce9c7490a39f51d632a9d6a60bcc3fa4f1d9df14
+=======
+*.log
+>>>>>>> d5cba000c904be37ab4d80ac2c0d6a4f60b3cd10
+Project/Intermediate/CachedAssetRegistry.bin
+Project/Saved/AutoScreenshot.png
+Project/Saved/Config/Windows/Editor.ini
+Project/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+Project/Saved/Config/Windows/Engine.ini
+Project/Saved/Logs/VRTests.log
