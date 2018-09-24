@@ -1172,3 +1172,389 @@ LogInit: Object subsystem initialized
 [2018.09.24-17.15.52:573][814]LogFileHelpers: Saving map 'MassageMap' took 0.216
 [2018.09.24-17.15.52:593][814]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageMannequinAAB000FA4AC50A763C162499C96A39BE.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Assets/MassageMannequin.uasset'
 [2018.09.24-17.15.52:629][814]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/EC_Mannequin_laying_Physics42D9277C450EA7A5C83BD8B3EEDF55DE.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Assets/EC_Mannequin_laying_Physics.uasset'
+[2018.09.24-17.22.36:064][814]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-17.22.43:931][238]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-17.35.49:096][208]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Classes/237_Criminology/Assets/Character/Getting_Up__1__Anim_mixamo_com.Getting_Up__1__Anim_mixamo_com
+[2018.09.24-17.35.49:162][208]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-17.35.49:195][208]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.09.24-17.35.49:829][208]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.09.24-17.35.59:850][786]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Classes/237_Criminology/Assets/Character/Getting_Up__1__Anim_Take_001.Getting_Up__1__Anim_Take_001
+[2018.09.24-17.36.03:679][906]LogSlate: Window 'Create New Animation Object' being destroyed
+[2018.09.24-17.36.05:458][ 12]LogAssetEditorManager: Opening Asset editor for PhysicsAsset /Game/Classes/237_Criminology/Assets/Character/Getting_Up__1__PhysicsAsset.Getting_Up__1__PhysicsAsset
+[2018.09.24-17.36.05:472][ 12]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_42:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.09.24-17.36.09:014][194]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/EC_Mannequin_laying453EA054442ACA1CB3DF3E8F9F0480F0.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Assets/EC_Mannequin_laying.uasset'
+[2018.09.24-17.36.55:217][958]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-17.37.20:367][432]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-17.37.30:788][ 40]Cmd: TRANSACTION UNDO
+[2018.09.24-17.37.30:788][ 40]LogEditorTransaction: Undo Translate Bone
+[2018.09.24-17.37.31:088][ 40]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.09.24-17.37.31:094][ 40]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-17.37.31:113][ 40]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-17.37.37:718][424]Cmd: TRANSACTION UNDO
+[2018.09.24-17.37.37:718][424]LogEditorTransaction: Undo Translate Bone
+[2018.09.24-17.37.38:014][424]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.09.24-17.37.38:023][424]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-17.37.38:034][424]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-17.37.50:248][148]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-17.41.08:448][641]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-17.41.40:485][433]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-17.41.43:806][595]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-17.42.15:838][365]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-17.42.22:343][693]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-17.42.31:444][219]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-17.42.36:701][508]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-17.42.49:697][248]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-17.46.52:646][195]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-18.28.28:583][716]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-18.30.09:869][754]LogMetaData: Removing '/Game/Classes/226_Massage/Assets/Character/MassageMannequin.MassageMannequin:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Classes/226_Massage/Assets/MassageMannequin.PackageMetaData'
+[2018.09.24-18.30.09:869][754]LogMetaData: Removing '/Game/Classes/226_Massage/Assets/Character/MassageMannequin.SKEL_MassageMannequin_C' ref from Metadata '/Game/Classes/226_Massage/Assets/MassageMannequin.PackageMetaData'
+[2018.09.24-18.30.09:869][754]LogMetaData: Removing '/Game/Classes/226_Massage/Assets/Character/MassageMannequin.MassageMannequin_C:DefaultSceneRoot' ref from Metadata '/Game/Classes/226_Massage/Assets/MassageMannequin.PackageMetaData'
+[2018.09.24-18.30.09:869][754]LogMetaData: Removing '/Game/Classes/226_Massage/Assets/Character/MassageMannequin.MassageMannequin_C' ref from Metadata '/Game/Classes/226_Massage/Assets/MassageMannequin.PackageMetaData'
+[2018.09.24-18.30.09:869][754]LogMetaData: Removing '/Game/Classes/226_Massage/Assets/Character/MassageMannequin.MassageMannequin:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Classes/226_Massage/Assets/MassageMannequin.PackageMetaData'
+[2018.09.24-18.30.09:869][754]LogMetaData: Removing '/Game/Classes/226_Massage/Assets/Character/MassageMannequin.MassageMannequin:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Classes/226_Massage/Assets/MassageMannequin.PackageMetaData'
+[2018.09.24-18.30.09:869][754]LogMetaData: Removing '/Game/Classes/226_Massage/Assets/Character/MassageMannequin.MassageMannequin:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Classes/226_Massage/Assets/MassageMannequin.PackageMetaData'
+[2018.09.24-18.30.09:869][754]LogMetaData: Removing '/Game/Classes/226_Massage/Assets/Character/MassageMannequin.SKEL_MassageMannequin_C:UserConstructionScript' ref from Metadata '/Game/Classes/226_Massage/Assets/MassageMannequin.PackageMetaData'
+[2018.09.24-18.30.09:869][754]LogMetaData: Removing '/Game/Classes/226_Massage/Assets/Character/MassageMannequin.SKEL_MassageMannequin_C:SkeletalMesh' ref from Metadata '/Game/Classes/226_Massage/Assets/MassageMannequin.PackageMetaData'
+[2018.09.24-18.30.09:869][754]LogMetaData: Removing '/Game/Classes/226_Massage/Assets/Character/MassageMannequin.SKEL_MassageMannequin_C:DefaultSceneRoot' ref from Metadata '/Game/Classes/226_Massage/Assets/MassageMannequin.PackageMetaData'
+[2018.09.24-18.30.09:953][754]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageMannequin8D70F1154511661CCDDA6DBB52739F0C.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Assets/Character/MassageMannequin.uasset'
+[2018.09.24-18.30.09:995][754]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/EC_Mannequin_laying_Physics63E076B64D09EC1587027C9902E40742.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Assets/Character/EC_Mannequin_laying_Physics.uasset'
+[2018.09.24-18.30.10:079][754]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/EC_Mannequin_laying757C43024A63EB83B87803956008B559.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Assets/Character/EC_Mannequin_laying.uasset'
+[2018.09.24-18.30.29:851][872]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageMapADEF3E424612D52AA4759FA0F60F01F3.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Map/MassageMap.umap'
+[2018.09.24-18.30.29:906][872]LogFileHelpers: Saving map 'MassageMap' took 0.213
+[2018.09.24-18.35.55:220][787]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.24-18.41.44:880][966]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-18.42.23:201][130]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.24-18.42.45:559][259]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-18.42.46:800][333]LogActorFactory: Actor Factory created Cube
+[2018.09.24-18.42.47:396][365]LogActorFactory: Actor Factory created Cube
+[2018.09.24-18.42.48:814][447]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-18.42.48:925][453]LogActorFactory: Actor Factory created Cube
+[2018.09.24-18.42.49:954][513]LogActorFactory: Actor Factory created Cube
+[2018.09.24-18.42.50:761][559]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-18.42.50:870][565]LogActorFactory: Actor Factory created Cube
+[2018.09.24-18.42.52:500][659]LogActorFactory: Actor Factory created Cube
+[2018.09.24-18.42.58:327][  3]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2018.09.24-18.42.59:795][ 88]Cmd: DELETE
+[2018.09.24-18.42.59:795][ 88]Cmd: ACTOR DELETE
+[2018.09.24-18.42.59:799][ 88]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.24-18.42.59:843][ 88]LogEditorActor: Deleted 1 Actors (0.048 secs)
+[2018.09.24-18.42.59:943][ 94]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2018.09.24-18.43.00:091][100]Cmd: DELETE
+[2018.09.24-18.43.00:091][100]Cmd: ACTOR DELETE
+[2018.09.24-18.43.00:093][100]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.24-18.43.00:126][100]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2018.09.24-18.43.00:912][147]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.09.24-18.43.01:014][150]Cmd: DELETE
+[2018.09.24-18.43.01:014][150]Cmd: ACTOR DELETE
+[2018.09.24-18.43.01:016][150]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.24-18.43.01:052][150]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2018.09.24-18.43.03:475][292]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-18.43.05:411][387]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.09.24-18.43.06:392][444]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-18.43.07:475][498]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.09.24-18.43.08:704][570]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-18.43.11:031][683]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-18.43.12:100][724]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.09.24-18.43.14:497][865]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-18.43.17:822][ 49]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.09.24-18.43.30:007][774]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-18.44.00:420][575]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-18.44.08:128][ 36]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.09.24-18.44.10:339][164]Cmd: TRANSACTION UNDO
+[2018.09.24-18.44.10:339][164]LogEditorTransaction: Undo Select Brush Surface
+[2018.09.24-18.44.10:799][164]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.44.10:805][164]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.44.10:821][164]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.44.11:545][205]Cmd: TRANSACTION UNDO
+[2018.09.24-18.44.11:545][205]LogEditorTransaction: Undo Clicking on Actors
+[2018.09.24-18.44.11:984][205]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.44.11:989][205]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.44.12:002][205]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.44.12:496][233]Cmd: TRANSACTION UNDO
+[2018.09.24-18.44.12:496][233]LogEditorTransaction: Undo Set Location
+[2018.09.24-18.44.12:501][233]LogActorComponent: ~FComponentReregisterContext: (/Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.BoxBrush2.BrushComponent0) Component already registered.
+[2018.09.24-18.44.12:834][233]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.44.12:839][233]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.44.12:851][233]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.44.46:577][244]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-18.45.02:462][193]Cmd: TRANSACTION UNDO
+[2018.09.24-18.45.02:462][193]LogEditorTransaction: Undo Move Actors
+[2018.09.24-18.45.02:470][193]LogActorComponent: ~FComponentReregisterContext: (/Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.BoxBrush2.BrushComponent0) Component already registered.
+[2018.09.24-18.45.02:800][193]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.45.02:805][193]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.45.02:817][193]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.45.26:489][603]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-18.45.31:285][867]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.09.24-18.45.50:723][ 23]Cmd: TRANSACTION UNDO
+[2018.09.24-18.45.50:723][ 23]LogEditorTransaction: Undo Move Actors
+[2018.09.24-18.45.50:732][ 23]LogActorComponent: ~FComponentReregisterContext: (/Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.BoxBrush2.BrushComponent0) Component already registered.
+[2018.09.24-18.45.51:055][ 23]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.45.51:060][ 23]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.45.51:078][ 23]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.46.26:616][142]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-18.46.31:781][450]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-18.46.48:668][451]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.09.24-18.46.49:407][493]Cmd: TRANSACTION UNDO
+[2018.09.24-18.46.49:407][493]LogEditorTransaction: Undo Clicking on Actors
+[2018.09.24-18.46.49:751][493]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.46.49:756][493]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.46.49:783][493]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.46.50:175][514]Cmd: TRANSACTION UNDO
+[2018.09.24-18.46.50:175][514]LogEditorTransaction: Undo Select Brush Surface
+[2018.09.24-18.46.50:511][514]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.46.50:516][514]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.46.50:543][514]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.46.52:925][653]Cmd: TRANSACTION UNDO
+[2018.09.24-18.46.52:925][653]LogEditorTransaction: Undo Select Brush Surface
+[2018.09.24-18.46.53:270][653]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.46.53:275][653]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.46.53:301][653]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.46.53:305][653]Cmd: TRANSACTION UNDO
+[2018.09.24-18.46.53:305][653]LogEditorTransaction: Undo Select Brush Surface
+[2018.09.24-18.46.53:610][653]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.46.53:615][653]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.46.53:629][653]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.46.54:122][681]Cmd: TRANSACTION UNDO
+[2018.09.24-18.46.54:122][681]LogEditorTransaction: Undo Set Location
+[2018.09.24-18.46.54:128][681]LogActorComponent: ~FComponentReregisterContext: (/Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.BoxBrush2.BrushComponent0) Component already registered.
+[2018.09.24-18.46.54:436][681]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.46.54:445][681]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.46.54:469][681]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.46.58:489][919]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-18.47.13:203][796]Cmd: DELETE
+[2018.09.24-18.47.13:203][796]Cmd: ACTOR DELETE
+[2018.09.24-18.47.13:208][796]LogEditorActor: Deleted Actor: Brush
+[2018.09.24-18.47.13:250][796]LogEditorActor: Deleted 1 Actors (0.046 secs)
+[2018.09.24-18.47.13:539][810]Cmd: DELETE
+[2018.09.24-18.47.13:539][810]Cmd: ACTOR DELETE
+[2018.09.24-18.47.13:542][810]LogEditorActor: Deleted Actor: Brush
+[2018.09.24-18.47.13:580][810]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2018.09.24-18.47.14:416][857]Cmd: DELETE
+[2018.09.24-18.47.14:416][857]Cmd: ACTOR DELETE
+[2018.09.24-18.47.14:419][857]LogEditorActor: Deleted Actor: Brush
+[2018.09.24-18.47.14:454][857]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2018.09.24-18.47.22:329][326]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-18.47.30:377][807]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-18.47.49:380][942]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-18.48.43:982][207]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.24-18.48.44:455][207]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageMap_Auto36E6759744E2E73647D92229D6746C1AF.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/226_Massage/Map/MassageMap_Auto3.umap'
+[2018.09.24-18.48.44:459][207]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/226_Massage/Map/MassageMap' took 0.428
+[2018.09.24-18.48.44:459][207]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.428
+[2018.09.24-18.49.07:914][613]Cmd: DUPLICATE
+[2018.09.24-18.49.07:914][613]Cmd: ACTOR DUPLICATE
+[2018.09.24-18.49.17:674][192]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-18.49.27:314][765]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-18.49.39:063][463]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-18.49.47:457][963]Cmd: DUPLICATE
+[2018.09.24-18.49.47:457][963]Cmd: ACTOR DUPLICATE
+[2018.09.24-18.49.48:510][ 22]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-18.49.52:707][272]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-18.50.08:255][199]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-18.50.15:811][649]Cmd: TRANSACTION UNDO
+[2018.09.24-18.50.15:811][649]LogEditorTransaction: Undo Set Location
+[2018.09.24-18.50.15:817][649]LogActorComponent: ~FComponentReregisterContext: (/Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2018.09.24-18.50.16:132][649]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.50.16:137][649]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.50.16:166][649]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.50.18:299][772]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-18.50.30:526][501]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-18.50.47:136][494]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-18.50.47:186][497]MapCheck: New page: Map Check
+[2018.09.24-18.50.47:205][497]Cmd: MAP REBUILD ALLVISIBLE
+[2018.09.24-18.50.47:207][497]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.09.24-18.50.47:410][497]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2018.09.24-18.50.49:374][497]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.24-18.50.49:374][497]TextureStreamingBuild: Display: Compiling optional shaders took 2.013 seconds.
+[2018.09.24-18.50.49:402][497]LogLevel: Display: Export Material TexCoord Scales took 0.028 seconds.
+[2018.09.24-18.50.49:422][497]TextureStreamingBuild: Display: Build Texture Streaming took 0.019 seconds.
+[2018.09.24-18.50.49:497][497]LightingResults: New page: Lighting Build - Sep 24, 2018, 12:50:49 PM
+[2018.09.24-18.50.49:834][497]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.09.24-18.50.50:285][497]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.09.24-18.50.50:322][497]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.09.24-18.50.51:345][497]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.09.24-18.50.51:345][497]LogSwarmInterface: [TryOpenConnection] Local Process ID is 20568
+[2018.09.24-18.50.54:568][497]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.09.24-18.50.54:568][497]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.09.24-18.50.54:568][497]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.09.24-18.50.54:568][497]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.09.24-18.50.54:568][497]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.09.24-18.50.54:820][497]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.09.24-18.50.54:820][497]MapCheck: New page: MassageMap - Sep 24, 2018, 12:50:54 PM
+[2018.09.24-18.50.54:928][497]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 108.955ms to complete.
+[2018.09.24-18.50.54:952][497]LogEditorBuildUtils: Build time 0:07
+[2018.09.24-18.50.59:427][687]Job is a success!
+[2018.09.24-18.50.59:620][688]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.090s
+[2018.09.24-18.50.59:620][688]LogVolumetricLightmapImport:      Indirection Texture 48x48x48 = 0.4Mb
+[2018.09.24-18.50.59:620][688]LogVolumetricLightmapImport:      BrickData 285x5x5 = 0.3Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2018.09.24-18.50.59:620][688]LogVolumetricLightmapImport:      Bricks at Level
+[2018.09.24-18.50.59:621][688]LogVolumetricLightmapImport:          0: 47.4% covering 100.0% of volume
+[2018.09.24-18.50.59:621][688]LogVolumetricLightmapImport:          1: 7.0% covering 0.2% of volume
+[2018.09.24-18.50.59:621][688]LogVolumetricLightmapImport:          2: 45.6% covering 0.0% of volume
+[2018.09.24-18.50.59:836][688]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 512X256)
+[2018.09.24-18.50.59:837][688]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
+[2018.09.24-18.50.59:837][688]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2018.09.24-18.50.59:837][688]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2018.09.24-18.50.59:837][688]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
+[2018.09.24-18.50.59:837][688]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
+[2018.09.24-18.50.59:837][688]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2018.09.24-18.50.59:837][688]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 512X64)
+[2018.09.24-18.50.59:879][688]Lightmass on DESKTOP-RST41EJ: 2.96 sec total, 177 ms importing, 33 ms setup, 418 ms photons, 2.27 sec processing, 0 ms extra exporting [12/12 mappings]. Threads: 15.7 sec total, 655 ms processing.
+[2018.09.24-18.50.59:951][688]LogStaticLightingSystem: Illumination: 10.4 sec (119 ms encoding lightmaps, 14 ms encoding shadowmaps)
+[2018.09.24-18.50.59:952][688]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.0 MB streaming, 0.7 MB non-streaming), 4 textures
+[2018.09.24-18.50.59:952][688]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.09.24-18.51.00:580][688]DumpUnbuiltLightIteractions
+[2018.09.24-18.51.00:580][688]Lights with unbuilt interactions: 0
+[2018.09.24-18.51.00:580][688]
+[2018.09.24-18.51.00:580][688]Primitives with unbuilt interactions: 0
+[2018.09.24-18.51.00:633][689]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.09.24-18.51.00:633][689]MapCheck: New page: MassageMap - Sep 24, 2018, 12:51:00 PM
+[2018.09.24-18.51.00:729][689]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 95.894ms to complete.
+[2018.09.24-18.52.24:854][158]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-18.56.57:688][493]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-18.57.06:105][987]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.09.24-18.57.06:890][ 32]Cmd: TRANSACTION UNDO
+[2018.09.24-18.57.06:890][ 32]LogEditorTransaction: Undo Clicking on Actors
+[2018.09.24-18.57.07:238][ 32]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.57.07:243][ 32]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.57.07:256][ 32]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.57.07:763][ 60]Cmd: TRANSACTION UNDO
+[2018.09.24-18.57.07:763][ 60]LogEditorTransaction: Undo Set Location
+[2018.09.24-18.57.08:116][ 60]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.57.08:120][ 60]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.57.08:133][ 60]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.57.08:455][ 78]Cmd: TRANSACTION UNDO
+[2018.09.24-18.57.08:455][ 78]LogEditorTransaction: Undo Set Location
+[2018.09.24-18.57.08:805][ 78]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.57.08:810][ 78]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.57.08:823][ 78]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.57.09:440][114]Cmd: TRANSACTION UNDO
+[2018.09.24-18.57.09:440][114]LogEditorTransaction: Undo Set Location
+[2018.09.24-18.57.09:782][114]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.57.09:787][114]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.57.09:801][114]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.57.15:959][478]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-18.57.24:694][982]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-18.57.52:146][590]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-18.58.05:277][363]Cmd: TRANSACTION UNDO
+[2018.09.24-18.58.05:277][363]LogEditorTransaction: Undo Set Location
+[2018.09.24-18.58.05:282][363]LogActorComponent: ~FComponentReregisterContext: (/Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2018.09.24-18.58.05:608][363]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.58.05:613][363]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.58.05:626][363]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.58.05:638][363]Cmd: TRANSACTION UNDO
+[2018.09.24-18.58.05:638][363]LogEditorTransaction: Undo Set Location
+[2018.09.24-18.58.05:641][363]LogActorComponent: ~FComponentReregisterContext: (/Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2018.09.24-18.58.05:958][363]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.58.05:963][363]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.58.05:976][363]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.58.05:981][363]Cmd: TRANSACTION UNDO
+[2018.09.24-18.58.05:981][363]LogEditorTransaction: Undo Move Actors
+[2018.09.24-18.58.05:986][363]LogActorComponent: ~FComponentReregisterContext: (/Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2018.09.24-18.58.06:299][363]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.58.06:304][363]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.58.06:358][363]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.58.06:364][363]Cmd: TRANSACTION UNDO
+[2018.09.24-18.58.06:364][363]LogEditorTransaction: Undo Select Brush Surface
+[2018.09.24-18.58.06:673][363]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.58.06:677][363]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.58.06:693][363]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.58.06:699][363]Cmd: TRANSACTION UNDO
+[2018.09.24-18.58.06:699][363]LogEditorTransaction: Undo Move Actors
+[2018.09.24-18.58.06:708][363]LogActorComponent: ~FComponentReregisterContext: (/Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2018.09.24-18.58.07:046][363]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.58.07:051][363]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.58.07:080][363]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.58.07:084][363]Cmd: TRANSACTION UNDO
+[2018.09.24-18.58.07:084][363]LogEditorTransaction: Undo Select Brush Surface
+[2018.09.24-18.58.07:404][363]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.58.07:413][363]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.58.07:427][363]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.58.07:710][370]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.09.24-18.58.08:283][401]Cmd: TRANSACTION UNDO
+[2018.09.24-18.58.08:283][401]LogEditorTransaction: Undo Clicking on Actors
+[2018.09.24-18.58.08:580][401]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.58.08:585][401]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.58.08:600][401]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.58.08:610][401]Cmd: TRANSACTION UNDO
+[2018.09.24-18.58.08:610][401]LogEditorTransaction: Undo Move Actors
+[2018.09.24-18.58.08:614][401]LogActorComponent: ~FComponentReregisterContext: (/Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2018.09.24-18.58.08:924][401]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.58.08:929][401]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.58.08:943][401]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.58.08:947][401]Cmd: TRANSACTION UNDO
+[2018.09.24-18.58.08:947][401]LogEditorTransaction: Undo Set Location
+[2018.09.24-18.58.08:952][401]LogActorComponent: ~FComponentReregisterContext: (/Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2018.09.24-18.58.09:269][401]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.58.09:274][401]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.58.09:306][401]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.58.09:852][428]Cmd: TRANSACTION UNDO
+[2018.09.24-18.58.09:852][428]LogEditorTransaction: Undo Select Brush Surface
+[2018.09.24-18.58.10:178][428]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.58.10:183][428]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.58.10:199][428]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.58.10:203][428]Cmd: TRANSACTION UNDO
+[2018.09.24-18.58.10:203][428]LogEditorTransaction: Undo Set Location
+[2018.09.24-18.58.10:543][428]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.58.10:547][428]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.58.10:580][428]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.58.10:997][449]Cmd: TRANSACTION UNDO
+[2018.09.24-18.58.10:997][449]LogEditorTransaction: Undo Select Brush Surface
+[2018.09.24-18.58.11:311][449]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.58.11:316][449]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.58.11:333][449]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.58.11:723][469]Cmd: TRANSACTION UNDO
+[2018.09.24-18.58.11:723][469]LogEditorTransaction: Undo Scale Actors
+[2018.09.24-18.58.12:060][469]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.58.12:065][469]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.58.12:084][469]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-18.59.03:244][207]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.24-18.59.04:264][242]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageMap_Auto4F9485E4043EDEFFE4AC016A542BF849A.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/226_Massage/Map/MassageMap_Auto4.umap'
+[2018.09.24-18.59.04:269][242]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/226_Massage/Map/MassageMap' took 0.087
+[2018.09.24-18.59.04:269][242]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.087
+[2018.09.24-18.59.04:273][242]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Classes/226_Massage/Map/MassageMap_BuiltData] ([1] browsable assets)...
+[2018.09.24-18.59.04:273][242]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/226_Massage/Map/MassageMap_BuiltData]
+[2018.09.24-18.59.04:595][242]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageMap_BuiltData_Auto4035671EF41D43C09B23BC6A0E20069C0.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/226_Massage/Map/MassageMap_BuiltData_Auto4.uasset'
+[2018.09.24-18.59.04:597][242]LogFileHelpers: Auto-saving content packages took 0.324
+[2018.09.24-18.59.33:335][692]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-18.59.51:995][618]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-19.00.00:843][132]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-19.00.09:261][619]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.09.24-19.00.14:861][941]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-19.00.25:174][550]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-19.00.29:938][832]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.09.24-19.00.30:038][832]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.24-19.00.32:857][986]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-19.00.39:956][400]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-19.00.49:939][992]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-19.09.05:367][507]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageMap_Auto585FEEB674788EAB8740F50A27E205851.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/226_Massage/Map/MassageMap_Auto5.umap'
+[2018.09.24-19.09.05:373][507]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/226_Massage/Map/MassageMap' took 0.382
+[2018.09.24-19.09.05:373][507]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.382
+[2018.09.24-19.32.58:488][901]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-19.33.15:271][897]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-19.33.35:373][ 93]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-19.33.41:973][485]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-19.33.57:490][399]Cmd: TRANSACTION UNDO
+[2018.09.24-19.33.57:491][399]LogEditorTransaction: Undo Move Actors
+[2018.09.24-19.33.57:819][399]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.09.24-19.33.57:823][399]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-19.33.57:841][399]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-19.33.58:339][425]Cmd: TRANSACTION UNDO
+[2018.09.24-19.33.58:339][425]LogEditorTransaction: Undo Move Actors
+[2018.09.24-19.33.58:660][425]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.09.24-19.33.58:664][425]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-19.33.58:681][425]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-19.33.59:166][452]Cmd: TRANSACTION UNDO
+[2018.09.24-19.33.59:166][452]LogEditorTransaction: Undo Rotate Actors
+[2018.09.24-19.33.59:509][452]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.09.24-19.33.59:514][452]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-19.33.59:531][452]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.24-19.34.31:124][335]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.24-19.34.31:297][335]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageMap_Auto6FE069EA94BF0F6A1D5910CA65159B3CC.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/226_Massage/Map/MassageMap_Auto6.umap'
+[2018.09.24-19.34.31:303][335]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/226_Massage/Map/MassageMap' took 0.110
+[2018.09.24-19.34.31:303][335]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.110
+[2018.09.24-19.41.56:042][985]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.24-19.45.59:171][787]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.24-19.46.00:257][847]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.24-19.46.00:479][847]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageMap2C568A274D86AD5C22C7849B52ADA76A.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Map/MassageMap.umap'
+[2018.09.24-19.46.00:536][847]LogFileHelpers: Saving map 'MassageMap' took 0.263
+[2018.09.24-19.46.00:595][847]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageMap_BuiltData620CE36341F015477BA953B28177C3DF.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Map/MassageMap_BuiltData.uasset'
