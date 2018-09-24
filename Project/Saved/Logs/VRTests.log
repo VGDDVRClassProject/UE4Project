@@ -949,3 +949,5 @@ Please see Output Log for details.
 [2018.09.24-17.19.36:486][792]LogSavePackage: Moving '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/TechRoomV1_Auto3ABA566804C16561857632F9533469ECA.tmp' to '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/235_ITSystems/Maps/TechRoomV1_Auto3.umap'
 [2018.09.24-17.19.36:494][792]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/235_ITSystems/Maps/TechRoomV1' took 0.437
 [2018.09.24-17.19.36:494][792]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.437
+[2018.09.24-17.35.24:128][625]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.24-17.40.09:486][382]LogSlate: FSceneViewport::OnFocusLost() reason 2
