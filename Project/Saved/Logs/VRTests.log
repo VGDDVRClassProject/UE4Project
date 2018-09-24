@@ -1035,3 +1035,9 @@ Make sure 'RAM1_C' has been compiled for  Get StaticMeshComponent
 [2018.09.17-19.37.49:255][422]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/235_ITSystems/Blueprints/Objects/CASE_Blueprint]
 [2018.09.17-19.37.49:274][422]LogSavePackage: Moving '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/CASE_Blueprint_Auto32BFBA53C483E332BEA021CA90ACADDD6.tmp' to '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/235_ITSystems/Blueprints/Objects/CASE_Blueprint_Auto3.uasset'
 [2018.09.17-19.37.49:275][422]LogFileHelpers: Auto-saving content packages took 0.077
+[2018.09.17-19.41.14:742][552]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.17-19.41.21:106][787]LogSavePackage: Moving '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Saved/It_SystemsDEFFE665461EA95C69EC1EA1241D9279.tmp' to '../../../../Users/benha/Documents/GitHub/UE4Project/Project/Content/Classes/235_ITSystems/Maps/It_Systems.umap'
+[2018.09.17-19.41.21:242][787]LogFileHelpers: Saving map 'It_Systems' took 2.155
+[2018.09.17-19.43.21:998][ 31]LogActorFactory: Actor Factory created CASE
+[2018.09.17-19.43.22:488][ 60]LogActorFactory: Actor Factory created CASE
+[2018.09.17-19.44.28:150][373]LogSlate: FSceneViewport::OnFocusLost() reason 2
