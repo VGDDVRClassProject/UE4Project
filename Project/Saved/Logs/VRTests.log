@@ -563,3 +563,1157 @@ LogInit: Object subsystem initialized
 [2018.09.25-16.17.12:844][693]Cmd: DUPLICATE
 [2018.09.25-16.17.12:844][693]Cmd: ACTOR DUPLICATE
 [2018.09.25-16.17.27:659][572]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.21.16:334][839]LogEditorViewport: Clicking on Actor (LMB): Character (Character)
+[2018.09.25-16.21.18:392][958]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.21.24:398][316]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.21.31:901][761]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (EC_Mannequin_laying)
+[2018.09.25-16.21.36:457][ 31]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.21.45:358][549]Cmd: DELETE
+[2018.09.25-16.21.45:358][549]Cmd: ACTOR DELETE
+[2018.09.25-16.21.45:362][549]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2018.09.25-16.21.45:363][549]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2018.09.25-16.21.45:363][549]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2018.09.25-16.21.45:364][549]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2018.09.25-16.21.45:364][549]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2018.09.25-16.21.45:365][549]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2018.09.25-16.21.45:365][549]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2018.09.25-16.21.45:365][549]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2018.09.25-16.21.45:366][549]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2018.09.25-16.21.45:366][549]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2018.09.25-16.21.45:367][549]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2018.09.25-16.21.45:367][549]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2018.09.25-16.21.45:388][549]LogEditorActor: Deleted 12 Actors (0.030 secs)
+[2018.09.25-16.22.22:229][663]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-16.22.34:863][414]LogEditorViewport: Clicking on Actor (LMB): Character (Character)
+[2018.09.25-16.22.36:751][523]Cmd: DELETE
+[2018.09.25-16.22.36:751][523]Cmd: ACTOR DELETE
+[2018.09.25-16.22.36:753][523]LogEditorActor: Deleted Actor: Character
+[2018.09.25-16.22.36:779][523]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2018.09.25-16.22.46:837][745]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-16.23.05:884][883]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.23.06:014][890]LogActorFactory: Actor Factory created Cube
+[2018.09.25-16.23.08:052][  6]LogActorFactory: Actor Factory created Cube
+[2018.09.25-16.23.10:802][166]Cmd: DELETE
+[2018.09.25-16.23.10:802][166]Cmd: ACTOR DELETE
+[2018.09.25-16.23.10:806][166]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.25-16.23.10:829][166]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2018.09.25-16.23.13:238][311]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.23.18:087][585]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.09.25-16.23.30:847][344]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.23.49:643][467]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.24.04:998][387]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.24.13:559][894]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.24.24:334][535]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.24.34:320][131]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.24.48:753][996]Cmd: TRANSACTION UNDO
+[2018.09.25-16.24.48:753][996]LogEditorTransaction: Undo Set Location
+[2018.09.25-16.24.59:878][655]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.25.15:842][611]Cmd: DUPLICATE
+[2018.09.25-16.25.15:842][611]Cmd: ACTOR DUPLICATE
+[2018.09.25-16.25.18:921][792]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.25.41:843][165]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.25.55:046][957]Cmd: DUPLICATE
+[2018.09.25-16.25.55:047][957]Cmd: ACTOR DUPLICATE
+[2018.09.25-16.26.09:550][822]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.26.30:171][ 55]Cmd: DELETE
+[2018.09.25-16.26.30:171][ 55]Cmd: ACTOR DELETE
+[2018.09.25-16.26.30:178][ 55]LogEditorActor: Deleted Actor: Brush
+[2018.09.25-16.26.30:227][ 55]LogEditorActor: Deleted 1 Actors (0.055 secs)
+[2018.09.25-16.26.39:144][582]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.26.40:358][649]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.09.25-16.26.47:827][ 91]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.26.59:052][761]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.27.27:315][450]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.27.37:928][ 86]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.27.51:780][915]Cmd: DUPLICATE
+[2018.09.25-16.27.51:780][915]Cmd: ACTOR DUPLICATE
+[2018.09.25-16.27.56:284][180]Cmd: DELETE
+[2018.09.25-16.27.56:284][180]Cmd: ACTOR DELETE
+[2018.09.25-16.27.56:289][180]LogEditorActor: Deleted Actor: Brush
+[2018.09.25-16.27.56:328][180]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2018.09.25-16.28.03:699][619]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.28.21:566][689]Cmd: TRANSACTION UNDO
+[2018.09.25-16.28.21:566][689]LogEditorTransaction: Undo Clicking on Actors
+[2018.09.25-16.28.22:033][716]Cmd: TRANSACTION UNDO
+[2018.09.25-16.28.22:033][716]LogEditorTransaction: Undo Clicking on Actors
+[2018.09.25-16.28.22:747][758]Cmd: TRANSACTION UNDO
+[2018.09.25-16.28.22:747][758]LogEditorTransaction: Undo Set Location
+[2018.09.25-16.28.24:897][886]Cmd: DUPLICATE
+[2018.09.25-16.28.24:897][886]Cmd: ACTOR DUPLICATE
+[2018.09.25-16.29.34:229][ 39]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-16.29.34:386][ 39]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageMap_Auto2AE27190441BE63900F8B8AAF05578B42.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/226_Massage/Map/MassageMap_Auto2.umap'
+[2018.09.25-16.29.34:388][ 39]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/226_Massage/Map/MassageMap' took 0.121
+[2018.09.25-16.29.34:388][ 39]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.121
+[2018.09.25-16.34.50:503][123]LogRenderer: Reallocating scene render targets to support 1012x464 Format 26 NumSamples 1 (Frame:81656).
+[2018.09.25-16.34.50:561][124]LogRenderer: Reallocating scene render targets to support 1012x476 Format 26 NumSamples 1 (Frame:81658).
+[2018.09.25-16.34.50:606][125]LogRenderer: Reallocating scene render targets to support 1012x496 Format 26 NumSamples 1 (Frame:81660).
+[2018.09.25-16.34.50:647][126]LogRenderer: Reallocating scene render targets to support 1012x508 Format 26 NumSamples 1 (Frame:81662).
+[2018.09.25-16.34.50:688][127]LogRenderer: Reallocating scene render targets to support 1012x528 Format 26 NumSamples 1 (Frame:81664).
+[2018.09.25-16.34.50:724][128]LogRenderer: Reallocating scene render targets to support 1012x540 Format 26 NumSamples 1 (Frame:81666).
+[2018.09.25-16.34.50:767][129]LogRenderer: Reallocating scene render targets to support 1012x552 Format 26 NumSamples 1 (Frame:81668).
+[2018.09.25-16.34.50:809][130]LogRenderer: Reallocating scene render targets to support 1012x556 Format 26 NumSamples 1 (Frame:81670).
+[2018.09.25-16.34.50:846][131]LogRenderer: Reallocating scene render targets to support 1012x560 Format 26 NumSamples 1 (Frame:81672).
+[2018.09.25-16.34.57:237][513]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.35.33:489][669]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.09.25-16.36.01:853][148]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-16.36.25:931][531]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.36.27:466][622]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.09.25-16.36.29:390][734]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.09.25-16.36.45:162][668]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.09.25-16.37.13:185][333]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.09.25-16.37.15:957][497]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.37.24:947][ 35]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.37.29:044][266]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-16.37.32:451][466]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (EC_Mannequin_laying)
+[2018.09.25-16.37.36:471][702]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.38.02:931][250]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.38.06:047][425]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.09.25-16.38.14:775][943]LogEditorViewport: Clicking on Actor (LMB): Doorway_C (Doorway)
+[2018.09.25-16.38.28:571][765]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.38.35:351][169]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.38.44:161][695]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.38.51:554][136]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.39.04:559][910]LogEditorViewport: Clicking on Actor (LMB): Doorway_C (Doorway)
+[2018.09.25-16.39.08:623][149]Cmd: TRANSACTION UNDO
+[2018.09.25-16.39.08:624][149]LogEditorTransaction: Undo Move Actors
+[2018.09.25-16.39.19:168][768]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.39.23:610][ 32]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.39.35:084][716]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.39.43:618][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-16.40.38:686][490]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.41.19:899][954]LogEditorViewport: Clicking on Actor (LMB): Doorway_C (Doorway)
+[2018.09.25-16.41.35:441][874]Cmd: TRANSACTION UNDO
+[2018.09.25-16.41.35:441][874]LogEditorTransaction: Undo Move Actors
+[2018.09.25-16.41.45:603][470]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-16.41.53:370][898]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.09.25-16.41.56:406][ 75]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-16.42.01:039][352]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.09.25-16.42.34:902][379]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-16.42.35:419][379]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageMap_Auto32F0431FC42359AB4A529DDA96EB5C61D.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/226_Massage/Map/MassageMap_Auto3.umap'
+[2018.09.25-16.42.35:423][379]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/226_Massage/Map/MassageMap' took 0.481
+[2018.09.25-16.42.35:423][379]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.481
+[2018.09.25-16.42.43:703][874]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.43.34:634][929]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.43.42:930][391]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.25-16.43.42:930][391]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Interfaces/BPI_WorldInteractive.uasset.
+[2018.09.25-16.43.42:931][391]LoadErrors: Error: /Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/Interfaces/BPI_WorldInteractive : Can't find file for asset. /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor
+[2018.09.25-16.43.42:932][391]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.25-16.43.42:933][391]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Interfaces/BPI_WorldInteractive.uasset.
+[2018.09.25-16.43.42:940][391]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.25-16.43.42:940][391]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.09.25-16.43.42:940][391]LoadErrors: Error: /Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor : Can't find file for asset. /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor
+[2018.09.25-16.43.42:941][391]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.25-16.43.42:941][391]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.09.25-16.43.42:941][391]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.25-16.43.42:942][391]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.09.25-16.43.42:947][391]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.25-16.43.42:947][391]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_0
+[2018.09.25-16.43.42:947][391]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.09.25-16.43.42:948][391]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.25-16.43.42:948][391]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.09.25-16.43.42:949][391]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.25-16.43.42:950][391]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_1
+[2018.09.25-16.43.42:950][391]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.09.25-16.43.42:951][391]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.25-16.43.42:952][391]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.09.25-16.43.42:953][391]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.25-16.43.42:953][391]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_2
+[2018.09.25-16.43.42:954][391]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.09.25-16.43.42:955][391]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.25-16.43.42:956][391]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.09.25-16.43.42:957][391]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.25-16.43.42:957][391]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_3
+[2018.09.25-16.43.42:958][391]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.09.25-16.43.42:959][391]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.25-16.43.42:959][391]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.09.25-16.43.42:960][391]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.25-16.43.42:960][391]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_4
+[2018.09.25-16.43.42:961][391]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.09.25-16.43.42:961][391]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.25-16.43.42:962][391]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.09.25-16.43.42:962][391]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.25-16.43.42:963][391]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_5
+[2018.09.25-16.43.42:963][391]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.09.25-16.43.42:963][391]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.25-16.43.42:964][391]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.09.25-16.43.42:965][391]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.25-16.43.42:965][391]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_6
+[2018.09.25-16.43.42:965][391]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.09.25-16.43.42:966][391]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.25-16.43.42:966][391]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.09.25-16.43.42:967][391]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.25-16.43.42:967][391]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_7
+[2018.09.25-16.43.42:968][391]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.09.25-16.43.42:968][391]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.25-16.43.42:969][391]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.09.25-16.43.42:969][391]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.25-16.43.42:969][391]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_9
+[2018.09.25-16.43.42:970][391]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.09.25-16.43.42:970][391]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.25-16.43.42:971][391]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.09.25-16.43.42:971][391]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.25-16.43.42:972][391]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_10
+[2018.09.25-16.43.42:972][391]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.09.25-16.43.42:972][391]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.25-16.43.42:973][391]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.09.25-16.43.42:974][391]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.25-16.43.42:974][391]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.09.25-16.43.42:975][391]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.09.25-16.43.42:975][391]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.09.25-16.43.43:017][391]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] Get Hand  is deprecated; please replace or remove it.
+[2018.09.25-16.43.43:026][391]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] Get Hand  is deprecated; Please use the Motion Source property instead of Hand
+[2018.09.25-16.43.43:037][391]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] [2547.40] Compile of BPC_WorldInteractor successful, but with 2 Warning(s) [in 33 ms] (/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor)
+[2018.09.25-16.43.45:635][506]Cmd: DELETE
+[2018.09.25-16.43.45:635][506]Cmd: ACTOR DELETE
+[2018.09.25-16.43.45:643][506]LogEditorActor: Deleted Actor: LevelSequenceActor
+[2018.09.25-16.43.45:676][506]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2018.09.25-16.43.47:370][606]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.44.14:709][237]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.45.06:935][337]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (EC_Mannequin_laying)
+[2018.09.25-16.45.21:256][187]Cmd: TRANSACTION UNDO
+[2018.09.25-16.45.21:256][187]LogEditorTransaction: Undo Move Actors
+[2018.09.25-16.45.21:262][187]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.ModelComponent_554, Buffer: 0, Buffer Size: 0, Element: 0
+[2018.09.25-16.45.21:262][187]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.ModelComponent_554, Buffer: 0, Buffer Size: 0, Element: 1
+[2018.09.25-16.45.21:262][187]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.ModelComponent_554, Buffer: 0, Buffer Size: 0, Element: 2
+[2018.09.25-16.45.21:262][187]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.ModelComponent_554, Buffer: 0, Buffer Size: 0, Element: 3
+[2018.09.25-16.45.21:262][187]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.ModelComponent_554, Buffer: 0, Buffer Size: 0, Element: 4
+[2018.09.25-16.45.21:262][187]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.ModelComponent_554' invalid (164 verts, 0 indices).
+[2018.09.25-16.45.21:545][187]LogPhysics: Warning: Attempt to build physics data for /Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.ModelComponent_554.BodySetup_0 when we are unable to.
+[2018.09.25-16.45.21:546][187]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.ModelComponent_555, Buffer: 0, Buffer Size: 0, Element: 0
+[2018.09.25-16.45.21:546][187]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.ModelComponent_555, Buffer: 0, Buffer Size: 0, Element: 1
+[2018.09.25-16.45.21:546][187]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.ModelComponent_555, Buffer: 0, Buffer Size: 0, Element: 2
+[2018.09.25-16.45.21:546][187]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.ModelComponent_555, Buffer: 0, Buffer Size: 0, Element: 3
+[2018.09.25-16.45.21:546][187]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.ModelComponent_555, Buffer: 0, Buffer Size: 0, Element: 4
+[2018.09.25-16.45.21:546][187]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.ModelComponent_555, Buffer: 0, Buffer Size: 0, Element: 5
+[2018.09.25-16.45.21:546][187]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.ModelComponent_555, Buffer: 0, Buffer Size: 0, Element: 6
+[2018.09.25-16.45.21:546][187]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.ModelComponent_555, Buffer: 0, Buffer Size: 0, Element: 7
+[2018.09.25-16.45.21:547][187]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.ModelComponent_555, Buffer: 0, Buffer Size: 0, Element: 8
+[2018.09.25-16.45.21:547][187]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.ModelComponent_555, Buffer: 0, Buffer Size: 0, Element: 9
+[2018.09.25-16.45.21:547][187]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.ModelComponent_555, Buffer: 0, Buffer Size: 0, Element: 10
+[2018.09.25-16.45.21:547][187]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.ModelComponent_555, Buffer: 0, Buffer Size: 0, Element: 11
+[2018.09.25-16.45.21:547][187]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.ModelComponent_555' invalid (164 verts, 0 indices).
+[2018.09.25-16.45.21:547][187]LogPhysics: Warning: Attempt to build physics data for /Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.ModelComponent_555.BodySetup_0 when we are unable to.
+[2018.09.25-16.45.21:547][187]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.ModelComponent_556, Buffer: 0, Buffer Size: 0, Element: 0
+[2018.09.25-16.45.21:548][187]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.ModelComponent_556, Buffer: 0, Buffer Size: 0, Element: 1
+[2018.09.25-16.45.21:548][187]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.ModelComponent_556, Buffer: 0, Buffer Size: 0, Element: 2
+[2018.09.25-16.45.21:548][187]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.ModelComponent_556, Buffer: 0, Buffer Size: 0, Element: 3
+[2018.09.25-16.45.21:548][187]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.ModelComponent_556, Buffer: 0, Buffer Size: 0, Element: 4
+[2018.09.25-16.45.21:548][187]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.ModelComponent_556, Buffer: 0, Buffer Size: 0, Element: 5
+[2018.09.25-16.45.21:548][187]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.ModelComponent_556, Buffer: 0, Buffer Size: 0, Element: 6
+[2018.09.25-16.45.21:548][187]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.ModelComponent_556, Buffer: 0, Buffer Size: 0, Element: 7
+[2018.09.25-16.45.21:548][187]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.ModelComponent_556' invalid (164 verts, 0 indices).
+[2018.09.25-16.45.21:548][187]LogPhysics: Warning: Attempt to build physics data for /Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.ModelComponent_556.BodySetup_0 when we are unable to.
+[2018.09.25-16.45.21:549][187]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.ModelComponent_557, Buffer: 0, Buffer Size: 0, Element: 0
+[2018.09.25-16.45.21:549][187]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.ModelComponent_557, Buffer: 0, Buffer Size: 0, Element: 1
+[2018.09.25-16.45.21:549][187]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.ModelComponent_557, Buffer: 0, Buffer Size: 0, Element: 2
+[2018.09.25-16.45.21:549][187]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.ModelComponent_557, Buffer: 0, Buffer Size: 0, Element: 3
+[2018.09.25-16.45.21:549][187]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.ModelComponent_557, Buffer: 0, Buffer Size: 0, Element: 4
+[2018.09.25-16.45.21:549][187]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.ModelComponent_557, Buffer: 0, Buffer Size: 0, Element: 5
+[2018.09.25-16.45.21:549][187]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.ModelComponent_557, Buffer: 0, Buffer Size: 0, Element: 6
+[2018.09.25-16.45.21:549][187]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.ModelComponent_557, Buffer: 0, Buffer Size: 0, Element: 7
+[2018.09.25-16.45.21:549][187]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.ModelComponent_557' invalid (164 verts, 0 indices).
+[2018.09.25-16.45.21:549][187]LogPhysics: Warning: Attempt to build physics data for /Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.ModelComponent_557.BodySetup_0 when we are unable to.
+[2018.09.25-16.45.21:555][187]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.ModelComponent_558, Buffer: 0, Buffer Size: 0, Element: 0
+[2018.09.25-16.45.21:555][187]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.ModelComponent_558' invalid (164 verts, 0 indices).
+[2018.09.25-16.45.21:555][187]LogPhysics: Warning: Attempt to build physics data for /Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.ModelComponent_558.BodySetup_0 when we are unable to.
+[2018.09.25-16.45.22:612][245]Cmd: TRANSACTION UNDO
+[2018.09.25-16.45.22:612][245]LogEditorTransaction: Undo Select Brush Surface
+[2018.09.25-16.45.24:026][328]Cmd: TRANSACTION UNDO
+[2018.09.25-16.45.24:026][328]LogEditorTransaction: Undo Select Brush Surface
+[2018.09.25-16.45.24:591][359]Cmd: TRANSACTION UNDO
+[2018.09.25-16.45.24:591][359]LogEditorTransaction: Undo Clicking on Actors
+[2018.09.25-16.45.30:074][680]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-16.45.34:464][942]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.09.25-16.45.34:494][942]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-16.45.35:282][982]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.09.25-16.46.13:311][243]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-16.46.16:985][460]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.09.25-16.46.32:626][277]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-16.47.00:011][901]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-16.47.08:785][423]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.09.25-16.47.16:251][869]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.47.32:942][867]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.09.25-16.47.33:899][923]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.09.25-16.47.37:238][121]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.47.41:792][394]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.09.25-16.47.46:342][665]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.47.46:392][668]MapCheck: New page: Map Check
+[2018.09.25-16.47.46:411][668]Cmd: MAP REBUILD ALLVISIBLE
+[2018.09.25-16.47.46:416][668]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.09.25-16.47.46:620][668]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2018.09.25-16.47.46:634][668]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.25-16.47.46:634][668]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.09.25-16.47.46:643][668]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_WallBeige, compiling. 
+[2018.09.25-16.47.46:650][668]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.25-16.47.46:651][668]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Alpha_Body_MAT, compiling. 
+[2018.09.25-16.47.46:659][668]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.25-16.47.46:659][668]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Alpha_Joints_MAT, compiling. 
+[2018.09.25-16.47.46:668][668]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.25-16.47.46:668][668]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Frame, compiling. 
+[2018.09.25-16.47.47:384][668]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.25-16.47.47:384][668]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.25-16.47.47:384][668]TextureStreamingBuild: Display: Compiling optional shaders took 0.778 seconds.
+[2018.09.25-16.47.47:436][668]LogLevel: Display: Export Material TexCoord Scales took 0.052 seconds.
+[2018.09.25-16.47.47:461][668]TextureStreamingBuild: Display: Build Texture Streaming took 0.025 seconds.
+[2018.09.25-16.47.47:496][668]LightingResults: New page: Lighting Build - Sep 25, 2018, 10:47:47 AM
+[2018.09.25-16.47.47:601][668]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.09.25-16.47.47:788][668]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.09.25-16.47.47:807][668]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.09.25-16.47.48:329][668]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.09.25-16.47.48:329][668]LogSwarmInterface: [TryOpenConnection] Local Process ID is 24004
+[2018.09.25-16.47.51:447][668]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.09.25-16.47.51:447][668]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.09.25-16.47.51:447][668]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.09.25-16.47.51:447][668]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.09.25-16.47.51:447][668]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.09.25-16.47.51:640][668]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.09.25-16.47.51:641][668]MapCheck: New page: MassageMap - Sep 25, 2018, 10:47:51 AM
+[2018.09.25-16.47.51:693][668]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 52.28ms to complete.
+[2018.09.25-16.47.51:717][668]LogEditorBuildUtils: Build time 0:05
+[2018.09.25-16.47.55:644][837]Job is a success!
+[2018.09.25-16.47.55:731][838]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-16.47.55:838][838]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.077s
+[2018.09.25-16.47.55:838][838]LogVolumetricLightmapImport:      Indirection Texture 48x48x48 = 0.4Mb
+[2018.09.25-16.47.55:838][838]LogVolumetricLightmapImport:      BrickData 235x5x5 = 0.2Mb
+[2018.09.25-16.47.55:838][838]LogVolumetricLightmapImport:      Bricks at Level
+[2018.09.25-16.47.55:838][838]LogVolumetricLightmapImport:          0: 57.4% covering 100.0% of volume
+[2018.09.25-16.47.55:838][838]LogVolumetricLightmapImport:          1: 4.3% covering 0.1% of volume
+[2018.09.25-16.47.55:838][838]LogVolumetricLightmapImport:          2: 38.3% covering 0.0% of volume
+[2018.09.25-16.47.55:948][838]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 512X256)
+[2018.09.25-16.47.55:948][838]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2018.09.25-16.47.55:948][838]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2018.09.25-16.47.55:948][838]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
+[2018.09.25-16.47.55:948][838]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
+[2018.09.25-16.47.55:948][838]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
+[2018.09.25-16.47.55:948][838]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2018.09.25-16.47.55:948][838]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 128X256)
+[2018.09.25-16.47.55:993][838]Lightmass on DESKTOP-RST41EJ: 2.85 sec total, 164 ms importing, 45 ms setup, 396 ms photons, 2.17 sec processing, 0 ms extra exporting [23/23 mappings]. Threads: 15.0 sec total, 405 ms processing.
+[2018.09.25-16.47.56:041][838]LogStaticLightingSystem: Illumination: 8.47 sec (57 ms encoding lightmaps, 17 ms encoding shadowmaps)
+[2018.09.25-16.47.56:041][838]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.0 MB streaming, 0.7 MB non-streaming), 4 textures
+[2018.09.25-16.47.56:041][838]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.09.25-16.47.56:418][838]DumpUnbuiltLightIteractions
+[2018.09.25-16.47.56:418][838]Lights with unbuilt interactions: 0
+[2018.09.25-16.47.56:418][838]
+[2018.09.25-16.47.56:418][838]Primitives with unbuilt interactions: 0
+[2018.09.25-16.47.56:429][838]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-16.47.56:465][839]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.09.25-16.47.56:465][839]MapCheck: New page: MassageMap - Sep 25, 2018, 10:47:56 AM
+[2018.09.25-16.47.56:516][839]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 50.619ms to complete.
+[2018.09.25-16.48.03:857][279]LogEditorViewport: Clicking on Actor (LMB): Doorway_C (Doorway)
+[2018.09.25-16.48.32:368][979]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.48.34:294][ 87]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.09.25-16.48.37:891][301]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.48.44:361][685]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.48.58:556][529]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.49.08:248][108]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.51.05:498][491]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.51.13:880][992]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.51.34:888][250]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.51.45:544][887]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.52.01:378][833]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.52.19:216][874]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.52.29:877][512]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.52.32:559][672]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.52.57:685][174]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-16.53.00:314][328]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.53.19:556][481]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.53.57:784][770]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.54.56:802][303]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.54.57:495][335]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageMap_Auto4FAC521B2429329509853E7BCA1DC8CF1.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/226_Massage/Map/MassageMap_Auto4.umap'
+[2018.09.25-16.54.57:498][335]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/226_Massage/Map/MassageMap' took 0.113
+[2018.09.25-16.54.57:498][335]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.113
+[2018.09.25-16.54.57:501][335]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Classes/226_Massage/Map/MassageMap_BuiltData] ([1] browsable assets)...
+[2018.09.25-16.54.57:501][335]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/226_Massage/Map/MassageMap_BuiltData]
+[2018.09.25-16.54.57:520][335]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageMap_BuiltData_Auto4537CA63542E5DDACA6944C90719B869C.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/226_Massage/Map/MassageMap_BuiltData_Auto4.uasset'
+[2018.09.25-16.54.57:535][335]LogFileHelpers: Auto-saving content packages took 0.036
+[2018.09.25-16.54.59:719][466]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.55.10:562][113]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.55.34:115][519]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-16.55.34:581][546]LogEditorViewport: Clicking on Actor (context menu): Doorway_C (Doorway)
+[2018.09.25-16.55.34:613][546]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-16.55.37:794][731]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-16.55.39:565][834]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.55.43:467][ 64]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-16.56.08:323][554]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.56.35:798][201]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.56.50:147][ 60]Cmd: TRANSACTION UNDO
+[2018.09.25-16.56.50:147][ 60]LogEditorTransaction: Undo Set Scale
+[2018.09.25-16.56.50:155][ 60]LogActorComponent: ~FComponentReregisterContext: (/Game/Classes/226_Massage/Map/MassageMap.MassageMap:PersistentLevel.BoxBrush3.BrushComponent0) Component already registered.
+[2018.09.25-16.57.06:837][351]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.58.54:005][375]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.58.57:487][568]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.09.25-16.59.10:699][353]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.59.14:878][595]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.59.20:380][923]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-16.59.27:438][341]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-17.00.02:709][212]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-17.00.36:465][220]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-17.00.38:888][365]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.09.25-17.01.24:044][ 59]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.09.25-17.01.33:845][641]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-17.01.40:662][993]MapCheck: New page: Map Check
+[2018.09.25-17.01.40:678][993]Cmd: MAP REBUILD ALLVISIBLE
+[2018.09.25-17.01.40:681][993]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.09.25-17.01.40:766][993]LogEditorServer: Cleared 1 NULL BSP materials after rebuild.
+[2018.09.25-17.01.40:805][993]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2018.09.25-17.01.40:812][993]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.25-17.01.40:812][993]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.09.25-17.01.40:820][993]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_WallBeige, compiling. 
+[2018.09.25-17.01.40:827][993]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.25-17.01.40:827][993]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Alpha_Body_MAT, compiling. 
+[2018.09.25-17.01.40:835][993]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.25-17.01.40:835][993]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Alpha_Joints_MAT, compiling. 
+[2018.09.25-17.01.40:843][993]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.25-17.01.40:843][993]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Frame, compiling. 
+[2018.09.25-17.01.41:552][993]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.25-17.01.41:552][993]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.25-17.01.41:552][993]TextureStreamingBuild: Display: Compiling optional shaders took 0.751 seconds.
+[2018.09.25-17.01.41:557][993]LogLevel: Display: Export Material TexCoord Scales took 0.005 seconds.
+[2018.09.25-17.01.41:567][993]TextureStreamingBuild: Display: Build Texture Streaming took 0.008 seconds.
+[2018.09.25-17.01.41:591][993]LightingResults: New page: Lighting Build - Sep 25, 2018, 11:01:41 AM
+[2018.09.25-17.01.41:598][993]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.09.25-17.01.41:601][993]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.09.25-17.01.41:601][993]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.09.25-17.01.41:602][993]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.09.25-17.01.41:602][993]LogSwarmInterface: [TryOpenConnection] Local Process ID is 24004
+[2018.09.25-17.01.46:198][993]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.09.25-17.01.46:198][993]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.09.25-17.01.46:198][993]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.09.25-17.01.46:198][993]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.09.25-17.01.46:198][993]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.09.25-17.01.46:310][993]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.09.25-17.01.46:310][993]MapCheck: New page: MassageMap - Sep 25, 2018, 11:01:46 AM
+[2018.09.25-17.01.46:362][993]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 52.268ms to complete.
+[2018.09.25-17.01.46:385][993]LogEditorBuildUtils: Build time 0:05
+[2018.09.25-17.01.49:500][153]Job is a success!
+[2018.09.25-17.01.49:541][154]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-17.01.49:636][154]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.075s
+[2018.09.25-17.01.49:636][154]LogVolumetricLightmapImport:      Indirection Texture 48x48x48 = 0.4Mb
+[2018.09.25-17.01.49:636][154]LogVolumetricLightmapImport:      BrickData 235x5x5 = 0.2Mb
+[2018.09.25-17.01.49:636][154]LogVolumetricLightmapImport:      Bricks at Level
+[2018.09.25-17.01.49:636][154]LogVolumetricLightmapImport:          0: 57.4% covering 100.0% of volume
+[2018.09.25-17.01.49:636][154]LogVolumetricLightmapImport:          1: 4.3% covering 0.1% of volume
+[2018.09.25-17.01.49:636][154]LogVolumetricLightmapImport:          2: 38.3% covering 0.0% of volume
+[2018.09.25-17.01.49:693][154]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 256X128)
+[2018.09.25-17.01.49:693][154]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2018.09.25-17.01.49:693][154]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2018.09.25-17.01.49:693][154]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
+[2018.09.25-17.01.49:693][154]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2018.09.25-17.01.49:693][154]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2018.09.25-17.01.49:693][154]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 32X32)
+[2018.09.25-17.01.49:693][154]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 128X128)
+[2018.09.25-17.01.49:721][154]Lightmass on DESKTOP-RST41EJ: 2.60 sec total, 146 ms importing, 18 ms setup, 399 ms photons, 1.99 sec processing, 0 ms extra exporting [27/27 mappings]. Threads: 13.8 sec total, 522 ms processing.
+[2018.09.25-17.01.49:762][154]LogStaticLightingSystem: Illumination: 8.15 sec (27 ms encoding lightmaps, 8 ms encoding shadowmaps)
+[2018.09.25-17.01.49:762][154]LogStaticLightingSystem: Lightmap texture memory:  0.2 MB (0.0 MB streaming, 0.2 MB non-streaming), 4 textures
+[2018.09.25-17.01.49:762][154]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.09.25-17.01.50:214][154]DumpUnbuiltLightIteractions
+[2018.09.25-17.01.50:214][154]Lights with unbuilt interactions: 0
+[2018.09.25-17.01.50:214][154]
+[2018.09.25-17.01.50:214][154]Primitives with unbuilt interactions: 0
+[2018.09.25-17.01.50:231][154]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-17.01.50:272][155]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.09.25-17.01.50:272][155]MapCheck: New page: MassageMap - Sep 25, 2018, 11:01:50 AM
+[2018.09.25-17.01.50:326][155]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 53.81ms to complete.
+[2018.09.25-17.01.59:805][721]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-17.02.29:663][508]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-17.02.35:528][826]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-17.02.38:065][951]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-17.02.41:947][178]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-17.02.45:890][413]LogEditorViewport: Clicking on Actor (LMB): BP_WhiteBoard_C (BP_WhiteBoard)
+[2018.09.25-17.02.46:926][474]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-17.02.54:263][910]LogEditorViewport: Clicking on Actor (LMB): BP_WhiteBoard_C (BP_WhiteBoard)
+[2018.09.25-17.02.54:839][944]LogEditorViewport: Clicking on Actor (LMB): BP_WhiteBoard_C (BP_WhiteBoard)
+[2018.09.25-17.02.56:757][ 58]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-17.02.56:889][ 65]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_WhiteBoard.BP_WhiteBoard
+[2018.09.25-17.02.57:441][ 65]LogClass: Warning: Enum '/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/FeedbackEffects/EFeedbackType.EFeedbackType' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2018.09.25-17.02.57:441][ 65]LogClass: Warning: Enum '/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/FeedbackEffects/EFeedbackIntensity.EFeedbackIntensity' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2018.09.25-17.02.58:147][ 65]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2018.09.25-17.02.59:891][ 65]LogSlate: Took 0.025616 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.09.25-17.03.00:146][ 66]LogSlate: Took 0.029108 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.09.25-17.03.01:543][143]LogRenderer: Reallocating scene render targets to support 1012x564 Format 26 NumSamples 1 (Frame:1).
+[2018.09.25-17.03.05:837][387]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-17.03.08:644][549]LogMaterial: Display: Missing cached shader map for material 0323_-_Default, compiling. 
+[2018.09.25-17.03.08:666][549]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.09.25-17.03.08:666][549]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.09.25-17.03.08:666][549]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.25-17.03.14:607][904]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-17.03.19:168][153]LogMaterial: Display: Missing cached shader map for material _Mat, compiling. 
+[2018.09.25-17.03.19:188][153]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.09.25-17.03.19:188][153]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.09.25-17.03.19:188][153]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.25-17.03.23:133][389]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-17.03.26:168][570]LogEditorViewport: Clicking on Actor (LMB): BP_WhiteBoard_C (BP_WhiteBoard)
+[2018.09.25-17.03.29:251][754]LogEditorViewport: Clicking on Actor (LMB): BP_WhiteBoard_C (BP_WhiteBoard)
+[2018.09.25-17.03.30:190][810]Cmd: DELETE
+[2018.09.25-17.03.30:190][810]Cmd: ACTOR DELETE
+[2018.09.25-17.03.30:199][810]LogEditorActor: Deleted Actor: BP_WhiteBoard_C
+[2018.09.25-17.03.30:248][810]LogEditorActor: Deleted 1 Actors (0.059 secs)
+[2018.09.25-17.03.48:226][881]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.09.25-17.03.51:133][ 49]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-17.04.02:733][724]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-17.04.10:720][181]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-17.04.16:092][487]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.09.25-17.04.23:686][941]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (EC_Mannequin_laying)
+[2018.09.25-17.04.24:696][999]Cmd: DELETE
+[2018.09.25-17.04.24:696][999]Cmd: ACTOR DELETE
+[2018.09.25-17.04.24:699][999]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2018.09.25-17.04.24:734][999]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2018.09.25-17.05.03:603][850]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-17.05.04:010][850]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageMap_Auto50309BF5F4E94B7BB9DE4B8B30C9B7BCE.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/226_Massage/Map/MassageMap_Auto5.umap'
+[2018.09.25-17.05.04:013][850]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/226_Massage/Map/MassageMap' took 0.391
+[2018.09.25-17.05.04:013][850]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.391
+[2018.09.25-17.05.04:017][850]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Classes/226_Massage/Map/MassageMap_BuiltData] ([1] browsable assets)...
+[2018.09.25-17.05.04:017][850]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/226_Massage/Map/MassageMap_BuiltData]
+[2018.09.25-17.05.04:038][850]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageMap_BuiltData_Auto5DA5FFDAF4BA3074F8720A79984C4CDD4.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/226_Massage/Map/MassageMap_BuiltData_Auto5.uasset'
+[2018.09.25-17.05.04:040][850]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_WhiteBoard] ([1] browsable assets)...
+[2018.09.25-17.05.04:055][850]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_WhiteBoard.BP_WhiteBoard]
+[2018.09.25-17.05.04:055][850]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_WhiteBoard]
+[2018.09.25-17.05.04:248][850]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/BP_WhiteBoard_Auto54D44112A458072C7420E9C9D6C533630.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_WhiteBoard_Auto5.uasset'
+[2018.09.25-17.05.04:249][850]LogFileHelpers: Auto-saving content packages took 0.233
+[2018.09.25-17.07.39:295][233]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.09.25-17.08.25:064][974]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-17.08.45:973][224]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.09.25-17.08.59:938][ 60]LogEditorViewport: Clicking on Actor (LMB): Doorway_C (Doorway)
+[2018.09.25-17.09.06:854][473]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.09.25-17.09.13:114][845]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-17.09.13:180][849]MapCheck: New page: Map Check
+[2018.09.25-17.09.13:194][849]Cmd: MAP REBUILD ALLVISIBLE
+[2018.09.25-17.09.13:195][849]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.09.25-17.09.13:321][849]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2018.09.25-17.09.13:328][849]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.09.25-17.09.13:335][849]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.25-17.09.13:335][849]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_GreyBall, compiling. 
+[2018.09.25-17.09.13:342][849]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.25-17.09.13:342][849]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.25-17.09.13:342][849]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_WallBeige, compiling. 
+[2018.09.25-17.09.13:350][849]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Frame, compiling. 
+[2018.09.25-17.09.14:071][849]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.25-17.09.14:071][849]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.25-17.09.14:071][849]TextureStreamingBuild: Display: Compiling optional shaders took 0.753 seconds.
+[2018.09.25-17.09.14:075][849]LogLevel: Display: Export Material TexCoord Scales took 0.004 seconds.
+[2018.09.25-17.09.14:085][849]TextureStreamingBuild: Display: Build Texture Streaming took 0.009 seconds.
+[2018.09.25-17.09.14:111][849]LightingResults: New page: Lighting Build - Sep 25, 2018, 11:09:14 AM
+[2018.09.25-17.09.14:119][849]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.09.25-17.09.14:126][849]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.09.25-17.09.14:126][849]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.09.25-17.09.14:127][849]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.09.25-17.09.14:127][849]LogSwarmInterface: [TryOpenConnection] Local Process ID is 24004
+[2018.09.25-17.09.18:714][849]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.09.25-17.09.18:715][849]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.09.25-17.09.18:715][849]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.09.25-17.09.18:715][849]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.09.25-17.09.18:715][849]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.09.25-17.09.18:851][849]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.09.25-17.09.18:851][849]MapCheck: New page: MassageMap - Sep 25, 2018, 11:09:18 AM
+[2018.09.25-17.09.18:933][849]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 81.212ms to complete.
+[2018.09.25-17.09.18:969][849]LogEditorBuildUtils: Build time 0:05
+[2018.09.25-17.09.22:518][861]Job is a success!
+[2018.09.25-17.09.22:990][862]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.090s
+[2018.09.25-17.09.22:990][862]LogVolumetricLightmapImport:      Indirection Texture 48x48x48 = 0.4Mb
+[2018.09.25-17.09.22:990][862]LogVolumetricLightmapImport:      BrickData 170x5x5 = 0.2Mb (trimmed 0.1Mb due to 0.010000 MinBrickError)
+[2018.09.25-17.09.22:990][862]LogVolumetricLightmapImport:      Bricks at Level
+[2018.09.25-17.09.22:990][862]LogVolumetricLightmapImport:          0: 79.4% covering 100.0% of volume
+[2018.09.25-17.09.22:990][862]LogVolumetricLightmapImport:          1: 5.9% covering 0.1% of volume
+[2018.09.25-17.09.22:990][862]LogVolumetricLightmapImport:          2: 14.7% covering 0.0% of volume
+[2018.09.25-17.09.23:091][862]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 512X256)
+[2018.09.25-17.09.23:091][862]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
+[2018.09.25-17.09.23:091][862]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
+[2018.09.25-17.09.23:091][862]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
+[2018.09.25-17.09.23:091][862]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2018.09.25-17.09.23:091][862]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2018.09.25-17.09.23:091][862]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (G8, 32X32)
+[2018.09.25-17.09.23:091][862]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (G8, 128X256)
+[2018.09.25-17.09.23:116][862]Lightmass on DESKTOP-RST41EJ: 3.06 sec total, 135 ms importing, 18 ms setup, 396 ms photons, 2.48 sec processing, 0 ms extra exporting [29/29 mappings]. Threads: 17.2 sec total, 423 ms processing.
+[2018.09.25-17.09.23:155][862]LogStaticLightingSystem: Illumination: 8.70 sec (53 ms encoding lightmaps, 18 ms encoding shadowmaps)
+[2018.09.25-17.09.23:155][862]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.0 MB streaming, 0.7 MB non-streaming), 4 textures
+[2018.09.25-17.09.23:155][862]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.09.25-17.09.23:727][862]DumpUnbuiltLightIteractions
+[2018.09.25-17.09.23:727][862]Lights with unbuilt interactions: 0
+[2018.09.25-17.09.23:727][862]
+[2018.09.25-17.09.23:727][862]Primitives with unbuilt interactions: 0
+[2018.09.25-17.09.23:764][863]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.09.25-17.09.23:764][863]MapCheck: New page: MassageMap - Sep 25, 2018, 11:09:23 AM
+[2018.09.25-17.09.23:832][863]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 68.367ms to complete.
+[2018.09.25-17.10.02:268][301]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-17.10.37:466][ 51]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-17.10.38:644][117]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-17.10.38:783][117]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageMapD776859040CDAA2708D56D843EE328A8.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Map/MassageMap.umap'
+[2018.09.25-17.10.38:839][117]LogFileHelpers: Saving map 'MassageMap' took 0.188
+[2018.09.25-17.10.38:882][117]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageMap_BuiltData4EBA12B74874C2FAD146C790234BA6B3.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Map/MassageMap_BuiltData.uasset'
+[2018.09.25-17.10.39:047][117]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/BP_WhiteBoard8C3F7CDB42994EC7341480946E7D69AE.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_WhiteBoard.uasset'
+[2018.09.25-17.10.56:450][155]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.09.25-17.10.59:974][361]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-17.11.05:783][695]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.09.25-17.11.07:957][824]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.09.25-17.11.31:260][216]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-17.11.56:379][717]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-17.12.03:964][169]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-17.12.18:872][ 55]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-17.12.23:899][353]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-17.12.29:526][688]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-17.12.48:223][802]LogEditorViewport: Clicking on Actor (LMB): Doorway_C (Doorway)
+[2018.09.25-17.12.49:620][884]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-17.13.14:759][390]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-17.13.42:532][ 55]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-17.20.38:930][ 96]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageMap_Auto680751A7644FCDD5857613CB77C40FE5C.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/226_Massage/Map/MassageMap_Auto6.umap'
+[2018.09.25-17.20.38:934][ 96]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/226_Massage/Map/MassageMap' took 0.093
+[2018.09.25-17.20.38:934][ 96]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.093
+[2018.09.25-17.39.21:826][708]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-17.39.21:876][711]MapCheck: New page: Map Check
+[2018.09.25-17.39.21:890][711]Cmd: MAP REBUILD ALLVISIBLE
+[2018.09.25-17.39.21:891][711]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.09.25-17.39.22:022][711]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2018.09.25-17.39.22:029][711]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.09.25-17.39.22:036][711]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.25-17.39.22:036][711]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_GreyBall, compiling. 
+[2018.09.25-17.39.22:044][711]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.25-17.39.22:044][711]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_WallBeige, compiling. 
+[2018.09.25-17.39.22:051][711]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.25-17.39.22:051][711]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.25-17.39.22:051][711]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Frame, compiling. 
+[2018.09.25-17.39.22:734][711]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.25-17.39.22:734][711]TextureStreamingBuild: Display: Compiling optional shaders took 0.716 seconds.
+[2018.09.25-17.39.22:739][711]LogLevel: Display: Export Material TexCoord Scales took 0.005 seconds.
+[2018.09.25-17.39.22:749][711]TextureStreamingBuild: Display: Build Texture Streaming took 0.009 seconds.
+[2018.09.25-17.39.22:777][711]LightingResults: New page: Lighting Build - Sep 25, 2018, 11:39:22 AM
+[2018.09.25-17.39.22:783][711]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.09.25-17.39.22:788][711]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.09.25-17.39.22:788][711]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.09.25-17.39.22:789][711]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.09.25-17.39.22:789][711]LogSwarmInterface: [TryOpenConnection] Local Process ID is 24004
+[2018.09.25-17.39.27:305][711]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.09.25-17.39.27:305][711]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.09.25-17.39.27:305][711]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.09.25-17.39.27:305][711]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.09.25-17.39.27:305][711]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.09.25-17.39.27:439][711]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.09.25-17.39.27:439][711]MapCheck: New page: MassageMap - Sep 25, 2018, 11:39:27 AM
+[2018.09.25-17.39.27:496][711]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 56.761ms to complete.
+[2018.09.25-17.39.27:519][711]LogEditorBuildUtils: Build time 0:05
+[2018.09.25-17.39.30:477][862]Job is a success!
+[2018.09.25-17.39.30:507][863]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-17.39.30:596][863]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.068s
+[2018.09.25-17.39.30:596][863]LogVolumetricLightmapImport:      Indirection Texture 48x48x48 = 0.4Mb
+[2018.09.25-17.39.30:596][863]LogVolumetricLightmapImport:      BrickData 170x5x5 = 0.2Mb (trimmed 0.1Mb due to 0.010000 MinBrickError)
+[2018.09.25-17.39.30:596][863]LogVolumetricLightmapImport:      Bricks at Level
+[2018.09.25-17.39.30:596][863]LogVolumetricLightmapImport:          0: 79.4% covering 100.0% of volume
+[2018.09.25-17.39.30:596][863]LogVolumetricLightmapImport:          1: 5.9% covering 0.1% of volume
+[2018.09.25-17.39.30:596][863]LogVolumetricLightmapImport:          2: 14.7% covering 0.0% of volume
+[2018.09.25-17.39.30:679][863]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 512X256)
+[2018.09.25-17.39.30:680][863]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
+[2018.09.25-17.39.30:680][863]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
+[2018.09.25-17.39.30:680][863]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
+[2018.09.25-17.39.30:680][863]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2018.09.25-17.39.30:680][863]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2018.09.25-17.39.30:680][863]LogTexture: Display: Building textures: ShadowMapTexture2D_9 (G8, 32X32)
+[2018.09.25-17.39.30:680][863]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (G8, 128X256)
+[2018.09.25-17.39.30:700][863]Lightmass on DESKTOP-RST41EJ: 2.47 sec total, 138 ms importing, 24 ms setup, 395 ms photons, 1.88 sec processing, 0 ms extra exporting [27/27 mappings]. Threads: 13.0 sec total, 471 ms processing.
+[2018.09.25-17.39.30:754][863]LogStaticLightingSystem: Illumination: 7.95 sec (44 ms encoding lightmaps, 18 ms encoding shadowmaps)
+[2018.09.25-17.39.30:754][863]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.0 MB streaming, 0.7 MB non-streaming), 4 textures
+[2018.09.25-17.39.30:754][863]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.09.25-17.39.31:327][863]DumpUnbuiltLightIteractions
+[2018.09.25-17.39.31:327][863]Lights with unbuilt interactions: 0
+[2018.09.25-17.39.31:327][863]
+[2018.09.25-17.39.31:327][863]Primitives with unbuilt interactions: 0
+[2018.09.25-17.39.31:339][863]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-17.39.31:381][864]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.09.25-17.39.31:382][864]MapCheck: New page: MassageMap - Sep 25, 2018, 11:39:31 AM
+[2018.09.25-17.39.31:440][864]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 58.659ms to complete.
+[2018.09.25-17.40.08:277][637]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageMap_Auto7F34D6E3149FA8F04F39375AB1F35B734.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/226_Massage/Map/MassageMap_Auto7.umap'
+[2018.09.25-17.40.08:279][637]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/226_Massage/Map/MassageMap' took 0.091
+[2018.09.25-17.40.08:279][637]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.091
+[2018.09.25-17.40.08:281][637]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Classes/226_Massage/Map/MassageMap_BuiltData] ([1] browsable assets)...
+[2018.09.25-17.40.08:281][637]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/226_Massage/Map/MassageMap_BuiltData]
+[2018.09.25-17.40.08:301][637]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageMap_BuiltData_Auto7DCAACFF44F08D4AC3E36748152B07C45.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/226_Massage/Map/MassageMap_BuiltData_Auto7.uasset'
+[2018.09.25-17.40.08:301][637]LogFileHelpers: Auto-saving content packages took 0.021
+[2018.09.25-18.33.45:790][973]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-18.33.46:927][ 31]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.09.25-18.33.54:722][495]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-18.34.24:391][245]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-18.34.30:201][590]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-18.34.30:878][631]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.09.25-18.34.32:618][732]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-18.34.35:919][927]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-18.34.39:832][159]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-18.35.07:045][786]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-18.35.19:038][497]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-18.35.38:298][642]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-18.35.51:447][426]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-18.36.17:794][991]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-18.36.27:791][587]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.09.25-18.36.36:898][131]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-18.36.38:534][229]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.09.25-18.36.40:115][323]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.09.25-18.37.05:702][856]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-18.37.19:229][656]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-18.37.19:401][665]LogActorFactory: Actor Factory created SM_WindowFrame
+[2018.09.25-18.37.22:468][837]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-18.37.24:817][961]LogActorFactory: Actor Factory created SM_WindowFrame
+[2018.09.25-18.37.27:916][140]LogActorFactory: Actor Factory created SM_WindowFrame
+[2018.09.25-18.37.39:261][814]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-18.37.40:762][904]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame)
+[2018.09.25-18.37.42:100][984]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-18.37.45:297][175]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.09.25-18.37.46:657][255]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-18.37.53:136][639]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame)
+[2018.09.25-18.37.54:172][699]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-18.37.58:793][976]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-18.38.11:460][731]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-18.38.27:985][712]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame)
+[2018.09.25-18.38.29:473][799]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-18.38.38:237][323]Cmd: DUPLICATE
+[2018.09.25-18.38.38:237][323]Cmd: ACTOR DUPLICATE
+[2018.09.25-18.39.06:228][988]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WindowFrame)
+[2018.09.25-18.39.07:587][ 67]Cmd: DUPLICATE
+[2018.09.25-18.39.07:587][ 67]Cmd: ACTOR DUPLICATE
+[2018.09.25-18.39.30:565][439]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame)
+[2018.09.25-18.39.32:639][561]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WindowFrame2)
+[2018.09.25-18.39.37:104][822]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WindowFrame4)
+[2018.09.25-18.39.37:827][863]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WindowFrame3)
+[2018.09.25-18.39.40:472][ 19]Cmd: DUPLICATE
+[2018.09.25-18.39.40:472][ 19]Cmd: ACTOR DUPLICATE
+[2018.09.25-18.40.09:706][745]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WindowFrame3)
+[2018.09.25-18.40.11:184][831]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WindowFrame2)
+[2018.09.25-18.40.12:909][932]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WindowFrame)
+[2018.09.25-18.40.14:778][ 41]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-18.40.19:304][311]Cmd: TRANSACTION UNDO
+[2018.09.25-18.40.19:304][311]LogEditorTransaction: Undo Scale Actors
+[2018.09.25-18.40.24:449][618]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.09.25-18.40.35:744][287]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame6)
+[2018.09.25-18.40.38:040][422]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-18.40.42:997][719]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame4)
+[2018.09.25-18.40.46:559][929]Cmd: DELETE
+[2018.09.25-18.40.46:559][929]Cmd: ACTOR DELETE
+[2018.09.25-18.40.46:562][929]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.25-18.40.46:601][929]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2018.09.25-18.40.47:160][963]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame7)
+[2018.09.25-18.40.48:033][ 13]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame6)
+[2018.09.25-18.41.08:896][249]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WindowFrame)
+[2018.09.25-18.41.09:940][309]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WindowFrame2)
+[2018.09.25-18.41.11:130][376]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WindowFrame3)
+[2018.09.25-18.41.12:939][482]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WindowFrame5)
+[2018.09.25-18.41.14:471][571]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WindowFrame7)
+[2018.09.25-18.41.15:546][633]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WindowFrame8)
+[2018.09.25-18.41.56:617][ 92]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame)
+[2018.09.25-18.41.57:490][140]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-18.42.03:116][472]LogStaticMesh: Building static mesh SM_InsideWindow...
+[2018.09.25-18.42.03:170][472]LogStaticMesh: Built static mesh [0.05s] /Game/Classes/229_Accounting/Assets/Meshes/SM_InsideWindow.SM_InsideWindow
+[2018.09.25-18.42.22:034][590]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-18.42.22:157][592]LogActorFactory: Actor Factory created SM_GlassWindow
+[2018.09.25-18.42.23:543][669]LogActorFactory: Actor Factory created SM_GlassWindow
+[2018.09.25-18.42.24:924][748]Cmd: DELETE
+[2018.09.25-18.42.24:924][748]Cmd: ACTOR DELETE
+[2018.09.25-18.42.24:927][748]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.25-18.42.24:960][748]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2018.09.25-18.42.26:001][811]LogEditorViewport: Clicking on Actor (LMB): Object_InsideWindow_C (Object_InsideWindow)
+[2018.09.25-18.42.34:381][307]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-18.42.48:925][178]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-18.43.08:050][322]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-18.43.18:294][935]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-18.43.21:371][119]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-18.43.27:641][494]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-18.43.30:988][694]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-18.44.03:404][636]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-18.45.00:934][728]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageMap_Auto8D3531E5045EEF912C98367877AE7A5B4.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/226_Massage/Map/MassageMap_Auto8.umap'
+[2018.09.25-18.45.00:940][728]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/226_Massage/Map/MassageMap' took 0.123
+[2018.09.25-18.45.00:940][728]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.123
+[2018.09.25-18.45.18:814][ 30]LogEditorViewport: Clicking on Actor (LMB): Doorway_C (Doorway)
+[2018.09.25-18.45.52:594][ 43]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-18.55.01:455][661]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageMap_Auto98594E7494C50187A7539E28A06C3E0D6.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/226_Massage/Map/MassageMap_Auto9.umap'
+[2018.09.25-18.55.01:459][661]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/226_Massage/Map/MassageMap' took 0.135
+[2018.09.25-18.55.01:459][661]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.135
+[2018.09.25-19.00.16:818][670]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-19.00.54:071][707]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/tanne/Desktop/UnrealFirstPersonShooterRPG/Scheletro.obj)
+[2018.09.25-19.00.54:194][707]LogFbx: Loading FBX Scene from C:/Users/tanne/Desktop/UnrealFirstPersonShooterRPG/Scheletro.obj
+[2018.09.25-19.01.02:060][707]LogFbx: FBX Scene Loaded Succesfully
+[2018.09.25-19.01.07:538][707]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.09.25-19.01.07:930][707]LogMaterial: Display: Missing cached shader map for material mtl1_294, compiling. 
+[2018.09.25-19.01.07:950][707]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.09.25-19.01.07:950][707]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.09.25-19.01.07:950][707]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.25-19.01.07:954][707]LogMaterial: Display: Missing cached shader map for material mtl1_293, compiling. 
+[2018.09.25-19.01.07:974][707]LogMaterial: Display: Missing cached shader map for material mtl1_292, compiling. 
+[2018.09.25-19.01.07:994][707]LogShaderCompilers: Display: Shaders left to compile 44
+[2018.09.25-19.01.07:997][707]LogMaterial: Display: Missing cached shader map for material mtl1_291, compiling. 
+[2018.09.25-19.01.08:031][707]LogMaterial: Display: Missing cached shader map for material mtl1_288, compiling. 
+[2018.09.25-19.01.08:051][707]LogMaterial: Display: Missing cached shader map for material mtl1_287, compiling. 
+[2018.09.25-19.01.08:070][707]LogMaterial: Display: Missing cached shader map for material mtl1_286, compiling. 
+[2018.09.25-19.01.08:091][707]LogMaterial: Display: Missing cached shader map for material mtl1_285, compiling. 
+[2018.09.25-19.01.08:116][707]LogMaterial: Display: Missing cached shader map for material mtl1_284, compiling. 
+[2018.09.25-19.01.08:139][707]LogMaterial: Display: Missing cached shader map for material mtl1_282, compiling. 
+[2018.09.25-19.01.08:159][707]LogMaterial: Display: Missing cached shader map for material mtl1_281, compiling. 
+[2018.09.25-19.01.08:178][707]LogMaterial: Display: Missing cached shader map for material mtl1_279, compiling. 
+[2018.09.25-19.01.08:203][707]LogMaterial: Display: Missing cached shader map for material mtl1_278, compiling. 
+[2018.09.25-19.01.08:225][707]LogMaterial: Display: Missing cached shader map for material mtl1_277, compiling. 
+[2018.09.25-19.01.08:244][707]LogMaterial: Display: Missing cached shader map for material mtl1_276, compiling. 
+[2018.09.25-19.01.08:270][707]LogMaterial: Display: Missing cached shader map for material mtl1_275, compiling. 
+[2018.09.25-19.01.08:296][707]LogMaterial: Display: Missing cached shader map for material mtl1_274, compiling. 
+[2018.09.25-19.01.08:322][707]LogMaterial: Display: Missing cached shader map for material mtl1_273, compiling. 
+[2018.09.25-19.01.08:346][707]LogMaterial: Display: Missing cached shader map for material mtl1_272, compiling. 
+[2018.09.25-19.01.08:370][707]LogMaterial: Display: Missing cached shader map for material mtl1_271, compiling. 
+[2018.09.25-19.01.08:396][707]LogMaterial: Display: Missing cached shader map for material mtl1_270, compiling. 
+[2018.09.25-19.01.08:422][707]LogMaterial: Display: Missing cached shader map for material mtl1_269, compiling. 
+[2018.09.25-19.01.08:448][707]LogMaterial: Display: Missing cached shader map for material mtl1_268, compiling. 
+[2018.09.25-19.01.08:475][707]LogMaterial: Display: Missing cached shader map for material mtl1_267, compiling. 
+[2018.09.25-19.01.08:502][707]LogMaterial: Display: Missing cached shader map for material mtl1_266, compiling. 
+[2018.09.25-19.01.08:527][707]LogMaterial: Display: Missing cached shader map for material mtl1_265, compiling. 
+[2018.09.25-19.01.08:553][707]LogMaterial: Display: Missing cached shader map for material mtl1_264, compiling. 
+[2018.09.25-19.01.08:579][707]LogMaterial: Display: Missing cached shader map for material mtl1_263, compiling. 
+[2018.09.25-19.01.08:607][707]LogMaterial: Display: Missing cached shader map for material mtl1_262, compiling. 
+[2018.09.25-19.01.08:638][707]LogMaterial: Display: Missing cached shader map for material mtl1_261, compiling. 
+[2018.09.25-19.01.08:667][707]LogMaterial: Display: Missing cached shader map for material mtl1_260, compiling. 
+[2018.09.25-19.01.08:696][707]LogMaterial: Display: Missing cached shader map for material mtl1_259, compiling. 
+[2018.09.25-19.01.08:756][707]LogShaderCompilers: Display: Shaders left to compile 672
+[2018.09.25-19.01.08:759][707]LogMaterial: Display: Missing cached shader map for material mtl1_258, compiling. 
+[2018.09.25-19.01.08:786][707]LogMaterial: Display: Missing cached shader map for material mtl1_257, compiling. 
+[2018.09.25-19.01.08:811][707]LogMaterial: Display: Missing cached shader map for material mtl1_256, compiling. 
+[2018.09.25-19.01.08:834][707]LogMaterial: Display: Missing cached shader map for material mtl1_255, compiling. 
+[2018.09.25-19.01.08:863][707]LogMaterial: Display: Missing cached shader map for material mtl1_254, compiling. 
+[2018.09.25-19.01.08:891][707]LogMaterial: Display: Missing cached shader map for material mtl1_253, compiling. 
+[2018.09.25-19.01.08:921][707]LogMaterial: Display: Missing cached shader map for material mtl1_252, compiling. 
+[2018.09.25-19.01.08:950][707]LogMaterial: Display: Missing cached shader map for material mtl1_251, compiling. 
+[2018.09.25-19.01.08:978][707]LogMaterial: Display: Missing cached shader map for material mtl1_250, compiling. 
+[2018.09.25-19.01.09:005][707]LogMaterial: Display: Missing cached shader map for material mtl1_249, compiling. 
+[2018.09.25-19.01.09:035][707]LogMaterial: Display: Missing cached shader map for material mtl1_248, compiling. 
+[2018.09.25-19.01.09:063][707]LogMaterial: Display: Missing cached shader map for material mtl1_247, compiling. 
+[2018.09.25-19.01.09:094][707]LogMaterial: Display: Missing cached shader map for material mtl1_246, compiling. 
+[2018.09.25-19.01.09:122][707]LogMaterial: Display: Missing cached shader map for material mtl1_245, compiling. 
+[2018.09.25-19.01.09:152][707]LogMaterial: Display: Missing cached shader map for material mtl1_244, compiling. 
+[2018.09.25-19.01.09:176][707]LogMaterial: Display: Missing cached shader map for material mtl1_243, compiling. 
+[2018.09.25-19.01.09:203][707]LogMaterial: Display: Missing cached shader map for material mtl1_242, compiling. 
+[2018.09.25-19.01.09:236][707]LogMaterial: Display: Missing cached shader map for material mtl1_241, compiling. 
+[2018.09.25-19.01.09:263][707]LogMaterial: Display: Missing cached shader map for material mtl1_240, compiling. 
+[2018.09.25-19.01.09:290][707]LogMaterial: Display: Missing cached shader map for material skull, compiling. 
+[2018.09.25-19.01.09:320][707]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2018.09.25-19.01.09:344][707]LogFbx: Warning: Triangulating static mesh default
+[2018.09.25-19.01.17:970][707]LogShaderCompilers: Display: Shaders left to compile 1124
+[2018.09.25-19.01.17:970][707]LogShaderCompilers: Display: Shaders left to compile 1114
+[2018.09.25-19.01.17:970][707]LogShaderCompilers: Display: Shaders left to compile 1104
+[2018.09.25-19.01.17:970][707]LogShaderCompilers: Display: Shaders left to compile 1094
+[2018.09.25-19.01.17:970][707]LogShaderCompilers: Display: Shaders left to compile 1084
+[2018.09.25-19.01.17:970][707]LogShaderCompilers: Display: Shaders left to compile 1074
+[2018.09.25-19.01.17:970][707]LogShaderCompilers: Display: Shaders left to compile 1064
+[2018.09.25-19.01.17:970][707]LogShaderCompilers: Display: Shaders left to compile 1054
+[2018.09.25-19.01.17:970][707]LogShaderCompilers: Display: Shaders left to compile 1044
+[2018.09.25-19.01.17:970][707]LogShaderCompilers: Display: Shaders left to compile 1034
+[2018.09.25-19.01.17:970][707]LogShaderCompilers: Display: Shaders left to compile 1024
+[2018.09.25-19.01.17:970][707]LogShaderCompilers: Display: Shaders left to compile 1014
+[2018.09.25-19.01.21:700][707]LogShaderCompilers: Display: Shaders left to compile 1004
+[2018.09.25-19.01.21:700][707]LogShaderCompilers: Display: Shaders left to compile 994
+[2018.09.25-19.01.21:700][707]LogShaderCompilers: Display: Shaders left to compile 984
+[2018.09.25-19.01.21:700][707]LogShaderCompilers: Display: Shaders left to compile 974
+[2018.09.25-19.01.21:700][707]LogShaderCompilers: Display: Shaders left to compile 964
+[2018.09.25-19.01.21:700][707]LogStaticMesh: Building static mesh Scheletro...
+[2018.09.25-19.02.28:314][707]LogShaderCompilers: Display: Shaders left to compile 954
+[2018.09.25-19.02.28:314][707]LogShaderCompilers: Display: Shaders left to compile 944
+[2018.09.25-19.02.28:314][707]LogShaderCompilers: Display: Shaders left to compile 934
+[2018.09.25-19.02.28:314][707]LogShaderCompilers: Display: Shaders left to compile 924
+[2018.09.25-19.02.28:314][707]LogShaderCompilers: Display: Shaders left to compile 914
+[2018.09.25-19.02.28:314][707]LogShaderCompilers: Display: Shaders left to compile 904
+[2018.09.25-19.02.28:314][707]LogShaderCompilers: Display: Shaders left to compile 894
+[2018.09.25-19.02.28:314][707]LogShaderCompilers: Display: Shaders left to compile 884
+[2018.09.25-19.02.28:314][707]LogShaderCompilers: Display: Shaders left to compile 874
+[2018.09.25-19.02.28:314][707]LogShaderCompilers: Display: Shaders left to compile 864
+[2018.09.25-19.02.28:314][707]LogShaderCompilers: Display: Shaders left to compile 854
+[2018.09.25-19.02.28:314][707]LogShaderCompilers: Display: Shaders left to compile 844
+[2018.09.25-19.02.28:314][707]LogShaderCompilers: Display: Shaders left to compile 834
+[2018.09.25-19.02.28:314][707]LogShaderCompilers: Display: Shaders left to compile 824
+[2018.09.25-19.02.28:314][707]LogShaderCompilers: Display: Shaders left to compile 814
+[2018.09.25-19.02.28:314][707]LogShaderCompilers: Display: Shaders left to compile 804
+[2018.09.25-19.02.28:314][707]LogShaderCompilers: Display: Shaders left to compile 794
+[2018.09.25-19.02.28:314][707]LogShaderCompilers: Display: Shaders left to compile 784
+[2018.09.25-19.02.28:315][707]LogShaderCompilers: Display: Shaders left to compile 774
+[2018.09.25-19.02.28:315][707]LogShaderCompilers: Display: Shaders left to compile 764
+[2018.09.25-19.02.28:315][707]LogShaderCompilers: Display: Shaders left to compile 754
+[2018.09.25-19.02.28:315][707]LogShaderCompilers: Display: Shaders left to compile 744
+[2018.09.25-19.02.28:315][707]LogShaderCompilers: Display: Shaders left to compile 734
+[2018.09.25-19.02.28:315][707]LogShaderCompilers: Display: Shaders left to compile 724
+[2018.09.25-19.02.28:315][707]LogShaderCompilers: Display: Shaders left to compile 714
+[2018.09.25-19.02.28:315][707]LogShaderCompilers: Display: Shaders left to compile 704
+[2018.09.25-19.02.28:315][707]LogShaderCompilers: Display: Shaders left to compile 694
+[2018.09.25-19.02.28:315][707]LogShaderCompilers: Display: Shaders left to compile 684
+[2018.09.25-19.02.28:315][707]LogShaderCompilers: Display: Shaders left to compile 674
+[2018.09.25-19.02.28:315][707]LogShaderCompilers: Display: Shaders left to compile 664
+[2018.09.25-19.02.28:315][707]LogShaderCompilers: Display: Shaders left to compile 654
+[2018.09.25-19.02.28:315][707]LogShaderCompilers: Display: Shaders left to compile 644
+[2018.09.25-19.02.28:315][707]LogShaderCompilers: Display: Shaders left to compile 634
+[2018.09.25-19.02.28:315][707]LogShaderCompilers: Display: Shaders left to compile 624
+[2018.09.25-19.02.28:315][707]LogShaderCompilers: Display: Shaders left to compile 614
+[2018.09.25-19.02.28:315][707]LogShaderCompilers: Display: Shaders left to compile 604
+[2018.09.25-19.02.28:315][707]LogShaderCompilers: Display: Shaders left to compile 594
+[2018.09.25-19.02.28:315][707]LogShaderCompilers: Display: Shaders left to compile 584
+[2018.09.25-19.02.28:315][707]LogShaderCompilers: Display: Shaders left to compile 574
+[2018.09.25-19.02.28:315][707]LogShaderCompilers: Display: Shaders left to compile 564
+[2018.09.25-19.02.28:315][707]LogShaderCompilers: Display: Shaders left to compile 554
+[2018.09.25-19.02.28:315][707]LogShaderCompilers: Display: Shaders left to compile 544
+[2018.09.25-19.02.28:315][707]LogShaderCompilers: Display: Shaders left to compile 534
+[2018.09.25-19.02.28:315][707]LogShaderCompilers: Display: Shaders left to compile 524
+[2018.09.25-19.02.28:315][707]LogShaderCompilers: Display: Shaders left to compile 514
+[2018.09.25-19.02.28:315][707]LogShaderCompilers: Display: Shaders left to compile 504
+[2018.09.25-19.02.28:315][707]LogShaderCompilers: Display: Shaders left to compile 494
+[2018.09.25-19.02.28:315][707]LogShaderCompilers: Display: Shaders left to compile 484
+[2018.09.25-19.02.28:315][707]LogShaderCompilers: Display: Shaders left to compile 474
+[2018.09.25-19.02.28:315][707]LogShaderCompilers: Display: Shaders left to compile 464
+[2018.09.25-19.02.28:315][707]LogShaderCompilers: Display: Shaders left to compile 454
+[2018.09.25-19.02.28:315][707]LogShaderCompilers: Display: Shaders left to compile 444
+[2018.09.25-19.02.28:315][707]LogShaderCompilers: Display: Shaders left to compile 434
+[2018.09.25-19.02.28:315][707]LogShaderCompilers: Display: Shaders left to compile 424
+[2018.09.25-19.02.28:315][707]LogShaderCompilers: Display: Shaders left to compile 414
+[2018.09.25-19.02.28:316][707]LogShaderCompilers: Display: Shaders left to compile 404
+[2018.09.25-19.02.28:316][707]LogShaderCompilers: Display: Shaders left to compile 394
+[2018.09.25-19.02.28:316][707]LogShaderCompilers: Display: Shaders left to compile 384
+[2018.09.25-19.02.28:316][707]LogShaderCompilers: Display: Shaders left to compile 374
+[2018.09.25-19.02.28:316][707]LogShaderCompilers: Display: Shaders left to compile 364
+[2018.09.25-19.02.28:316][707]LogShaderCompilers: Display: Shaders left to compile 354
+[2018.09.25-19.02.28:316][707]LogShaderCompilers: Display: Shaders left to compile 344
+[2018.09.25-19.02.28:316][707]LogShaderCompilers: Display: Shaders left to compile 334
+[2018.09.25-19.02.28:316][707]LogShaderCompilers: Display: Shaders left to compile 324
+[2018.09.25-19.02.28:316][707]LogShaderCompilers: Display: Shaders left to compile 314
+[2018.09.25-19.02.28:316][707]LogShaderCompilers: Display: Shaders left to compile 304
+[2018.09.25-19.02.28:316][707]LogShaderCompilers: Display: Shaders left to compile 294
+[2018.09.25-19.02.28:316][707]LogShaderCompilers: Display: Shaders left to compile 284
+[2018.09.25-19.02.28:316][707]LogShaderCompilers: Display: Shaders left to compile 274
+[2018.09.25-19.02.28:316][707]LogShaderCompilers: Display: Shaders left to compile 264
+[2018.09.25-19.02.28:316][707]LogShaderCompilers: Display: Shaders left to compile 254
+[2018.09.25-19.02.28:316][707]LogShaderCompilers: Display: Shaders left to compile 244
+[2018.09.25-19.02.28:316][707]LogShaderCompilers: Display: Shaders left to compile 234
+[2018.09.25-19.02.28:316][707]LogShaderCompilers: Display: Shaders left to compile 224
+[2018.09.25-19.02.28:316][707]LogShaderCompilers: Display: Shaders left to compile 214
+[2018.09.25-19.02.28:316][707]LogShaderCompilers: Display: Shaders left to compile 204
+[2018.09.25-19.02.28:316][707]LogShaderCompilers: Display: Shaders left to compile 194
+[2018.09.25-19.02.28:316][707]LogShaderCompilers: Display: Shaders left to compile 184
+[2018.09.25-19.02.28:316][707]LogShaderCompilers: Display: Shaders left to compile 174
+[2018.09.25-19.02.28:316][707]LogShaderCompilers: Display: Shaders left to compile 164
+[2018.09.25-19.02.28:316][707]LogShaderCompilers: Display: Shaders left to compile 154
+[2018.09.25-19.02.28:316][707]LogShaderCompilers: Display: Shaders left to compile 144
+[2018.09.25-19.02.28:316][707]LogShaderCompilers: Display: Shaders left to compile 134
+[2018.09.25-19.02.28:316][707]LogShaderCompilers: Display: Shaders left to compile 124
+[2018.09.25-19.02.28:316][707]LogShaderCompilers: Display: Shaders left to compile 114
+[2018.09.25-19.02.28:316][707]LogShaderCompilers: Display: Shaders left to compile 104
+[2018.09.25-19.02.28:316][707]LogShaderCompilers: Display: Shaders left to compile 94
+[2018.09.25-19.02.28:316][707]LogShaderCompilers: Display: Shaders left to compile 84
+[2018.09.25-19.02.28:316][707]LogStaticMesh: Built static mesh [66.62s] /Game/Classes/226_Massage/Assets/Skeleton/Scheletro.Scheletro
+[2018.09.25-19.02.29:585][707]LogShaderCompilers: Display: Shaders left to compile 74
+[2018.09.25-19.02.29:585][707]LogShaderCompilers: Display: Shaders left to compile 64
+[2018.09.25-19.02.29:585][707]LogStaticMesh: Warning: Scheletro has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.09.25-19.02.29:613][707]LogStaticMesh: Warning: Scheletro has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2018.09.25-19.02.30:888][707]LogShaderCompilers: Display: Shaders left to compile 54
+[2018.09.25-19.02.30:888][707]LogShaderCompilers: Display: Shaders left to compile 44
+[2018.09.25-19.02.30:892][707]FBXImport: Warning: Scheletro has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2018.09.25-19.02.30:892][707]FBXImport: Warning: Scheletro has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2018.09.25-19.02.32:338][707]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.09.25-19.02.32:338][707]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.09.25-19.02.33:113][720]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.09.25-19.02.34:441][793]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.09.25-19.02.39:859][114]LogSlate: Window 'Message Log' being destroyed
+[2018.09.25-19.02.39:865][114]LogSlate: Window 'Message Log' being destroyed
+[2018.09.25-19.02.59:768][737]LogSlate: Window 'Delete Assets' being destroyed
+[2018.09.25-19.04.05:104][921]LogSlate: Window 'Delete Assets' being destroyed
+[2018.09.25-19.04.13:335][310]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Classes/226_Massage/Assets/Skeleton/Scheletro.Scheletro
+[2018.09.25-19.04.14:748][311]LogRenderer: Reallocating scene render targets to support 1188x804 Format 26 NumSamples 1 (Frame:1).
+[2018.09.25-19.05.30:084][968]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-19.05.34:400][142]LogSlate: Window 'Delete Assets' being destroyed
+[2018.09.25-19.10.31:591][914]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-19.10.31:658][918]MapCheck: New page: Map Check
+[2018.09.25-19.10.31:680][918]Cmd: MAP REBUILD ALLVISIBLE
+[2018.09.25-19.10.31:684][918]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.09.25-19.10.31:869][918]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2018.09.25-19.10.31:878][918]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.09.25-19.10.31:885][918]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.25-19.10.31:885][918]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_GreyBall, compiling. 
+[2018.09.25-19.10.31:892][918]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.25-19.10.31:892][918]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_WallBeige, compiling. 
+[2018.09.25-19.10.31:899][918]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.25-19.10.31:899][918]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.25-19.10.31:899][918]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Frame, compiling. 
+[2018.09.25-19.10.31:907][918]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Alpha_Body_MAT, compiling. 
+[2018.09.25-19.10.31:916][918]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Alpha_Joints_MAT, compiling. 
+[2018.09.25-19.10.31:925][918]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Frame, compiling. 
+[2018.09.25-19.10.31:933][918]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_WindowGlass, compiling. 
+[2018.09.25-19.10.32:728][918]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.09.25-19.10.32:729][918]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.09.25-19.10.32:729][918]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.09.25-19.10.32:729][918]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.25-19.10.32:729][918]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.25-19.10.32:729][918]TextureStreamingBuild: Display: Compiling optional shaders took 0.862 seconds.
+[2018.09.25-19.10.32:736][918]LogLevel: Display: Export Material TexCoord Scales took 0.008 seconds.
+[2018.09.25-19.10.32:748][918]TextureStreamingBuild: Display: Build Texture Streaming took 0.011 seconds.
+[2018.09.25-19.10.32:778][918]LightingResults: New page: Lighting Build - Sep 25, 2018, 1:10:32 PM
+[2018.09.25-19.10.32:790][918]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.09.25-19.10.32:798][918]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.09.25-19.10.32:798][918]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.09.25-19.10.32:799][918]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.09.25-19.10.32:800][918]LogSwarmInterface: [TryOpenConnection] Local Process ID is 24004
+[2018.09.25-19.10.37:311][918]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.09.25-19.10.37:311][918]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.09.25-19.10.37:311][918]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.09.25-19.10.37:311][918]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.09.25-19.10.37:311][918]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.09.25-19.10.37:443][918]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.09.25-19.10.37:443][918]MapCheck: New page: MassageMap - Sep 25, 2018, 1:10:37 PM
+[2018.09.25-19.10.37:480][918]MapCheck: Error: WorldSettings Maps need lighting rebuilt 
+[2018.09.25-19.10.37:580][918]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 136.791ms to complete.
+[2018.09.25-19.10.37:604][918]LogEditorBuildUtils: Build time 0:05
+[2018.09.25-19.10.37:719][919]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Frame, compiling. 
+[2018.09.25-19.10.37:742][919]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Frame, compiling. 
+[2018.09.25-19.10.37:760][919]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.25-19.10.37:760][919]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.25-19.10.40:294][ 10]LogSlate: Window 'Message Log' being destroyed
+[2018.09.25-19.10.40:300][ 10]LogSlate: Window 'Message Log' being destroyed
+[2018.09.25-19.10.42:510][138]Job is a success!
+[2018.09.25-19.10.42:554][139]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-19.10.42:655][139]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.073s
+[2018.09.25-19.10.42:655][139]LogVolumetricLightmapImport:      Indirection Texture 48x48x48 = 0.4Mb
+[2018.09.25-19.10.42:655][139]LogVolumetricLightmapImport:      BrickData 235x5x5 = 0.2Mb
+[2018.09.25-19.10.42:655][139]LogVolumetricLightmapImport:      Bricks at Level
+[2018.09.25-19.10.42:655][139]LogVolumetricLightmapImport:          0: 57.4% covering 100.0% of volume
+[2018.09.25-19.10.42:655][139]LogVolumetricLightmapImport:          1: 4.3% covering 0.1% of volume
+[2018.09.25-19.10.42:655][139]LogVolumetricLightmapImport:          2: 38.3% covering 0.0% of volume
+[2018.09.25-19.10.42:921][139]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 256X256)
+[2018.09.25-19.10.42:921][139]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 256X256)
+[2018.09.25-19.10.42:921][139]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 256X128)
+[2018.09.25-19.10.42:921][139]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 512X256)
+[2018.09.25-19.10.42:921][139]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 512X512)
+[2018.09.25-19.10.42:921][139]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 512X512)
+[2018.09.25-19.10.42:921][139]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 64X32)
+[2018.09.25-19.10.42:921][139]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2018.09.25-19.10.42:921][139]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2018.09.25-19.10.42:961][139]LogTexture: Display: Building textures: ShadowMapTexture2D_12 (G8, 32X32)
+[2018.09.25-19.10.42:961][139]LogTexture: Display: Building textures: ShadowMapTexture2D_10 (G8, 256X128)
+[2018.09.25-19.10.42:961][139]LogTexture: Display: Building textures: ShadowMapTexture2D_11 (G8, 1024X128)
+[2018.09.25-19.10.42:987][139]Lightmass on DESKTOP-RST41EJ: 3.95 sec total, 148 ms importing, 21 ms setup, 474 ms photons, 3.26 sec processing, 0 ms extra exporting [38/38 mappings]. Threads: 22.6 sec total, 5.86 sec processing.
+[2018.09.25-19.10.43:040][139]LogStaticLightingSystem: Illumination: 10.2 sec (239 ms encoding lightmaps, 34 ms encoding shadowmaps)
+[2018.09.25-19.10.43:040][139]LogStaticLightingSystem: Lightmap texture memory:  0.8 MB (0.7 MB streaming, 0.2 MB non-streaming), 6 textures
+[2018.09.25-19.10.43:040][139]LogStaticLightingSystem: Shadowmap texture memory: 0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 3 textures
+[2018.09.25-19.10.43:328][139]DumpUnbuiltLightIteractions
+[2018.09.25-19.10.43:328][139]Lights with unbuilt interactions: 0
+[2018.09.25-19.10.43:328][139]
+[2018.09.25-19.10.43:328][139]Primitives with unbuilt interactions: 0
+[2018.09.25-19.10.43:336][139]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-19.10.43:427][140]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.09.25-19.10.43:427][140]MapCheck: New page: MassageMap - Sep 25, 2018, 1:10:43 PM
+[2018.09.25-19.10.43:497][140]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 70.409ms to complete.
+[2018.09.25-19.11.11:572][819]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-19.14.22:007][491]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-19.14.23:919][583]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.09.25-19.14.58:244][624]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-19.15.07:494][170]Cmd: DELETE
+[2018.09.25-19.15.07:494][170]Cmd: ACTOR DELETE
+[2018.09.25-19.15.07:497][170]LogEditorActor: Deleted Actor: Brush
+[2018.09.25-19.15.07:531][170]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2018.09.25-19.15.51:210][990]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-19.15.51:346][990]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageMap_Auto011CC07B84BDA26F2DA0BDA8A7A85B25A.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/226_Massage/Map/MassageMap_Auto0.umap'
+[2018.09.25-19.15.51:351][990]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/226_Massage/Map/MassageMap' took 0.097
+[2018.09.25-19.15.51:351][990]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.097
+[2018.09.25-19.15.51:353][990]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Classes/226_Massage/Map/MassageMap_BuiltData] ([1] browsable assets)...
+[2018.09.25-19.15.51:353][990]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/226_Massage/Map/MassageMap_BuiltData]
+[2018.09.25-19.15.51:416][990]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageMap_BuiltData_Auto00CC07D2F430EB96E453C398F6739CEEC.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/226_Massage/Map/MassageMap_BuiltData_Auto0.uasset'
+[2018.09.25-19.15.51:417][990]LogFileHelpers: Auto-saving content packages took 0.065
+[2018.09.25-19.17.04:921][387]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-19.17.12:842][855]LogEditorViewport: Clicking on Actor (LMB): Doorway_C (Doorway)
+[2018.09.25-19.17.14:272][937]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-19.17.21:364][355]LogEditorViewport: Clicking on Actor (LMB): Doorway_C (Doorway)
+[2018.09.25-19.23.51:178][788]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-19.23.52:520][866]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-19.23.52:674][866]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageMap791BD5074CB9692ED34EF5B884079FD3.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Map/MassageMap.umap'
+[2018.09.25-19.23.52:749][866]LogFileHelpers: Saving map 'MassageMap' took 0.225
+[2018.09.25-19.23.52:869][866]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageMap_BuiltData93D4080A45B38FD0B80963ABEBE97598.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Map/MassageMap_BuiltData.uasset'
+[2018.09.25-19.25.04:808][249]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-19.25.24:697][437]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-19.25.27:474][594]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.09.25-19.25.38:756][255]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-19.25.41:778][433]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-19.25.44:880][616]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-19.25.48:043][804]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-19.25.58:577][424]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-19.26.34:368][424]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (EC_Mannequin_laying)
+[2018.09.25-19.26.45:218][ 59]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-19.26.53:310][539]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-19.27.09:915][525]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-19.27.12:995][708]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-19.27.22:156][253]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-19.27.35:560][ 51]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-19.28.00:478][536]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-19.28.40:627][933]Cmd: DUPLICATE
+[2018.09.25-19.28.40:627][933]Cmd: ACTOR DUPLICATE
+[2018.09.25-19.28.55:455][804]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-19.29.31:020][690]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-19.29.36:330][  6]LogMaterial: Display: Missing cached shader map for material Cloth_White, compiling. 
+[2018.09.25-19.29.36:396][  6]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.09.25-19.29.36:396][  6]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.09.25-19.29.36:396][  6]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.09.25-19.29.36:396][  6]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.25-19.30.04:414][678]Cmd: DUPLICATE
+[2018.09.25-19.30.04:415][678]Cmd: ACTOR DUPLICATE
+[2018.09.25-19.30.19:499][552]Cmd: DUPLICATE
+[2018.09.25-19.30.19:499][552]Cmd: ACTOR DUPLICATE
+[2018.09.25-19.30.26:321][951]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-19.30.49:739][340]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-19.31.20:058][142]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-19.31.32:547][812]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.09.25-19.32.28:655][165]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.09.25-19.33.19:602][212]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-19.33.25:120][520]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-19.33.31:065][862]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.09.25-19.33.32:508][947]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-19.33.50:250][985]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-19.34.38:516][876]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.09.25-19.34.55:120][852]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-19.34.55:970][890]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.09.25-19.34.58:042][  9]Cmd: DELETE
+[2018.09.25-19.34.58:042][  9]Cmd: ACTOR DELETE
+[2018.09.25-19.34.58:069][  9]LogEditorActor: Deleted Actor: Brush
+[2018.09.25-19.34.58:113][  9]LogEditorActor: Deleted 1 Actors (0.071 secs)
+[2018.09.25-19.35.05:921][472]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-19.35.06:846][509]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.09.25-19.35.13:929][930]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-19.35.25:722][632]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-19.35.50:662][100]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-19.36.09:952][249]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-19.36.21:727][950]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-19.36.29:035][387]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-19.36.40:384][ 61]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-19.36.57:788][ 63]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-19.37.21:970][506]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-19.37.43:514][776]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-19.38.00:561][792]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-19.38.11:985][472]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-19.38.30:305][566]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.09.25-19.40.08:551][450]Cmd: DELETE
+[2018.09.25-19.40.08:551][450]Cmd: ACTOR DELETE
+[2018.09.25-19.40.08:568][450]LogEditorActor: Deleted Actor: Brush
+[2018.09.25-19.40.08:625][450]LogEditorActor: Deleted 1 Actors (0.073 secs)
+[2018.09.25-19.40.15:911][881]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.09.25-19.40.19:432][ 87]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-19.40.47:289][720]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-19.40.57:476][314]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-19.41.01:946][556]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.09.25-19.41.14:286][288]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-19.41.22:951][796]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-19.41.30:666][247]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.09.25-19.41.50:222][416]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-19.42.38:841][650]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageMap_Auto1E3AF5956442661533E5C3F8E04092790.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/226_Massage/Map/MassageMap_Auto1.umap'
+[2018.09.25-19.42.38:846][650]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/226_Massage/Map/MassageMap' took 0.287
+[2018.09.25-19.42.38:846][650]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.287
+[2018.09.25-19.43.19:421][150]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame)
+[2018.09.25-19.43.23:288][379]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-19.43.41:252][426]LogMaterial: Display: Missing cached shader map for material M_Floor_01, compiling. 
+[2018.09.25-19.43.41:315][427]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.09.25-19.43.41:315][427]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.09.25-19.43.41:315][427]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.09.25-19.43.41:315][427]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.25-19.43.47:305][786]LogEditorViewport: Clicking on Actor (LMB): Object_InsideWindow_C (Object_InsideWindow)
+[2018.09.25-19.43.59:110][493]LogEditorViewport: Clicking on Actor (LMB): Object_InsideWindow_C (Object_InsideWindow)
+[2018.09.25-19.44.07:871][ 18]Cmd: TRANSACTION UNDO
+[2018.09.25-19.44.07:871][ 18]LogEditorTransaction: Undo Clicking on Actors
+[2018.09.25-19.44.09:768][129]Cmd: TRANSACTION UNDO
+[2018.09.25-19.44.09:768][129]LogEditorTransaction: Undo Clicking on Actors
+[2018.09.25-19.44.10:495][171]Cmd: TRANSACTION UNDO
+[2018.09.25-19.44.10:495][171]LogEditorTransaction: Undo Replace component used material
+[2018.09.25-19.45.39:166][488]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.09.25-19.45.48:314][ 29]LogEditorViewport: Clicking on Actor (LMB): Object_InsideWindow_C (Object_InsideWindow)
+[2018.09.25-19.50.08:217][614]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-19.50.09:602][683]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-19.50.09:898][683]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageMapE4FA51604444430FDD762FB1F82A9609.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Map/MassageMap.umap'
+[2018.09.25-19.50.09:952][683]LogFileHelpers: Saving map 'MassageMap' took 0.346
+[2018.09.25-19.50.11:815][794]LogSlate: FSceneViewport::OnFocusLost() reason 0
