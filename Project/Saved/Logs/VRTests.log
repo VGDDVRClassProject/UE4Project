@@ -21271,3 +21271,29 @@ Scale3D: 1.000000 1.000000 1.000000
 [2018.09.27-18.30.16:948][378]LogPlayLevel: Display: Destroying online subsystem :Context_89
 [2018.09.27-18.30.22:049][665]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/TestingLevel1E3A4D6B42C0A8264F974BB085BC7875.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Maps/TestingLevel.umap'
 [2018.09.27-18.30.22:129][665]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/TestingLevel_BuiltData361EF8A043A4A172DA33CFB50A6A7F6C.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Maps/TestingLevel_BuiltData.uasset'
+[2018.09.27-18.50.02:923][575]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/VetAssistant/Blueprints/Animals/Animal_BP.Animal_BP
+[2018.09.27-18.50.12:453][118]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.09.27-18.50.12:453][118]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.09.27-18.50.12:453][118]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.09.27-18.50.12:453][118]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.09.27-18.50.12:453][118]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.09.27-18.50.12:453][118]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.09.27-18.50.12:465][118]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2018.09.27-18.50.12:465][118]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2018.09.27-18.50.12:465][118]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2018.09.27-18.50.12:465][118]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2018.09.27-18.50.12:465][118]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2018.09.27-18.50.12:465][118]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2018.09.27-18.51.28:028][601]BlueprintLog: New page: Compile Animal_BP
+[2018.09.27-18.51.28:364][601]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/Animal_BP5DB6C0B547DA77C35DB9EB9FA705A25E.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Blueprints/Animals/Animal_BP.uasset'
+[2018.09.27-18.51.28:417][601]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/CatD743514C44F7EE3D55FCF09230D668F1.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Blueprints/Animals/Cat.uasset'
+[2018.09.27-18.51.28:476][601]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/Dog47DB2BC44E1D910D6F3201AB78DBD715.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Blueprints/Animals/Dog.uasset'
+[2018.09.27-18.51.42:417][430]LogEditorTransaction: Undo Create Pin Link
+[2018.09.27-18.51.57:715][345]BlueprintLog: New page: Compile Animal_BP
+[2018.09.27-18.51.57:982][345]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/Animal_BPCE9ADE72429454D0B385F0B8CD7E823D.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Blueprints/Animals/Animal_BP.uasset'
+[2018.09.27-18.51.58:008][345]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/CatDBC174D9451E8342BF6D81853A708C6E.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Blueprints/Animals/Cat.uasset'
+[2018.09.27-18.51.58:034][345]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/DogE9BC1FDC415DF3D6574E90A3191BD948.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Blueprints/Animals/Dog.uasset'
+[2018.09.27-18.51.58:190][350]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/Animal_BP7140FB3F4FBFBDA00C4E2AA092EDE5DD.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Blueprints/Animals/Animal_BP.uasset'
+[2018.09.27-18.52.09:337][ 14]BlueprintLog: New page: Compile Animal_BP
+[2018.09.27-18.52.09:611][ 14]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/Animal_BP5664B54040C026D63DE7A58CEB49960A.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Blueprints/Animals/Animal_BP.uasset'
+[2018.09.27-18.52.09:835][ 23]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/Animal_BP85E971FC49276DD663331C840274B11E.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Blueprints/Animals/Animal_BP.uasset'
