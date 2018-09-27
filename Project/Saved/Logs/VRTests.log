@@ -784,3 +784,526 @@ LogInit: Object subsystem initialized
 [2018.09.27-15.39.46:414][561]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/skeleton75E0FD3F4C9853D0455C6AB53BF0C50F.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Assets/Skeleton/skeleton.uasset'
 [2018.09.27-15.39.46:595][561]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/tempFEBDD9FC433253EA22DA8A8A65FCD600.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Assets/Character/temp.uasset'
 [2018.09.27-15.39.46:701][561]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassagePoint_Child_70E0B855F43EC9DCE5591028724B73BFD.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Blueprints/MassagePoints/MassagePoint_Child_7.uasset'
+[2018.09.27-15.42.01:638][161]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-15.42.58:275][558]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-15.43.07:524][111]LogEditorViewport: Clicking on Actor (CTRL LMB): MassageTable_C (MassageTable)
+[2018.09.27-15.43.21:862][963]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.09.27-15.49.43:100][831]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.27-15.49.43:321][831]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageMap_Auto2E5D3C2694AC4BA18352F57B3A1514B5C.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/226_Massage/Map/MassageMap_Auto2.umap'
+[2018.09.27-15.49.43:324][831]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/226_Massage/Map/MassageMap' took 0.186
+[2018.09.27-15.49.43:324][831]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.186
+[2018.09.27-15.55.03:209][432]LogEditorViewport: Clicking on Actor (LMB): MassageTable_C (MassageTable)
+[2018.09.27-15.55.06:576][633]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-15.55.07:702][699]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/226_Massage/Assets/Models/MassageTable.MassageTable
+[2018.09.27-15.55.30:834][ 31]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-15.55.30:980][ 35]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageTable6BA04EE5458EFB29CF9146B42AA5FB52.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Assets/Models/MassageTable.uasset'
+[2018.09.27-15.55.31:376][ 59]BlueprintLog: New page: Compile MassageTable
+[2018.09.27-15.56.08:032][237]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-15.56.09:348][309]LogRenderer: Reallocating scene render targets to support 1012x764 Format 26 NumSamples 1 (Frame:2028).
+[2018.09.27-15.56.13:742][545]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageMap7FB85F2041992481D51DB39E1F4B1E39.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Map/MassageMap.umap'
+[2018.09.27-15.56.13:909][545]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageMap_BuiltData0DB445304F72F46724E5EF85717435F5.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Map/MassageMap_BuiltData.uasset'
+[2018.09.27-16.01.07:215][532]LogEditorViewport: Clicking on Actor (LMB): MassagePoint_Child_4_C (MassagePoint_Child_4)
+[2018.09.27-16.02.20:092][222]LogEditorViewport: Clicking on Actor (LMB): MassagePoint_Child_3_C (MassagePoint_Child_3)
+[2018.09.27-16.02.32:309][636]LogEditorViewport: Clicking on Actor (LMB): MassageMannequin_C (MassageMannequin)
+[2018.09.27-16.02.34:112][849]LogEditorViewport: Clicking on Actor (LMB): MassagePoint_Child_2_C (MassagePoint_Child_2)
+[2018.09.27-16.04.13:859][762]LogEditorViewport: Clicking on Actor (LMB): MassagePoint_Child_6_C (MassagePoint_Child_6)
+[2018.09.27-16.04.45:583][521]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-16.04.47:764][748]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Classes/226_Massage/Assets/Character/temp.temp
+[2018.09.27-16.04.48:426][749]LogRenderer: Reallocating scene render targets to support 1012x796 Format 26 NumSamples 1 (Frame:1).
+[2018.09.27-16.05.01:922][331]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-16.05.57:232][ 86]Cmd: TRANSACTION UNDO
+[2018.09.27-16.05.57:232][ 86]LogEditorTransaction: Undo Rotate Bone
+[2018.09.27-16.05.57:535][ 86]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.27-16.07.05:334][225]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.27-16.07.05:404][225]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/EC_Mannequin_laying58659C574FB41556F16E5BBC78181182.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Assets/Character/EC_Mannequin_laying.uasset'
+[2018.09.27-16.07.06:211][308]Cmd: TRANSACTION UNDO
+[2018.09.27-16.07.06:211][308]LogEditorTransaction: Undo Rotate Bone
+[2018.09.27-16.07.06:216][308]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.27-16.07.07:437][399]Cmd: TRANSACTION UNDO
+[2018.09.27-16.07.07:437][399]LogEditorTransaction: Undo Rotate Bone
+[2018.09.27-16.07.07:443][399]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.27-16.07.10:439][689]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.27-16.07.16:017][267]Cmd: TRANSACTION UNDO
+[2018.09.27-16.07.16:017][267]LogEditorTransaction: Undo Rotate Bone
+[2018.09.27-16.07.16:023][267]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.27-16.07.24:612][ 62]Cmd: TRANSACTION UNDO
+[2018.09.27-16.07.24:612][ 62]LogEditorTransaction: Undo Rotate Bone
+[2018.09.27-16.07.24:617][ 62]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.09.27-16.07.57:085][396]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-16.08.17:758][509]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-16.08.17:900][516]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/EC_Mannequin_layingA7E6A03F400E8C9E1EE59A9F7CA19A54.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Assets/Character/EC_Mannequin_laying.uasset'
+[2018.09.27-16.08.20:974][839]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-16.08.44:224][850]LogSlate: Window 'Choose New StaticMesh Location' being destroyed
+[2018.09.27-16.08.44:305][850]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.27-16.08.44:580][850]LogStaticMesh: Building static mesh MassageMannequinMesh...
+[2018.09.27-16.08.45:526][850]LogStaticMesh: Built static mesh [0.95s] /Game/Classes/226_Massage/Assets/Character/MassageMannequinMesh.MassageMannequinMesh
+[2018.09.27-16.08.49:304][860]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageMap_Auto32F8FA3594ECDB22327C6BB810CFC3377.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/226_Massage/Map/MassageMap_Auto3.umap'
+[2018.09.27-16.08.49:308][860]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/226_Massage/Map/MassageMap' took 0.225
+[2018.09.27-16.08.49:308][860]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.225
+[2018.09.27-16.08.49:313][860]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Classes/226_Massage/Assets/Character/MassageMannequinMesh] ([1] browsable assets)...
+[2018.09.27-16.08.49:333][860]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Classes/226_Massage/Assets/Character/MassageMannequinMesh.MassageMannequinMesh]
+[2018.09.27-16.08.49:333][860]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/226_Massage/Assets/Character/MassageMannequinMesh]
+[2018.09.27-16.08.49:361][860]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageMannequinMesh_Auto340D9D0F74D340BF9CD45F7A440F51E9A.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/226_Massage/Assets/Character/MassageMannequinMesh_Auto3.uasset'
+[2018.09.27-16.08.49:362][860]LogFileHelpers: Auto-saving content packages took 0.050
+[2018.09.27-16.08.57:946][746]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.27-16.09.11:948][112]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-16.09.21:389][209]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-16.09.41:687][540]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-16.09.56:126][548]LogSlate: Window 'Choose New StaticMesh Location' being destroyed
+[2018.09.27-16.09.56:464][548]LogStaticMesh: Building static mesh MassageMesh...
+[2018.09.27-16.09.57:320][548]LogStaticMesh: Built static mesh [0.86s] /Game/Classes/226_Massage/Assets/Character/MassageMesh.MassageMesh
+[2018.09.27-16.10.14:528][456]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.27-16.10.20:432][ 46]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-16.10.20:546][ 53]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageMannequinFD0CD58B4EFFF03B67CB48A0F346B463.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Assets/Character/MassageMannequin.uasset'
+[2018.09.27-16.10.20:965][101]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-16.10.21:022][108]BlueprintLog: New page: Compile MassageMannequin
+[2018.09.27-16.10.22:772][265]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageMapF8CC3E3F4374CA903C2050A1D6F2C8F5.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Map/MassageMap.umap'
+[2018.09.27-16.10.22:913][265]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageMap_BuiltData5D0C87D24A2787E19F901C85A1230B4B.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Map/MassageMap_BuiltData.uasset'
+[2018.09.27-16.10.26:602][680]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-16.10.31:866][287]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-16.10.38:556][871]LogSlate: Window 'Delete Assets' being destroyed
+[2018.09.27-16.12.45:804][549]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/226_Massage/Blueprints/MassagePoints/MassagePoint_Child_3.MassagePoint_Child_3
+[2018.09.27-16.12.47:909][751]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/226_Massage/Blueprints/MassagePoints/MassagePoint_Child_3.MassagePoint_Child_3
+[2018.09.27-16.18.22:525][433]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-16.18.24:550][668]LogEditorViewport: Clicking on Actor (LMB): MassageMannequin_C (MassageMannequin)
+[2018.09.27-16.18.26:244][856]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-16.18.36:059][  3]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.27-16.18.40:805][567]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.27-16.18.45:583][115]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-16.18.48:832][501]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-16.18.55:970][338]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-16.20.02:217][813]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-16.20.30:437][187]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.27-16.20.30:612][187]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageMap_Auto4BC9800954255A234899601A7B1672EBE.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/226_Massage/Map/MassageMap_Auto4.umap'
+[2018.09.27-16.20.30:899][187]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/226_Massage/Map/MassageMap' took 0.449
+[2018.09.27-16.20.30:899][187]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.449
+[2018.09.27-16.20.30:901][187]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Classes/226_Massage/Assets/Character/MassageMannequin] ([1] browsable assets)...
+[2018.09.27-16.20.30:912][187]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Classes/226_Massage/Assets/Character/MassageMannequin.MassageMannequin]
+[2018.09.27-16.20.30:912][187]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/226_Massage/Assets/Character/MassageMannequin]
+[2018.09.27-16.20.30:947][187]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageMannequin_Auto484C1C3D8453BC0053131CABB3961E5A8.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/226_Massage/Assets/Character/MassageMannequin_Auto4.uasset'
+[2018.09.27-16.20.30:948][187]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Classes/226_Massage/Assets/Character/MassageMesh] ([1] browsable assets)...
+[2018.09.27-16.20.30:960][187]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Classes/226_Massage/Assets/Character/MassageMesh.MassageMesh]
+[2018.09.27-16.20.30:960][187]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/226_Massage/Assets/Character/MassageMesh]
+[2018.09.27-16.20.30:991][187]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageMesh_Auto4072066CF41A7C6CC26B0BCA6536A11D8.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/226_Massage/Assets/Character/MassageMesh_Auto4.uasset'
+[2018.09.27-16.20.30:992][187]LogFileHelpers: Auto-saving content packages took 0.091
+[2018.09.27-16.29.48:772][277]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-16.31.04:882][688]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageMap_Auto56D6D9AA04EB8980DC83FF7865B3395ED.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/226_Massage/Map/MassageMap_Auto5.umap'
+[2018.09.27-16.31.04:887][688]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/226_Massage/Map/MassageMap' took 0.475
+[2018.09.27-16.31.04:887][688]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.475
+[2018.09.27-16.31.04:889][688]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Classes/226_Massage/Assets/Character/MassageMannequin] ([1] browsable assets)...
+[2018.09.27-16.31.04:900][688]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Classes/226_Massage/Assets/Character/MassageMannequin.MassageMannequin]
+[2018.09.27-16.31.04:900][688]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/226_Massage/Assets/Character/MassageMannequin]
+[2018.09.27-16.31.04:928][688]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageMannequin_Auto591400B9B4D825898B6B09D8A0A0E6BFB.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/226_Massage/Assets/Character/MassageMannequin_Auto5.uasset'
+[2018.09.27-16.31.04:929][688]LogFileHelpers: Auto-saving content packages took 0.041
+[2018.09.27-16.33.07:132][403]LogAssetEditorManager: Opening Asset editor for Material /Game/Classes/226_Massage/Assets/Materials/Mirror.Mirror
+[2018.09.27-16.33.07:452][403]LogMaterial: Display: Missing cached shader map for material Mirror, compiling. 
+[2018.09.27-16.33.07:757][403]LogMaterial: Display: Missing cached shader map for material Mirror, compiling. 
+[2018.09.27-16.33.07:815][403]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.09.27-16.33.07:815][403]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.09.27-16.33.07:816][403]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.09.27-16.33.07:816][403]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.09.27-16.33.07:819][403]LogMaterial: Display: Missing cached shader map for material Mirror, compiling. 
+[2018.09.27-16.33.08:368][433]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.09.27-16.33.08:405][434]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.09.27-16.33.08:405][434]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.09.27-16.33.08:423][437]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.09.27-16.33.08:658][459]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.09.27-16.33.08:673][461]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.09.27-16.33.08:683][462]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.09.27-16.33.08:691][463]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.09.27-16.33.08:900][488]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.09.27-16.33.08:906][489]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.09.27-16.33.08:906][489]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.09.27-16.33.08:934][492]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.09.27-16.33.09:151][518]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.09.27-16.33.09:463][550]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.09.27-16.33.09:820][591]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.09.27-16.33.09:837][593]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.09.27-16.33.10:020][615]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.09.27-16.33.10:262][644]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.09.27-16.33.10:278][646]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.09.27-16.33.10:530][674]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.27-16.33.10:663][684]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.27-16.33.11:343][714]MaterialEditorStats: Base pass shader: 155 instructions
+[2018.09.27-16.33.11:343][714]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 228 instructions
+[2018.09.27-16.33.11:343][714]MaterialEditorStats: Base pass vertex shader: 88 instructions
+[2018.09.27-16.33.11:343][714]MaterialEditorStats: Texture samplers: 3/16
+[2018.09.27-16.33.19:645][608]LogMaterial: Display: Missing cached shader map for material Mirror, compiling. 
+[2018.09.27-16.33.19:659][608]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.09.27-16.33.19:721][609]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.09.27-16.33.19:721][609]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.09.27-16.33.19:721][609]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.09.27-16.33.19:721][609]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.09.27-16.33.19:926][633]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.09.27-16.33.19:944][635]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.09.27-16.33.19:953][636]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.09.27-16.33.19:961][637]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.09.27-16.33.20:140][658]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.09.27-16.33.20:140][658]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.09.27-16.33.20:159][660]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.09.27-16.33.20:176][662]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.09.27-16.33.20:334][681]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.09.27-16.33.20:558][701]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.09.27-16.33.20:746][718]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.09.27-16.33.20:786][723]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.09.27-16.33.20:922][739]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.09.27-16.33.21:123][763]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.09.27-16.33.21:130][764]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.09.27-16.33.21:436][795]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.09.27-16.33.21:562][810]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.09.27-16.33.21:645][820]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.27-16.33.21:695][826]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.27-16.33.21:988][860]MaterialEditorStats: Base pass shader: 155 instructions
+[2018.09.27-16.33.21:988][860]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 228 instructions
+[2018.09.27-16.33.21:988][860]MaterialEditorStats: Base pass vertex shader: 88 instructions
+[2018.09.27-16.33.21:988][860]MaterialEditorStats: Texture samplers: 3/16
+[2018.09.27-16.33.24:828][198]LogMaterial: Display: Missing cached shader map for material Mirror, compiling. 
+[2018.09.27-16.33.24:843][198]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.09.27-16.33.24:843][198]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.09.27-16.33.24:843][198]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.09.27-16.33.24:843][198]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.09.27-16.33.24:846][198]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.09.27-16.33.25:092][222]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.09.27-16.33.25:099][223]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.09.27-16.33.25:116][225]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.09.27-16.33.25:124][226]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.09.27-16.33.25:303][245]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.09.27-16.33.25:303][245]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.09.27-16.33.25:320][247]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.09.27-16.33.25:326][248]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.09.27-16.33.25:477][266]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.09.27-16.33.25:700][292]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.09.27-16.33.25:920][317]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.09.27-16.33.25:970][323]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.09.27-16.33.26:079][336]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.09.27-16.33.26:324][361]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.09.27-16.33.26:351][364]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.09.27-16.33.26:652][399]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.09.27-16.33.26:736][409]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.09.27-16.33.26:808][418]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.27-16.33.26:956][427]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.27-16.33.27:809][527]MaterialEditorStats: Base pass shader: 155 instructions
+[2018.09.27-16.33.27:809][527]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 228 instructions
+[2018.09.27-16.33.27:810][527]MaterialEditorStats: Base pass vertex shader: 88 instructions
+[2018.09.27-16.33.27:810][527]MaterialEditorStats: Texture samplers: 3/16
+[2018.09.27-16.33.30:381][713]LogMaterial: Display: Missing cached shader map for material Mirror, compiling. 
+[2018.09.27-16.33.30:401][714]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.09.27-16.33.30:401][714]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.09.27-16.33.30:401][714]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.09.27-16.33.30:401][714]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.09.27-16.33.30:652][738]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.09.27-16.33.30:677][741]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.09.27-16.33.30:684][742]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.09.27-16.33.30:685][742]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.09.27-16.33.30:859][760]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.09.27-16.33.30:861][760]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.09.27-16.33.30:877][763]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.09.27-16.33.30:900][766]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.09.27-16.33.31:043][783]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.09.27-16.33.31:256][807]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.09.27-16.33.31:450][828]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.09.27-16.33.31:477][831]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.09.27-16.33.31:595][845]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.09.27-16.33.31:797][869]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.09.27-16.33.31:824][872]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.09.27-16.33.32:030][897]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.27-16.33.32:037][897]LogMaterial: Display: Missing cached shader map for material Mirror, compiling. 
+[2018.09.27-16.33.32:062][897]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.09.27-16.33.32:129][899]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.09.27-16.33.32:222][910]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.09.27-16.33.32:321][922]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.09.27-16.33.32:395][931]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.09.27-16.33.32:465][934]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.09.27-16.33.32:548][944]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.09.27-16.33.32:562][945]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.09.27-16.33.32:576][947]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.09.27-16.33.32:660][957]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.09.27-16.33.32:719][964]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.09.27-16.33.32:734][966]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.09.27-16.33.32:752][968]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.09.27-16.33.32:833][978]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.09.27-16.33.33:068][  6]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.09.27-16.33.33:235][ 26]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.09.27-16.33.33:267][ 30]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.09.27-16.33.33:343][ 39]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.09.27-16.33.33:544][ 63]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.09.27-16.33.33:585][ 68]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.09.27-16.33.33:794][ 93]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.09.27-16.33.33:886][104]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.09.27-16.33.33:935][110]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.27-16.33.34:036][122]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.27-16.33.36:068][362]LogMaterial: Display: Missing cached shader map for material Mirror, compiling. 
+[2018.09.27-16.33.36:110][363]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.09.27-16.33.36:110][363]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.09.27-16.33.36:110][363]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.09.27-16.33.36:110][363]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.09.27-16.33.36:317][388]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.09.27-16.33.36:343][391]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.09.27-16.33.36:351][392]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.09.27-16.33.36:367][394]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.09.27-16.33.36:508][411]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.09.27-16.33.36:526][413]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.09.27-16.33.36:534][414]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.09.27-16.33.36:541][415]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.09.27-16.33.36:710][434]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.09.27-16.33.36:984][466]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.09.27-16.33.37:157][479]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.09.27-16.33.37:235][485]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.09.27-16.33.37:469][500]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.09.27-16.33.37:656][513]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.09.27-16.33.37:708][517]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.09.27-16.33.37:991][536]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.27-16.33.38:078][542]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.27-16.33.38:851][574]MaterialEditorStats: Base pass shader: 155 instructions
+[2018.09.27-16.33.38:851][574]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 228 instructions
+[2018.09.27-16.33.38:851][574]MaterialEditorStats: Base pass vertex shader: 88 instructions
+[2018.09.27-16.33.38:851][574]MaterialEditorStats: Texture samplers: 3/16
+[2018.09.27-16.33.49:360][677]LogMaterial: Display: Missing cached shader map for material Mirror, compiling. 
+[2018.09.27-16.33.49:381][678]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.09.27-16.33.49:381][678]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.09.27-16.33.49:381][678]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.09.27-16.33.49:381][678]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.09.27-16.33.49:625][706]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.09.27-16.33.49:640][707]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.09.27-16.33.49:650][708]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.09.27-16.33.49:667][710]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.09.27-16.33.49:847][731]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.09.27-16.33.49:855][732]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.09.27-16.33.49:881][735]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.09.27-16.33.49:888][736]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.09.27-16.33.50:021][752]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.09.27-16.33.50:256][780]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.09.27-16.33.50:455][804]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.09.27-16.33.50:497][809]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.09.27-16.33.50:596][821]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.09.27-16.33.50:823][848]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.09.27-16.33.50:831][849]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.09.27-16.33.51:108][882]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.27-16.33.51:183][891]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.27-16.33.51:568][937]MaterialEditorStats: Base pass shader: 150 instructions
+[2018.09.27-16.33.51:568][937]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 224 instructions
+[2018.09.27-16.33.51:568][937]MaterialEditorStats: Base pass vertex shader: 88 instructions
+[2018.09.27-16.33.51:568][937]MaterialEditorStats: Texture samplers: 3/16
+[2018.09.27-16.34.00:078][938]LogMaterial: Display: Missing cached shader map for material Mirror, compiling. 
+[2018.09.27-16.34.00:127][939]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.09.27-16.34.00:128][939]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.09.27-16.34.00:128][939]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.09.27-16.34.00:128][939]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.09.27-16.34.00:351][966]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.09.27-16.34.00:372][968]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.09.27-16.34.00:379][969]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.09.27-16.34.00:387][970]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.09.27-16.34.00:560][990]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.09.27-16.34.00:560][990]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.09.27-16.34.00:584][993]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.09.27-16.34.00:585][993]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.09.27-16.34.00:752][ 13]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.09.27-16.34.00:950][ 34]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.09.27-16.34.01:153][ 58]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.09.27-16.34.01:162][ 59]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.09.27-16.34.01:301][ 76]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.09.27-16.34.01:504][100]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.09.27-16.34.01:512][101]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.09.27-16.34.01:789][133]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.27-16.34.01:907][147]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.27-16.34.02:274][191]MaterialEditorStats: Base pass shader: 150 instructions
+[2018.09.27-16.34.02:274][191]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 224 instructions
+[2018.09.27-16.34.02:274][191]MaterialEditorStats: Base pass vertex shader: 88 instructions
+[2018.09.27-16.34.02:274][191]MaterialEditorStats: Texture samplers: 3/16
+[2018.09.27-16.34.03:201][301]LogMaterial: Display: Missing cached shader map for material Mirror, compiling. 
+[2018.09.27-16.34.03:224][302]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.09.27-16.34.03:224][302]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.09.27-16.34.03:224][302]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.09.27-16.34.03:224][302]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.09.27-16.34.03:470][331]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.09.27-16.34.03:504][335]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.09.27-16.34.03:504][335]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.09.27-16.34.03:528][338]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.09.27-16.34.03:670][355]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.09.27-16.34.03:686][357]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.09.27-16.34.03:711][359]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.09.27-16.34.03:718][360]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.09.27-16.34.03:883][376]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.09.27-16.34.04:157][407]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.09.27-16.34.04:440][426]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.09.27-16.34.04:538][431]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.09.27-16.34.04:716][442]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.09.27-16.34.04:853][452]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.09.27-16.34.04:908][455]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.09.27-16.34.05:157][474]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.27-16.34.05:173][475]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.27-16.34.05:580][503]MaterialEditorStats: Base pass shader: 150 instructions
+[2018.09.27-16.34.05:580][503]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 224 instructions
+[2018.09.27-16.34.05:580][503]MaterialEditorStats: Base pass vertex shader: 88 instructions
+[2018.09.27-16.34.05:580][503]MaterialEditorStats: Texture samplers: 3/16
+[2018.09.27-16.34.06:947][665]LogMaterial: Display: Missing cached shader map for material Mirror, compiling. 
+[2018.09.27-16.34.06:964][665]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.09.27-16.34.06:964][665]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.09.27-16.34.06:964][665]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.09.27-16.34.06:964][665]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.09.27-16.34.06:967][665]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.09.27-16.34.07:229][689]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.09.27-16.34.07:262][693]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.09.27-16.34.07:270][694]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.09.27-16.34.07:270][694]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.09.27-16.34.07:432][713]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.09.27-16.34.07:447][715]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.09.27-16.34.07:473][718]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.09.27-16.34.07:498][721]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.09.27-16.34.07:639][738]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.09.27-16.34.07:761][752]LogMaterial: Display: Missing cached shader map for material Mirror, compiling. 
+[2018.09.27-16.34.07:781][752]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.09.27-16.34.07:808][752]LogSlate: Window 'Color Picker' being destroyed
+[2018.09.27-16.34.07:849][756]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.09.27-16.34.08:055][779]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.09.27-16.34.08:130][788]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.09.27-16.34.08:147][790]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.09.27-16.34.08:256][802]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.09.27-16.34.08:333][811]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.09.27-16.34.08:373][816]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.09.27-16.34.08:404][819]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.09.27-16.34.08:470][826]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.09.27-16.34.08:546][835]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.09.27-16.34.08:562][837]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.09.27-16.34.08:578][839]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.09.27-16.34.08:661][849]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.09.27-16.34.08:931][881]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.09.27-16.34.09:118][902]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.09.27-16.34.09:167][908]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.09.27-16.34.09:216][914]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.09.27-16.34.09:458][943]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.09.27-16.34.09:475][945]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.09.27-16.34.09:753][978]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.09.27-16.34.09:793][983]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.09.27-16.34.09:818][986]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.27-16.34.09:925][999]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.27-16.34.10:851][109]MaterialEditorStats: Base pass shader: 151 instructions
+[2018.09.27-16.34.10:851][109]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 225 instructions
+[2018.09.27-16.34.10:851][109]MaterialEditorStats: Base pass vertex shader: 88 instructions
+[2018.09.27-16.34.10:851][109]MaterialEditorStats: Texture samplers: 3/16
+[2018.09.27-16.34.23:202][ 53]LogMaterial: Display: Missing cached shader map for material Mirror, compiling. 
+[2018.09.27-16.34.23:226][ 53]LogMaterial: Display: Missing cached shader map for material Mirror, compiling. 
+[2018.09.27-16.34.23:256][ 54]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.09.27-16.34.23:256][ 54]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.09.27-16.34.23:256][ 54]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.09.27-16.34.23:256][ 54]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.09.27-16.34.23:496][ 83]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.09.27-16.34.23:521][ 86]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.09.27-16.34.23:530][ 87]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.09.27-16.34.23:545][ 89]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.09.27-16.34.23:695][107]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.09.27-16.34.23:695][107]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.09.27-16.34.23:712][109]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.09.27-16.34.23:720][110]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.09.27-16.34.23:872][128]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.09.27-16.34.24:082][153]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.09.27-16.34.24:292][178]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.09.27-16.34.24:325][182]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.09.27-16.34.24:433][195]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.09.27-16.34.24:641][220]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.09.27-16.34.24:659][222]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.09.27-16.34.24:925][250]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.27-16.34.25:054][265]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.27-16.34.25:443][311]MaterialEditorStats: Base pass shader: 156 instructions
+[2018.09.27-16.34.25:443][311]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 230 instructions
+[2018.09.27-16.34.25:443][311]MaterialEditorStats: Base pass vertex shader: 88 instructions
+[2018.09.27-16.34.25:443][311]MaterialEditorStats: Texture samplers: 3/16
+[2018.09.27-16.34.27:418][374]LogMaterial: Display: Missing cached shader map for material Mirror, compiling. 
+[2018.09.27-16.34.27:636][375]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.09.27-16.34.27:636][375]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.09.27-16.34.27:636][375]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.09.27-16.34.27:636][375]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.09.27-16.34.27:644][376]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.09.27-16.34.27:667][379]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.09.27-16.34.27:676][380]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.09.27-16.34.27:684][381]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.09.27-16.34.27:843][400]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.09.27-16.34.27:843][400]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.09.27-16.34.27:869][403]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.09.27-16.34.27:878][404]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.09.27-16.34.28:019][421]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.09.27-16.34.28:237][447]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.09.27-16.34.28:420][469]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.09.27-16.34.28:472][475]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.09.27-16.34.28:579][488]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.09.27-16.34.28:799][514]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.09.27-16.34.28:823][517]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.09.27-16.34.29:066][546]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.27-16.34.29:153][556]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.27-16.34.29:556][604]MaterialEditorStats: Base pass shader: 156 instructions
+[2018.09.27-16.34.29:556][604]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 230 instructions
+[2018.09.27-16.34.29:556][604]MaterialEditorStats: Base pass vertex shader: 88 instructions
+[2018.09.27-16.34.29:556][604]MaterialEditorStats: Texture samplers: 3/16
+[2018.09.27-16.34.35:716][342]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-16.35.06:863][974]LogMaterialEditor: Saving and Compiling material Mirror
+[2018.09.27-16.35.09:134][974]LogMaterial: Display: Missing cached shader map for material Mirror, compiling. 
+[2018.09.27-16.35.09:191][974]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.09.27-16.35.09:191][974]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.09.27-16.35.09:191][974]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.09.27-16.35.09:191][974]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.09.27-16.35.09:210][974]LogMaterial: Display: Missing cached shader map for material Mirror, compiling. 
+[2018.09.27-16.35.09:233][974]LogMaterial: Display: Missing cached shader map for material Mirror, compiling. 
+[2018.09.27-16.35.09:302][974]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Mirror, compiling. 
+[2018.09.27-16.35.11:434][974]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.09.27-16.35.11:434][974]LogShaderCompilers: Display: Shaders left to compile 39
+[2018.09.27-16.35.11:434][974]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.09.27-16.35.11:434][974]LogShaderCompilers: Display: Shaders left to compile 37
+[2018.09.27-16.35.11:434][974]LogShaderCompilers: Display: Shaders left to compile 36
+[2018.09.27-16.35.11:434][974]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.09.27-16.35.11:434][974]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.09.27-16.35.11:434][974]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.09.27-16.35.11:434][974]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.09.27-16.35.11:434][974]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.09.27-16.35.11:434][974]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.09.27-16.35.11:434][974]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.09.27-16.35.11:434][974]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.09.27-16.35.11:434][974]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.09.27-16.35.11:434][974]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.09.27-16.35.11:434][974]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.09.27-16.35.11:434][974]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.09.27-16.35.11:434][974]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.09.27-16.35.11:434][974]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.09.27-16.35.11:434][974]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.09.27-16.35.11:436][974]TextureStreamingBuild: Display: Compiling optional shaders took 2.140 seconds.
+[2018.09.27-16.35.14:687][974]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.27-16.35.14:724][974]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Mirror106E924D453105B1FFDBBF8FA6832754.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Assets/Materials/Mirror.uasset'
+[2018.09.27-16.35.18:254][362]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageMapCBC6B0FF459A766DF5EF239938075F47.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Map/MassageMap.umap'
+[2018.09.27-16.35.18:400][362]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageMap_BuiltData5405596B409BB90865B1609C7A824CC0.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Map/MassageMap_BuiltData.uasset'
+[2018.09.27-16.35.34:699][230]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-16.35.37:154][475]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.09.27-16.35.48:334][729]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-16.35.59:526][ 28]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-16.36.22:085][612]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-16.36.35:827][185]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-16.36.56:538][216]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-16.37.13:299][663]LogSlate: Window 'Delete Assets' being destroyed
+[2018.09.27-16.37.13:950][663]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.09.27-16.37.14:070][663]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.09.27-16.37.14:160][663]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.09.27-16.37.14:282][663]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.09.27-16.37.23:532][563]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-16.37.27:520][981]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassagePoint_ChildFC5669CF4023BDDAB92925BF34541557.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Blueprints/MassagePoints/MassagePoint_Child.uasset'
+[2018.09.27-16.37.27:542][981]LogMetaData: Removing '/Game/Classes/226_Massage/Blueprints/MassagePoints/MassagePoint_Child.MassagePoint_Child_C' ref from Metadata '/Game/Classes/226_Massage/Blueprints/MassagePoints/MassagePoint_Child_1.PackageMetaData'
+[2018.09.27-16.37.27:542][981]LogMetaData: Removing '/Game/Classes/226_Massage/Blueprints/MassagePoints/MassagePoint_Child.MassagePoint_Child:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Classes/226_Massage/Blueprints/MassagePoints/MassagePoint_Child_1.PackageMetaData'
+[2018.09.27-16.37.27:542][981]LogMetaData: Removing '/Game/Classes/226_Massage/Blueprints/MassagePoints/MassagePoint_Child.MassagePoint_Child:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Classes/226_Massage/Blueprints/MassagePoints/MassagePoint_Child_1.PackageMetaData'
+[2018.09.27-16.37.27:542][981]LogMetaData: Removing '/Game/Classes/226_Massage/Blueprints/MassagePoints/MassagePoint_Child.MassagePoint_Child:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/Classes/226_Massage/Blueprints/MassagePoints/MassagePoint_Child_1.PackageMetaData'
+[2018.09.27-16.37.27:543][981]LogMetaData: Removing '/Game/Classes/226_Massage/Blueprints/MassagePoints/MassagePoint_Child.MassagePoint_Child:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Classes/226_Massage/Blueprints/MassagePoints/MassagePoint_Child_1.PackageMetaData'
+[2018.09.27-16.37.27:543][981]LogMetaData: Removing '/Game/Classes/226_Massage/Blueprints/MassagePoints/MassagePoint_Child.MassagePoint_Child:EventGraph.K2Node_CallParentFunction_1' ref from Metadata '/Game/Classes/226_Massage/Blueprints/MassagePoints/MassagePoint_Child_1.PackageMetaData'
+[2018.09.27-16.37.27:543][981]LogMetaData: Removing '/Game/Classes/226_Massage/Blueprints/MassagePoints/MassagePoint_Child.MassagePoint_Child:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Classes/226_Massage/Blueprints/MassagePoints/MassagePoint_Child_1.PackageMetaData'
+[2018.09.27-16.37.27:543][981]LogMetaData: Removing '/Game/Classes/226_Massage/Blueprints/MassagePoints/MassagePoint_Child.MassagePoint_Child:EventGraph.K2Node_CallParentFunction_2' ref from Metadata '/Game/Classes/226_Massage/Blueprints/MassagePoints/MassagePoint_Child_1.PackageMetaData'
+[2018.09.27-16.37.27:543][981]LogMetaData: Removing '/Game/Classes/226_Massage/Blueprints/MassagePoints/MassagePoint_Child.SKEL_MassagePoint_Child_C' ref from Metadata '/Game/Classes/226_Massage/Blueprints/MassagePoints/MassagePoint_Child_1.PackageMetaData'
+[2018.09.27-16.37.27:641][981]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassagePoint_Child74C2069740D348A022570085F4D2A329.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Blueprints/MassagePoints/MassagePoint_Child.uasset'
+[2018.09.27-16.37.27:672][981]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassagePoint_Child_1FC75DF8E4C4753238A2077A2D1F1C259.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Blueprints/MassagePoints/MassagePoint_Child_1.uasset'
+[2018.09.27-16.37.30:136][264]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-16.37.35:367][854]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-16.37.37:782][117]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-16.37.43:079][714]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-16.37.45:218][930]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-16.37.49:557][409]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-16.37.58:591][450]LogEditorViewport: Clicking on Actor (LMB): MassagePoint_Child_C (MassagePoint_Child5)
+[2018.09.27-16.37.59:718][582]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-16.38.05:655][280]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-16.38.05:839][284]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageMap7FEDA6E84E1630A2F3A4FC815A634E22.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Map/MassageMap.umap'
+[2018.09.27-16.38.05:968][284]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageMap_BuiltData568B822C4BCE8E6C0B927083BD41D450.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Map/MassageMap_BuiltData.uasset'
+[2018.09.27-16.38.08:852][555]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageMannequin58EE36C34B2814B9EE626082684845E5.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Assets/Character/MassageMannequin.uasset'
+[2018.09.27-16.38.08:872][555]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/MassageMesh27F000EB4274852C8FD05F94FB9A1D69.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Assets/Character/MassageMesh.uasset'
