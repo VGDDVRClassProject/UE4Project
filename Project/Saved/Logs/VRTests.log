@@ -21297,3 +21297,575 @@ Scale3D: 1.000000 1.000000 1.000000
 [2018.09.27-18.52.09:337][ 14]BlueprintLog: New page: Compile Animal_BP
 [2018.09.27-18.52.09:611][ 14]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/Animal_BP5664B54040C026D63DE7A58CEB49960A.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Blueprints/Animals/Animal_BP.uasset'
 [2018.09.27-18.52.09:835][ 23]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/Animal_BP85E971FC49276DD663331C840274B11E.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Blueprints/Animals/Animal_BP.uasset'
+[2018.09.27-18.53.26:476][623]AssetReimport: New page: Outstanding source content changes 12:53:26 PM
+[2018.09.27-18.53.26:486][623]LogTemp: Couldn't find amount to resample to.
+[2018.09.27-18.53.26:783][623]LogAudioEditor: Performing atomic reimport of [D:/projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Assets/Meshes/ANIMALS/Dog/Sound/Wolf_Run.wav]
+[2018.09.27-18.53.26:791][623]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:/projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Assets/Meshes/ANIMALS/Dog/Sound/Wolf_Run.wav)
+[2018.09.27-18.53.26:818][623]LogAudioEditor: -- imported successfully
+[2018.09.27-18.53.26:860][624]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:/projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Assets/Meshes/ANIMALS/Dog/Sound/Dog_GrowlingShitztu.wav)
+[2018.09.27-18.53.26:861][624]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:/projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Assets/Meshes/ANIMALS/Dog/Sound/Dog_GrowlingShitztu.wav)
+[2018.09.27-18.53.26:862][624]LogFactory: FactoryCreateFile: SoundWave with SoundSurroundFactory (0 0 D:/projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Assets/Meshes/ANIMALS/Dog/Sound/Dog_GrowlingShitztu.wav)
+[2018.09.27-18.53.26:864][624]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundSurroundFactory (0 0 D:/projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Assets/Meshes/ANIMALS/Dog/Sound/Dog_GrowlingShitztu.wav)
+[2018.09.27-18.53.26:865][624]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundSurroundFactory (0 0 D:/projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Assets/Meshes/ANIMALS/Dog/Sound/Dog_GrowlingShitztu.wav)
+[2018.09.27-18.53.26:866][624]LogFactory: FactoryCreateFile: FileMediaSource with AvfFileMediaSourceFactory (0 0 D:/projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Assets/Meshes/ANIMALS/Dog/Sound/Dog_GrowlingShitztu.wav)
+[2018.09.27-18.53.26:914][625]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/Dog_GrowlingShitztu7E995B5948A314F4751E76BE1E1A26AE.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Assets/Meshes/ANIMALS/Dog/Sound/Dog_GrowlingShitztu.uasset'
+[2018.09.27-18.53.29:937][806]AssetReimport: Reimported asset Wolf_Run from D:/projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Assets/Meshes/ANIMALS/Dog/Sound/Wolf_Run.wav.
+[2018.09.27-18.53.29:937][806]AssetReimport: Importing new asset /Game/Classes/VetAssistant/Assets/Meshes/ANIMALS/Dog/Sound/Dog_GrowlingShitztu.
+[2018.09.27-18.53.58:294][507]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/VetAssistant/Blueprints/Animals/Dog.Dog
+[2018.09.27-18.54.01:473][677]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2018.09.27-18.54.05:194][900]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2018.09.27-18.54.11:358][268]LogTexture: Display: Building textures: Wolf_Fur22 (BGRA8, 399X200)
+[2018.09.27-18.54.11:358][268]LogTexture: Display: Building textures: Wolf_Eyes_1 (AutoDXT, 256X256)
+[2018.09.27-18.54.11:358][268]LogTexture: Display: Building textures: Wolf_Eyes_2 (AutoDXT, 256X256)
+[2018.09.27-18.54.11:358][268]LogMaterial: Display: Missing cached shader map for material FUR_Mat, compiling. 
+[2018.09.27-18.54.12:959][268]LogShaderCompilers: Display: Shaders left to compile 87
+[2018.09.27-18.54.12:959][268]LogShaderCompilers: Display: Shaders left to compile 77
+[2018.09.27-18.54.12:959][268]LogShaderCompilers: Display: Shaders left to compile 67
+[2018.09.27-18.54.12:959][268]LogShaderCompilers: Display: Shaders left to compile 57
+[2018.09.27-18.54.12:959][268]LogTexture: Display: Building textures: Wolf_Body1 (AutoDXT, 4096X2048)
+[2018.09.27-18.54.12:959][268]LogMaterial: Display: Missing cached shader map for material Wolf_Body, compiling. 
+[2018.09.27-18.54.13:035][268]LogMaterial: Display: Missing cached shader map for material Wolf_Eyes, compiling. 
+[2018.09.27-18.54.13:085][268]LogMaterial: Display: Missing cached shader map for material Wolf_Claws, compiling. 
+[2018.09.27-18.54.13:131][268]LogSkeletalMesh: Building Skeletal Mesh Wolf...
+[2018.09.27-18.54.13:208][268]LogSkeletalMesh: Built Skeletal Mesh [0.08s] /Game/Classes/VetAssistant/Assets/Meshes/ANIMALS/Dog/Wolf.Wolf
+[2018.09.27-18.54.13:211][268]LogMaterial: Display: Missing cached shader map for material Wolf_Teeth, compiling. 
+[2018.09.27-18.54.13:343][268]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.09.27-18.54.15:970][420]LogShaderCompilers: Display: Shaders left to compile 287
+[2018.09.27-18.54.16:685][463]LogShaderCompilers: Display: Shaders left to compile 277
+[2018.09.27-18.54.17:748][527]LogShaderCompilers: Display: Shaders left to compile 267
+[2018.09.27-18.54.18:068][546]LogShaderCompilers: Display: Shaders left to compile 257
+[2018.09.27-18.54.21:504][752]LogShaderCompilers: Display: Shaders left to compile 247
+[2018.09.27-18.54.21:554][755]LogShaderCompilers: Display: Shaders left to compile 237
+[2018.09.27-18.54.22:273][798]LogShaderCompilers: Display: Shaders left to compile 227
+[2018.09.27-18.54.23:239][856]LogShaderCompilers: Display: Shaders left to compile 217
+[2018.09.27-18.54.24:176][912]LogShaderCompilers: Display: Shaders left to compile 207
+[2018.09.27-18.54.24:298][919]BlueprintLog: New page: Compile Dog
+[2018.09.27-18.54.24:712][919]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/DogCB466F8C471186208DB985818AE62335.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Blueprints/Animals/Dog.uasset'
+[2018.09.27-18.54.25:194][934]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/Dog60ADD31E4F714059906F5C9D32E82A86.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Blueprints/Animals/Dog.uasset'
+[2018.09.27-18.54.25:575][954]LogShaderCompilers: Display: Shaders left to compile 197
+[2018.09.27-18.54.25:840][969]LogShaderCompilers: Display: Shaders left to compile 187
+[2018.09.27-18.54.26:325][998]LogShaderCompilers: Display: Shaders left to compile 177
+[2018.09.27-18.54.27:472][ 67]LogShaderCompilers: Display: Shaders left to compile 167
+[2018.09.27-18.54.28:603][135]LogShaderCompilers: Display: Shaders left to compile 157
+[2018.09.27-18.54.28:938][155]LogShaderCompilers: Display: Shaders left to compile 147
+[2018.09.27-18.54.28:955][156]LogShaderCompilers: Display: Shaders left to compile 137
+[2018.09.27-18.54.31:107][285]LogShaderCompilers: Display: Shaders left to compile 127
+[2018.09.27-18.54.31:876][331]LogShaderCompilers: Display: Shaders left to compile 117
+[2018.09.27-18.54.32:241][353]LogShaderCompilers: Display: Shaders left to compile 107
+[2018.09.27-18.54.32:541][371]LogShaderCompilers: Display: Shaders left to compile 97
+[2018.09.27-18.54.32:783][385]LogTemp: Repeating last play command: Simulate
+[2018.09.27-18.54.32:827][385]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.27-18.54.32:827][385]PIE: New page: SIE session: TestingLevel (Sep 27, 2018, 12:54:32 PM)
+[2018.09.27-18.54.32:827][385]LogPlayLevel: Creating play world package: /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel
+[2018.09.27-18.54.32:831][385]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004077s)
+[2018.09.27-18.54.32:832][385]LogAIModule: Creating AISystem for world TestingLevel
+[2018.09.27-18.54.32:832][385]LogPlayLevel: PIE: World Init took: (0.001039s)
+[2018.09.27-18.54.32:832][385]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Classes/VetAssistant/Maps/TestingLevel.TestingLevel to /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel (0.005293s)
+[2018.09.27-18.54.32:875][385]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.27-18.54.32:922][385]LogInit: FAudioDevice initialized.
+[2018.09.27-18.54.32:956][385]LogLoad: Game class is 'VA_Gamemode_C'
+[2018.09.27-18.54.32:958][385]LogWorld: Bringing World /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel up for play (max tick rate 60) at 2018.09.27-15.54.32
+[2018.09.27-18.54.32:958][385]LogWorld: Bringing up level for play took: 0.001050
+[2018.09.27-18.54.32:971][385]PIE: Play in editor start time for /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel 1.124
+[2018.09.27-18.54.34:407][470]LogShaderCompilers: Display: Shaders left to compile 87
+[2018.09.27-18.54.34:433][472]LogShaderCompilers: Display: Shaders left to compile 77
+[2018.09.27-18.54.35:598][542]LogShaderCompilers: Display: Shaders left to compile 67
+[2018.09.27-18.54.35:617][543]LogShaderCompilers: Display: Shaders left to compile 57
+[2018.09.27-18.54.37:383][649]LogShaderCompilers: Display: Shaders left to compile 47
+[2018.09.27-18.54.37:750][671]LogShaderCompilers: Display: Shaders left to compile 37
+[2018.09.27-18.54.38:166][696]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.09.27-18.54.38:758][731]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.09.27-18.54.40:818][855]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.09.27-18.54.46:350][186]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-18.54.46:435][191]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.27-18.54.46:470][191]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.27-18.54.46:502][191]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.27-18.54.46:537][193]LogPlayLevel: Display: Destroying online subsystem :Context_92
+[2018.09.27-18.54.47:753][266]LogEditorViewport: Clicking on Actor (LMB): Spawner_C (Spawner)
+[2018.09.27-18.54.49:881][392]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-18.55.02:662][158]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.09.27-18.55.04:342][257]LogTemp: Repeating last play command: Simulate
+[2018.09.27-18.55.04:372][257]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.27-18.55.04:372][257]PIE: New page: SIE session: TestingLevel (Sep 27, 2018, 12:55:04 PM)
+[2018.09.27-18.55.04:376][257]LogPlayLevel: Creating play world package: /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel
+[2018.09.27-18.55.04:379][257]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002683s)
+[2018.09.27-18.55.04:379][257]LogAIModule: Creating AISystem for world TestingLevel
+[2018.09.27-18.55.04:379][257]LogPlayLevel: PIE: World Init took: (0.000613s)
+[2018.09.27-18.55.04:379][257]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Classes/VetAssistant/Maps/TestingLevel.TestingLevel to /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel (0.003415s)
+[2018.09.27-18.55.04:413][257]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.27-18.55.04:452][257]LogInit: FAudioDevice initialized.
+[2018.09.27-18.55.04:482][257]LogLoad: Game class is 'VA_Gamemode_C'
+[2018.09.27-18.55.04:483][257]LogWorld: Bringing World /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel up for play (max tick rate 60) at 2018.09.27-15.55.04
+[2018.09.27-18.55.04:484][257]LogWorld: Bringing up level for play took: 0.000895
+[2018.09.27-18.55.04:497][257]PIE: Play in editor start time for /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel 0.65
+[2018.09.27-18.55.12:736][749]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-18.55.12:820][754]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.27-18.55.12:852][754]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.27-18.55.12:881][754]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.27-18.55.12:924][756]LogPlayLevel: Display: Destroying online subsystem :Context_93
+[2018.09.27-18.55.26:814][589]LogClass: Warning: In asset 'None', there is an enum property of type 'EAnimationMode' with an invalid value of ''
+[2018.09.27-18.55.26:814][589]LogClass: Warning: In asset 'None', there is an enum property of type 'EAnimationMode' with an invalid value of ''
+[2018.09.27-18.55.34:741][ 63]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Classes/VetAssistant/Assets/Meshes/ANIMALS/Dog/Animation/Wolf_Anim_Wolf_Skeleton_Wolf_Run_Cycle_.Wolf_Anim_Wolf_Skeleton_Wolf_Run_Cycle_
+[2018.09.27-18.55.34:782][ 63]LogAnimationCompression: Recompressing (AnimSequence /Game/Classes/VetAssistant/Assets/Meshes/ANIMALS/Dog/Animation/Wolf_Anim_Wolf_Skeleton_Wolf_Run_Cycle_.Wolf_Anim_Wolf_Skeleton_Wolf_Run_Cycle_) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.09.27-18.55.37:524][221]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/TestingLevel6FF9980C4F07AA826196758934B2DF7F.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Maps/TestingLevel.umap'
+[2018.09.27-18.55.37:597][221]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/TestingLevel_BuiltData75A89B30431EB9CA776DF1A8F7AE0787.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Maps/TestingLevel_BuiltData.uasset'
+[2018.09.27-18.55.38:502][275]LogTemp: Repeating last play command: Simulate
+[2018.09.27-18.55.38:533][275]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.27-18.55.38:533][275]PIE: New page: SIE session: TestingLevel (Sep 27, 2018, 12:55:38 PM)
+[2018.09.27-18.55.38:536][275]LogPlayLevel: Creating play world package: /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel
+[2018.09.27-18.55.38:538][275]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002478s)
+[2018.09.27-18.55.38:539][275]LogAIModule: Creating AISystem for world TestingLevel
+[2018.09.27-18.55.38:539][275]LogPlayLevel: PIE: World Init took: (0.000596s)
+[2018.09.27-18.55.38:539][275]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Classes/VetAssistant/Maps/TestingLevel.TestingLevel to /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel (0.003178s)
+[2018.09.27-18.55.38:575][275]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.27-18.55.38:610][275]LogInit: FAudioDevice initialized.
+[2018.09.27-18.55.38:644][275]LogLoad: Game class is 'VA_Gamemode_C'
+[2018.09.27-18.55.38:646][275]LogWorld: Bringing World /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel up for play (max tick rate 60) at 2018.09.27-15.55.38
+[2018.09.27-18.55.38:646][275]LogWorld: Bringing up level for play took: 0.000795
+[2018.09.27-18.55.38:659][275]PIE: Play in editor start time for /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel 0.813
+[2018.09.27-18.55.52:385][ 98]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-18.55.52:420][100]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.27-18.55.52:454][100]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.27-18.55.52:485][100]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.27-18.55.52:522][102]LogPlayLevel: Display: Destroying online subsystem :Context_96
+[2018.09.27-18.56.39:249][812]LogSlate: Window 'Save Content' being destroyed
+[2018.09.27-18.56.39:299][812]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/Wolf_Run85358CED4DE4620B6DDF3482333A3D45.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Assets/Meshes/ANIMALS/Dog/Sound/Wolf_Run.uasset'
+[2018.09.27-18.56.39:355][812]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/DogF96D10E0497E987CCF783784765B64AA.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Blueprints/Animals/Dog.uasset'
+[2018.09.27-18.56.39:371][812]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/FoodFD46E4BB4042AF3B9B94D69D7788DBDC.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Blueprints/Food/Food.uasset'
+[2018.09.27-18.56.50:794][481]LogStaticMesh: Building static mesh fishOBJ...
+[2018.09.27-18.56.50:873][481]LogStaticMesh: Built static mesh [0.08s] /Game/Classes/VetAssistant/Assets/Meshes/FoodForAnimals/Cat/fishOBJ.fishOBJ
+[2018.09.27-18.56.51:011][481]LogTexture: Display: Building textures: pez_02_difusa (BGRA8, 2712X1064)
+[2018.09.27-18.56.51:011][481]LogMaterial: Display: Missing cached shader map for material pez_02_difusa_Mat, compiling. 
+[2018.09.27-18.56.51:027][481]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.09.27-18.56.51:027][481]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.09.27-18.56.51:027][481]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.27-18.56.51:037][481]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/VetAssistant/Assets/Meshes/FoodForAnimals/Cat/FishForCat.FishForCat
+[2018.09.27-18.57.01:924][105]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.09.27-18.57.05:080][291]BlueprintLog: New page: Compile FishForCat
+[2018.09.27-18.57.05:317][291]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/FishForCat77ADFCB54DA73A16A0BE8CBFC8F55FAD.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Assets/Meshes/FoodForAnimals/Cat/FishForCat.uasset'
+[2018.09.27-18.57.05:610][305]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/FishForCatC8ED21654A385139FE4D078102DF4C1C.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Assets/Meshes/FoodForAnimals/Cat/FishForCat.uasset'
+[2018.09.27-18.57.08:250][462]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.09.27-18.57.18:242][ 59]BlueprintLog: New page: Compile Animal_BP
+[2018.09.27-18.57.18:577][ 59]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/Animal_BPBA69EDD64D4B08E757FFE4A9A2A56E57.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Blueprints/Animals/Animal_BP.uasset'
+[2018.09.27-18.57.18:768][ 66]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/Animal_BP1749C5DD4073C2102A23D4925A423728.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Blueprints/Animals/Animal_BP.uasset'
+[2018.09.27-18.57.24:092][385]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-18.57.31:357][812]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-18.57.31:407][815]LogTemp: Repeating last play command: Simulate
+[2018.09.27-18.57.31:441][815]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.27-18.57.31:441][815]PIE: New page: SIE session: TestingLevel (Sep 27, 2018, 12:57:31 PM)
+[2018.09.27-18.57.31:443][815]LogPlayLevel: Creating play world package: /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel
+[2018.09.27-18.57.31:445][815]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002479s)
+[2018.09.27-18.57.31:446][815]LogAIModule: Creating AISystem for world TestingLevel
+[2018.09.27-18.57.31:446][815]LogPlayLevel: PIE: World Init took: (0.000612s)
+[2018.09.27-18.57.31:446][815]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Classes/VetAssistant/Maps/TestingLevel.TestingLevel to /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel (0.003224s)
+[2018.09.27-18.57.31:481][815]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.27-18.57.31:520][815]LogInit: FAudioDevice initialized.
+[2018.09.27-18.57.31:551][815]LogLoad: Game class is 'VA_Gamemode_C'
+[2018.09.27-18.57.31:553][815]LogWorld: Bringing World /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel up for play (max tick rate 60) at 2018.09.27-15.57.31
+[2018.09.27-18.57.31:553][815]LogWorld: Bringing up level for play took: 0.001071
+[2018.09.27-18.57.31:566][815]PIE: Play in editor start time for /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel -0.28
+[2018.09.27-18.57.42:684][471]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-18.57.42:736][474]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.27-18.57.42:773][474]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.27-18.57.42:805][474]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.27-18.57.42:840][476]LogPlayLevel: Display: Destroying online subsystem :Context_100
+[2018.09.27-18.58.12:369][233]LogSlate: Took 0.000194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.09.27-18.58.23:597][901]BlueprintLog: New page: Compile Animal_BP
+[2018.09.27-18.58.23:930][901]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/Animal_BP5CFE129C43CD0BB8CCA1E99086C030D3.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Blueprints/Animals/Animal_BP.uasset'
+[2018.09.27-18.58.23:967][901]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/CatE0D7BA0B4FB8F13FBA204EB233E165E5.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Blueprints/Animals/Cat.uasset'
+[2018.09.27-18.58.24:014][901]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/DogCDC7219E4296847401B2A4B4E3EDDA18.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Blueprints/Animals/Dog.uasset'
+[2018.09.27-18.58.24:186][907]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/Animal_BPCD3D31494A20CD4522C2C38EC2FC67A1.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Blueprints/Animals/Animal_BP.uasset'
+[2018.09.27-18.58.34:648][523]BlueprintLog: New page: Compile Animal_BP
+[2018.09.27-18.58.34:937][523]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/Animal_BPE5D181524192174614ACB4AF98988396.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Blueprints/Animals/Animal_BP.uasset'
+[2018.09.27-18.58.34:967][523]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/Cat49E1811E4E72DE44BECB57A793B733B9.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Blueprints/Animals/Cat.uasset'
+[2018.09.27-18.58.35:015][523]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/Dog428E568747744550B3FB36A7D89FE262.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Blueprints/Animals/Dog.uasset'
+[2018.09.27-18.58.35:431][543]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/Animal_BPA6477B894B9EF39473F82095DA23F5AA.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Blueprints/Animals/Animal_BP.uasset'
+[2018.09.27-18.59.45:165][701]BlueprintLog: New page: Compile Animal_BP
+[2018.09.27-18.59.45:452][701]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/Animal_BPCB32C09A4AE0BD4B377BB3941D7070F3.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Blueprints/Animals/Animal_BP.uasset'
+[2018.09.27-18.59.45:479][701]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/Cat5047E63A45FD9D7A8E4402B8C394C705.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Blueprints/Animals/Cat.uasset'
+[2018.09.27-18.59.45:525][701]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/DogF079393E43CD5120D67A0B8D22418750.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Blueprints/Animals/Dog.uasset'
+[2018.09.27-18.59.45:811][713]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/Animal_BPC42B33374F1CE25BD066C4B7E1C928D4.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Blueprints/Animals/Animal_BP.uasset'
+[2018.09.27-19.00.07:471][  8]BlueprintLog: New page: Compile Animal_BP
+[2018.09.27-19.00.07:768][  8]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/Animal_BP3864B60B42D713553F2C8D97D65AF8B1.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Blueprints/Animals/Animal_BP.uasset'
+[2018.09.27-19.00.08:146][ 26]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/Animal_BPFA8A03D94C447948EC575497CB00276C.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Blueprints/Animals/Animal_BP.uasset'
+[2018.09.27-19.00.18:962][668]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.09.27-19.00.35:488][657]LogStaticMesh: Building static mesh Stones_and_buried_treasure_Bone...
+[2018.09.27-19.00.35:502][657]LogStaticMesh: Built static mesh [0.01s] /Game/Classes/VetAssistant/Assets/Meshes/FoodForAnimals/Dog/Stones_and_buried_treasure_Bone.Stones_and_buried_treasure_Bone
+[2018.09.27-19.00.38:356][826]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.09.27-19.00.50:043][448]LogSlate: Window 'Change Variable Type' being destroyed
+[2018.09.27-19.00.53:054][620]LogSlate: Window 'Find in Blueprints' being destroyed
+[2018.09.27-19.00.53:058][620]LogSlate: Window 'Find in Blueprints' being destroyed
+[2018.09.27-19.00.59:278][989]BlueprintLog: New page: Compile Animal_BP
+[2018.09.27-19.00.59:630][989]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/Animal_BP139FE8784A68D5AA454A8CBF20DAF357.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Blueprints/Animals/Animal_BP.uasset'
+[2018.09.27-19.00.59:675][989]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/Cat67E5CF7743B6D141960C56976428D93B.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Blueprints/Animals/Cat.uasset'
+[2018.09.27-19.00.59:722][989]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/Dog0BE4CAC344A6736209206C9AC18817D8.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Blueprints/Animals/Dog.uasset'
+[2018.09.27-19.01.01:029][ 60]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.09.27-19.01.04:919][291]BlueprintLog: New page: Compile Dog
+[2018.09.27-19.01.05:205][291]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/Dog0B56BB834C7FB0986A8C27B14C7D2F27.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Blueprints/Animals/Dog.uasset'
+[2018.09.27-19.01.05:442][298]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/Dog6ADC4FB84D90265FE41E379C5210CAE1.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Blueprints/Animals/Dog.uasset'
+[2018.09.27-19.01.06:796][374]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.09.27-19.01.07:921][437]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.09.27-19.01.12:984][733]Cmd: DELETE
+[2018.09.27-19.01.12:984][733]Cmd: ACTOR DELETE
+[2018.09.27-19.01.13:059][733]LogEditorActor: Deleted Actor: BoneForDog_C
+[2018.09.27-19.01.13:087][733]LogEditorActor: Deleted 1 Actors (0.062 secs)
+[2018.09.27-19.01.14:846][839]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-19.01.15:004][848]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/VetAssistant/Assets/Meshes/FoodForAnimals/Dog/BoneForDog.BoneForDog
+[2018.09.27-19.01.23:231][319]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-19.01.32:394][867]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Classes/VetAssistant/Assets/Meshes/FoodForAnimals/Dog/Stones_and_buried_treasure_Bone.Stones_and_buried_treasure_Bone
+[2018.09.27-19.01.33:270][868]LogRenderer: Reallocating scene render targets to support 1480x1036 Format 26 NumSamples 1 (Frame:1).
+[2018.09.27-19.01.37:723][119]LogActorFactory: Actor Factory created Stones_and_buried_treasure_Bone
+[2018.09.27-19.01.39:210][208]LogActorFactory: Actor Factory created Stones_and_buried_treasure_Bone
+[2018.09.27-19.01.42:210][386]Cmd: DELETE
+[2018.09.27-19.01.42:210][386]Cmd: ACTOR DELETE
+[2018.09.27-19.01.42:211][386]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.27-19.01.42:240][386]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2018.09.27-19.01.42:915][427]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-19.01.44:555][523]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-19.01.44:637][528]LogTemp: Repeating last play command: Simulate
+[2018.09.27-19.01.44:668][528]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.27-19.01.44:668][528]PIE: New page: SIE session: TestingLevel (Sep 27, 2018, 1:01:44 PM)
+[2018.09.27-19.01.44:670][528]LogPlayLevel: Creating play world package: /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel
+[2018.09.27-19.01.44:673][528]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002730s)
+[2018.09.27-19.01.44:673][528]LogAIModule: Creating AISystem for world TestingLevel
+[2018.09.27-19.01.44:673][528]LogPlayLevel: PIE: World Init took: (0.000562s)
+[2018.09.27-19.01.44:673][528]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Classes/VetAssistant/Maps/TestingLevel.TestingLevel to /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel (0.003426s)
+[2018.09.27-19.01.44:708][528]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.27-19.01.44:747][528]LogInit: FAudioDevice initialized.
+[2018.09.27-19.01.44:780][528]LogLoad: Game class is 'VA_Gamemode_C'
+[2018.09.27-19.01.44:782][528]LogWorld: Bringing World /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel up for play (max tick rate 60) at 2018.09.27-16.01.44
+[2018.09.27-19.01.44:782][528]LogWorld: Bringing up level for play took: 0.001009
+[2018.09.27-19.01.44:795][528]PIE: Play in editor start time for /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel 0.949
+[2018.09.27-19.01.59:480][400]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-19.02.09:003][957]LogNet: Browse: /Game/Classes/VetAssistant/Maps/TestingLevel
+[2018.09.27-19.02.09:003][957]LogLoad: LoadMap: /Game/Classes/VetAssistant/Maps/TestingLevel
+[2018.09.27-19.02.09:450][957]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.419 s
+[2018.09.27-19.02.09:451][957]LogOutputDevice: Error: === Handled ensure: ===
+[2018.09.27-19.02.09:451][957]LogOutputDevice: Error: 
+[2018.09.27-19.02.09:451][957]LogOutputDevice: Error: Ensure condition failed: !ActorComponent->IsRegistered() || ActorComponent->GetScene() != this [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Renderer\Private\RendererScene.cpp] [Line: 2700]
+[2018.09.27-19.02.09:451][957]LogOutputDevice: Error: Component Name: PhysicsHandleComponent /Engine/Transient.PhysicsHandleComponent_4 World Name: World None.None Component Asset: None
+[2018.09.27-19.02.09:451][957]LogOutputDevice: Error: Stack: 
+[2018.09.27-19.02.09:451][957]LogOutputDevice: Error: [Callstack] 0x00007ffebc9671e6 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.27-19.02.09:451][957]LogOutputDevice: Error: [Callstack] 0x00007ffebc6a0c82 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.27-19.02.09:451][957]LogOutputDevice: Error: [Callstack] 0x00007ffebc6bb346 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.27-19.02.09:451][957]LogOutputDevice: Error: [Callstack] 0x00007ffe9cd25e04 UE4Editor-Renderer.dll!UnknownFunction []
+[2018.09.27-19.02.09:451][957]LogOutputDevice: Error: [Callstack] 0x00007ffea1bc506c UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.27-19.02.09:451][957]LogOutputDevice: Error: [Callstack] 0x00007ffebfa02e41 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.09.27-19.02.09:451][957]LogOutputDevice: Error: [Callstack] 0x00007ffebf990f45 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.09.27-19.02.09:451][957]LogOutputDevice: Error: [Callstack] 0x00007ffebf953f89 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.09.27-19.02.09:451][957]LogOutputDevice: Error: [Callstack] 0x00007ffebf9534ae UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.09.27-19.02.09:451][957]LogOutputDevice: Error: [Callstack] 0x00007ffea1afde6d UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.27-19.02.09:451][957]LogOutputDevice: Error: [Callstack] 0x00007ffea1abf11c UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.27-19.02.09:451][957]LogOutputDevice: Error: [Callstack] 0x00007ffea1a52843 UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.27-19.02.09:451][957]LogOutputDevice: Error: [Callstack] 0x00007ffea1af6bdd UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.27-19.02.09:451][957]LogOutputDevice: Error: [Callstack] 0x00007ffea8116f02 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.09.27-19.02.09:451][957]LogOutputDevice: Error: [Callstack] 0x00007ffea8a0f646 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.09.27-19.02.09:451][957]LogOutputDevice: Error: [Callstack] 0x00007ff772085cbd UE4Editor.exe!UnknownFunction []
+[2018.09.27-19.02.09:451][957]LogOutputDevice: Error: [Callstack] 0x00007ff772095b3c UE4Editor.exe!UnknownFunction []
+[2018.09.27-19.02.09:451][957]LogOutputDevice: Error: [Callstack] 0x00007ff772095bba UE4Editor.exe!UnknownFunction []
+[2018.09.27-19.02.09:451][957]LogOutputDevice: Error: [Callstack] 0x00007ff7720a3dac UE4Editor.exe!UnknownFunction []
+[2018.09.27-19.02.09:451][957]LogOutputDevice: Error: [Callstack] 0x00007ff7720a5aaa UE4Editor.exe!UnknownFunction []
+[2018.09.27-19.02.09:451][957]LogOutputDevice: Error: [Callstack] 0x00007ffefac23034 KERNEL32.DLL!UnknownFunction []
+[2018.09.27-19.02.09:451][957]LogOutputDevice: Error: [Callstack] 0x00007ffefc971461 ntdll.dll!UnknownFunction []
+[2018.09.27-19.02.09:451][957]LogOutputDevice: Error: 
+[2018.09.27-19.02.09:454][957]LogStats:                SubmitErrorReport -  0.000 s
+[2018.09.27-19.02.10:089][957]LogStats:                    SendNewReport -  0.636 s
+[2018.09.27-19.02.10:090][957]LogStats:             FDebug::EnsureFailed -  1.058 s
+[2018.09.27-19.02.10:092][957]LogPlayLevel: Creating play world package: /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel
+[2018.09.27-19.02.10:095][957]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002669s)
+[2018.09.27-19.02.10:095][957]LogAIModule: Creating AISystem for world TestingLevel
+[2018.09.27-19.02.10:095][957]LogPlayLevel: PIE: World Init took: (0.000535s)
+[2018.09.27-19.02.10:095][957]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Classes/VetAssistant/Maps/TestingLevel.TestingLevel to /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel (0.003345s)
+[2018.09.27-19.02.10:095][957]LogLoad: Game class is 'VA_Gamemode_C'
+[2018.09.27-19.02.10:098][957]LogWorld: Bringing World /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel up for play (max tick rate 60) at 2018.09.27-16.02.10
+[2018.09.27-19.02.10:098][957]LogWorld: Bringing up level for play took: 0.001066
+[2018.09.27-19.02.10:101][957]LogLoad: Took 1.098567 seconds to LoadMap(/Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel)
+[2018.09.27-19.02.14:054][194]LogEditorViewport: Clicking on Actor (LMB): BoneForDog_C (BoneForDog)
+[2018.09.27-19.02.18:298][445]Cmd: DELETE
+[2018.09.27-19.02.18:298][445]Cmd: ACTOR DELETE
+[2018.09.27-19.02.18:301][445]LogEditorActor: Deleted Actor: BoneForDog_C
+[2018.09.27-19.02.18:327][445]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2018.09.27-19.02.19:535][518]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-19.02.19:603][522]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.27-19.02.19:640][522]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.27-19.02.19:671][522]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.27-19.02.19:706][524]LogPlayLevel: Display: Destroying online subsystem :Context_104
+[2018.09.27-19.02.20:415][566]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/VetAssistant/Assets/Meshes/FoodForAnimals/Dog/BoneForDog.BoneForDog
+[2018.09.27-19.02.38:572][627]LogClass: Warning: In asset 'None', there is an enum property of type 'EComponentMobility' with an invalid value of ''
+[2018.09.27-19.02.38:572][627]LogClass: Warning: In asset 'None', there is an enum property of type 'EComponentMobility' with an invalid value of ''
+[2018.09.27-19.02.38:572][627]LogClass: Warning: In asset 'None', there is an enum property of type 'EComponentMobility' with an invalid value of ''
+[2018.09.27-19.02.40:653][752]BlueprintLog: New page: Compile BoneForDog
+[2018.09.27-19.02.40:885][752]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/BoneForDogA34185FF4652DD552AF377B4B14EDC01.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Assets/Meshes/FoodForAnimals/Dog/BoneForDog.uasset'
+[2018.09.27-19.02.45:102][  2]Cmd: DELETE
+[2018.09.27-19.02.45:102][  2]Cmd: ACTOR DELETE
+[2018.09.27-19.02.45:103][  2]LogEditorActor: Deleted Actor: BoneForDog_C
+[2018.09.27-19.02.45:135][  2]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2018.09.27-19.02.45:835][ 44]LogEditorViewport: Clicking on Actor (LMB): BoneForDog_C (BoneForDog)
+[2018.09.27-19.02.45:917][ 46]Cmd: DELETE
+[2018.09.27-19.02.45:917][ 46]Cmd: ACTOR DELETE
+[2018.09.27-19.02.45:918][ 46]LogEditorActor: Deleted Actor: BoneForDog_C
+[2018.09.27-19.02.45:946][ 46]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2018.09.27-19.02.47:138][118]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-19.02.47:613][142]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/TestingLevelBAD8C4B448221B653BC13CAD59574D8A.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Maps/TestingLevel.umap'
+[2018.09.27-19.02.47:681][142]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/TestingLevel_BuiltData95811EB04DCC0B433D717A95110B1120.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Maps/TestingLevel_BuiltData.uasset'
+[2018.09.27-19.02.56:083][641]Cmd: DELETE
+[2018.09.27-19.02.56:083][641]Cmd: ACTOR DELETE
+[2018.09.27-19.02.56:085][641]LogEditorActor: Deleted Actor: BoneForDog_C
+[2018.09.27-19.02.56:120][641]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2018.09.27-19.02.57:394][718]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-19.03.14:431][738]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-19.03.30:788][718]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-19.03.46:821][960]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-19.04.23:018][ 30]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.09.27-19.04.27:075][272]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/VetAssistant/Assets/Meshes/FoodForAnimals/Dog/Bone.Bone
+[2018.09.27-19.05.05:519][553]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-19.05.12:589][913]LogSlate: Window 'Delete Assets' being destroyed
+[2018.09.27-19.05.14:500][968]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Classes/VetAssistant/Assets/Meshes/FoodForAnimals/Dog/Stones_and_buried_treasure_Bone.Stones_and_buried_treasure_Bone
+[2018.09.27-19.05.22:116][409]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-19.05.22:268][415]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/Stones_and_buried_treasure_Bone2CFF51DF489313C2F6D80D926052DF47.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Assets/Meshes/FoodForAnimals/Dog/Stones_and_buried_treasure_Bone.uasset'
+[2018.09.27-19.05.46:086][720]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.27-19.05.48:203][847]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.27-19.05.49:298][913]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-19.06.08:903][ 89]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-19.06.25:299][ 70]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-19.06.31:581][439]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/VetAssistant/Assets/Meshes/FoodForAnimals/Dog/BoneForDog.BoneForDog
+[2018.09.27-19.06.41:624][ 12]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Curtains/curtains_mats/Material__2142146376'
+[2018.09.27-19.06.41:624][ 12]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Curtains/curtains_mats/Material__2142146376' while loading ../../../../../../projects/UE4ClassProject/Project/Content/Classes/221_InteriorDesign/Assets/Curtains/curtains_mats/curtain8_rodcircle2.uasset.
+[2018.09.27-19.06.41:624][ 12]LoadErrors: Error: /Game/Classes/221_InteriorDesign/Assets/Curtains/curtains_mats/curtain8_rodcircle2 : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/Curtains/curtains_mats/Material__2142146376
+[2018.09.27-19.06.41:625][ 12]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Curtains/curtains_mats/Material__2142146376'
+[2018.09.27-19.06.41:625][ 12]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Curtains/curtains_mats/Material__2142146376' while loading ../../../../../../projects/UE4ClassProject/Project/Content/Classes/221_InteriorDesign/Assets/Curtains/curtains_mats/curtain8_rodcircle2.uasset.
+[2018.09.27-19.06.41:626][ 12]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Curtains/curtains_mats/Material__2142146376'
+[2018.09.27-19.06.41:626][ 12]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/Curtains/curtains_mats/Material__2142146376.Material__2142146376 Referenced by curtain8_rodcircle2
+[2018.09.27-19.06.41:626][ 12]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Curtains/curtains_mats/Material__2142146376' while loading NULL.
+[2018.09.27-19.06.41:627][ 12]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Curtains/curtains_mats/Material__2142146376'
+[2018.09.27-19.06.41:627][ 12]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Curtains/curtains_mats/Material__2142146376' while loading NULL.
+[2018.09.27-19.06.41:846][ 12]LogStaticMesh: Building static mesh curtain8_rodcircle2...
+[2018.09.27-19.06.44:068][ 12]LogStaticMesh: Built static mesh [2.22s] /Game/Classes/221_InteriorDesign/Assets/Curtains/curtains_mats/curtain8_rodcircle2.curtain8_rodcircle2
+[2018.09.27-19.06.48:866][290]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-19.07.01:477][ 45]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-19.07.01:510][ 47]BlueprintLog: New page: Compile BoneForDog
+[2018.09.27-19.07.01:763][ 47]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/BoneForDog4D918E2A4A8EE8169F0080A702921E87.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Assets/Meshes/FoodForAnimals/Dog/BoneForDog.uasset'
+[2018.09.27-19.07.02:059][ 62]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/BoneForDogB4EDB41442F4D024CD13389435EDAA9A.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Assets/Meshes/FoodForAnimals/Dog/BoneForDog.uasset'
+[2018.09.27-19.07.06:835][346]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-19.07.06:919][351]LogTemp: Repeating last play command: Simulate
+[2018.09.27-19.07.06:944][351]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.27-19.07.06:944][351]PIE: New page: SIE session: TestingLevel (Sep 27, 2018, 1:07:06 PM)
+[2018.09.27-19.07.06:945][351]LogPlayLevel: Creating play world package: /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel
+[2018.09.27-19.07.06:947][351]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002451s)
+[2018.09.27-19.07.06:948][351]LogAIModule: Creating AISystem for world TestingLevel
+[2018.09.27-19.07.06:948][351]LogPlayLevel: PIE: World Init took: (0.000638s)
+[2018.09.27-19.07.06:948][351]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Classes/VetAssistant/Maps/TestingLevel.TestingLevel to /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel (0.003196s)
+[2018.09.27-19.07.06:983][351]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.27-19.07.07:026][351]LogInit: FAudioDevice initialized.
+[2018.09.27-19.07.07:057][351]LogLoad: Game class is 'VA_Gamemode_C'
+[2018.09.27-19.07.07:058][351]LogWorld: Bringing World /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel up for play (max tick rate 60) at 2018.09.27-16.07.07
+[2018.09.27-19.07.07:059][351]LogWorld: Bringing up level for play took: 0.000921
+[2018.09.27-19.07.07:073][351]PIE: Play in editor start time for /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel -0.774
+[2018.09.27-19.07.11:897][638]LogEditorViewport: Clicking on Actor (LMB): BoneForDog_C (BoneForDog)
+[2018.09.27-19.07.12:685][682]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.12:685][682]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.12:702][683]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.12:702][683]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.12:719][684]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.12:719][684]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.12:736][685]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.12:736][685]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.12:752][686]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.12:752][686]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.12:769][687]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.12:769][687]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.12:785][688]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.12:785][688]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:357][ 78]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:357][ 78]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:375][ 79]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:375][ 79]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:392][ 80]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:392][ 80]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:407][ 81]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:407][ 81]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:424][ 82]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:424][ 82]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:441][ 83]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:441][ 83]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:458][ 84]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:458][ 84]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:475][ 85]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:475][ 85]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:491][ 86]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:491][ 86]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:507][ 87]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:507][ 87]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:524][ 88]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:524][ 88]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:541][ 89]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:542][ 89]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:558][ 90]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:558][ 90]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:574][ 91]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:574][ 91]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:590][ 92]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:590][ 92]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:607][ 93]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:607][ 93]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:624][ 94]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:624][ 94]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:641][ 95]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:641][ 95]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:657][ 96]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:657][ 96]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:674][ 97]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:674][ 97]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:691][ 98]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:691][ 98]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:708][ 99]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:708][ 99]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:725][100]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:725][100]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:742][101]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:742][101]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:758][102]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:758][102]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:774][103]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:775][103]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:791][104]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:791][104]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:808][105]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:808][105]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:824][106]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:824][106]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:841][107]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:841][107]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:858][108]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:858][108]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:874][109]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:874][109]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:890][110]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:890][110]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:908][111]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:908][111]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:924][112]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:924][112]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:941][113]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:941][113]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:957][114]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:957][114]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:974][115]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.19:974][115]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:293][189]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-19.07.21:438][197]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:439][197]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:440][197]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:441][197]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:445][197]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:453][198]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:455][198]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:456][198]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:458][198]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:459][198]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:460][198]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:461][198]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:466][198]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:473][199]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:474][199]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:475][199]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:480][199]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:489][200]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:490][200]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:491][200]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:496][200]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:506][201]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:511][201]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:522][202]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:524][202]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:539][203]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:622][208]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:639][209]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:645][209]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:672][211]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:722][214]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:739][215]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:740][215]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:756][216]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:762][216]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:772][217]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:789][218]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:805][219]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:889][224]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:891][224]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:893][224]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:898][224]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:906][225]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:907][225]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:912][225]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:922][226]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:923][226]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:924][226]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:924][226]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:930][226]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:939][227]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:945][227]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:955][228]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:961][228]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:972][229]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:974][229]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:974][229]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:979][229]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:989][230]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.21:990][230]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.23:689][320]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.23:689][320]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.23:706][321]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.23:706][321]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.23:723][322]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.23:723][322]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.23:739][323]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.23:739][323]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.23:756][324]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.23:756][324]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.23:773][325]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.23:773][325]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.23:790][326]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.23:790][326]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.23:806][327]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.23:806][327]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.23:823][328]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.23:823][328]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.23:839][329]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.23:839][329]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.23:856][330]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.23:856][330]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.23:872][331]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.23:873][331]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.23:889][332]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.23:889][332]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.23:906][333]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.23:906][333]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.23:923][334]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.23:923][334]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.23:939][335]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.23:939][335]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.23:956][336]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.23:956][336]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.23:973][337]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.23:973][337]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.23:989][338]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.23:989][338]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.24:006][339]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.24:006][339]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.24:072][343]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.24:072][343]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.24:089][344]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.24:089][344]PIE: Warning: Mobility of /Game/Classes/VetAssistant/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BoneForDog2_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.09.27-19.07.29:349][649]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.27-19.07.29:510][655]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/TestingLevelE7AF792B425BF5A5707B258644DBF8CD.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Maps/TestingLevel.umap'
+[2018.09.27-19.07.29:573][655]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/TestingLevel_BuiltData8E9C17714A257A4A38F4BC985171DD31.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Maps/TestingLevel_BuiltData.uasset'
+[2018.09.27-19.07.31:210][749]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.27-19.07.31:246][749]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.27-19.07.31:278][749]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.27-19.07.31:317][751]LogPlayLevel: Display: Destroying online subsystem :Context_110
+[2018.09.27-19.07.36:633][ 68]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/VetAssistant/Blueprints/Animals/Animal_BP.Animal_BP
+[2018.09.27-19.07.58:508][335]BlueprintLog: New page: Compile Animal_BP
+[2018.09.27-19.07.58:804][335]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/Animal_BP3DDE2C144E7608EA9F26BB9DDF4094CA.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Blueprints/Animals/Animal_BP.uasset'
+[2018.09.27-19.07.59:028][343]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/Animal_BPEEF85183451A6EBEC664B0812550B5AE.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Blueprints/Animals/Animal_BP.uasset'
+[2018.09.27-19.08.25:029][801]LogSavePackage: Moving '../../../../../../projects/UE4ClassProject/Project/Saved/Animal_BPF6CF3DE34F159141A00EB0895D76DBCE.tmp' to '../../../../../../projects/UE4ClassProject/Project/Content/Classes/VetAssistant/Blueprints/Animals/Animal_BP.uasset'
