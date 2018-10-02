@@ -1,4 +1,4 @@
-﻿Log file open, 10/01/18 16:37:46
+﻿Log file open, 10/02/18 13:13:04
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: VRTests
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.274343
+LogStats: Stats thread started at 0.283661
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -4:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.076s to configure plugins.
+LogStreaming: Display: Took  0.344s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -123,7 +123,7 @@ LogInit: Compiled (64-bit): Aug 21 2018 02:06:06
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
-LogInit: Command Line:  
+LogInit: Command Line: 
 LogInit: Base Directory: D:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
@@ -147,688 +147,393 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.002s to delete old logs.
+LogStreaming: Display: Took  0.127s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.10.01-19.37.46:389][  0]LogInit: Selected Device Profile: [Windows]
-[2018.10.01-19.37.46:389][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.10.01-19.37.46:401][  0]LogHAL: Display: Platform has ~ 16 GB [17042804736 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.10.01-19.37.46:401][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.10.01-19.37.46:401][  0]LogInit: Going up to parent DeviceProfile []
-[2018.10.01-19.37.46:402][  0]LogInit: Computer: ALIEN
-[2018.10.01-19.37.46:402][  0]LogInit: User: CodyCormier
-[2018.10.01-19.37.46:402][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.10.01-19.37.46:402][  0]LogInit: High frequency timer resolution =2.742192 MHz
-[2018.10.01-19.37.46:402][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.10.01-19.37.46:402][  0]LogMemory: Platform Memory Stats for Windows
-[2018.10.01-19.37.46:402][  0]LogMemory: Process Physical Memory: 103.63 MB used, 103.63 MB peak
-[2018.10.01-19.37.46:402][  0]LogMemory: Process Virtual Memory: 103.04 MB used, 103.04 MB peak
-[2018.10.01-19.37.46:402][  0]LogMemory: Physical Memory: 4435.71 MB used,  11817.57 MB free, 16253.29 MB total
-[2018.10.01-19.37.46:402][  0]LogMemory: Virtual Memory: 4652.18 MB used,  11817.57 MB free, 134217728.00 MB total
-[2018.10.01-19.37.46:424][  0]LogInit: Using OS detected language (en-US).
-[2018.10.01-19.37.46:424][  0]LogInit: Using OS detected locale (en-CA).
-[2018.10.01-19.37.46:424][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.10.01-19.37.46:781][  0]LogStreaming: Display: Took  0.357s to InitEngineTextLocalization.
-[2018.10.01-19.37.46:781][  0]LogInit: Setting process to per monitor DPI aware
-[2018.10.01-19.37.46:812][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.10.01-19.37.46:812][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.10.01-19.37.47:016][  0]LogHMD: Failed to initialize OpenVR with code 101
-[2018.10.01-19.37.47:016][  0]LogD3D11RHI: D3D11 adapters:
-[2018.10.01-19.37.47:081][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2018.10.01-19.37.47:081][  0]LogD3D11RHI:       8081/0/8126 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.10.01-19.37.47:607][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2018.10.01-19.37.47:607][  0]LogD3D11RHI:       128/0/8126 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.10.01-19.37.47:609][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.10.01-19.37.47:609][  0]LogD3D11RHI:       0/0/8126 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.10.01-19.37.47:609][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.10.01-19.37.47:652][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.10.01-19.37.47:652][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
-[2018.10.01-19.37.47:652][  0]LogWindows: EnumDisplayDevices:
-[2018.10.01-19.37.47:652][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2018.10.01-19.37.47:652][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.10.01-19.37.47:652][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.10.01-19.37.47:653][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.10.01-19.37.47:653][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.10.01-19.37.47:653][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.10.01-19.37.47:653][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.10.01-19.37.47:653][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2018.10.01-19.37.47:653][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2018.10.01-19.37.47:653][  0]LogD3D11RHI:   Driver Version: 411.63 (internal:24.21.14.1163, unified:411.63)
-[2018.10.01-19.37.47:653][  0]LogD3D11RHI:      Driver Date: 9-18-2018
-[2018.10.01-19.37.47:654][  0]LogRHI: Texture pool is 5656 MB (70% of 8081 MB)
-[2018.10.01-19.37.47:698][  0]LogD3D11RHI: Async texture creation enabled
-[2018.10.01-19.37.47:730][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.10.01-19.37.47:773][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (../../../../../../Documents/GitHub/UE4Project/Project/Intermediate/Shaders/WorkingDirectory/1268/).
-[2018.10.01-19.37.47:773][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Cody Cormier/AppData/Local/Temp/UnrealShaderWorkingDir/5AF53D364D712067F9740388E3057C6C/'.
-[2018.10.01-19.37.48:238][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.10.01-19.37.48:251][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.10.01-19.37.48:263][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.10.01-19.37.48:275][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.10.01-19.37.48:289][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.10.01-19.37.48:301][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.10.01-19.37.48:313][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.10.01-19.37.48:325][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.10.01-19.37.48:331][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.10.01-19.37.48:403][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.01-19.37.48:403][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.01-19.37.48:403][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.01-19.37.48:403][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.01-19.37.48:403][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.01-19.37.48:403][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.01-19.37.48:403][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.01-19.37.48:403][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.01-19.37.48:403][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.01-19.37.48:403][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.01-19.37.48:403][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.01-19.37.48:403][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.01-19.37.48:403][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.01-19.37.48:403][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.01-19.37.48:403][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.01-19.37.48:403][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.01-19.37.48:403][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.01-19.37.48:403][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.01-19.37.48:405][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.10.01-19.37.48:463][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.10.01-19.37.48:463][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.10.01-19.37.48:486][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.10.01-19.37.48:486][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.10.01-19.37.48:498][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.10.01-19.37.48:510][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.10.01-19.37.48:523][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.10.01-19.37.48:535][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.10.01-19.37.48:543][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.10.01-19.37.48:543][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.10.01-19.37.48:587][  0]LogXGEController: Cleaning working directory: C:/Users/Cody Cormier/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.10.01-19.37.48:587][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.10.01-19.37.48:587][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.10.01-19.37.48:587][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.10.01-19.37.49:264][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.10.01-19.37.49:327][  0]LogDerivedDataCache: Loaded boot cache 0.06s 86MB C:/Users/Cody Cormier/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.10.01-19.37.49:327][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Cody Cormier/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2018.10.01-19.37.49:327][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Documents/GitHub/UE4Project/Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.10.01-19.37.49:327][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.10.01-19.37.49:327][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Documents/GitHub/UE4Project/Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.10.01-19.37.49:327][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.10.01-19.37.49:339][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.10.01-19.37.49:351][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Cody Cormier/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.10.01-19.37.49:351][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.10.01-19.37.49:351][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.10.01-19.37.49:368][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.10.01-19.37.49:370][  0]LogSlate: Using FreeType 2.6.0
-[2018.10.01-19.37.49:370][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.10.01-19.37.49:441][  0]LogAssetRegistry: FAssetRegistry took 0.0263 seconds to start up
-[2018.10.01-19.37.49:785][  0]LogInit: Selected Device Profile: [Windows]
-[2018.10.01-19.37.49:833][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.10.01-19.37.49:836][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.10.01-19.37.49:836][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.10.01-19.37.49:836][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.10.01-19.37.49:836][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.10.01-19.37.49:938][  0]LogNetVersion: VRTests 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4138015713)
-[2018.10.01-19.37.50:462][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.093630 seconds
-[2018.10.01-19.37.50:468][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2018.10.01-19.37.50:468][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
-[2018.10.01-19.37.50:468][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.10.01-19.37.51:322][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.10.01-19.37.51:336][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.10.01-19.37.51:588][  0]SourceControl: Source control is disabled
-[2018.10.01-19.37.51:588][  0]SourceControl: Source control is disabled
-[2018.10.01-19.37.51:589][  0]SourceControl: Source control is disabled
-[2018.10.01-19.37.51:590][  0]SourceControl: Source control is disabled
-[2018.10.01-19.37.51:747][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.10.01-19.37.51:820][  0]LogOcInput: OculusInput pre-init called
-[2018.10.01-19.37.51:877][  0]LogEngine: Initializing Engine...
-[2018.10.01-19.37.51:878][  0]LogHMD: Failed to initialize OpenVR with code 101
-[2018.10.01-19.37.51:880][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.10.01-19.37.51:880][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.10.01-19.37.51:881][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.10.01-19.37.51:881][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.10.01-19.37.52:094][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.10.01-19.37.52:104][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.10.01-19.37.52:117][  0]LogInit: XAudio2 using 'Speakers (Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.10.01-19.37.52:133][  0]LogInit: FAudioDevice initialized.
-[2018.10.01-19.37.52:133][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.10.01-19.37.52:223][  0]LogDerivedDataCache: Saved boot cache 0.09s 86MB C:/Users/Cody Cormier/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.10.01-19.37.52:237][  0]LogInit: Texture streaming: Enabled
-[2018.10.01-19.37.52:249][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.10.01-19.37.52:259][  0]LogInit: Transaction tracking system initialized
-[2018.10.01-19.37.52:273][  0]BlueprintLog: New page: Editor Load
-[2018.10.01-19.37.52:328][  0]LocalizationService: Localization service is disabled
-[2018.10.01-19.37.52:569][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.10.01-19.37.52:569][  0]LogCook: Display: Mobile HDR setting 1
-[2018.10.01-19.37.52:569][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.10.01-19.37.52:569][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.10.01-19.37.52:569][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.10.01-19.37.52:569][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.10.01-19.37.52:569][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.10.01-19.37.52:672][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/UE4Project/Project/Content/' took 0.03s
-[2018.10.01-19.37.52:672][  0]SourceControl: Source control is disabled
-[2018.10.01-19.37.52:672][  0]Cmd: MAP LOAD FILE="../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultProject/Map/DefaultMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.10.01-19.37.52:673][  0]LightingResults: New page: Lighting Build
-[2018.10.01-19.37.52:675][  0]MapCheck: New page: Map Check
-[2018.10.01-19.37.52:675][  0]LightingResults: New page: Lighting Build
-[2018.10.01-19.37.52:706][  0]LogAIModule: Creating AISystem for world DefaultMap
-[2018.10.01-19.37.52:710][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.10.01-19.37.52:733][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.10.01-19.37.52:775][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 43.121ms to complete.
-[2018.10.01-19.37.52:775][  0]LogFileHelpers: Loading map 'DefaultMap' took 0.103
-[2018.10.01-19.37.52:888][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.01-19.37.52:895][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.01-19.37.52:902][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.01-19.37.52:910][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.01-19.37.52:915][  0]LogCollectionManager: Loaded 0 collections in 0.001259 seconds
-[2018.10.01-19.37.52:957][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/UE4Project/Project/Saved/Collections/' took 0.01s
-[2018.10.01-19.37.52:957][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/UE4Project/Project/Content/Developers/CodyCormier/Collections/' took 0.01s
-[2018.10.01-19.37.52:957][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/UE4Project/Project/Content/Collections/' took 0.01s
-[2018.10.01-19.37.52:957][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.10.01-19.37.52:965][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2572 classes and 603 folders.
-[2018.10.01-19.37.52:969][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.10.01-19.37.53:010][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.10.01-19.37.53:013][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2018.10.01-19.37.53:069][  0]LogSlate: Took 0.000331 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.10.01-19.37.53:072][  0]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.10.01-19.37.53:080][  0]LogSlate: Took 0.000224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.10.01-19.37.53:155][  0]LogRenderer: Reallocating scene render targets to support 1072x496 Format 26 NumSamples 1 (Frame:1).
-[2018.10.01-19.37.53:270][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.10.01-19.37.53:270][  0]LogLoad: (Engine Initialization) Total time: 8.34 seconds
-[2018.10.01-19.37.53:270][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.10.01-19.37.53:288][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.10.01-19.37.53:321][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.10.01-19.37.53:414][  2]LogAssetRegistry: Asset discovery search completed in 3.9949 seconds
-[2018.10.01-19.37.53:416][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.10.01-19.37.53:416][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000056 seconds (updated 0 objects)
-[2018.10.01-19.37.58:371][298]LogFileCache: Retrieving MD5 hashes for directory 'D:/Documents/GitHub/UE4Project/Project/Content/' took 5.07s
-[2018.10.01-19.38.06:647][661]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.01-19.38.08:069][746]LogSlate: Took 0.000198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.10.01-19.38.08:212][746]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1127'
-[2018.10.01-19.38.08:212][746]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1127' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/Bed/Bed3/bed3_matress.uasset.
-[2018.10.01-19.38.08:212][746]LoadErrors: Error: /Game/Classes/221_InteriorDesign/Assets/Bed/Bed3/bed3_matress : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1127
-[2018.10.01-19.38.08:212][746]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135'
-[2018.10.01-19.38.08:212][746]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/Bed/Bed3/bed3_matress.uasset.
-[2018.10.01-19.38.08:212][746]LoadErrors: Error: /Game/Classes/221_InteriorDesign/Assets/Bed/Bed3/bed3_matress : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135
-[2018.10.01-19.38.08:212][746]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1127'
-[2018.10.01-19.38.08:212][746]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1127' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/Bed/Bed3/bed3_matress.uasset.
-[2018.10.01-19.38.08:212][746]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135'
-[2018.10.01-19.38.08:212][746]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/Bed/Bed3/bed3_matress.uasset.
-[2018.10.01-19.38.08:214][746]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135'
-[2018.10.01-19.38.08:214][746]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/Bed/Bed3/bed3_mattress.uasset.
-[2018.10.01-19.38.08:214][746]LoadErrors: Error: /Game/Classes/221_InteriorDesign/Assets/Bed/Bed3/bed3_mattress : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135
-[2018.10.01-19.38.08:214][746]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135'
-[2018.10.01-19.38.08:214][746]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/Bed/Bed3/bed3_mattress.uasset.
-[2018.10.01-19.38.08:284][746]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
-[2018.10.01-19.38.08:284][746]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualReality/Mannequin/Animations/RightHand_AnimBP.uasset.
-[2018.10.01-19.38.08:284][746]LoadErrors: Error: /Game/DefaultVrContent/VirtualReality/Mannequin/Animations/RightHand_AnimBP : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/GripEnum
-[2018.10.01-19.38.08:284][746]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
-[2018.10.01-19.38.08:284][746]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualReality/Mannequin/Animations/RightHand_AnimBP.uasset.
-[2018.10.01-19.38.08:285][746]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
-[2018.10.01-19.38.08:285][746]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum Referenced by GripState
-[2018.10.01-19.38.08:285][746]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.uasset.
-[2018.10.01-19.38.08:285][746]LoadErrors: Error: /Game/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/GripEnum
-[2018.10.01-19.38.08:286][746]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
-[2018.10.01-19.38.08:286][746]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.uasset.
-[2018.10.01-19.38.08:286][746]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
-[2018.10.01-19.38.08:286][746]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.uasset.
-[2018.10.01-19.38.08:286][746]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
-[2018.10.01-19.38.08:286][746]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum Referenced by RightHand_AnimBP
-[2018.10.01-19.38.08:286][746]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.uasset.
-[2018.10.01-19.38.08:287][746]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
-[2018.10.01-19.38.08:287][746]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum Referenced by K2Node_VariableGet_64
-[2018.10.01-19.38.08:287][746]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.uasset.
-[2018.10.01-19.38.08:529][746]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.01-19.38.08:529][746]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Interfaces/BPI_WorldInteractive.uasset.
-[2018.10.01-19.38.08:529][746]LoadErrors: Error: /Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/Interfaces/BPI_WorldInteractive : Can't find file for asset. /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor
-[2018.10.01-19.38.08:530][746]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.01-19.38.08:530][746]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Interfaces/BPI_WorldInteractive.uasset.
-[2018.10.01-19.38.08:532][746]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.01-19.38.08:532][746]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.01-19.38.08:533][746]LoadErrors: Error: /Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor : Can't find file for asset. /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor
-[2018.10.01-19.38.08:533][746]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.01-19.38.08:533][746]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.01-19.38.08:533][746]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.01-19.38.08:533][746]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.01-19.38.08:534][746]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.01-19.38.08:534][746]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_0
-[2018.10.01-19.38.08:534][746]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.01-19.38.08:535][746]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.01-19.38.08:535][746]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.01-19.38.08:535][746]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.01-19.38.08:535][746]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_1
-[2018.10.01-19.38.08:535][746]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.01-19.38.08:535][746]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.01-19.38.08:535][746]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.01-19.38.08:536][746]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.01-19.38.08:536][746]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_2
-[2018.10.01-19.38.08:536][746]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.01-19.38.08:536][746]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.01-19.38.08:536][746]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.01-19.38.08:536][746]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.01-19.38.08:536][746]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_3
-[2018.10.01-19.38.08:536][746]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.01-19.38.08:537][746]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.01-19.38.08:537][746]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.01-19.38.08:537][746]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.01-19.38.08:537][746]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_4
-[2018.10.01-19.38.08:537][746]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.01-19.38.08:537][746]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.01-19.38.08:537][746]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.01-19.38.08:538][746]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.01-19.38.08:538][746]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_5
-[2018.10.01-19.38.08:538][746]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.01-19.38.08:538][746]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.01-19.38.08:538][746]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.01-19.38.08:538][746]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.01-19.38.08:538][746]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_6
-[2018.10.01-19.38.08:539][746]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.01-19.38.08:539][746]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.01-19.38.08:539][746]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.01-19.38.08:539][746]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.01-19.38.08:539][746]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_7
-[2018.10.01-19.38.08:539][746]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.01-19.38.08:539][746]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.01-19.38.08:540][746]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.01-19.38.08:540][746]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.01-19.38.08:540][746]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_9
-[2018.10.01-19.38.08:540][746]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.01-19.38.08:540][746]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.01-19.38.08:540][746]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.01-19.38.08:541][746]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.01-19.38.08:541][746]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_10
-[2018.10.01-19.38.08:541][746]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.01-19.38.08:541][746]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.01-19.38.08:541][746]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.01-19.38.08:541][746]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.01-19.38.08:542][746]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.01-19.38.08:542][746]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.01-19.38.08:542][746]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.01-19.38.08:564][746]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] Get Hand  is deprecated; please replace or remove it.
-[2018.10.01-19.38.08:565][746]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] Get Hand  is deprecated; Please use the Motion Source property instead of Hand
-[2018.10.01-19.38.08:573][746]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] [0023.64] Compile of BPC_WorldInteractor successful, but with 2 Warning(s) [in 16 ms] (/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor)
-[2018.10.01-19.38.08:755][746]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/pillows'
-[2018.10.01-19.38.08:755][746]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/pillows' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/Bed/Bed3/bed3_Pillows.uasset.
-[2018.10.01-19.38.08:755][746]LoadErrors: Error: /Game/Classes/221_InteriorDesign/Assets/Bed/Bed3/bed3_Pillows : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/Bed/Bed3/pillows
-[2018.10.01-19.38.08:755][746]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/pillows'
-[2018.10.01-19.38.08:756][746]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/pillows' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/Bed/Bed3/bed3_Pillows.uasset.
-[2018.10.01-19.38.08:757][746]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed_Textures-mats/21_-_Default'
-[2018.10.01-19.38.08:757][746]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed_Textures-mats/21_-_Default' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/Bed/Bed_Textures-mats/Bed_06_Object001.uasset.
-[2018.10.01-19.38.08:757][746]LoadErrors: Error: /Game/Classes/221_InteriorDesign/Assets/Bed/Bed_Textures-mats/Bed_06_Object001 : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/Bed/Bed_Textures-mats/21_-_Default
-[2018.10.01-19.38.08:757][746]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed_Textures-mats/21_-_Default'
-[2018.10.01-19.38.08:758][746]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed_Textures-mats/21_-_Default' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/Bed/Bed_Textures-mats/Bed_06_Object001.uasset.
-[2018.10.01-19.38.08:836][746]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed_Textures-mats/21_-_Default'
-[2018.10.01-19.38.08:836][746]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/Bed/Bed_Textures-mats/21_-_Default.21_-_Default Referenced by Bed_06_Object001
-[2018.10.01-19.38.08:836][746]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed_Textures-mats/21_-_Default' while loading NULL.
-[2018.10.01-19.38.08:836][746]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed_Textures-mats/21_-_Default'
-[2018.10.01-19.38.08:836][746]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed_Textures-mats/21_-_Default' while loading NULL.
-[2018.10.01-19.38.08:852][746]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/pillows'
-[2018.10.01-19.38.08:853][746]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/Bed/Bed3/pillows.pillows Referenced by bed3_Pillows
-[2018.10.01-19.38.08:853][746]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/pillows' while loading NULL.
-[2018.10.01-19.38.08:853][746]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/pillows'
-[2018.10.01-19.38.08:853][746]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/pillows' while loading NULL.
-[2018.10.01-19.38.08:855][746]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135'
-[2018.10.01-19.38.08:855][746]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135.Material1135 Referenced by bed3_mattress
-[2018.10.01-19.38.08:855][746]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135' while loading NULL.
-[2018.10.01-19.38.08:856][746]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135'
-[2018.10.01-19.38.08:856][746]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135' while loading NULL.
-[2018.10.01-19.38.08:856][746]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135'
-[2018.10.01-19.38.08:857][746]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135.Material1135 Referenced by bed3_matress
-[2018.10.01-19.38.08:857][746]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135' while loading NULL.
-[2018.10.01-19.38.08:857][746]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1127'
-[2018.10.01-19.38.08:857][746]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1127.Material1127 Referenced by bed3_matress
-[2018.10.01-19.38.08:857][746]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1127' while loading NULL.
-[2018.10.01-19.38.08:857][746]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135'
-[2018.10.01-19.38.08:857][746]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135' while loading NULL.
-[2018.10.01-19.38.08:858][746]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1127'
-[2018.10.01-19.38.08:858][746]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1127' while loading NULL.
-[2018.10.01-19.38.09:599][746]LogAIModule: Creating AISystem for world MassageMap
-[2018.10.01-19.38.09:676][746]LogAssetEditorManager: Opening Asset editor for World /Game/Classes/226_Massage/Map/MassageMap.MassageMap
-[2018.10.01-19.38.09:712][746]Cmd: MAP LOAD FILE="../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Map/MassageMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.10.01-19.38.09:712][746]LightingResults: New page: Lighting Build
-[2018.10.01-19.38.09:713][746]LoadErrors: New page: Loading map: MassageMap.umap
-[2018.10.01-19.38.09:713][746]MapCheck: New page: Map Check
-[2018.10.01-19.38.09:713][746]LightingResults: New page: Lighting Build
-[2018.10.01-19.38.09:902][746]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.10.01-19.38.09:979][746]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.10.01-19.38.10:045][746]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 65.833ms to complete.
-[2018.10.01-19.38.10:045][746]LogFileHelpers: Loading map 'MassageMap' took 0.334
-[2018.10.01-19.38.51:996][233]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.01-19.38.57:851][566]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/226_Massage/Blueprints/MassagePoints/MassagePoint_Child.MassagePoint_Child
-[2018.10.01-19.38.58:094][566]LogClass: Warning: Enum '/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/FeedbackEffects/EFeedbackType.EFeedbackType' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
-[2018.10.01-19.38.58:094][566]LogClass: Warning: Enum '/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/FeedbackEffects/EFeedbackIntensity.EFeedbackIntensity' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
-[2018.10.01-19.38.58:301][566]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
-[2018.10.01-19.39.07:445][ 64]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/226_Massage/Blueprints/MassagePoints/MassagePoint_Child.MassagePoint_Child
-[2018.10.01-19.39.07:756][ 64]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.10.01-19.39.09:016][139]LogSlate: Took 0.000194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.10.01-19.41.21:000][323]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/226_Massage/Blueprints/MassagePoints/MassagePointParent.MassagePointParent
-[2018.10.01-19.41.39:420][405]LogRenderer: Reallocating scene render targets to support 1072x600 Format 26 NumSamples 1 (Frame:1).
-[2018.10.01-19.42.15:431][562]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/226_Massage/Blueprints/Massage_Pawn.Massage_Pawn
-[2018.10.01-19.42.18:036][689]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/DefaultProject/MotionControllerPawn_Default.MotionControllerPawn_Default
-[2018.10.01-19.43.45:969][111]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController
-[2018.10.01-19.46.29:438][787]BlueprintLog: New page: Compile Massage_Pawn
-[2018.10.01-19.46.29:778][787]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/Massage_Pawn304433964E448E7D6DD0AE9848C0A0FB.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Blueprints/Massage_Pawn.uasset'
-[2018.10.01-19.47.20:277][776]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.01-19.47.23:563][971]LogEditorViewport: Clicking on Actor (LMB): Ceilinglights_C (Ceilinglights6)
-[2018.10.01-19.49.34:474][820]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.01-19.49.34:931][824]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/MassageMap8919EC044D102F7B3EDEBA9EC64FACA1.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Map/MassageMap.umap'
-[2018.10.01-19.49.35:257][824]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/MassageMap_BuiltData308345C946A4E09D87940AA68EFCB1DF.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Map/MassageMap_BuiltData.uasset'
-[2018.10.01-19.49.41:121][345]LogRenderer: Reallocating scene render targets to support 1608x744 Format 26 NumSamples 1 (Frame:13519).
-[2018.10.01-19.50.17:544][649]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.10.01-19.50.17:612][649]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.10.01-19.50.17:681][649]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.10.01-19.50.17:737][649]LogSlate: Window 'VRTests - Unreal Editor' being destroyed
-[2018.10.01-19.50.17:977][650]Cmd: QUIT_EDITOR
-[2018.10.01-19.50.18:017][650]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.10.01-19.50.18:031][650]LogExit: Preparing to exit.
-[2018.10.01-19.50.18:766][650]LogExit: Editor shut down
-[2018.10.01-19.50.18:767][650]LogExit: Transaction tracking system shut down
-[2018.10.01-19.50.19:257][650]LogExit: Object subsystem successfully closed.
-[2018.10.01-19.50.19:282][650]LogShaderCompilers: Display: Shaders left to compile 0
-[2018.10.01-19.50.19:285][650]LogD3D11RHI: Shutdown
-[2018.10.01-19.50.19:285][650]LogD3D11RHI: CleanupD3DDevice
-[2018.10.01-19.50.19:287][650]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.10.01-19.50.19:297][650]LogModuleManager: Shutting down and abandoning module BlueprintGraph (612)
-[2018.10.01-19.50.19:297][650]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (610)
-[2018.10.01-19.50.19:297][650]LogModuleManager: Shutting down and abandoning module SceneOutliner (608)
-[2018.10.01-19.50.19:297][650]LogModuleManager: Shutting down and abandoning module AddContentDialog (606)
-[2018.10.01-19.50.19:299][650]LogModuleManager: Shutting down and abandoning module WidgetCarousel (605)
-[2018.10.01-19.50.19:299][650]LogModuleManager: Shutting down and abandoning module EditorWidgets (602)
-[2018.10.01-19.50.19:299][650]LogModuleManager: Shutting down and abandoning module CollectionManager (600)
-[2018.10.01-19.50.19:300][650]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
-[2018.10.01-19.50.19:300][650]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
-[2018.10.01-19.50.19:300][650]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
-[2018.10.01-19.50.19:300][650]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
-[2018.10.01-19.50.19:300][650]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
-[2018.10.01-19.50.19:300][650]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
-[2018.10.01-19.50.19:300][650]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
-[2018.10.01-19.50.19:300][650]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
-[2018.10.01-19.50.19:300][650]LogModuleManager: Shutting down and abandoning module BspMode (582)
-[2018.10.01-19.50.19:300][650]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
-[2018.10.01-19.50.19:300][650]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
-[2018.10.01-19.50.19:300][650]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
-[2018.10.01-19.50.19:300][650]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
-[2018.10.01-19.50.19:300][650]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
-[2018.10.01-19.50.19:300][650]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
-[2018.10.01-19.50.19:300][650]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
-[2018.10.01-19.50.19:300][650]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
-[2018.10.01-19.50.19:300][650]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
-[2018.10.01-19.50.19:300][650]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
-[2018.10.01-19.50.19:300][650]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
-[2018.10.01-19.50.19:300][650]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
-[2018.10.01-19.50.19:300][650]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
-[2018.10.01-19.50.19:300][650]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
-[2018.10.01-19.50.19:300][650]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
-[2018.10.01-19.50.19:300][650]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
-[2018.10.01-19.50.19:300][650]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
-[2018.10.01-19.50.19:300][650]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
-[2018.10.01-19.50.19:300][650]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
-[2018.10.01-19.50.19:300][650]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
-[2018.10.01-19.50.19:300][650]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
-[2018.10.01-19.50.19:300][650]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
-[2018.10.01-19.50.19:300][650]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
-[2018.10.01-19.50.19:300][650]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
-[2018.10.01-19.50.19:300][650]LogModuleManager: Shutting down and abandoning module SessionServices (532)
-[2018.10.01-19.50.19:300][650]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
-[2018.10.01-19.50.19:300][650]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
-[2018.10.01-19.50.19:300][650]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
-[2018.10.01-19.50.19:300][650]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
-[2018.10.01-19.50.19:300][650]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
-[2018.10.01-19.50.19:300][650]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
-[2018.10.01-19.50.19:301][650]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
-[2018.10.01-19.50.19:301][650]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
-[2018.10.01-19.50.19:301][650]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
-[2018.10.01-19.50.19:301][650]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
-[2018.10.01-19.50.19:301][650]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
-[2018.10.01-19.50.19:301][650]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
-[2018.10.01-19.50.19:766][650]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
-[2018.10.01-19.50.19:766][650]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
-[2018.10.01-19.50.19:766][650]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
-[2018.10.01-19.50.19:766][650]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
-[2018.10.01-19.50.19:766][650]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
-[2018.10.01-19.50.19:766][650]LogModuleManager: Shutting down and abandoning module MergeActors (496)
-[2018.10.01-19.50.19:766][650]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
-[2018.10.01-19.50.19:766][650]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
-[2018.10.01-19.50.19:766][650]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
-[2018.10.01-19.50.19:766][650]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
-[2018.10.01-19.50.19:766][650]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
-[2018.10.01-19.50.19:766][650]LogModuleManager: Shutting down and abandoning module XmlParser (484)
-[2018.10.01-19.50.19:766][650]LogModuleManager: Shutting down and abandoning module Blutility (482)
-[2018.10.01-19.50.19:766][650]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
-[2018.10.01-19.50.19:766][650]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
-[2018.10.01-19.50.19:768][650]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
-[2018.10.01-19.50.19:768][650]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
-[2018.10.01-19.50.19:768][650]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
-[2018.10.01-19.50.19:768][650]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
-[2018.10.01-19.50.19:768][650]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
-[2018.10.01-19.50.19:768][650]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
-[2018.10.01-19.50.19:768][650]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
-[2018.10.01-19.50.19:821][650]LogModuleManager: Shutting down and abandoning module AutomationController (462)
-[2018.10.01-19.50.19:821][650]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
-[2018.10.01-19.50.19:821][650]LogModuleManager: Shutting down and abandoning module Layers (458)
-[2018.10.01-19.50.19:821][650]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
-[2018.10.01-19.50.19:821][650]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
-[2018.10.01-19.50.19:821][650]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
-[2018.10.01-19.50.19:822][650]LogModuleManager: Shutting down and abandoning module Persona (450)
-[2018.10.01-19.50.19:822][650]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
-[2018.10.01-19.50.19:822][650]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
-[2018.10.01-19.50.19:822][650]LogModuleManager: Shutting down and abandoning module Kismet (444)
-[2018.10.01-19.50.19:827][650]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
-[2018.10.01-19.50.19:827][650]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
-[2018.10.01-19.50.19:828][650]LogModuleManager: Shutting down and abandoning module Toolbox (438)
-[2018.10.01-19.50.19:828][650]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
-[2018.10.01-19.50.19:828][650]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
-[2018.10.01-19.50.19:828][650]LogModuleManager: Shutting down and abandoning module OutputLog (432)
-[2018.10.01-19.50.19:828][650]LogModuleManager: Shutting down and abandoning module GammaUI (430)
-[2018.10.01-19.50.19:828][650]LogModuleManager: Shutting down and abandoning module Documentation (428)
-[2018.10.01-19.50.19:828][650]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
-[2018.10.01-19.50.19:828][650]LogModuleManager: Shutting down and abandoning module MovieScene (424)
-[2018.10.01-19.50.19:828][650]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
-[2018.10.01-19.50.19:828][650]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
-[2018.10.01-19.50.19:828][650]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
-[2018.10.01-19.50.19:828][650]LogModuleManager: Shutting down and abandoning module PortalServices (416)
-[2018.10.01-19.50.19:828][650]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
-[2018.10.01-19.50.19:828][650]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
-[2018.10.01-19.50.19:828][650]LogModuleManager: Shutting down and abandoning module AIModule (410)
-[2018.10.01-19.50.19:828][650]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
-[2018.10.01-19.50.19:828][650]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
-[2018.10.01-19.50.19:828][650]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
-[2018.10.01-19.50.19:828][650]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
-[2018.10.01-19.50.19:828][650]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
-[2018.10.01-19.50.20:060][650]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
-[2018.10.01-19.50.20:060][650]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
-[2018.10.01-19.50.20:060][650]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
-[2018.10.01-19.50.20:060][650]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
-[2018.10.01-19.50.20:060][650]LogModuleManager: Shutting down and abandoning module OculusInput (390)
-[2018.10.01-19.50.20:060][650]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
-[2018.10.01-19.50.20:060][650]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
-[2018.10.01-19.50.20:060][650]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
-[2018.10.01-19.50.20:060][650]LogModuleManager: Shutting down and abandoning module CableComponent (382)
-[2018.10.01-19.50.20:060][650]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
-[2018.10.01-19.50.20:060][650]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
-[2018.10.01-19.50.20:060][650]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
-[2018.10.01-19.50.20:060][650]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
-[2018.10.01-19.50.20:060][650]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
-[2018.10.01-19.50.20:060][650]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
-[2018.10.01-19.50.20:060][650]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
-[2018.10.01-19.50.20:060][650]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
-[2018.10.01-19.50.20:060][650]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
-[2018.10.01-19.50.20:063][650]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
-[2018.10.01-19.50.20:064][650]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
-[2018.10.01-19.50.20:064][650]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
-[2018.10.01-19.50.20:064][650]LogModuleManager: Shutting down and abandoning module BackChannel (356)
-[2018.10.01-19.50.20:064][650]LogModuleManager: Shutting down and abandoning module AppleVision (354)
-[2018.10.01-19.50.20:064][650]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
-[2018.10.01-19.50.20:064][650]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
-[2018.10.01-19.50.20:064][650]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
-[2018.10.01-19.50.20:064][650]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
-[2018.10.01-19.50.20:064][650]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
-[2018.10.01-19.50.20:064][650]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
-[2018.10.01-19.50.20:064][650]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
-[2018.10.01-19.50.20:064][650]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
-[2018.10.01-19.50.20:064][650]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
-[2018.10.01-19.50.20:064][650]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
-[2018.10.01-19.50.20:064][650]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
-[2018.10.01-19.50.20:064][650]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
-[2018.10.01-19.50.20:064][650]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
-[2018.10.01-19.50.20:064][650]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
-[2018.10.01-19.50.20:064][650]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
-[2018.10.01-19.50.20:064][650]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
-[2018.10.01-19.50.20:064][650]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
-[2018.10.01-19.50.20:064][650]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
-[2018.10.01-19.50.20:064][650]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
-[2018.10.01-19.50.20:064][650]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
-[2018.10.01-19.50.20:064][650]LogModuleManager: Shutting down and abandoning module SourceControl (313)
-[2018.10.01-19.50.20:064][650]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
-[2018.10.01-19.50.20:064][650]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
-[2018.10.01-19.50.20:064][650]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
-[2018.10.01-19.50.20:064][650]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
-[2018.10.01-19.50.20:064][650]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
-[2018.10.01-19.50.20:065][650]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
-[2018.10.01-19.50.20:065][650]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
-[2018.10.01-19.50.20:065][650]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
-[2018.10.01-19.50.20:065][650]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
-[2018.10.01-19.50.20:065][650]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
-[2018.10.01-19.50.20:065][650]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
-[2018.10.01-19.50.20:065][650]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
-[2018.10.01-19.50.20:065][650]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
-[2018.10.01-19.50.20:065][650]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
-[2018.10.01-19.50.20:065][650]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
-[2018.10.01-19.50.20:166][650]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
-[2018.10.01-19.50.20:266][650]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
-[2018.10.01-19.50.20:266][650]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
-[2018.10.01-19.50.20:266][650]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
-[2018.10.01-19.50.20:266][650]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
-[2018.10.01-19.50.20:266][650]LogModuleManager: Shutting down and abandoning module DataValidation (270)
-[2018.10.01-19.50.20:266][650]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
-[2018.10.01-19.50.20:266][650]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
-[2018.10.01-19.50.20:266][650]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
-[2018.10.01-19.50.20:266][650]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
-[2018.10.01-19.50.20:267][650]LogModuleManager: Shutting down and abandoning module MainFrame (262)
-[2018.10.01-19.50.20:267][650]LogModuleManager: Shutting down and abandoning module HotReload (261)
-[2018.10.01-19.50.20:267][650]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
-[2018.10.01-19.50.20:268][650]LogModuleManager: Shutting down and abandoning module TreeMap (255)
-[2018.10.01-19.50.20:268][650]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
-[2018.10.01-19.50.20:268][650]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
-[2018.10.01-19.50.20:268][650]LogModuleManager: Shutting down and abandoning module Paper2D (248)
-[2018.10.01-19.50.20:268][650]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
-[2018.10.01-19.50.20:268][650]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
-[2018.10.01-19.50.20:269][650]LogModuleManager: Shutting down and abandoning module Media (243)
-[2018.10.01-19.50.20:275][650]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
-[2018.10.01-19.50.20:275][650]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
-[2018.10.01-19.50.20:275][650]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
-[2018.10.01-19.50.20:275][650]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
-[2018.10.01-19.50.20:275][650]LogModuleManager: Shutting down and abandoning module Overlay (232)
-[2018.10.01-19.50.20:275][650]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
-[2018.10.01-19.50.20:275][650]LogModuleManager: Shutting down and abandoning module VREditor (228)
-[2018.10.01-19.50.20:275][650]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
-[2018.10.01-19.50.20:275][650]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
-[2018.10.01-19.50.20:275][650]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
-[2018.10.01-19.50.20:275][650]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
-[2018.10.01-19.50.20:275][650]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
-[2018.10.01-19.50.20:275][650]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
-[2018.10.01-19.50.20:275][650]LogModuleManager: Shutting down and abandoning module UMG (214)
-[2018.10.01-19.50.20:275][650]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
-[2018.10.01-19.50.20:275][650]LogModuleManager: Shutting down and abandoning module Sequencer (212)
-[2018.10.01-19.50.20:276][650]LogModuleManager: Shutting down and abandoning module MessageLog (209)
-[2018.10.01-19.50.20:276][650]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
-[2018.10.01-19.50.20:276][650]LogModuleManager: Shutting down and abandoning module Slate (202)
-[2018.10.01-19.50.20:276][650]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
-[2018.10.01-19.50.20:277][650]LogModuleManager: Shutting down and abandoning module MRMesh (198)
-[2018.10.01-19.50.20:277][650]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
-[2018.10.01-19.50.20:277][650]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
-[2018.10.01-19.50.20:277][650]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
-[2018.10.01-19.50.20:277][650]LogModuleManager: Shutting down and abandoning module Networking (190)
-[2018.10.01-19.50.20:277][650]LogModuleManager: Shutting down and abandoning module Core (188)
-[2018.10.01-19.50.20:277][650]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
-[2018.10.01-19.50.20:277][650]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
-[2018.10.01-19.50.20:277][650]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
-[2018.10.01-19.50.20:277][650]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
-[2018.10.01-19.50.20:277][650]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
-[2018.10.01-19.50.20:277][650]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
-[2018.10.01-19.50.20:277][650]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
-[2018.10.01-19.50.20:277][650]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
-[2018.10.01-19.50.20:277][650]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
-[2018.10.01-19.50.20:277][650]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
-[2018.10.01-19.50.20:277][650]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
-[2018.10.01-19.50.20:277][650]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
-[2018.10.01-19.50.20:377][650]LogDerivedDataCache: Shutdown
-[2018.10.01-19.50.20:377][650]LogModuleManager: Shutting down and abandoning module XGEController (160)
-[2018.10.01-19.50.20:377][650]LogXGEController: Cleaning working directory: C:/Users/Cody Cormier/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.10.01-19.50.20:377][650]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
-[2018.10.01-19.50.20:377][650]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
-[2018.10.01-19.50.20:377][650]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
-[2018.10.01-19.50.20:377][650]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
-[2018.10.01-19.50.20:377][650]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
-[2018.10.01-19.50.20:377][650]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
-[2018.10.01-19.50.20:377][650]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
-[2018.10.01-19.50.20:377][650]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
-[2018.10.01-19.50.20:378][650]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
-[2018.10.01-19.50.20:378][650]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
-[2018.10.01-19.50.20:378][650]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
-[2018.10.01-19.50.20:378][650]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
-[2018.10.01-19.50.20:378][650]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
-[2018.10.01-19.50.20:378][650]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
-[2018.10.01-19.50.20:378][650]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
-[2018.10.01-19.50.20:378][650]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
-[2018.10.01-19.50.20:378][650]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
-[2018.10.01-19.50.20:378][650]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
-[2018.10.01-19.50.20:378][650]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
-[2018.10.01-19.50.20:378][650]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
-[2018.10.01-19.50.20:378][650]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
-[2018.10.01-19.50.20:378][650]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
-[2018.10.01-19.50.20:379][650]LogModuleManager: Shutting down and abandoning module Messaging (115)
-[2018.10.01-19.50.20:379][650]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
-[2018.10.01-19.50.20:379][650]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
-[2018.10.01-19.50.20:379][650]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
-[2018.10.01-19.50.20:385][650]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
-[2018.10.01-19.50.20:385][650]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
-[2018.10.01-19.50.20:385][650]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
-[2018.10.01-19.50.20:385][650]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
-[2018.10.01-19.50.20:385][650]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
-[2018.10.01-19.50.20:385][650]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
-[2018.10.01-19.50.20:385][650]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
-[2018.10.01-19.50.20:385][650]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
-[2018.10.01-19.50.20:385][650]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
-[2018.10.01-19.50.20:385][650]LogModuleManager: Shutting down and abandoning module InputCore (88)
-[2018.10.01-19.50.20:385][650]LogModuleManager: Shutting down and abandoning module Settings (86)
-[2018.10.01-19.50.20:385][650]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
-[2018.10.01-19.50.20:385][650]LogModuleManager: Shutting down and abandoning module SteamVR (82)
-[2018.10.01-19.50.20:385][650]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
-[2018.10.01-19.50.20:385][650]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
-[2018.10.01-19.50.20:385][650]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
-[2018.10.01-19.50.20:385][650]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
-[2018.10.01-19.50.20:385][650]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
-[2018.10.01-19.50.20:386][650]LogModuleManager: Shutting down and abandoning module XMPP (65)
-[2018.10.01-19.50.20:386][650]LogModuleManager: Shutting down and abandoning module WebSockets (64)
-[2018.10.01-19.50.20:416][650]LogModuleManager: Shutting down and abandoning module HTTP (61)
-[2018.10.01-19.50.20:416][650]LogHttp: Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
-[2018.10.01-19.50.20:416][650]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6A638C80-43B7-7E80-2C13-8B90B71E616E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.2-4302132%2B%2B%2BUE4%2BRelease-4.20&UserID=46f3b79a46171f5658329c973a87c34d%7Cd9510395923e4d108125ae8300e18fed%7Cad3ddfd4-7c2a-4dd2-b368-78e5b9c3ef62&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.10.01-19.50.20:416][650]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6A638C80-43B7-7E80-2C13-8B90B71E616E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.2-4302132%2B%2B%2BUE4%2BRelease-4.20&UserID=46f3b79a46171f5658329c973a87c34d%7Cd9510395923e4d108125ae8300e18fed%7Cad3ddfd4-7c2a-4dd2-b368-78e5b9c3ef62&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.10.01-19.50.20:438][650]LogModuleManager: Shutting down and abandoning module SSL (60)
-[2018.10.01-19.50.20:438][650]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
-[2018.10.01-19.50.20:438][650]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
-[2018.10.01-19.50.20:438][650]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
-[2018.10.01-19.50.20:438][650]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
-[2018.10.01-19.50.20:438][650]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
-[2018.10.01-19.50.20:439][650]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
-[2018.10.01-19.50.20:439][650]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
-[2018.10.01-19.50.20:439][650]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
-[2018.10.01-19.50.20:439][650]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
-[2018.10.01-19.50.20:439][650]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2018.10.01-19.50.20:439][650]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
-[2018.10.01-19.50.20:439][650]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.10.01-19.50.20:439][650]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.10.01-19.50.20:439][650]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.10.01-19.50.20:439][650]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.10.01-19.50.20:439][650]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.10.01-19.50.20:439][650]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.10.01-19.50.20:439][650]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.10.01-19.50.20:440][650]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.10.01-19.50.20:440][650]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.10.01-19.50.20:440][650]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.10.01-19.50.20:440][650]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.10.01-19.50.20:440][650]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.10.01-19.50.20:440][650]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.10.01-19.50.20:440][650]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.10.01-19.50.20:440][650]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.10.01-19.50.20:440][650]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.10.01-19.50.20:440][650]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.10.01-19.50.20:440][650]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.10.01-19.50.20:446][650]LogExit: Exiting.
-[2018.10.01-19.50.20:472][650]Log file closed, 10/01/18 16:50:20
+[2018.10.02-16.13.05:408][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.02-16.13.05:408][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.02-16.13.05:716][  0]LogHAL: Display: Platform has ~ 16 GB [17042804736 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.10.02-16.13.05:716][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.10.02-16.13.05:716][  0]LogInit: Going up to parent DeviceProfile []
+[2018.10.02-16.13.05:716][  0]LogInit: Computer: ALIEN
+[2018.10.02-16.13.05:716][  0]LogInit: User: CodyCormier
+[2018.10.02-16.13.05:716][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.10.02-16.13.05:716][  0]LogInit: High frequency timer resolution =2.742192 MHz
+[2018.10.02-16.13.05:717][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.10.02-16.13.05:717][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.02-16.13.05:717][  0]LogMemory: Process Physical Memory: 102.92 MB used, 102.92 MB peak
+[2018.10.02-16.13.05:717][  0]LogMemory: Process Virtual Memory: 103.01 MB used, 103.01 MB peak
+[2018.10.02-16.13.05:717][  0]LogMemory: Physical Memory: 4781.84 MB used,  11471.45 MB free, 16253.29 MB total
+[2018.10.02-16.13.05:717][  0]LogMemory: Virtual Memory: 4652.18 MB used,  11471.45 MB free, 134217728.00 MB total
+[2018.10.02-16.13.05:734][  0]LogInit: Using OS detected language (en-US).
+[2018.10.02-16.13.05:734][  0]LogInit: Using OS detected locale (en-CA).
+[2018.10.02-16.13.05:735][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.10.02-16.13.06:096][  0]LogStreaming: Display: Took  0.362s to InitEngineTextLocalization.
+[2018.10.02-16.13.06:096][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.02-16.13.06:127][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.02-16.13.06:127][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.02-16.13.06:295][  0]LogHMD: Failed to initialize OpenVR with code 101
+[2018.10.02-16.13.06:295][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.02-16.13.06:364][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.10.02-16.13.06:364][  0]LogD3D11RHI:       8081/0/8126 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.10.02-16.13.06:389][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.10.02-16.13.06:389][  0]LogD3D11RHI:       128/0/8126 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.10.02-16.13.06:392][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.02-16.13.06:392][  0]LogD3D11RHI:       0/0/8126 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.02-16.13.06:392][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.02-16.13.06:399][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.02-16.13.06:399][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
+[2018.10.02-16.13.06:399][  0]LogWindows: EnumDisplayDevices:
+[2018.10.02-16.13.06:399][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.10.02-16.13.06:400][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.10.02-16.13.06:400][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.10.02-16.13.06:401][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.10.02-16.13.06:401][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.10.02-16.13.06:401][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.10.02-16.13.06:401][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.10.02-16.13.06:402][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.10.02-16.13.06:402][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.10.02-16.13.06:402][  0]LogD3D11RHI:   Driver Version: 411.63 (internal:24.21.14.1163, unified:411.63)
+[2018.10.02-16.13.06:402][  0]LogD3D11RHI:      Driver Date: 9-18-2018
+[2018.10.02-16.13.06:402][  0]LogRHI: Texture pool is 5656 MB (70% of 8081 MB)
+[2018.10.02-16.13.06:451][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.02-16.13.06:487][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.10.02-16.13.06:532][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (../../../../../../Documents/GitHub/UE4Project/Project/Intermediate/Shaders/WorkingDirectory/9272/).
+[2018.10.02-16.13.06:532][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Cody Cormier/AppData/Local/Temp/UnrealShaderWorkingDir/DA4A7CB14DA2166202754A9ADFFD492D/'.
+[2018.10.02-16.13.06:800][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.02-16.13.06:815][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.02-16.13.06:831][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.02-16.13.06:844][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.02-16.13.06:857][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.02-16.13.06:869][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.02-16.13.06:882][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.02-16.13.06:894][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.02-16.13.06:899][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.02-16.13.06:976][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-16.13.06:976][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-16.13.06:976][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-16.13.06:976][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-16.13.06:976][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-16.13.06:976][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-16.13.06:976][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-16.13.06:976][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-16.13.06:976][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-16.13.06:976][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-16.13.06:976][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-16.13.06:977][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-16.13.06:977][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-16.13.06:977][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-16.13.06:977][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-16.13.06:977][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-16.13.06:977][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-16.13.06:977][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-16.13.06:978][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.02-16.13.07:039][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.02-16.13.07:039][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.02-16.13.07:063][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.02-16.13.07:063][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.02-16.13.07:076][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.02-16.13.07:088][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.02-16.13.07:100][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.02-16.13.07:113][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.02-16.13.07:122][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.10.02-16.13.07:122][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.02-16.13.07:165][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.02-16.13.07:165][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.02-16.13.07:165][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.02-16.13.07:862][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.02-16.13.07:923][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/Cody Cormier/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.02-16.13.07:923][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Cody Cormier/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.10.02-16.13.07:923][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Documents/GitHub/UE4Project/Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.02-16.13.07:923][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.02-16.13.07:923][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Documents/GitHub/UE4Project/Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.02-16.13.07:923][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.02-16.13.07:935][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.02-16.13.07:947][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Cody Cormier/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.02-16.13.07:947][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.02-16.13.07:947][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.02-16.13.08:575][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.02-16.13.08:577][  0]LogSlate: Using FreeType 2.6.0
+[2018.10.02-16.13.08:577][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.02-16.13.08:648][  0]LogAssetRegistry: FAssetRegistry took 0.0264 seconds to start up
+[2018.10.02-16.13.08:949][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.02-16.13.09:114][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.02-16.13.09:117][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.02-16.13.09:117][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.10.02-16.13.09:117][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.02-16.13.09:117][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.02-16.13.09:144][  0]LogNetVersion: VRTests 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4138015713)
+[2018.10.02-16.13.10:368][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.249128 seconds
+[2018.10.02-16.13.10:374][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.10.02-16.13.10:374][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.10.02-16.13.10:374][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.02-16.13.11:711][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.02-16.13.11:724][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.02-16.13.11:994][  0]SourceControl: Source control is disabled
+[2018.10.02-16.13.11:995][  0]SourceControl: Source control is disabled
+[2018.10.02-16.13.11:996][  0]SourceControl: Source control is disabled
+[2018.10.02-16.13.11:996][  0]SourceControl: Source control is disabled
+[2018.10.02-16.13.12:168][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.02-16.13.12:247][  0]LogOcInput: OculusInput pre-init called
+[2018.10.02-16.13.12:328][  0]LogEngine: Initializing Engine...
+[2018.10.02-16.13.12:329][  0]LogHMD: Failed to initialize OpenVR with code 101
+[2018.10.02-16.13.12:330][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.02-16.13.12:330][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.02-16.13.12:331][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.02-16.13.12:331][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.02-16.13.12:751][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.10.02-16.13.12:762][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.02-16.13.12:776][  0]LogInit: XAudio2 using 'Speakers (Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.10.02-16.13.12:784][  0]LogInit: FAudioDevice initialized.
+[2018.10.02-16.13.12:784][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.10.02-16.13.12:872][  0]LogDerivedDataCache: Saved boot cache 0.09s 86MB C:/Users/Cody Cormier/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.02-16.13.12:892][  0]LogInit: Texture streaming: Enabled
+[2018.10.02-16.13.12:906][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.02-16.13.12:919][  0]LogInit: Transaction tracking system initialized
+[2018.10.02-16.13.12:939][  0]BlueprintLog: New page: Editor Load
+[2018.10.02-16.13.12:992][  0]LocalizationService: Localization service is disabled
+[2018.10.02-16.13.13:566][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.02-16.13.13:566][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.02-16.13.13:566][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.02-16.13.13:566][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.02-16.13.13:566][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.02-16.13.13:566][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.02-16.13.13:566][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.02-16.13.13:659][  0]SourceControl: Source control is disabled
+[2018.10.02-16.13.13:659][  0]Cmd: MAP LOAD FILE="../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultProject/Map/DefaultMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.02-16.13.13:776][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/UE4Project/Project/Content/' took 0.24s
+[2018.10.02-16.13.13:776][  0]LightingResults: New page: Lighting Build
+[2018.10.02-16.13.13:778][  0]MapCheck: New page: Map Check
+[2018.10.02-16.13.13:778][  0]LightingResults: New page: Lighting Build
+[2018.10.02-16.13.13:830][  0]LogAIModule: Creating AISystem for world DefaultMap
+[2018.10.02-16.13.13:834][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.02-16.13.13:856][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.02-16.13.13:901][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 44.247ms to complete.
+[2018.10.02-16.13.13:901][  0]LogFileHelpers: Loading map 'DefaultMap' took 0.242
+[2018.10.02-16.13.14:633][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-16.13.14:669][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-16.13.14:677][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-16.13.14:684][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-16.13.14:699][  0]LogCollectionManager: Loaded 0 collections in 0.000818 seconds
+[2018.10.02-16.13.14:805][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/UE4Project/Project/Saved/Collections/' took 0.01s
+[2018.10.02-16.13.14:805][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/UE4Project/Project/Content/Developers/CodyCormier/Collections/' took 0.01s
+[2018.10.02-16.13.14:805][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/UE4Project/Project/Content/Collections/' took 0.01s
+[2018.10.02-16.13.14:805][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.10.02-16.13.14:816][  0]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 2572 classes and 603 folders.
+[2018.10.02-16.13.14:904][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.10.02-16.13.17:577][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.10.02-16.13.17:639][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.10.02-16.13.18:756][  0]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.02-16.13.18:759][  0]LogSlate: Took 0.000213 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.02-16.13.18:870][  0]LogSlate: Took 0.020613 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.02-16.13.19:336][  0]LogRenderer: Reallocating scene render targets to support 1072x496 Format 26 NumSamples 1 (Frame:1).
+[2018.10.02-16.13.19:658][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.02-16.13.19:658][  0]LogLoad: (Engine Initialization) Total time: 17.53 seconds
+[2018.10.02-16.13.19:658][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.02-16.13.19:676][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.02-16.13.19:748][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.02-16.13.19:960][  2]LogAssetRegistry: Asset discovery search completed in 11.3350 seconds
+[2018.10.02-16.13.19:963][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.10.02-16.13.19:963][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000080 seconds (updated 0 objects)
+[2018.10.02-16.13.20:829][ 46]LogSlate: Took 0.084100 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.02-16.13.24:905][250]LogFileCache: Retrieving MD5 hashes for directory 'D:/Documents/GitHub/UE4Project/Project/Content/' took 5.22s
+[2018.10.02-16.18.44:371][416]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-16.18.57:772][174]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2018.10.02-16.18.57:772][174]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualReality/Mannequin/Animations/RightHand_AnimBP.uasset.
+[2018.10.02-16.18.57:772][174]LoadErrors: Error: /Game/DefaultVrContent/VirtualReality/Mannequin/Animations/RightHand_AnimBP : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/GripEnum
+[2018.10.02-16.18.57:773][174]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2018.10.02-16.18.57:773][174]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualReality/Mannequin/Animations/RightHand_AnimBP.uasset.
+[2018.10.02-16.18.57:774][174]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2018.10.02-16.18.57:774][174]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum Referenced by GripState
+[2018.10.02-16.18.57:774][174]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.uasset.
+[2018.10.02-16.18.57:774][174]LoadErrors: Error: /Game/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/GripEnum
+[2018.10.02-16.18.57:774][174]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2018.10.02-16.18.57:775][174]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.uasset.
+[2018.10.02-16.18.57:775][174]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2018.10.02-16.18.57:775][174]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.uasset.
+[2018.10.02-16.18.57:775][174]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2018.10.02-16.18.57:775][174]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum Referenced by RightHand_AnimBP
+[2018.10.02-16.18.57:775][174]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.uasset.
+[2018.10.02-16.18.57:776][174]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2018.10.02-16.18.57:776][174]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum Referenced by K2Node_VariableGet_64
+[2018.10.02-16.18.57:776][174]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.uasset.
+[2018.10.02-16.18.58:871][174]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/226_Massage/Blueprints/Massage_Pawn.Massage_Pawn
+[2018.10.02-16.18.59:414][174]LogClass: Warning: Enum '/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/FeedbackEffects/EFeedbackType.EFeedbackType' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2018.10.02-16.18.59:414][174]LogClass: Warning: Enum '/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/FeedbackEffects/EFeedbackIntensity.EFeedbackIntensity' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2018.10.02-16.18.59:999][174]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2018.10.02-16.19.01:570][174]LogSlate: Took 0.016457 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.10.02-16.19.02:178][175]LogSlate: Took 0.015090 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.10.02-16.19.56:349][353]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1127'
+[2018.10.02-16.19.56:349][353]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1127' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/Bed/Bed3/bed3_matress.uasset.
+[2018.10.02-16.19.56:349][353]LoadErrors: Error: /Game/Classes/221_InteriorDesign/Assets/Bed/Bed3/bed3_matress : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1127
+[2018.10.02-16.19.56:349][353]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135'
+[2018.10.02-16.19.56:349][353]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/Bed/Bed3/bed3_matress.uasset.
+[2018.10.02-16.19.56:349][353]LoadErrors: Error: /Game/Classes/221_InteriorDesign/Assets/Bed/Bed3/bed3_matress : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135
+[2018.10.02-16.19.56:349][353]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1127'
+[2018.10.02-16.19.56:350][353]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1127' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/Bed/Bed3/bed3_matress.uasset.
+[2018.10.02-16.19.56:350][353]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135'
+[2018.10.02-16.19.56:350][353]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/Bed/Bed3/bed3_matress.uasset.
+[2018.10.02-16.19.56:386][353]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135'
+[2018.10.02-16.19.56:386][353]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/Bed/Bed3/bed3_mattress.uasset.
+[2018.10.02-16.19.56:386][353]LoadErrors: Error: /Game/Classes/221_InteriorDesign/Assets/Bed/Bed3/bed3_mattress : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135
+[2018.10.02-16.19.56:387][353]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135'
+[2018.10.02-16.19.56:387][353]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/Bed/Bed3/bed3_mattress.uasset.
+[2018.10.02-16.19.57:056][353]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.02-16.19.57:056][353]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Interfaces/BPI_WorldInteractive.uasset.
+[2018.10.02-16.19.57:056][353]LoadErrors: Error: /Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/Interfaces/BPI_WorldInteractive : Can't find file for asset. /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor
+[2018.10.02-16.19.57:057][353]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.02-16.19.57:057][353]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Interfaces/BPI_WorldInteractive.uasset.
+[2018.10.02-16.19.57:061][353]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.02-16.19.57:061][353]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.02-16.19.57:061][353]LoadErrors: Error: /Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor : Can't find file for asset. /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor
+[2018.10.02-16.19.57:061][353]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.02-16.19.57:061][353]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.02-16.19.57:061][353]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.02-16.19.57:061][353]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.02-16.19.57:063][353]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.02-16.19.57:063][353]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_0
+[2018.10.02-16.19.57:063][353]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.02-16.19.57:063][353]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.02-16.19.57:063][353]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.02-16.19.57:063][353]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.02-16.19.57:063][353]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_1
+[2018.10.02-16.19.57:063][353]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.02-16.19.57:064][353]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.02-16.19.57:064][353]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.02-16.19.57:064][353]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.02-16.19.57:064][353]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_2
+[2018.10.02-16.19.57:064][353]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.02-16.19.57:064][353]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.02-16.19.57:064][353]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.02-16.19.57:065][353]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.02-16.19.57:065][353]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_3
+[2018.10.02-16.19.57:065][353]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.02-16.19.57:065][353]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.02-16.19.57:065][353]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.02-16.19.57:065][353]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.02-16.19.57:065][353]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_4
+[2018.10.02-16.19.57:066][353]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.02-16.19.57:066][353]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.02-16.19.57:066][353]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.02-16.19.57:066][353]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.02-16.19.57:066][353]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_5
+[2018.10.02-16.19.57:066][353]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.02-16.19.57:066][353]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.02-16.19.57:067][353]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.02-16.19.57:067][353]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.02-16.19.57:067][353]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_6
+[2018.10.02-16.19.57:067][353]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.02-16.19.57:067][353]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.02-16.19.57:067][353]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.02-16.19.57:068][353]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.02-16.19.57:068][353]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_7
+[2018.10.02-16.19.57:068][353]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.02-16.19.57:068][353]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.02-16.19.57:068][353]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.02-16.19.57:068][353]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.02-16.19.57:068][353]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_9
+[2018.10.02-16.19.57:069][353]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.02-16.19.57:069][353]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.02-16.19.57:069][353]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.02-16.19.57:069][353]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.02-16.19.57:069][353]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_10
+[2018.10.02-16.19.57:069][353]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.02-16.19.57:070][353]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.02-16.19.57:070][353]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.02-16.19.57:070][353]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.02-16.19.57:070][353]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.02-16.19.57:070][353]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.02-16.19.57:071][353]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.02-16.19.57:093][353]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] Get Hand  is deprecated; please replace or remove it.
+[2018.10.02-16.19.57:094][353]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] Get Hand  is deprecated; Please use the Motion Source property instead of Hand
+[2018.10.02-16.19.57:103][353]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] [0414.97] Compile of BPC_WorldInteractor successful, but with 2 Warning(s) [in 16 ms] (/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor)
+[2018.10.02-16.19.58:441][353]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/pillows'
+[2018.10.02-16.19.58:441][353]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/pillows' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/Bed/Bed3/bed3_Pillows.uasset.
+[2018.10.02-16.19.58:441][353]LoadErrors: Error: /Game/Classes/221_InteriorDesign/Assets/Bed/Bed3/bed3_Pillows : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/Bed/Bed3/pillows
+[2018.10.02-16.19.58:441][353]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/pillows'
+[2018.10.02-16.19.58:441][353]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/pillows' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/Bed/Bed3/bed3_Pillows.uasset.
+[2018.10.02-16.19.58:498][353]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed_Textures-mats/21_-_Default'
+[2018.10.02-16.19.58:499][353]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed_Textures-mats/21_-_Default' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/Bed/Bed_Textures-mats/Bed_06_Object001.uasset.
+[2018.10.02-16.19.58:499][353]LoadErrors: Error: /Game/Classes/221_InteriorDesign/Assets/Bed/Bed_Textures-mats/Bed_06_Object001 : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/Bed/Bed_Textures-mats/21_-_Default
+[2018.10.02-16.19.58:499][353]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed_Textures-mats/21_-_Default'
+[2018.10.02-16.19.58:499][353]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed_Textures-mats/21_-_Default' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/Bed/Bed_Textures-mats/Bed_06_Object001.uasset.
+[2018.10.02-16.19.58:952][353]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135'
+[2018.10.02-16.19.58:953][353]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135.Material1135 Referenced by bed3_matress
+[2018.10.02-16.19.58:953][353]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135' while loading NULL.
+[2018.10.02-16.19.58:953][353]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1127'
+[2018.10.02-16.19.58:953][353]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1127.Material1127 Referenced by bed3_matress
+[2018.10.02-16.19.58:953][353]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1127' while loading NULL.
+[2018.10.02-16.19.58:954][353]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135'
+[2018.10.02-16.19.58:954][353]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135' while loading NULL.
+[2018.10.02-16.19.58:954][353]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1127'
+[2018.10.02-16.19.58:954][353]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1127' while loading NULL.
+[2018.10.02-16.19.59:119][353]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135'
+[2018.10.02-16.19.59:120][353]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135.Material1135 Referenced by bed3_mattress
+[2018.10.02-16.19.59:120][353]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135' while loading NULL.
+[2018.10.02-16.19.59:120][353]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135'
+[2018.10.02-16.19.59:120][353]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135' while loading NULL.
+[2018.10.02-16.19.59:156][353]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed_Textures-mats/21_-_Default'
+[2018.10.02-16.19.59:156][353]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/Bed/Bed_Textures-mats/21_-_Default.21_-_Default Referenced by Bed_06_Object001
+[2018.10.02-16.19.59:157][353]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed_Textures-mats/21_-_Default' while loading NULL.
+[2018.10.02-16.19.59:157][353]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed_Textures-mats/21_-_Default'
+[2018.10.02-16.19.59:157][353]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed_Textures-mats/21_-_Default' while loading NULL.
+[2018.10.02-16.19.59:158][353]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/pillows'
+[2018.10.02-16.19.59:159][353]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/Bed/Bed3/pillows.pillows Referenced by bed3_Pillows
+[2018.10.02-16.19.59:159][353]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/pillows' while loading NULL.
+[2018.10.02-16.19.59:159][353]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/pillows'
+[2018.10.02-16.19.59:159][353]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/pillows' while loading NULL.
+[2018.10.02-16.20.00:549][353]LogAIModule: Creating AISystem for world MassageMap
+[2018.10.02-16.20.00:667][353]LogAssetEditorManager: Opening Asset editor for World /Game/Classes/226_Massage/Map/MassageMap.MassageMap
+[2018.10.02-16.20.00:709][353]Cmd: MAP LOAD FILE="../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Map/MassageMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.02-16.20.00:709][353]LightingResults: New page: Lighting Build
+[2018.10.02-16.20.00:709][353]LoadErrors: New page: Loading map: MassageMap.umap
+[2018.10.02-16.20.00:710][353]MapCheck: New page: Map Check
+[2018.10.02-16.20.00:710][353]LightingResults: New page: Lighting Build
+[2018.10.02-16.20.00:949][353]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.02-16.20.01:027][353]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.02-16.20.01:103][353]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 75.725ms to complete.
+[2018.10.02-16.20.01:103][353]LogFileHelpers: Loading map 'MassageMap' took 0.395
+[2018.10.02-16.20.21:876][572]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.10.02-16.20.25:500][767]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.10.02-16.20.28:523][933]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.10.02-16.20.33:517][211]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.10.02-16.20.35:746][342]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.10.02-16.20.35:747][342]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.10.02-16.20.37:317][434]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.10.02-16.20.38:964][531]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.10.02-16.20.45:272][907]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-16.20.48:646][ 93]LogMaterial: Display: Missing cached shader map for material Lotion_BottleMat, compiling. 
+[2018.10.02-16.20.48:722][ 93]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.10.02-16.20.48:722][ 93]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.02-16.20.48:722][ 93]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.02-16.20.59:243][645]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Curtain_Plane25)
+[2018.10.02-16.21.13:308][474]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-16.21.15:703][614]LogRenderer: Reallocating scene render targets to support 1072x600 Format 26 NumSamples 1 (Frame:1).
+[2018.10.02-16.21.29:730][449]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-16.21.41:870][152]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Classes/226_Massage/Assets/Character/MassageMesh.MassageMesh
+[2018.10.02-16.21.43:125][153]LogRenderer: Reallocating scene render targets to support 1272x804 Format 26 NumSamples 1 (Frame:1).
+[2018.10.02-16.21.44:876][246]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/226_Massage/Assets/Character/MassageMannequin.MassageMannequin
+[2018.10.02-16.22.02:358][269]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-16.22.02:424][273]BlueprintLog: New page: Compile MassageMannequin
+[2018.10.02-16.22.03:156][273]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/MassageMannequin102B29D342E9EB3DF54F258AFDF074CC.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Assets/Character/MassageMannequin.uasset'
+[2018.10.02-16.22.27:665][738]BlueprintLog: New page: Compile MassageMannequin
+[2018.10.02-16.22.27:866][738]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/MassageMannequin163034594C6D7164C79ACFA08DB0D092.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Assets/Character/MassageMannequin.uasset'
+[2018.10.02-16.23.12:682][423]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-16.23.17:494][691]LogEditorViewport: Clicking on Actor (LMB): LotionBottle_C (LotionBottle)
+[2018.10.02-16.23.35:845][760]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-16.23.48:255][493]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/226_Massage/Blueprints/MassagePoints/MassagePointParent.MassagePointParent
+[2018.10.02-16.24.15:914][122]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/226_Massage/Blueprints/LotionBottle/Oil.Oil
+[2018.10.02-16.24.28:238][837]BlueprintLog: New page: Compile Oil
+[2018.10.02-16.24.28:459][837]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/Oil9B970FFC426D0AC0B282EAA236C1DF5B.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Blueprints/LotionBottle/Oil.uasset'
+[2018.10.02-16.25.22:601][ 83]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.10.02-16.25.24:855][216]BlueprintLog: New page: Compile MassageMannequin
+[2018.10.02-16.25.25:067][216]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/MassageMannequin4C4651B049FD419407546CB130933E27.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Assets/Character/MassageMannequin.uasset'
+[2018.10.02-16.25.32:139][633]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.10.02-16.25.34:232][754]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.10.02-16.25.36:716][898]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/226_Massage/Blueprints/MassagePoints/MassagePoint_Child.MassagePoint_Child
+[2018.10.02-16.25.38:683][994]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/226_Massage/Blueprints/MassagePoints/MassagePoint_Child.MassagePoint_Child
+[2018.10.02-16.25.48:736][576]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.10.02-16.25.51:302][727]BlueprintLog: New page: Compile MassagePoint_Child
+[2018.10.02-16.25.51:509][727]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/MassagePoint_Child7D788AD244C15641946A32828F15D85D.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Blueprints/MassagePoints/MassagePoint_Child.uasset'
+[2018.10.02-16.26.19:879][402]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/MassageMap061D099D4B17043C1D7D1180F2C77385.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Map/MassageMap.umap'
+[2018.10.02-16.26.20:275][402]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/MassageMap_BuiltData2595812A4A0C699F458FFA87C6A27D75.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Map/MassageMap_BuiltData.uasset'
