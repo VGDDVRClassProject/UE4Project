@@ -367,3 +367,212 @@ LogInit: Object subsystem initialized
 [2018.10.03-18.39.40:288][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
 [2018.10.03-18.39.40:297][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2572 classes and 603 folders.
 [2018.10.03-18.39.40:362][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.10.03-18.39.42:701][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.10.03-18.39.42:768][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.10.03-18.39.44:349][  0]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.03-18.39.44:358][  0]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.03-18.39.44:461][  0]LogSlate: Took 0.020021 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.03-18.39.44:836][  0]LogRenderer: Reallocating scene render targets to support 1072x496 Format 26 NumSamples 1 (Frame:1).
+[2018.10.03-18.39.45:497][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.10.03-18.39.45:497][  0]LogLoad: (Engine Initialization) Total time: 17.49 seconds
+[2018.10.03-18.39.45:497][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.03-18.39.45:605][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.03-18.39.45:611][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.03-18.39.46:720][ 34]LogSlate: Took 0.112816 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.03-18.39.49:126][178]LogSlate: Window 'Message Log' being destroyed
+[2018.10.03-18.39.49:131][178]LogSlate: Window 'Message Log' being destroyed
+[2018.10.03-18.39.50:881][282]LogFileCache: Retrieving MD5 hashes for directory 'D:/Documents/GitHub/UE4Project/Project/Content/' took 5.35s
+[2018.10.03-18.39.52:632][387]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.03-18.39.57:785][694]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.10.03-18.39.59:075][721]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1127'
+[2018.10.03-18.39.59:075][721]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1127' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/Bed/Bed3/bed3_matress.uasset.
+[2018.10.03-18.39.59:075][721]LoadErrors: Error: /Game/Classes/221_InteriorDesign/Assets/Bed/Bed3/bed3_matress : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1127
+[2018.10.03-18.39.59:076][721]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135'
+[2018.10.03-18.39.59:076][721]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/Bed/Bed3/bed3_matress.uasset.
+[2018.10.03-18.39.59:076][721]LoadErrors: Error: /Game/Classes/221_InteriorDesign/Assets/Bed/Bed3/bed3_matress : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135
+[2018.10.03-18.39.59:076][721]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1127'
+[2018.10.03-18.39.59:076][721]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1127' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/Bed/Bed3/bed3_matress.uasset.
+[2018.10.03-18.39.59:076][721]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135'
+[2018.10.03-18.39.59:076][721]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/Bed/Bed3/bed3_matress.uasset.
+[2018.10.03-18.39.59:151][721]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135'
+[2018.10.03-18.39.59:151][721]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/Bed/Bed3/bed3_mattress.uasset.
+[2018.10.03-18.39.59:151][721]LoadErrors: Error: /Game/Classes/221_InteriorDesign/Assets/Bed/Bed3/bed3_mattress : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135
+[2018.10.03-18.39.59:151][721]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135'
+[2018.10.03-18.39.59:151][721]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/Bed/Bed3/bed3_mattress.uasset.
+[2018.10.03-18.40.00:485][721]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.03-18.40.00:485][721]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Interfaces/BPI_WorldInteractive.uasset.
+[2018.10.03-18.40.00:485][721]LoadErrors: Error: /Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/Interfaces/BPI_WorldInteractive : Can't find file for asset. /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor
+[2018.10.03-18.40.00:486][721]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.03-18.40.00:486][721]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Interfaces/BPI_WorldInteractive.uasset.
+[2018.10.03-18.40.00:489][721]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.03-18.40.00:489][721]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.03-18.40.00:489][721]LoadErrors: Error: /Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor : Can't find file for asset. /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor
+[2018.10.03-18.40.00:490][721]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.03-18.40.00:490][721]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.03-18.40.00:490][721]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.03-18.40.00:490][721]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.03-18.40.00:491][721]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.03-18.40.00:491][721]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_0
+[2018.10.03-18.40.00:491][721]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.03-18.40.00:492][721]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.03-18.40.00:492][721]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.03-18.40.00:492][721]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.03-18.40.00:492][721]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_1
+[2018.10.03-18.40.00:492][721]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.03-18.40.00:492][721]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.03-18.40.00:492][721]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.03-18.40.00:493][721]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.03-18.40.00:493][721]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_2
+[2018.10.03-18.40.00:493][721]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.03-18.40.00:493][721]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.03-18.40.00:493][721]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.03-18.40.00:494][721]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.03-18.40.00:494][721]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_3
+[2018.10.03-18.40.00:494][721]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.03-18.40.00:494][721]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.03-18.40.00:494][721]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.03-18.40.00:494][721]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.03-18.40.00:494][721]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_4
+[2018.10.03-18.40.00:495][721]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.03-18.40.00:495][721]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.03-18.40.00:495][721]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.03-18.40.00:495][721]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.03-18.40.00:495][721]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_5
+[2018.10.03-18.40.00:496][721]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.03-18.40.00:496][721]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.03-18.40.00:496][721]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.03-18.40.00:496][721]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.03-18.40.00:496][721]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_6
+[2018.10.03-18.40.00:496][721]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.03-18.40.00:497][721]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.03-18.40.00:497][721]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.03-18.40.00:497][721]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.03-18.40.00:497][721]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_7
+[2018.10.03-18.40.00:497][721]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.03-18.40.00:497][721]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.03-18.40.00:498][721]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.03-18.40.00:498][721]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.03-18.40.00:498][721]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_9
+[2018.10.03-18.40.00:498][721]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.03-18.40.00:498][721]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.03-18.40.00:498][721]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.03-18.40.00:499][721]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.03-18.40.00:499][721]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_10
+[2018.10.03-18.40.00:499][721]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.03-18.40.00:499][721]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.03-18.40.00:499][721]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.03-18.40.00:500][721]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.03-18.40.00:500][721]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.03-18.40.00:500][721]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.03-18.40.00:500][721]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.03-18.40.00:525][721]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] Get Hand  is deprecated; please replace or remove it.
+[2018.10.03-18.40.00:538][721]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] Get Hand  is deprecated; Please use the Motion Source property instead of Hand
+[2018.10.03-18.40.00:548][721]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] [0032.54] Compile of BPC_WorldInteractor successful, but with 2 Warning(s) [in 30 ms] (/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor)
+[2018.10.03-18.40.01:825][721]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/pillows'
+[2018.10.03-18.40.01:825][721]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/pillows' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/Bed/Bed3/bed3_Pillows.uasset.
+[2018.10.03-18.40.01:825][721]LoadErrors: Error: /Game/Classes/221_InteriorDesign/Assets/Bed/Bed3/bed3_Pillows : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/Bed/Bed3/pillows
+[2018.10.03-18.40.01:825][721]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/pillows'
+[2018.10.03-18.40.01:825][721]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/pillows' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/Bed/Bed3/bed3_Pillows.uasset.
+[2018.10.03-18.40.01:839][721]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed_Textures-mats/21_-_Default'
+[2018.10.03-18.40.01:839][721]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed_Textures-mats/21_-_Default' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/Bed/Bed_Textures-mats/Bed_06_Object001.uasset.
+[2018.10.03-18.40.01:839][721]LoadErrors: Error: /Game/Classes/221_InteriorDesign/Assets/Bed/Bed_Textures-mats/Bed_06_Object001 : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/Bed/Bed_Textures-mats/21_-_Default
+[2018.10.03-18.40.01:839][721]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed_Textures-mats/21_-_Default'
+[2018.10.03-18.40.01:839][721]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed_Textures-mats/21_-_Default' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/221_InteriorDesign/Assets/Bed/Bed_Textures-mats/Bed_06_Object001.uasset.
+[2018.10.03-18.40.02:302][721]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed_Textures-mats/21_-_Default'
+[2018.10.03-18.40.02:302][721]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/Bed/Bed_Textures-mats/21_-_Default.21_-_Default Referenced by Bed_06_Object001
+[2018.10.03-18.40.02:303][721]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed_Textures-mats/21_-_Default' while loading NULL.
+[2018.10.03-18.40.02:303][721]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed_Textures-mats/21_-_Default'
+[2018.10.03-18.40.02:303][721]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed_Textures-mats/21_-_Default' while loading NULL.
+[2018.10.03-18.40.02:325][721]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/pillows'
+[2018.10.03-18.40.02:325][721]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/Bed/Bed3/pillows.pillows Referenced by bed3_Pillows
+[2018.10.03-18.40.02:325][721]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/pillows' while loading NULL.
+[2018.10.03-18.40.02:325][721]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/pillows'
+[2018.10.03-18.40.02:325][721]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/pillows' while loading NULL.
+[2018.10.03-18.40.02:508][721]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135'
+[2018.10.03-18.40.02:508][721]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135.Material1135 Referenced by bed3_mattress
+[2018.10.03-18.40.02:508][721]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135' while loading NULL.
+[2018.10.03-18.40.02:508][721]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135'
+[2018.10.03-18.40.02:509][721]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135' while loading NULL.
+[2018.10.03-18.40.02:510][721]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135'
+[2018.10.03-18.40.02:510][721]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135.Material1135 Referenced by bed3_matress
+[2018.10.03-18.40.02:510][721]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135' while loading NULL.
+[2018.10.03-18.40.02:510][721]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1127'
+[2018.10.03-18.40.02:510][721]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1127.Material1127 Referenced by bed3_matress
+[2018.10.03-18.40.02:510][721]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1127' while loading NULL.
+[2018.10.03-18.40.02:510][721]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135'
+[2018.10.03-18.40.02:510][721]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1135' while loading NULL.
+[2018.10.03-18.40.02:511][721]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1127'
+[2018.10.03-18.40.02:511][721]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/Bed/Bed3/Material1127' while loading NULL.
+[2018.10.03-18.40.04:319][721]LogAIModule: Creating AISystem for world MassageMap
+[2018.10.03-18.40.04:438][721]LogAssetEditorManager: Opening Asset editor for World /Game/Classes/226_Massage/Map/MassageMap.MassageMap
+[2018.10.03-18.40.04:599][721]Cmd: MAP LOAD FILE="../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Map/MassageMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.03-18.40.04:600][721]LightingResults: New page: Lighting Build
+[2018.10.03-18.40.04:600][721]LoadErrors: New page: Loading map: MassageMap.umap
+[2018.10.03-18.40.04:601][721]MapCheck: New page: Map Check
+[2018.10.03-18.40.04:601][721]LightingResults: New page: Lighting Build
+[2018.10.03-18.40.04:891][721]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.03-18.40.04:973][721]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.03-18.40.05:051][721]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 77.617ms to complete.
+[2018.10.03-18.40.05:051][721]LogFileHelpers: Loading map 'MassageMap' took 0.452
+[2018.10.03-18.40.24:509][817]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.03-18.40.32:796][267]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.10.03-18.40.34:200][341]LogAssetRegistry: Asset discovery search completed in 61.6184 seconds
+[2018.10.03-18.40.34:202][341]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000006 seconds (updated 0 objects)
+[2018.10.03-18.40.59:950][842]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.03-18.41.01:766][950]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/226_Massage/Blueprints/Massage_Pawn.Massage_Pawn
+[2018.10.03-18.41.02:116][950]LogClass: Warning: Enum '/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/FeedbackEffects/EFeedbackType.EFeedbackType' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2018.10.03-18.41.02:116][950]LogClass: Warning: Enum '/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/FeedbackEffects/EFeedbackIntensity.EFeedbackIntensity' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2018.10.03-18.41.02:458][950]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.10.03-18.41.03:864][950]LogSlate: Took 0.014898 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.10.03-18.41.04:307][951]LogSlate: Took 0.012754 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.10.03-18.42.29:187][  5]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/226_Massage/Blueprints/MassagePoints/MassagePointParent.MassagePointParent
+[2018.10.03-18.43.02:328][950]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/226_Massage/Blueprints/MassagePoints/MassagePoint_Child.MassagePoint_Child
+[2018.10.03-18.43.02:573][950]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'CompilerResults'
+[2018.10.03-18.43.05:810][140]LogSlate: Window 'CompilerResults' being destroyed
+[2018.10.03-18.43.05:815][140]LogSlate: Window 'CompilerResults' being destroyed
+[2018.10.03-18.43.06:718][185]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/226_Massage/Blueprints/MassagePoints/MassagePoint_Child.MassagePoint_Child
+[2018.10.03-18.43.17:894][815]LogSlate: Took 0.043373 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.10.03-18.43.26:739][334]BlueprintLog: New page: Compile MassagePoint_Child
+[2018.10.03-18.43.27:391][334]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/MassagePoint_Child5741D4154E35294D54BF88B3068A1CD3.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Blueprints/MassagePoints/MassagePoint_Child.uasset'
+[2018.10.03-18.43.28:404][392]BlueprintLog: New page: Compile MassagePointParent
+[2018.10.03-18.43.28:655][392]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/MassagePointParent53F644EC4D45A19BA4F541AC90849B94.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Blueprints/MassagePoints/MassagePointParent.uasset'
+[2018.10.03-18.43.29:359][427]BlueprintLog: New page: Compile Massage_Pawn
+[2018.10.03-18.43.29:687][427]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/Massage_PawnB06B754A43BED07FB0F72387CC352524.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Blueprints/Massage_Pawn.uasset'
+[2018.10.03-18.44.26:778][788]BlueprintLog: New page: Compile Massage_Pawn
+[2018.10.03-18.44.27:081][788]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/Massage_PawnACC9C4074BFF08BF8D7C49BB69324870.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Blueprints/Massage_Pawn.uasset'
+[2018.10.03-18.49.58:978][849]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/MassageMap_Auto1AB55E6F245200DF5CDAA3583A80857AB.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/226_Massage/Map/MassageMap_Auto1.umap'
+[2018.10.03-18.49.58:984][849]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/226_Massage/Map/MassageMap' took 0.416
+[2018.10.03-18.49.58:984][849]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.416
+[2018.10.03-18.52.26:287][547]BlueprintLog: New page: Compile Massage_Pawn
+[2018.10.03-18.52.26:594][547]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/Massage_Pawn5784B2C1442248A6BD00A4A1678D11FA.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Blueprints/Massage_Pawn.uasset'
+[2018.10.03-18.52.28:945][683]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.10.03-18.52.34:304][988]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/226_Massage/Blueprints/GameModeRelated/Massage_GameMode.Massage_GameMode
+[2018.10.03-18.53.46:958][265]BlueprintLog: New page: Compile Massage_GameMode
+[2018.10.03-18.53.47:319][265]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/Massage_GameModeA159DD904D84BA1A125EC5965DD46E48.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Blueprints/GameModeRelated/Massage_GameMode.uasset'
+[2018.10.03-18.54.33:272][990]BlueprintLog: New page: Compile Massage_GameMode
+[2018.10.03-18.54.33:604][990]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/Massage_GameMode1ADBBF2D4BAD2695A5AB78BCDD0EC8D9.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Blueprints/GameModeRelated/Massage_GameMode.uasset'
+[2018.10.03-19.00.43:959][680]LogRenderer: Reallocating scene render targets to support 1072x600 Format 26 NumSamples 1 (Frame:1).
+[2018.10.03-19.01.46:626][383]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.03-19.03.07:890][235]BlueprintLog: New page: Compile Massage_Pawn
+[2018.10.03-19.03.08:200][235]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/Massage_Pawn0746FF21479EAA3E4FB6B1BBFFDA6B06.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Blueprints/Massage_Pawn.uasset'
+[2018.10.03-19.03.10:985][358]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/MassageMap4E5234C24739BD36B333D482743A4459.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Map/MassageMap.umap'
+[2018.10.03-19.03.11:371][358]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/MassageMap_BuiltDataE3DC61FA45891622E14AC593F91E8D35.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Map/MassageMap_BuiltData.uasset'
+[2018.10.03-19.03.13:022][453]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Classes/226_Massage/Blueprints/Huds/MassageHUD.MassageHUD
+[2018.10.03-19.03.57:580][ 50]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'UKismetTextLibrary::Conv_IntToText' [Element not found.]
+[2018.10.03-19.03.58:096][ 81]BlueprintLog: New page: Compile MassageHUD
+[2018.10.03-19.03.58:331][ 81]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/MassageHUDAFB7CB094C25BEBDEEA503842F24AE81.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Blueprints/Huds/MassageHUD.uasset'
+[2018.10.03-19.04.43:947][795]BlueprintLog: New page: Compile MassageHUD
+[2018.10.03-19.04.44:183][795]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/MassageHUD2652456D435142D942341A8BCD34AAB1.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Blueprints/Huds/MassageHUD.uasset'
+[2018.10.03-19.06.38:082][624]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/MassageHUD023D10394EB582130BB8EFAB99F8AF4B.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Blueprints/Huds/MassageHUD.uasset'
+[2018.10.03-19.07.01:171][  5]BlueprintLog: New page: Compile MassageHUD
+[2018.10.03-19.07.01:402][  5]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/MassageHUD03174C7E4672162AC66BAD893E5354EC.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Blueprints/Huds/MassageHUD.uasset'
+[2018.10.03-19.07.10:719][561]BlueprintLog: New page: Compile MassageHUD
+[2018.10.03-19.07.10:951][561]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/MassageHUD2E9CBDFA44A9CC9EE1F657A8B16BA986.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Blueprints/Huds/MassageHUD.uasset'
+[2018.10.03-19.07.18:054][985]BlueprintLog: New page: Compile MassageHUD
+[2018.10.03-19.07.18:283][985]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/MassageHUD4B9A8E814B967F70F04179B0B174B08A.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Blueprints/Huds/MassageHUD.uasset'
+[2018.10.03-19.07.30:354][707]BlueprintLog: New page: Compile MassageHUD
+[2018.10.03-19.07.30:578][707]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/MassageHUD7C9DD6DD4785DD8AFEA2BA83B24351FE.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Blueprints/Huds/MassageHUD.uasset'
+[2018.10.03-19.07.50:382][893]BlueprintLog: New page: Compile MassageHUD
+[2018.10.03-19.07.50:603][893]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/MassageHUD70E563D34DABFCC9023DC08E669424EE.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Blueprints/Huds/MassageHUD.uasset'
+[2018.10.03-19.09.11:152][664]BlueprintLog: New page: Compile MassageHUD
+[2018.10.03-19.09.11:680][664]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/MassageHUD7DCAA2B347E11FC9C63EE4B619998A2F.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Blueprints/Huds/MassageHUD.uasset'
