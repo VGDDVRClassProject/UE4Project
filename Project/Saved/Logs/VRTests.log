@@ -539,3 +539,340 @@ LogInit: Object subsystem initialized
 [2018.10.03-17.24.53:353][505]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/Massage_PawnCDD81393435860A8574E27A9563951E9.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Blueprints/Massage_Pawn.uasset'
 [2018.10.03-17.25.33:834][307]BlueprintLog: New page: Compile Massage_GameMode
 [2018.10.03-17.25.34:177][307]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/Massage_GameModeC2B33DFC4EA92F47A36680BBBBBFCF97.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Blueprints/GameModeRelated/Massage_GameMode.uasset'
+[2018.10.03-17.26.06:537][981]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/MassageMap_Auto1C0740B094BD41094A562C2A5503073A4.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/226_Massage/Map/MassageMap_Auto1.umap'
+[2018.10.03-17.26.06:541][981]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/226_Massage/Map/MassageMap' took 0.499
+[2018.10.03-17.26.06:541][981]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.499
+[2018.10.03-17.26.06:543][981]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Classes/226_Massage/Blueprints/Massage_Pawn] ([1] browsable assets)...
+[2018.10.03-17.26.06:543][981]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/226_Massage/Blueprints/Massage_Pawn]
+[2018.10.03-17.26.06:607][981]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/Massage_Pawn_Auto13321A65A4BEF4E0EB9E6EDBD92E6D9A2.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/226_Massage/Blueprints/Massage_Pawn_Auto1.uasset'
+[2018.10.03-17.26.06:617][981]LogFileHelpers: Auto-saving content packages took 0.075
+[2018.10.03-17.32.19:701][231]LogSlate: Window 'Message Log' being destroyed
+[2018.10.03-17.32.19:706][231]LogSlate: Window 'Message Log' being destroyed
+[2018.10.03-17.32.28:063][ 14]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.03-17.32.28:082][ 14]PIE: New page: SIE session: MassageMap (Oct 3, 2018, 11:32:28 AM)
+[2018.10.03-17.32.28:082][ 14]LogPlayLevel: Creating play world package: /Game/Classes/226_Massage/Map/UEDPIE_0_MassageMap
+[2018.10.03-17.32.28:123][ 14]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040323s)
+[2018.10.03-17.32.28:123][ 14]LogAIModule: Creating AISystem for world MassageMap
+[2018.10.03-17.32.28:123][ 14]LogPlayLevel: PIE: World Init took: (0.000746s)
+[2018.10.03-17.32.28:124][ 14]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Classes/226_Massage/Map/MassageMap.MassageMap to /Game/Classes/226_Massage/Map/UEDPIE_0_MassageMap.MassageMap (0.041280s)
+[2018.10.03-17.32.28:165][ 14]LogInit: XAudio2 using 'Speakers (Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.10.03-17.32.28:172][ 14]LogInit: FAudioDevice initialized.
+[2018.10.03-17.32.28:225][ 14]LogLoad: Game class is 'Massage_GameMode_C'
+[2018.10.03-17.32.28:239][ 14]LogWorld: Bringing World /Game/Classes/226_Massage/Map/UEDPIE_0_MassageMap.MassageMap up for play (max tick rate 0) at 2018.10.03-14.32.28
+[2018.10.03-17.32.28:241][ 14]LogWorld: Bringing up level for play took: 0.013847
+[2018.10.03-17.32.28:274][ 14]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2018.10.03-17.32.28:292][ 14]PIE: Play in editor start time for /Game/Classes/226_Massage/Map/UEDPIE_0_MassageMap -0.631
+[2018.10.03-17.32.29:009][ 74]Blueprint: Warning: DrawMaterialToRenderTarget: TextureRenderTarget must be non-null.
+[2018.10.03-17.32.30:047][174]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.32.32:009][379]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.32.48:016][862]LogSlate: Took 0.031773 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.10.03-17.32.48:855][940]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.32.50:857][149]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.32.52:862][359]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.32.54:858][570]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.32.56:837][779]LogBlueprintUserMessages: [Massage_GameMode_C_0] Sucessfully Removed ActivePoint
+[2018.10.03-17.32.56:857][781]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.32.58:855][989]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.33.00:842][201]LogBlueprintUserMessages: [Massage_GameMode_C_0] Sucessfully Removed ActivePoint
+[2018.10.03-17.33.00:852][202]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.33.02:855][417]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.33.04:842][629]LogBlueprintUserMessages: [Massage_GameMode_C_0] Sucessfully Removed ActivePoint
+[2018.10.03-17.33.04:861][631]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.33.06:839][839]LogBlueprintUserMessages: [Massage_GameMode_C_0] Sucessfully Removed ActivePoint
+[2018.10.03-17.33.06:857][841]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.33.08:843][ 51]LogBlueprintUserMessages: [Massage_GameMode_C_0] Sucessfully Removed ActivePoint
+[2018.10.03-17.33.08:861][ 53]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.33.10:861][266]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.33.12:856][479]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.33.14:839][685]LogBlueprintUserMessages: [Massage_GameMode_C_0] Sucessfully Removed ActivePoint
+[2018.10.03-17.33.14:859][687]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.33.16:837][893]LogBlueprintUserMessages: [Massage_GameMode_C_0] Sucessfully Removed ActivePoint
+[2018.10.03-17.33.16:857][895]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.33.18:854][108]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.33.20:845][317]LogBlueprintUserMessages: [Massage_GameMode_C_0] Sucessfully Removed ActivePoint
+[2018.10.03-17.33.20:854][318]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.33.22:842][526]LogBlueprintUserMessages: [Massage_GameMode_C_0] Sucessfully Removed ActivePoint
+[2018.10.03-17.33.22:862][528]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.33.24:840][739]LogBlueprintUserMessages: [Massage_GameMode_C_0] Sucessfully Removed ActivePoint
+[2018.10.03-17.33.24:859][741]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.33.26:841][952]LogBlueprintUserMessages: [Massage_GameMode_C_0] Sucessfully Removed ActivePoint
+[2018.10.03-17.33.26:860][954]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.33.28:840][165]LogBlueprintUserMessages: [Massage_GameMode_C_0] Sucessfully Removed ActivePoint
+[2018.10.03-17.33.28:858][167]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.33.31:100][402]LogBlueprintUserMessages: [Massage_GameMode_C_0] Sucessfully Removed ActivePoint
+[2018.10.03-17.33.31:118][404]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.33.31:597][457]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.03-17.33.31:644][457]Blueprint: Warning: DrawMaterialToRenderTarget: TextureRenderTarget must be non-null.
+[2018.10.03-17.33.31:676][457]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.03-17.33.31:708][457]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.03-17.33.31:728][458]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2018.10.03-17.35.36:050][252]BlueprintLog: New page: Compile Massage_GameMode
+[2018.10.03-17.35.36:472][252]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/Massage_GameMode2DD6756941AD48D1628E16993D834395.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Blueprints/GameModeRelated/Massage_GameMode.uasset'
+[2018.10.03-17.35.36:540][252]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/Massage_Pawn876971E84DE5B19C9809C3A197567500.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Blueprints/Massage_Pawn.uasset'
+[2018.10.03-17.35.39:300][576]LogTemp: Repeating last play command: Simulate
+[2018.10.03-17.35.39:330][576]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.03-17.35.39:330][576]PIE: New page: SIE session: MassageMap (Oct 3, 2018, 11:35:39 AM)
+[2018.10.03-17.35.39:331][576]LogPlayLevel: Creating play world package: /Game/Classes/226_Massage/Map/UEDPIE_0_MassageMap
+[2018.10.03-17.35.39:353][576]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022054s)
+[2018.10.03-17.35.39:354][576]LogAIModule: Creating AISystem for world MassageMap
+[2018.10.03-17.35.39:354][576]LogPlayLevel: PIE: World Init took: (0.000988s)
+[2018.10.03-17.35.39:354][576]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Classes/226_Massage/Map/MassageMap.MassageMap to /Game/Classes/226_Massage/Map/UEDPIE_0_MassageMap.MassageMap (0.023534s)
+[2018.10.03-17.35.39:392][576]LogInit: XAudio2 using 'Speakers (Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.10.03-17.35.39:398][576]LogInit: FAudioDevice initialized.
+[2018.10.03-17.35.39:434][576]LogLoad: Game class is 'Massage_GameMode_C'
+[2018.10.03-17.35.39:447][576]LogWorld: Bringing World /Game/Classes/226_Massage/Map/UEDPIE_0_MassageMap.MassageMap up for play (max tick rate 0) at 2018.10.03-14.35.39
+[2018.10.03-17.35.39:448][576]LogWorld: Bringing up level for play took: 0.014031
+[2018.10.03-17.35.39:462][576]PIE: Play in editor start time for /Game/Classes/226_Massage/Map/UEDPIE_0_MassageMap 0.539
+[2018.10.03-17.35.40:594][671]Blueprint: Warning: DrawMaterialToRenderTarget: TextureRenderTarget must be non-null.
+[2018.10.03-17.35.41:301][717]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.35.43:287][955]LogBlueprintUserMessages: [Massage_GameMode_C_0] Removed a Active Point
+[2018.10.03-17.35.43:304][957]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.35.45:304][197]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.35.47:288][435]LogBlueprintUserMessages: [Massage_GameMode_C_0] Removed a Active Point
+[2018.10.03-17.35.47:304][437]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.35.49:305][677]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.35.51:305][917]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.35.53:307][154]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.35.55:308][394]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.35.57:291][632]LogBlueprintUserMessages: [Massage_GameMode_C_0] Removed a Active Point
+[2018.10.03-17.35.57:308][634]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.35.59:308][874]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.36.01:292][112]LogBlueprintUserMessages: [Massage_GameMode_C_0] Removed a Active Point
+[2018.10.03-17.36.01:300][113]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.36.03:301][353]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.36.05:285][591]LogBlueprintUserMessages: [Massage_GameMode_C_0] Removed a Active Point
+[2018.10.03-17.36.05:301][593]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.36.07:285][831]LogBlueprintUserMessages: [Massage_GameMode_C_0] Removed a Active Point
+[2018.10.03-17.36.07:302][833]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.36.07:993][916]LogSlate: Window 'Output Log' being destroyed
+[2018.10.03-17.36.07:999][916]LogSlate: Window 'Output Log' being destroyed
+[2018.10.03-17.36.09:441][ 87]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.03-17.36.09:446][ 87]Blueprint: Warning: DrawMaterialToRenderTarget: TextureRenderTarget must be non-null.
+[2018.10.03-17.36.09:476][ 87]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.03-17.36.09:508][ 87]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.03-17.36.09:547][ 91]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2018.10.03-17.36.30:366][545]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/226_Massage/Blueprints/MassagePoints/MassagePointParent.MassagePointParent
+[2018.10.03-17.37.28:251][399]BlueprintLog: New page: Compile MassagePointParent
+[2018.10.03-17.37.28:532][399]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/MassagePointParent4F61592E45329BDCF68B1EAE662BE268.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Blueprints/MassagePoints/MassagePointParent.uasset'
+[2018.10.03-17.37.29:021][455]LogTemp: Repeating last play command: Simulate
+[2018.10.03-17.37.29:058][455]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.03-17.37.29:059][455]PIE: New page: SIE session: MassageMap (Oct 3, 2018, 11:37:29 AM)
+[2018.10.03-17.37.29:059][455]LogPlayLevel: Creating play world package: /Game/Classes/226_Massage/Map/UEDPIE_0_MassageMap
+[2018.10.03-17.37.29:082][455]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022850s)
+[2018.10.03-17.37.29:083][455]LogAIModule: Creating AISystem for world MassageMap
+[2018.10.03-17.37.29:083][455]LogPlayLevel: PIE: World Init took: (0.000725s)
+[2018.10.03-17.37.29:083][455]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Classes/226_Massage/Map/MassageMap.MassageMap to /Game/Classes/226_Massage/Map/UEDPIE_0_MassageMap.MassageMap (0.024211s)
+[2018.10.03-17.37.29:126][455]LogInit: XAudio2 using 'Speakers (Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.10.03-17.37.29:133][455]LogInit: FAudioDevice initialized.
+[2018.10.03-17.37.29:165][455]LogLoad: Game class is 'Massage_GameMode_C'
+[2018.10.03-17.37.29:181][455]LogWorld: Bringing World /Game/Classes/226_Massage/Map/UEDPIE_0_MassageMap.MassageMap up for play (max tick rate 0) at 2018.10.03-14.37.29
+[2018.10.03-17.37.29:182][455]LogWorld: Bringing up level for play took: 0.015438
+[2018.10.03-17.37.29:195][455]PIE: Play in editor start time for /Game/Classes/226_Massage/Map/UEDPIE_0_MassageMap 0.272
+[2018.10.03-17.37.30:015][551]Blueprint: Warning: DrawMaterialToRenderTarget: TextureRenderTarget must be non-null.
+[2018.10.03-17.37.31:023][594]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.37.33:024][834]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.37.35:024][ 74]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.37.37:008][312]LogBlueprintUserMessages: [Massage_GameMode_C_0] Removed a Active Point
+[2018.10.03-17.37.37:025][314]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.37.39:026][554]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.37.41:009][792]LogBlueprintUserMessages: [Massage_GameMode_C_0] Removed a Active Point
+[2018.10.03-17.37.41:026][794]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.37.41:351][833]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.03-17.37.41:356][833]Blueprint: Warning: DrawMaterialToRenderTarget: TextureRenderTarget must be non-null.
+[2018.10.03-17.37.41:388][833]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.03-17.37.41:421][833]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.03-17.37.41:456][835]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2018.10.03-17.39.13:271][731]BlueprintLog: New page: Compile Massage_Pawn
+[2018.10.03-17.39.13:562][731]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/Massage_PawnBD4D60CB446921545B7FDF92E2EB6D67.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Blueprints/Massage_Pawn.uasset'
+[2018.10.03-17.39.14:048][782]LogTemp: Repeating last play command: Simulate
+[2018.10.03-17.39.14:080][782]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.03-17.39.14:080][782]PIE: New page: SIE session: MassageMap (Oct 3, 2018, 11:39:14 AM)
+[2018.10.03-17.39.14:080][782]LogPlayLevel: Creating play world package: /Game/Classes/226_Massage/Map/UEDPIE_0_MassageMap
+[2018.10.03-17.39.14:104][782]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023584s)
+[2018.10.03-17.39.14:105][782]LogAIModule: Creating AISystem for world MassageMap
+[2018.10.03-17.39.14:105][782]LogPlayLevel: PIE: World Init took: (0.000939s)
+[2018.10.03-17.39.14:105][782]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Classes/226_Massage/Map/MassageMap.MassageMap to /Game/Classes/226_Massage/Map/UEDPIE_0_MassageMap.MassageMap (0.025056s)
+[2018.10.03-17.39.14:149][782]LogInit: XAudio2 using 'Speakers (Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.10.03-17.39.14:154][782]LogInit: FAudioDevice initialized.
+[2018.10.03-17.39.14:195][782]LogLoad: Game class is 'Massage_GameMode_C'
+[2018.10.03-17.39.14:208][782]LogWorld: Bringing World /Game/Classes/226_Massage/Map/UEDPIE_0_MassageMap.MassageMap up for play (max tick rate 0) at 2018.10.03-14.39.14
+[2018.10.03-17.39.14:210][782]LogWorld: Bringing up level for play took: 0.013934
+[2018.10.03-17.39.14:223][782]PIE: Play in editor start time for /Game/Classes/226_Massage/Map/UEDPIE_0_MassageMap -0.7
+[2018.10.03-17.39.15:107][847]Blueprint: Warning: DrawMaterialToRenderTarget: TextureRenderTarget must be non-null.
+[2018.10.03-17.39.16:054][922]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.39.18:038][160]LogBlueprintUserMessages: [Massage_GameMode_C_0] Removed a Active Point
+[2018.10.03-17.39.18:054][162]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.39.20:054][402]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.39.22:055][642]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.39.24:049][881]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.39.26:049][121]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.39.28:042][360]LogBlueprintUserMessages: [Massage_GameMode_C_0] Removed a Active Point
+[2018.10.03-17.39.28:050][361]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.39.28:943][468]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.03-17.39.28:948][468]Blueprint: Warning: DrawMaterialToRenderTarget: TextureRenderTarget must be non-null.
+[2018.10.03-17.39.28:983][468]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.03-17.39.29:014][468]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.03-17.39.29:045][471]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2018.10.03-17.42.03:737][926]BlueprintLog: New page: Compile Massage_GameMode
+[2018.10.03-17.42.04:395][926]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/Massage_GameMode980E4F5149750BDA66D58AA4B362CBFB.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Blueprints/GameModeRelated/Massage_GameMode.uasset'
+[2018.10.03-17.42.04:793][967]LogTemp: Repeating last play command: Simulate
+[2018.10.03-17.42.04:824][967]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.03-17.42.04:824][967]PIE: New page: SIE session: MassageMap (Oct 3, 2018, 11:42:04 AM)
+[2018.10.03-17.42.04:824][967]LogPlayLevel: Creating play world package: /Game/Classes/226_Massage/Map/UEDPIE_0_MassageMap
+[2018.10.03-17.42.04:849][967]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023795s)
+[2018.10.03-17.42.04:849][967]LogAIModule: Creating AISystem for world MassageMap
+[2018.10.03-17.42.04:849][967]LogPlayLevel: PIE: World Init took: (0.000735s)
+[2018.10.03-17.42.04:850][967]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Classes/226_Massage/Map/MassageMap.MassageMap to /Game/Classes/226_Massage/Map/UEDPIE_0_MassageMap.MassageMap (0.025003s)
+[2018.10.03-17.42.04:893][967]LogInit: XAudio2 using 'Speakers (Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.10.03-17.42.04:899][967]LogInit: FAudioDevice initialized.
+[2018.10.03-17.42.04:936][967]LogLoad: Game class is 'Massage_GameMode_C'
+[2018.10.03-17.42.04:950][967]LogWorld: Bringing World /Game/Classes/226_Massage/Map/UEDPIE_0_MassageMap.MassageMap up for play (max tick rate 0) at 2018.10.03-14.42.04
+[2018.10.03-17.42.04:953][967]LogWorld: Bringing up level for play took: 0.015442
+[2018.10.03-17.42.04:966][967]PIE: Play in editor start time for /Game/Classes/226_Massage/Map/UEDPIE_0_MassageMap 0.042
+[2018.10.03-17.42.05:965][  8]Blueprint: Warning: DrawMaterialToRenderTarget: TextureRenderTarget must be non-null.
+[2018.10.03-17.42.06:800][108]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.42.08:801][348]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.42.10:793][587]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.42.12:794][827]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.42.14:795][ 67]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.42.16:796][307]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.42.18:694][534]LogBlueprintUserMessages: [Massage_GameMode_C_0] Removed a Active Point
+[2018.10.03-17.42.18:794][546]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.42.20:695][774]LogBlueprintUserMessages: [Massage_GameMode_C_0] Removed a Active Point
+[2018.10.03-17.42.20:795][786]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.42.22:800][ 23]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.42.24:692][250]LogBlueprintUserMessages: [Massage_GameMode_C_0] Removed a Active Point
+[2018.10.03-17.42.24:800][263]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.42.26:793][502]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.42.28:694][730]LogBlueprintUserMessages: [Massage_GameMode_C_0] Removed a Active Point
+[2018.10.03-17.42.28:794][742]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.42.30:695][970]LogBlueprintUserMessages: [Massage_GameMode_C_0] Removed a Active Point
+[2018.10.03-17.42.30:795][982]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.42.32:795][222]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.42.34:696][450]LogBlueprintUserMessages: [Massage_GameMode_C_0] Removed a Active Point
+[2018.10.03-17.42.34:796][462]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.42.36:801][702]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.42.38:794][941]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.42.40:694][169]LogBlueprintUserMessages: [Massage_GameMode_C_0] Removed a Active Point
+[2018.10.03-17.42.40:795][181]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.42.42:797][421]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.42.44:798][660]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.42.46:570][872]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.03-17.42.46:575][872]Blueprint: Warning: DrawMaterialToRenderTarget: TextureRenderTarget must be non-null.
+[2018.10.03-17.42.46:610][872]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.03-17.42.46:638][872]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.03-17.42.46:669][875]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2018.10.03-17.42.50:473][324]LogEditorTransaction: Undo Move Node
+[2018.10.03-17.42.50:673][340]LogEditorTransaction: Undo Delete current selection
+[2018.10.03-17.42.50:855][353]LogEditorTransaction: Undo Create Pin Link
+[2018.10.03-17.42.51:352][405]LogEditorTransaction: Undo Break Pin Links
+[2018.10.03-17.42.51:714][441]LogEditorTransaction: Undo Create Pin Link
+[2018.10.03-17.42.52:017][470]LogEditorTransaction: Undo Break Pin Links
+[2018.10.03-17.42.52:320][499]LogEditorTransaction: Undo Create Pin Link
+[2018.10.03-17.42.52:752][544]LogEditorTransaction: Undo Break Pin Links
+[2018.10.03-17.42.53:521][629]LogEditorTransaction: Undo Add Node
+[2018.10.03-17.44.21:868][259]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/MassageMap_Auto2A4D6D3804E421C2E919D358443C9B13D.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/226_Massage/Map/MassageMap_Auto2.umap'
+[2018.10.03-17.44.21:871][259]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/226_Massage/Map/MassageMap' took 0.663
+[2018.10.03-17.44.21:872][259]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.663
+[2018.10.03-17.44.21:874][259]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Classes/226_Massage/Blueprints/GameModeRelated/Massage_GameMode] ([1] browsable assets)...
+[2018.10.03-17.44.21:874][259]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/226_Massage/Blueprints/GameModeRelated/Massage_GameMode]
+[2018.10.03-17.44.21:951][259]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/Massage_GameMode_Auto2A91CBA7D4CE4F894D61D31953BB7DF7A.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/226_Massage/Blueprints/GameModeRelated/Massage_GameMode_Auto2.uasset'
+[2018.10.03-17.44.21:952][259]LogFileHelpers: Auto-saving content packages took 0.080
+[2018.10.03-17.48.36:767][135]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/226_Massage/Blueprints/MassagePoints/MassagePointParent.MassagePointParent
+[2018.10.03-17.52.39:831][897]BlueprintLog: New page: Compile Massage_GameMode
+[2018.10.03-17.52.39:943][897]LogBlueprint: Error: [Compiler Massage_Pawn] In use pin  <Unnamed>  no longer exists on node  Remove Active Points . Please refresh node or break links to remove pin.
+[2018.10.03-17.52.39:943][897]LogBlueprint: Error: [Compiler Massage_Pawn] In use pin  <Unnamed>  no longer exists on node  Remove Active Points . Please refresh node or break links to remove pin.
+[2018.10.03-17.52.39:943][897]LogBlueprint: Error: [Compiler Massage_Pawn] In use pin  Target  no longer exists on node  Remove Active Points . Please refresh node or break links to remove pin.
+[2018.10.03-17.52.39:944][897]LogBlueprint: Error: [Compiler Massage_Pawn] In use pin  Massage Point  no longer exists on node  Remove Active Points . Please refresh node or break links to remove pin.
+[2018.10.03-17.52.39:944][897]LogBlueprint: Error: [Compiler Massage_Pawn] Could not find a function named "RemoveActivePoints" in 'Massage_GameMode_C'.
+Make sure 'Massage_GameMode_C' has been compiled for  Remove Active Points
+[2018.10.03-17.52.39:958][897]LogBlueprint: Warning: [Compiler Massage_Pawn] [2514.60] Compile of Massage_Pawn failed. 5 Fatal Issue(s) 0 Warning(s) [in 108 ms] (/Game/Classes/226_Massage/Blueprints/Massage_Pawn.Massage_Pawn)
+[2018.10.03-17.52.40:567][897]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/Massage_GameModeC48E9D3A427E96C42B23E1A0303E9239.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Blueprints/GameModeRelated/Massage_GameMode.uasset'
+[2018.10.03-17.52.58:949][ 42]BlueprintLog: New page: Compile Massage_Pawn
+[2018.10.03-17.52.58:985][ 42]LogBlueprint: Error: [Compiler Massage_Pawn] In use pin  <Unnamed>  no longer exists on node  Remove Active Points . Please refresh node or break links to remove pin.
+[2018.10.03-17.52.58:985][ 42]LogBlueprint: Error: [Compiler Massage_Pawn] In use pin  <Unnamed>  no longer exists on node  Remove Active Points . Please refresh node or break links to remove pin.
+[2018.10.03-17.52.58:985][ 42]LogBlueprint: Error: [Compiler Massage_Pawn] In use pin  Target  no longer exists on node  Remove Active Points . Please refresh node or break links to remove pin.
+[2018.10.03-17.52.58:985][ 42]LogBlueprint: Error: [Compiler Massage_Pawn] In use pin  Massage Point  no longer exists on node  Remove Active Points . Please refresh node or break links to remove pin.
+[2018.10.03-17.52.58:986][ 42]LogBlueprint: Error: [Compiler Massage_Pawn] Could not find a function named "RemoveActivePoints" in 'Massage_GameMode_C'.
+Make sure 'Massage_GameMode_C' has been compiled for  Remove Active Points
+[2018.10.03-17.52.59:158][ 42]LogBlueprint: Warning: [Compiler Massage_Pawn] [2533.79] Compile of Massage_Pawn failed. 5 Fatal Issue(s) 0 Warning(s) [in 209 ms] (/Game/Classes/226_Massage/Blueprints/Massage_Pawn.Massage_Pawn)
+[2018.10.03-17.54.38:899][860]LogSlate: Took 0.021582 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.10.03-17.55.20:127][688]BlueprintLog: New page: Compile Massage_Pawn
+[2018.10.03-17.55.20:165][688]LogBlueprint: Error: [Compiler Massage_Pawn] Could not find a function named "GetActivePoints" in 'Massage_GameMode_C'.
+Make sure 'Massage_GameMode_C' has been compiled for  Get Active Points
+[2018.10.03-17.55.20:344][688]LogBlueprint: Warning: [Compiler Massage_Pawn] [2674.98] Compile of Massage_Pawn failed. 1 Fatal Issue(s) 0 Warning(s) [in 217 ms] (/Game/Classes/226_Massage/Blueprints/Massage_Pawn.Massage_Pawn)
+[2018.10.03-17.57.11:353][858]BlueprintLog: New page: Compile Massage_Pawn
+[2018.10.03-17.57.11:942][858]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/Massage_PawnAF66912F42FE908B2DDB9291EBBA0C2F.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Blueprints/Massage_Pawn.uasset'
+[2018.10.03-17.57.37:236][741]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/226_Massage/Blueprints/MassagePoints/MassagePointParent.MassagePointParent
+[2018.10.03-17.59.28:985][498]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/MassageMap_Auto3230B441F459DFA7CF3CC8D8CE0C388B7.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/226_Massage/Map/MassageMap_Auto3.umap'
+[2018.10.03-17.59.28:991][498]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/226_Massage/Map/MassageMap' took 0.375
+[2018.10.03-17.59.28:991][498]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.375
+[2018.10.03-17.59.28:993][498]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Classes/226_Massage/Blueprints/GameModeRelated/Massage_GameMode] ([1] browsable assets)...
+[2018.10.03-17.59.28:994][498]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/226_Massage/Blueprints/GameModeRelated/Massage_GameMode]
+[2018.10.03-17.59.29:073][498]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/Massage_GameMode_Auto36647C52041B188477E64FC989DDCBD23.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/226_Massage/Blueprints/GameModeRelated/Massage_GameMode_Auto3.uasset'
+[2018.10.03-17.59.29:075][498]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Classes/226_Massage/Blueprints/Massage_Pawn] ([1] browsable assets)...
+[2018.10.03-17.59.29:075][498]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/226_Massage/Blueprints/Massage_Pawn]
+[2018.10.03-17.59.29:129][498]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/Massage_Pawn_Auto327D48DDD4DD1F4B0F2ACF7950B289C10.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/226_Massage/Blueprints/Massage_Pawn_Auto3.uasset'
+[2018.10.03-17.59.29:131][498]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Classes/226_Massage/Blueprints/MassagePoints/MassagePointParent] ([1] browsable assets)...
+[2018.10.03-17.59.29:131][498]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/226_Massage/Blueprints/MassagePoints/MassagePointParent]
+[2018.10.03-17.59.29:164][498]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/MassagePointParent_Auto34AFAC4EE48EB1401B7A12CB2324546D6.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/226_Massage/Blueprints/MassagePoints/MassagePointParent_Auto3.uasset'
+[2018.10.03-17.59.29:165][498]LogFileHelpers: Auto-saving content packages took 0.173
+[2018.10.03-17.59.43:917][383]BlueprintLog: New page: Compile Massage_Pawn
+[2018.10.03-17.59.44:254][383]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/Massage_Pawn8F8C354A4F32EFAE58D79886DF8B4B42.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Blueprints/Massage_Pawn.uasset'
+[2018.10.03-17.59.55:130][ 32]LogTemp: Repeating last play command: Simulate
+[2018.10.03-17.59.55:161][ 32]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.10.03-17.59.55:185][ 32]LogPlayLevel: [PlayLevel] Compiling Oil before play...
+[2018.10.03-17.59.55:188][ 32]LogPlayLevel: [PlayLevel]   Compiling LotionBottle as a dependent...
+[2018.10.03-17.59.55:213][ 32]LogPlayLevel: [PlayLevel]   Compiling Massage_GameMode as a dependent...
+[2018.10.03-17.59.55:232][ 32]LogPlayLevel: [PlayLevel]   Compiling Massage_Pawn as a dependent...
+[2018.10.03-17.59.55:247][ 32]LogPlayLevel: [PlayLevel]   Compiling MassageHUD as a dependent...
+[2018.10.03-17.59.55:552][ 32]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/Massage_GameModeB88AEFCE4237AA27009CDA88E4D5CA8B.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Blueprints/GameModeRelated/Massage_GameMode.uasset'
+[2018.10.03-17.59.55:597][ 32]LogPlayLevel: PlayLevel: Blueprint regeneration took 436 ms (5 blueprints)
+[2018.10.03-17.59.55:597][ 32]PIE: New page: SIE session: MassageMap (Oct 3, 2018, 11:59:55 AM)
+[2018.10.03-17.59.55:597][ 32]LogPlayLevel: Creating play world package: /Game/Classes/226_Massage/Map/UEDPIE_0_MassageMap
+[2018.10.03-17.59.55:621][ 32]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023539s)
+[2018.10.03-17.59.55:622][ 32]LogAIModule: Creating AISystem for world MassageMap
+[2018.10.03-17.59.55:622][ 32]LogPlayLevel: PIE: World Init took: (0.000756s)
+[2018.10.03-17.59.55:622][ 32]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Classes/226_Massage/Map/MassageMap.MassageMap to /Game/Classes/226_Massage/Map/UEDPIE_0_MassageMap.MassageMap (0.024767s)
+[2018.10.03-17.59.55:663][ 32]LogInit: XAudio2 using 'Speakers (Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.10.03-17.59.55:669][ 32]LogInit: FAudioDevice initialized.
+[2018.10.03-17.59.55:700][ 32]LogLoad: Game class is 'Massage_GameMode_C'
+[2018.10.03-17.59.55:712][ 32]LogWorld: Bringing World /Game/Classes/226_Massage/Map/UEDPIE_0_MassageMap.MassageMap up for play (max tick rate 60) at 2018.10.03-14.59.55
+[2018.10.03-17.59.55:714][ 32]LogWorld: Bringing up level for play took: 0.013082
+[2018.10.03-17.59.55:726][ 32]PIE: Play in editor start time for /Game/Classes/226_Massage/Map/UEDPIE_0_MassageMap 0.804
+[2018.10.03-17.59.56:376][ 68]Blueprint: Warning: DrawMaterialToRenderTarget: TextureRenderTarget must be non-null.
+[2018.10.03-17.59.57:536][ 99]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.59.59:396][211]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-17.59.59:529][219]LogBlueprintUserMessages: [Massage_GameMode_C_0] Dectivated an Active Point
+[2018.10.03-17.59.59:529][219]LogBlueprintUserMessages: [Massage_GameMode_C_0] Dectivated an Active Point
+[2018.10.03-18.00.01:396][331]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-18.00.01:530][339]LogBlueprintUserMessages: [Massage_GameMode_C_0] Dectivated an Active Point
+[2018.10.03-18.00.03:396][451]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-18.00.03:530][459]LogBlueprintUserMessages: [Massage_GameMode_C_0] Dectivated an Active Point
+[2018.10.03-18.00.05:397][571]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-18.00.05:530][579]LogBlueprintUserMessages: [Massage_GameMode_C_0] Dectivated an Active Point
+[2018.10.03-18.00.07:397][691]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-18.00.07:531][699]LogBlueprintUserMessages: [Massage_GameMode_C_0] Dectivated an Active Point
+[2018.10.03-18.00.09:397][811]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-18.00.09:530][819]LogBlueprintUserMessages: [Massage_GameMode_C_0] Dectivated an Active Point
+[2018.10.03-18.00.11:398][931]LogBlueprintUserMessages: [Massage_GameMode_C_0] Added Active Point
+[2018.10.03-18.00.11:531][939]LogBlueprintUserMessages: [Massage_GameMode_C_0] Dectivated an Active Point
+[2018.10.03-18.00.12:532][999]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.03-18.00.12:537][999]Blueprint: Warning: DrawMaterialToRenderTarget: TextureRenderTarget must be non-null.
+[2018.10.03-18.00.12:574][999]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.03-18.00.12:606][999]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.03-18.00.12:636][  1]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2018.10.03-18.00.17:462][261]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/MassageMap895F1B5342256795EA906D99E3DECF1E.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Map/MassageMap.umap'
+[2018.10.03-18.00.17:518][261]LogFileHelpers: Saving map 'MassageMap' took 0.501
+[2018.10.03-18.00.17:550][261]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/MassagePointParentCA8ACC9443C2F322CFBD8FBF4CB03732.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Blueprints/MassagePoints/MassagePointParent.uasset'
+[2018.10.03-18.29.41:251][503]BlueprintLog: New page: Compile Massage_Pawn
+[2018.10.03-18.29.41:567][503]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/Massage_Pawn6EBE701A4215334DA85A6499614D091B.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/226_Massage/Blueprints/Massage_Pawn.uasset'
+[2018.10.03-18.30.03:076][640]LogSlate: Window 'Output Log' being destroyed
+[2018.10.03-18.30.03:078][640]LogSlate: Window 'Output Log' being destroyed
+[2018.10.03-18.30.04:170][642]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.10.03-18.30.04:225][642]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.10.03-18.30.04:284][642]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.10.03-18.30.04:336][642]LogSlate: Window 'VRTests - Unreal Editor' being destroyed
+[2018.10.03-18.30.04:337][642]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.03-18.30.04:585][643]Cmd: QUIT_EDITOR
+[2018.10.03-18.30.04:929][643]LogExit: Preparing to exit.
