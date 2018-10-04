@@ -1054,3 +1054,14 @@ LogInit: Object subsystem initialized
 [2018.10.04-15.42.35:152][666]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Pic34AF29A214141F00C6198C6A40CE2E7BC.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Assets/Models/Pic3.uasset'
 [2018.10.04-15.42.35:223][666]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/paralegal_coverCF8677F0486EBBB4E8699CB646B9F989.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Assets/Materials/paralegal_cover.uasset'
 [2018.10.04-15.42.35:260][666]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/paralegal_cover_MatA197FBCE4021EF6E78BC8C9F41C2EC22.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Assets/Materials/paralegal_cover_Mat.uasset'
+[2018.10.04-15.44.06:358][782]LogEditorViewport: Clicking on Actor (LMB): Objective10_C (Objective10)
+[2018.10.04-15.44.19:196][544]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.46.17:875][611]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.47.33:683][133]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Classes/237_Criminology/Blueprints/CrimHUD.CrimHUD
+[2018.10.04-15.48.05:987][856]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.04-15.48.06:938][907]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Classes/237_Paralegal/Blueprints/HUD/ParalegalHUD.ParalegalHUD
+[2018.10.04-15.50.05:389][ 10]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.04-15.50.06:739][ 88]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.04-15.50.07:908][ 88]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/ParalegalMap1871FE9A64FF8F692371F0AB891D4304F.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Maps/ParalegalMap1.umap'
+[2018.10.04-15.50.07:967][ 88]LogFileHelpers: Saving map 'ParalegalMap1' took 1.223
+[2018.10.04-15.50.08:003][ 88]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/ParalegalHUD5063F30F4A96F751102D2F9A4FD3DA80.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Blueprints/HUD/ParalegalHUD.uasset'
