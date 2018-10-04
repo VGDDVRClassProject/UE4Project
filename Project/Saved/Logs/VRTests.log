@@ -561,3 +561,53 @@ LogInit: Object subsystem initialized
 [2018.10.04-16.13.55:200][686]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Classes/237_Paralegal/Blueprints/HUDS/ParalegalHUD.ParalegalHUD
 [2018.10.04-16.15.16:247][266]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/ParalegalMap1E191E0084B2CB377C9FD078AC35BEC5B.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Maps/ParalegalMap1.umap'
 [2018.10.04-16.15.16:305][266]LogFileHelpers: Saving map 'ParalegalMap1' took 1.239
+[2018.10.04-16.15.45:704][561]LogEditorViewport: Clicking on Actor (LMB): Objective_3_C (TestBox4_2)
+[2018.10.04-16.15.52:205][921]LogEditorViewport: Clicking on Actor (LMB): Objective_8_C (Objective_8)
+[2018.10.04-16.15.55:524][ 91]LogEditorViewport: Clicking on Actor (LMB): Objective_10_C (Objective10)
+[2018.10.04-16.16.04:071][569]LogEditorViewport: Clicking on Actor (LMB): Objective_7_C (Objective8)
+[2018.10.04-16.16.07:577][772]LogEditorViewport: Clicking on Actor (LMB): Objective_10_C (Objective10)
+[2018.10.04-16.16.09:219][866]LogEditorViewport: Clicking on Actor (LMB): Objective_10_C (Objective10)
+[2018.10.04-16.16.48:862][309]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.04-16.18.10:616][187]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.10.04-16.18.11:983][264]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.10.04-16.18.13:757][366]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.10.04-16.18.14:640][415]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.10.04-16.18.15:430][458]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.10.04-16.18.16:197][500]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.10.04-16.18.16:534][516]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.10.04-16.18.16:972][538]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.10.04-16.18.17:609][572]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.10.04-16.25.24:927][494]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/ParalegalMap1_Auto1E4BEAD2C47B7D506AD05E18F9B06F432.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/237_Paralegal/Maps/ParalegalMap1_Auto1.umap'
+[2018.10.04-16.25.24:930][494]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/237_Paralegal/Maps/ParalegalMap1' took 1.159
+[2018.10.04-16.25.24:930][494]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.159
+[2018.10.04-16.26.33:984][702]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.04-16.28.21:106][420]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\tanne\Desktop\UE4_VR Paralegal\The X-File.wav)
+[2018.10.04-16.28.29:943][825]LogEditorViewport: Clicking on Actor (LMB): Objective_8_C (Objective_8)
+[2018.10.04-16.28.30:666][861]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-16.28.30:759][866]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Paralegal/Blueprints/Objectives/Objective_8.Objective_8
+[2018.10.04-16.29.08:981][101]BlueprintLog: New page: Compile Objective_8
+[2018.10.04-16.29.09:594][101]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Objective_877E0ED624712A72BB32017B6CDAD4237.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Blueprints/Objectives/Objective_8.uasset'
+[2018.10.04-16.29.20:476][722]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave The_X-File...
+[2018.10.04-16.29.20:477][722]LogTemp: Couldn't find amount to resample to.
+[2018.10.04-16.29.20:923][722]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 3580416 while cooking SoundWave /Game/Classes/237_Paralegal/Assets/Audio/The_X-File.The_X-File.
+[2018.10.04-16.29.44:004][853]LogAssetEditorManager: Opening Asset editor for SoundWave /Game/Classes/237_Paralegal/Assets/Audio/The_X-File.The_X-File
+[2018.10.04-16.30.15:589][731]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-16.30.22:275][108]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.04-16.30.27:913][443]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-16.30.49:207][707]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-16.31.36:338][527]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-16.31.37:455][530]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/ParalegalMap1FEC026D34D4EFD7F1B2278B416ACEE82.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Maps/ParalegalMap1.umap'
+[2018.10.04-16.31.38:032][530]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/ParalegalMap1_BuiltDataE3C3A4D04A19157F5172CA8D58E5B331.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Maps/ParalegalMap1_BuiltData.uasset'
+[2018.10.04-16.32.49:711][641]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/The_X-File9C1282A045B31E44F248098567E19992.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Assets/Audio/The_X-File.uasset'
+[2018.10.04-16.33.39:673][622]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-16.34.12:306][556]BlueprintLog: New page: Compile Objective_8
+[2018.10.04-16.34.12:886][556]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Objective_842EC63FD4496C248981248B803D75515.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Blueprints/Objectives/Objective_8.uasset'
+[2018.10.04-16.34.22:783][ 79]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/ParalegalMap168862D964D878CBEC0CFE68595F8B4B8.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Maps/ParalegalMap1.umap'
+[2018.10.04-16.34.23:164][ 79]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/ParalegalMap1_BuiltData3FB9BFFD4080313262A24585954FD79F.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Maps/ParalegalMap1_BuiltData.uasset'
+[2018.10.04-16.37.58:052][485]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.04-16.38.02:938][763]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.04-16.38.02:940][763]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Classes/237_Paralegal/Maps/ParalegalMap1.ParalegalMap1:PersistentLevel.ParalegalMap1
+[2018.10.04-16.38.08:816][ 95]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.10.04-16.38.15:488][418]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/ParalegalMap1649468D841D1296BFDF428956EDC871B.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Maps/ParalegalMap1.umap'
+[2018.10.04-16.38.15:543][418]LogFileHelpers: Saving map 'ParalegalMap1' took 1.283
+[2018.10.04-16.38.21:770][681]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/The_X-File921F07C449D743DFA685C1AA003DE697.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Assets/Audio/The_X-File.uasset'
