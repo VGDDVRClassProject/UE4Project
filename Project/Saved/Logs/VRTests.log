@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿Log file open, 10/04/18 12:43:30
+=======
+﻿Log file open, 10/04/18 11:13:28
+>>>>>>> ae26c9e8d136ddd7e4bf2e9f9193ffcc866c3021
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +14,11 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: VRTests
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+<<<<<<< HEAD
 LogStats: Stats thread started at 0.274722
+=======
+LogStats: Stats thread started at 0.461381
+>>>>>>> ae26c9e8d136ddd7e4bf2e9f9193ffcc866c3021
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -4:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +101,11 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
+<<<<<<< HEAD
 LogStreaming: Display: Took  1.130s to configure plugins.
+=======
+LogStreaming: Display: Took  0.421s to configure plugins.
+>>>>>>> ae26c9e8d136ddd7e4bf2e9f9193ffcc866c3021
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -147,6 +159,7 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+<<<<<<< HEAD
 LogStreaming: Display: Took  0.055s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
@@ -1779,3 +1792,923 @@ LogInit: Object subsystem initialized
 [2018.10.04-15.51.35:791][493]LogModuleManager: Shutting down and abandoning module PakFile (2)
 [2018.10.04-15.51.35:798][493]LogExit: Exiting.
 [2018.10.04-15.51.35:827][493]Log file closed, 10/04/18 12:51:35
+=======
+LogStreaming: Display: Took  0.046s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.10.04-14.13.35:268][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.04-14.13.35:284][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.04-14.13.35:395][  0]LogHAL: Display: Platform has ~ 16 GB [17042796544 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.10.04-14.13.35:456][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.10.04-14.13.35:460][  0]LogInit: Going up to parent DeviceProfile []
+[2018.10.04-14.13.35:695][  0]LogInit: Computer: DESKTOP-RST41EJ
+[2018.10.04-14.13.35:695][  0]LogInit: User: tanne
+[2018.10.04-14.13.35:695][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.10.04-14.13.35:695][  0]LogInit: High frequency timer resolution =2.742188 MHz
+[2018.10.04-14.13.35:696][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.10.04-14.13.35:696][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.04-14.13.35:696][  0]LogMemory: Process Physical Memory: 102.39 MB used, 102.39 MB peak
+[2018.10.04-14.13.35:696][  0]LogMemory: Process Virtual Memory: 87.28 MB used, 87.28 MB peak
+[2018.10.04-14.13.35:696][  0]LogMemory: Physical Memory: 6993.29 MB used,  9259.99 MB free, 16253.28 MB total
+[2018.10.04-14.13.35:696][  0]LogMemory: Virtual Memory: 4641.04 MB used,  9259.99 MB free, 134217728.00 MB total
+[2018.10.04-14.13.37:726][  0]LogInit: Using OS detected language (en-US).
+[2018.10.04-14.13.37:726][  0]LogInit: Using OS detected locale (en-CA).
+[2018.10.04-14.13.37:783][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.10.04-14.13.39:551][  0]LogStreaming: Display: Took  1.845s to InitEngineTextLocalization.
+[2018.10.04-14.13.39:578][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.04-14.13.41:667][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.04-14.13.41:667][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.04-14.13.51:304][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.04-14.13.51:305][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.04-14.13.51:387][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.10.04-14.13.51:387][  0]LogD3D11RHI:       8089/0/8126 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.10.04-14.13.51:412][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.10.04-14.13.51:412][  0]LogD3D11RHI:       128/0/8126 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.10.04-14.13.51:414][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.04-14.13.51:414][  0]LogD3D11RHI:       0/0/8126 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.04-14.13.51:414][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.04-14.13.51:455][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.04-14.13.51:455][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
+[2018.10.04-14.13.51:480][  0]LogWindows: EnumDisplayDevices:
+[2018.10.04-14.13.51:481][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.10.04-14.13.51:481][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.10.04-14.13.51:482][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.10.04-14.13.51:482][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.10.04-14.13.51:482][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.10.04-14.13.51:482][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.10.04-14.13.51:482][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.10.04-14.13.51:482][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.10.04-14.13.51:482][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.10.04-14.13.51:482][  0]LogD3D11RHI:   Driver Version: 389.12 (internal:23.21.13.8912, unified:389.12)
+[2018.10.04-14.13.51:482][  0]LogD3D11RHI:      Driver Date: 3-7-2018
+[2018.10.04-14.13.51:482][  0]LogRHI: Texture pool is 5662 MB (70% of 8089 MB)
+[2018.10.04-14.13.51:533][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.04-14.13.52:411][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.10.04-14.13.52:653][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Intermediate/Shaders/WorkingDirectory/18712/).
+[2018.10.04-14.13.52:653][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/tanne/AppData/Local/Temp/UnrealShaderWorkingDir/17D8C4544BF96F4CC766CF9077D01A3B/'.
+[2018.10.04-14.13.53:785][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.04-14.13.53:852][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.04-14.13.53:890][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.04-14.13.53:932][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.04-14.13.54:018][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.04-14.13.54:106][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.04-14.13.54:142][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.04-14.13.54:188][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.04-14.13.54:212][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.04-14.13.54:395][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-14.13.54:395][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-14.13.54:395][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-14.13.54:395][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-14.13.54:395][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-14.13.54:395][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-14.13.54:395][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-14.13.54:395][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-14.13.54:395][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-14.13.54:395][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-14.13.54:395][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-14.13.54:395][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-14.13.54:395][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-14.13.54:395][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-14.13.54:395][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-14.13.54:395][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-14.13.54:395][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-14.13.54:395][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-14.13.54:417][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.04-14.13.54:923][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.04-14.13.54:923][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.04-14.13.55:129][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.04-14.13.55:129][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.04-14.13.55:161][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.04-14.13.55:204][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.04-14.13.55:263][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.04-14.13.55:324][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.04-14.13.55:375][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.10.04-14.13.55:375][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.04-14.13.57:200][  0]LogXGEController: Cleaning working directory: C:/Users/tanne/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.10.04-14.13.57:201][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.04-14.13.57:201][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.04-14.13.57:201][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.04-14.14.08:100][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.04-14.14.08:890][  0]LogDerivedDataCache: Loaded boot cache 0.78s 72MB C:/Users/tanne/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.04-14.14.08:890][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/tanne/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.10.04-14.14.08:890][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.04-14.14.08:891][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.04-14.14.08:891][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.04-14.14.08:891][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.04-14.14.09:062][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.04-14.14.09:080][  0]LogDerivedDataCache: Using Local data cache path C:/Users/tanne/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.04-14.14.09:080][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.04-14.14.09:080][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.04-14.14.09:255][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.04-14.14.09:432][  0]LogSlate: Using FreeType 2.6.0
+[2018.10.04-14.14.09:632][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.04-14.14.11:987][  0]LogAssetRegistry: FAssetRegistry took 0.0469 seconds to start up
+[2018.10.04-14.14.25:150][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.04-14.14.33:176][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.04-14.14.33:900][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.04-14.14.33:923][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.10.04-14.14.34:283][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.04-14.14.34:283][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.04-14.14.36:776][  0]LogNetVersion: VRTests 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4138015713)
+[2018.10.04-14.14.50:347][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.264841 seconds
+[2018.10.04-14.14.50:448][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.10.04-14.14.50:448][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.10.04-14.14.50:448][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.04-14.15.20:107][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.04-14.15.20:235][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.04-14.15.23:143][  0]SourceControl: Source control is disabled
+[2018.10.04-14.15.23:155][  0]SourceControl: Source control is disabled
+[2018.10.04-14.15.23:800][  0]SourceControl: Source control is disabled
+[2018.10.04-14.15.23:890][  0]SourceControl: Source control is disabled
+[2018.10.04-14.15.27:756][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.04-14.15.28:159][  0]LogOcInput: OculusInput pre-init called
+[2018.10.04-14.15.30:345][  0]LogEngine: Initializing Engine...
+[2018.10.04-14.15.30:498][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.04-14.15.30:586][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.001 s
+[2018.10.04-14.15.30:586][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.04-14.15.30:587][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.001 s
+[2018.10.04-14.15.30:587][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.04-14.15.32:664][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.10.04-14.15.33:995][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.04-14.15.35:486][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.10.04-14.15.35:884][  0]LogInit: FAudioDevice initialized.
+[2018.10.04-14.15.35:905][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.10.04-14.15.36:093][  0]LogDerivedDataCache: Saved boot cache 0.19s 72MB C:/Users/tanne/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.04-14.15.36:107][  0]LogInit: Texture streaming: Enabled
+[2018.10.04-14.15.36:512][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.04-14.15.36:519][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={DEFF651E-4DA3-3DF5-61AE-4FAFD46129ED}
+[2018.10.04-14.15.37:311][  0]LogInit: Transaction tracking system initialized
+[2018.10.04-14.15.38:078][  0]BlueprintLog: New page: Editor Load
+[2018.10.04-14.15.41:934][  0]LocalizationService: Localization service is disabled
+[2018.10.04-14.15.48:604][  0]LogFileCache: Scanning file cache for directory 'D:/Users/tanne/Documents/GitHub/UE4Project/Project/Content/' took 0.10s
+[2018.10.04-14.15.48:604][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.04-14.15.48:626][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.04-14.15.48:652][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.04-14.15.48:652][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.04-14.15.48:652][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.04-14.15.48:653][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.04-14.15.48:653][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.04-14.15.53:193][  0]SourceControl: Source control is disabled
+[2018.10.04-14.15.53:540][  0]Cmd: MAP LOAD FILE="../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/DefaultProject/Map/DefaultMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.04-14.15.53:598][  0]LightingResults: New page: Lighting Build
+[2018.10.04-14.15.54:376][  0]MapCheck: New page: Map Check
+[2018.10.04-14.15.54:377][  0]LightingResults: New page: Lighting Build
+[2018.10.04-14.15.57:337][  0]LogLinker: Warning: Can't find file '/Game/Classes/234_BusinessAdmin/Blueprints/TestActor'
+[2018.10.04-14.15.57:338][  0]LogLinker: Warning: Can't find file for asset '/Game/Classes/234_BusinessAdmin/Blueprints/TestActor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/DefaultProject/Map/DefaultMap.umap.
+[2018.10.04-14.15.57:338][  0]LoadErrors: Error: /Game/DefaultProject/Map/DefaultMap : Can't find file for asset. /Game/Classes/234_BusinessAdmin/Blueprints/TestActor
+[2018.10.04-14.15.59:297][  0]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2018.10.04-14.15.59:297][  0]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualReality/Mannequin/Animations/RightHand_AnimBP.uasset.
+[2018.10.04-14.15.59:297][  0]LoadErrors: Error: /Game/DefaultVrContent/VirtualReality/Mannequin/Animations/RightHand_AnimBP : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/GripEnum
+[2018.10.04-14.15.59:298][  0]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2018.10.04-14.15.59:298][  0]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualReality/Mannequin/Animations/RightHand_AnimBP.uasset.
+[2018.10.04-14.15.59:298][  0]LoadErrors: Error: /Game/DefaultVrContent/VirtualReality/Mannequin/Animations/RightHand_AnimBP : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/GripEnum
+[2018.10.04-14.15.59:331][  0]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2018.10.04-14.15.59:331][  0]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum Referenced by GripState
+[2018.10.04-14.15.59:331][  0]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.uasset.
+[2018.10.04-14.15.59:331][  0]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum Referenced by GripState
+[2018.10.04-14.15.59:331][  0]LoadErrors: Error: /Game/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/GripEnum
+[2018.10.04-14.15.59:381][  0]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2018.10.04-14.15.59:381][  0]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.uasset.
+[2018.10.04-14.15.59:381][  0]LoadErrors: Error: /Game/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/GripEnum
+[2018.10.04-14.15.59:381][  0]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2018.10.04-14.15.59:381][  0]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.uasset.
+[2018.10.04-14.15.59:381][  0]LoadErrors: Error: /Game/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/GripEnum
+[2018.10.04-14.15.59:433][  0]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2018.10.04-14.15.59:433][  0]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum Referenced by RightHand_AnimBP
+[2018.10.04-14.15.59:433][  0]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.uasset.
+[2018.10.04-14.15.59:434][  0]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum Referenced by RightHand_AnimBP
+[2018.10.04-14.15.59:434][  0]LoadErrors: Error: /Game/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/GripEnum
+[2018.10.04-14.15.59:456][  0]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2018.10.04-14.15.59:456][  0]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum Referenced by K2Node_VariableGet_64
+[2018.10.04-14.15.59:456][  0]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.uasset.
+[2018.10.04-14.15.59:456][  0]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum Referenced by K2Node_VariableGet_64
+[2018.10.04-14.15.59:456][  0]LoadErrors: Error: /Game/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/GripEnum
+[2018.10.04-14.16.02:418][  0]LogLinker: Warning: Can't find file '/Game/DefaultProject/Map/DefaultMap_BuiltData'
+[2018.10.04-14.16.02:418][  0]LogLinker: Warning: Can't find file for asset '/Game/DefaultProject/Map/DefaultMap_BuiltData' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/DefaultProject/Map/DefaultMap.umap.
+[2018.10.04-14.16.02:418][  0]LoadErrors: Error: /Game/DefaultProject/Map/DefaultMap : Can't find file for asset. /Game/DefaultProject/Map/DefaultMap_BuiltData
+[2018.10.04-14.16.02:418][  0]LogLinker: Warning: Can't find file '/Game/Classes/234_BusinessAdmin/Blueprints/TestActor'
+[2018.10.04-14.16.02:418][  0]LogLinker: Warning: Can't find file for asset '/Game/Classes/234_BusinessAdmin/Blueprints/TestActor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/DefaultProject/Map/DefaultMap.umap.
+[2018.10.04-14.16.02:418][  0]LoadErrors: Error: /Game/DefaultProject/Map/DefaultMap : Can't find file for asset. /Game/Classes/234_BusinessAdmin/Blueprints/TestActor
+[2018.10.04-14.16.02:419][  0]LogLinker: Warning: Can't find file '/Game/DefaultProject/Map/DefaultMap_BuiltData'
+[2018.10.04-14.16.02:419][  0]LogLinker: Warning: Can't find file for asset '/Game/DefaultProject/Map/DefaultMap_BuiltData' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/DefaultProject/Map/DefaultMap.umap.
+[2018.10.04-14.16.02:419][  0]LoadErrors: Error: /Game/DefaultProject/Map/DefaultMap : Can't find file for asset. /Game/DefaultProject/Map/DefaultMap_BuiltData
+[2018.10.04-14.16.02:419][  0]LogLinker: Warning: Can't find file '/Game/Classes/234_BusinessAdmin/Blueprints/TestActor'
+[2018.10.04-14.16.02:419][  0]LogLinker: Warning: Can't find file for asset '/Game/Classes/234_BusinessAdmin/Blueprints/TestActor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/DefaultProject/Map/DefaultMap.umap.
+[2018.10.04-14.16.02:419][  0]LoadErrors: Error: /Game/DefaultProject/Map/DefaultMap : Can't find file for asset. /Game/Classes/234_BusinessAdmin/Blueprints/TestActor
+[2018.10.04-14.16.02:419][  0]LogLinker: Warning: Can't find file '/Game/Classes/234_BusinessAdmin/Blueprints/TestActor'
+[2018.10.04-14.16.02:420][  0]LogLinker: Warning: Can't find file for asset '/Game/Classes/234_BusinessAdmin/Blueprints/TestActor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/DefaultProject/Map/DefaultMap.umap.
+[2018.10.04-14.16.02:420][  0]LoadErrors: Error: /Game/DefaultProject/Map/DefaultMap : Can't find file for asset. /Game/Classes/234_BusinessAdmin/Blueprints/TestActor
+[2018.10.04-14.16.02:442][  0]LogLinker: Warning: Can't find file '/Game/Classes/234_BusinessAdmin/Blueprints/TestActor'
+[2018.10.04-14.16.02:442][  0]LogLinker: Warning: Can't find file for asset '/Game/Classes/234_BusinessAdmin/Blueprints/TestActor' while loading NULL.
+[2018.10.04-14.16.02:442][  0]LogLinker: Warning: Can't find file '/Game/Classes/234_BusinessAdmin/Blueprints/TestActor'
+[2018.10.04-14.16.02:442][  0]LogLinker: Warning: Can't find file for asset '/Game/Classes/234_BusinessAdmin/Blueprints/TestActor' while loading NULL.
+[2018.10.04-14.16.02:682][  0]LogLinker: Warning: Can't find file '/Game/DefaultProject/Map/DefaultMap_BuiltData'
+[2018.10.04-14.16.02:682][  0]LoadErrors: Failed to load /Game/DefaultProject/Map/DefaultMap_BuiltData.DefaultMap_BuiltData Referenced by PersistentLevel
+[2018.10.04-14.16.02:682][  0]LogLinker: Warning: Can't find file for asset '/Game/DefaultProject/Map/DefaultMap_BuiltData' while loading NULL.
+[2018.10.04-14.16.02:682][  0]LoadErrors: Failed to load /Game/DefaultProject/Map/DefaultMap_BuiltData.DefaultMap_BuiltData Referenced by PersistentLevel
+[2018.10.04-14.16.04:489][  0]LogAIModule: Creating AISystem for world DefaultMap
+[2018.10.04-14.16.06:188][  0]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2018.10.04-14.16.07:080][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.04-14.16.07:283][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 203.35ms to complete.
+[2018.10.04-14.16.07:298][  0]LogFileHelpers: Loading map 'DefaultMap' took 13.970
+[2018.10.04-14.16.12:805][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.04-14.16.12:999][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.04-14.16.13:028][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.04-14.16.13:045][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.04-14.16.13:310][  0]LogCollectionManager: Loaded 0 collections in 0.001727 seconds
+[2018.10.04-14.16.14:211][  0]LogFileCache: Scanning file cache for directory 'D:/Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Collections/' took 0.01s
+[2018.10.04-14.16.14:211][  0]LogFileCache: Scanning file cache for directory 'D:/Users/tanne/Documents/GitHub/UE4Project/Project/Content/Developers/tanne/Collections/' took 0.01s
+[2018.10.04-14.16.14:211][  0]LogFileCache: Scanning file cache for directory 'D:/Users/tanne/Documents/GitHub/UE4Project/Project/Content/Collections/' took 0.01s
+[2018.10.04-14.16.14:211][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.10.04-14.16.14:342][  0]LogContentBrowser: Native class hierarchy populated in 0.0733 seconds. Added 2572 classes and 603 folders.
+[2018.10.04-14.16.14:688][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.10.04-14.16.17:860][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.10.04-14.16.18:022][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.10.04-14.16.22:312][  0]LogSlate: Took 0.030054 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.04-14.16.22:468][  0]LogSlate: Took 0.062467 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.04-14.16.22:739][  0]LogSlate: Took 0.033734 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.04-14.16.24:684][  0]LogRenderer: Reallocating scene render targets to support 1092x508 Format 26 NumSamples 1 (Frame:1).
+[2018.10.04-14.16.27:966][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.04-14.16.27:967][  0]LogLoad: (Engine Initialization) Total time: 207.86 seconds
+[2018.10.04-14.16.27:967][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.04-14.16.28:396][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': TestActor_C /Game/DefaultProject/Map/DefaultMap.DefaultMap:PersistentLevel.TestActor_2
+[2018.10.04-14.16.28:397][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Widget': TestActor_C /Game/DefaultProject/Map/DefaultMap.DefaultMap:PersistentLevel.TestActor_2
+[2018.10.04-14.16.29:526][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.04-14.16.29:833][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.04-14.16.31:730][  2]LogSlate: Took 0.083352 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.04-14.16.32:193][  6]LogAssetRegistry: Asset discovery search completed in 140.2338 seconds
+[2018.10.04-14.16.32:276][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.10.04-14.16.32:276][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000073 seconds (updated 0 objects)
+[2018.10.04-14.16.36:019][392]LogFileCache: Retrieving MD5 hashes for directory 'D:/Users/tanne/Documents/GitHub/UE4Project/Project/Content/' took 7.41s
+[2018.10.04-14.26.07:209][825]LogSlate: Window 'Message Log' being destroyed
+[2018.10.04-14.26.07:232][825]LogSlate: Window 'Message Log' being destroyed
+[2018.10.04-14.26.18:263][859]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-14.26.29:524][728]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-14.26.29:524][728]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Interfaces/BPI_WorldInteractive.uasset.
+[2018.10.04-14.26.29:524][728]LoadErrors: Error: /Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/Interfaces/BPI_WorldInteractive : Can't find file for asset. /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor
+[2018.10.04-14.26.29:525][728]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-14.26.29:526][728]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Interfaces/BPI_WorldInteractive.uasset.
+[2018.10.04-14.26.29:534][728]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-14.26.29:534][728]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-14.26.29:535][728]LoadErrors: Error: /Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor : Can't find file for asset. /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor
+[2018.10.04-14.26.29:535][728]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-14.26.29:535][728]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-14.26.29:536][728]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-14.26.29:536][728]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-14.26.29:541][728]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-14.26.29:542][728]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_0
+[2018.10.04-14.26.29:542][728]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-14.26.29:543][728]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-14.26.29:543][728]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-14.26.29:544][728]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-14.26.29:545][728]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_1
+[2018.10.04-14.26.29:545][728]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-14.26.29:546][728]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-14.26.29:546][728]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-14.26.29:547][728]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-14.26.29:547][728]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_2
+[2018.10.04-14.26.29:548][728]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-14.26.29:548][728]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-14.26.29:549][728]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-14.26.29:550][728]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-14.26.29:550][728]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_3
+[2018.10.04-14.26.29:551][728]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-14.26.29:551][728]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-14.26.29:552][728]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-14.26.29:553][728]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-14.26.29:553][728]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_4
+[2018.10.04-14.26.29:554][728]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-14.26.29:554][728]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-14.26.29:555][728]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-14.26.29:556][728]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-14.26.29:556][728]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_5
+[2018.10.04-14.26.29:557][728]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-14.26.29:557][728]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-14.26.29:557][728]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-14.26.29:558][728]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-14.26.29:558][728]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_6
+[2018.10.04-14.26.29:558][728]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-14.26.29:559][728]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-14.26.29:559][728]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-14.26.29:559][728]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-14.26.29:560][728]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_7
+[2018.10.04-14.26.29:560][728]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-14.26.29:560][728]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-14.26.29:561][728]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-14.26.29:561][728]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-14.26.29:561][728]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_9
+[2018.10.04-14.26.29:561][728]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-14.26.29:562][728]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-14.26.29:562][728]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-14.26.29:563][728]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-14.26.29:563][728]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_10
+[2018.10.04-14.26.29:563][728]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-14.26.29:563][728]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-14.26.29:564][728]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-14.26.29:564][728]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-14.26.29:565][728]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-14.26.29:565][728]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-14.26.29:565][728]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-14.26.29:638][728]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] Get Hand  is deprecated; please replace or remove it.
+[2018.10.04-14.26.29:656][728]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] Get Hand  is deprecated; Please use the Motion Source property instead of Hand
+[2018.10.04-14.26.29:684][728]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] [0809.58] Compile of BPC_WorldInteractor successful, but with 2 Warning(s) [in 80 ms] (/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor)
+[2018.10.04-14.26.29:756][728]LogClass: Warning: Enum '/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/FeedbackEffects/EFeedbackType.EFeedbackType' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2018.10.04-14.26.29:756][728]LogClass: Warning: Enum '/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/FeedbackEffects/EFeedbackIntensity.EFeedbackIntensity' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2018.10.04-14.26.31:469][728]LogBlueprint: Warning: [Compiler Criminology_Pawn] InputAction Event references unknown Action 'Action Button A' for  InputAction Action Button A
+[2018.10.04-14.26.31:547][728]LogBlueprint: Warning: [Compiler Criminology_Pawn] [0811.45] Compile of Criminology_Pawn successful, but with 1 Warning(s) [in 163 ms] (/Game/Classes/237_Criminology/Criminology_Pawn.Criminology_Pawn)
+[2018.10.04-14.26.43:610][728]LogAIModule: Creating AISystem for world ParalegalMap1
+[2018.10.04-14.26.44:213][728]LogAssetEditorManager: Opening Asset editor for World /Game/Classes/237_Paralegal/Maps/ParalegalMap1.ParalegalMap1
+[2018.10.04-14.26.44:417][728]Cmd: MAP LOAD FILE="../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Maps/ParalegalMap1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.04-14.26.44:418][728]LightingResults: New page: Lighting Build
+[2018.10.04-14.26.44:419][728]LoadErrors: New page: Loading map: ParalegalMap1.umap
+[2018.10.04-14.26.44:469][728]MapCheck: New page: Map Check
+[2018.10.04-14.26.44:469][728]LightingResults: New page: Lighting Build
+[2018.10.04-14.26.45:193][728]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.04-14.26.45:439][728]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.04-14.26.45:661][728]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 221.773ms to complete.
+[2018.10.04-14.26.45:664][728]LogFileHelpers: Loading map 'ParalegalMap1' took 1.300
+[2018.10.04-14.26.53:318][294]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-14.26.58:583][724]LogEditorViewport: Clicking on Actor (LMB): Objective2_C (TestBox2_2)
+[2018.10.04-14.27.05:908][288]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-14.27.09:077][476]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-14.27.10:604][570]LogEditorViewport: Clicking on Actor (LMB): Objective1_C (TestBox1_2)
+[2018.10.04-14.27.11:457][611]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-14.27.12:910][703]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Paralegal/Blueprints/Objectives/Objective1.Objective1
+[2018.10.04-14.27.14:586][703]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0031 seconds. Added 116 classes and 0 folders.
+[2018.10.04-14.27.17:200][703]LogSlate: Took 0.014476 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.10.04-14.27.22:689][225]LogSlate: Took 0.039867 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.10.04-14.27.23:854][356]LogRenderer: Reallocating scene render targets to support 1092x580 Format 26 NumSamples 1 (Frame:1).
+[2018.10.04-14.27.27:858][699]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-14.27.28:308][725]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Paralegal/Blueprints/Objectives/Objective2.Objective2
+[2018.10.04-14.27.36:362][597]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-14.27.55:729][869]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.04-14.27.59:048][252]LogSlate: Window 'Color Picker' being destroyed
+[2018.10.04-14.28.00:220][389]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-14.28.07:604][242]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.04-14.28.11:273][510]LogMaterial: Display: Missing cached shader map for material DefaultTextMaterialTranslucent, compiling. 
+[2018.10.04-14.28.11:558][510]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.10.04-14.28.11:558][510]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.10.04-14.28.11:558][510]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.10.04-14.28.11:558][510]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.10.04-14.28.12:898][659]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.04-14.28.12:992][664]LogAssetEditorManager: Opening Asset editor for Material /Engine/EngineMaterials/DefaultTextMaterialTranslucent.DefaultTextMaterialTranslucent
+[2018.10.04-14.28.13:048][664]LogMaterial: Display: Missing cached shader map for material DefaultTextMaterialTranslucent, compiling. 
+[2018.10.04-14.28.14:396][664]LogMaterial: Display: Missing cached shader map for material DefaultTextMaterialTranslucent, compiling. 
+[2018.10.04-14.28.14:434][664]LogMaterial: Display: Missing cached shader map for material DefaultTextMaterialTranslucent, compiling. 
+[2018.10.04-14.28.14:497][664]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFontSampleParameter_0, compiling. 
+[2018.10.04-14.28.14:841][665]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.10.04-14.28.15:050][688]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.10.04-14.28.15:242][711]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.10.04-14.28.15:482][739]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.10.04-14.28.15:706][764]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.10.04-14.28.15:883][785]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.10.04-14.28.15:932][791]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.10.04-14.28.16:087][809]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.10.04-14.28.16:112][812]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.10.04-14.28.16:290][833]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.10.04-14.28.16:662][877]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.10.04-14.28.16:881][903]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.10.04-14.28.17:302][942]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.10.04-14.28.17:533][944]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.10.04-14.28.17:817][978]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.10.04-14.28.18:179][ 17]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.10.04-14.28.18:654][ 72]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.10.04-14.28.18:797][ 89]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.10.04-14.28.19:175][133]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.10.04-14.28.19:400][159]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.10.04-14.28.19:573][178]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.04-14.28.19:858][207]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.10.04-14.28.19:966][208]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.10.04-14.28.20:262][239]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.10.04-14.28.20:280][241]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.10.04-14.28.20:633][281]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.10.04-14.28.20:771][297]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.10.04-14.28.20:969][320]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.10.04-14.28.20:977][321]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.10.04-14.28.21:389][368]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.10.04-14.28.21:456][376]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.04-14.28.21:631][397]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.10.04-14.28.23:362][596]LogAssetEditorManager: Opening Asset editor for Material /Engine/EngineMaterials/DefaultTextMaterialTranslucent.DefaultTextMaterialTranslucent
+[2018.10.04-14.28.23:365][596]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.10.04-14.28.23:478][596]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.10.04-14.28.23:498][596]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.10.04-14.28.23:530][596]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.10.04-14.28.23:530][596]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.10.04-14.28.23:530][596]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.10.04-14.28.23:530][596]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.10.04-14.28.23:544][596]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFontSampleParameter_0, compiling. 
+[2018.10.04-14.28.23:699][597]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.10.04-14.28.23:699][597]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.10.04-14.28.23:727][598]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.10.04-14.28.23:733][599]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.10.04-14.28.23:850][613]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.10.04-14.28.23:882][617]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.10.04-14.28.23:889][618]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.10.04-14.28.23:915][621]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.10.04-14.28.24:444][679]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.10.04-14.28.24:476][683]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.10.04-14.28.24:549][692]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.10.04-14.28.24:938][736]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.10.04-14.28.25:006][744]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.10.04-14.28.25:113][757]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.10.04-14.28.25:357][786]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.10.04-14.28.25:533][807]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.10.04-14.28.25:541][808]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.10.04-14.28.25:682][825]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.10.04-14.28.25:923][838]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.10.04-14.28.26:135][858]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.10.04-14.28.26:302][876]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.10.04-14.28.26:415][889]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.10.04-14.28.26:619][907]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.10.04-14.28.27:024][951]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.10.04-14.28.27:033][952]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.10.04-14.28.27:202][972]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.10.04-14.28.27:517][  7]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.04-14.28.27:700][ 28]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.10.04-14.28.36:085][974]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-14.28.49:948][624]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-14.28.54:204][130]LogEditorTransaction: Undo Edit YScale
+[2018.10.04-14.28.56:544][130]LogStats: FPlatformStackWalk::StackWalkAndDump -  2.243 s
+[2018.10.04-14.28.56:545][130]LogOutputDevice: Error: === Handled ensure: ===
+[2018.10.04-14.28.56:545][130]LogOutputDevice: Error: 
+[2018.10.04-14.28.56:545][130]LogOutputDevice: Error: Ensure condition failed: !GIsTransacting [File:D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Classes\Editor/TransBuffer.h] [Line: 72]
+[2018.10.04-14.28.56:545][130]LogOutputDevice: Error: 
+[2018.10.04-14.28.56:545][130]LogOutputDevice: Error: Stack: 
+[2018.10.04-14.28.56:545][130]LogOutputDevice: Error: [Callstack] 0x00007ff8d0ef71f6 UE4Editor-Core.dll!UnknownFunction []
+[2018.10.04-14.28.56:545][130]LogOutputDevice: Error: [Callstack] 0x00007ff8d0c30c92 UE4Editor-Core.dll!UnknownFunction []
+[2018.10.04-14.28.56:545][130]LogOutputDevice: Error: [Callstack] 0x00007ff8d0c4b356 UE4Editor-Core.dll!UnknownFunction []
+[2018.10.04-14.28.56:545][130]LogOutputDevice: Error: [Callstack] 0x00007ff8c9dfeedf UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.04-14.28.56:545][130]LogOutputDevice: Error: [Callstack] 0x00007ff8c9da4576 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.04-14.28.56:545][130]LogOutputDevice: Error: [Callstack] 0x00007ff8c7099e88 UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2018.10.04-14.28.56:545][130]LogOutputDevice: Error: [Callstack] 0x00007ff8c709ac2d UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2018.10.04-14.28.56:545][130]LogOutputDevice: Error: [Callstack] 0x00007ff8c709a8ce UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2018.10.04-14.28.56:545][130]LogOutputDevice: Error: [Callstack] 0x00007ff8c70e44e1 UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2018.10.04-14.28.56:545][130]LogOutputDevice: Error: [Callstack] 0x00007ff8c6fdce8a UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2018.10.04-14.28.56:545][130]LogOutputDevice: Error: [Callstack] 0x00007ff8c6f60eb8 UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2018.10.04-14.28.56:545][130]LogOutputDevice: Error: [Callstack] 0x00007ff8c6ee64ea UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2018.10.04-14.28.56:545][130]LogOutputDevice: Error: [Callstack] 0x00007ff8c70004f9 UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2018.10.04-14.28.56:545][130]LogOutputDevice: Error: [Callstack] 0x00007ff8c6f63079 UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2018.10.04-14.28.56:545][130]LogOutputDevice: Error: [Callstack] 0x00007ff8cb996a2e UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.04-14.28.56:546][130]LogOutputDevice: Error: [Callstack] 0x00007ff8cb7a93b0 UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.04-14.28.56:546][130]LogOutputDevice: Error: [Callstack] 0x00007ff8cb741444 UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.04-14.28.56:546][130]LogOutputDevice: Error: [Callstack] 0x00007ff8c9100014 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.10.04-14.28.56:546][130]LogOutputDevice: Error: [Callstack] 0x00007ff8c8d78d70 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.10.04-14.28.56:546][130]LogOutputDevice: Error: [Callstack] 0x00007ff8c8d0f869 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.10.04-14.28.56:546][130]LogOutputDevice: Error: [Callstack] 0x00007ff8c9104833 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.10.04-14.28.56:546][130]LogOutputDevice: Error: [Callstack] 0x00007ff8c90eb550 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.10.04-14.28.56:546][130]LogOutputDevice: Error: [Callstack] 0x00007ff8c909b524 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.10.04-14.28.56:546][130]LogOutputDevice: Error: [Callstack] 0x00007ff8c90f0f0a UE4Editor-Kismet.dll!UnknownFunction []
+[2018.10.04-14.28.56:546][130]LogOutputDevice: Error: [Callstack] 0x00007ff8c8cab41b UE4Editor-Kismet.dll!UnknownFunction []
+[2018.10.04-14.28.56:546][130]LogOutputDevice: Error: [Callstack] 0x00007ff8c8d3843e UE4Editor-Kismet.dll!UnknownFunction []
+[2018.10.04-14.28.56:546][130]LogOutputDevice: Error: [Callstack] 0x00007ff8c8d85d9d UE4Editor-Kismet.dll!UnknownFunction []
+[2018.10.04-14.28.56:546][130]LogOutputDevice: Error: [Callstack] 0x00007ff8c9da4dc6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.04-14.28.56:546][130]LogOutputDevice: Error: [Callstack] 0x00007ff8c9dd01fb UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.04-14.28.56:546][130]LogOutputDevice: Error: [Callstack] 0x00007ff8c9db6535 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.04-14.28.56:546][130]LogOutputDevice: Error: [Callstack] 0x00007ff8c9e22dc5 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.04-14.28.56:546][130]LogOutputDevice: Error: [Callstack] 0x00007ff8c9e69b6d UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.04-14.28.56:546][130]LogOutputDevice: Error: [Callstack] 0x00007ff8c9dfc81f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.04-14.28.56:546][130]LogOutputDevice: Error: [Callstack] 0x00007ff8c8d105b8 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.10.04-14.28.56:546][130]LogOutputDevice: Error: [Callstack] 0x00007ff8cb7424df UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.04-14.28.56:546][130]LogOutputDevice: Error: [Callstack] 0x00007ff8cb78437e UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.04-14.28.56:546][130]LogOutputDevice: Error: [Callstack] 0x00007ff8ca653a8e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.04-14.28.56:546][130]LogOutputDevice: Error: [Callstack] 0x00007ff8ca641a08 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.04-14.28.56:546][130]LogOutputDevice: Error: [Callstack] 0x00007ff8cb7070ac UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.04-14.28.56:547][130]LogOutputDevice: Error: [Callstack] 0x00007ff8cb78606c UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.04-14.28.56:547][130]LogOutputDevice: Error: [Callstack] 0x00007ff8cb779846 UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.04-14.28.56:547][130]LogOutputDevice: Error: [Callstack] 0x00007ff90fe8ce45 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.10.04-14.28.56:547][130]LogOutputDevice: Error: [Callstack] 0x00007ff90fe80270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.10.04-14.28.56:547][130]LogOutputDevice: Error: [Callstack] 0x00007ff90fe8f4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.10.04-14.28.56:547][130]LogOutputDevice: Error: [Callstack] 0x00007ff90fe7c209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.10.04-14.28.56:547][130]LogOutputDevice: Error: [Callstack] 0x00007ff93ed76cc1 USER32.dll!UnknownFunction []
+[2018.10.04-14.28.56:547][130]LogOutputDevice: Error: [Callstack] 0x00007ff93ed76693 USER32.dll!UnknownFunction []
+[2018.10.04-14.28.56:547][130]LogOutputDevice: Error: [Callstack] 0x00007ff90fe90646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.10.04-14.28.56:547][130]LogOutputDevice: Error: [Callstack] 0x00007ff7027e54e5 UE4Editor.exe!UnknownFunction []
+[2018.10.04-14.28.56:547][130]LogOutputDevice: Error: [Callstack] 0x00007ff7027f5b3c UE4Editor.exe!UnknownFunction []
+[2018.10.04-14.28.56:547][130]LogOutputDevice: Error: [Callstack] 0x00007ff7027f5bba UE4Editor.exe!UnknownFunction []
+[2018.10.04-14.28.56:547][130]LogOutputDevice: Error: [Callstack] 0x00007ff702803dac UE4Editor.exe!UnknownFunction []
+[2018.10.04-14.28.56:547][130]LogOutputDevice: Error: [Callstack] 0x00007ff702805aaa UE4Editor.exe!UnknownFunction []
+[2018.10.04-14.28.56:547][130]LogOutputDevice: Error: [Callstack] 0x00007ff93e903034 KERNEL32.DLL!UnknownFunction []
+[2018.10.04-14.28.56:547][130]LogOutputDevice: Error: [Callstack] 0x00007ff93f521461 ntdll.dll!UnknownFunction []
+[2018.10.04-14.28.56:547][130]LogOutputDevice: Error: 
+[2018.10.04-14.28.56:565][130]LogStats:                SubmitErrorReport -  0.015 s
+[2018.10.04-14.29.05:500][130]LogStats:                    SendNewReport -  8.935 s
+[2018.10.04-14.29.05:500][130]LogStats:             FDebug::EnsureFailed - 11.217 s
+[2018.10.04-14.29.05:552][130]Cmd: TRANSACTION UNDO
+[2018.10.04-14.29.05:552][130]LogEditorTransaction: Undo Replace component used material
+[2018.10.04-14.29.09:382][576]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.04-14.29.11:601][835]LogSlate: Window 'Color Picker' being destroyed
+[2018.10.04-14.29.12:665][960]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-14.29.30:990][145]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.04-14.29.35:315][647]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.04-14.29.37:798][931]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.04-14.30.07:730][873]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.04-14.30.11:296][293]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-14.30.24:496][833]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.04-14.30.28:929][179]LogTexture: Display: Building textures: bookPapers (AutoDXT, 1024X1024)
+[2018.10.04-14.30.28:929][179]LogMaterial: Display: Missing cached shader map for material bookpaper, compiling. 
+[2018.10.04-14.30.28:965][179]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.10.04-14.30.28:965][179]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.04-14.30.28:965][179]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.04-14.30.37:301][165]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-14.30.37:376][174]BlueprintLog: New page: Compile Objective2
+[2018.10.04-14.30.38:507][174]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Objective20A301299446E7EE708BF5184DC44479E.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Blueprints/Objectives/Objective2.uasset'
+[2018.10.04-14.30.39:165][231]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-14.30.39:261][238]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Objective2CA8E35EC4A81DF9E43EC259E2EB5A67C.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Blueprints/Objectives/Objective2.uasset'
+[2018.10.04-14.30.42:351][602]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-14.30.47:763][  6]LogEditorViewport: Clicking on Actor (LMB): Objective2_C (TestBox2_2)
+[2018.10.04-14.30.48:976][100]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-14.36.29:702][783]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/ParalegalMap1_Auto14C3B8651489D6FCF319A6C86F2BCEBD1.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/237_Paralegal/Maps/ParalegalMap1_Auto1.umap'
+[2018.10.04-14.36.29:724][783]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/237_Paralegal/Maps/ParalegalMap1' took 1.183
+[2018.10.04-14.36.29:724][783]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.183
+[2018.10.04-14.38.16:300][389]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-14.38.28:765][960]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\tanne\Pictures\Memes\ac4dnwwvtpb11.png)
+[2018.10.04-14.38.28:786][960]LogTexture: Display: Building textures: ac4dnwwvtpb11 (BGRA8, 451X385)
+[2018.10.04-14.38.33:653][228]LogMaterial: Display: Missing cached shader map for material ac4dnwwvtpb11_Mat, compiling. 
+[2018.10.04-14.38.33:698][229]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.10.04-14.38.33:698][229]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.04-14.38.33:698][229]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.04-14.38.55:587][637]LogFactory: FactoryCreateFile: FileMediaSource with AndroidFileMediaSourceFactory (0 0 C:\Users\tanne\Pictures\Memes\sadboi.mp4)
+[2018.10.04-14.39.02:090][959]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.04-14.39.59:742][438]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\tanne\Pictures\Memes\IMG-20180827-WA0045.jpg)
+[2018.10.04-14.40.00:051][438]LogTexture: Display: Building textures: IMG-20180827-WA0045 (BGRA8, 720X698)
+[2018.10.04-14.40.03:588][648]LogMaterial: Display: Missing cached shader map for material IMG-20180827-WA0045_Mat, compiling. 
+[2018.10.04-14.40.03:616][649]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.10.04-14.40.03:616][649]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.04-14.40.03:616][649]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.04-14.40.09:605][ 79]LogAssetEditorManager: Opening Asset editor for Material /Game/Classes/237_Criminology/Assets/Homework/IMG-20180827-WA0045_Mat.IMG-20180827-WA0045_Mat
+[2018.10.04-14.40.09:607][ 79]LogMaterial: Display: Missing cached shader map for material IMG-20180827-WA0045_Mat, compiling. 
+[2018.10.04-14.40.09:705][ 79]LogMaterial: Display: Missing cached shader map for material IMG-20180827-WA0045_Mat, compiling. 
+[2018.10.04-14.40.09:724][ 79]LogMaterial: Display: Missing cached shader map for material IMG-20180827-WA0045_Mat, compiling. 
+[2018.10.04-14.40.09:741][ 79]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.10.04-14.40.09:741][ 79]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.10.04-14.40.09:741][ 79]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.10.04-14.40.09:741][ 79]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.10.04-14.40.09:767][ 79]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.10.04-14.40.09:963][ 80]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.10.04-14.40.09:991][ 81]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.10.04-14.40.09:991][ 81]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.10.04-14.40.10:177][ 95]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.10.04-14.40.10:182][ 96]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.10.04-14.40.10:192][ 97]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.10.04-14.40.10:274][107]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.10.04-14.40.10:336][114]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.04-14.40.10:385][120]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.10.04-14.40.10:732][161]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.10.04-14.40.10:791][168]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.10.04-14.40.10:908][182]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.10.04-14.40.10:958][188]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.10.04-14.40.11:140][210]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.10.04-14.40.11:291][228]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.10.04-14.40.11:527][256]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.10.04-14.40.11:567][261]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.10.04-14.40.11:642][270]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.04-14.40.11:777][286]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.10.04-14.40.12:056][311]MaterialEditorStats: Base pass shader: 158 instructions
+[2018.10.04-14.40.12:056][311]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 231 instructions
+[2018.10.04-14.40.12:056][311]MaterialEditorStats: Base pass vertex shader: 92 instructions
+[2018.10.04-14.40.12:056][311]MaterialEditorStats: Texture samplers: 4/16
+[2018.10.04-14.40.12:056][311]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2018.10.04-14.40.12:056][311]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.10.04-14.40.18:564][ 92]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-14.40.18:639][101]LogMaterialEditor: Saving and Compiling material IMG-20180827-WA0045_Mat
+[2018.10.04-14.40.18:736][101]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/IMG-20180827-WA0045_MatEF2528384C641C2954A59B801B3C5B21.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Assets/Homework/IMG-20180827-WA0045_Mat.uasset'
+[2018.10.04-14.41.39:022][464]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Users\tanne\Pictures\Memes\Gods.jpg)
+[2018.10.04-14.41.39:042][464]LogTexture: Display: Building textures: Gods (BGRA8, 281X301)
+[2018.10.04-14.41.42:882][740]LogMaterial: Display: Missing cached shader map for material Gods_Mat, compiling. 
+[2018.10.04-14.41.42:912][741]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.10.04-14.41.42:912][741]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.04-14.41.42:912][741]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.04-14.41.47:026][ 39]LogAssetEditorManager: Opening Asset editor for Material /Game/Classes/237_Criminology/Assets/Homework/Gods_Mat.Gods_Mat
+[2018.10.04-14.41.47:029][ 39]LogMaterial: Display: Missing cached shader map for material Gods_Mat, compiling. 
+[2018.10.04-14.41.47:125][ 39]LogMaterial: Display: Missing cached shader map for material Gods_Mat, compiling. 
+[2018.10.04-14.41.47:139][ 39]LogMaterial: Display: Missing cached shader map for material Gods_Mat, compiling. 
+[2018.10.04-14.41.47:156][ 39]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.10.04-14.41.47:156][ 39]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.10.04-14.41.47:156][ 39]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.10.04-14.41.47:156][ 39]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.10.04-14.41.47:184][ 39]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.10.04-14.41.47:389][ 45]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.10.04-14.41.47:414][ 48]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.10.04-14.41.47:421][ 49]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.10.04-14.41.47:581][ 68]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.10.04-14.41.47:597][ 70]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.10.04-14.41.47:614][ 72]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.10.04-14.41.47:681][ 80]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.10.04-14.41.47:743][ 85]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.04-14.41.47:795][ 90]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.10.04-14.41.48:121][129]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.10.04-14.41.48:195][138]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.10.04-14.41.48:312][152]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.10.04-14.41.48:361][158]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.10.04-14.41.48:554][181]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.10.04-14.41.48:686][197]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.10.04-14.41.48:887][221]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.10.04-14.41.48:903][223]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.10.04-14.41.48:970][231]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.04-14.41.49:137][251]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.10.04-14.41.49:378][279]MaterialEditorStats: Base pass shader: 158 instructions
+[2018.10.04-14.41.49:378][279]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 231 instructions
+[2018.10.04-14.41.49:378][279]MaterialEditorStats: Base pass vertex shader: 92 instructions
+[2018.10.04-14.41.49:378][279]MaterialEditorStats: Texture samplers: 4/16
+[2018.10.04-14.41.49:378][279]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2018.10.04-14.41.49:378][279]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.10.04-14.41.58:115][327]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-14.42.07:481][193]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-14.42.22:335][524]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-14.42.22:480][530]LogActorFactory: Actor Factory created Cube
+[2018.10.04-14.42.24:184][718]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-14.42.25:893][879]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.10.04-14.42.27:497][977]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.04-14.42.28:103][ 24]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.04-14.42.42:637][400]Cmd: DELETE
+[2018.10.04-14.42.42:637][400]Cmd: ACTOR DELETE
+[2018.10.04-14.42.43:369][400]LogEditorActor: Deleted Actor: Brush
+[2018.10.04-14.42.43:520][400]LogEditorActor: Deleted 1 Actors (0.324 secs)
+[2018.10.04-14.42.44:860][555]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-14.42.49:298][ 42]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-14.42.49:932][ 86]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.10.04-14.42.52:328][352]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-14.43.07:508][ 84]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-14.43.23:567][941]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-14.43.46:379][603]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-14.43.53:854][485]Cmd: DUPLICATE
+[2018.10.04-14.43.53:854][485]Cmd: ACTOR DUPLICATE
+[2018.10.04-14.44.03:075][546]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-14.44.22:405][710]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-14.44.31:294][360]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.04-14.44.32:284][470]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.04-14.44.39:884][293]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-14.44.47:912][214]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-14.44.57:716][363]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-14.45.17:636][655]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.04-14.45.33:283][306]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-14.45.39:079][922]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (CrimRoomMockup_Sprite)
+[2018.10.04-14.45.39:251][922]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.04-14.45.52:853][396]Cmd: TRANSACTION UNDO
+[2018.10.04-14.45.52:853][396]LogEditorTransaction: Undo Move Actors
+[2018.10.04-14.45.57:460][884]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-14.46.05:194][781]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-14.46.17:764][268]Cmd: TRANSACTION UNDO
+[2018.10.04-14.46.17:764][268]LogEditorTransaction: Undo Move Actors
+[2018.10.04-14.46.18:951][393]Cmd: TRANSACTION UNDO
+[2018.10.04-14.46.18:951][393]LogEditorTransaction: Undo Set Scale
+[2018.10.04-14.46.19:921][504]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-14.46.21:754][716]Cmd: TRANSACTION UNDO
+[2018.10.04-14.46.21:755][716]LogEditorTransaction: Undo Reset Scale
+[2018.10.04-14.46.57:108][872]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-14.47.32:258][967]LogSlate: Window 'Select Path' being destroyed
+[2018.10.04-14.47.32:272][967]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.04-14.47.32:694][967]LogStaticMesh: Building static mesh Pic1...
+[2018.10.04-14.47.32:777][967]LogStaticMesh: Built static mesh [0.08s] /Game/Classes/237_Paralegal/Assets/Models/Pic1.Pic1
+[2018.10.04-14.47.32:835][967]LogActorFactory: Actor Factory created Pic1
+[2018.10.04-14.47.32:879][967]LogEditor: Error: Actor 'Brush /Game/Classes/237_Paralegal/Maps/ParalegalMap1.ParalegalMap1:PersistentLevel.BoxBrush4' is marked pending kill and cannot be converted
+[2018.10.04-14.47.32:879][967]LogEditor: Error: Actor 'Brush /Game/Classes/237_Paralegal/Maps/ParalegalMap1.ParalegalMap1:PersistentLevel.BoxBrush3_3' is marked pending kill and cannot be converted
+[2018.10.04-14.47.32:879][967]EditorErrors: New page: Actor Reattachment
+[2018.10.04-14.47.37:776][540]Cmd: DELETE
+[2018.10.04-14.47.37:776][540]Cmd: ACTOR DELETE
+[2018.10.04-14.47.37:795][540]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.04-14.47.37:827][540]LogEditorActor: Deleted 1 Actors (0.051 secs)
+[2018.10.04-14.47.45:770][201]LogEditorViewport: Clicking on Actor (LMB): Objective4_C (TestBox4_2)
+[2018.10.04-14.47.47:036][285]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-14.47.47:091][290]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Paralegal/Blueprints/Objectives/Objective4.Objective4
+[2018.10.04-14.48.10:928][937]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-14.48.14:889][393]BlueprintLog: New page: Compile Objective4
+[2018.10.04-14.48.15:199][393]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Objective43FCB7ADB460451E2E1742ABD98F59B6B.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Blueprints/Objectives/Objective4.uasset'
+[2018.10.04-14.48.20:783][830]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-14.49.08:567][720]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.04-14.49.09:701][720]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/ParalegalMap1_Auto2EFA12A134D59010F1DF100BEF70B4BC9.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/237_Paralegal/Maps/ParalegalMap1_Auto2.umap'
+[2018.10.04-14.49.09:704][720]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/237_Paralegal/Maps/ParalegalMap1' took 1.103
+[2018.10.04-14.49.09:704][720]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.103
+[2018.10.04-14.49.09:727][720]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Classes/237_Criminology/Assets/Homework/ac4dnwwvtpb11] ([1] browsable assets)...
+[2018.10.04-14.49.09:733][720]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Classes/237_Criminology/Assets/Homework/ac4dnwwvtpb11.ac4dnwwvtpb11]
+[2018.10.04-14.49.09:733][720]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/237_Criminology/Assets/Homework/ac4dnwwvtpb11]
+[2018.10.04-14.49.09:786][720]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/ac4dnwwvtpb11_Auto2CF0ACB3943C81D591DEB649732C16239.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/237_Criminology/Assets/Homework/ac4dnwwvtpb11_Auto2.uasset'
+[2018.10.04-14.49.09:787][720]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Classes/237_Criminology/Assets/Homework/ac4dnwwvtpb11_Mat] ([1] browsable assets)...
+[2018.10.04-14.49.09:796][720]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Classes/237_Criminology/Assets/Homework/ac4dnwwvtpb11_Mat.ac4dnwwvtpb11_Mat]
+[2018.10.04-14.49.09:797][720]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/237_Criminology/Assets/Homework/ac4dnwwvtpb11_Mat]
+[2018.10.04-14.49.09:813][720]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/ac4dnwwvtpb11_Mat_Auto277A9535644B5B61354715F9DFE04916F.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/237_Criminology/Assets/Homework/ac4dnwwvtpb11_Mat_Auto2.uasset'
+[2018.10.04-14.49.09:814][720]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Classes/237_Criminology/Assets/Homework/IMG-20180827-WA0045] ([1] browsable assets)...
+[2018.10.04-14.49.09:821][720]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Classes/237_Criminology/Assets/Homework/IMG-20180827-WA0045.IMG-20180827-WA0045]
+[2018.10.04-14.49.09:821][720]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/237_Criminology/Assets/Homework/IMG-20180827-WA0045]
+[2018.10.04-14.49.09:837][720]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/IMG-20180827-WA0045_Auto21744E12149972D5BB10B139761F4B6B0.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/237_Criminology/Assets/Homework/IMG-20180827-WA0045_Auto2.uasset'
+[2018.10.04-14.49.09:838][720]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Classes/237_Criminology/Assets/Homework/Gods] ([1] browsable assets)...
+[2018.10.04-14.49.09:845][720]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Classes/237_Criminology/Assets/Homework/Gods.Gods]
+[2018.10.04-14.49.09:845][720]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/237_Criminology/Assets/Homework/Gods]
+[2018.10.04-14.49.09:859][720]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Gods_Auto2B4F27D7248C21B728FC97F838610A205.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/237_Criminology/Assets/Homework/Gods_Auto2.uasset'
+[2018.10.04-14.49.09:860][720]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Classes/237_Criminology/Assets/Homework/Gods_Mat] ([1] browsable assets)...
+[2018.10.04-14.49.09:870][720]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Classes/237_Criminology/Assets/Homework/Gods_Mat.Gods_Mat]
+[2018.10.04-14.49.09:870][720]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/237_Criminology/Assets/Homework/Gods_Mat]
+[2018.10.04-14.49.09:890][720]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Gods_Mat_Auto28509E8924DFADA47332B9CBE7DAA530F.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/237_Criminology/Assets/Homework/Gods_Mat_Auto2.uasset'
+[2018.10.04-14.49.09:892][720]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Classes/237_Paralegal/Assets/Models/Pic1] ([1] browsable assets)...
+[2018.10.04-14.49.09:902][720]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Classes/237_Paralegal/Assets/Models/Pic1.Pic1]
+[2018.10.04-14.49.09:902][720]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/237_Paralegal/Assets/Models/Pic1]
+[2018.10.04-14.49.09:919][720]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Pic1_Auto2DF5327B246616DDA2CFD25AB6F25E2C1.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/237_Paralegal/Assets/Models/Pic1_Auto2.uasset'
+[2018.10.04-14.49.09:919][720]LogFileHelpers: Auto-saving content packages took 0.215
+[2018.10.04-14.49.19:922][488]LogEditorViewport: Clicking on Actor (LMB): Objective4_C (TestBox4_2)
+[2018.10.04-14.49.20:681][550]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-14.49.32:026][601]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-14.49.33:833][702]LogRenderer: Reallocating scene render targets to support 1448x760 Format 26 NumSamples 1 (Frame:52393).
+[2018.10.04-14.49.34:433][737]Cmd: TRANSACTION UNDO
+[2018.10.04-14.49.34:433][737]LogEditorTransaction: Undo Clicking on Actors
+[2018.10.04-14.49.35:034][773]Cmd: TRANSACTION UNDO
+[2018.10.04-14.49.35:034][773]LogEditorTransaction: Undo Scale Actors
+[2018.10.04-14.49.35:433][797]Cmd: TRANSACTION UNDO
+[2018.10.04-14.49.35:433][797]LogEditorTransaction: Undo Remove Components
+[2018.10.04-14.49.36:368][848]Cmd: TRANSACTION UNDO
+[2018.10.04-14.49.36:368][848]LogEditorTransaction: Undo Edit Static Mesh
+[2018.10.04-14.59.10:087][764]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.04-14.59.11:479][764]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/ParalegalMap1_Auto348956C47485244AFA608D78E7E1C4085.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/237_Paralegal/Maps/ParalegalMap1_Auto3.umap'
+[2018.10.04-14.59.11:483][764]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/237_Paralegal/Maps/ParalegalMap1' took 1.384
+[2018.10.04-14.59.11:483][764]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.384
+[2018.10.04-14.59.11:485][764]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Classes/237_Paralegal/Blueprints/Objectives/Objective4] ([1] browsable assets)...
+[2018.10.04-14.59.11:496][764]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Classes/237_Paralegal/Blueprints/Objectives/Objective4.Objective4]
+[2018.10.04-14.59.11:496][764]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/237_Paralegal/Blueprints/Objectives/Objective4]
+[2018.10.04-14.59.11:540][764]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Objective4_Auto3FE4963BD4851C816CEDB50BE2C667437.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/237_Paralegal/Blueprints/Objectives/Objective4_Auto3.uasset'
+[2018.10.04-14.59.11:540][764]LogFileHelpers: Auto-saving content packages took 0.056
+[2018.10.04-15.05.33:680][672]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.08.01:724][879]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.08.06:671][175]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Classes/237_Paralegal/Assets/Models/Pic1.Pic1
+[2018.10.04-15.08.07:733][176]LogRenderer: Reallocating scene render targets to support 1448x804 Format 26 NumSamples 1 (Frame:1).
+[2018.10.04-15.08.15:798][657]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.08.29:983][504]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.04-15.08.47:301][521]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.08.51:926][744]LogSlate: Took 0.031588 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.04-15.08.53:185][744]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.04-15.08.53:387][744]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.10.04-15.08.53:471][744]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.10.04-15.09.19:132][944]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/ParalegalMap1_Auto4EE38B87741969E0CB17B8C8BAE399D95.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/237_Paralegal/Maps/ParalegalMap1_Auto4.umap'
+[2018.10.04-15.09.19:135][944]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/237_Paralegal/Maps/ParalegalMap1' took 1.297
+[2018.10.04-15.09.19:135][944]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.297
+[2018.10.04-15.10.18:598][507]LogEditorViewport: Clicking on Actor (LMB): Objective2_C (TestBox2_2)
+[2018.10.04-15.10.21:454][673]LogEditorViewport: Clicking on Actor (LMB): Table_WoodenTop_C (Table_WoodenTop4)
+[2018.10.04-15.11.06:923][332]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.11.07:511][360]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.10.04-15.11.12:472][636]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.11.15:576][816]Cmd: DELETE
+[2018.10.04-15.11.15:576][816]Cmd: ACTOR DELETE
+[2018.10.04-15.11.15:594][816]LogEditorActor: Deleted Actor: Brush
+[2018.10.04-15.11.15:627][816]LogEditorActor: Deleted 1 Actors (0.051 secs)
+[2018.10.04-15.11.23:923][294]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.11.25:087][349]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.10.04-15.11.29:837][620]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.11.40:812][270]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.12.14:596][264]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.12.27:384][ 18]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.04-15.12.30:151][183]Cmd: POLY SELECT ADJACENT ALL
+[2018.10.04-15.13.11:241][619]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.13.12:670][688]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.10.04-15.13.19:497][ 76]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.13.35:046][996]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.13.56:624][271]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.13.58:647][391]LogEditorViewport: Clicking on Actor (LMB): Table_WoodenTop_C (Table_WoodenTop)
+[2018.10.04-15.14.00:405][487]LogEditorViewport: Clicking on Actor (LMB): Table_WoodenTop_C (Table_WoodenTop4)
+[2018.10.04-15.14.06:004][814]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.14.15:145][339]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.14.51:360][400]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.04-15.15.04:625][185]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.15.28:680][607]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.15.48:405][785]LogSlate: Window 'Select Path' being destroyed
+[2018.10.04-15.15.48:418][785]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.04-15.15.48:441][785]LogStaticMesh: Building static mesh Pic1...
+[2018.10.04-15.15.48:448][785]LogStaticMesh: Built static mesh [0.01s] /Game/Classes/237_Paralegal/Assets/Models/Pic1.Pic1
+[2018.10.04-15.15.48:463][785]LogActorFactory: Actor Factory created Pic1
+[2018.10.04-15.15.48:496][785]LogEditor: Error: Actor 'Brush /Game/Classes/237_Paralegal/Maps/ParalegalMap1.ParalegalMap1:PersistentLevel.BoxBrush4' is marked pending kill and cannot be converted
+[2018.10.04-15.15.48:496][785]LogEditor: Error: Actor 'Brush /Game/Classes/237_Paralegal/Maps/ParalegalMap1.ParalegalMap1:PersistentLevel.BoxBrush3_7' is marked pending kill and cannot be converted
+[2018.10.04-15.15.48:496][785]EditorErrors: New page: Actor Reattachment
+[2018.10.04-15.16.15:827][418]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.16.18:957][605]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pic1)
+[2018.10.04-15.16.19:673][646]LogEditorViewport: Clicking on Actor (LMB): Table_WoodenTop_C (Table_WoodenTop)
+[2018.10.04-15.16.37:045][667]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pic1)
+[2018.10.04-15.16.38:388][742]Cmd: DELETE
+[2018.10.04-15.16.38:388][742]Cmd: ACTOR DELETE
+[2018.10.04-15.16.38:407][742]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.04-15.16.38:436][742]LogEditorActor: Deleted 1 Actors (0.049 secs)
+[2018.10.04-15.16.45:649][155]LogEditorViewport: Clicking on Actor (LMB): Objective2_C (TestBox2_2)
+[2018.10.04-15.16.46:950][228]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.17.05:661][327]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.17.29:230][717]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Paralegal/Blueprints/Objectives/Objective6.Objective6
+[2018.10.04-15.17.48:123][805]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.04-15.17.58:637][430]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.18.00:821][561]LogEditorTransaction: Undo Modify Component(s)
+[2018.10.04-15.18.18:986][643]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.18.19:036][646]BlueprintLog: New page: Compile Objective6
+[2018.10.04-15.18.19:325][646]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Objective6E281E8FE42A3B593DDB66A8E4EE97043.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Blueprints/Objectives/Objective6.uasset'
+[2018.10.04-15.18.19:667][665]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.18.19:754][667]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Objective67A0F57D44FB212C5467AA49BB87A8BFE.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Blueprints/Objectives/Objective6.uasset'
+[2018.10.04-15.18.26:451][ 69]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.18.30:213][279]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.18.41:186][903]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.18.51:921][533]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Classes/237_Paralegal/Assets/Models/Pic2.Pic2
+[2018.10.04-15.19.39:159][309]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.19.43:213][550]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Classes/237_Paralegal/Assets/Models/Pic3.Pic3
+[2018.10.04-15.19.57:668][364]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.20.12:188][219]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.20.12:290][223]LogRenderer: Reallocating scene render targets to support 1780x1204 Format 26 NumSamples 1 (Frame:4273).
+[2018.10.04-15.20.24:995][971]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.20.33:191][451]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.20.33:293][455]LogSlate: Window 'Pic3*' being destroyed
+[2018.10.04-15.20.38:669][766]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.20.48:040][317]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Paralegal/Blueprints/Objectives/Objective7.Objective7
+[2018.10.04-15.21.00:425][963]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.21.01:414][ 15]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Paralegal/Blueprints/Objectives/Objective8.Objective8
+[2018.10.04-15.21.11:424][588]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.04-15.21.15:941][823]BlueprintLog: New page: Compile Objective8
+[2018.10.04-15.21.16:210][823]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Objective8684753C54F936E00A2BBE28BAA1AAE22.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Blueprints/Objectives/Objective8.uasset'
+[2018.10.04-15.21.16:353][829]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.21.16:462][832]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Objective84AF9864049EF50C39C07DDA46D886F91.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Blueprints/Objectives/Objective8.uasset'
+[2018.10.04-15.21.16:611][841]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.21.17:127][872]BlueprintLog: New page: Compile Objective7
+[2018.10.04-15.21.17:399][872]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Objective7861C790840A55AB4389C7794FF0FEA0D.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Blueprints/Objectives/Objective7.uasset'
+[2018.10.04-15.21.17:767][889]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Objective725574B2D44FB9C4AD9A5A79534D8B4FE.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Blueprints/Objectives/Objective7.uasset'
+[2018.10.04-15.21.21:192][ 62]LogSlate: Window 'Objective6' being destroyed
+[2018.10.04-15.21.22:302][126]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Objective6C20F67F04D26270E5A596AA5C21B03A7.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Blueprints/Objectives/Objective6.uasset'
+[2018.10.04-15.21.24:897][207]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/ParalegalMap1F294793747A55B9BD492C88D87CB5CAF.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Maps/ParalegalMap1.umap'
+[2018.10.04-15.21.25:364][207]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/ParalegalMap1_BuiltData58F3109F4A86E2B9D139E2B5C95050C6.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Maps/ParalegalMap1_BuiltData.uasset'
+[2018.10.04-15.21.29:961][466]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.21.32:070][572]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.31.25:269][556]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/ParalegalMap1_Auto5A6C6677F43F2B76998173796A30039CD.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/237_Paralegal/Maps/ParalegalMap1_Auto5.umap'
+[2018.10.04-15.31.25:274][556]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Classes/237_Paralegal/Maps/ParalegalMap1' took 1.458
+[2018.10.04-15.31.25:274][556]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.458
+[2018.10.04-15.31.25:278][556]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Classes/237_Paralegal/Assets/Models/Pic1] ([1] browsable assets)...
+[2018.10.04-15.31.25:297][556]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Classes/237_Paralegal/Assets/Models/Pic1.Pic1]
+[2018.10.04-15.31.25:297][556]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/237_Paralegal/Assets/Models/Pic1]
+[2018.10.04-15.31.25:315][556]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Pic1_Auto5606CADAA4E97AED510CABC9673DEA753.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/237_Paralegal/Assets/Models/Pic1_Auto5.uasset'
+[2018.10.04-15.31.25:316][556]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Classes/237_Paralegal/Assets/Models/Pic2] ([1] browsable assets)...
+[2018.10.04-15.31.25:330][556]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Classes/237_Paralegal/Assets/Models/Pic2.Pic2]
+[2018.10.04-15.31.25:330][556]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/237_Paralegal/Assets/Models/Pic2]
+[2018.10.04-15.31.25:358][556]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Pic2_Auto5DD1B080149DB943A8E919692D154C5ED.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/237_Paralegal/Assets/Models/Pic2_Auto5.uasset'
+[2018.10.04-15.31.25:359][556]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Classes/237_Paralegal/Assets/Models/Pic3] ([1] browsable assets)...
+[2018.10.04-15.31.25:372][556]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Classes/237_Paralegal/Assets/Models/Pic3.Pic3]
+[2018.10.04-15.31.25:372][556]OBJ SavePackage: Finished generating thumbnails for package [/Game/Classes/237_Paralegal/Assets/Models/Pic3]
+[2018.10.04-15.31.25:387][556]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Pic3_Auto5FBE610B9475C6E3D1FF72EB5283ACA89.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Autosaves/Game/Classes/237_Paralegal/Assets/Models/Pic3_Auto5.uasset'
+[2018.10.04-15.31.25:388][556]LogFileHelpers: Auto-saving content packages took 0.112
+[2018.10.04-15.36.27:691][417]LogEditorViewport: Clicking on Actor (LMB): Objective2_C (TestBox2_2)
+[2018.10.04-15.36.36:434][906]LogEditorViewport: Clicking on Actor (LMB): Objective8_C (Objective8)
+[2018.10.04-15.36.38:033][998]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.36.42:089][236]LogEditorViewport: Clicking on Actor (LMB): Objective7_C (Objective7)
+[2018.10.04-15.36.54:749][985]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.37.20:533][516]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Paralegal/Blueprints/Objectives/Objective10.Objective10
+[2018.10.04-15.37.31:420][143]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.37.36:859][466]BlueprintLog: New page: Compile Objective10
+[2018.10.04-15.37.37:176][466]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Objective1001E8935F4F44F993763483A0F4B06E25.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Blueprints/Objectives/Objective10.uasset'
+[2018.10.04-15.37.37:428][474]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Objective1071BC9B6C4CAEB248035797B30291F3FF.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Blueprints/Objectives/Objective10.uasset'
+[2018.10.04-15.37.41:564][713]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Paralegal/Blueprints/Objectives/Objective9.Objective9
+[2018.10.04-15.37.46:292][965]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.37.49:552][157]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Objective9080A660F4C9C044F48C65E8FF0F01BF3.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Blueprints/Objectives/Objective9.uasset'
+[2018.10.04-15.37.51:049][247]BlueprintLog: New page: Compile Objective9
+[2018.10.04-15.37.56:958][581]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.38.03:160][912]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.38.10:842][367]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.38.18:222][785]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.38.21:982][  9]LogEditorViewport: Clicking on Actor (LMB): Objective2_C (TestBox2_2)
+[2018.10.04-15.38.26:088][235]LogEditorViewport: Clicking on Actor (LMB): Objective5_C (TestBox5_2)
+[2018.10.04-15.38.32:842][632]LogEditorViewport: Clicking on Actor (LMB): Objective1_C (TestBox1_2)
+[2018.10.04-15.38.35:185][768]LogEditorViewport: Clicking on Actor (LMB): Table_WoodenTop_C (Table_WoodenTop4)
+[2018.10.04-15.38.36:303][831]LogEditorViewport: Clicking on Actor (LMB): Objective1_C (TestBox1_2)
+[2018.10.04-15.38.40:723][ 89]LogEditorViewport: Clicking on Actor (LMB): Objective3_C (TestBox3_2)
+[2018.10.04-15.38.45:407][363]LogEditorViewport: Clicking on Actor (LMB): Objective4_C (TestBox4_2)
+[2018.10.04-15.38.57:343][ 70]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.40.29:312][471]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.04-15.40.39:237][982]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\tanne\Desktop\UE4_VR Paralegal\paralegal cover.jpg)
+[2018.10.04-15.40.39:256][982]LogTexture: Display: Building textures: paralegal_cover (AutoDXT, 400X500)
+[2018.10.04-15.40.42:615][167]LogMaterial: Display: Missing cached shader map for material paralegal_cover_Mat, compiling. 
+[2018.10.04-15.40.42:645][168]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.10.04-15.40.42:645][168]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.04-15.40.42:645][168]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.04-15.40.50:905][647]LogEditorViewport: Clicking on Actor (LMB): Objective4_C (TestBox4_2)
+[2018.10.04-15.40.51:699][690]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.40.51:775][694]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Paralegal/Blueprints/Objectives/Objective4.Objective4
+[2018.10.04-15.41.03:426][365]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.04-15.41.17:344][196]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.04-15.41.28:804][855]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.04-15.41.38:337][401]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.41.38:404][405]BlueprintLog: New page: Compile Objective4
+[2018.10.04-15.41.38:758][405]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Objective4DFEF4D6B43157EB1B161CC832A13F472.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Blueprints/Objectives/Objective4.uasset'
+[2018.10.04-15.41.38:882][410]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.41.39:005][415]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Objective4E961515F4D6CC1675D4AA3B167956930.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Blueprints/Objectives/Objective4.uasset'
+[2018.10.04-15.41.39:798][462]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.42.31:522][554]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.42.34:790][666]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/ParalegalMap16BFE6EFA478B20664ADCE4B95A60499B.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Maps/ParalegalMap1.umap'
+[2018.10.04-15.42.34:852][666]LogFileHelpers: Saving map 'ParalegalMap1' took 1.320
+[2018.10.04-15.42.34:883][666]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/ac4dnwwvtpb118964556344E11A526B759DA4666B5869.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Assets/Homework/ac4dnwwvtpb11.uasset'
+[2018.10.04-15.42.34:900][666]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/ac4dnwwvtpb11_MatC2F8DADD439F6C1D9A4CD786A6D96C92.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Assets/Homework/ac4dnwwvtpb11_Mat.uasset'
+[2018.10.04-15.42.34:966][666]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/IMG-20180827-WA0045567F0A374D3E2F20D4E1F385053742BD.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Assets/Homework/IMG-20180827-WA0045.uasset'
+[2018.10.04-15.42.34:991][666]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/GodsABCC350E4D208FFD6487AC84F0BECF5F.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Assets/Homework/Gods.uasset'
+[2018.10.04-15.42.35:009][666]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Gods_MatDDCD29FE4434A1051023EFB95DB32714.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/Assets/Homework/Gods_Mat.uasset'
+[2018.10.04-15.42.35:072][666]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Pic1ACE89CD546F9E5C055C8D3BE8BEAD510.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Assets/Models/Pic1.uasset'
+[2018.10.04-15.42.35:123][666]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Pic20DAE08E44913930FFE83988C49E32914.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Assets/Models/Pic2.uasset'
+[2018.10.04-15.42.35:152][666]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Pic34AF29A214141F00C6198C6A40CE2E7BC.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Assets/Models/Pic3.uasset'
+[2018.10.04-15.42.35:223][666]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/paralegal_coverCF8677F0486EBBB4E8699CB646B9F989.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Assets/Materials/paralegal_cover.uasset'
+[2018.10.04-15.42.35:260][666]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/paralegal_cover_MatA197FBCE4021EF6E78BC8C9F41C2EC22.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Assets/Materials/paralegal_cover_Mat.uasset'
+[2018.10.04-15.44.06:358][782]LogEditorViewport: Clicking on Actor (LMB): Objective10_C (Objective10)
+[2018.10.04-15.44.19:196][544]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.46.17:875][611]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-15.47.33:683][133]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Classes/237_Criminology/Blueprints/CrimHUD.CrimHUD
+[2018.10.04-15.48.05:987][856]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.04-15.48.06:938][907]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Classes/237_Paralegal/Blueprints/HUD/ParalegalHUD.ParalegalHUD
+[2018.10.04-15.50.05:389][ 10]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.04-15.50.06:739][ 88]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.04-15.50.07:908][ 88]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/ParalegalMap1871FE9A64FF8F692371F0AB891D4304F.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Maps/ParalegalMap1.umap'
+[2018.10.04-15.50.07:967][ 88]LogFileHelpers: Saving map 'ParalegalMap1' took 1.223
+[2018.10.04-15.50.08:003][ 88]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/ParalegalHUD5063F30F4A96F751102D2F9A4FD3DA80.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Blueprints/HUD/ParalegalHUD.uasset'
+>>>>>>> ae26c9e8d136ddd7e4bf2e9f9193ffcc866c3021
