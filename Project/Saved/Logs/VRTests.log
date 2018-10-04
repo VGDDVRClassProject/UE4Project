@@ -1,4 +1,4 @@
-﻿Log file open, 10/04/18 16:54:16
+﻿Log file open, 10/04/18 17:41:26
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: VRTests
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.272924
+LogStats: Stats thread started at 0.276998
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -4:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.091s to configure plugins.
+LogStreaming: Display: Took  0.101s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -114,17 +114,17 @@ LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connecti
 LogInit:  - LocalHostAddr = Default
 LogInit:  - BufferSize = 65536
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-LogInit: Build: ++UE4+Release-4.20-CL-4369336
-LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Build: ++UE4+Release-4.20-CL-4302132
+LogInit: Engine Version: 4.20.2-4302132+++UE4+Release-4.20
 LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
 LogInit: Net CL: 4212847
 LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: NVIDIA GeForce GTX 1070
-LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled (64-bit): Aug 21 2018 02:06:06
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
-LogInit: Command Line:  
-LogInit: Base Directory: D:/Program Files (x86)/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
 LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
@@ -150,6 +150,7 @@ LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
 LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
+<<<<<<< HEAD
 [2018.10.04-19.54.16:619][  0]LogInit: Selected Device Profile: [Windows]
 [2018.10.04-19.54.16:619][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
 [2018.10.04-19.54.16:631][  0]LogHAL: Display: Platform has ~ 16 GB [17042796544 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
@@ -544,3 +545,240 @@ LogInit: Object subsystem initialized
 [2018.10.04-20.57.16:362][  2]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Objective_73B16FA68494CD8325A1226ACDCCFFEE8.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Blueprints/Objectives/Objective_7.uasset'
 [2018.10.04-20.57.16:425][  2]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Objective_8826AC9EE4A7C531D7C91A2804AAD9A08.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Blueprints/Objectives/Objective_8.uasset'
 [2018.10.04-20.57.16:484][  2]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Objective_98BB57DFE42A4E819A6266E99EAE998BA.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Blueprints/Objectives/Objective_9.uasset'
+=======
+[2018.10.04-20.41.26:903][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.04-20.41.26:904][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.04-20.41.26:923][  0]LogHAL: Display: Platform has ~ 16 GB [17042804736 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.10.04-20.41.26:923][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.10.04-20.41.26:923][  0]LogInit: Going up to parent DeviceProfile []
+[2018.10.04-20.41.26:923][  0]LogInit: Computer: ALIEN
+[2018.10.04-20.41.26:923][  0]LogInit: User: CodyCormier
+[2018.10.04-20.41.26:923][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.10.04-20.41.26:923][  0]LogInit: High frequency timer resolution =2.742186 MHz
+[2018.10.04-20.41.26:924][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.10.04-20.41.26:924][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.04-20.41.26:924][  0]LogMemory: Process Physical Memory: 102.30 MB used, 102.30 MB peak
+[2018.10.04-20.41.26:924][  0]LogMemory: Process Virtual Memory: 87.05 MB used, 87.05 MB peak
+[2018.10.04-20.41.26:924][  0]LogMemory: Physical Memory: 5128.11 MB used,  11125.18 MB free, 16253.29 MB total
+[2018.10.04-20.41.26:924][  0]LogMemory: Virtual Memory: 4636.18 MB used,  11125.18 MB free, 134217728.00 MB total
+[2018.10.04-20.41.26:940][  0]LogInit: Using OS detected language (en-US).
+[2018.10.04-20.41.26:940][  0]LogInit: Using OS detected locale (en-CA).
+[2018.10.04-20.41.26:941][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.10.04-20.41.27:292][  0]LogStreaming: Display: Took  0.353s to InitEngineTextLocalization.
+[2018.10.04-20.41.27:293][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.04-20.41.27:321][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.04-20.41.27:321][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.04-20.41.27:523][  0]LogHMD: Failed to initialize OpenVR with code 101
+[2018.10.04-20.41.27:523][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.04-20.41.27:582][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.10.04-20.41.27:582][  0]LogD3D11RHI:       8081/0/8126 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.10.04-20.41.27:606][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.10.04-20.41.27:606][  0]LogD3D11RHI:       128/0/8126 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.10.04-20.41.27:608][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.04-20.41.27:608][  0]LogD3D11RHI:       0/0/8126 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.04-20.41.27:608][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.04-20.41.27:614][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.04-20.41.27:614][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
+[2018.10.04-20.41.27:614][  0]LogWindows: EnumDisplayDevices:
+[2018.10.04-20.41.27:614][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.10.04-20.41.27:615][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.10.04-20.41.27:615][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.10.04-20.41.27:615][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.10.04-20.41.27:615][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.10.04-20.41.27:615][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.10.04-20.41.27:616][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.10.04-20.41.27:616][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.10.04-20.41.27:616][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.10.04-20.41.27:616][  0]LogD3D11RHI:   Driver Version: 411.63 (internal:24.21.14.1163, unified:411.63)
+[2018.10.04-20.41.27:616][  0]LogD3D11RHI:      Driver Date: 9-18-2018
+[2018.10.04-20.41.27:616][  0]LogRHI: Texture pool is 5656 MB (70% of 8081 MB)
+[2018.10.04-20.41.27:659][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.04-20.41.27:690][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.10.04-20.41.27:735][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (../../../../../../Documents/GitHub/UE4Project/Project/Intermediate/Shaders/WorkingDirectory/1052/).
+[2018.10.04-20.41.27:735][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Cody Cormier/AppData/Local/Temp/UnrealShaderWorkingDir/5E067F80494001F4E41D5EBEA2C891EB/'.
+[2018.10.04-20.41.28:012][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.04-20.41.28:023][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.04-20.41.28:036][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.04-20.41.28:049][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.04-20.41.28:063][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.04-20.41.28:075][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.04-20.41.28:087][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.04-20.41.28:100][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.04-20.41.28:105][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.04-20.41.28:180][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-20.41.28:180][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-20.41.28:180][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-20.41.28:180][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-20.41.28:180][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-20.41.28:180][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-20.41.28:180][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-20.41.28:180][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-20.41.28:180][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-20.41.28:180][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-20.41.28:180][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-20.41.28:180][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-20.41.28:180][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-20.41.28:180][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-20.41.28:180][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-20.41.28:180][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-20.41.28:180][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-20.41.28:180][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-20.41.28:181][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.04-20.41.28:240][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.04-20.41.28:240][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.04-20.41.28:263][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.04-20.41.28:263][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.04-20.41.28:276][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.04-20.41.28:288][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.04-20.41.28:300][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.04-20.41.28:313][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.04-20.41.28:321][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.10.04-20.41.28:321][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.04-20.41.28:364][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.04-20.41.28:364][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.04-20.41.28:364][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.04-20.41.29:036][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.04-20.41.29:103][  0]LogDerivedDataCache: Loaded boot cache 0.07s 86MB C:/Users/Cody Cormier/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.04-20.41.29:103][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Cody Cormier/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.10.04-20.41.29:103][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Documents/GitHub/UE4Project/Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.04-20.41.29:103][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.04-20.41.29:103][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Documents/GitHub/UE4Project/Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.04-20.41.29:103][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.04-20.41.29:116][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.04-20.41.29:129][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Cody Cormier/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.04-20.41.29:129][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.04-20.41.29:129][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.04-20.41.29:146][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.04-20.41.29:148][  0]LogSlate: Using FreeType 2.6.0
+[2018.10.04-20.41.29:148][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.04-20.41.29:220][  0]LogAssetRegistry: FAssetRegistry took 0.0270 seconds to start up
+[2018.10.04-20.41.29:524][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.04-20.41.29:653][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.04-20.41.29:656][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.04-20.41.29:656][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.10.04-20.41.29:656][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.04-20.41.29:656][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.04-20.41.29:676][  0]LogNetVersion: VRTests 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4138015713)
+[2018.10.04-20.41.30:194][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.106271 seconds
+[2018.10.04-20.41.30:200][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.10.04-20.41.30:200][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.10.04-20.41.30:200][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.04-20.41.30:998][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.04-20.41.31:011][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.04-20.41.31:152][  0]SourceControl: Source control is disabled
+[2018.10.04-20.41.31:152][  0]SourceControl: Source control is disabled
+[2018.10.04-20.41.31:153][  0]SourceControl: Source control is disabled
+[2018.10.04-20.41.31:154][  0]SourceControl: Source control is disabled
+[2018.10.04-20.41.31:308][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.04-20.41.31:382][  0]LogOcInput: OculusInput pre-init called
+[2018.10.04-20.41.31:441][  0]LogEngine: Initializing Engine...
+[2018.10.04-20.41.31:442][  0]LogHMD: Failed to initialize OpenVR with code 101
+[2018.10.04-20.41.31:444][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.04-20.41.31:444][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.04-20.41.31:444][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.04-20.41.31:444][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.04-20.41.31:671][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.10.04-20.41.31:681][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.04-20.41.31:695][  0]LogInit: XAudio2 using 'Speakers (Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.10.04-20.41.31:704][  0]LogInit: FAudioDevice initialized.
+[2018.10.04-20.41.31:704][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.10.04-20.41.31:797][  0]LogDerivedDataCache: Saved boot cache 0.09s 86MB C:/Users/Cody Cormier/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.04-20.41.31:813][  0]LogInit: Texture streaming: Enabled
+[2018.10.04-20.41.31:825][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.04-20.41.31:835][  0]LogInit: Transaction tracking system initialized
+[2018.10.04-20.41.31:852][  0]BlueprintLog: New page: Editor Load
+[2018.10.04-20.41.31:909][  0]LocalizationService: Localization service is disabled
+[2018.10.04-20.41.32:333][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.04-20.41.32:333][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.04-20.41.32:333][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.04-20.41.32:333][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.04-20.41.32:333][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.04-20.41.32:333][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.04-20.41.32:333][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.04-20.41.32:425][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/UE4Project/Project/Content/' took 0.03s
+[2018.10.04-20.41.32:425][  0]SourceControl: Source control is disabled
+[2018.10.04-20.41.32:426][  0]Cmd: MAP LOAD FILE="../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultProject/Map/DefaultMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.04-20.41.32:429][  0]LightingResults: New page: Lighting Build
+[2018.10.04-20.41.32:431][  0]MapCheck: New page: Map Check
+[2018.10.04-20.41.32:431][  0]LightingResults: New page: Lighting Build
+[2018.10.04-20.41.32:525][  0]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2018.10.04-20.41.32:526][  0]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualReality/Mannequin/Animations/RightHand_AnimBP.uasset.
+[2018.10.04-20.41.32:526][  0]LoadErrors: Error: /Game/DefaultVrContent/VirtualReality/Mannequin/Animations/RightHand_AnimBP : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/GripEnum
+[2018.10.04-20.41.32:526][  0]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2018.10.04-20.41.32:526][  0]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualReality/Mannequin/Animations/RightHand_AnimBP.uasset.
+[2018.10.04-20.41.32:526][  0]LoadErrors: Error: /Game/DefaultVrContent/VirtualReality/Mannequin/Animations/RightHand_AnimBP : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/GripEnum
+[2018.10.04-20.41.32:527][  0]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2018.10.04-20.41.32:527][  0]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum Referenced by GripState
+[2018.10.04-20.41.32:527][  0]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.uasset.
+[2018.10.04-20.41.32:527][  0]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum Referenced by GripState
+[2018.10.04-20.41.32:527][  0]LoadErrors: Error: /Game/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/GripEnum
+[2018.10.04-20.41.32:527][  0]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2018.10.04-20.41.32:528][  0]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.uasset.
+[2018.10.04-20.41.32:528][  0]LoadErrors: Error: /Game/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/GripEnum
+[2018.10.04-20.41.32:528][  0]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2018.10.04-20.41.32:528][  0]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.uasset.
+[2018.10.04-20.41.32:528][  0]LoadErrors: Error: /Game/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/GripEnum
+[2018.10.04-20.41.32:528][  0]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2018.10.04-20.41.32:528][  0]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum Referenced by RightHand_AnimBP
+[2018.10.04-20.41.32:528][  0]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.uasset.
+[2018.10.04-20.41.32:528][  0]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum Referenced by RightHand_AnimBP
+[2018.10.04-20.41.32:528][  0]LoadErrors: Error: /Game/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/GripEnum
+[2018.10.04-20.41.32:529][  0]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2018.10.04-20.41.32:529][  0]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum Referenced by K2Node_VariableGet_64
+[2018.10.04-20.41.32:529][  0]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.uasset.
+[2018.10.04-20.41.32:529][  0]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum Referenced by K2Node_VariableGet_64
+[2018.10.04-20.41.32:529][  0]LoadErrors: Error: /Game/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/GripEnum
+[2018.10.04-20.41.32:955][  0]LogAIModule: Creating AISystem for world DefaultMap
+[2018.10.04-20.41.32:960][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.04-20.41.32:985][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.04-20.41.33:035][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 49.517ms to complete.
+[2018.10.04-20.41.33:035][  0]LogFileHelpers: Loading map 'DefaultMap' took 0.609
+[2018.10.04-20.41.33:151][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.04-20.41.33:159][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.04-20.41.33:166][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.04-20.41.33:174][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.04-20.41.33:182][  0]LogCollectionManager: Loaded 0 collections in 0.000795 seconds
+[2018.10.04-20.41.33:223][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/UE4Project/Project/Saved/Collections/' took 0.01s
+[2018.10.04-20.41.33:223][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/UE4Project/Project/Content/Developers/CodyCormier/Collections/' took 0.01s
+[2018.10.04-20.41.33:224][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/UE4Project/Project/Content/Collections/' took 0.01s
+[2018.10.04-20.41.33:224][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.10.04-20.41.33:235][  0]LogContentBrowser: Native class hierarchy populated in 0.0117 seconds. Added 2572 classes and 603 folders.
+[2018.10.04-20.41.33:240][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.10.04-20.41.33:558][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.10.04-20.41.33:598][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.10.04-20.41.33:667][  0]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.04-20.41.33:670][  0]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.04-20.41.33:680][  0]LogSlate: Took 0.004595 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.04-20.41.33:786][  0]LogRenderer: Reallocating scene render targets to support 1072x496 Format 26 NumSamples 1 (Frame:1).
+[2018.10.04-20.41.33:901][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.04-20.41.33:901][  0]LogLoad: (Engine Initialization) Total time: 8.48 seconds
+[2018.10.04-20.41.33:901][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.04-20.41.33:921][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.04-20.41.33:952][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.04-20.41.33:957][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.04-20.41.34:949][ 54]LogSlate: Took 0.004268 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.04-20.41.35:424][ 83]LogSlate: Window 'Message Log' being destroyed
+[2018.10.04-20.41.35:427][ 83]LogSlate: Window 'Message Log' being destroyed
+[2018.10.04-20.41.37:025][179]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-20.41.39:024][299]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.10.04-20.41.39:027][299]LogFileCache: Retrieving MD5 hashes for directory 'D:/Documents/GitHub/UE4Project/Project/Content/' took 5.09s
+[2018.10.04-20.41.40:290][374]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/DefaultProject/MotionControllerPawn_Default.MotionControllerPawn_Default
+[2018.10.04-20.41.40:541][374]LogClass: Warning: Enum '/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/FeedbackEffects/EFeedbackType.EFeedbackType' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2018.10.04-20.41.40:542][374]LogClass: Warning: Enum '/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/FeedbackEffects/EFeedbackIntensity.EFeedbackIntensity' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2018.10.04-20.41.40:566][374]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2018.10.04-20.41.41:384][374]LogSlate: Took 0.004129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.10.04-20.41.41:657][375]LogSlate: Took 0.003647 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.10.04-20.41.54:596][150]LogAssetRegistry: Asset discovery search completed in 25.3986 seconds
+[2018.10.04-20.41.54:599][150]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000006 seconds (updated 0 objects)
+[2018.10.04-20.42.13:278][267]LogBlueprint: Warning: [Compiler Criminology_Pawn] InputAction Event references unknown Action 'Action Button A' for  InputAction Action Button A
+[2018.10.04-20.42.13:289][267]LogBlueprint: Warning: [Compiler Criminology_Pawn] [0047.87] Compile of Criminology_Pawn successful, but with 1 Warning(s) [in 28 ms] (/Game/Classes/237_Criminology/Criminology_Pawn.Criminology_Pawn)
+[2018.10.04-20.42.13:356][267]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Criminology/Criminology_Pawn.Criminology_Pawn
+[2018.10.04-20.42.13:968][267]LogBlueprintUserMessages: [Criminology_Pawn_C_0] Detecting hit with Interactable Sphere part 1/3
+[2018.10.04-20.42.13:968][267]LogBlueprintUserMessages: [Criminology_Pawn_C_0] Detecting hit with Interactable Sphere part 1/3
+[2018.10.04-20.42.37:349][587]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Paralegal/Blueprints/Paralegal_Pawn.Paralegal_Pawn
+[2018.10.04-20.43.14:002][748]BlueprintLog: New page: Compile Paralegal_Pawn
+[2018.10.04-20.43.14:017][748]LogBlueprint: Error: [Compiler Paralegal_Pawn] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2018.10.04-20.43.14:238][748]LogBlueprint: Warning: [Compiler Paralegal_Pawn] [0108.82] Compile of Paralegal_Pawn failed. 1 Fatal Issue(s) 0 Warning(s) [in 235 ms] (/Game/Classes/237_Paralegal/Blueprints/Paralegal_Pawn.Paralegal_Pawn)
+[2018.10.04-20.43.23:838][322]BlueprintLog: New page: Compile Paralegal_Pawn
+[2018.10.04-20.43.24:086][322]LogSavePackage: Moving '../../../../../../Documents/GitHub/UE4Project/Project/Saved/Paralegal_Pawn3BB8334542A70745A9D359915AC24178.tmp' to '../../../../../../Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Blueprints/Paralegal_Pawn.uasset'
+>>>>>>> c51969e26ff290dae69a52b03dfe7469edde0563
