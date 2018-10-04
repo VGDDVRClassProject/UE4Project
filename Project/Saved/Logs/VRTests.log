@@ -1,4 +1,4 @@
-﻿Log file open, 10/04/18 16:54:16
+﻿Log file open, 10/04/18 17:00:25
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: VRTests
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.272924
+LogStats: Stats thread started at 0.303408
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -4:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.091s to configure plugins.
+LogStreaming: Display: Took  0.185s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -114,17 +114,17 @@ LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connecti
 LogInit:  - LocalHostAddr = Default
 LogInit:  - BufferSize = 65536
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-LogInit: Build: ++UE4+Release-4.20-CL-4369336
-LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Build: ++UE4+Release-4.20-CL-4302132
+LogInit: Engine Version: 4.20.2-4302132+++UE4+Release-4.20
 LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
 LogInit: Net CL: 4212847
 LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: NVIDIA GeForce GTX 1070
-LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled (64-bit): Aug 21 2018 02:06:06
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
 LogInit: Command Line:  
-LogInit: Base Directory: D:/Program Files (x86)/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Base Directory: D:/Games/Epic Games/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
 LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
@@ -147,360 +147,965 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.001s to delete old logs.
+LogStreaming: Display: Took  0.069s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.10.04-19.54.16:619][  0]LogInit: Selected Device Profile: [Windows]
-[2018.10.04-19.54.16:619][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.10.04-19.54.16:631][  0]LogHAL: Display: Platform has ~ 16 GB [17042796544 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.10.04-19.54.16:631][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.10.04-19.54.16:631][  0]LogInit: Going up to parent DeviceProfile []
-[2018.10.04-19.54.16:631][  0]LogInit: Computer: DESKTOP-RST41EJ
-[2018.10.04-19.54.16:631][  0]LogInit: User: tanne
-[2018.10.04-19.54.16:631][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.10.04-19.54.16:631][  0]LogInit: High frequency timer resolution =2.742188 MHz
-[2018.10.04-19.54.16:632][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.10.04-19.54.16:632][  0]LogMemory: Platform Memory Stats for Windows
-[2018.10.04-19.54.16:632][  0]LogMemory: Process Physical Memory: 102.18 MB used, 102.18 MB peak
-[2018.10.04-19.54.16:632][  0]LogMemory: Process Virtual Memory: 102.02 MB used, 102.02 MB peak
-[2018.10.04-19.54.16:632][  0]LogMemory: Physical Memory: 5487.16 MB used,  10766.12 MB free, 16253.28 MB total
-[2018.10.04-19.54.16:632][  0]LogMemory: Virtual Memory: 4656.04 MB used,  10766.12 MB free, 134217728.00 MB total
-[2018.10.04-19.54.16:904][  0]LogInit: Using OS detected language (en-US).
-[2018.10.04-19.54.16:904][  0]LogInit: Using OS detected locale (en-CA).
-[2018.10.04-19.54.16:904][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.10.04-19.54.17:287][  0]LogStreaming: Display: Took  0.383s to InitEngineTextLocalization.
-[2018.10.04-19.54.17:287][  0]LogInit: Setting process to per monitor DPI aware
-[2018.10.04-19.54.17:319][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.10.04-19.54.17:319][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.10.04-19.54.17:502][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.10.04-19.54.17:502][  0]LogD3D11RHI: D3D11 adapters:
-[2018.10.04-19.54.17:557][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2018.10.04-19.54.17:557][  0]LogD3D11RHI:       8089/0/8126 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.10.04-19.54.17:579][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2018.10.04-19.54.17:579][  0]LogD3D11RHI:       128/0/8126 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.10.04-19.54.17:581][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.10.04-19.54.17:581][  0]LogD3D11RHI:       0/0/8126 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.10.04-19.54.17:581][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.10.04-19.54.17:588][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.10.04-19.54.17:588][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
-[2018.10.04-19.54.17:588][  0]LogWindows: EnumDisplayDevices:
-[2018.10.04-19.54.17:588][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2018.10.04-19.54.17:589][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.10.04-19.54.17:589][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.10.04-19.54.17:589][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.10.04-19.54.17:589][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.10.04-19.54.17:589][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.10.04-19.54.17:590][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.10.04-19.54.17:590][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2018.10.04-19.54.17:590][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2018.10.04-19.54.17:590][  0]LogD3D11RHI:   Driver Version: 389.12 (internal:23.21.13.8912, unified:389.12)
-[2018.10.04-19.54.17:590][  0]LogD3D11RHI:      Driver Date: 3-7-2018
-[2018.10.04-19.54.17:590][  0]LogRHI: Texture pool is 5662 MB (70% of 8089 MB)
-[2018.10.04-19.54.17:620][  0]LogD3D11RHI: Async texture creation enabled
-[2018.10.04-19.54.17:631][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.10.04-19.54.17:678][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Intermediate/Shaders/WorkingDirectory/7588/).
-[2018.10.04-19.54.17:678][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/tanne/AppData/Local/Temp/UnrealShaderWorkingDir/18710E8048460C58BF5622885A4C2CDB/'.
-[2018.10.04-19.54.17:958][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.10.04-19.54.17:971][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.10.04-19.54.17:984][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.10.04-19.54.17:997][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.10.04-19.54.18:011][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.10.04-19.54.18:025][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.10.04-19.54.18:039][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.10.04-19.54.18:052][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.10.04-19.54.18:057][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.10.04-19.54.18:135][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.04-19.54.18:135][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.04-19.54.18:135][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.04-19.54.18:135][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.04-19.54.18:135][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.04-19.54.18:135][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.04-19.54.18:135][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.04-19.54.18:135][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.04-19.54.18:135][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.04-19.54.18:135][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.04-19.54.18:135][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.04-19.54.18:135][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.04-19.54.18:135][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.04-19.54.18:135][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.04-19.54.18:135][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.04-19.54.18:135][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.04-19.54.18:135][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.04-19.54.18:135][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.04-19.54.18:136][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.10.04-19.54.18:194][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.10.04-19.54.18:194][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.10.04-19.54.18:217][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.10.04-19.54.18:217][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.10.04-19.54.18:229][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.10.04-19.54.18:242][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.10.04-19.54.18:254][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.10.04-19.54.18:267][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.10.04-19.54.18:275][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.10.04-19.54.18:275][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.10.04-19.54.18:316][  0]LogXGEController: Cleaning working directory: C:/Users/tanne/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.10.04-19.54.18:316][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.10.04-19.54.18:316][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.10.04-19.54.18:316][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.10.04-19.54.18:977][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.10.04-19.54.19:040][  0]LogDerivedDataCache: Loaded boot cache 0.06s 72MB C:/Users/tanne/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.10.04-19.54.19:040][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/tanne/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2018.10.04-19.54.19:040][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.10.04-19.54.19:040][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.10.04-19.54.19:040][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.10.04-19.54.19:040][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.10.04-19.54.19:053][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.10.04-19.54.19:065][  0]LogDerivedDataCache: Using Local data cache path C:/Users/tanne/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.10.04-19.54.19:065][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.10.04-19.54.19:065][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.10.04-19.54.19:084][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.10.04-19.54.19:086][  0]LogSlate: Using FreeType 2.6.0
-[2018.10.04-19.54.19:086][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.10.04-19.54.19:156][  0]LogAssetRegistry: FAssetRegistry took 0.0262 seconds to start up
-[2018.10.04-19.54.19:493][  0]LogInit: Selected Device Profile: [Windows]
-[2018.10.04-19.54.19:624][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.10.04-19.54.19:627][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.10.04-19.54.19:627][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.10.04-19.54.19:627][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.10.04-19.54.19:627][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.10.04-19.54.19:648][  0]LogNetVersion: VRTests 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4138015713)
-[2018.10.04-19.54.20:181][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.134572 seconds
-[2018.10.04-19.54.20:187][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2018.10.04-19.54.20:187][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
-[2018.10.04-19.54.20:187][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.10.04-19.54.20:979][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.10.04-19.54.20:991][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.10.04-19.54.21:130][  0]SourceControl: Source control is disabled
-[2018.10.04-19.54.21:130][  0]SourceControl: Source control is disabled
-[2018.10.04-19.54.21:131][  0]SourceControl: Source control is disabled
-[2018.10.04-19.54.21:132][  0]SourceControl: Source control is disabled
-[2018.10.04-19.54.21:281][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.10.04-19.54.21:354][  0]LogOcInput: OculusInput pre-init called
-[2018.10.04-19.54.21:410][  0]LogEngine: Initializing Engine...
-[2018.10.04-19.54.21:410][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.10.04-19.54.21:412][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.10.04-19.54.21:412][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.10.04-19.54.21:412][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.10.04-19.54.21:412][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.10.04-19.54.21:619][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.10.04-19.54.21:629][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.10.04-19.54.21:642][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2018.10.04-19.54.22:035][  0]LogInit: FAudioDevice initialized.
-[2018.10.04-19.54.22:035][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.10.04-19.54.22:207][  0]LogDerivedDataCache: Saved boot cache 0.17s 72MB C:/Users/tanne/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.10.04-19.54.22:220][  0]LogInit: Texture streaming: Enabled
-[2018.10.04-19.54.22:232][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.10.04-19.54.22:243][  0]LogInit: Transaction tracking system initialized
-[2018.10.04-19.54.22:258][  0]BlueprintLog: New page: Editor Load
-[2018.10.04-19.54.22:306][  0]LocalizationService: Localization service is disabled
-[2018.10.04-19.54.22:537][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.10.04-19.54.22:537][  0]LogCook: Display: Mobile HDR setting 1
-[2018.10.04-19.54.22:537][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.10.04-19.54.22:537][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.10.04-19.54.22:537][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.10.04-19.54.22:537][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.10.04-19.54.22:537][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.10.04-19.54.22:627][  0]LogFileCache: Scanning file cache for directory 'D:/Users/tanne/Documents/GitHub/UE4Project/Project/Content/' took 0.02s
-[2018.10.04-19.54.22:627][  0]SourceControl: Source control is disabled
-[2018.10.04-19.54.22:745][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.10.04-19.54.22:747][  0]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.10.04-19.54.24:757][  0]LogSlate: Window 'Restore Packages' being destroyed
-[2018.10.04-19.54.24:757][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.10.04-19.54.24:762][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.10.04-19.54.24:766][  0]Cmd: MAP LOAD FILE="../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/DefaultProject/Map/DefaultMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.10.04-19.54.24:767][  0]LightingResults: New page: Lighting Build
-[2018.10.04-19.54.24:769][  0]MapCheck: New page: Map Check
-[2018.10.04-19.54.24:769][  0]LightingResults: New page: Lighting Build
-[2018.10.04-19.54.24:844][  0]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
-[2018.10.04-19.54.24:844][  0]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualReality/Mannequin/Animations/RightHand_AnimBP.uasset.
-[2018.10.04-19.54.24:844][  0]LoadErrors: Error: /Game/DefaultVrContent/VirtualReality/Mannequin/Animations/RightHand_AnimBP : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/GripEnum
-[2018.10.04-19.54.24:845][  0]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
-[2018.10.04-19.54.24:846][  0]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualReality/Mannequin/Animations/RightHand_AnimBP.uasset.
-[2018.10.04-19.54.24:846][  0]LoadErrors: Error: /Game/DefaultVrContent/VirtualReality/Mannequin/Animations/RightHand_AnimBP : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/GripEnum
-[2018.10.04-19.54.24:847][  0]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
-[2018.10.04-19.54.24:847][  0]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum Referenced by GripState
-[2018.10.04-19.54.24:847][  0]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.uasset.
-[2018.10.04-19.54.24:847][  0]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum Referenced by GripState
-[2018.10.04-19.54.24:847][  0]LoadErrors: Error: /Game/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/GripEnum
-[2018.10.04-19.54.24:847][  0]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
-[2018.10.04-19.54.24:847][  0]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.uasset.
-[2018.10.04-19.54.24:848][  0]LoadErrors: Error: /Game/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/GripEnum
-[2018.10.04-19.54.24:848][  0]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
-[2018.10.04-19.54.24:848][  0]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.uasset.
-[2018.10.04-19.54.24:848][  0]LoadErrors: Error: /Game/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/GripEnum
-[2018.10.04-19.54.24:848][  0]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
-[2018.10.04-19.54.24:848][  0]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum Referenced by RightHand_AnimBP
-[2018.10.04-19.54.24:848][  0]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.uasset.
-[2018.10.04-19.54.24:848][  0]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum Referenced by RightHand_AnimBP
-[2018.10.04-19.54.24:848][  0]LoadErrors: Error: /Game/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/GripEnum
-[2018.10.04-19.54.24:849][  0]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
-[2018.10.04-19.54.24:849][  0]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum Referenced by K2Node_VariableGet_64
-[2018.10.04-19.54.24:850][  0]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.uasset.
-[2018.10.04-19.54.24:850][  0]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum Referenced by K2Node_VariableGet_64
-[2018.10.04-19.54.24:850][  0]LoadErrors: Error: /Game/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/GripEnum
-[2018.10.04-19.54.25:183][  0]LogAIModule: Creating AISystem for world DefaultMap
-[2018.10.04-19.54.25:188][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.10.04-19.54.25:217][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.10.04-19.54.25:266][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 50.149ms to complete.
-[2018.10.04-19.54.25:266][  0]LogFileHelpers: Loading map 'DefaultMap' took 0.501
-[2018.10.04-19.54.25:310][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.04-19.54.25:317][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.04-19.54.25:325][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.04-19.54.25:332][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.04-19.54.25:337][  0]LogCollectionManager: Loaded 0 collections in 0.000835 seconds
-[2018.10.04-19.54.25:379][  0]LogFileCache: Scanning file cache for directory 'D:/Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Collections/' took 0.01s
-[2018.10.04-19.54.25:379][  0]LogFileCache: Scanning file cache for directory 'D:/Users/tanne/Documents/GitHub/UE4Project/Project/Content/Developers/tanne/Collections/' took 0.01s
-[2018.10.04-19.54.25:379][  0]LogFileCache: Scanning file cache for directory 'D:/Users/tanne/Documents/GitHub/UE4Project/Project/Content/Collections/' took 0.01s
-[2018.10.04-19.54.25:379][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.10.04-19.54.25:388][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2572 classes and 603 folders.
-[2018.10.04-19.54.25:394][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.10.04-19.54.25:429][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.10.04-19.54.25:432][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2018.10.04-19.54.25:493][  0]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.10.04-19.54.25:498][  0]LogSlate: Took 0.000191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.10.04-19.54.25:545][  0]LogRenderer: Reallocating scene render targets to support 964x512 Format 26 NumSamples 1 (Frame:1).
-[2018.10.04-19.54.25:644][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.10.04-19.54.25:644][  0]LogLoad: (Engine Initialization) Total time: 10.42 seconds
-[2018.10.04-19.54.25:644][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.10.04-19.54.25:696][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.10.04-19.54.25:705][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.04-19.54.25:851][  3]LogAssetRegistry: Asset discovery search completed in 6.7177 seconds
-[2018.10.04-19.54.25:854][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.10.04-19.54.25:854][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000055 seconds (updated 0 objects)
-[2018.10.04-19.54.26:713][ 52]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.10.04-19.54.27:561][103]LogSlate: Window 'Message Log' being destroyed
-[2018.10.04-19.54.27:565][103]LogSlate: Window 'Message Log' being destroyed
-[2018.10.04-19.54.28:530][161]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.04-19.54.28:707][165]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Paralegal/Blueprints/Objectives/Objective_1.Objective_1
-[2018.10.04-19.54.28:990][165]LogClass: Warning: Enum '/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/FeedbackEffects/EFeedbackType.EFeedbackType' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
-[2018.10.04-19.54.28:991][165]LogClass: Warning: Enum '/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/FeedbackEffects/EFeedbackIntensity.EFeedbackIntensity' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
-[2018.10.04-19.54.29:201][165]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
-[2018.10.04-19.54.30:100][165]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Paralegal/Blueprints/Objectives/Objective_2.Objective_2
-[2018.10.04-19.54.30:543][165]LogBlueprint: Warning: [Compiler Criminology_Pawn] InputAction Event references unknown Action 'Action Button A' for  InputAction Action Button A
-[2018.10.04-19.54.30:554][165]LogBlueprint: Warning: [Compiler Criminology_Pawn] [0015.33] Compile of Criminology_Pawn successful, but with 1 Warning(s) [in 28 ms] (/Game/Classes/237_Criminology/Criminology_Pawn.Criminology_Pawn)
-[2018.10.04-19.54.30:618][165]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Criminology/Criminology_Pawn.Criminology_Pawn
-[2018.10.04-19.54.30:960][165]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.04-19.54.30:960][165]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Interfaces/BPI_WorldInteractive.uasset.
-[2018.10.04-19.54.30:960][165]LoadErrors: Error: /Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/Interfaces/BPI_WorldInteractive : Can't find file for asset. /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor
-[2018.10.04-19.54.30:961][165]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.04-19.54.30:961][165]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Interfaces/BPI_WorldInteractive.uasset.
-[2018.10.04-19.54.30:963][165]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.04-19.54.30:963][165]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.04-19.54.30:963][165]LoadErrors: Error: /Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor : Can't find file for asset. /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor
-[2018.10.04-19.54.30:964][165]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.04-19.54.30:964][165]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.04-19.54.30:964][165]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.04-19.54.30:964][165]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.04-19.54.30:965][165]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.04-19.54.30:965][165]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_0
-[2018.10.04-19.54.30:965][165]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.04-19.54.30:965][165]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.04-19.54.30:966][165]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.04-19.54.30:966][165]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.04-19.54.30:966][165]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_1
-[2018.10.04-19.54.30:966][165]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.04-19.54.30:966][165]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.04-19.54.30:966][165]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.04-19.54.30:966][165]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.04-19.54.30:967][165]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_2
-[2018.10.04-19.54.30:967][165]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.04-19.54.30:967][165]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.04-19.54.30:967][165]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.04-19.54.30:967][165]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.04-19.54.30:967][165]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_3
-[2018.10.04-19.54.30:967][165]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.04-19.54.30:967][165]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.04-19.54.30:968][165]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.04-19.54.30:968][165]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.04-19.54.30:968][165]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_4
-[2018.10.04-19.54.30:968][165]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.04-19.54.30:968][165]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.04-19.54.30:968][165]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.04-19.54.30:968][165]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.04-19.54.30:969][165]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_5
-[2018.10.04-19.54.30:969][165]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.04-19.54.30:969][165]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.04-19.54.30:969][165]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.04-19.54.30:969][165]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.04-19.54.30:969][165]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_6
-[2018.10.04-19.54.30:969][165]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.04-19.54.30:970][165]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.04-19.54.30:970][165]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.04-19.54.30:970][165]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.04-19.54.30:970][165]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_7
-[2018.10.04-19.54.30:970][165]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.04-19.54.30:970][165]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.04-19.54.30:971][165]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.04-19.54.30:971][165]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.04-19.54.30:971][165]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_9
-[2018.10.04-19.54.30:971][165]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.04-19.54.30:971][165]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.04-19.54.30:972][165]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.04-19.54.30:972][165]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.04-19.54.30:972][165]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_10
-[2018.10.04-19.54.30:972][165]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.04-19.54.30:972][165]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.04-19.54.30:972][165]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.04-19.54.30:973][165]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.04-19.54.30:973][165]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.04-19.54.30:973][165]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
-[2018.10.04-19.54.30:973][165]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
-[2018.10.04-19.54.30:997][165]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] Get Hand  is deprecated; please replace or remove it.
-[2018.10.04-19.54.30:997][165]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] Get Hand  is deprecated; Please use the Motion Source property instead of Hand
-[2018.10.04-19.54.31:008][165]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] [0015.78] Compile of BPC_WorldInteractor successful, but with 2 Warning(s) [in 19 ms] (/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor)
-[2018.10.04-19.54.31:177][165]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/InteractiveObjects/BP_InteractiveDoor.BP_InteractiveDoor
-[2018.10.04-19.54.31:793][165]LogBlueprint: Error: [Compiler ParalegalHUD] In use pin  Objective  no longer exists on node  Get . Please refresh node or break links to remove pin.
-[2018.10.04-19.54.31:800][165]LogBlueprint: Warning: [Compiler ParalegalHUD] [0016.57] Compile of ParalegalHUD failed. 1 Fatal Issue(s) 0 Warning(s) [in 26 ms] (/Game/Classes/237_Paralegal/Blueprints/HUDS/ParalegalHUD.ParalegalHUD)
-[2018.10.04-19.54.32:025][165]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Paralegal/Blueprints/Paralegal_Pawn.Paralegal_Pawn
-[2018.10.04-19.54.33:030][165]LogBlueprint: Warning: [Compiler MotionControllerPawn_ID] InputAction Event references unknown Action 'Action Button B' for  InputAction Action Button B
-[2018.10.04-19.54.33:096][165]LogBlueprint: Warning: [Compiler MotionControllerPawn_ID] [0017.87] Compile of MotionControllerPawn_ID successful, but with 1 Warning(s) [in 153 ms] (/Game/Classes/221_InteriorDesign/Blueprints/Player/MotionControllerPawn_ID.MotionControllerPawn_ID)
-[2018.10.04-19.54.34:864][165]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Classes/229_Accounting/Assets/Widgetts/BP_TextWidget.BP_TextWidget
-[2018.10.04-19.54.35:285][165]LogBlueprint: Warning: [Compiler MotionControllerPawn] Get Input Axis references unknown Axis 'MotionControllerThumbRight_X' for  Get MotionControllerThumbRight_X
-[2018.10.04-19.54.35:285][165]LogBlueprint: Warning: [Compiler MotionControllerPawn] Get Input Axis references unknown Axis 'MotionControllerThumbRight_Y' for  Get MotionControllerThumbRight_Y
-[2018.10.04-19.54.35:285][165]LogBlueprint: Warning: [Compiler MotionControllerPawn] Get Input Axis references unknown Axis 'MotionControllerThumbLeft_Y' for  Get MotionControllerThumbLeft_Y
-[2018.10.04-19.54.35:285][165]LogBlueprint: Warning: [Compiler MotionControllerPawn] Get Input Axis references unknown Axis 'MotionControllerThumbLeft_X' for  Get MotionControllerThumbLeft_X
-[2018.10.04-19.54.35:286][165]LogBlueprint: Warning: [Compiler MotionControllerPawn] InputAction Event references unknown Action 'TeleportRight' for  InputAction TeleportRight
-[2018.10.04-19.54.35:286][165]LogBlueprint: Warning: [Compiler MotionControllerPawn] InputAction Event references unknown Action 'TeleportLeft' for  InputAction TeleportLeft
-[2018.10.04-19.54.35:286][165]LogBlueprint: Warning: [Compiler MotionControllerPawn] InputAction Event references unknown Action 'GrabRight' for  InputAction GrabRight
-[2018.10.04-19.54.35:286][165]LogBlueprint: Warning: [Compiler MotionControllerPawn] InputAction Event references unknown Action 'GrabLeft' for  InputAction GrabLeft
-[2018.10.04-19.54.35:293][165]LogBlueprint: Warning: [Compiler MotionControllerPawn] [0020.06] Compile of MotionControllerPawn successful, but with 8 Warning(s) [in 17 ms] (/Game/DefaultVrContent/VirtualRealityBP/Blueprints/MotionControllerPawn.MotionControllerPawn)
-[2018.10.04-19.54.35:332][165]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/DefaultVrContent/VirtualRealityBP/Blueprints/MotionControllerPawn.MotionControllerPawn
-[2018.10.04-19.54.35:699][165]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/DefaultProject/MotionControllerPawn_Default.MotionControllerPawn_Default
-[2018.10.04-19.54.36:067][165]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Paralegal/Blueprints/GameMode/Paralegal_GameMode.Paralegal_GameMode
-[2018.10.04-19.54.36:507][165]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Paralegal/Blueprints/Objectives/Box_Objective.Box_Objective
-[2018.10.04-19.54.36:893][165]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Paralegal/Blueprints/Objectives/Objective_3.Objective_3
-[2018.10.04-19.54.37:283][165]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Paralegal/Blueprints/Objectives/Objective_4.Objective_4
-[2018.10.04-19.54.37:686][165]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Paralegal/Blueprints/Objectives/Objective_5.Objective_5
-[2018.10.04-19.54.38:074][165]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Paralegal/Blueprints/Objectives/Objective_6.Objective_6
-[2018.10.04-19.54.38:488][165]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Paralegal/Blueprints/Objectives/Objective_7.Objective_7
-[2018.10.04-19.54.38:886][165]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Paralegal/Blueprints/Objectives/Objective_8.Objective_8
-[2018.10.04-19.54.39:285][165]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Paralegal/Blueprints/Objectives/Objective_9.Objective_9
-[2018.10.04-19.54.39:700][165]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Paralegal/Blueprints/Objectives/Objective_10.Objective_10
-[2018.10.04-19.54.40:100][165]LogFileCache: Retrieving MD5 hashes for directory 'D:/Users/tanne/Documents/GitHub/UE4Project/Project/Content/' took 14.43s
-[2018.10.04-19.54.40:117][165]LogBlueprintUserMessages: [Criminology_Pawn_C_0] Detecting hit with Interactable Sphere part 1/3
-[2018.10.04-19.54.40:117][165]LogBlueprintUserMessages: [Criminology_Pawn_C_0] Detecting hit with Interactable Sphere part 1/3
-[2018.10.04-19.54.40:144][165]LogSlate: Took 0.000168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.10.04-19.54.40:216][166]LogSlate: Took 0.000243 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.10.04-19.54.47:440][591]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.10.04-19.54.47:859][612]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.10.04-19.54.48:723][660]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.10.04-19.54.49:896][724]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.10.04-19.54.51:177][794]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.10.04-19.54.51:848][830]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.10.04-19.54.52:783][882]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.10.04-19.54.56:617][108]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.10.04-19.55.03:892][533]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Paralegal/Blueprints/Objectives/Objective_1.Objective_1
-[2018.10.04-19.55.08:379][777]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Paralegal/Blueprints/Objectives/Objective_2.Objective_2
-[2018.10.04-19.57.18:028][366]LogAIModule: Creating AISystem for world ParalegalMap1
-[2018.10.04-19.57.18:260][366]LogAssetEditorManager: Opening Asset editor for World /Game/Classes/237_Paralegal/Maps/ParalegalMap1.ParalegalMap1
-[2018.10.04-19.57.18:355][366]Cmd: MAP LOAD FILE="../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Maps/ParalegalMap1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.10.04-19.57.18:355][366]LightingResults: New page: Lighting Build
-[2018.10.04-19.57.18:355][366]LoadErrors: New page: Loading map: ParalegalMap1.umap
-[2018.10.04-19.57.18:356][366]MapCheck: New page: Map Check
-[2018.10.04-19.57.18:356][366]LightingResults: New page: Lighting Build
-[2018.10.04-19.57.18:850][366]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.10.04-19.57.18:957][366]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.10.04-19.57.19:079][366]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 122.432ms to complete.
-[2018.10.04-19.57.19:079][366]LogFileHelpers: Loading map 'ParalegalMap1' took 0.726
-[2018.10.04-19.57.23:542][626]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Classes/237_Paralegal/Blueprints/Paralegal_Pawn.Paralegal_Pawn
-[2018.10.04-19.57.44:516][845]LogSavePackage: Moving '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Saved/Paralegal_Pawn496DD0A145DA4AD52C093EB0D83C7248.tmp' to '../../../../../../Users/tanne/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Blueprints/Paralegal_Pawn.uasset'
+[2018.10.04-20.00.25:657][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.04-20.00.25:657][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.04-20.00.25:674][  0]LogHAL: Display: Platform has ~ 16 GB [17046728704 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.10.04-20.00.25:674][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.10.04-20.00.25:674][  0]LogInit: Going up to parent DeviceProfile []
+[2018.10.04-20.00.25:674][  0]LogInit: Computer: DESKTOP-1DL1SQ4
+[2018.10.04-20.00.25:675][  0]LogInit: User: lynke
+[2018.10.04-20.00.25:675][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.10.04-20.00.25:675][  0]LogInit: High frequency timer resolution =2.742189 MHz
+[2018.10.04-20.00.25:675][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.10.04-20.00.25:675][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.04-20.00.25:675][  0]LogMemory: Process Physical Memory: 107.65 MB used, 107.65 MB peak
+[2018.10.04-20.00.25:675][  0]LogMemory: Process Virtual Memory: 108.91 MB used, 108.91 MB peak
+[2018.10.04-20.00.25:675][  0]LogMemory: Physical Memory: 6732.48 MB used,  9524.55 MB free, 16257.03 MB total
+[2018.10.04-20.00.25:675][  0]LogMemory: Virtual Memory: 4672.16 MB used,  9524.55 MB free, 134217728.00 MB total
+[2018.10.04-20.00.26:004][  0]LogInit: Using OS detected language (en-US).
+[2018.10.04-20.00.26:004][  0]LogInit: Using OS detected locale (en-CA).
+[2018.10.04-20.00.26:005][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.10.04-20.00.26:430][  0]LogStreaming: Display: Took  0.426s to InitEngineTextLocalization.
+[2018.10.04-20.00.26:430][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.04-20.00.26:470][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.04-20.00.26:470][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.04-20.00.26:827][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.04-20.00.26:885][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.10.04-20.00.26:885][  0]LogD3D11RHI:       8081/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.10.04-20.00.27:410][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.10.04-20.00.27:410][  0]LogD3D11RHI:       128/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.10.04-20.00.27:412][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.04-20.00.27:412][  0]LogD3D11RHI:       0/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.04-20.00.27:412][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.04-20.00.27:422][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.04-20.00.27:422][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
+[2018.10.04-20.00.27:422][  0]LogWindows: EnumDisplayDevices:
+[2018.10.04-20.00.27:423][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.10.04-20.00.27:423][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.10.04-20.00.27:423][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.10.04-20.00.27:423][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.10.04-20.00.27:424][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.10.04-20.00.27:424][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.10.04-20.00.27:424][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.10.04-20.00.27:424][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.10.04-20.00.27:424][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.10.04-20.00.27:424][  0]LogD3D11RHI:   Driver Version: 397.64 (internal:24.21.13.9764, unified:397.64)
+[2018.10.04-20.00.27:424][  0]LogD3D11RHI:      Driver Date: 5-7-2018
+[2018.10.04-20.00.27:424][  0]LogRHI: Texture pool is 5656 MB (70% of 8081 MB)
+[2018.10.04-20.00.27:468][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.04-20.00.27:555][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.10.04-20.00.27:602][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Intermediate/Shaders/WorkingDirectory/7340/).
+[2018.10.04-20.00.27:602][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/lynke/AppData/Local/Temp/UnrealShaderWorkingDir/25FC9C224055A674ADEC73B93080815F/'.
+[2018.10.04-20.00.28:053][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.04-20.00.28:066][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.04-20.00.28:080][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.04-20.00.28:094][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.04-20.00.28:110][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.04-20.00.28:126][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.04-20.00.28:143][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.04-20.00.28:158][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.04-20.00.28:165][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.04-20.00.28:255][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-20.00.28:255][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-20.00.28:255][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-20.00.28:255][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-20.00.28:255][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-20.00.28:255][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-20.00.28:255][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-20.00.28:255][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-20.00.28:255][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-20.00.28:255][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-20.00.28:255][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-20.00.28:255][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-20.00.28:255][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-20.00.28:255][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-20.00.28:255][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-20.00.28:256][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-20.00.28:256][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-20.00.28:256][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-20.00.28:257][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.04-20.00.28:324][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.04-20.00.28:324][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.04-20.00.28:352][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.04-20.00.28:352][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.04-20.00.28:367][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.04-20.00.28:382][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.04-20.00.28:398][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.04-20.00.28:418][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.04-20.00.28:428][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.10.04-20.00.28:428][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.04-20.00.28:501][  0]LogXGEController: Cleaning working directory: C:/Users/lynke/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.10.04-20.00.28:501][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.04-20.00.28:501][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.04-20.00.28:501][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.04-20.00.29:385][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.04-20.00.29:456][  0]LogDerivedDataCache: Loaded boot cache 0.07s 72MB C:/Users/lynke/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.04-20.00.29:456][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/lynke/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.10.04-20.00.29:456][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.04-20.00.29:456][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.04-20.00.29:456][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.04-20.00.29:456][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.04-20.00.29:472][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.04-20.00.29:484][  0]LogDerivedDataCache: Using Local data cache path C:/Users/lynke/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.04-20.00.29:484][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.04-20.00.29:484][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.04-20.00.29:505][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.04-20.00.29:507][  0]LogSlate: Using FreeType 2.6.0
+[2018.10.04-20.00.29:508][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.04-20.00.29:605][  0]LogAssetRegistry: FAssetRegistry took 0.0277 seconds to start up
+[2018.10.04-20.00.30:022][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.04-20.00.30:178][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.04-20.00.30:182][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.04-20.00.30:182][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.10.04-20.00.30:182][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.04-20.00.30:182][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.04-20.00.30:199][  0]LogNetVersion: VRTests 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4138015713)
+[2018.10.04-20.00.30:825][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.147151 seconds
+[2018.10.04-20.00.30:835][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.10.04-20.00.30:835][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.10.04-20.00.30:835][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.04-20.00.31:946][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.04-20.00.31:959][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.04-20.00.32:127][  0]SourceControl: Source control is disabled
+[2018.10.04-20.00.32:127][  0]SourceControl: Source control is disabled
+[2018.10.04-20.00.32:130][  0]SourceControl: Source control is disabled
+[2018.10.04-20.00.32:131][  0]SourceControl: Source control is disabled
+[2018.10.04-20.00.32:317][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.04-20.00.32:441][  0]LogOcInput: OculusInput pre-init called
+[2018.10.04-20.00.32:508][  0]LogEngine: Initializing Engine...
+[2018.10.04-20.00.32:508][  0]LogHMD: Oculus plugin initialized. Version: 4.20.2-4302132+++UE4+Release-4.20, OVRPlugin: 1.25.0
+[2018.10.04-20.00.32:510][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.04-20.00.32:511][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.04-20.00.32:511][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.04-20.00.32:511][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.04-20.00.32:762][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.10.04-20.00.32:779][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.04-20.00.32:806][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.10.04-20.00.32:883][  0]LogInit: FAudioDevice initialized.
+[2018.10.04-20.00.32:883][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.10.04-20.00.32:959][  0]LogDerivedDataCache: Saved boot cache 0.08s 72MB C:/Users/lynke/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.04-20.00.32:963][  0]LogInit: Texture streaming: Enabled
+[2018.10.04-20.00.32:978][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.04-20.00.32:996][  0]LogInit: Transaction tracking system initialized
+[2018.10.04-20.00.33:015][  0]BlueprintLog: New page: Editor Load
+[2018.10.04-20.00.33:088][  0]LocalizationService: Localization service is disabled
+[2018.10.04-20.00.33:380][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.04-20.00.33:380][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.04-20.00.33:380][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.04-20.00.33:380][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.04-20.00.33:380][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.04-20.00.33:381][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.04-20.00.33:381][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.04-20.00.33:506][  0]LogFileCache: Scanning file cache for directory 'D:/Users/lynke/Documents/GitHub/UE4Project/Project/Content/' took 0.05s
+[2018.10.04-20.00.33:506][  0]SourceControl: Source control is disabled
+[2018.10.04-20.00.33:507][  0]Cmd: MAP LOAD FILE="../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/DefaultProject/Map/DefaultMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.04-20.00.33:507][  0]LightingResults: New page: Lighting Build
+[2018.10.04-20.00.33:509][  0]MapCheck: New page: Map Check
+[2018.10.04-20.00.33:509][  0]LightingResults: New page: Lighting Build
+[2018.10.04-20.00.33:582][  0]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2018.10.04-20.00.33:582][  0]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualReality/Mannequin/Animations/RightHand_AnimBP.uasset.
+[2018.10.04-20.00.33:582][  0]LoadErrors: Error: /Game/DefaultVrContent/VirtualReality/Mannequin/Animations/RightHand_AnimBP : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/GripEnum
+[2018.10.04-20.00.33:583][  0]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2018.10.04-20.00.33:583][  0]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualReality/Mannequin/Animations/RightHand_AnimBP.uasset.
+[2018.10.04-20.00.33:584][  0]LoadErrors: Error: /Game/DefaultVrContent/VirtualReality/Mannequin/Animations/RightHand_AnimBP : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/GripEnum
+[2018.10.04-20.00.33:584][  0]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2018.10.04-20.00.33:584][  0]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum Referenced by GripState
+[2018.10.04-20.00.33:584][  0]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.uasset.
+[2018.10.04-20.00.33:584][  0]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum Referenced by GripState
+[2018.10.04-20.00.33:585][  0]LoadErrors: Error: /Game/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/GripEnum
+[2018.10.04-20.00.33:585][  0]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2018.10.04-20.00.33:585][  0]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.uasset.
+[2018.10.04-20.00.33:585][  0]LoadErrors: Error: /Game/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/GripEnum
+[2018.10.04-20.00.33:585][  0]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2018.10.04-20.00.33:585][  0]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.uasset.
+[2018.10.04-20.00.33:585][  0]LoadErrors: Error: /Game/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/GripEnum
+[2018.10.04-20.00.33:586][  0]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2018.10.04-20.00.33:586][  0]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum Referenced by RightHand_AnimBP
+[2018.10.04-20.00.33:586][  0]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.uasset.
+[2018.10.04-20.00.33:586][  0]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum Referenced by RightHand_AnimBP
+[2018.10.04-20.00.33:586][  0]LoadErrors: Error: /Game/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/GripEnum
+[2018.10.04-20.00.33:587][  0]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2018.10.04-20.00.33:587][  0]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum Referenced by K2Node_VariableGet_64
+[2018.10.04-20.00.33:587][  0]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController.uasset.
+[2018.10.04-20.00.33:587][  0]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum Referenced by K2Node_VariableGet_64
+[2018.10.04-20.00.33:587][  0]LoadErrors: Error: /Game/DefaultVrContent/VirtualRealityBP/Blueprints/BP_MotionController : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/GripEnum
+[2018.10.04-20.00.33:970][  0]LogAIModule: Creating AISystem for world DefaultMap
+[2018.10.04-20.00.33:975][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.04-20.00.34:003][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.04-20.00.34:083][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 79.625ms to complete.
+[2018.10.04-20.00.34:083][  0]LogFileHelpers: Loading map 'DefaultMap' took 0.577
+[2018.10.04-20.00.34:202][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.04-20.00.34:211][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.04-20.00.34:219][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.04-20.00.34:228][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.04-20.00.34:233][  0]LogCollectionManager: Loaded 0 collections in 0.001060 seconds
+[2018.10.04-20.00.34:276][  0]LogFileCache: Scanning file cache for directory 'D:/Users/lynke/Documents/GitHub/UE4Project/Project/Saved/Collections/' took 0.01s
+[2018.10.04-20.00.34:276][  0]LogFileCache: Scanning file cache for directory 'D:/Users/lynke/Documents/GitHub/UE4Project/Project/Content/Developers/lynke/Collections/' took 0.01s
+[2018.10.04-20.00.34:276][  0]LogFileCache: Scanning file cache for directory 'D:/Users/lynke/Documents/GitHub/UE4Project/Project/Content/Collections/' took 0.01s
+[2018.10.04-20.00.34:276][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.10.04-20.00.34:287][  0]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 2572 classes and 603 folders.
+[2018.10.04-20.00.34:292][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.04-20.00.34:366][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.04-20.00.34:373][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.10.04-20.00.34:452][  0]LogSlate: Took 0.000283 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.04-20.00.34:455][  0]LogSlate: Took 0.000282 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.04-20.00.34:462][  0]LogSlate: Took 0.000365 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.04-20.00.34:552][  0]LogRenderer: Reallocating scene render targets to support 1552x808 Format 26 NumSamples 1 (Frame:1).
+[2018.10.04-20.00.34:662][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.04-20.00.34:662][  0]LogLoad: (Engine Initialization) Total time: 11.56 seconds
+[2018.10.04-20.00.34:662][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.04-20.00.34:673][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.04-20.00.34:673][  0]LogOcInput: OculusInput is initialized
+[2018.10.04-20.00.34:707][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.04-20.00.34:712][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.04-20.00.34:887][  4]LogAssetRegistry: Asset discovery search completed in 5.3045 seconds
+[2018.10.04-20.00.34:889][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.10.04-20.00.34:889][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000079 seconds (updated 0 objects)
+[2018.10.04-20.00.35:714][ 96]LogSlate: Took 0.000261 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.04-20.00.38:061][367]LogSlate: Window 'Message Log' being destroyed
+[2018.10.04-20.00.38:064][367]LogSlate: Window 'Message Log' being destroyed
+[2018.10.04-20.00.39:757][569]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-20.00.39:781][572]LogFileCache: Retrieving MD5 hashes for directory 'D:/Users/lynke/Documents/GitHub/UE4Project/Project/Content/' took 5.09s
+[2018.10.04-20.00.40:054][586]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-20.00.40:054][586]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Interfaces/BPI_WorldInteractive.uasset.
+[2018.10.04-20.00.40:054][586]LoadErrors: Error: /Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/Interfaces/BPI_WorldInteractive : Can't find file for asset. /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor
+[2018.10.04-20.00.40:055][586]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-20.00.40:055][586]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Interfaces/BPI_WorldInteractive.uasset.
+[2018.10.04-20.00.40:057][586]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-20.00.40:058][586]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-20.00.40:058][586]LoadErrors: Error: /Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor : Can't find file for asset. /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor
+[2018.10.04-20.00.40:058][586]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-20.00.40:058][586]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-20.00.40:058][586]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-20.00.40:059][586]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-20.00.40:060][586]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-20.00.40:060][586]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_0
+[2018.10.04-20.00.40:060][586]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-20.00.40:060][586]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-20.00.40:060][586]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-20.00.40:061][586]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-20.00.40:061][586]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_1
+[2018.10.04-20.00.40:061][586]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-20.00.40:061][586]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-20.00.40:061][586]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-20.00.40:061][586]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-20.00.40:062][586]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_2
+[2018.10.04-20.00.40:062][586]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-20.00.40:062][586]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-20.00.40:062][586]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-20.00.40:062][586]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-20.00.40:062][586]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_3
+[2018.10.04-20.00.40:063][586]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-20.00.40:063][586]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-20.00.40:063][586]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-20.00.40:063][586]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-20.00.40:063][586]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_4
+[2018.10.04-20.00.40:063][586]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-20.00.40:064][586]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-20.00.40:064][586]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-20.00.40:064][586]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-20.00.40:064][586]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_5
+[2018.10.04-20.00.40:064][586]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-20.00.40:065][586]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-20.00.40:065][586]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-20.00.40:065][586]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-20.00.40:066][586]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_6
+[2018.10.04-20.00.40:066][586]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-20.00.40:066][586]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-20.00.40:066][586]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-20.00.40:067][586]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-20.00.40:067][586]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_7
+[2018.10.04-20.00.40:067][586]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-20.00.40:067][586]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-20.00.40:068][586]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-20.00.40:068][586]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-20.00.40:068][586]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_9
+[2018.10.04-20.00.40:068][586]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-20.00.40:069][586]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-20.00.40:069][586]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-20.00.40:069][586]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-20.00.40:069][586]LoadErrors: Failed to load /Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor_C Referenced by K2Node_FunctionEntry_10
+[2018.10.04-20.00.40:070][586]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-20.00.40:070][586]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-20.00.40:070][586]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-20.00.40:070][586]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-20.00.40:070][586]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-20.00.40:071][586]LogLinker: Warning: Can't find file '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor'
+[2018.10.04-20.00.40:071][586]LogLinker: Warning: Can't find file for asset '/Game/ExampleContent/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.uasset.
+[2018.10.04-20.00.40:097][586]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] Get Hand  is deprecated; please replace or remove it.
+[2018.10.04-20.00.40:100][586]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] Get Hand  is deprecated; Please use the Motion Source property instead of Hand
+[2018.10.04-20.00.40:111][586]LogBlueprint: Warning: [Compiler BPC_WorldInteractor] [0017.01] Compile of BPC_WorldInteractor successful, but with 2 Warning(s) [in 22 ms] (/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/Components/BPC_WorldInteractor.BPC_WorldInteractor)
+[2018.10.04-20.00.40:120][586]LogClass: Warning: Enum '/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/FeedbackEffects/EFeedbackType.EFeedbackType' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2018.10.04-20.00.40:120][586]LogClass: Warning: Enum '/Game/Classes/237_Criminology/VR_World_Interaction/Blueprints/FeedbackEffects/EFeedbackIntensity.EFeedbackIntensity' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2018.10.04-20.00.41:240][586]LogLinker: Warning: Can't find file '/Game/Classes/237_Paralegal/Maps/ParalegalMap1_BuiltData'
+[2018.10.04-20.00.41:240][586]LogLinker: Warning: Can't find file for asset '/Game/Classes/237_Paralegal/Maps/ParalegalMap1_BuiltData' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Maps/ParalegalMap1.umap.
+[2018.10.04-20.00.41:240][586]LoadErrors: Error: /Game/Classes/237_Paralegal/Maps/ParalegalMap1 : Can't find file for asset. /Game/Classes/237_Paralegal/Maps/ParalegalMap1_BuiltData
+[2018.10.04-20.00.41:277][586]LogLinker: Warning: Can't find file '/Game/Classes/237_Paralegal/Maps/ParalegalMap1_BuiltData'
+[2018.10.04-20.00.41:277][586]LogLinker: Warning: Can't find file for asset '/Game/Classes/237_Paralegal/Maps/ParalegalMap1_BuiltData' while loading ../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Maps/ParalegalMap1.umap.
+[2018.10.04-20.00.41:300][586]LogLinker: Warning: Can't find file '/Game/Classes/237_Paralegal/Maps/ParalegalMap1_BuiltData'
+[2018.10.04-20.00.41:300][586]LogLinker: Warning: Can't find file for asset '/Game/Classes/237_Paralegal/Maps/ParalegalMap1_BuiltData' while loading NULL.
+[2018.10.04-20.00.41:301][586]LogLinker: Warning: Can't find file '/Game/Classes/237_Paralegal/Maps/ParalegalMap1_BuiltData'
+[2018.10.04-20.00.41:301][586]LogLinker: Warning: Can't find file for asset '/Game/Classes/237_Paralegal/Maps/ParalegalMap1_BuiltData' while loading NULL.
+[2018.10.04-20.00.41:486][586]LogLinker: Warning: Can't find file '/Game/Classes/237_Paralegal/Maps/ParalegalMap1_BuiltData'
+[2018.10.04-20.00.41:486][586]LoadErrors: Failed to load /Game/Classes/237_Paralegal/Maps/ParalegalMap1_BuiltData.ParalegalMap1_BuiltData Referenced by PersistentLevel
+[2018.10.04-20.00.41:486][586]LogLinker: Warning: Can't find file for asset '/Game/Classes/237_Paralegal/Maps/ParalegalMap1_BuiltData' while loading NULL.
+[2018.10.04-20.00.42:690][586]LogAIModule: Creating AISystem for world ParalegalMap1
+[2018.10.04-20.00.42:911][586]LogAssetEditorManager: Opening Asset editor for World /Game/Classes/237_Paralegal/Maps/ParalegalMap1.ParalegalMap1
+[2018.10.04-20.00.42:953][586]Cmd: MAP LOAD FILE="../../../../../../Users/lynke/Documents/GitHub/UE4Project/Project/Content/Classes/237_Paralegal/Maps/ParalegalMap1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.04-20.00.42:954][586]LightingResults: New page: Lighting Build
+[2018.10.04-20.00.42:954][586]LoadErrors: New page: Loading map: ParalegalMap1.umap
+[2018.10.04-20.00.42:955][586]MapCheck: New page: Map Check
+[2018.10.04-20.00.42:955][586]LightingResults: New page: Lighting Build
+[2018.10.04-20.00.43:502][586]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.04-20.00.43:602][586]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.04-20.00.43:755][586]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 153.977ms to complete.
+[2018.10.04-20.00.43:755][586]LogFileHelpers: Loading map 'ParalegalMap1' took 0.802
+[2018.10.04-20.01.13:113][505]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.04-20.01.13:863][587]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Classes/237_Paralegal/Maps/ParalegalMap1.ParalegalMap1:PersistentLevel' has LevelScriptBlueprint '/Game/Classes/237_Paralegal/Maps/ParalegalMap1.ParalegalMap1:PersistentLevel.ParalegalMap1' with GeneratedClass '/Game/Classes/237_Paralegal/Maps/ParalegalMap1.ParalegalMap1_C' with ClassGeneratedBy '/Game/Classes/237_Paralegal/Maps/ParalegalMap1.ParalegalMap1:PersistentLevel.ParalegalMap1'
+[2018.10.04-20.01.13:863][587]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.04-20.01.13:863][587]LogHMD: Initializing OVRPlugin session
+[2018.10.04-20.01.14:035][587]PIE: New page: PIE session: ParalegalMap1 (Oct 4, 2018, 2:01:14 PM)
+[2018.10.04-20.01.14:038][587]LogPlayLevel: Creating play world package: /Game/Classes/237_Paralegal/Maps/UEDPIE_0_ParalegalMap1
+[2018.10.04-20.01.14:106][587]LogPlayLevel: PIE: StaticDuplicateObject took: (0.067219s)
+[2018.10.04-20.01.14:106][587]LogAIModule: Creating AISystem for world ParalegalMap1
+[2018.10.04-20.01.14:106][587]LogPlayLevel: PIE: World Init took: (0.000777s)
+[2018.10.04-20.01.14:107][587]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Classes/237_Paralegal/Maps/ParalegalMap1.ParalegalMap1 to /Game/Classes/237_Paralegal/Maps/UEDPIE_0_ParalegalMap1.ParalegalMap1 (0.068279s)
+[2018.10.04-20.01.14:154][587]LogInit: XAudio2 using 'Headphones (3- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.04-20.01.14:171][587]LogInit: FAudioDevice initialized.
+[2018.10.04-20.01.14:178][587]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.04-20.01.14:182][587]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.04-20.01.14:268][587]LogHMD: Allocating Oculus 2688 x 1584 rendertarget swapchain
+[2018.10.04-20.01.14:306][587]LogLoad: Game class is 'Paralegal_GameMode_C'
+[2018.10.04-20.01.14:344][587]LogWorld: Bringing World /Game/Classes/237_Paralegal/Maps/UEDPIE_0_ParalegalMap1.ParalegalMap1 up for play (max tick rate 0) at 2018.10.04-17.01.14
+[2018.10.04-20.01.14:348][587]LogWorld: Bringing up level for play took: 0.040886
+[2018.10.04-20.01.14:364][587]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2018.10.04-20.01.14:368][587]LogBlueprintUserMessages: [Paralegal_GameMode_C_0] 5
+[2018.10.04-20.01.14:368][587]LogBlueprintUserMessages: [Paralegal_GameMode_C_0] 2
+[2018.10.04-20.01.14:368][587]LogBlueprintUserMessages: [Paralegal_GameMode_C_0] 7
+[2018.10.04-20.01.14:368][587]LogBlueprintUserMessages: [Paralegal_GameMode_C_0] 8
+[2018.10.04-20.01.14:368][587]LogBlueprintUserMessages: [Paralegal_GameMode_C_0] 6
+[2018.10.04-20.01.14:377][587]PIE: Play in editor start time for /Game/Classes/237_Paralegal/Maps/UEDPIE_0_ParalegalMap1 0.365
+[2018.10.04-20.01.14:378][587]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Classes/237_Paralegal/Maps/ParalegalMap1.ParalegalMap1:PersistentLevel' has LevelScriptBlueprint '/Game/Classes/237_Paralegal/Maps/ParalegalMap1.ParalegalMap1:PersistentLevel.ParalegalMap1' with GeneratedClass '/Game/Classes/237_Paralegal/Maps/ParalegalMap1.ParalegalMap1_C' with ClassGeneratedBy '/Game/Classes/237_Paralegal/Maps/ParalegalMap1.ParalegalMap1:PersistentLevel.ParalegalMap1'
+[2018.10.04-20.01.14:379][587]LogEngine: Changing dynamic resolution state.
+[2018.10.04-20.01.14:390][587]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.10.04-20.01.14:390][587]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.10.04-20.01.14:390][587]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.10.04-20.01.14:390][587]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.10.04-20.01.14:394][587]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.10.04-20.01.14:396][587]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.10.04-20.01.14:405][587]LogRenderer: Reallocating scene render targets to support 2688x1584 Format 26 NumSamples 1 (Frame:1).
+[2018.10.04-20.01.14:405][587]LogHMD: Allocating Oculus 2688 x 1584 depth rendertarget swapchain
+[2018.10.04-20.01.15:110][603]Blueprint: Warning: DrawMaterialToRenderTarget: TextureRenderTarget must be non-null.
+[2018.10.04-20.01.15:110][603]Blueprint: Warning: DrawMaterialToRenderTarget: TextureRenderTarget must be non-null.
+[2018.10.04-20.01.23:926][807]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Classes/237_Paralegal/Maps/ParalegalMap1.ParalegalMap1:PersistentLevel' has LevelScriptBlueprint '/Game/Classes/237_Paralegal/Maps/ParalegalMap1.ParalegalMap1:PersistentLevel.ParalegalMap1' with GeneratedClass '/Game/Classes/237_Paralegal/Maps/ParalegalMap1.ParalegalMap1_C' with ClassGeneratedBy '/Game/Classes/237_Paralegal/Maps/ParalegalMap1.ParalegalMap1:PersistentLevel.ParalegalMap1'
+[2018.10.04-20.01.24:005][807]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.04-20.01.24:077][807]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.04-20.01.24:085][807]LogSlate: Window 'VRTests Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.04-20.01.24:087][807]Blueprint: Warning: DrawMaterialToRenderTarget: TextureRenderTarget must be non-null.
+[2018.10.04-20.01.24:087][807]Blueprint: Warning: DrawMaterialToRenderTarget: TextureRenderTarget must be non-null.
+[2018.10.04-20.01.24:124][807]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.04-20.01.24:125][807]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Classes/237_Paralegal/Maps/ParalegalMap1.ParalegalMap1:PersistentLevel' has LevelScriptBlueprint '/Game/Classes/237_Paralegal/Maps/ParalegalMap1.ParalegalMap1:PersistentLevel.ParalegalMap1' with GeneratedClass '/Game/Classes/237_Paralegal/Maps/ParalegalMap1.ParalegalMap1_C' with ClassGeneratedBy '/Game/Classes/237_Paralegal/Maps/ParalegalMap1.ParalegalMap1:PersistentLevel.ParalegalMap1'
+[2018.10.04-20.01.24:185][808]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2018.10.04-20.01.24:185][808]LogEngine: Changing dynamic resolution state.
+[2018.10.04-20.01.25:748][855]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.04-20.01.27:926][911]MapCheck: New page: Map Check
+[2018.10.04-20.01.27:939][911]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.04-20.01.27:951][911]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.10.04-20.01.27:951][911]MapCheck: New page: ParalegalMap1 - Oct 4, 2018, 2:01:27 PM
+[2018.10.04-20.01.27:956][911]MapCheck: Error: WorldSettings Maps need lighting rebuilt 
+[2018.10.04-20.01.27:958][911]MapCheck: Warning: CrimRoomMockup_Sprite_2 'CrimRoomMockup_Sprite' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2018.10.04-20.01.27:958][911]MapCheck: Warning: Computer_Chair_2 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:958][911]MapCheck: Warning: Computer_Chair_2 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:958][911]MapCheck: Warning: Computer_Chair_2 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:958][911]MapCheck: Warning: Computer_Chair_2 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:958][911]MapCheck: Warning: Computer_Chair_2 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:958][911]MapCheck: Warning: Computer_Chair_2 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:958][911]MapCheck: Warning: Computer_Chair_2 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:958][911]MapCheck: Warning: Computer_Chair_2 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:958][911]MapCheck: Warning: Computer_Chair_2 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:958][911]MapCheck: Warning: Computer_Chair_2 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:959][911]MapCheck: Warning: Computer_Chair_2 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:959][911]MapCheck: Warning: Computer_Chair_2 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:959][911]MapCheck: Warning: Computer_Chair_2 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:959][911]MapCheck: Warning: Computer_Chair_2 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:959][911]MapCheck: Warning: Computer_Chair_2 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:959][911]MapCheck: Warning: Computer_Chair_2 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:959][911]MapCheck: Warning: Computer_Chair_2 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:959][911]MapCheck: Warning: Computer_Chair_2 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:959][911]MapCheck: Warning: Computer_Chair_2 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:959][911]MapCheck: Warning: Computer_Chair_2 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:959][911]MapCheck: Warning: Computer_Chair_2 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:959][911]MapCheck: Warning: Computer_Chair_2 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:959][911]MapCheck: Warning: Computer_Chair_2 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:959][911]MapCheck: Warning: Computer_Chair_2 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:959][911]MapCheck: Warning: Computer_Chair_2 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:959][911]MapCheck: Warning: Computer_Chair_2 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:959][911]MapCheck: Warning: Computer_Chair_2 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:959][911]MapCheck: Warning: Computer_Chair_2 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:959][911]MapCheck: Warning: Computer_Chair_2 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:959][911]MapCheck: Warning: Computer_Chair_2 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:959][911]MapCheck: Warning: Computer_Chair_2 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:959][911]MapCheck: Warning: Computer_Chair_2 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:959][911]MapCheck: Warning: Computer_Chair_2 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:960][911]MapCheck: Warning: Computer_Chair_2 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:960][911]MapCheck: Warning: Computer_Chair_2 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:960][911]MapCheck: Warning: Computer_Chair2_5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:960][911]MapCheck: Warning: Computer_Chair2_5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:960][911]MapCheck: Warning: Computer_Chair2_5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:960][911]MapCheck: Warning: Computer_Chair2_5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:960][911]MapCheck: Warning: Computer_Chair2_5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:960][911]MapCheck: Warning: Computer_Chair2_5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:960][911]MapCheck: Warning: Computer_Chair2_5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:960][911]MapCheck: Warning: Computer_Chair2_5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:960][911]MapCheck: Warning: Computer_Chair2_5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:960][911]MapCheck: Warning: Computer_Chair2_5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:960][911]MapCheck: Warning: Computer_Chair2_5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:960][911]MapCheck: Warning: Computer_Chair2_5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:960][911]MapCheck: Warning: Computer_Chair2_5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:960][911]MapCheck: Warning: Computer_Chair2_5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:960][911]MapCheck: Warning: Computer_Chair2_5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:960][911]MapCheck: Warning: Computer_Chair2_5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:960][911]MapCheck: Warning: Computer_Chair2_5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:960][911]MapCheck: Warning: Computer_Chair2_5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:960][911]MapCheck: Warning: Computer_Chair2_5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:961][911]MapCheck: Warning: Computer_Chair2_5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:961][911]MapCheck: Warning: Computer_Chair2_5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:961][911]MapCheck: Warning: Computer_Chair2_5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:961][911]MapCheck: Warning: Computer_Chair2_5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:961][911]MapCheck: Warning: Computer_Chair2_5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:961][911]MapCheck: Warning: Computer_Chair2_5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:961][911]MapCheck: Warning: Computer_Chair2_5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:961][911]MapCheck: Warning: Computer_Chair2_5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:961][911]MapCheck: Warning: Computer_Chair2_5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:961][911]MapCheck: Warning: Computer_Chair2_5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:961][911]MapCheck: Warning: Computer_Chair2_5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:961][911]MapCheck: Warning: Computer_Chair2_5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:961][911]MapCheck: Warning: Computer_Chair2_5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:961][911]MapCheck: Warning: Computer_Chair2_5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:961][911]MapCheck: Warning: Computer_Chair2_5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:961][911]MapCheck: Warning: Computer_Chair2_5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:961][911]MapCheck: Warning: Computer_Chair3_8 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:961][911]MapCheck: Warning: Computer_Chair3_8 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:961][911]MapCheck: Warning: Computer_Chair3_8 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:961][911]MapCheck: Warning: Computer_Chair3_8 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:961][911]MapCheck: Warning: Computer_Chair3_8 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:962][911]MapCheck: Warning: Computer_Chair3_8 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:962][911]MapCheck: Warning: Computer_Chair3_8 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:962][911]MapCheck: Warning: Computer_Chair3_8 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:962][911]MapCheck: Warning: Computer_Chair3_8 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:962][911]MapCheck: Warning: Computer_Chair3_8 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:962][911]MapCheck: Warning: Computer_Chair3_8 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:962][911]MapCheck: Warning: Computer_Chair3_8 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:962][911]MapCheck: Warning: Computer_Chair3_8 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:962][911]MapCheck: Warning: Computer_Chair3_8 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:962][911]MapCheck: Warning: Computer_Chair3_8 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:962][911]MapCheck: Warning: Computer_Chair3_8 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:962][911]MapCheck: Warning: Computer_Chair3_8 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:962][911]MapCheck: Warning: Computer_Chair3_8 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:962][911]MapCheck: Warning: Computer_Chair3_8 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:962][911]MapCheck: Warning: Computer_Chair3_8 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:962][911]MapCheck: Warning: Computer_Chair3_8 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:962][911]MapCheck: Warning: Computer_Chair3_8 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:962][911]MapCheck: Warning: Computer_Chair3_8 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:962][911]MapCheck: Warning: Computer_Chair3_8 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:962][911]MapCheck: Warning: Computer_Chair3_8 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:962][911]MapCheck: Warning: Computer_Chair3_8 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:962][911]MapCheck: Warning: Computer_Chair3_8 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:963][911]MapCheck: Warning: Computer_Chair3_8 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:963][911]MapCheck: Warning: Computer_Chair3_8 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:963][911]MapCheck: Warning: Computer_Chair3_8 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:963][911]MapCheck: Warning: Computer_Chair3_8 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:963][911]MapCheck: Warning: Computer_Chair3_8 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:963][911]MapCheck: Warning: Computer_Chair3_8 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:963][911]MapCheck: Warning: Computer_Chair3_8 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:963][911]MapCheck: Warning: Computer_Chair3_8 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:963][911]MapCheck: Warning: Computer_Chair4 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:963][911]MapCheck: Warning: Computer_Chair4 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:963][911]MapCheck: Warning: Computer_Chair4 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:963][911]MapCheck: Warning: Computer_Chair4 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:963][911]MapCheck: Warning: Computer_Chair4 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:963][911]MapCheck: Warning: Computer_Chair4 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:963][911]MapCheck: Warning: Computer_Chair4 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:963][911]MapCheck: Warning: Computer_Chair4 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:963][911]MapCheck: Warning: Computer_Chair4 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:963][911]MapCheck: Warning: Computer_Chair4 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:963][911]MapCheck: Warning: Computer_Chair4 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:964][911]MapCheck: Warning: Computer_Chair4 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:964][911]MapCheck: Warning: Computer_Chair4 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:964][911]MapCheck: Warning: Computer_Chair4 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:964][911]MapCheck: Warning: Computer_Chair4 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:964][911]MapCheck: Warning: Computer_Chair4 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:964][911]MapCheck: Warning: Computer_Chair4 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:964][911]MapCheck: Warning: Computer_Chair4 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:964][911]MapCheck: Warning: Computer_Chair4 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:964][911]MapCheck: Warning: Computer_Chair4 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:964][911]MapCheck: Warning: Computer_Chair4 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:964][911]MapCheck: Warning: Computer_Chair4 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:964][911]MapCheck: Warning: Computer_Chair4 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:964][911]MapCheck: Warning: Computer_Chair4 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:964][911]MapCheck: Warning: Computer_Chair4 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:964][911]MapCheck: Warning: Computer_Chair4 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:964][911]MapCheck: Warning: Computer_Chair4 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:964][911]MapCheck: Warning: Computer_Chair4 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:964][911]MapCheck: Warning: Computer_Chair4 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:964][911]MapCheck: Warning: Computer_Chair4 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:964][911]MapCheck: Warning: Computer_Chair4 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:964][911]MapCheck: Warning: Computer_Chair4 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:965][911]MapCheck: Warning: Computer_Chair4 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:965][911]MapCheck: Warning: Computer_Chair4 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:965][911]MapCheck: Warning: Computer_Chair4 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:965][911]MapCheck: Warning: Computer_Chair5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:965][911]MapCheck: Warning: Computer_Chair5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:965][911]MapCheck: Warning: Computer_Chair5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:965][911]MapCheck: Warning: Computer_Chair5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:965][911]MapCheck: Warning: Computer_Chair5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:965][911]MapCheck: Warning: Computer_Chair5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:965][911]MapCheck: Warning: Computer_Chair5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:965][911]MapCheck: Warning: Computer_Chair5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:965][911]MapCheck: Warning: Computer_Chair5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:965][911]MapCheck: Warning: Computer_Chair5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:965][911]MapCheck: Warning: Computer_Chair5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:965][911]MapCheck: Warning: Computer_Chair5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:965][911]MapCheck: Warning: Computer_Chair5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:965][911]MapCheck: Warning: Computer_Chair5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:965][911]MapCheck: Warning: Computer_Chair5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:965][911]MapCheck: Warning: Computer_Chair5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:966][911]MapCheck: Warning: Computer_Chair5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:966][911]MapCheck: Warning: Computer_Chair5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:966][911]MapCheck: Warning: Computer_Chair5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:966][911]MapCheck: Warning: Computer_Chair5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:966][911]MapCheck: Warning: Computer_Chair5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:966][911]MapCheck: Warning: Computer_Chair5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:966][911]MapCheck: Warning: Computer_Chair5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:966][911]MapCheck: Warning: Computer_Chair5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:966][911]MapCheck: Warning: Computer_Chair5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:966][911]MapCheck: Warning: Computer_Chair5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:966][911]MapCheck: Warning: Computer_Chair5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:966][911]MapCheck: Warning: Computer_Chair5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:966][911]MapCheck: Warning: Computer_Chair5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:966][911]MapCheck: Warning: Computer_Chair5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:966][911]MapCheck: Warning: Computer_Chair5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:966][911]MapCheck: Warning: Computer_Chair5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:967][911]MapCheck: Warning: Computer_Chair5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:967][911]MapCheck: Warning: Computer_Chair5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:967][911]MapCheck: Warning: Computer_Chair5 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:967][911]MapCheck: Warning: Computer_Chair6 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:967][911]MapCheck: Warning: Computer_Chair6 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:967][911]MapCheck: Warning: Computer_Chair6 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:967][911]MapCheck: Warning: Computer_Chair6 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:967][911]MapCheck: Warning: Computer_Chair6 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:967][911]MapCheck: Warning: Computer_Chair6 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:967][911]MapCheck: Warning: Computer_Chair6 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:967][911]MapCheck: Warning: Computer_Chair6 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:967][911]MapCheck: Warning: Computer_Chair6 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:968][911]MapCheck: Warning: Computer_Chair6 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:968][911]MapCheck: Warning: Computer_Chair6 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:968][911]MapCheck: Warning: Computer_Chair6 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:968][911]MapCheck: Warning: Computer_Chair6 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:968][911]MapCheck: Warning: Computer_Chair6 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:968][911]MapCheck: Warning: Computer_Chair6 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:968][911]MapCheck: Warning: Computer_Chair6 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:968][911]MapCheck: Warning: Computer_Chair6 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:968][911]MapCheck: Warning: Computer_Chair6 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:968][911]MapCheck: Warning: Computer_Chair6 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:968][911]MapCheck: Warning: Computer_Chair6 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:968][911]MapCheck: Warning: Computer_Chair6 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:968][911]MapCheck: Warning: Computer_Chair6 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:968][911]MapCheck: Warning: Computer_Chair6 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:968][911]MapCheck: Warning: Computer_Chair6 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:969][911]MapCheck: Warning: Computer_Chair6 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:969][911]MapCheck: Warning: Computer_Chair6 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:969][911]MapCheck: Warning: Computer_Chair6 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:969][911]MapCheck: Warning: Computer_Chair6 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:969][911]MapCheck: Warning: Computer_Chair6 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:969][911]MapCheck: Warning: Computer_Chair6 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:969][911]MapCheck: Warning: Computer_Chair6 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:969][911]MapCheck: Warning: Computer_Chair6 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:969][911]MapCheck: Warning: Computer_Chair6 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:969][911]MapCheck: Warning: Computer_Chair6 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:969][911]MapCheck: Warning: Computer_Chair6 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:970][911]MapCheck: Warning: Computer_Chair7 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:970][911]MapCheck: Warning: Computer_Chair7 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:970][911]MapCheck: Warning: Computer_Chair7 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:970][911]MapCheck: Warning: Computer_Chair7 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:970][911]MapCheck: Warning: Computer_Chair7 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:970][911]MapCheck: Warning: Computer_Chair7 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:970][911]MapCheck: Warning: Computer_Chair7 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:970][911]MapCheck: Warning: Computer_Chair7 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:970][911]MapCheck: Warning: Computer_Chair7 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:970][911]MapCheck: Warning: Computer_Chair7 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:971][911]MapCheck: Warning: Computer_Chair7 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:971][911]MapCheck: Warning: Computer_Chair7 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:971][911]MapCheck: Warning: Computer_Chair7 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:971][911]MapCheck: Warning: Computer_Chair7 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:971][911]MapCheck: Warning: Computer_Chair7 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:971][911]MapCheck: Warning: Computer_Chair7 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:971][911]MapCheck: Warning: Computer_Chair7 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:971][911]MapCheck: Warning: Computer_Chair7 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:971][911]MapCheck: Warning: Computer_Chair7 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:971][911]MapCheck: Warning: Computer_Chair7 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:971][911]MapCheck: Warning: Computer_Chair7 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:971][911]MapCheck: Warning: Computer_Chair7 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:971][911]MapCheck: Warning: Computer_Chair7 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:971][911]MapCheck: Warning: Computer_Chair7 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:972][911]MapCheck: Warning: Computer_Chair7 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:972][911]MapCheck: Warning: Computer_Chair7 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:972][911]MapCheck: Warning: Computer_Chair7 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:972][911]MapCheck: Warning: Computer_Chair7 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:972][911]MapCheck: Warning: Computer_Chair7 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:972][911]MapCheck: Warning: Computer_Chair7 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:972][911]MapCheck: Warning: Computer_Chair7 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:972][911]MapCheck: Warning: Computer_Chair7 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:972][911]MapCheck: Warning: Computer_Chair7 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:972][911]MapCheck: Warning: Computer_Chair7 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:972][911]MapCheck: Warning: Computer_Chair7 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:972][911]MapCheck: Warning: Computer_Chair8_48 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:972][911]MapCheck: Warning: Computer_Chair8_48 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:972][911]MapCheck: Warning: Computer_Chair8_48 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:972][911]MapCheck: Warning: Computer_Chair8_48 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:972][911]MapCheck: Warning: Computer_Chair8_48 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:972][911]MapCheck: Warning: Computer_Chair8_48 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:972][911]MapCheck: Warning: Computer_Chair8_48 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:972][911]MapCheck: Warning: Computer_Chair8_48 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:972][911]MapCheck: Warning: Computer_Chair8_48 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:972][911]MapCheck: Warning: Computer_Chair8_48 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:973][911]MapCheck: Warning: Computer_Chair8_48 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:973][911]MapCheck: Warning: Computer_Chair8_48 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:973][911]MapCheck: Warning: Computer_Chair8_48 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:973][911]MapCheck: Warning: Computer_Chair8_48 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:973][911]MapCheck: Warning: Computer_Chair8_48 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:973][911]MapCheck: Warning: Computer_Chair8_48 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:973][911]MapCheck: Warning: Computer_Chair8_48 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:973][911]MapCheck: Warning: Computer_Chair8_48 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:973][911]MapCheck: Warning: Computer_Chair8_48 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:973][911]MapCheck: Warning: Computer_Chair8_48 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:973][911]MapCheck: Warning: Computer_Chair8_48 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:973][911]MapCheck: Warning: Computer_Chair8_48 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:973][911]MapCheck: Warning: Computer_Chair8_48 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:973][911]MapCheck: Warning: Computer_Chair8_48 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:973][911]MapCheck: Warning: Computer_Chair8_48 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:973][911]MapCheck: Warning: Computer_Chair8_48 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:973][911]MapCheck: Warning: Computer_Chair8_48 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:973][911]MapCheck: Warning: Computer_Chair8_48 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:973][911]MapCheck: Warning: Computer_Chair8_48 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:974][911]MapCheck: Warning: Computer_Chair8_48 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:974][911]MapCheck: Warning: Computer_Chair8_48 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:974][911]MapCheck: Warning: Computer_Chair8_48 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:974][911]MapCheck: Warning: Computer_Chair8_48 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:974][911]MapCheck: Warning: Computer_Chair8_48 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:974][911]MapCheck: Warning: Computer_Chair8_48 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:974][911]MapCheck: Warning: Computer_Chair9_50 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:974][911]MapCheck: Warning: Computer_Chair9_50 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:974][911]MapCheck: Warning: Computer_Chair9_50 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:974][911]MapCheck: Warning: Computer_Chair9_50 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:974][911]MapCheck: Warning: Computer_Chair9_50 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:974][911]MapCheck: Warning: Computer_Chair9_50 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:974][911]MapCheck: Warning: Computer_Chair9_50 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:974][911]MapCheck: Warning: Computer_Chair9_50 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:974][911]MapCheck: Warning: Computer_Chair9_50 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:974][911]MapCheck: Warning: Computer_Chair9_50 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:974][911]MapCheck: Warning: Computer_Chair9_50 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:974][911]MapCheck: Warning: Computer_Chair9_50 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:974][911]MapCheck: Warning: Computer_Chair9_50 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:974][911]MapCheck: Warning: Computer_Chair9_50 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:974][911]MapCheck: Warning: Computer_Chair9_50 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:975][911]MapCheck: Warning: Computer_Chair9_50 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:975][911]MapCheck: Warning: Computer_Chair9_50 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:975][911]MapCheck: Warning: Computer_Chair9_50 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:975][911]MapCheck: Warning: Computer_Chair9_50 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:975][911]MapCheck: Warning: Computer_Chair9_50 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:975][911]MapCheck: Warning: Computer_Chair9_50 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:975][911]MapCheck: Warning: Computer_Chair9_50 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:975][911]MapCheck: Warning: Computer_Chair9_50 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:975][911]MapCheck: Warning: Computer_Chair9_50 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:975][911]MapCheck: Warning: Computer_Chair9_50 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:975][911]MapCheck: Warning: Computer_Chair9_50 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:975][911]MapCheck: Warning: Computer_Chair9_50 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:975][911]MapCheck: Warning: Computer_Chair9_50 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:975][911]MapCheck: Warning: Computer_Chair9_50 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:975][911]MapCheck: Warning: Computer_Chair9_50 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:975][911]MapCheck: Warning: Computer_Chair9_50 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:975][911]MapCheck: Warning: Computer_Chair9_50 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:975][911]MapCheck: Warning: Computer_Chair9_50 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:975][911]MapCheck: Warning: Computer_Chair9_50 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:975][911]MapCheck: Warning: Computer_Chair9_50 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:975][911]MapCheck: Warning: Computer_Chair10_52 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:975][911]MapCheck: Warning: Computer_Chair10_52 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:976][911]MapCheck: Warning: Computer_Chair10_52 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:976][911]MapCheck: Warning: Computer_Chair10_52 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:976][911]MapCheck: Warning: Computer_Chair10_52 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:976][911]MapCheck: Warning: Computer_Chair10_52 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:976][911]MapCheck: Warning: Computer_Chair10_52 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:976][911]MapCheck: Warning: Computer_Chair10_52 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:976][911]MapCheck: Warning: Computer_Chair10_52 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:976][911]MapCheck: Warning: Computer_Chair10_52 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:976][911]MapCheck: Warning: Computer_Chair10_52 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:976][911]MapCheck: Warning: Computer_Chair10_52 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:976][911]MapCheck: Warning: Computer_Chair10_52 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:976][911]MapCheck: Warning: Computer_Chair10_52 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:976][911]MapCheck: Warning: Computer_Chair10_52 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:976][911]MapCheck: Warning: Computer_Chair10_52 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:976][911]MapCheck: Warning: Computer_Chair10_52 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:976][911]MapCheck: Warning: Computer_Chair10_52 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:977][911]MapCheck: Warning: Computer_Chair10_52 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:977][911]MapCheck: Warning: Computer_Chair10_52 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:977][911]MapCheck: Warning: Computer_Chair10_52 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:977][911]MapCheck: Warning: Computer_Chair10_52 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:977][911]MapCheck: Warning: Computer_Chair10_52 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:977][911]MapCheck: Warning: Computer_Chair10_52 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:977][911]MapCheck: Warning: Computer_Chair10_52 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:977][911]MapCheck: Warning: Computer_Chair10_52 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:977][911]MapCheck: Warning: Computer_Chair10_52 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:977][911]MapCheck: Warning: Computer_Chair10_52 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:977][911]MapCheck: Warning: Computer_Chair10_52 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:977][911]MapCheck: Warning: Computer_Chair10_52 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:977][911]MapCheck: Warning: Computer_Chair10_52 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:977][911]MapCheck: Warning: Computer_Chair10_52 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:977][911]MapCheck: Warning: Computer_Chair10_52 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:977][911]MapCheck: Warning: Computer_Chair10_52 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:977][911]MapCheck: Warning: Computer_Chair10_52 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:977][911]MapCheck: Warning: Computer_Chair11_54 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:977][911]MapCheck: Warning: Computer_Chair11_54 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:977][911]MapCheck: Warning: Computer_Chair11_54 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:978][911]MapCheck: Warning: Computer_Chair11_54 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:978][911]MapCheck: Warning: Computer_Chair11_54 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:978][911]MapCheck: Warning: Computer_Chair11_54 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:978][911]MapCheck: Warning: Computer_Chair11_54 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:978][911]MapCheck: Warning: Computer_Chair11_54 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:978][911]MapCheck: Warning: Computer_Chair11_54 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:978][911]MapCheck: Warning: Computer_Chair11_54 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:978][911]MapCheck: Warning: Computer_Chair11_54 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:978][911]MapCheck: Warning: Computer_Chair11_54 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:978][911]MapCheck: Warning: Computer_Chair11_54 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:979][911]MapCheck: Warning: Computer_Chair11_54 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:979][911]MapCheck: Warning: Computer_Chair11_54 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:979][911]MapCheck: Warning: Computer_Chair11_54 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:979][911]MapCheck: Warning: Computer_Chair11_54 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:979][911]MapCheck: Warning: Computer_Chair11_54 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:979][911]MapCheck: Warning: Computer_Chair11_54 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:979][911]MapCheck: Warning: Computer_Chair11_54 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:979][911]MapCheck: Warning: Computer_Chair11_54 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:979][911]MapCheck: Warning: Computer_Chair11_54 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:979][911]MapCheck: Warning: Computer_Chair11_54 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:979][911]MapCheck: Warning: Computer_Chair11_54 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:979][911]MapCheck: Warning: Computer_Chair11_54 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:979][911]MapCheck: Warning: Computer_Chair11_54 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:979][911]MapCheck: Warning: Computer_Chair11_54 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:980][911]MapCheck: Warning: Computer_Chair11_54 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:980][911]MapCheck: Warning: Computer_Chair11_54 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:980][911]MapCheck: Warning: Computer_Chair11_54 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:980][911]MapCheck: Warning: Computer_Chair11_54 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:980][911]MapCheck: Warning: Computer_Chair11_54 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:980][911]MapCheck: Warning: Computer_Chair11_54 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:980][911]MapCheck: Warning: Computer_Chair11_54 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:980][911]MapCheck: Warning: Computer_Chair11_54 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:980][911]MapCheck: Warning: Computer_Chair12_56 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:981][911]MapCheck: Warning: Computer_Chair12_56 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:981][911]MapCheck: Warning: Computer_Chair12_56 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:981][911]MapCheck: Warning: Computer_Chair12_56 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:981][911]MapCheck: Warning: Computer_Chair12_56 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:981][911]MapCheck: Warning: Computer_Chair12_56 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:981][911]MapCheck: Warning: Computer_Chair12_56 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:981][911]MapCheck: Warning: Computer_Chair12_56 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:981][911]MapCheck: Warning: Computer_Chair12_56 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:981][911]MapCheck: Warning: Computer_Chair12_56 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:981][911]MapCheck: Warning: Computer_Chair12_56 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:981][911]MapCheck: Warning: Computer_Chair12_56 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:981][911]MapCheck: Warning: Computer_Chair12_56 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:981][911]MapCheck: Warning: Computer_Chair12_56 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:981][911]MapCheck: Warning: Computer_Chair12_56 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:982][911]MapCheck: Warning: Computer_Chair12_56 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:982][911]MapCheck: Warning: Computer_Chair12_56 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:982][911]MapCheck: Warning: Computer_Chair12_56 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:982][911]MapCheck: Warning: Computer_Chair12_56 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:982][911]MapCheck: Warning: Computer_Chair12_56 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:982][911]MapCheck: Warning: Computer_Chair12_56 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:982][911]MapCheck: Warning: Computer_Chair12_56 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:982][911]MapCheck: Warning: Computer_Chair12_56 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:982][911]MapCheck: Warning: Computer_Chair12_56 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:982][911]MapCheck: Warning: Computer_Chair12_56 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:982][911]MapCheck: Warning: Computer_Chair12_56 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:982][911]MapCheck: Warning: Computer_Chair12_56 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:982][911]MapCheck: Warning: Computer_Chair12_56 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:982][911]MapCheck: Warning: Computer_Chair12_56 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:982][911]MapCheck: Warning: Computer_Chair12_56 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:983][911]MapCheck: Warning: Computer_Chair12_56 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:983][911]MapCheck: Warning: Computer_Chair12_56 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:983][911]MapCheck: Warning: Computer_Chair12_56 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:983][911]MapCheck: Warning: Computer_Chair12_56 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:983][911]MapCheck: Warning: Computer_Chair12_56 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:983][911]MapCheck: Warning: Computer_Chair13 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:983][911]MapCheck: Warning: Computer_Chair13 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:983][911]MapCheck: Warning: Computer_Chair13 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:983][911]MapCheck: Warning: Computer_Chair13 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:983][911]MapCheck: Warning: Computer_Chair13 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:983][911]MapCheck: Warning: Computer_Chair13 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:983][911]MapCheck: Warning: Computer_Chair13 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:983][911]MapCheck: Warning: Computer_Chair13 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:983][911]MapCheck: Warning: Computer_Chair13 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:983][911]MapCheck: Warning: Computer_Chair13 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:983][911]MapCheck: Warning: Computer_Chair13 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:983][911]MapCheck: Warning: Computer_Chair13 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:983][911]MapCheck: Warning: Computer_Chair13 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:983][911]MapCheck: Warning: Computer_Chair13 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:984][911]MapCheck: Warning: Computer_Chair13 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:984][911]MapCheck: Warning: Computer_Chair13 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:984][911]MapCheck: Warning: Computer_Chair13 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:984][911]MapCheck: Warning: Computer_Chair13 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:984][911]MapCheck: Warning: Computer_Chair13 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:984][911]MapCheck: Warning: Computer_Chair13 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:984][911]MapCheck: Warning: Computer_Chair13 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:984][911]MapCheck: Warning: Computer_Chair13 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:984][911]MapCheck: Warning: Computer_Chair13 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:984][911]MapCheck: Warning: Computer_Chair13 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:984][911]MapCheck: Warning: Computer_Chair13 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:984][911]MapCheck: Warning: Computer_Chair13 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:984][911]MapCheck: Warning: Computer_Chair13 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:984][911]MapCheck: Warning: Computer_Chair13 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:984][911]MapCheck: Warning: Computer_Chair13 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:984][911]MapCheck: Warning: Computer_Chair13 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:984][911]MapCheck: Warning: Computer_Chair13 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:985][911]MapCheck: Warning: Computer_Chair13 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:985][911]MapCheck: Warning: Computer_Chair13 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:985][911]MapCheck: Warning: Computer_Chair13 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:985][911]MapCheck: Warning: Computer_Chair13 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:985][911]MapCheck: Warning: Computer_Chair14 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:985][911]MapCheck: Warning: Computer_Chair14 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:985][911]MapCheck: Warning: Computer_Chair14 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:985][911]MapCheck: Warning: Computer_Chair14 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:985][911]MapCheck: Warning: Computer_Chair14 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:985][911]MapCheck: Warning: Computer_Chair14 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:985][911]MapCheck: Warning: Computer_Chair14 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:985][911]MapCheck: Warning: Computer_Chair14 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:985][911]MapCheck: Warning: Computer_Chair14 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:985][911]MapCheck: Warning: Computer_Chair14 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:985][911]MapCheck: Warning: Computer_Chair14 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:986][911]MapCheck: Warning: Computer_Chair14 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:986][911]MapCheck: Warning: Computer_Chair14 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:986][911]MapCheck: Warning: Computer_Chair14 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:986][911]MapCheck: Warning: Computer_Chair14 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:986][911]MapCheck: Warning: Computer_Chair14 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:986][911]MapCheck: Warning: Computer_Chair14 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:986][911]MapCheck: Warning: Computer_Chair14 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:986][911]MapCheck: Warning: Computer_Chair14 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:986][911]MapCheck: Warning: Computer_Chair14 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:986][911]MapCheck: Warning: Computer_Chair14 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:986][911]MapCheck: Warning: Computer_Chair14 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:986][911]MapCheck: Warning: Computer_Chair14 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:987][911]MapCheck: Warning: Computer_Chair14 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:987][911]MapCheck: Warning: Computer_Chair14 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:987][911]MapCheck: Warning: Computer_Chair14 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:987][911]MapCheck: Warning: Computer_Chair14 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:987][911]MapCheck: Warning: Computer_Chair14 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:987][911]MapCheck: Warning: Computer_Chair14 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:987][911]MapCheck: Warning: Computer_Chair14 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:987][911]MapCheck: Warning: Computer_Chair14 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:987][911]MapCheck: Warning: Computer_Chair14 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:987][911]MapCheck: Warning: Computer_Chair14 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:987][911]MapCheck: Warning: Computer_Chair14 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:987][911]MapCheck: Warning: Computer_Chair14 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:991][911]MapCheck: Warning: Objective1 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:991][911]MapCheck: Warning: Objective1 Static mesh actor Objective1 has NULL StaticMesh property 
+[2018.10.04-20.01.27:991][911]MapCheck: Warning: Objective10_2 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:991][911]MapCheck: Warning: Objective10_2 Static mesh actor Objective10_2 has NULL StaticMesh property 
+[2018.10.04-20.01.27:991][911]MapCheck: Warning: Objective9_2 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:991][911]MapCheck: Warning: Objective9_2 Static mesh actor Objective9_2 has NULL StaticMesh property 
+[2018.10.04-20.01.27:991][911]MapCheck: Warning: TestBox3_3 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:991][911]MapCheck: Warning: TestBox3_3 Static mesh actor TestBox3_3 has NULL StaticMesh property 
+[2018.10.04-20.01.27:991][911]MapCheck: Warning: TestBox4_3 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:992][911]MapCheck: Warning: TestBox4_3 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:992][911]MapCheck: Warning: TestBox4_3 Static mesh actor TestBox4_3 has NULL StaticMesh property 
+[2018.10.04-20.01.27:992][911]MapCheck: Warning: TestBox5_3 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:992][911]MapCheck: Warning: TestBox5_3 Static mesh actor TestBox5_3 has NULL StaticMesh property 
+[2018.10.04-20.01.27:992][911]MapCheck: Warning: Objective6_2 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:992][911]MapCheck: Warning: Objective6_2 Static mesh actor Objective6_2 has NULL StaticMesh property 
+[2018.10.04-20.01.27:992][911]MapCheck: Warning: Objective7_2 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:992][911]MapCheck: Warning: Objective7_2 Static mesh actor Objective7_2 has NULL StaticMesh property 
+[2018.10.04-20.01.27:992][911]MapCheck: Warning: Objective8_2 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:992][911]MapCheck: Warning: Objective8_2 Static mesh actor Objective8_2 has NULL StaticMesh property 
+[2018.10.04-20.01.27:992][911]MapCheck: Warning: Objective_8 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:993][911]MapCheck: Warning: Objective_8 Static mesh actor Objective_8 has NULL StaticMesh property 
+[2018.10.04-20.01.27:993][911]MapCheck: Warning: Computer_Chair15 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:993][911]MapCheck: Warning: Computer_Chair15 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:993][911]MapCheck: Warning: Computer_Chair15 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:993][911]MapCheck: Warning: Computer_Chair15 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:993][911]MapCheck: Warning: Computer_Chair15 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:993][911]MapCheck: Warning: Computer_Chair15 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:993][911]MapCheck: Warning: Computer_Chair15 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:993][911]MapCheck: Warning: Computer_Chair15 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:993][911]MapCheck: Warning: Computer_Chair15 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:993][911]MapCheck: Warning: Computer_Chair15 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:993][911]MapCheck: Warning: Computer_Chair15 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:993][911]MapCheck: Warning: Computer_Chair15 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:993][911]MapCheck: Warning: Computer_Chair15 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:993][911]MapCheck: Warning: Computer_Chair15 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:994][911]MapCheck: Warning: Computer_Chair15 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:994][911]MapCheck: Warning: Computer_Chair15 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:994][911]MapCheck: Warning: Computer_Chair15 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:994][911]MapCheck: Warning: Computer_Chair15 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:994][911]MapCheck: Warning: Computer_Chair15 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:994][911]MapCheck: Warning: Computer_Chair15 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:994][911]MapCheck: Warning: Computer_Chair15 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:994][911]MapCheck: Warning: Computer_Chair15 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:994][911]MapCheck: Warning: Computer_Chair15 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:994][911]MapCheck: Warning: Computer_Chair15 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:994][911]MapCheck: Warning: Computer_Chair15 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:994][911]MapCheck: Warning: Computer_Chair15 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:994][911]MapCheck: Warning: Computer_Chair15 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:994][911]MapCheck: Warning: Computer_Chair15 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:994][911]MapCheck: Warning: Computer_Chair15 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:994][911]MapCheck: Warning: Computer_Chair15 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:994][911]MapCheck: Warning: Computer_Chair15 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:994][911]MapCheck: Warning: Computer_Chair15 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:995][911]MapCheck: Warning: Computer_Chair15 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:995][911]MapCheck: Warning: Computer_Chair15 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.27:995][911]MapCheck: Warning: Computer_Chair15 Static mesh actor has NULL StaticMesh property 
+[2018.10.04-20.01.28:174][911]MapCheck: Map check complete: 1 Error(s), 547 Warning(s), took 222.787ms to complete.
+[2018.10.04-20.01.28:198][911]LogEditorBuildUtils: Build time 0:00
+[2018.10.04-20.01.28:213][911]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.04-20.01.29:966][954]LogTemp: Repeating last play command: VR Preview
+[2018.10.04-20.01.30:005][954]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Classes/237_Paralegal/Maps/ParalegalMap1.ParalegalMap1:PersistentLevel' has LevelScriptBlueprint '/Game/Classes/237_Paralegal/Maps/ParalegalMap1.ParalegalMap1:PersistentLevel.ParalegalMap1' with GeneratedClass '/Game/Classes/237_Paralegal/Maps/ParalegalMap1.ParalegalMap1_C' with ClassGeneratedBy '/Game/Classes/237_Paralegal/Maps/ParalegalMap1.ParalegalMap1:PersistentLevel.ParalegalMap1'
+[2018.10.04-20.01.30:005][954]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.04-20.01.30:005][954]LogHMD: Initializing OVRPlugin session
+[2018.10.04-20.01.30:097][954]PIE: New page: PIE session: ParalegalMap1 (Oct 4, 2018, 2:01:30 PM)
+[2018.10.04-20.01.30:098][954]LogPlayLevel: Creating play world package: /Game/Classes/237_Paralegal/Maps/UEDPIE_0_ParalegalMap1
+[2018.10.04-20.01.30:167][954]LogPlayLevel: PIE: StaticDuplicateObject took: (0.069376s)
+[2018.10.04-20.01.30:168][954]LogAIModule: Creating AISystem for world ParalegalMap1
+[2018.10.04-20.01.30:168][954]LogPlayLevel: PIE: World Init took: (0.000780s)
+[2018.10.04-20.01.30:168][954]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Classes/237_Paralegal/Maps/ParalegalMap1.ParalegalMap1 to /Game/Classes/237_Paralegal/Maps/UEDPIE_0_ParalegalMap1.ParalegalMap1 (0.070386s)
+[2018.10.04-20.01.30:216][954]LogInit: XAudio2 using 'Headphones (3- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.04-20.01.30:232][954]LogInit: FAudioDevice initialized.
+[2018.10.04-20.01.30:243][954]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.04-20.01.30:326][954]LogHMD: Allocating Oculus 2688 x 1584 rendertarget swapchain
+[2018.10.04-20.01.30:354][954]LogLoad: Game class is 'Paralegal_GameMode_C'
+[2018.10.04-20.01.30:396][954]LogWorld: Bringing World /Game/Classes/237_Paralegal/Maps/UEDPIE_0_ParalegalMap1.ParalegalMap1 up for play (max tick rate 0) at 2018.10.04-17.01.30
+[2018.10.04-20.01.30:400][954]LogWorld: Bringing up level for play took: 0.044771
+[2018.10.04-20.01.30:416][954]LogBlueprintUserMessages: [Paralegal_GameMode_C_0] 1
+[2018.10.04-20.01.30:416][954]LogBlueprintUserMessages: [Paralegal_GameMode_C_0] 4
+[2018.10.04-20.01.30:416][954]LogBlueprintUserMessages: [Paralegal_GameMode_C_0] 3
+[2018.10.04-20.01.30:416][954]LogBlueprintUserMessages: [Paralegal_GameMode_C_0] 6
+[2018.10.04-20.01.30:416][954]LogBlueprintUserMessages: [Paralegal_GameMode_C_0] 8
+[2018.10.04-20.01.30:424][954]PIE: Play in editor start time for /Game/Classes/237_Paralegal/Maps/UEDPIE_0_ParalegalMap1 0.412
+[2018.10.04-20.01.30:425][954]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Classes/237_Paralegal/Maps/ParalegalMap1.ParalegalMap1:PersistentLevel' has LevelScriptBlueprint '/Game/Classes/237_Paralegal/Maps/ParalegalMap1.ParalegalMap1:PersistentLevel.ParalegalMap1' with GeneratedClass '/Game/Classes/237_Paralegal/Maps/ParalegalMap1.ParalegalMap1_C' with ClassGeneratedBy '/Game/Classes/237_Paralegal/Maps/ParalegalMap1.ParalegalMap1:PersistentLevel.ParalegalMap1'
+[2018.10.04-20.01.30:426][954]LogEngine: Changing dynamic resolution state.
+[2018.10.04-20.01.30:437][954]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.10.04-20.01.30:437][954]LogHMD: Allocating Oculus 2688 x 1584 depth rendertarget swapchain
+[2018.10.04-20.01.31:073][967]Blueprint: Warning: DrawMaterialToRenderTarget: TextureRenderTarget must be non-null.
+[2018.10.04-20.01.31:073][967]Blueprint: Warning: DrawMaterialToRenderTarget: TextureRenderTarget must be non-null.
+[2018.10.04-20.01.50:172][517]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Classes/237_Paralegal/Maps/ParalegalMap1.ParalegalMap1:PersistentLevel' has LevelScriptBlueprint '/Game/Classes/237_Paralegal/Maps/ParalegalMap1.ParalegalMap1:PersistentLevel.ParalegalMap1' with GeneratedClass '/Game/Classes/237_Paralegal/Maps/ParalegalMap1.ParalegalMap1_C' with ClassGeneratedBy '/Game/Classes/237_Paralegal/Maps/ParalegalMap1.ParalegalMap1:PersistentLevel.ParalegalMap1'
+[2018.10.04-20.01.50:248][517]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.04-20.01.50:302][517]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.04-20.01.50:313][517]LogSlate: Window 'VRTests Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.04-20.01.50:316][517]Blueprint: Warning: DrawMaterialToRenderTarget: TextureRenderTarget must be non-null.
+[2018.10.04-20.01.50:316][517]Blueprint: Warning: DrawMaterialToRenderTarget: TextureRenderTarget must be non-null.
+[2018.10.04-20.01.50:355][517]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.04-20.01.50:355][517]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Classes/237_Paralegal/Maps/ParalegalMap1.ParalegalMap1:PersistentLevel' has LevelScriptBlueprint '/Game/Classes/237_Paralegal/Maps/ParalegalMap1.ParalegalMap1:PersistentLevel.ParalegalMap1' with GeneratedClass '/Game/Classes/237_Paralegal/Maps/ParalegalMap1.ParalegalMap1_C' with ClassGeneratedBy '/Game/Classes/237_Paralegal/Maps/ParalegalMap1.ParalegalMap1:PersistentLevel.ParalegalMap1'
+[2018.10.04-20.01.50:418][518]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2018.10.04-20.01.50:419][518]LogEngine: Changing dynamic resolution state.
+[2018.10.04-20.04.06:326][511]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.04-20.04.06:405][514]LogSlate: Window 'Message Log' being destroyed
+[2018.10.04-20.04.06:438][514]LogSlate: Window 'Message Log' being destroyed
+[2018.10.04-20.04.21:998][599]LogSlate: FSceneViewport::OnFocusLost() reason 2
